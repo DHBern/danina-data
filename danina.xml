@@ -1,44 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title type="main">Transkript Stand 12-2024</title>
-			</titleStmt>
-			<publicationStmt>
-				<publisher>tranScriptorium</publisher>
-			</publicationStmt>
-			<sourceDesc>
-				<bibl><publisher>TRP document creator: eva.maurer@unibe.ch</publisher></bibl>
-			</sourceDesc>
-		</fileDesc>
-	</teiHeader>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="facs/facs_40.xml"><xi:fallback/></xi:include>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="facs/facs_41.xml"><xi:fallback/></xi:include>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="facs/facs_42.xml"><xi:fallback/></xi:include>
-	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="facs/facs_43.xml"><xi:fallback/></xi:include>
-	<text>
-		<body>
-			<div>
-				<pb facs="#facs_40" n="40"/>
-				<p facs="#facs_40_r" xml:lang="ru" xml:id="p0001-ru">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Transkript Stand 12-2024</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>tranScriptorium</publisher>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <publisher>TRP document creator: eva.maurer@unibe.ch</publisher>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="facs/facs_40.xml">
+      <xi:fallback/>
+   </xi:include>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="facs/facs_41.xml">
+      <xi:fallback/>
+   </xi:include>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="facs/facs_42.xml">
+      <xi:fallback/>
+   </xi:include>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="facs/facs_43.xml">
+      <xi:fallback/>
+   </xi:include>
+   <text>
+      <body>
+         <div>
+            <pb facs="#facs_40" n="40"/>
+            <p facs="#facs_40_r" xml:lang="ru" xml:id="p0001-ru">
+               <milestone unit="line" facs="#facs_40_l" n="N001"/>39
+				</p>
+            <p facs="#facs_40_r" xml:lang="de" corresp="#p0001-ru">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_40_l" n="N001"/>39
-				</p> 
-        <p facs="#facs_40_r" xml:lang="de" corresp="#p0001-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_40_l" n="N001"/>39
 				</p>
-				<p facs="#facs_40_r_2" xml:lang="ru" xml:id="p0002-ru">
-					<milestone unit="line" facs="#facs_40_l_32" n="N001"/><hi rend="strikethrough:true;">[72</hi>]
-				</p> 
-        <p facs="#facs_40_r_2" xml:lang="de" corresp="#p0002-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_40_l_32" n="N001"/><hi rend="strikethrough:true;">[72</hi>]
+            <p facs="#facs_40_r_2" xml:lang="ru" xml:id="p0002-ru">
+               <milestone unit="line" facs="#facs_40_l_32" n="N001"/>
+               <hi rend="strikethrough:true;">[72</hi>]
 				</p>
-				<p facs="#facs_40_r_1" xml:lang="ru" xml:id="p0003-ru">
+            <p facs="#facs_40_r_2" xml:lang="de" corresp="#p0002-ru">{TRANSLATION GOES HERE}
+					<milestone unit="line" facs="#facs_40_l_32" n="N001"/>
+               <hi rend="strikethrough:true;">[72</hi>]
+				</p>
+            <p facs="#facs_40_r_1" xml:lang="ru" xml:id="p0003-ru">
+               <milestone unit="line" facs="#facs_40_l_1" n="N001"/>— «<persName ref="#p0001">Ольга</persName>! <persName ref="#p0001">Ольга</persName>!»
+				</p>
+            <p facs="#facs_40_r_1" xml:lang="de" corresp="#p0003-ru">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_40_l_1" n="N001"/>— «<persName ref="#p0001">Ольга</persName>! <persName ref="#p0001">Ольга</persName>!»
-				</p> 
-        <p facs="#facs_40_r_1" xml:lang="de" corresp="#p0003-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_40_l_1" n="N001"/>— «<persName ref="#p0001">Ольга</persName>! <persName ref="#p0001">Ольга</persName>!»
 				</p>
-				<p facs="#facs_40_r_3" xml:lang="ru" xml:id="p0004-ru">
+            <p facs="#facs_40_r_3" xml:lang="ru" xml:id="p0004-ru">
+               <milestone unit="line" facs="#facs_40_l_31" n="N001"/>Мне сделалось жаль его, и в то же время я думала: кто она, эта <persName ref="#p0001">Ольга</persName>?
+					<milestone unit="line" facs="#facs_40_l_33" n="N002"/>Через несколько дней после этого я сидела утром в кресле у окна в корри¬
+					<milestone unit="line" facs="#facs_40_l_34" n="N003"/>доре как раз напротив его двери. Вдруг его дверь отворилась, и <persName ref="#p0002">он</persName> появился на по-
+					<milestone unit="line" facs="#facs_40_l_36" n="N004"/>роге, одетый в &lt;серый&gt; костюм. На одно мгновение я испытала чувство разочарования при
+					<milestone unit="line" facs="#facs_40_l_37" n="N005"/>виде его лица, которое показалось мне некрасивым и не таким, каким я его
+					<milestone unit="line" facs="#facs_40_l_39" n="N006"/>себе представляла. Он поклонился мне очень изящно и чувствовалось, что он &lt;очень&gt; до-
+					<milestone unit="line" facs="#facs_40_l_40" n="N007"/>волен тем, что держится на ногах. Он шел к доктору на изследование.
+				</p>
+            <p facs="#facs_40_r_3" xml:lang="de" corresp="#p0004-ru">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_40_l_31" n="N001"/>Мне сделалось жаль его, и в то же время я думала: кто она, эта <persName ref="#p0001">Ольга</persName>?
 					<milestone unit="line" facs="#facs_40_l_33" n="N002"/>Через несколько дней после этого я сидела утром в кресле у окна в корри¬
 					<milestone unit="line" facs="#facs_40_l_34" n="N003"/>доре как раз напротив его двери. Вдруг его дверь отворилась, и <persName ref="#p0002">он</persName> появился на по-
@@ -46,110 +68,127 @@
 					<milestone unit="line" facs="#facs_40_l_37" n="N005"/>виде его лица, которое показалось мне некрасивым и не таким, каким я его
 					<milestone unit="line" facs="#facs_40_l_39" n="N006"/>себе представляла. Он поклонился мне очень изящно и чувствовалось, что он &lt;очень&gt; до-
 					<milestone unit="line" facs="#facs_40_l_40" n="N007"/>волен тем, что держится на ногах. Он шел к доктору на изследование.
-				</p> 
-        <p facs="#facs_40_r_3" xml:lang="de" corresp="#p0004-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_40_l_31" n="N001"/>Мне сделалось жаль его, и в то же время я думала: кто она, эта <persName ref="#p0001">Ольга</persName>?
-					<milestone unit="line" facs="#facs_40_l_33" n="N002"/>Через несколько дней после этого я сидела утром в кресле у окна в корри¬
-					<milestone unit="line" facs="#facs_40_l_34" n="N003"/>доре как раз напротив его двери. Вдруг его дверь отворилась, и <persName ref="#p0002">он</persName> появился на по-
-					<milestone unit="line" facs="#facs_40_l_36" n="N004"/>роге, одетый в &lt;серый&gt; костюм. На одно мгновение я испытала чувство разочарования при
-					<milestone unit="line" facs="#facs_40_l_37" n="N005"/>виде его лица, которое показалось мне некрасивым и не таким, каким я его
-					<milestone unit="line" facs="#facs_40_l_39" n="N006"/>себе представляла. Он поклонился мне очень изящно и чувствовалось, что он &lt;очень&gt; до-
-					<milestone unit="line" facs="#facs_40_l_40" n="N007"/>волен тем, что держится на ногах. Он шел к доктору на изследование.
 				</p>
-				<p facs="#facs_40_r_4" xml:lang="ru" xml:id="p0005-ru">
-					<milestone unit="line" facs="#facs_40_l_2" n="N001"/>Вскоре я должна была покинуть эту клинику, чтобы подвергнуться в <placeName ref="#pl0001">Цю¬</placeName>
-					<milestone unit="line" facs="#facs_40_l_3" n="N002"/><placeName ref="#pl0001">рихе</placeName> <hi rend="strikethrough:true;">у одного знаменитого профессора <persName ref="#p0003">Зауербруха</persName></hi> очень серьезной операции
+            <p facs="#facs_40_r_4" xml:lang="ru" xml:id="p0005-ru">
+               <milestone unit="line" facs="#facs_40_l_2" n="N001"/>Вскоре я должна была покинуть эту клинику, чтобы подвергнуться в <placeName ref="#pl0001">Цю¬</placeName>
+               <milestone unit="line" facs="#facs_40_l_3" n="N002"/>
+               <placeName ref="#pl0001">рихе</placeName>
+               <hi rend="strikethrough:true;">у одного знаменитого профессора <persName ref="#p0003">Зауербруха</persName>
+               </hi> очень серьезной операции
 					<milestone unit="line" facs="#facs_40_l_4" n="N003"/>вырезывания ребер (таракопластика). Врач сказал, что это единственное
 					<milestone unit="line" facs="#facs_40_l_5" n="N004"/>средство улучшить мое состояние. Я не верила в успех операции, но согла¬
 					<milestone unit="line" facs="#facs_40_l_6" n="N005"/>силась на нее потому, что хотела положить конец моей бессмысленной
 					<milestone unit="line" facs="#facs_40_l_7" n="N006"/>жизни. В то же время, думала я, это не было бы прямым самоубиийством, так
 					<milestone unit="line" facs="#facs_40_l_8" n="N007"/>как был шанс и на благоуприятный исход. Я сама в сущности не знала, чего
 					<milestone unit="line" facs="#facs_40_l_9" n="N008"/>я хотела, я чувствовала только, что жить так, как я жила <date when="[1913-1915 (?)]">последние</date>
-					<milestone unit="line" facs="#facs_40_l_10" n="N009"/><date when="[1913-1915 (?)]">два года</date>, я больше не могу. С приездом <persName ref="#p0002">Сараев</persName>а я незаметно для себя самой из
+               <milestone unit="line" facs="#facs_40_l_10" n="N009"/>
+               <date when="[1913-1915 (?)]">два года</date>, я больше не могу. С приездом <persName ref="#p0002">Сараев</persName>а я незаметно для себя самой из
 					<milestone unit="line" facs="#facs_40_l_11" n="N010"/>менилась, и мне уже не хотелось болше уезжать из этой клиники, хо-
 					<milestone unit="line" facs="#facs_40_l_12" n="N011"/>тя я была очень недовольна ею. Но все было уже приготовлено к отезду, даже
 					<milestone unit="line" facs="#facs_40_l_13" n="N012"/>телеграмма домой была послана, и изменять решение <hi rend="strikethrough:true;">свое</hi> было неловко. <date when="6.5.1915?">6.-го</date>
-					<milestone unit="line" facs="#facs_40_l_14" n="N013"/><date when="6.5.1915?">мая</date> я уехала.
-				</p> 
-        <p facs="#facs_40_r_4" xml:lang="de" corresp="#p0005-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_40_l_14" n="N013"/>
+               <date when="6.5.1915?">мая</date> я уехала.
+				</p>
+            <p facs="#facs_40_r_4" xml:lang="de" corresp="#p0005-ru">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_40_l_2" n="N001"/>Вскоре я должна была покинуть эту клинику, чтобы подвергнуться в <placeName ref="#pl0001">Цю¬</placeName>
-					<milestone unit="line" facs="#facs_40_l_3" n="N002"/><placeName ref="#pl0001">рихе</placeName> <hi rend="strikethrough:true;">у одного знаменитого профессора <persName ref="#p0003">Зауербруха</persName></hi> очень серьезной операции
+               <milestone unit="line" facs="#facs_40_l_3" n="N002"/>
+               <placeName ref="#pl0001">рихе</placeName>
+               <hi rend="strikethrough:true;">у одного знаменитого профессора <persName ref="#p0003">Зауербруха</persName>
+               </hi> очень серьезной операции
 					<milestone unit="line" facs="#facs_40_l_4" n="N003"/>вырезывания ребер (таракопластика). Врач сказал, что это единственное
 					<milestone unit="line" facs="#facs_40_l_5" n="N004"/>средство улучшить мое состояние. Я не верила в успех операции, но согла¬
 					<milestone unit="line" facs="#facs_40_l_6" n="N005"/>силась на нее потому, что хотела положить конец моей бессмысленной
 					<milestone unit="line" facs="#facs_40_l_7" n="N006"/>жизни. В то же время, думала я, это не было бы прямым самоубиийством, так
 					<milestone unit="line" facs="#facs_40_l_8" n="N007"/>как был шанс и на благоуприятный исход. Я сама в сущности не знала, чего
 					<milestone unit="line" facs="#facs_40_l_9" n="N008"/>я хотела, я чувствовала только, что жить так, как я жила <date when="[1913-1915 (?)]">последние</date>
-					<milestone unit="line" facs="#facs_40_l_10" n="N009"/><date when="[1913-1915 (?)]">два года</date>, я больше не могу. С приездом <persName ref="#p0002">Сараев</persName>а я незаметно для себя самой из
+               <milestone unit="line" facs="#facs_40_l_10" n="N009"/>
+               <date when="[1913-1915 (?)]">два года</date>, я больше не могу. С приездом <persName ref="#p0002">Сараев</persName>а я незаметно для себя самой из
 					<milestone unit="line" facs="#facs_40_l_11" n="N010"/>менилась, и мне уже не хотелось болше уезжать из этой клиники, хо-
 					<milestone unit="line" facs="#facs_40_l_12" n="N011"/>тя я была очень недовольна ею. Но все было уже приготовлено к отезду, даже
 					<milestone unit="line" facs="#facs_40_l_13" n="N012"/>телеграмма домой была послана, и изменять решение <hi rend="strikethrough:true;">свое</hi> было неловко. <date when="6.5.1915?">6.-го</date>
-					<milestone unit="line" facs="#facs_40_l_14" n="N013"/><date when="6.5.1915?">мая</date> я уехала.
+               <milestone unit="line" facs="#facs_40_l_14" n="N013"/>
+               <date when="6.5.1915?">мая</date> я уехала.
 				</p>
-				<p facs="#facs_40_r_5" xml:lang="ru" xml:id="p0006-ru">
-					<milestone unit="line" facs="#facs_40_l_22" n="N001"/>Когда я, готовая к отезду, в пальто и шляпе вошла к <persName ref="#p0002">Сараев</persName>у попро-
-					<milestone unit="line" facs="#facs_40_l_23" n="N002"/>щаться, у меня где то в глубине души было чувство, что я еще увижу его, «не
-					<milestone unit="line" facs="#facs_40_l_24" n="N003"/>может быть, чтобы все так кончилось теперь, когда я нашла его». Он участ-
-					<milestone unit="line" facs="#facs_40_l_25" n="N004"/>ливо посмотрел на меня и сказал, что я очень бледна. Просил писать ему, и
-					<milestone unit="line" facs="#facs_40_l_26" n="N005"/>я одыщала это.
-				</p> 
-        <p facs="#facs_40_r_5" xml:lang="de" corresp="#p0006-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_40_l_22" n="N001"/>Когда я, готовая к отезду, в пальто и шляпе вошла к <persName ref="#p0002">Сараев</persName>у попро-
+            <p facs="#facs_40_r_5" xml:lang="ru" xml:id="p0006-ru">
+               <milestone unit="line" facs="#facs_40_l_22" n="N001"/>Когда я, готовая к отезду, в пальто и шляпе вошла к <persName ref="#p0002">Сараев</persName>у попро-
 					<milestone unit="line" facs="#facs_40_l_23" n="N002"/>щаться, у меня где то в глубине души было чувство, что я еще увижу его, «не
 					<milestone unit="line" facs="#facs_40_l_24" n="N003"/>может быть, чтобы все так кончилось теперь, когда я нашла его». Он участ-
 					<milestone unit="line" facs="#facs_40_l_25" n="N004"/>ливо посмотрел на меня и сказал, что я очень бледна. Просил писать ему, и
 					<milestone unit="line" facs="#facs_40_l_26" n="N005"/>я одыщала это.
 				</p>
-				<p facs="#facs_40_r_7" xml:lang="ru" xml:id="p0007-ru">
+            <p facs="#facs_40_r_5" xml:lang="de" corresp="#p0006-ru">{TRANSLATION GOES HERE}
+					<milestone unit="line" facs="#facs_40_l_22" n="N001"/>Когда я, готовая к отезду, в пальто и шляпе вошла к <persName ref="#p0002">Сараев</persName>у попро-
+					<milestone unit="line" facs="#facs_40_l_23" n="N002"/>щаться, у меня где то в глубине души было чувство, что я еще увижу его, «не
+					<milestone unit="line" facs="#facs_40_l_24" n="N003"/>может быть, чтобы все так кончилось теперь, когда я нашла его». Он участ-
+					<milestone unit="line" facs="#facs_40_l_25" n="N004"/>ливо посмотрел на меня и сказал, что я очень бледна. Просил писать ему, и
+					<milestone unit="line" facs="#facs_40_l_26" n="N005"/>я одыщала это.
+				</p>
+            <p facs="#facs_40_r_7" xml:lang="ru" xml:id="p0007-ru">
+               <milestone unit="line" facs="#facs_40_l_27" n="N001"/>Когда я уехала, <persName ref="#p0002">он</persName> сказал одной моей знакомой: «Вот была здесь одна сим-
+					<milestone unit="line" facs="#facs_40_l_28" n="N002"/>патичная барышня, да уехала» ... Она мне это передала позже.
+				</p>
+            <p facs="#facs_40_r_7" xml:lang="de" corresp="#p0007-ru">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_40_l_27" n="N001"/>Когда я уехала, <persName ref="#p0002">он</persName> сказал одной моей знакомой: «Вот была здесь одна сим-
 					<milestone unit="line" facs="#facs_40_l_28" n="N002"/>патичная барышня, да уехала» ... Она мне это передала позже.
-				</p> 
-        <p facs="#facs_40_r_7" xml:lang="de" corresp="#p0007-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_40_l_27" n="N001"/>Когда я уехала, <persName ref="#p0002">он</persName> сказал одной моей знакомой: «Вот была здесь одна сим-
-					<milestone unit="line" facs="#facs_40_l_28" n="N002"/>патичная барышня, да уехала» ... Она мне это передала позже.
 				</p>
-				<pb facs="#facs_41" n="41"/>
-				<p facs="#facs_41_tr_1" xml:lang="ru" xml:id="p0008-ru">
-					<milestone unit="line" facs="#facs_41_tr_1_tl_1" n="N001"/><hi rend="underlined:true;">40</hi>
-				</p> 
-        <p facs="#facs_41_tr_1" xml:lang="de" corresp="#p0008-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_41_tr_1_tl_1" n="N001"/><hi rend="underlined:true;">40</hi>
+            <pb facs="#facs_41" n="41"/>
+            <p facs="#facs_41_tr_1" xml:lang="ru" xml:id="p0008-ru">
+               <milestone unit="line" facs="#facs_41_tr_1_tl_1" n="N001"/>
+               <hi rend="underlined:true;">40</hi>
+            </p>
+            <p facs="#facs_41_tr_1" xml:lang="de" corresp="#p0008-ru">{TRANSLATION GOES HERE}
+					<milestone unit="line" facs="#facs_41_tr_1_tl_1" n="N001"/>
+               <hi rend="underlined:true;">40</hi>
+            </p>
+            <p facs="#facs_41_r" xml:lang="ru" xml:id="p0009-ru">
+               <milestone unit="line" facs="#facs_41_tr_1_tl_2" n="N001"/>
+               <hi rend="strikethrough:true;">[73</hi>]
 				</p>
-				<p facs="#facs_41_r" xml:lang="ru" xml:id="p0009-ru">
-					<milestone unit="line" facs="#facs_41_tr_1_tl_2" n="N001"/><hi rend="strikethrough:true;">[73</hi>]
-				</p> 
-        <p facs="#facs_41_r" xml:lang="de" corresp="#p0009-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_41_tr_1_tl_2" n="N001"/><hi rend="strikethrough:true;">[73</hi>]
+            <p facs="#facs_41_r" xml:lang="de" corresp="#p0009-ru">{TRANSLATION GOES HERE}
+					<milestone unit="line" facs="#facs_41_tr_1_tl_2" n="N001"/>
+               <hi rend="strikethrough:true;">[73</hi>]
 				</p>
-				<p facs="#facs_41_r_1" xml:lang="ru" xml:id="p0010-ru">
+            <p facs="#facs_41_r_1" xml:lang="ru" xml:id="p0010-ru">
+               <milestone unit="line" facs="#facs_41_tr_1_tl_3" n="N001"/>II.
+				</p>
+            <p facs="#facs_41_r_1" xml:lang="de" corresp="#p0010-ru">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_41_tr_1_tl_3" n="N001"/>II.
-				</p> 
-        <p facs="#facs_41_r_1" xml:lang="de" corresp="#p0010-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_41_tr_1_tl_3" n="N001"/>II.
 				</p>
-				<p facs="#facs_41_r_2" xml:lang="ru" xml:id="p0011-ru">
+            <p facs="#facs_41_r_2" xml:lang="ru" xml:id="p0011-ru">
+               <milestone unit="line" facs="#facs_41_tr_1_tl_4" n="N001"/>Сопровождавшая меня <persName ref="#p0004">сестра милосердия</persName> с жаром отговаривала меня от
+					<milestone unit="line" facs="#facs_41_tr_1_tl_5" n="N002"/>операции и предлагала посоветовать предварительно с знаменитым
+					<milestone unit="line" facs="#facs_41_tr_1_tl_6" n="N003"/>профессором <persName ref="#p0005">Сали</persName>, жившим в <placeName ref="#pl0002">Берн</placeName>е. Я согласилась с нею, жизнь снова влекла
+					<milestone unit="line" facs="#facs_41_tr_1_tl_8" n="N004"/>меня к себе &lt;влекла&gt; живым образом человека, которого я только что встретила.
+				</p>
+            <p facs="#facs_41_r_2" xml:lang="de" corresp="#p0011-ru">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_41_tr_1_tl_4" n="N001"/>Сопровождавшая меня <persName ref="#p0004">сестра милосердия</persName> с жаром отговаривала меня от
 					<milestone unit="line" facs="#facs_41_tr_1_tl_5" n="N002"/>операции и предлагала посоветовать предварительно с знаменитым
 					<milestone unit="line" facs="#facs_41_tr_1_tl_6" n="N003"/>профессором <persName ref="#p0005">Сали</persName>, жившим в <placeName ref="#pl0002">Берн</placeName>е. Я согласилась с нею, жизнь снова влекла
 					<milestone unit="line" facs="#facs_41_tr_1_tl_8" n="N004"/>меня к себе &lt;влекла&gt; живым образом человека, которого я только что встретила.
-				</p> 
-        <p facs="#facs_41_r_2" xml:lang="de" corresp="#p0011-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_41_tr_1_tl_4" n="N001"/>Сопровождавшая меня <persName ref="#p0004">сестра милосердия</persName> с жаром отговаривала меня от
-					<milestone unit="line" facs="#facs_41_tr_1_tl_5" n="N002"/>операции и предлагала посоветовать предварительно с знаменитым
-					<milestone unit="line" facs="#facs_41_tr_1_tl_6" n="N003"/>профессором <persName ref="#p0005">Сали</persName>, жившим в <placeName ref="#pl0002">Берн</placeName>е. Я согласилась с нею, жизнь снова влекла
-					<milestone unit="line" facs="#facs_41_tr_1_tl_8" n="N004"/>меня к себе &lt;влекла&gt; живым образом человека, которого я только что встретила.
 				</p>
-				<p facs="#facs_41_r_3" xml:lang="ru" xml:id="p0012-ru">
-					<milestone unit="line" facs="#facs_41_tr_1_tl_9" n="N001"/>Мы поехали в <placeName ref="#pl0002">Берн</placeName>. Все это путешествие мне казалось каким то восста-
+            <p facs="#facs_41_r_3" xml:lang="ru" xml:id="p0012-ru">
+               <milestone unit="line" facs="#facs_41_tr_1_tl_9" n="N001"/>Мы поехали в <placeName ref="#pl0002">Берн</placeName>. Все это путешествие мне казалось каким то восста-
 					<milestone unit="line" facs="#facs_41_tr_1_tl_10" n="N002"/>нием из гроба. Я глядела на все широко раскрытыми глазами, какими глядят
 					<milestone unit="line" facs="#facs_41_tr_1_tl_11" n="N003"/>маленькие дети или глядели бы воскресние из гроба…
-				</p> 
-        <p facs="#facs_41_r_3" xml:lang="de" corresp="#p0012-ru">{TRANSLATION GOES HERE}
+				</p>
+            <p facs="#facs_41_r_3" xml:lang="de" corresp="#p0012-ru">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_41_tr_1_tl_9" n="N001"/>Мы поехали в <placeName ref="#pl0002">Берн</placeName>. Все это путешествие мне казалось каким то восста-
 					<milestone unit="line" facs="#facs_41_tr_1_tl_10" n="N002"/>нием из гроба. Я глядела на все широко раскрытыми глазами, какими глядят
 					<milestone unit="line" facs="#facs_41_tr_1_tl_11" n="N003"/>маленькие дети или глядели бы воскресние из гроба…
 				</p>
-				<p facs="#facs_41_r_4" xml:lang="ru" xml:id="p0013-ru">
+            <p facs="#facs_41_r_4" xml:lang="ru" xml:id="p0013-ru">
+               <milestone unit="line" facs="#facs_41_tr_1_tl_12" n="N001"/>Помню в поезде двух детей. Один был маленький хорошенький мальчик в
+					<milestone unit="line" facs="#facs_41_tr_1_tl_13" n="N002"/>коротких выше колен панталончиках и матросской куртке. Он не мог ни
+					<milestone unit="line" facs="#facs_41_tr_1_tl_14" n="N003"/>минуты посидеть спокойно, прыгал, хохотал, играл со своими и чужими ве-
+					<milestone unit="line" facs="#facs_41_tr_1_tl_15" n="N004"/>щами. В нем чувствовалось любимое и балованное дитя. А рядом с ним сидел
+					<milestone unit="line" facs="#facs_41_tr_1_tl_16" n="N005"/>маленький мулат со смуглым, но не черным лицом, безобразный, с талотой
+					<milestone unit="line" facs="#facs_41_tr_1_tl_17" n="N006"/>выпяченной губой. Он был одет в серый неуклюжий костюм и какие то не-
+					<milestone unit="line" facs="#facs_41_tr_1_tl_18" n="N007"/>лепые панталоны. И эти ужасные панталоны и жалкая и восторжен-
+					<milestone unit="line" facs="#facs_41_tr_1_tl_19" n="N008"/>ная улыбка, с какой он, сидя смирно на лавке, глядел на маленького кра¬
+					<milestone unit="line" facs="#facs_41_tr_1_tl_20" n="N009"/>савчика, причиняли мне почти физическую боль. Я отворачивалась, чтобы не
+					<milestone unit="line" facs="#facs_41_tr_1_tl_21" n="N010"/>заплакать.
+				</p>
+            <p facs="#facs_41_r_4" xml:lang="de" corresp="#p0013-ru">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_41_tr_1_tl_12" n="N001"/>Помню в поезде двух детей. Один был маленький хорошенький мальчик в
 					<milestone unit="line" facs="#facs_41_tr_1_tl_13" n="N002"/>коротких выше колен панталончиках и матросской куртке. Он не мог ни
 					<milestone unit="line" facs="#facs_41_tr_1_tl_14" n="N003"/>минуты посидеть спокойно, прыгал, хохотал, играл со своими и чужими ве-
@@ -160,32 +199,10 @@
 					<milestone unit="line" facs="#facs_41_tr_1_tl_19" n="N008"/>ная улыбка, с какой он, сидя смирно на лавке, глядел на маленького кра¬
 					<milestone unit="line" facs="#facs_41_tr_1_tl_20" n="N009"/>савчика, причиняли мне почти физическую боль. Я отворачивалась, чтобы не
 					<milestone unit="line" facs="#facs_41_tr_1_tl_21" n="N010"/>заплакать.
-				</p> 
-        <p facs="#facs_41_r_4" xml:lang="de" corresp="#p0013-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_41_tr_1_tl_12" n="N001"/>Помню в поезде двух детей. Один был маленький хорошенький мальчик в
-					<milestone unit="line" facs="#facs_41_tr_1_tl_13" n="N002"/>коротких выше колен панталончиках и матросской куртке. Он не мог ни
-					<milestone unit="line" facs="#facs_41_tr_1_tl_14" n="N003"/>минуты посидеть спокойно, прыгал, хохотал, играл со своими и чужими ве-
-					<milestone unit="line" facs="#facs_41_tr_1_tl_15" n="N004"/>щами. В нем чувствовалось любимое и балованное дитя. А рядом с ним сидел
-					<milestone unit="line" facs="#facs_41_tr_1_tl_16" n="N005"/>маленький мулат со смуглым, но не черным лицом, безобразный, с талотой
-					<milestone unit="line" facs="#facs_41_tr_1_tl_17" n="N006"/>выпяченной губой. Он был одет в серый неуклюжий костюм и какие то не-
-					<milestone unit="line" facs="#facs_41_tr_1_tl_18" n="N007"/>лепые панталоны. И эти ужасные панталоны и жалкая и восторжен-
-					<milestone unit="line" facs="#facs_41_tr_1_tl_19" n="N008"/>ная улыбка, с какой он, сидя смирно на лавке, глядел на маленького кра¬
-					<milestone unit="line" facs="#facs_41_tr_1_tl_20" n="N009"/>савчика, причиняли мне почти физическую боль. Я отворачивалась, чтобы не
-					<milestone unit="line" facs="#facs_41_tr_1_tl_21" n="N010"/>заплакать.
 				</p>
-				<p facs="#facs_41_r_5" xml:lang="ru" xml:id="p0014-ru">
-					<milestone unit="line" facs="#facs_41_tr_1_tl_22" n="N001"/><placeName ref="#pl0002">Берн</placeName> произвел на меня такое впечатление, как будто я уже была здесь
-					<milestone unit="line" facs="#facs_41_tr_1_tl_23" n="N002"/>когда то, давно-давно. Я почувствовала душу этого города. Когда я вошла в
-					<milestone unit="line" facs="#facs_41_tr_1_tl_24" n="N003"/>маленькую комнату <placeName ref="#pl0003">гостинницы Белого креста</placeName>, я так ясно почувствовала,
-					<milestone unit="line" facs="#facs_41_tr_1_tl_25" n="N004"/>что когда то, сотни лет тому назад, в тихом средневековьи, здесь, в амбра-
-					<milestone unit="line" facs="#facs_41_tr_1_tl_26" n="N005"/>зуре этого полукруглого, сводчатого окна сидела какая то тихая, крот¬
-					<milestone unit="line" facs="#facs_41_tr_1_tl_27" n="N006"/>кая женщина в головном уборе бернок того времени и в тяжелом наряде с
-					<milestone unit="line" facs="#facs_41_tr_1_tl_28" n="N007"/>пышными рукавами. Она сидит и вышивает на пяльцах, а там, из окна на¬
-					<milestone unit="line" facs="#facs_41_tr_1_tl_29" n="N008"/>против неотступно глядит на нее юноша. Улица так узка! И окна по-
-					<milestone unit="line" facs="#facs_41_tr_1_tl_30" n="N009"/>всюду имеют выступ с решеткой для цветов.
-				</p> 
-        <p facs="#facs_41_r_5" xml:lang="de" corresp="#p0014-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_41_tr_1_tl_22" n="N001"/><placeName ref="#pl0002">Берн</placeName> произвел на меня такое впечатление, как будто я уже была здесь
+            <p facs="#facs_41_r_5" xml:lang="ru" xml:id="p0014-ru">
+               <milestone unit="line" facs="#facs_41_tr_1_tl_22" n="N001"/>
+               <placeName ref="#pl0002">Берн</placeName> произвел на меня такое впечатление, как будто я уже была здесь
 					<milestone unit="line" facs="#facs_41_tr_1_tl_23" n="N002"/>когда то, давно-давно. Я почувствовала душу этого города. Когда я вошла в
 					<milestone unit="line" facs="#facs_41_tr_1_tl_24" n="N003"/>маленькую комнату <placeName ref="#pl0003">гостинницы Белого креста</placeName>, я так ясно почувствовала,
 					<milestone unit="line" facs="#facs_41_tr_1_tl_25" n="N004"/>что когда то, сотни лет тому назад, в тихом средневековьи, здесь, в амбра-
@@ -195,83 +212,93 @@
 					<milestone unit="line" facs="#facs_41_tr_1_tl_29" n="N008"/>против неотступно глядит на нее юноша. Улица так узка! И окна по-
 					<milestone unit="line" facs="#facs_41_tr_1_tl_30" n="N009"/>всюду имеют выступ с решеткой для цветов.
 				</p>
-				<p facs="#facs_41_r_6" xml:lang="ru" xml:id="p0015-ru">
+            <p facs="#facs_41_r_5" xml:lang="de" corresp="#p0014-ru">{TRANSLATION GOES HERE}
+					<milestone unit="line" facs="#facs_41_tr_1_tl_22" n="N001"/>
+               <placeName ref="#pl0002">Берн</placeName> произвел на меня такое впечатление, как будто я уже была здесь
+					<milestone unit="line" facs="#facs_41_tr_1_tl_23" n="N002"/>когда то, давно-давно. Я почувствовала душу этого города. Когда я вошла в
+					<milestone unit="line" facs="#facs_41_tr_1_tl_24" n="N003"/>маленькую комнату <placeName ref="#pl0003">гостинницы Белого креста</placeName>, я так ясно почувствовала,
+					<milestone unit="line" facs="#facs_41_tr_1_tl_25" n="N004"/>что когда то, сотни лет тому назад, в тихом средневековьи, здесь, в амбра-
+					<milestone unit="line" facs="#facs_41_tr_1_tl_26" n="N005"/>зуре этого полукруглого, сводчатого окна сидела какая то тихая, крот¬
+					<milestone unit="line" facs="#facs_41_tr_1_tl_27" n="N006"/>кая женщина в головном уборе бернок того времени и в тяжелом наряде с
+					<milestone unit="line" facs="#facs_41_tr_1_tl_28" n="N007"/>пышными рукавами. Она сидит и вышивает на пяльцах, а там, из окна на¬
+					<milestone unit="line" facs="#facs_41_tr_1_tl_29" n="N008"/>против неотступно глядит на нее юноша. Улица так узка! И окна по-
+					<milestone unit="line" facs="#facs_41_tr_1_tl_30" n="N009"/>всюду имеют выступ с решеткой для цветов.
+				</p>
+            <p facs="#facs_41_r_6" xml:lang="ru" xml:id="p0015-ru">
+               <milestone unit="line" facs="#facs_41_tr_1_tl_31" n="N001"/>Я прожила в <placeName ref="#pl0002">Берн</placeName>е две недели в ожидании приема у <persName ref="#p0005">профессора</persName>. Од-
+				</p>
+            <p facs="#facs_41_r_6" xml:lang="de" corresp="#p0015-ru">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_41_tr_1_tl_31" n="N001"/>Я прожила в <placeName ref="#pl0002">Берн</placeName>е две недели в ожидании приема у <persName ref="#p0005">профессора</persName>. Од-
-				</p> 
-        <p facs="#facs_41_r_6" xml:lang="de" corresp="#p0015-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_41_tr_1_tl_31" n="N001"/>Я прожила в <placeName ref="#pl0002">Берн</placeName>е две недели в ожидании приема у <persName ref="#p0005">профессора</persName>. Од-
 				</p>
-				<pb facs="#facs_42" n="42"/>
-				<p facs="#facs_42_r" xml:lang="ru" xml:id="p0016-ru">
-					<milestone unit="line" facs="#facs_42_tr_1_tl_1" n="N001"/>41 
-				</p> 
-        <p facs="#facs_42_r" xml:lang="de" corresp="#p0016-ru">{TRANSLATION GOES HERE}
+            <pb facs="#facs_42" n="42"/>
+            <p facs="#facs_42_r" xml:lang="ru" xml:id="p0016-ru">
+               <milestone unit="line" facs="#facs_42_tr_1_tl_1" n="N001"/>41 
+				</p>
+            <p facs="#facs_42_r" xml:lang="de" corresp="#p0016-ru">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_42_tr_1_tl_1" n="N001"/>41 
 				</p>
-				<p facs="#facs_42_r_1" xml:lang="ru" xml:id="p0017-ru">
-					<milestone unit="line" facs="#facs_42_l" n="N001"/>[74]
-				</p> 
-        <p facs="#facs_42_r_1" xml:lang="de" corresp="#p0017-ru">{TRANSLATION GOES HERE}
+            <p facs="#facs_42_r_1" xml:lang="ru" xml:id="p0017-ru">
+               <milestone unit="line" facs="#facs_42_l" n="N001"/>[74]
+				</p>
+            <p facs="#facs_42_r_1" xml:lang="de" corresp="#p0017-ru">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_42_l" n="N001"/>[74]
 				</p>
-				<p facs="#facs_42_r_2" xml:lang="ru" xml:id="p0018-ru">
+            <p facs="#facs_42_r_2" xml:lang="ru" xml:id="p0018-ru">
+               <milestone unit="line" facs="#facs_42_tr_1_tl_2" n="N001"/>нажды мы проехались с <persName ref="#p0004">сестрою милосердия</persName> по самым оригинальным старым
+					<milestone unit="line" facs="#facs_42_tr_1_tl_3" n="N002"/>улицам <placeName ref="#pl0002">Берн</placeName>а и решили навестить знаменитых живых бернских медведей. Вый¬
+					<milestone unit="line" facs="#facs_42_tr_1_tl_4" n="N003"/>дя из экипажа, я колеблющейся походкой подошла к круглому бассейну. На глубо¬
+					<milestone unit="line" facs="#facs_42_tr_1_tl_5" n="N004"/>ком дне его я увидела трех чудовищ и странное чувство охватило меня: в об¬
+					<milestone unit="line" facs="#facs_42_tr_1_tl_6" n="N005"/>разе этих животных было что то таинственные и жуткое…
+				</p>
+            <p facs="#facs_42_r_2" xml:lang="de" corresp="#p0018-ru">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_42_tr_1_tl_2" n="N001"/>нажды мы проехались с <persName ref="#p0004">сестрою милосердия</persName> по самым оригинальным старым
 					<milestone unit="line" facs="#facs_42_tr_1_tl_3" n="N002"/>улицам <placeName ref="#pl0002">Берн</placeName>а и решили навестить знаменитых живых бернских медведей. Вый¬
 					<milestone unit="line" facs="#facs_42_tr_1_tl_4" n="N003"/>дя из экипажа, я колеблющейся походкой подошла к круглому бассейну. На глубо¬
 					<milestone unit="line" facs="#facs_42_tr_1_tl_5" n="N004"/>ком дне его я увидела трех чудовищ и странное чувство охватило меня: в об¬
 					<milestone unit="line" facs="#facs_42_tr_1_tl_6" n="N005"/>разе этих животных было что то таинственные и жуткое…
-				</p> 
-        <p facs="#facs_42_r_2" xml:lang="de" corresp="#p0018-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_42_tr_1_tl_2" n="N001"/>нажды мы проехались с <persName ref="#p0004">сестрою милосердия</persName> по самым оригинальным старым
-					<milestone unit="line" facs="#facs_42_tr_1_tl_3" n="N002"/>улицам <placeName ref="#pl0002">Берн</placeName>а и решили навестить знаменитых живых бернских медведей. Вый¬
-					<milestone unit="line" facs="#facs_42_tr_1_tl_4" n="N003"/>дя из экипажа, я колеблющейся походкой подошла к круглому бассейну. На глубо¬
-					<milestone unit="line" facs="#facs_42_tr_1_tl_5" n="N004"/>ком дне его я увидела трех чудовищ и странное чувство охватило меня: в об¬
-					<milestone unit="line" facs="#facs_42_tr_1_tl_6" n="N005"/>разе этих животных было что то таинственные и жуткое…
 				</p>
-				<p facs="#facs_42_r_3" xml:lang="ru" xml:id="p0019-ru">
-					<milestone unit="line" facs="#facs_42_tr_1_tl_7" n="N001"/>Читая недавно психологию <persName ref="#p0006">Сикорского</persName>, я нашла там такое место: «<rs type="work"><!--noch herausfinden-->души</rs>
-					<milestone unit="line" facs="#facs_42_tr_1_tl_8" n="N002"/><rs type="work"><!--noch herausfinden-->различных животных – это как бы ряд пробных этюдов и набросков для бу-</rs>
-					<milestone unit="line" facs="#facs_42_tr_1_tl_9" n="N003"/><rs type="work"><!--noch herausfinden-->дущей, имеющей когда то прийти души. Такой душою, поистине, является</rs>
-					<milestone unit="line" facs="#facs_42_tr_1_tl_10" n="N004"/><rs type="work"><!--noch herausfinden-->[<hi rend="strikethrough:true;">душа</hi>] челове[<hi rend="strikethrough:true;">ка</hi>]ческая душа. В ней сконцентрированы, объединены и развиты</rs>
-					<milestone unit="line" facs="#facs_42_tr_1_tl_11" n="N005"/><rs type="work"><!--noch herausfinden-->все отдельные этюды, образцы которых в зачатке заложены в душе жи¬</rs>
-					<milestone unit="line" facs="#facs_42_tr_1_tl_12" n="N006"/><rs type="work"><!--noch herausfinden-->вотных</rs>». При виде медведей у меня неясно мелькала в голове та же самая
+            <p facs="#facs_42_r_3" xml:lang="ru" xml:id="p0019-ru">
+               <milestone unit="line" facs="#facs_42_tr_1_tl_7" n="N001"/>Читая недавно психологию <persName ref="#p0006">Сикорского</persName>, я нашла там такое место: «<rs type="work"><!--noch herausfinden-->души</rs>
+               <milestone unit="line" facs="#facs_42_tr_1_tl_8" n="N002"/>
+               <rs type="work"><!--noch herausfinden-->различных животных – это как бы ряд пробных этюдов и набросков для бу-</rs>
+               <milestone unit="line" facs="#facs_42_tr_1_tl_9" n="N003"/>
+               <rs type="work"><!--noch herausfinden-->дущей, имеющей когда то прийти души. Такой душою, поистине, является</rs>
+               <milestone unit="line" facs="#facs_42_tr_1_tl_10" n="N004"/>
+               <rs type="work"><!--noch herausfinden-->[<hi rend="strikethrough:true;">душа</hi>] челове[<hi rend="strikethrough:true;">ка</hi>]ческая душа. В ней сконцентрированы, объединены и развиты</rs>
+               <milestone unit="line" facs="#facs_42_tr_1_tl_11" n="N005"/>
+               <rs type="work"><!--noch herausfinden-->все отдельные этюды, образцы которых в зачатке заложены в душе жи¬</rs>
+               <milestone unit="line" facs="#facs_42_tr_1_tl_12" n="N006"/>
+               <rs type="work"><!--noch herausfinden-->вотных</rs>». При виде медведей у меня неясно мелькала в голове та же самая
 					<milestone unit="line" facs="#facs_42_tr_1_tl_13" n="N007"/>мысль. Меня охватывал мистический страх от этих громад живого, покры¬
 					<milestone unit="line" facs="#facs_42_tr_1_tl_14" n="N008"/>того шерстью тела. Казалось, что природа затратила здесь, чтобы <hi rend="underlined:true;">выразить</hi>
-					<milestone unit="line" facs="#facs_42_tr_1_tl_15" n="N009"/>себя, огромное усилие, но создание не выражало того, что нужно было, оно оста¬
-					<milestone unit="line" facs="#facs_42_tr_1_tl_16" n="N010"/>лось замкнутым в каком то тупике, и чувствовалась скрытая боль
-					<milestone unit="line" facs="#facs_42_tr_1_tl_17" n="N011"/>природы. Создав человека, природа как будто вырвалась из этого тупика
-					<milestone unit="line" facs="#facs_42_tr_1_tl_18" n="N012"/>и получила глаза, которыми могла бы любоваться сама собою и познавать
-					<milestone unit="line" facs="#facs_42_tr_1_tl_19" n="N013"/>самое себя.
-				</p> 
-        <p facs="#facs_42_r_3" xml:lang="de" corresp="#p0019-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_42_tr_1_tl_7" n="N001"/>Читая недавно психологию <persName ref="#p0006">Сикорского</persName>, я нашла там такое место: «<rs type="work"><!--noch herausfinden-->души</rs>
-					<milestone unit="line" facs="#facs_42_tr_1_tl_8" n="N002"/><rs type="work"><!--noch herausfinden-->различных животных – это как бы ряд пробных этюдов и набросков для бу-</rs>
-					<milestone unit="line" facs="#facs_42_tr_1_tl_9" n="N003"/><rs type="work"><!--noch herausfinden-->дущей, имеющей когда то прийти души. Такой душою, поистине, является</rs>
-					<milestone unit="line" facs="#facs_42_tr_1_tl_10" n="N004"/><rs type="work"><!--noch herausfinden-->[<hi rend="strikethrough:true;">душа</hi>] челове[<hi rend="strikethrough:true;">ка</hi>]ческая душа. В ней сконцентрированы, объединены и развиты</rs>
-					<milestone unit="line" facs="#facs_42_tr_1_tl_11" n="N005"/><rs type="work"><!--noch herausfinden-->все отдельные этюды, образцы которых в зачатке заложены в душе жи¬</rs>
-					<milestone unit="line" facs="#facs_42_tr_1_tl_12" n="N006"/><rs type="work"><!--noch herausfinden-->вотных</rs>». При виде медведей у меня неясно мелькала в голове та же самая
-					<milestone unit="line" facs="#facs_42_tr_1_tl_13" n="N007"/>мысль. Меня охватывал мистический страх от этих громад живого, покры¬
-					<milestone unit="line" facs="#facs_42_tr_1_tl_14" n="N008"/>того шерстью тела. Казалось, что природа затратила здесь, чтобы <hi rend="underlined:true;">выразить</hi>
-					<milestone unit="line" facs="#facs_42_tr_1_tl_15" n="N009"/>себя, огромное усилие, но создание не выражало того, что нужно было, оно оста¬
+               <milestone unit="line" facs="#facs_42_tr_1_tl_15" n="N009"/>себя, огромное усилие, но создание не выражало того, что нужно было, оно оста¬
 					<milestone unit="line" facs="#facs_42_tr_1_tl_16" n="N010"/>лось замкнутым в каком то тупике, и чувствовалась скрытая боль
 					<milestone unit="line" facs="#facs_42_tr_1_tl_17" n="N011"/>природы. Создав человека, природа как будто вырвалась из этого тупика
 					<milestone unit="line" facs="#facs_42_tr_1_tl_18" n="N012"/>и получила глаза, которыми могла бы любоваться сама собою и познавать
 					<milestone unit="line" facs="#facs_42_tr_1_tl_19" n="N013"/>самое себя.
 				</p>
-				<p facs="#facs_42_r_4" xml:lang="ru" xml:id="p0020-ru">
-					<milestone unit="line" facs="#facs_42_tr_1_tl_20" n="N001"/>Сестра моя &lt;<persName ref="#p0004">Mme Bärli,</persName>&gt; производила на меня впечатление не совсем дюжинной женщины.
-					<milestone unit="line" facs="#facs_42_tr_1_tl_21" n="N002"/>В первый раз, как я ее увидела, мне бросились в глаза три вещи: обилие ко-
-					<milestone unit="line" facs="#facs_42_tr_1_tl_22" n="N003"/>лец на ее пальцах, усы и какие-то странные, зеленоватые глаза. Она была из
-					<milestone unit="line" facs="#facs_42_tr_1_tl_23" n="N004"/>хорошей, зажиточной семьи<note/>, но вышла замуж несчастливо, <persName>муж</persName> обманы¬
-					<milestone unit="line" facs="#facs_42_tr_1_tl_24" n="N005"/>вал ее, промотал все ея состояние и, в конце концов, она развелась с ним. Она
-					<milestone unit="line" facs="#facs_42_tr_1_tl_25" n="N006"/>сумела внушить мне жалость к себе, казалась искренней, доброй. Она до-
-					<milestone unit="line" facs="#facs_42_tr_1_tl_26" n="N007"/>вольно много читала, знала очень хорошо три языка, замечания ее бывали
-					<milestone unit="line" facs="#facs_42_tr_1_tl_27" n="N008"/>иногда тонки и метки. Позже я узнала, что она была фальшива и скорее
-					<milestone unit="line" facs="#facs_42_tr_1_tl_29" n="N009"/>зла, чем добра. Она тоже как и медведи оказалась неудачным пробным &lt;этюдом&gt;
-					<milestone unit="line" facs="#facs_42_tr_1_tl_30" n="N010"/>но, творя ее, природа имела какой то широкий и богатый замысел…
-				</p> 
-        <p facs="#facs_42_r_4" xml:lang="de" corresp="#p0020-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_42_tr_1_tl_20" n="N001"/>Сестра моя &lt;<persName ref="#p0004">Mme Bärli,</persName>&gt; производила на меня впечатление не совсем дюжинной женщины.
+            <p facs="#facs_42_r_3" xml:lang="de" corresp="#p0019-ru">{TRANSLATION GOES HERE}
+					<milestone unit="line" facs="#facs_42_tr_1_tl_7" n="N001"/>Читая недавно психологию <persName ref="#p0006">Сикорского</persName>, я нашла там такое место: «<rs type="work"><!--noch herausfinden-->души</rs>
+               <milestone unit="line" facs="#facs_42_tr_1_tl_8" n="N002"/>
+               <rs type="work"><!--noch herausfinden-->различных животных – это как бы ряд пробных этюдов и набросков для бу-</rs>
+               <milestone unit="line" facs="#facs_42_tr_1_tl_9" n="N003"/>
+               <rs type="work"><!--noch herausfinden-->дущей, имеющей когда то прийти души. Такой душою, поистине, является</rs>
+               <milestone unit="line" facs="#facs_42_tr_1_tl_10" n="N004"/>
+               <rs type="work"><!--noch herausfinden-->[<hi rend="strikethrough:true;">душа</hi>] челове[<hi rend="strikethrough:true;">ка</hi>]ческая душа. В ней сконцентрированы, объединены и развиты</rs>
+               <milestone unit="line" facs="#facs_42_tr_1_tl_11" n="N005"/>
+               <rs type="work"><!--noch herausfinden-->все отдельные этюды, образцы которых в зачатке заложены в душе жи¬</rs>
+               <milestone unit="line" facs="#facs_42_tr_1_tl_12" n="N006"/>
+               <rs type="work"><!--noch herausfinden-->вотных</rs>». При виде медведей у меня неясно мелькала в голове та же самая
+					<milestone unit="line" facs="#facs_42_tr_1_tl_13" n="N007"/>мысль. Меня охватывал мистический страх от этих громад живого, покры¬
+					<milestone unit="line" facs="#facs_42_tr_1_tl_14" n="N008"/>того шерстью тела. Казалось, что природа затратила здесь, чтобы <hi rend="underlined:true;">выразить</hi>
+               <milestone unit="line" facs="#facs_42_tr_1_tl_15" n="N009"/>себя, огромное усилие, но создание не выражало того, что нужно было, оно оста¬
+					<milestone unit="line" facs="#facs_42_tr_1_tl_16" n="N010"/>лось замкнутым в каком то тупике, и чувствовалась скрытая боль
+					<milestone unit="line" facs="#facs_42_tr_1_tl_17" n="N011"/>природы. Создав человека, природа как будто вырвалась из этого тупика
+					<milestone unit="line" facs="#facs_42_tr_1_tl_18" n="N012"/>и получила глаза, которыми могла бы любоваться сама собою и познавать
+					<milestone unit="line" facs="#facs_42_tr_1_tl_19" n="N013"/>самое себя.
+				</p>
+            <p facs="#facs_42_r_4" xml:lang="ru" xml:id="p0020-ru">
+               <milestone unit="line" facs="#facs_42_tr_1_tl_20" n="N001"/>Сестра моя &lt;<persName ref="#p0004">Mme Bärli,</persName>&gt; производила на меня впечатление не совсем дюжинной женщины.
 					<milestone unit="line" facs="#facs_42_tr_1_tl_21" n="N002"/>В первый раз, как я ее увидела, мне бросились в глаза три вещи: обилие ко-
 					<milestone unit="line" facs="#facs_42_tr_1_tl_22" n="N003"/>лец на ее пальцах, усы и какие-то странные, зеленоватые глаза. Она была из
 					<milestone unit="line" facs="#facs_42_tr_1_tl_23" n="N004"/>хорошей, зажиточной семьи<note/>, но вышла замуж несчастливо, <persName>муж</persName> обманы¬
@@ -282,70 +309,88 @@
 					<milestone unit="line" facs="#facs_42_tr_1_tl_29" n="N009"/>зла, чем добра. Она тоже как и медведи оказалась неудачным пробным &lt;этюдом&gt;
 					<milestone unit="line" facs="#facs_42_tr_1_tl_30" n="N010"/>но, творя ее, природа имела какой то широкий и богатый замысел…
 				</p>
-				<pb facs="#facs_43" n="43"/>
-				<p facs="#facs_43_r" xml:lang="ru" xml:id="p0021-ru">
-					<milestone unit="line" facs="#facs_43_l" n="N001"/>42
-				</p> 
-        <p facs="#facs_43_r" xml:lang="de" corresp="#p0021-ru">{TRANSLATION GOES HERE}
+            <p facs="#facs_42_r_4" xml:lang="de" corresp="#p0020-ru">{TRANSLATION GOES HERE}
+					<milestone unit="line" facs="#facs_42_tr_1_tl_20" n="N001"/>Сестра моя &lt;<persName ref="#p0004">Mme Bärli,</persName>&gt; производила на меня впечатление не совсем дюжинной женщины.
+					<milestone unit="line" facs="#facs_42_tr_1_tl_21" n="N002"/>В первый раз, как я ее увидела, мне бросились в глаза три вещи: обилие ко-
+					<milestone unit="line" facs="#facs_42_tr_1_tl_22" n="N003"/>лец на ее пальцах, усы и какие-то странные, зеленоватые глаза. Она была из
+					<milestone unit="line" facs="#facs_42_tr_1_tl_23" n="N004"/>хорошей, зажиточной семьи<note/>, но вышла замуж несчастливо, <persName>муж</persName> обманы¬
+					<milestone unit="line" facs="#facs_42_tr_1_tl_24" n="N005"/>вал ее, промотал все ея состояние и, в конце концов, она развелась с ним. Она
+					<milestone unit="line" facs="#facs_42_tr_1_tl_25" n="N006"/>сумела внушить мне жалость к себе, казалась искренней, доброй. Она до-
+					<milestone unit="line" facs="#facs_42_tr_1_tl_26" n="N007"/>вольно много читала, знала очень хорошо три языка, замечания ее бывали
+					<milestone unit="line" facs="#facs_42_tr_1_tl_27" n="N008"/>иногда тонки и метки. Позже я узнала, что она была фальшива и скорее
+					<milestone unit="line" facs="#facs_42_tr_1_tl_29" n="N009"/>зла, чем добра. Она тоже как и медведи оказалась неудачным пробным &lt;этюдом&gt;
+					<milestone unit="line" facs="#facs_42_tr_1_tl_30" n="N010"/>но, творя ее, природа имела какой то широкий и богатый замысел…
+				</p>
+            <pb facs="#facs_43" n="43"/>
+            <p facs="#facs_43_r" xml:lang="ru" xml:id="p0021-ru">
+               <milestone unit="line" facs="#facs_43_l" n="N001"/>42
+				</p>
+            <p facs="#facs_43_r" xml:lang="de" corresp="#p0021-ru">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_43_l" n="N001"/>42
 				</p>
-				<p facs="#facs_43_r_6" xml:lang="ru" xml:id="p0022-ru">
-					<milestone unit="line" facs="#facs_43_l_1" n="N001"/><hi rend="strikethrough:true;">[75</hi>]
-				</p> 
-        <p facs="#facs_43_r_6" xml:lang="de" corresp="#p0022-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_43_l_1" n="N001"/><hi rend="strikethrough:true;">[75</hi>]
+            <p facs="#facs_43_r_6" xml:lang="ru" xml:id="p0022-ru">
+               <milestone unit="line" facs="#facs_43_l_1" n="N001"/>
+               <hi rend="strikethrough:true;">[75</hi>]
 				</p>
-				<p facs="#facs_43_r_3" xml:lang="ru" xml:id="p0023-ru">
+            <p facs="#facs_43_r_6" xml:lang="de" corresp="#p0022-ru">{TRANSLATION GOES HERE}
+					<milestone unit="line" facs="#facs_43_l_1" n="N001"/>
+               <hi rend="strikethrough:true;">[75</hi>]
+				</p>
+            <p facs="#facs_43_r_3" xml:lang="ru" xml:id="p0023-ru">
+               <milestone unit="line" facs="#facs_43_l_4" n="N001"/>Профессор <persName ref="#p0005">Сали</persName> принял меня, наконец, и, выслушав, не нашел моего состоя¬
+					<milestone unit="line" facs="#facs_43_l_6" n="N002"/>ния таким плохим, чтобы оставалось &lt;лишь&gt; делать ту рискованную операцию. Он по-
+					<milestone unit="line" facs="#facs_43_l_7" n="N003"/>советовал попробовать лечение пневматораксом.
+				</p>
+            <p facs="#facs_43_r_3" xml:lang="de" corresp="#p0023-ru">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_43_l_4" n="N001"/>Профессор <persName ref="#p0005">Сали</persName> принял меня, наконец, и, выслушав, не нашел моего состоя¬
 					<milestone unit="line" facs="#facs_43_l_6" n="N002"/>ния таким плохим, чтобы оставалось &lt;лишь&gt; делать ту рискованную операцию. Он по-
 					<milestone unit="line" facs="#facs_43_l_7" n="N003"/>советовал попробовать лечение пневматораксом.
-				</p> 
-        <p facs="#facs_43_r_3" xml:lang="de" corresp="#p0023-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_43_l_4" n="N001"/>Профессор <persName ref="#p0005">Сали</persName> принял меня, наконец, и, выслушав, не нашел моего состоя¬
-					<milestone unit="line" facs="#facs_43_l_6" n="N002"/>ния таким плохим, чтобы оставалось &lt;лишь&gt; делать ту рискованную операцию. Он по-
-					<milestone unit="line" facs="#facs_43_l_7" n="N003"/>советовал попробовать лечение пневматораксом.
 				</p>
-				<p facs="#facs_43_r_7" xml:lang="ru" xml:id="p0024-ru">
+            <p facs="#facs_43_r_7" xml:lang="ru" xml:id="p0024-ru">
+               <milestone unit="line" facs="#facs_43_l_8" n="N001"/>Я поселилась у &lt;своей&gt; <persName ref="#p0004">сестры милосердия</persName>, жившей неподалеку от моей прежней
+					<milestone unit="line" facs="#facs_43_l_9" n="N002"/>клиники, и пригласила к себе одного молодого доктора, специалиста по лече-
+					<milestone unit="line" facs="#facs_43_l_10" n="N003"/>нию пневматораксом. Между тем, случилось так, что сестра моя, <persName ref="#p0004">Mme</persName>
+               <milestone unit="line" facs="#facs_43_l_12" n="N004"/>
+               <persName ref="#p0004">Вärli</persName>, приняла к себе еще одну больную и на &lt;небольшой&gt; квартире нашей стало тесно.
+					<milestone unit="line" facs="#facs_43_l_32" n="N005"/>
+               <persName ref="#p0004">Mme</persName> Bärli решила тогда открыть <placeName ref="#pl0004">маленькую клинику</placeName>.
+				</p>
+            <p facs="#facs_43_r_7" xml:lang="de" corresp="#p0024-ru">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_43_l_8" n="N001"/>Я поселилась у &lt;своей&gt; <persName ref="#p0004">сестры милосердия</persName>, жившей неподалеку от моей прежней
 					<milestone unit="line" facs="#facs_43_l_9" n="N002"/>клиники, и пригласила к себе одного молодого доктора, специалиста по лече-
 					<milestone unit="line" facs="#facs_43_l_10" n="N003"/>нию пневматораксом. Между тем, случилось так, что сестра моя, <persName ref="#p0004">Mme</persName>
-					<milestone unit="line" facs="#facs_43_l_12" n="N004"/><persName ref="#p0004">Вärli</persName>, приняла к себе еще одну больную и на &lt;небольшой&gt; квартире нашей стало тесно.
-					<milestone unit="line" facs="#facs_43_l_32" n="N005"/><persName ref="#p0004">Mme</persName> Bärli решила тогда открыть <placeName ref="#pl0004">маленькую клинику</placeName>.
-				</p> 
-        <p facs="#facs_43_r_7" xml:lang="de" corresp="#p0024-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_43_l_8" n="N001"/>Я поселилась у &lt;своей&gt; <persName ref="#p0004">сестры милосердия</persName>, жившей неподалеку от моей прежней
-					<milestone unit="line" facs="#facs_43_l_9" n="N002"/>клиники, и пригласила к себе одного молодого доктора, специалиста по лече-
-					<milestone unit="line" facs="#facs_43_l_10" n="N003"/>нию пневматораксом. Между тем, случилось так, что сестра моя, <persName ref="#p0004">Mme</persName>
-					<milestone unit="line" facs="#facs_43_l_12" n="N004"/><persName ref="#p0004">Вärli</persName>, приняла к себе еще одну больную и на &lt;небольшой&gt; квартире нашей стало тесно.
-					<milestone unit="line" facs="#facs_43_l_32" n="N005"/><persName ref="#p0004">Mme</persName> Bärli решила тогда открыть <placeName ref="#pl0004">маленькую клинику</placeName>.
+               <milestone unit="line" facs="#facs_43_l_12" n="N004"/>
+               <persName ref="#p0004">Вärli</persName>, приняла к себе еще одну больную и на &lt;небольшой&gt; квартире нашей стало тесно.
+					<milestone unit="line" facs="#facs_43_l_32" n="N005"/>
+               <persName ref="#p0004">Mme</persName> Bärli решила тогда открыть <placeName ref="#pl0004">маленькую клинику</placeName>.
 				</p>
-				<p facs="#facs_43_r_2" xml:lang="ru" xml:id="p0025-ru">
-					<milestone unit="line" facs="#facs_43_l_33" n="N001"/>III.
-				</p> 
-        <p facs="#facs_43_r_2" xml:lang="de" corresp="#p0025-ru">{TRANSLATION GOES HERE}
+            <p facs="#facs_43_r_2" xml:lang="ru" xml:id="p0025-ru">
+               <milestone unit="line" facs="#facs_43_l_33" n="N001"/>III.
+				</p>
+            <p facs="#facs_43_r_2" xml:lang="de" corresp="#p0025-ru">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_43_l_33" n="N001"/>III.
 				</p>
-				<p facs="#facs_43_r_1" xml:lang="ru" xml:id="p0026-ru">
+            <p facs="#facs_43_r_1" xml:lang="ru" xml:id="p0026-ru">
+               <milestone unit="line" facs="#facs_43_l_13" n="N001"/>Я исполнила свое обещание и написала <persName ref="#p0002">Сараев</persName>у еще из <placeName ref="#pl0002">Берн</placeName>а и позже
+					<milestone unit="line" facs="#facs_43_l_14" n="N002"/>мы обменивались письмами, но не очень часто: раз в две-три недели и даже
+					<milestone unit="line" facs="#facs_43_l_15" n="N003"/>еще того реже. Вскоре оказалось, что он тоже недоволен той клиникой,
+					<milestone unit="line" facs="#facs_43_l_16" n="N004"/>хотя и начал поправляться вопреки всем мрачным предсказаниям. У меня
+					<milestone unit="line" facs="#facs_43_l_18" n="N005"/>появилась надежда, что он переедет к &lt;нам&gt; <hi rend="strikethrough:true;">[<placeName ref="#pl0004">нашу новую клинику</placeName>]</hi>.
+				</p>
+            <p facs="#facs_43_r_1" xml:lang="de" corresp="#p0026-ru">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_43_l_13" n="N001"/>Я исполнила свое обещание и написала <persName ref="#p0002">Сараев</persName>у еще из <placeName ref="#pl0002">Берн</placeName>а и позже
 					<milestone unit="line" facs="#facs_43_l_14" n="N002"/>мы обменивались письмами, но не очень часто: раз в две-три недели и даже
 					<milestone unit="line" facs="#facs_43_l_15" n="N003"/>еще того реже. Вскоре оказалось, что он тоже недоволен той клиникой,
 					<milestone unit="line" facs="#facs_43_l_16" n="N004"/>хотя и начал поправляться вопреки всем мрачным предсказаниям. У меня
 					<milestone unit="line" facs="#facs_43_l_18" n="N005"/>появилась надежда, что он переедет к &lt;нам&gt; <hi rend="strikethrough:true;">[<placeName ref="#pl0004">нашу новую клинику</placeName>]</hi>.
-				</p> 
-        <p facs="#facs_43_r_1" xml:lang="de" corresp="#p0026-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_43_l_13" n="N001"/>Я исполнила свое обещание и написала <persName ref="#p0002">Сараев</persName>у еще из <placeName ref="#pl0002">Берн</placeName>а и позже
-					<milestone unit="line" facs="#facs_43_l_14" n="N002"/>мы обменивались письмами, но не очень часто: раз в две-три недели и даже
-					<milestone unit="line" facs="#facs_43_l_15" n="N003"/>еще того реже. Вскоре оказалось, что он тоже недоволен той клиникой,
-					<milestone unit="line" facs="#facs_43_l_16" n="N004"/>хотя и начал поправляться вопреки всем мрачным предсказаниям. У меня
-					<milestone unit="line" facs="#facs_43_l_18" n="N005"/>появилась надежда, что он переедет к &lt;нам&gt; <hi rend="strikethrough:true;">[<placeName ref="#pl0004">нашу новую клинику</placeName>]</hi>.
 				</p>
-				<p facs="#facs_43_r_4" xml:lang="ru" xml:id="p0027-ru">
-					<milestone unit="line" facs="#facs_43_l_19" n="N001"/>К новому году мне стало лучше, и я начала понемногу вставать и спус¬
+            <p facs="#facs_43_r_4" xml:lang="ru" xml:id="p0027-ru">
+               <milestone unit="line" facs="#facs_43_l_19" n="N001"/>К новому году мне стало лучше, и я начала понемногу вставать и спус¬
 					<milestone unit="line" facs="#facs_43_l_20" n="N002"/>каться к столу. Однажды раздался звонок, и горничная пришла сказать мне,
 					<milestone unit="line" facs="#facs_43_l_21" n="N003"/>что меня желает видеть какой то господин. Я вышла в гостинную и с недо¬
 					<milestone unit="line" facs="#facs_43_l_22" n="N004"/>умением поглядела на господина в широкополой черной шляпе с черной бо-
 					<milestone unit="line" facs="#facs_43_l_23" n="N005"/>родкой. Он стоял передо мной с сияющим видом; на лице его так и было на-<note/>
-					<milestone unit="line" facs="#facs_43_l_24" n="N006"/>писало<note/>, что он ожидал, что я страшно обрадуюсь ему. Наконец, я узнала его.
+               <milestone unit="line" facs="#facs_43_l_24" n="N006"/>писало<note/>, что он ожидал, что я страшно обрадуюсь ему. Наконец, я узнала его.
 					<milestone unit="line" facs="#facs_43_l_25" n="N007"/>Это был <persName>Сараев</persName>. И я обрадовалась ему в глубине души, быть может, даже
 					<milestone unit="line" facs="#facs_43_l_26" n="N008"/>гораздо больше, чем он того ожидал, но внешне я очень мало проявила эту
 					<milestone unit="line" facs="#facs_43_l_27" n="N009"/>радость, отчасти благодаря своей обычной сдержанности и застенчивос¬
@@ -353,14 +398,14 @@
 					<milestone unit="line" facs="#facs_43_l_29" n="N011"/>дости: он <hi rend="underlined:true;">слишком</hi> был <hi rend="underlined:true;">уверен</hi>, что я обрадуюсь. Он был у меня на обратном
 					<milestone unit="line" facs="#facs_43_l_30" n="N012"/>пути от дантиста, его ожидал экипаж и он торопился домой. Он поло-
 					<milestone unit="line" facs="#facs_43_l_31" n="N013"/>жил в коробочку свой вырванный зуб и показывал его мне, точь в точь, как
-				</p> 
-        <p facs="#facs_43_r_4" xml:lang="de" corresp="#p0027-ru">{TRANSLATION GOES HERE}
+				</p>
+            <p facs="#facs_43_r_4" xml:lang="de" corresp="#p0027-ru">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_43_l_19" n="N001"/>К новому году мне стало лучше, и я начала понемногу вставать и спус¬
 					<milestone unit="line" facs="#facs_43_l_20" n="N002"/>каться к столу. Однажды раздался звонок, и горничная пришла сказать мне,
 					<milestone unit="line" facs="#facs_43_l_21" n="N003"/>что меня желает видеть какой то господин. Я вышла в гостинную и с недо¬
 					<milestone unit="line" facs="#facs_43_l_22" n="N004"/>умением поглядела на господина в широкополой черной шляпе с черной бо-
 					<milestone unit="line" facs="#facs_43_l_23" n="N005"/>родкой. Он стоял передо мной с сияющим видом; на лице его так и было на-<note/>
-					<milestone unit="line" facs="#facs_43_l_24" n="N006"/>писало<note/>, что он ожидал, что я страшно обрадуюсь ему. Наконец, я узнала его.
+               <milestone unit="line" facs="#facs_43_l_24" n="N006"/>писало<note/>, что он ожидал, что я страшно обрадуюсь ему. Наконец, я узнала его.
 					<milestone unit="line" facs="#facs_43_l_25" n="N007"/>Это был <persName>Сараев</persName>. И я обрадовалась ему в глубине души, быть может, даже
 					<milestone unit="line" facs="#facs_43_l_26" n="N008"/>гораздо больше, чем он того ожидал, но внешне я очень мало проявила эту
 					<milestone unit="line" facs="#facs_43_l_27" n="N009"/>радость, отчасти благодаря своей обычной сдержанности и застенчивос¬
@@ -369,7 +414,7 @@
 					<milestone unit="line" facs="#facs_43_l_30" n="N012"/>пути от дантиста, его ожидал экипаж и он торопился домой. Он поло-
 					<milestone unit="line" facs="#facs_43_l_31" n="N013"/>жил в коробочку свой вырванный зуб и показывал его мне, точь в точь, как
 				</p>
-			</div>
-		</body>
-	</text>
+         </div>
+      </body>
+   </text>
 </TEI>

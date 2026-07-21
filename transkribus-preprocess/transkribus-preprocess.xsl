@@ -46,7 +46,7 @@
   <xsl:template match="/" mode="preprocess">
     <xsl:param name="register-state" as="map(*)" tunnel="yes"/>
     
-    <xsl:result-document href="../danina.xml" indent="false">
+    <xsl:result-document href="../danina.xml" indent="true">
       <xsl:apply-templates mode="preprocess"/>
     </xsl:result-document>
     
@@ -82,8 +82,6 @@
       <xsl:attribute name="xml:id" select="'p'||$n||'-ru'"/>
       <xsl:apply-templates mode="preprocess"/>
     </xsl:copy>
-    <xsl:text> 
-        </xsl:text>
     <xsl:copy>
       <xsl:copy-of select="@*"/>
       <xsl:attribute name="xml:lang" select="'de'"/>
