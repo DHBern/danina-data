@@ -8,6 +8,7 @@
   xmlns:map="http://www.w3.org/2005/xpath-functions/map"
   xpath-default-namespace="http://www.tei-c.org/ns/1.0"
   exclude-result-prefixes="xi xs xd dsl map"
+  expand-text="true"
   version="3.0">
   <xd:doc scope="stylesheet">
     <xd:desc>
@@ -24,6 +25,11 @@
   - [x] duplicate paragraphs (for translation in LEAF writer)
   - [x] move entity information to register file
   - [x] substitute <Literary_Work> by <rs type="work">
+  - [ ] reach parity with LEAF transkribus conversion:
+     - [ ] add schema reference
+     - [ ] add xml-stylesheet PI (css)
+     - [ ] add xenodata element
+  - [ ] derive choice/sic|corr from sic/@correction
   - [ ] split file according to decisions (to be taken)
   
   -->
@@ -86,7 +92,7 @@
       <xsl:copy-of select="@*"/>
       <xsl:attribute name="xml:lang" select="'de'"/>
       <xsl:attribute name="corresp" select="'#p'||$n||'-ru'"/>
-      <xsl:text>{TRANSLATION GOES HERE}</xsl:text>
+      <xsl:text expand-text="false">{TRANSLATION GOES HERE}</xsl:text>
       <xsl:apply-templates mode="preprocess"/>
     </xsl:copy>
   </xsl:template>
