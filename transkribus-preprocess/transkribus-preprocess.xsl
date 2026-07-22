@@ -25,11 +25,11 @@
   - [x] duplicate paragraphs (for translation in LEAF writer)
   - [x] move entity information to register file
   - [x] substitute <Literary_Work> by <rs type="work">
+  - [x] derive choice/sic|corr from sic/@correction
   - [ ] reach parity with LEAF transkribus conversion:
      - [ ] add schema reference
      - [ ] add xml-stylesheet PI (css)
      - [ ] add xenodata element
-  - [ ] derive choice/sic|corr from sic/@correction
   - [ ] split file according to decisions (to be taken)
   
   -->
@@ -104,6 +104,26 @@
       </xsl:comment>
       <xsl:apply-templates mode="preprocess"/>
     </rs>
+  </xsl:template>
+  
+  <xsl:template match="sic[@correction]" mode="preprocess">
+    <choice>
+      <sic>
+        <xsl:apply-templates mode="preprocess"/>
+      </sic>
+      <corr>
+        <xsl:text>{@correction}</xsl:text>
+      </corr>
+    </choice>
+    <!-- restore trailing whitespace from sic string -->
+    <xsl:if test="ends-with(text(),' ')">
+      <xsl:text> </xsl:text>
+    </xsl:if>
+  </xsl:template>
+  
+  <!-- remove trailing spaces from sic string (unicode category Zs (space_separator) also contains nbsp) -->
+  <xsl:template match="text()[ancestor::sic and position()=last()]" mode="preprocess">
+    <xsl:sequence select="replace(.,'\p{Zs}+$','')"/>
   </xsl:template>
   
   <!-- Generic inline rewrite for all supported entity types -->

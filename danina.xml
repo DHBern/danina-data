@@ -2868,7 +2868,10 @@
 					<milestone unit="line" facs="#facs_37_tr_1_tl_16" n="N016"/>Однажды в сумерки, когда я по обыкновению лежала в своей постели, без¬
 					<milestone unit="line" facs="#facs_37_tr_1_tl_17" n="N017"/>сильно протянув руки, я услышала, что в соседнюю комнату приехал
 					<milestone unit="line" facs="#facs_37_tr_1_tl_18" n="N018"/>кто-то. «Кто это там» – мелькнуло у меня в голове. Вскоре пришла гор-
-					<milestone unit="line" facs="#facs_37_tr_1_tl_19" n="N019"/>ничная и сообщила, что приехал «un monsieur russe avec de <sic correction="beaux">beau </sic>yeux
+					<milestone unit="line" facs="#facs_37_tr_1_tl_19" n="N019"/>ничная и сообщила, что приехал «un monsieur russe avec de <choice>
+                  <sic>beau</sic>
+                  <corr>beaux</corr>
+               </choice> yeux
 					<milestone unit="line" facs="#facs_37_tr_1_tl_20" n="N020"/>
                <hi rend="strikethrough:true;">noirs</hi> &lt;noirs&gt;», но он очень болен и наверное скоро умрет.
 					<milestone unit="line" facs="#facs_37_tr_1_tl_21" n="N021"/>
@@ -2903,7 +2906,10 @@
 					<milestone unit="line" facs="#facs_37_tr_1_tl_16" n="N016"/>Однажды в сумерки, когда я по обыкновению лежала в своей постели, без¬
 					<milestone unit="line" facs="#facs_37_tr_1_tl_17" n="N017"/>сильно протянув руки, я услышала, что в соседнюю комнату приехал
 					<milestone unit="line" facs="#facs_37_tr_1_tl_18" n="N018"/>кто-то. «Кто это там» – мелькнуло у меня в голове. Вскоре пришла гор-
-					<milestone unit="line" facs="#facs_37_tr_1_tl_19" n="N019"/>ничная и сообщила, что приехал «un monsieur russe avec de <sic correction="beaux">beau </sic>yeux
+					<milestone unit="line" facs="#facs_37_tr_1_tl_19" n="N019"/>ничная и сообщила, что приехал «un monsieur russe avec de <choice>
+                  <sic>beau</sic>
+                  <corr>beaux</corr>
+               </choice> yeux
 					<milestone unit="line" facs="#facs_37_tr_1_tl_20" n="N020"/>
                <hi rend="strikethrough:true;">noirs</hi> &lt;noirs&gt;», но он очень болен и наверное скоро умрет.
 					<milestone unit="line" facs="#facs_37_tr_1_tl_21" n="N021"/>
@@ -5255,7 +5261,10 @@
 					<milestone unit="line" facs="#facs_71_tr_2_tl_7" n="N007"/>sans augmenter la tranquillité de notre
 					<milestone unit="line" facs="#facs_71_tr_2_tl_8" n="N008"/>
                <sic>adheision</sic> à la vie.
-					<milestone unit="line" facs="#facs_71_tr_2_tl_9" n="N009"/>(<sic correction="Maeterlinck">Maeterlink </sic>"La sagesse et la destinée)
+					<milestone unit="line" facs="#facs_71_tr_2_tl_9" n="N009"/>(<choice>
+                  <sic>Maeterlink</sic>
+                  <corr>Maeterlinck</corr>
+               </choice> "La sagesse et la destinée)
 				</p>
             <p facs="#facs_71_tr_2" xml:lang="de" corresp="#p0107-ru">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_71_tr_2_tl_1" n="N001"/>"Hexopoшо человеку быть одному"
@@ -5267,7 +5276,10 @@
 					<milestone unit="line" facs="#facs_71_tr_2_tl_7" n="N007"/>sans augmenter la tranquillité de notre
 					<milestone unit="line" facs="#facs_71_tr_2_tl_8" n="N008"/>
                <sic>adheision</sic> à la vie.
-					<milestone unit="line" facs="#facs_71_tr_2_tl_9" n="N009"/>(<sic correction="Maeterlinck">Maeterlink </sic>"La sagesse et la destinée)
+					<milestone unit="line" facs="#facs_71_tr_2_tl_9" n="N009"/>(<choice>
+                  <sic>Maeterlink</sic>
+                  <corr>Maeterlinck</corr>
+               </choice> "La sagesse et la destinée)
 				</p>
             <pb facs="#facs_72" n="72"/>
             <p facs="#facs_72_tr_1" xml:lang="ru" xml:id="p0108-ru">
@@ -10524,7 +10536,10 @@
 					<milestone unit="line" facs="#facs_151_tr_1_tl_26" n="N024"/>наконец, лучше, чем понимал до сих пор.
 					<milestone unit="line" facs="#facs_151_tr_1_tl_28" n="N025"/>Он писал &lt;мне прежде&gt;, что не любит меня, но я убеждена в том, что путь к <hi rend="underlined:true;">истин-</hi>
                <milestone unit="line" facs="#facs_151_tr_1_tl_29" n="N026"/>
-               <hi rend="underlined:true;">ной</hi> любви лежит именно там, где мы проходим. Мы не <sic correction="дойдем">дойдет  </sic>до конца
+               <hi rend="underlined:true;">ной</hi> любви лежит именно там, где мы проходим. Мы не <choice>
+                  <sic>дойдет</sic>
+                  <corr>дойдем</corr>
+               </choice> до конца
 					<milestone unit="line" facs="#facs_151_tr_1_tl_30" n="N027"/>этого пути, и навсегда останется это больная любовь, как и мы са-
 					<milestone unit="line" facs="#facs_151_tr_1_tl_31" n="N028"/>ми. Но все таки я не знаю чувства, более достойного названия любви,
 					<milestone unit="line" facs="#facs_151_tr_1_tl_32" n="N029"/>чем наше.
@@ -10556,7 +10571,10 @@
 					<milestone unit="line" facs="#facs_151_tr_1_tl_26" n="N024"/>наконец, лучше, чем понимал до сих пор.
 					<milestone unit="line" facs="#facs_151_tr_1_tl_28" n="N025"/>Он писал &lt;мне прежде&gt;, что не любит меня, но я убеждена в том, что путь к <hi rend="underlined:true;">истин-</hi>
                <milestone unit="line" facs="#facs_151_tr_1_tl_29" n="N026"/>
-               <hi rend="underlined:true;">ной</hi> любви лежит именно там, где мы проходим. Мы не <sic correction="дойдем">дойдет  </sic>до конца
+               <hi rend="underlined:true;">ной</hi> любви лежит именно там, где мы проходим. Мы не <choice>
+                  <sic>дойдет</sic>
+                  <corr>дойдем</corr>
+               </choice> до конца
 					<milestone unit="line" facs="#facs_151_tr_1_tl_30" n="N027"/>этого пути, и навсегда останется это больная любовь, как и мы са-
 					<milestone unit="line" facs="#facs_151_tr_1_tl_31" n="N028"/>ми. Но все таки я не знаю чувства, более достойного названия любви,
 					<milestone unit="line" facs="#facs_151_tr_1_tl_32" n="N029"/>чем наше.
@@ -10823,7 +10841,10 @@
 					<milestone unit="line" facs="#facs_156_tr_1_tl_10" n="N010"/>- „Он страшный эгоист, но по-детски: он центр всего мира. И кто Бо-
 					<milestone unit="line" facs="#facs_156_tr_1_tl_11" n="N011"/>реньку любит, тот хороший, а кто его не любит, тот плохой, а если пло-
 					<milestone unit="line" facs="#facs_156_tr_1_tl_12" n="N012"/>&lt;о&gt;хой&lt;о&gt; его любит, то значит он хороший.“
-					<milestone unit="line" facs="#facs_156_tr_1_tl_14" n="N013"/>Это она очень зло сказала, но метко: это была удачная <sic correction="карикатура">каррикатура</sic>.
+					<milestone unit="line" facs="#facs_156_tr_1_tl_14" n="N013"/>Это она очень зло сказала, но метко: это была удачная <choice>
+                  <sic>каррикатура</sic>
+                  <corr>карикатура</corr>
+               </choice>.
 					<milestone unit="line" facs="#facs_156_tr_1_tl_15" n="N014"/>21 сентября.
 					<milestone unit="line" facs="#facs_156_tr_1_tl_16" n="N015"/>У меня было много неприятностей, и я целый месяц не делала никаких
 					<milestone unit="line" facs="#facs_156_tr_1_tl_17" n="N016"/>записей в дневник. Mme Bärli прислала мне очень резкую записку с требо-
@@ -10853,7 +10874,10 @@
 					<milestone unit="line" facs="#facs_156_tr_1_tl_10" n="N010"/>- „Он страшный эгоист, но по-детски: он центр всего мира. И кто Бо-
 					<milestone unit="line" facs="#facs_156_tr_1_tl_11" n="N011"/>реньку любит, тот хороший, а кто его не любит, тот плохой, а если пло-
 					<milestone unit="line" facs="#facs_156_tr_1_tl_12" n="N012"/>&lt;о&gt;хой&lt;о&gt; его любит, то значит он хороший.“
-					<milestone unit="line" facs="#facs_156_tr_1_tl_14" n="N013"/>Это она очень зло сказала, но метко: это была удачная <sic correction="карикатура">каррикатура</sic>.
+					<milestone unit="line" facs="#facs_156_tr_1_tl_14" n="N013"/>Это она очень зло сказала, но метко: это была удачная <choice>
+                  <sic>каррикатура</sic>
+                  <corr>карикатура</corr>
+               </choice>.
 					<milestone unit="line" facs="#facs_156_tr_1_tl_15" n="N014"/>21 сентября.
 					<milestone unit="line" facs="#facs_156_tr_1_tl_16" n="N015"/>У меня было много неприятностей, и я целый месяц не делала никаких
 					<milestone unit="line" facs="#facs_156_tr_1_tl_17" n="N016"/>записей в дневник. Mme Bärli прислала мне очень резкую записку с требо-
@@ -11708,7 +11732,10 @@
 					<milestone unit="line" facs="#facs_170_tr_1_tl_21" n="N021"/>обья, "как волчeнок", по выражению бабушки. Но это только когда она стеснят&lt;??&gt;
 					<milestone unit="line" facs="#facs_170_tr_1_tl_22" n="N022"/>ся. &lt;о&gt;Когда&lt;о&gt; же она не чувствует на себе ничего взгляда и ей весело, ея глаза горят
 					<milestone unit="line" facs="#facs_170_tr_1_tl_23" n="N023"/>торжествующе и задорно, и в них как будто бегают маленькие огоньки. У Илюш-
-					<milestone unit="line" facs="#facs_170_tr_1_tl_24" n="N024"/>ки <sic correction="весну́шчатое">веснусчатое </sic>лицо, голубые глаза и белобрысые вихры. В выражении его лица
+					<milestone unit="line" facs="#facs_170_tr_1_tl_24" n="N024"/>ки <choice>
+                  <sic>веснусчатое</sic>
+                  <corr>весну́шчатое</corr>
+               </choice> лицо, голубые глаза и белобрысые вихры. В выражении его лица
 					<milestone unit="line" facs="#facs_170_tr_1_tl_25" n="N025"/>какая то странная смесь лукавства и меланхолии.
 					<milestone unit="line" facs="#facs_170_tr_1_tl_26" n="N026"/>- „А ну ка кинь вверх камень“, говорит Илюшка, когда они, уже оставши весь
 					<milestone unit="line" facs="#facs_170_tr_1_tl_27" n="N027"/>сад, снова чувствуют себя свободно друг с другом. Таня долго выбирает камень
@@ -11740,7 +11767,10 @@
 					<milestone unit="line" facs="#facs_170_tr_1_tl_21" n="N021"/>обья, "как волчeнок", по выражению бабушки. Но это только когда она стеснят&lt;??&gt;
 					<milestone unit="line" facs="#facs_170_tr_1_tl_22" n="N022"/>ся. &lt;о&gt;Когда&lt;о&gt; же она не чувствует на себе ничего взгляда и ей весело, ея глаза горят
 					<milestone unit="line" facs="#facs_170_tr_1_tl_23" n="N023"/>торжествующе и задорно, и в них как будто бегают маленькие огоньки. У Илюш-
-					<milestone unit="line" facs="#facs_170_tr_1_tl_24" n="N024"/>ки <sic correction="весну́шчатое">веснусчатое </sic>лицо, голубые глаза и белобрысые вихры. В выражении его лица
+					<milestone unit="line" facs="#facs_170_tr_1_tl_24" n="N024"/>ки <choice>
+                  <sic>веснусчатое</sic>
+                  <corr>весну́шчатое</corr>
+               </choice> лицо, голубые глаза и белобрысые вихры. В выражении его лица
 					<milestone unit="line" facs="#facs_170_tr_1_tl_25" n="N025"/>какая то странная смесь лукавства и меланхолии.
 					<milestone unit="line" facs="#facs_170_tr_1_tl_26" n="N026"/>- „А ну ка кинь вверх камень“, говорит Илюшка, когда они, уже оставши весь
 					<milestone unit="line" facs="#facs_170_tr_1_tl_27" n="N027"/>сад, снова чувствуют себя свободно друг с другом. Таня долго выбирает камень
