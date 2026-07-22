@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facsimile xmlns="http://www.tei-c.org/ns/1.0" xml:id="facs_1">
+   <surface ulx="0" uly="0" lrx="2479" lry="3508">
+      <graphic url="0001_p001.jpg" width="2479px" height="3508px"/>
+      <zone points="731,930 731,1333 1519,1333 1519,930"
+            rendition="TextRegion"
+            xml:id="facs_1_tr_1">
+         <zone points="726,1049 1437,1062 1517,1038 1517,962 1371,970 1287,907 725,923"
+               rendition="Line"
+               xml:id="facs_1_tr_1_tl_1"/>
+         <zone points="783,1274 1514,1291 1512,1204 1364,1183 1330,1205 1248,1166 1037,1213 881,1158 782,1203"
+               rendition="Line"
+               xml:id="facs_1_tr_1_tl_2"/>
+      </zone>
+   </surface>
+</facsimile>

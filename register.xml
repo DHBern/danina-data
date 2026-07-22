@@ -16,21 +16,28 @@
    <text>
       <body>
          <listPerson>
-            <person xml:id="p0001" first_name_cyrillic="Ольга">
+            <person xml:id="p0001" wikiData="Q30875">
+               <forename>Oscar</forename>
+               <surname>Wilde</surname>Оскар Уайльд</person>
+            <person xml:id="p0002"
+                    wikiData="Q96364071"
+                    pseudonym_2="Борис Яковлевич Киндман"
+                    pseudonym="Евгений Сараев">Сараев</person>
+            <person xml:id="p0003" first_name_cyrillic="Ольга">
                <forename>Ol'ga</forename>Ольга</person>
-            <person xml:id="p0002" wikiData="Q96364071">он</person>
-            <person xml:id="p0003" wikiData="Q62330">
+            <person xml:id="p0004" wikiData="Q62330">
                <forename>Ferdinand</forename>
                <surname>Sauerbruch</surname>Зауербруха</person>
-            <person xml:id="p0004" pseudonym="Mme. Bärli">
+            <person xml:id="p0005" pseudonym="Mme. Bärli">
                <forename>Hélène</forename>
                <surname>Mieg-Périllard</surname>сестра милосердия</person>
-            <person xml:id="p0005" wikiData="Q122191">
+            <person xml:id="p0006" wikiData="Q122191">
                <forename>Hermann</forename>
                <surname>Sahli</surname>
                <birth>23.5.1856</birth>
                <death>28.4.1933</death>Сали</person>
-            <person xml:id="p0006" wikiData="Q613138">Сикорского</person>
+            <person xml:id="p0007" wikiData="Q613138">Сикорского</person>
+            <person xml:id="p0008" wikiData="Q6527">Руссо </person>
          </listPerson>
          <listPlace>
             <place xml:id="pl0001" wikiData="Q72" placeName="Zürich">Цю¬</place>

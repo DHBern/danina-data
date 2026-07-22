@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facsimile xmlns="http://www.tei-c.org/ns/1.0" xml:id="facs_36">
+   <surface ulx="0" uly="0" lrx="2479" lry="3508">
+      <graphic url="0036_p036.jpg" width="2479px" height="3508px"/>
+      <zone points="2167,213 2167,387 2358,387 2358,213"
+            rendition="TextRegion"
+            xml:id="facs_36_tr_2">
+         <zone points="2164,284 2184,282 2192,291 2207,284 2226,295 2250,287 2280,293 2280,210 2256,207 2244,214 2229,199 2222,201 2216,195 2203,207 2164,212"
+               rendition="Line"
+               xml:id="facs_36_tr_2_tl_1"/>
+         <zone points="2158,387 2201,385 2241,398 2250,391 2288,417 2357,415 2350,304 2323,308 2299,293 2229,295 2152,280"
+               rendition="Line"
+               xml:id="facs_36_tr_2_tl_2"/>
+      </zone>
+      <zone points="119,420 119,607 1904,607 1904,420"
+            rendition="TextRegion"
+            xml:id="facs_36_tr_1">
+         <zone points="107,503 163,526 248,490 293,526 353,488 511,518 727,485 774,522 1176,488 1176,383 798,428 710,389 500,426 374,376 246,426 107,396"
+               rendition="Line"
+               xml:id="facs_36_tr_1_tl_1"/>
+         <zone points="182,595 404,622 868,582 973,631 1277,584 1901,605 1901,530 1764,492 1495,492 1371,545 1157,483 1057,528 911,492 770,537 614,496 528,533 182,507"
+               rendition="Line"
+               xml:id="facs_36_tr_1_tl_2"/>
+      </zone>
+   </surface>
+</facsimile>
