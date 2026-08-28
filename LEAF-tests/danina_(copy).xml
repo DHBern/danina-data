@@ -14,86 +14,7 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/danina_(copy).xml?person_annotation_20260828140614878",
-	"type": "oa:Annotation",
-	"dcterms:created": "2026-08-28T12:06:14.878Z",
-	"dcterms:modified": "2026-08-28T12:06:14.878Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/flicksolutions",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Sebastian Flick"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/danina_(copy).xml?person_annotation_20260828140614878#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/danina_(copy).xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "4.3.1"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/danina_(copy).xml?person_annotation_20260828140614878#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[25]/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q191923",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "4.3.1"
-	}
-}]]>
-        </rdf:Description>
-      </rdf:RDF></xenoData></teiHeader>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
       
    
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="facs/facs_40.xml">
@@ -140,7 +61,7 @@
 					<milestone unit="line" facs="#facs_40_l_39" n="N006"/>себе представляла. Он поклонился мне очень изящно и чувствовалось, что он &amp;lt;очень&amp;gt; до-
 					<milestone unit="line" facs="#facs_40_l_40" n="N007"/>волен тем, что держится на ногах. Он шел к доктору на изследование.
 				</p>
-            <p facs="#facs_40_r_3" xml:lang="de" corresp="#p0004-ru">{TRANSLATION GOES HERE}
+            <div facs="#facs_40_r_3" xml:lang="de" corresp="#p0004-ru">{TRANSLATION GOES HERE}
 					let's see if it works<milestone unit="line" facs="#facs_40_l_31" n="N001"/>Мне  <persName ref="#p0001">name </persName>?
 					<milestone unit="line" facs="#facs_40_l_33" n="N002"/>Через несколько дней после этого я сидела утром в кресле у окна в корри¬
 					<milestone unit="line" facs="#facs_40_l_34" n="N003"/>доре как раз напротив его двери. Вдруг его дверь отворилась, и <persName ref="#p0002">он</persName> появился на по-
@@ -148,7 +69,7 @@
 					<milestone unit="line" facs="#facs_40_l_37" n="N005"/>виде его лица, которое показалось мне некрасивым и не таким, каким я его
 					<milestone unit="line" facs="#facs_40_l_39" n="N006"/>себе представляла. Он поклонился мне очень изящно и чувствовалось, что он &amp;lt;очень&amp;gt; до-
 					<milestone unit="line" facs="#facs_40_l_40" n="N007"/>волен тем, что держится на ногах. Он шел к доктору на изследование.
-				</p>
+				</div>
             <p facs="#facs_40_r_4" xml:lang="ru" xml:id="p0005-ru">
                <milestone unit="line" facs="#facs_40_l_2" n="N001"/>Вскоре я должна была покинуть эту клинику, чтобы подвергнуться в <placeName ref="#pl0001">Цю¬</placeName>
                <milestone unit="line" facs="#facs_40_l_3" n="N002"/>
