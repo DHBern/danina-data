@@ -231,7 +231,7 @@
             <p facs="#facs_41_r_1" xml:lang="ru" xml:id="p0010-ru">
                <milestone unit="line" facs="#facs_41_tr_1_tl_3" n="N001"/>II.
 				</p>
-            <p facs="#facs_41_r_1" xml:lang="de" corresp="#p0010-ru">{TRANSLATION GOES HERE}
+            <p corresp="#p0010-ru" facs="#facs_41_r_1" xml:lang="de">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_41_tr_1_tl_3" n="N001"/>II.
 				</p>
             <p facs="#facs_41_r_2" xml:lang="ru" xml:id="p0011-ru">
