@@ -115,7 +115,7 @@
             <p facs="#facs_40_r" xml:lang="ru" xml:id="p0001-ru">
                <milestone unit="line" facs="#facs_40_l" n="N001"/>39
 				</p>
-            <p facs="#facs_40_r" xml:lang="de" corresp="#p0001-ru">{TRANSLATION GOES HERE}merge-conflict? nope, all good! <milestone unit="line" facs="#facs_40_l" n="N001"/>39
+            <p facs="#facs_40_r" xml:lang="de" corresp="#p0001-ru">{TRANSLATION GOES HERE}merge-conflict? hopefully! <milestone unit="line" facs="#facs_40_l" n="N001"/>39
 				</p>
             <p facs="#facs_40_r_2" xml:lang="ru" xml:id="p0002-ru">
                <milestone unit="line" facs="#facs_40_l_32" n="N001"/>
