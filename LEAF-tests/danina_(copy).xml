@@ -49,7 +49,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/danina_(copy).xml?place_annotation_20260828163550608",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-08-28T14:35:50.608Z",
-	"dcterms:modified": "2026-08-28T14:35:50.608Z",
+	"dcterms:modified": "2026-08-28T14:36:55.226Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/flicksolutions",
 		"@type": [
@@ -81,7 +81,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
-		"@id": "#pl0002",
+		"@id": "http://www.wikidata.org/entity/Q70",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -90,7 +90,9 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "4.3.1"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><xenoData/></teiHeader>
@@ -254,7 +256,7 @@
 					<milestone unit="line" facs="#facs_41_tr_1_tl_11" n="N003"/>маленькие дети или глядели бы воскресние из гроба…
 				</p>
             <p facs="#facs_41_r_3" xml:lang="de" corresp="#p0012-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_41_tr_1_tl_9" n="N001"/>Мы поехали в <placeName ref="#pl0002">Берн</placeName>. Все это путешествие мне казалось каким то восста-
+					<milestone unit="line" facs="#facs_41_tr_1_tl_9" n="N001"/>Мы поехали в <placeName ref="http://www.wikidata.org/entity/Q70" cert="high" key="Bern">Берн<precision match="@ref" precision="medium"/></placeName>. Все это путешествие мне казалось каким то восста-
 					<milestone unit="line" facs="#facs_41_tr_1_tl_10" n="N002"/>нием из гроба. Я глядела на все широко раскрытыми глазами, какими глядят
 					<milestone unit="line" facs="#facs_41_tr_1_tl_11" n="N003"/>маленькие дети или глядели бы воскресние из гроба…
 				</p>
