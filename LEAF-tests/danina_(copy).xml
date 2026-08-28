@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="null"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -115,7 +112,7 @@
             <p facs="#facs_40_r" xml:lang="ru" xml:id="p0001-ru">
                <milestone unit="line" facs="#facs_40_l" n="N001"/>39
 				</p>
-            <p facs="#facs_40_r" xml:lang="de" corresp="#p0001-ru">{TRANSLATION GOES HERE}merge-conflict? hopefully! <milestone unit="line" facs="#facs_40_l" n="N001"/>39
+            <p facs="#facs_40_r" xml:lang="de" corresp="#p0001-ru">{TRANSLATION GOES HERE}merge-conflict? no... <milestone unit="line" facs="#facs_40_l" n="N001"/>39
 				</p>
             <p facs="#facs_40_r_2" xml:lang="ru" xml:id="p0002-ru">
                <milestone unit="line" facs="#facs_40_l_32" n="N001"/>
