@@ -14,7 +14,167 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/danina_(copy).xml?place_annotation_20260828163550608",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-08-28T14:35:50.608Z",
+	"dcterms:modified": "2026-08-28T14:36:55.226Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/flicksolutions",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sebastian Flick"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/danina_(copy).xml?place_annotation_20260828163550608#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/danina_(copy).xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/danina_(copy).xml?place_annotation_20260828163550608#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[23]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q70",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.1"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/danina_(copy).xml?person_annotation_20260828163741545",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-08-28T14:37:41.545Z",
+	"dcterms:modified": "2026-08-28T14:37:53.173Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/flicksolutions",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Sebastian Flick"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/danina_(copy).xml?person_annotation_20260828163741545#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/danina_(copy).xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/danina_(copy).xml?person_annotation_20260828163741545#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[24]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q191923",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.1"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><xenoData/></teiHeader>
       
    
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="facs/facs_40.xml">
@@ -36,8 +196,7 @@
             <p facs="#facs_40_r" xml:lang="ru" xml:id="p0001-ru">
                <milestone unit="line" facs="#facs_40_l" n="N001"/>39
 				</p>
-            <p facs="#facs_40_r" xml:lang="de" corresp="#p0001-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_40_l" n="N001"/>39
+            <p facs="#facs_40_r" xml:lang="de" corresp="#p0001-ru">{TRANSLATION GOES HERE}merge-conflict? yep <milestone unit="line" facs="#facs_40_l" n="N001"/>39
 				</p>
             <p facs="#facs_40_r_2" xml:lang="ru" xml:id="p0002-ru">
                <milestone unit="line" facs="#facs_40_l_32" n="N001"/>
@@ -62,8 +221,9 @@
 					<milestone unit="line" facs="#facs_40_l_39" n="N006"/>себе представляла. Он поклонился мне очень изящно и чувствовалось, что он &amp;lt;очень&amp;gt; до-
 					<milestone unit="line" facs="#facs_40_l_40" n="N007"/>волен тем, что держится на ногах. Он шел к доктору на изследование.
 				</p>
-            <p facs="#facs_40_r_3" xml:lang="de" corresp="#p0004-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_40_l_31" n="N001"/>Мне сделалось жаль его, и в то же время я думала: кто она, эта <persName ref="#p0001">Ольга</persName>?
+            <div>
+			<p facs="#facs_40_r_3" xml:lang="de" corresp="#p0004-ru">{TRANSLATION GOES HERE}
+					let's see if it works<milestone unit="line" facs="#facs_40_l_31" n="N001"/>Мне  <persName ref="#p0001">name </persName>?
 					<milestone unit="line" facs="#facs_40_l_33" n="N002"/>Через несколько дней после этого я сидела утром в кресле у окна в корри¬
 					<milestone unit="line" facs="#facs_40_l_34" n="N003"/>доре как раз напротив его двери. Вдруг его дверь отворилась, и <persName ref="#p0002">он</persName> появился на по-
 					<milestone unit="line" facs="#facs_40_l_36" n="N004"/>роге, одетый в &amp;lt;серый&amp;gt; костюм. На одно мгновение я испытала чувство разочарования при
@@ -71,6 +231,7 @@
 					<milestone unit="line" facs="#facs_40_l_39" n="N006"/>себе представляла. Он поклонился мне очень изящно и чувствовалось, что он &amp;lt;очень&amp;gt; до-
 					<milestone unit="line" facs="#facs_40_l_40" n="N007"/>волен тем, что держится на ногах. Он шел к доктору на изследование.
 				</p>
+				</div>
             <p facs="#facs_40_r_4" xml:lang="ru" xml:id="p0005-ru">
                <milestone unit="line" facs="#facs_40_l_2" n="N001"/>Вскоре я должна была покинуть эту клинику, чтобы подвергнуться в <placeName ref="#pl0001">Цю¬</placeName>
                <milestone unit="line" facs="#facs_40_l_3" n="N002"/>
@@ -78,7 +239,7 @@
                <hi rend="strikethrough:true;">у одного знаменитого профессора <persName ref="#p0003">Зауербруха</persName>
                </hi> очень серьезной операции
 					<milestone unit="line" facs="#facs_40_l_4" n="N003"/>вырезывания ребер (таракопластика). Врач сказал, что это единственное
-					<milestone unit="line" facs="#facs_40_l_5" n="N004"/>средство улучшить мое состояние. Я не верила в успех операции, но согла¬
+					<milestone unit="line" facs="#facs_40_l_5" n="N004"/>средство улучшить мое <persName>состояние</persName>. Я не верила в успех операции, но согла¬
 					<milestone unit="line" facs="#facs_40_l_6" n="N005"/>силась на нее потому, что хотела положить конец моей бессмысленной
 					<milestone unit="line" facs="#facs_40_l_7" n="N006"/>жизни. В то же время, думала я, это не было бы прямым самоубиийством, так
 					<milestone unit="line" facs="#facs_40_l_8" n="N007"/>как был шанс и на благоуприятный исход. Я сама в сущности не знала, чего
@@ -153,7 +314,7 @@
             <p facs="#facs_41_r_1" xml:lang="ru" xml:id="p0010-ru">
                <milestone unit="line" facs="#facs_41_tr_1_tl_3" n="N001"/>II.
 				</p>
-            <p facs="#facs_41_r_1" xml:lang="de" corresp="#p0010-ru">{TRANSLATION GOES HERE}
+            <p corresp="#p0010-ru" facs="#facs_41_r_1" xml:lang="de">{TRANSLATION GOES HERE}
 					<milestone unit="line" facs="#facs_41_tr_1_tl_3" n="N001"/>II.
 				</p>
             <p facs="#facs_41_r_2" xml:lang="ru" xml:id="p0011-ru">
@@ -174,7 +335,7 @@
 					<milestone unit="line" facs="#facs_41_tr_1_tl_11" n="N003"/>маленькие дети или глядели бы воскресние из гроба…
 				</p>
             <p facs="#facs_41_r_3" xml:lang="de" corresp="#p0012-ru">{TRANSLATION GOES HERE}
-					<milestone unit="line" facs="#facs_41_tr_1_tl_9" n="N001"/>Мы поехали в <placeName ref="#pl0002">Берн</placeName>. Все это путешествие мне казалось каким то восста-
+					<milestone unit="line" facs="#facs_41_tr_1_tl_9" n="N001"/>Мы поехали в <placeName ref="http://www.wikidata.org/entity/Q70" cert="high" key="Bern">Берн<precision match="@ref" precision="medium"/></placeName>. Все это путешествие мне казалось каким то восста-
 					<milestone unit="line" facs="#facs_41_tr_1_tl_10" n="N002"/>нием из гроба. Я глядела на все широко раскрытыми глазами, какими глядят
 					<milestone unit="line" facs="#facs_41_tr_1_tl_11" n="N003"/>маленькие дети или глядели бы воскресние из гроба…
 				</p>
@@ -183,7 +344,7 @@
 					<milestone unit="line" facs="#facs_41_tr_1_tl_13" n="N002"/>коротких выше колен панталончиках и матросской куртке. Он не мог ни
 					<milestone unit="line" facs="#facs_41_tr_1_tl_14" n="N003"/>минуты посидеть спокойно, прыгал, хохотал, играл со своими и чужими ве-
 					<milestone unit="line" facs="#facs_41_tr_1_tl_15" n="N004"/>щами. В нем чувствовалось любимое и балованное дитя. А рядом с ним сидел
-					<milestone unit="line" facs="#facs_41_tr_1_tl_16" n="N005"/>маленький мулат со смуглым, но не черным лицом, безобразный, с талотой
+					<milestone unit="line" facs="#facs_41_tr_1_tl_16" n="N005"/>маленький <persName key="mulatto" ref="http://www.wikidata.org/entity/Q191923">мулат</persName> со смуглым, но не черным лицом, безобразный, с талотой
 					<milestone unit="line" facs="#facs_41_tr_1_tl_17" n="N006"/>выпяченной губой. Он был одет в серый неуклюжий костюм и какие то не-
 					<milestone unit="line" facs="#facs_41_tr_1_tl_18" n="N007"/>лепые панталоны. И эти ужасные панталоны и жалкая и восторжен-
 					<milestone unit="line" facs="#facs_41_tr_1_tl_19" n="N008"/>ная улыбка, с какой он, сидя смирно на лавке, глядел на маленького кра¬
@@ -416,7 +577,7 @@
 					<milestone unit="line" facs="#facs_43_l_30" n="N012"/>пути от дантиста, его ожидал экипаж и он торопился домой. Он поло-
 					<milestone unit="line" facs="#facs_43_l_31" n="N013"/>жил в коробочку свой вырванный зуб и показывал его мне, точь в точь, как
 				</p>
-         </div>
+         </div><div resp="Sebastian Flick" type="translation" xml:lang="de"><p>Er tat mir leid, und gleichzeitig fragte ich mich: Wer ist diese Olga? Ein paar Tage später saß ich auf einem Stuhl am Fenster im Flur, direkt gegenüber seiner Tür. Plötzlich öffnete sich die Tür, und er erschien in einem grauen Anzug auf der Schwelle. Einen Moment lang überkam mich ein Gefühl der Enttäuschung beim Anblick seines Gesichts, das mir hässlich und ganz anders erschien, als ich es mir vorgestellt hatte. Er verbeugte sich sehr anmutig vor mir, und man sah ihm an, wie froh er war, wieder auf den Beinen zu sein. Er ging zur Untersuchung zum Arzt.</p></div>
       </body>
    </text>
 </TEI>
