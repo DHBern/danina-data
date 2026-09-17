@@ -10,6 +10,7 @@
   exclude-result-prefixes="xi xs xd dsl map"
   expand-text="true"
   version="3.0">
+  <!-- {http://www.w3.org/1999/XSL/Transform}initial-template -->
   <xd:doc scope="stylesheet">
     <xd:desc>
       <xd:p><xd:b>Created on:</xd:b> Jul 21, 2026</xd:p>
@@ -23,46 +24,53 @@
   
   - [x] substitute lb by milestone/@unit=line
   - [x] duplicate paragraphs (for translation in LEAF writer)
-  - [x] move entity information to register file
-  - [x] substitute <Literary_Work> by <rs type="work">
-  - [x] derive choice/sic|corr from sic/@correction
   - [ ] reach parity with LEAF transkribus conversion:
      - [ ] add schema reference
      - [ ] add xml-stylesheet PI (css)
      - [ ] add xenodata element
   - [ ] split file according to decisions (to be taken)
+  - [ ] hyphenation ¬
   
   -->
   
 <!--  <xsl:strip-space elements="*"/>-->
   
   <xsl:mode name="preprocess" on-no-match="shallow-copy"/>
+  <xsl:mode name="preprocess-integrate" on-no-match="shallow-copy"/>
   
   <xsl:template name="xsl:initial-template">
     <xsl:variable name="uris" as="xs:string*" select="uri-collection('input-file?select=*.xml')"/>
     <xsl:assert test="count($uris) = 1">Expected exactly one XML file in input-file.</xsl:assert>
     
-    <xsl:variable name="register-state" as="map(*)" select="$uris => doc() => dsl:register()"/>
+    <xsl:apply-templates select="$uris => doc()" mode="preprocess"/>
     
-    <xsl:apply-templates select="$uris => doc()" mode="preprocess">
-      <xsl:with-param name="register-state" as="map(*)" tunnel="yes" select="$register-state"/>
-    </xsl:apply-templates>
   </xsl:template>
   
   <xsl:template match="/" mode="preprocess">
-    <xsl:param name="register-state" as="map(*)" tunnel="yes"/>
     
     <xsl:result-document href="../danina.xml" indent="true">
       <xsl:apply-templates mode="preprocess"/>
     </xsl:result-document>
-    
-    <xsl:call-template name="register">
-      <xsl:with-param name="register-state" select="$register-state"/>
-    </xsl:call-template>
-    
+        
   </xsl:template>
   
-  <xsl:template match="facsimile" mode="preprocess">
+  <xsl:template match="profileDesc" mode="preprocess">
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData>
+    <xsl:copy>
+      <xsl:copy-of select="@*"/>
+      <xsl:apply-templates mode="preprocess"/>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="langUsage" mode="preprocess">
+    <xsl:copy>
+      <xsl:copy-of select="@*"/>
+      <language ident="ru">Russisch</language>
+      <language ident="de">Deutsch</language>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="surface" mode="preprocess">
     <xsl:result-document href="../facs/{@xml:id}.xml" indent="true">
       <xsl:sequence select="."/>
     </xsl:result-document>
@@ -78,263 +86,131 @@
     </milestone>
   </xsl:template>
   
+  <xsl:template match="lb" mode="preprocess-integrate">
+    <milestone unit="line">
+      <xsl:sequence select="@*"/>
+    </milestone>
+  </xsl:template>
+  
   <xsl:template match="p" mode="preprocess">
     <xsl:variable name="n" as="xs:string">
       <xsl:number level="any" count="p" format="0000"/>
     </xsl:variable>
+    <xsl:variable name="next-p" select="following::p[1]/generate-id()"/>
     <xsl:copy>
       <xsl:copy-of select="@*"/>
       <xsl:attribute name="xml:lang" select="'ru'"/>
       <xsl:attribute name="xml:id" select="'p'||$n||'-ru'"/>
       <xsl:apply-templates mode="preprocess"/>
+      <!-- merge in all following pb, fw, and ab until the next p -->
+      <xsl:if test="ancestor::text">      
+        <xsl:apply-templates select="following-sibling::node()[following::p[generate-id()=$next-p]] except self::ab[@type='dated_entry_header']" mode="preprocess-integrate"/>
+      </xsl:if>
     </xsl:copy>
+    <!-- German translation -->
     <xsl:copy>
       <xsl:copy-of select="@*"/>
       <xsl:attribute name="xml:lang" select="'de'"/>
       <xsl:attribute name="corresp" select="'#p'||$n||'-ru'"/>
       <xsl:text expand-text="false">{TRANSLATION GOES HERE}</xsl:text>
+      <xsl:apply-templates select="node()" mode="preprocess-integrate"/>
+      <!-- merge in all following pb, fw, and ab until the next p -->
+      <xsl:if test="ancestor::text">    
+        <xsl:apply-templates select="following-sibling::node()[following::p[generate-id()=$next-p]] except self::ab[@type='dated_entry_header']" mode="preprocess-integrate">
+          <xsl:with-param name="lang" select="'de'" tunnel="true"/>
+        </xsl:apply-templates>
+      </xsl:if>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="head" mode="preprocess">
+    <xsl:copy>
+      <xsl:copy-of select="@*"/>
+      <xsl:apply-templates mode="preprocess"/>
+    </xsl:copy>
+    <!-- German translation -->
+    <xsl:copy>
+      <xsl:copy-of select="@*"/>
+      <xsl:attribute name="xml:lang" select="'de'"/>
+      <xsl:text expand-text="false">{TRANSLATION GOES HERE}</xsl:text>
       <xsl:apply-templates mode="preprocess"/>
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="Literary_Work" mode="preprocess">
-    <rs type="work">
-      <xsl:comment>
-        <xsl:sequence select="@Comment"/>
-      </xsl:comment>
-      <xsl:apply-templates mode="preprocess"/>
-    </rs>
+  <xsl:template match="ab[@type='paragraph_to_be_merged_with_previous']" mode="preprocess"/>
+  
+  <xsl:template match="ab[@type='paragraph_to_be_merged_with_previous']" mode="preprocess-integrate">
+    <xsl:comment>MERGED: 
+    </xsl:comment> 
+    <xsl:apply-templates mode="preprocess-integrate"/>
   </xsl:template>
   
-  <xsl:template match="sic[@correction]" mode="preprocess">
-    <choice>
-      <sic>
+  <xsl:template match="ab[@type='page_number__deleted_or_striked_out']" mode="preprocess-integrate">
+    <fw>
+      <xsl:sequence select="@facs,@type"/>
+      <del>
         <xsl:apply-templates mode="preprocess"/>
-      </sic>
-      <corr>
-        <xsl:text>{@correction}</xsl:text>
-      </corr>
-    </choice>
-    <!-- restore trailing whitespace from sic string -->
-    <xsl:if test="ends-with(text(),' ')">
-      <xsl:text> </xsl:text>
-    </xsl:if>
+      </del>
+    </fw>
   </xsl:template>
   
-  <!-- remove trailing spaces from sic string (unicode category Zs (space_separator) also contains nbsp) -->
-  <xsl:template match="text()[ancestor::sic and position()=last()]" mode="preprocess">
-    <xsl:sequence select="replace(.,'\p{Zs}+$','')"/>
+  <xsl:template match="ab[@type='quotation']" mode="preprocess">
+    <p>
+      <quote>
+        <xsl:apply-templates mode="preprocess"/>
+      </quote>
+    </p>
+    <!-- German translation -->
+    <p xml:lang="de">
+      <quote>
+        <xsl:text expand-text="false">{TRANSLATION GOES HERE}</xsl:text>
+        <xsl:apply-templates mode="preprocess"/>
+      </quote>
+    </p>
   </xsl:template>
   
-  <!-- Generic inline rewrite for all supported entity types -->
-  <xsl:template match="persName | placeName" mode="preprocess">
-    <xsl:param name="register-state" as="map(*)" tunnel="yes"/>
-    
-    <xsl:variable name="key" as="xs:string?" select="dsl:lookup-key(.)"/>
-    <xsl:variable name="id" as="xs:string?" select="
-      if (exists($key) and map:contains($register-state?register, $key))
-      then $register-state?register($key)?id
-      else ()
-      "/>
-    <xsl:variable name="spec" as="map(*)" select="dsl:entity-spec(.)"/>
-    <xsl:variable name="drop" as="xs:string*" select="$spec?drop-attrs"/>
-    
-    <xsl:element name="{name()}" namespace="http://www.tei-c.org/ns/1.0">
-      <xsl:copy-of select="@*[not(local-name() = $drop)]"/>
-      <xsl:if test="exists($id)">
-        <xsl:attribute name="ref" select="'#' || $id"/>
-      </xsl:if>
-      <xsl:apply-templates select="node() except (birth, country, death, forename, surname)" mode="preprocess"/>
-    </xsl:element>
+  <xsl:template match="ab[@type='quotation']" mode="preprocess-integrate">
+    <quote>
+      <xsl:apply-templates mode="preprocess"/>
+    </quote>
   </xsl:template>
   
-  <xsl:template name="register">
-    <xsl:param name="register-state" as="map(*)"/>
-    <xsl:result-document href="../register.xml" indent="true">
-      <TEI>
-        <teiHeader>
-          <fileDesc>
-            <titleStmt>
-              <title type="main">Entity register</title>
-            </titleStmt>
-            <publicationStmt>
-              <p>Generated by transkribus-preprocess.xsl</p>
-            </publicationStmt>
-            <sourceDesc>
-              <p>Derived from source TEI document.</p>
-            </sourceDesc>
-          </fileDesc>
-        </teiHeader>
-        <text>
-          <body>
-            <listPerson>
-              <xsl:perform-sort select="
-                map:keys($register-state?register) ! $register-state?register(.)[?kind = 'persName']?entry">
-                <xsl:sort select="@xml:id"/>
-              </xsl:perform-sort>
-            </listPerson>
-            <listPlace>
-              <xsl:perform-sort select="
-                map:keys($register-state?register) ! $register-state?register(.)[?kind = 'placeName']?entry">
-                <xsl:sort select="@xml:id"/>
-              </xsl:perform-sort>
-            </listPlace>
-          </body>
-        </text>
-      </TEI>
-    </xsl:result-document>
+  <xsl:template match="ab[@type='dated_entry_header']" mode="preprocess-integrate"/>
+    
+  <xsl:template match="ab[@type='dated_entry_header']" mode="preprocess">
+    <p>
+      <xsl:copy-of select="@* except @type"/>
+      <xsl:attribute name="ana" select="@type"/>
+      <xsl:apply-templates mode="preprocess"/>
+    </p>
+    <!-- German translation -->
+    <p>
+      <xsl:copy-of select="@* except @type"/>
+      <xsl:attribute name="ana" select="@type"/>
+      <xsl:text expand-text="false">{TRANSLATION GOES HERE}</xsl:text>
+      <xsl:apply-templates mode="preprocess"/>
+    </p>
   </xsl:template>
   
-  <!-- functions -->
-  
-  <xsl:function name="dsl:register" as="map(*)">
-    <xsl:param name="doc" as="document-node()"/>
+  <xsl:template match="pb[following-sibling::p|following-sibling::ab[starts-with(@type,'paragraph')]]" mode="preprocess"/>
     
-    <xsl:iterate select="$doc//(persName | placeName)">
-      <xsl:param name="state" as="map(*)"
-        select="map{
-        'register' : map{},
-        'counters' : map{}
-        }"/>
-      <xsl:on-completion select="$state"/>
-      
-      <xsl:variable name="key" as="xs:string?" select="dsl:lookup-key(.)"/>
-      <xsl:variable name="spec" as="map(*)?" select="dsl:entity-spec(.)"/>
-      
-      <xsl:choose>
-        <xsl:when test="empty($key) or empty($spec)">
-          <xsl:next-iteration>
-            <xsl:with-param name="state" select="$state"/>
-          </xsl:next-iteration>
-        </xsl:when>
-        
-        <xsl:when test="map:contains($state?register, $key)">
-          <xsl:next-iteration>
-            <xsl:with-param name="state" select="$state"/>
-          </xsl:next-iteration>
-        </xsl:when>
-        
-        <xsl:otherwise>
-          <xsl:variable name="kind" as="xs:string" select="$spec?kind"/>
-          <xsl:variable name="prefix" as="xs:string" select="$spec?prefix"/>
-          <xsl:variable name="entry-name" as="xs:string" select="$spec?entry-name"/>
-          
-          <xsl:variable name="old-count" as="xs:integer"
-            select="if (map:contains($state?counters, $kind))
-            then $state?counters($kind)
-            else 0"/>
-          <xsl:variable name="new-count" as="xs:integer" select="$old-count + 1"/>
-          <xsl:variable name="new-id" as="xs:string"
-            select="$prefix || format-integer($new-count, '0000')"/>
-          
-          <xsl:variable name="entry" as="element()"
-            select="dsl:make-entry(., $new-id, $entry-name)"/>
-          
-          <xsl:variable name="new-counters" as="map(*)"
-            select="map:put($state?counters, $kind, $new-count)"/>
-          
-          <xsl:variable name="new-register" as="map(*)"
-            select="
-            map:put(
-            $state?register,
-            $key,
-            map{
-            'id'   : $new-id,
-            'kind' : $kind,
-            'entry': $entry
-            }
-            )
-            "/>
-          
-          <xsl:next-iteration>
-            <xsl:with-param name="state"
-              select="map{
-              'register' : $new-register,
-              'counters' : $new-counters
-              }"/>
-          </xsl:next-iteration>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:iterate>
-  </xsl:function>
+  <xsl:template match="fw[@type='page-number'][following-sibling::p|following-sibling::ab[starts-with(@type,'paragraph')]]" mode="preprocess"/>
   
-  <xsl:function name="dsl:entity-spec" as="map(*)?">
-    <xsl:param name="n" as="element()"/>
-    <xsl:sequence select="
-      if ($n/self::persName) then
-      map{
-      'kind'      : 'persName',
-      'prefix'    : 'p',
-      'entry-name': 'person',
-      'drop-attrs': ('wikiData','pseudonym','pseudonym_2','pseudonym_3','first_name_cyrillic')
-      }
-      else if ($n/self::placeName) then
-      map{
-      'kind'      : 'placeName',
-      'prefix'    : 'pl',
-      'entry-name': 'place',
-      'drop-attrs': ('wikiData','placeName')
-      }
-      else ()
-      "/>
-  </xsl:function>
+  <xsl:template match="ab[@type='page_number__deleted_or_striked_out'][following-sibling::p|following-sibling::ab[starts-with(@type,'paragraph')]]" mode="preprocess"/>
   
-  <xsl:function name="dsl:make-entry" as="element()">
-    <xsl:param name="n" as="element()"/>
-    <xsl:param name="id" as="xs:string"/>
-    <xsl:param name="entry-name" as="xs:string"/>
-    
-    <xsl:element name="{$entry-name}" namespace="http://www.tei-c.org/ns/1.0">
-      <xsl:attribute name="xml:id" select="$id"/>
-      <xsl:copy-of select="$n/@*"/>
-      <xsl:copy-of select="$n/node()"/>
-    </xsl:element>
-  </xsl:function>
-  
-  <xsl:function name="dsl:lookup-key" as="xs:string?">
-    <xsl:param name="n" as="element()"/>
-    
+  <xsl:template match="pb" mode="preprocess-integrate">
+    <xsl:param name="lang" tunnel="true"/>
     <xsl:choose>
-      <xsl:when test="$n/self::persName">
-        <xsl:choose>
-          <xsl:when test="normalize-space(string($n/@wikiData))">
-            <xsl:sequence select="'persName:wikidata:' || normalize-space(string($n/@wikiData))"/>
-          </xsl:when>
-          <xsl:when test="normalize-space(string($n/@pseudonym))">
-            <xsl:sequence select="'persName:pseudonym:' || dsl:normalize-key(string($n/@pseudonym))"/>
-          </xsl:when>
-          <xsl:when test="normalize-space(string($n/@first_name_cyrillic))">
-            <xsl:sequence select="'persName:first_name_cyrillic:' || dsl:normalize-key(string($n/@first_name_cyrillic))"/>
-          </xsl:when>
-          <xsl:otherwise><xsl:sequence select="()"/></xsl:otherwise>
-        </xsl:choose>
+      <xsl:when test="$lang='de'">
+        <xsl:copy>
+          <xsl:copy-of select="@*"/>
+          <xsl:attribute name="xml:id" select="@xml:id||'-de'"/>
+        </xsl:copy>
       </xsl:when>
-      
-      <xsl:when test="$n/self::placeName">
-        <xsl:choose>
-          <xsl:when test="normalize-space(string($n/@wikiData))">
-            <xsl:sequence select="'placeName:wikidata:' || normalize-space(string($n/@wikiData))"/>
-          </xsl:when>
-          <xsl:when test="normalize-space(string($n/@placeName))">
-            <xsl:sequence select="'placeName:placeName:' || dsl:normalize-key(string($n/@placeName))"/>
-          </xsl:when>
-          <xsl:otherwise><xsl:sequence select="()"/></xsl:otherwise>
-        </xsl:choose>
-      </xsl:when>
-      
-      <xsl:otherwise><xsl:sequence select="()"/></xsl:otherwise>
+      <xsl:otherwise>
+        <xsl:copy-of select="."/>
+      </xsl:otherwise>
     </xsl:choose>
-  </xsl:function>
-  
-  <xsl:function name="dsl:normalize-key" as="xs:string">
-    <xsl:param name="s" as="xs:string?"/>
-    <xsl:sequence select="
-      $s
-      => normalize-space()
-      => replace('\.+', '')
-      => replace('\s+', ' ')
-      => lower-case()
-      "/>
-  </xsl:function>
+  </xsl:template>
   
 </xsl:transform>
