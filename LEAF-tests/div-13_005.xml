@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" href="null"?>
+<?xml-stylesheet type="text/css" href="null"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <rdf:RDF xmlns:as="http://www.w3.org/ns/activitystreams#"
+                  xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+                  xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+                  xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+                  xmlns:dc="http://purl.org/dc/elements/1.1/"
+                  xmlns:dcterms="http://purl.org/dc/terms/"
+                  xmlns:fabio="https://purl.org/spar/fabio#"
+                  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                  xmlns:geo="http://www.geonames.org/ontology#"
+                  xmlns:oa="http://www.w3.org/ns/oa#"
+                  xmlns:org="http://www.w3.org/ns/org#"
+                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                  xmlns:schema="http://schema.org/"
+                  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"/>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <body>
+         <p facs="#facs_123_r_3" xml:lang="de" corresp="#p0378-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_123_l_57" n="N001"/>Однажды он сказал: «Вы может быть этого не поймете, но когд<hi style="text-decoration: line-through;">а люби</hi>шь
+               <milestone unit="line" facs="#facs_123_l_58" n="N002"/>влюблен, особенно в первый раз, так <hi style="text-decoration: underline;">это</hi> (физическая близость) невозможно». Он
+               <milestone unit="line" facs="#facs_123_l_59" n="N003"/>говорил об Ольге.
+            </p>
+         <p facs="#facs_123_r_1" xml:lang="ru" xml:id="p0379-ru">
+            <milestone unit="line" facs="#facs_123_l_29" n="N001"/>Сегодня я имею намерение пуститься в рассуждения, не особенно мне подобающие.
+               <milestone unit="line" facs="#facs_123_l_30" n="N002"/>Возможно, что я наговорю ужасной чепухи, но возможно, что и нет.
+            <pb facs="#facs_124" n="124" xml:id="img_0124"/>
+            <fw facs="#facs_124_r" type="page-number" place="top">
+               <milestone unit="line" facs="#facs_124_l" n="N001"/>122</fw>
+         </p>
+         <p facs="#facs_123_r_1" xml:lang="de" corresp="#p0379-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_123_l_29" n="N001"/>Сегодня я имею намерение пуститься в рассуждения, не особенно мне подобающие.
+               <milestone unit="line" facs="#facs_123_l_30" n="N002"/>Возможно, что я наговорю ужасной чепухи, но возможно, что и нет.
+            <pb facs="#facs_124" n="124" xml:id="img_0124-de"/>
+            <fw facs="#facs_124_r" type="page-number" place="top">
+               <milestone unit="line" facs="#facs_124_l" n="N001"/>122</fw>
+         </p>
+         <p facs="#facs_124_r_2" xml:lang="ru" xml:id="p0380-ru">
+            <milestone unit="line" facs="#facs_124_l_31" n="N001"/>Мне кажется, что «это» должно было бы быть невозможно, ког<hi style="text-decoration: underline;">да</hi> не любишь. По
+               <milestone unit="line" facs="#facs_124_l_32" n="N002"/>крайней мере для меня это так. Когда любишь – «это» становится чисто, невинно,
+               <milestone unit="line" facs="#facs_124_l_33" n="N003"/>прекрасно. И не стыдно. Тогда весь мир освещается каким-то ослепительным светом,
+               <milestone unit="line" facs="#facs_124_l_34" n="N004"/>все становится ясно, понятно, вплоть до смысла жизни и смерти. Так это должно
+               <milestone unit="line" facs="#facs_124_l_35" n="N005"/>было бы быть для всех, но так это в действительности лишь для тех счастлив-
+               <milestone unit="line" facs="#facs_124_l_36" n="N006"/>
+            <milestone unit="line" facs="#facs_124_l_37" n="N007"/>цев, которые любят друг друга, &lt;любят впервые&gt;, по настоящему,  те, сначала душу, а вместе с ней, но
+               <milestone unit="line" facs="#facs_124_l_38" n="N008"/>уже много спустя и тело. Но для тех, кто привык отдавать или брать
+               <milestone unit="line" facs="#facs_124_l_39" n="N009"/>тело без души (он сказал о себе: «мальчишка я был очень распущенный») все это
+               <milestone unit="line" facs="#facs_124_l_40" n="N010"/>должно быть <hi style="text-decoration: underline;">навеки</hi> испорчено, осквернено и разбито. И это ужасно. Неужели
+               <milestone unit="line" facs="#facs_124_l_41" n="N011"/>никогда не будет возможно иначе воспитывать детей, которых теперь так ка-
+               <milestone unit="line" facs="#facs_124_l_42" n="N012"/>лечит?
+            </p>
+         <p facs="#facs_124_r_2" xml:lang="de" corresp="#p0380-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_124_l_31" n="N001"/>Мне кажется, что «это» должно было бы быть невозможно, ког<hi style="text-decoration: underline;">да</hi> не любишь. По
+               <milestone unit="line" facs="#facs_124_l_32" n="N002"/>крайней мере для меня это так. Когда любишь – «это» становится чисто, невинно,
+               <milestone unit="line" facs="#facs_124_l_33" n="N003"/>прекрасно. И не стыдно. Тогда весь мир освещается каким-то ослепительным светом,
+               <milestone unit="line" facs="#facs_124_l_34" n="N004"/>все становится ясно, понятно, вплоть до смысла жизни и смерти. Так это должно
+               <milestone unit="line" facs="#facs_124_l_35" n="N005"/>было бы быть для всех, но так это в действительности лишь для тех счастлив-
+               <milestone unit="line" facs="#facs_124_l_36" n="N006"/>
+            <milestone unit="line" facs="#facs_124_l_37" n="N007"/>цев, которые любят друг друга, &lt;любят впервые&gt;, по настоящему,  те, сначала душу, а вместе с ней, но
+               <milestone unit="line" facs="#facs_124_l_38" n="N008"/>уже много спустя и тело. Но для тех, кто привык отдавать или брать
+               <milestone unit="line" facs="#facs_124_l_39" n="N009"/>тело без души (он сказал о себе: «мальчишка я был очень распущенный») все это
+               <milestone unit="line" facs="#facs_124_l_40" n="N010"/>должно быть <hi style="text-decoration: underline;">навеки</hi> испорчено, осквернено и разбито. И это ужасно. Неужели
+               <milestone unit="line" facs="#facs_124_l_41" n="N011"/>никогда не будет возможно иначе воспитывать детей, которых теперь так ка-
+               <milestone unit="line" facs="#facs_124_l_42" n="N012"/>лечит?
+            </p>
+         <p facs="#facs_124_r_1" xml:lang="ru" xml:id="p0381-ru">
+            <milestone unit="line" facs="#facs_124_l_1" n="N001"/>Что же однако, из всего этого следует? Не воображаю ли я на основании его
+               <milestone unit="line" facs="#facs_124_l_2" n="N002"/>слов: «когда любишь, то это невозможно», что и меня он любит по-настоящему,
+               <milestone unit="line" facs="#facs_124_l_3" n="N003"/>хотя бы и бессознательно. Если он любит только мою душу, для него не имеет
+               <milestone unit="line" facs="#facs_124_l_4" n="N004"/>значения – мужчина я или женщина. <hi style="text-decoration: underline;">В ней</hi> нравились ему глаза, и воло-
+               <milestone unit="line" facs="#facs_124_l_5" n="N005"/>сы. А до моих глаз ему нет дела. Но ведь и глаза мои теперь не те, что были
+               <milestone unit="line" facs="#facs_124_l_6" n="N006"/>в восемнадцать лет. И если бы он увидел их тогда, кто знает, может быть
+               <milestone unit="line" facs="#facs_124_l_7" n="N007"/>они тоже показались бы ему бездонными.
+            </p>
+         <p facs="#facs_124_r_1" xml:lang="de" corresp="#p0381-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_124_l_1" n="N001"/>Что же однако, из всего этого следует? Не воображаю ли я на основании его
+               <milestone unit="line" facs="#facs_124_l_2" n="N002"/>слов: «когда любишь, то это невозможно», что и меня он любит по-настоящему,
+               <milestone unit="line" facs="#facs_124_l_3" n="N003"/>хотя бы и бессознательно. Если он любит только мою душу, для него не имеет
+               <milestone unit="line" facs="#facs_124_l_4" n="N004"/>значения – мужчина я или женщина. <hi style="text-decoration: underline;">В ней</hi> нравились ему глаза, и воло-
+               <milestone unit="line" facs="#facs_124_l_5" n="N005"/>сы. А до моих глаз ему нет дела. Но ведь и глаза мои теперь не те, что были
+               <milestone unit="line" facs="#facs_124_l_6" n="N006"/>в восемнадцать лет. И если бы он увидел их тогда, кто знает, может быть
+               <milestone unit="line" facs="#facs_124_l_7" n="N007"/>они тоже показались бы ему бездонными.
+            </p>
+         <p facs="#facs_124_r_3" xml:lang="ru" xml:id="p0382-ru">
+            <milestone unit="line" facs="#facs_124_l_19" n="N001"/>Чудесно, чудесно, продолжай свои изследования! К чему это может повести?
+               <milestone unit="line" facs="#facs_124_l_21" n="N002"/>
+            <hi style="text-decoration: line-through;">Только</hi> &lt;Только&gt; к тому, что у меня окончательно зайдет ум за разум. Несносная я!
+               <milestone unit="line" facs="#facs_124_l_22" n="N003"/>Я вижу окончательно, что я <hi style="text-decoration: underline;">хочу</hi>, чтобы он любил меня по настоящему. Я
+               <milestone unit="line" facs="#facs_124_l_23" n="N004"/>должна признаться, что плакала, когда получила его письмо с выговором.
+               <milestone unit="line" facs="#facs_124_l_24" n="N005"/>Но сегодня мне снилось, будто я получила от него другое письмо, начинавшееся
+               <milestone unit="line" facs="#facs_124_l_25" n="N006"/>словами: «ну да<hi style="text-decoration: underline;">, конечно </hi>же: я люблю тебя, моя милая.» К сожалению, я не
+               <milestone unit="line" facs="#facs_124_l_26" n="N007"/>могла разобрать, что было написано дальше – Боже мой, до чего я глупа!
+            </p>
+         <p facs="#facs_124_r_3" xml:lang="de" corresp="#p0382-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_124_l_19" n="N001"/>Чудесно, чудесно, продолжай свои изследования! К чему это может повести?
+               <milestone unit="line" facs="#facs_124_l_21" n="N002"/>
+            <hi style="text-decoration: line-through;">Только</hi> &lt;Только&gt; к тому, что у меня окончательно зайдет ум за разум. Несносная я!
+               <milestone unit="line" facs="#facs_124_l_22" n="N003"/>Я вижу окончательно, что я <hi style="text-decoration: underline;">хочу</hi>, чтобы он любил меня по настоящему. Я
+               <milestone unit="line" facs="#facs_124_l_23" n="N004"/>должна признаться, что плакала, когда получила его письмо с выговором.
+               <milestone unit="line" facs="#facs_124_l_24" n="N005"/>Но сегодня мне снилось, будто я получила от него другое письмо, начинавшееся
+               <milestone unit="line" facs="#facs_124_l_25" n="N006"/>словами: «ну да<hi style="text-decoration: underline;">, конечно </hi>же: я люблю тебя, моя милая.» К сожалению, я не
+               <milestone unit="line" facs="#facs_124_l_26" n="N007"/>могла разобрать, что было написано дальше – Боже мой, до чего я глупа!
+            </p>
+         <p facs="#facs_124_r_4" ana="dated_entry_header">
+            <milestone unit="line" facs="#facs_124_l_8" n="N001"/>25 октября.
+            </p>
+         <p facs="#facs_124_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_124_l_8" n="N001"/>25 октября.
+            </p>
+         <p facs="#facs_124_r_6" xml:lang="ru" xml:id="p0383-ru">
+            <milestone unit="line" facs="#facs_124_l_9" n="N001"/>Я сижу и улыбаюсь сейчас. Только что была у меня Mme. Вärli, и сказала
+               <milestone unit="line" facs="#facs_124_l_10" n="N002"/>между прочим: «Я сейчас совершила почти преступление». Я взглянула на
+            <pb facs="#facs_125" n="125" xml:id="img_0125"/>
+            <fw facs="#facs_125_r" type="page-number" place="top">
+               <milestone unit="line" facs="#facs_125_l" n="N001"/>123</fw>
+            <milestone unit="line" facs="#facs_125_l_32" n="N001"/>нее с удивлением и она продолжала: «Бумажный абажур на лампе в комнате
+               <milestone unit="line" facs="#facs_125_l_33" n="N002"/>г. Киндмана был весь в пятках, я оборвала его, чтобы выбросить и надеть новый.
+               <milestone unit="line" facs="#facs_125_l_34" n="N003"/>В это время вошел г. Киндман и воскликнул: Что вы делаете?! Этот абажур
+               <milestone unit="line" facs="#facs_125_l_35" n="N004"/>сделала Mlle Данина, и я не хочу, чтобы Вы его выбрасывали!»
+            
+            </p>
+         <p facs="#facs_124_r_6" xml:lang="de" corresp="#p0383-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_124_l_9" n="N001"/>Я сижу и улыбаюсь сейчас. Только что была у меня Mme. Вärli, и сказала
+               <milestone unit="line" facs="#facs_124_l_10" n="N002"/>между прочим: «Я сейчас совершила почти преступление». Я взглянула на
+            <pb facs="#facs_125" n="125" xml:id="img_0125-de"/>
+            <fw facs="#facs_125_r" type="page-number" place="top">
+               <milestone unit="line" facs="#facs_125_l" n="N001"/>123</fw>
+            <milestone unit="line" facs="#facs_125_l_32" n="N001"/>нее с удивлением и она продолжала: «Бумажный абажур на лампе в комнате
+               <milestone unit="line" facs="#facs_125_l_33" n="N002"/>г. Киндмана был весь в пятках, я оборвала его, чтобы выбросить и надеть новый.
+               <milestone unit="line" facs="#facs_125_l_34" n="N003"/>В это время вошел г. Киндман и воскликнул: Что вы делаете?! Этот абажур
+               <milestone unit="line" facs="#facs_125_l_35" n="N004"/>сделала Mlle Данина, и я не хочу, чтобы Вы его выбрасывали!»
+            
+            </p>
+         <p facs="#facs_125_r_1" xml:lang="ru" xml:id="p0384-ru">
+            <milestone unit="line" facs="#facs_125_l_3" n="N001"/>Ах, теперь он пойман мой дорогой. Для тебя все-таки имеет значение этот
+               <milestone unit="line" facs="#facs_125_l_4" n="N002"/>кусок грязной зеленой бумаги, ибо к нему приложила свои руки, - и приложи-
+               <milestone unit="line" facs="#facs_125_l_5" n="N003"/>ла с любовью, — вот это безтолковая особа, которая сидит здесь на своей по-
+               <milestone unit="line" facs="#facs_125_l_29" n="N004"/>сели и пишет.
+            </p>
+         <p facs="#facs_125_r_1" xml:lang="de" corresp="#p0384-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_125_l_3" n="N001"/>Ах, теперь он пойман мой дорогой. Для тебя все-таки имеет значение этот
+               <milestone unit="line" facs="#facs_125_l_4" n="N002"/>кусок грязной зеленой бумаги, ибо к нему приложила свои руки, - и приложи-
+               <milestone unit="line" facs="#facs_125_l_5" n="N003"/>ла с любовью, — вот это безтолковая особа, которая сидит здесь на своей по-
+               <milestone unit="line" facs="#facs_125_l_29" n="N004"/>сели и пишет.
+            </p>
+         <p facs="#facs_125_r_3" xml:lang="ru" xml:id="p0385-ru">
+            <milestone unit="line" facs="#facs_125_l_30" n="N001"/>О бедный мой, бедняжка! Какая должна быть бездна неизлитой нежнос-
+               <milestone unit="line" facs="#facs_125_l_31" n="N002"/>ти и любви в этом мужском сердце, в этом человеке, стойкость убеждений
+               <milestone unit="line" facs="#facs_125_l_37" n="N003"/>и <hi style="text-decoration: line-through;">внешняя</hi> &lt;внешняя&gt; резкость, порой и грубость которого соединяется с почти женской
+               <milestone unit="line" facs="#facs_125_l_38" n="N004"/>мягкостью и нежностью, запрятанной и загнанной глубоко внутрь души.
+               <milestone unit="line" facs="#facs_125_l_39" n="N005"/>Бедный абажур и бедные люди, которым так хочется любви и которые так
+               <milestone unit="line" facs="#facs_125_l_40" n="N006"/>
+            <hi style="text-decoration: underline;">мало</hi> умеют любить.
+            </p>
+         <p facs="#facs_125_r_3" xml:lang="de" corresp="#p0385-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_125_l_30" n="N001"/>О бедный мой, бедняжка! Какая должна быть бездна неизлитой нежнос-
+               <milestone unit="line" facs="#facs_125_l_31" n="N002"/>ти и любви в этом мужском сердце, в этом человеке, стойкость убеждений
+               <milestone unit="line" facs="#facs_125_l_37" n="N003"/>и <hi style="text-decoration: line-through;">внешняя</hi> &lt;внешняя&gt; резкость, порой и грубость которого соединяется с почти женской
+               <milestone unit="line" facs="#facs_125_l_38" n="N004"/>мягкостью и нежностью, запрятанной и загнанной глубоко внутрь души.
+               <milestone unit="line" facs="#facs_125_l_39" n="N005"/>Бедный абажур и бедные люди, которым так хочется любви и которые так
+               <milestone unit="line" facs="#facs_125_l_40" n="N006"/>
+            <hi style="text-decoration: underline;">мало</hi> умеют любить.
+            </p>
+         <p facs="#facs_125_r_4" ana="dated_entry_header">
+            <milestone unit="line" facs="#facs_125_l_1" n="N001"/>26 октября.
+            </p>
+         <p facs="#facs_125_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_125_l_1" n="N001"/>26 октября.
+            </p>
+         <p facs="#facs_125_r_6" xml:lang="ru" xml:id="p0386-ru">
+            <milestone unit="line" facs="#facs_125_l_2" n="N001"/>Мне стыдно: я почти исключительно пишу о себе. Правда, я единственный
+               <milestone unit="line" facs="#facs_125_l_6" n="N002"/>доступный мне объект для наблюдений. Лежа уже шестой год в постели, я
+               <milestone unit="line" facs="#facs_125_l_7" n="N003"/>стою вне жизни. Ее бурный поток протекает там, где то, в стороне, почти
+               <milestone unit="line" facs="#facs_125_l_8" n="N004"/>не задевая меня. По порою его рокот и шут становится мне явственей, и
+               <milestone unit="line" facs="#facs_125_l_9" n="N005"/>
+            <hi style="text-decoration: line-through;">с силою</hi> &lt;с силою&gt; врывается он в мою душу и заглушает журчание маленького ручейка
+               <milestone unit="line" facs="#facs_125_l_10" n="N006"/>моей маленькой жизни.
+            </p>
+         <p facs="#facs_125_r_6" xml:lang="de" corresp="#p0386-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_125_l_2" n="N001"/>Мне стыдно: я почти исключительно пишу о себе. Правда, я единственный
+               <milestone unit="line" facs="#facs_125_l_6" n="N002"/>доступный мне объект для наблюдений. Лежа уже шестой год в постели, я
+               <milestone unit="line" facs="#facs_125_l_7" n="N003"/>стою вне жизни. Ее бурный поток протекает там, где то, в стороне, почти
+               <milestone unit="line" facs="#facs_125_l_8" n="N004"/>не задевая меня. По порою его рокот и шут становится мне явственей, и
+               <milestone unit="line" facs="#facs_125_l_9" n="N005"/>
+            <hi style="text-decoration: line-through;">с силою</hi> &lt;с силою&gt; врывается он в мою душу и заглушает журчание маленького ручейка
+               <milestone unit="line" facs="#facs_125_l_10" n="N006"/>моей маленькой жизни.
+            </p>
+         <p facs="#facs_125_r_8" xml:lang="ru" xml:id="p0387-ru">
+            <milestone unit="line" facs="#facs_125_l_11" n="N001"/>Россия! Вот огромное и близкое сердцу родное слово, которые заполняет
+               <milestone unit="line" facs="#facs_125_l_12" n="N002"/>
+            <hi style="text-decoration: line-through;">перь</hi> &lt;сейчас&gt; мою душу.
+               <milestone unit="line" facs="#facs_125_l_13" n="N003"/>Россия!!
+            </p>
+         <p facs="#facs_125_r_8" xml:lang="de" corresp="#p0387-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_125_l_11" n="N001"/>Россия! Вот огромное и близкое сердцу родное слово, которые заполняет
+               <milestone unit="line" facs="#facs_125_l_12" n="N002"/>
+            <hi style="text-decoration: line-through;">перь</hi> &lt;сейчас&gt; мою душу.
+               <milestone unit="line" facs="#facs_125_l_13" n="N003"/>Россия!!
+            </p>
+         <p facs="#facs_125_r_7" xml:lang="ru" xml:id="p0388-ru">
+            <milestone unit="line" facs="#facs_125_l_44" n="N001"/>На лице маленькой княгини-покойницы, жены князя Андрея из "Войны и
+               <milestone unit="line" facs="#facs_125_l_45" n="N002"/>Мира", когда она лежала в гробу, было такое выражение:
+               <milestone unit="line" facs="#facs_125_l_46" n="N003"/>Ах, что же это, что же это со мной сделали?
+               <milestone unit="line" facs="#facs_125_l_47" n="N004"/>И нельзя было смотреть без слез на ее бедное личико. И даже суровый
+            <pb facs="#facs_126" n="126" xml:id="img_0126"/>
+            <fw facs="#facs_126_r" type="page-number" place="top">
+               <milestone unit="line" facs="#facs_126_l" n="N001"/>124</fw>
+            <milestone unit="line" facs="#facs_126_l_31" n="N001"/>старый князь, взглянув на него мельком, всякий раз поспешно отворачивался.
+            
+            </p>
+         <p facs="#facs_125_r_7" xml:lang="de" corresp="#p0388-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_125_l_44" n="N001"/>На лице маленькой княгини-покойницы, жены князя Андрея из "Войны и
+               <milestone unit="line" facs="#facs_125_l_45" n="N002"/>Мира", когда она лежала в гробу, было такое выражение:
+               <milestone unit="line" facs="#facs_125_l_46" n="N003"/>Ах, что же это, что же это со мной сделали?
+               <milestone unit="line" facs="#facs_125_l_47" n="N004"/>И нельзя было смотреть без слез на ее бедное личико. И даже суровый
+            <pb facs="#facs_126" n="126" xml:id="img_0126-de"/>
+            <fw facs="#facs_126_r" type="page-number" place="top">
+               <milestone unit="line" facs="#facs_126_l" n="N001"/>124</fw>
+            <milestone unit="line" facs="#facs_126_l_31" n="N001"/>старый князь, взглянув на него мельком, всякий раз поспешно отворачивался.
+            
+            </p>
+         <p facs="#facs_126_r_1" xml:lang="ru" xml:id="p0389-ru">
+            <milestone unit="line" facs="#facs_126_l_1" n="N001"/>Этот образ вдруг всплывает в моей памяти, и настойчиво передо мною
+               <milestone unit="line" facs="#facs_126_l_2" n="N002"/>встает вопрос: а большевики отворачиваются ли хотя бы они от дела рук
+               <milestone unit="line" facs="#facs_126_l_3" n="N003"/>своих или же могут глядеть спокойно и без слез на безмерные, нечеловеческие
+               <milestone unit="line" facs="#facs_126_l_4" n="N004"/>мучения своих братьев?
+            </p>
+         <p facs="#facs_126_r_1" xml:lang="de" corresp="#p0389-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_126_l_1" n="N001"/>Этот образ вдруг всплывает в моей памяти, и настойчиво передо мною
+               <milestone unit="line" facs="#facs_126_l_2" n="N002"/>встает вопрос: а большевики отворачиваются ли хотя бы они от дела рук
+               <milestone unit="line" facs="#facs_126_l_3" n="N003"/>своих или же могут глядеть спокойно и без слез на безмерные, нечеловеческие
+               <milestone unit="line" facs="#facs_126_l_4" n="N004"/>мучения своих братьев?
+            </p>
+         <p facs="#facs_126_r_3" xml:lang="ru" xml:id="p0390-ru">
+            <milestone unit="line" facs="#facs_126_l_30" n="N001"/>О, если бы было в моих силах заставить их глядеть, глядеть пристально,
+               <milestone unit="line" facs="#facs_126_l_32" n="N002"/>глядеть глазами души до той поры, пока слезы не хлынут потоком.
+            </p>
+         <p facs="#facs_126_r_3" xml:lang="de" corresp="#p0390-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_126_l_30" n="N001"/>О, если бы было в моих силах заставить их глядеть, глядеть пристально,
+               <milestone unit="line" facs="#facs_126_l_32" n="N002"/>глядеть глазами души до той поры, пока слезы не хлынут потоком.
+            </p>
+         <p facs="#facs_126_r_4" xml:lang="ru" xml:id="p0391-ru">
+            <milestone unit="line" facs="#facs_126_l_5" n="N001"/>Ведь были же и они когда то маленькими и нежными детьми, и для них
+               <milestone unit="line" facs="#facs_126_l_6" n="N002"/>придет неизбежный час смерти!
+            </p>
+         <p facs="#facs_126_r_4" xml:lang="de" corresp="#p0391-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_126_l_5" n="N001"/>Ведь были же и они когда то маленькими и нежными детьми, и для них
+               <milestone unit="line" facs="#facs_126_l_6" n="N002"/>придет неизбежный час смерти!
+            </p>
+         <p facs="#facs_126_r_5" xml:lang="ru" xml:id="p0392-ru">
+            <milestone unit="line" facs="#facs_126_l_28" n="N001"/>"Сознание выполненной задачи может уничтожить страх смерти, и
+               <milestone unit="line" facs="#facs_126_l_29" n="N002"/>
+            <hi style="text-decoration: line-through;">честно</hi> &lt;честно&gt; пройденный путь жизни даст покойный конец. И от человека остануть-
+               <milestone unit="line" facs="#facs_126_l_34" n="N003"/>ся только одни дела его!" Так писал Горький.
+            </p>
+         <p facs="#facs_126_r_5" xml:lang="de" corresp="#p0392-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_126_l_28" n="N001"/>"Сознание выполненной задачи может уничтожить страх смерти, и
+               <milestone unit="line" facs="#facs_126_l_29" n="N002"/>
+            <hi style="text-decoration: line-through;">честно</hi> &lt;честно&gt; пройденный путь жизни даст покойный конец. И от человека остануть-
+               <milestone unit="line" facs="#facs_126_l_34" n="N003"/>ся только одни дела его!" Так писал Горький.
+            </p>
+         <p facs="#facs_126_r_6" xml:lang="ru" xml:id="p0393-ru">
+            <milestone unit="line" facs="#facs_126_l_7" n="N001"/>И вот их дело: растоптанная родина, униженная, истекающая кровью,
+               <milestone unit="line" facs="#facs_126_l_8" n="N002"/>братскою кровью…
+               <milestone unit="line" facs="#facs_126_l_9" n="N003"/>"Ах, что же это вы со мной сделали?"
+               <milestone unit="line" facs="#facs_126_l_10" n="N004"/>Слышите ли вы? Видите ли вы это лицо? И понимаете ли, что это
+               <milestone unit="line" facs="#facs_126_l_11" n="N005"/>
+            <hi style="text-decoration: underline;">вы</hi> сделали?
+            </p>
+         <p facs="#facs_126_r_6" xml:lang="de" corresp="#p0393-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_126_l_7" n="N001"/>И вот их дело: растоптанная родина, униженная, истекающая кровью,
+               <milestone unit="line" facs="#facs_126_l_8" n="N002"/>братскою кровью…
+               <milestone unit="line" facs="#facs_126_l_9" n="N003"/>"Ах, что же это вы со мной сделали?"
+               <milestone unit="line" facs="#facs_126_l_10" n="N004"/>Слышите ли вы? Видите ли вы это лицо? И понимаете ли, что это
+               <milestone unit="line" facs="#facs_126_l_11" n="N005"/>
+            <hi style="text-decoration: underline;">вы</hi> сделали?
+            </p>
+         <p facs="#facs_126_r_7" xml:lang="ru" xml:id="p0394-ru">
+            <milestone unit="line" facs="#facs_126_l_24" n="N001"/>Торжественно-прекрасной и гордой была февральская революция 1917 года.
+               <milestone unit="line" facs="#facs_126_l_25" n="N002"/>Но они пришли и, как неразумное дитя, увидав в саду распускающийся бутон
+               <milestone unit="line" facs="#facs_126_l_26" n="N003"/>прекрасного и неведомого цветка, захлопали в ладони и в нетерпении
+               <milestone unit="line" facs="#facs_126_l_35" n="N004"/>увидать поскорей красивый цветок в полном своем наряде... "помогли"
+               <milestone unit="line" facs="#facs_126_l_36" n="N005"/>ему распуститься своими грубыми и неловками руками. И увял прекрасный
+               <milestone unit="line" facs="#facs_126_l_37" n="N006"/>и неведомый цветок, который мог жить и <hi style="text-decoration: line-through;">давать</hi> дать плод лишь в том
+               <milestone unit="line" facs="#facs_126_l_38" n="N007"/>случае, если бы разумным уходом ему дали возможность распуститься само-
+               <milestone unit="line" facs="#facs_126_l_39" n="N008"/>му из себя.
+            </p>
+         <p facs="#facs_126_r_7" xml:lang="de" corresp="#p0394-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_126_l_24" n="N001"/>Торжественно-прекрасной и гордой была февральская революция 1917 года.
+               <milestone unit="line" facs="#facs_126_l_25" n="N002"/>Но они пришли и, как неразумное дитя, увидав в саду распускающийся бутон
+               <milestone unit="line" facs="#facs_126_l_26" n="N003"/>прекрасного и неведомого цветка, захлопали в ладони и в нетерпении
+               <milestone unit="line" facs="#facs_126_l_35" n="N004"/>увидать поскорей красивый цветок в полном своем наряде... "помогли"
+               <milestone unit="line" facs="#facs_126_l_36" n="N005"/>ему распуститься своими грубыми и неловками руками. И увял прекрасный
+               <milestone unit="line" facs="#facs_126_l_37" n="N006"/>и неведомый цветок, который мог жить и <hi style="text-decoration: line-through;">давать</hi> дать плод лишь в том
+               <milestone unit="line" facs="#facs_126_l_38" n="N007"/>случае, если бы разумным уходом ему дали возможность распуститься само-
+               <milestone unit="line" facs="#facs_126_l_39" n="N008"/>му из себя.
+            </p>
+         <p facs="#facs_126_r_9" xml:lang="ru" xml:id="p0395-ru">
+            <milestone unit="line" facs="#facs_126_l_40" n="N001"/>Россия не умрет, нет. И когда нибудь распустится новый прекрасный цве-
+               <milestone unit="line" facs="#facs_126_l_41" n="N002"/>ток, но вот передо мною царевна из картины Васнецова "Иван-царевич
+               <milestone unit="line" facs="#facs_126_l_42" n="N003"/>на сером волке": руки ее бессильно протянуты на коленях, голова, напи-
+            <pb facs="#facs_127" n="127" xml:id="img_0127"/>
+            <fw facs="#facs_127_r" type="page-number" place="top">
+               <milestone unit="line" facs="#facs_127_l" n="N001"/>125</fw>
+            <milestone unit="line" facs="#facs_127_l_31" n="N001"/>санная в профиль, опущена, и синий-синий глаз мещает из полу опущенных рис-
+               <milestone unit="line" facs="#facs_127_l_32" n="N002"/>ниц. И взгляд его как то странно далеко от всего, что ее окружает. Такая в этом
+               <milestone unit="line" facs="#facs_127_l_33" n="N003"/>лице безграничная, безнадежная покорность судьбе. Она так смертельно устала
+               <milestone unit="line" facs="#facs_127_l_34" n="N004"/>от долгих мучении в плену у Кощея, что больше уж нет у нее сил, и она ничего
+               <milestone unit="line" facs="#facs_127_l_35" n="N005"/>ничего не ждет...
+            
+            </p>
+         <p facs="#facs_126_r_9" xml:lang="de" corresp="#p0395-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_126_l_40" n="N001"/>Россия не умрет, нет. И когда нибудь распустится новый прекрасный цве-
+               <milestone unit="line" facs="#facs_126_l_41" n="N002"/>ток, но вот передо мною царевна из картины Васнецова "Иван-царевич
+               <milestone unit="line" facs="#facs_126_l_42" n="N003"/>на сером волке": руки ее бессильно протянуты на коленях, голова, напи-
+            <pb facs="#facs_127" n="127" xml:id="img_0127-de"/>
+            <fw facs="#facs_127_r" type="page-number" place="top">
+               <milestone unit="line" facs="#facs_127_l" n="N001"/>125</fw>
+            <milestone unit="line" facs="#facs_127_l_31" n="N001"/>санная в профиль, опущена, и синий-синий глаз мещает из полу опущенных рис-
+               <milestone unit="line" facs="#facs_127_l_32" n="N002"/>ниц. И взгляд его как то странно далеко от всего, что ее окружает. Такая в этом
+               <milestone unit="line" facs="#facs_127_l_33" n="N003"/>лице безграничная, безнадежная покорность судьбе. Она так смертельно устала
+               <milestone unit="line" facs="#facs_127_l_34" n="N004"/>от долгих мучении в плену у Кощея, что больше уж нет у нее сил, и она ничего
+               <milestone unit="line" facs="#facs_127_l_35" n="N005"/>ничего не ждет...
+            
+            </p>
+         <p facs="#facs_127_r_1" xml:lang="ru" xml:id="p0396-ru">
+            <milestone unit="line" facs="#facs_127_l_1" n="N001"/>Иван-царевич держит ее перед собою на сером волке, и они мчаться через бо-
+               <milestone unit="line" facs="#facs_127_l_2" n="N002"/>лото в дремучем лесу. Белые кувшинки и какие-то чудесные синие цветы лесные
+               <milestone unit="line" facs="#facs_127_l_3" n="N003"/>виднеются там и сям. Но царевна ничего не видит и как будто не чувствует, что
+               <milestone unit="line" facs="#facs_127_l_4" n="N004"/>уже
+               <milestone unit="line" facs="#facs_127_l_5" n="N005"/>больше она не в лапах Кощея. Только нежный – нежный прозрачный румянец
+               <milestone unit="line" facs="#facs_127_l_6" n="N006"/>заливает ее щеку. Что то есть такое трогательно безпомощное в этой малень-
+               <milestone unit="line" facs="#facs_127_l_8" n="N007"/>&lt;кой&gt; царевне, что хочется погладить ее по этой щеки. Она слишком много
+               <milestone unit="line" facs="#facs_127_l_9" n="N008"/>страдала. И для того, чтобы гордо подняла она свою голову, опущенную, как
+               <milestone unit="line" facs="#facs_127_l_10" n="N009"/>увядающий цветок, и улыбка засияла на ее губах, и румянец разгорелся ярче,-
+               <milestone unit="line" facs="#facs_127_l_11" n="N010"/>нужно будет очень очень любить ее и лелеять.
+            </p>
+         <p facs="#facs_127_r_1" xml:lang="de" corresp="#p0396-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_127_l_1" n="N001"/>Иван-царевич держит ее перед собою на сером волке, и они мчаться через бо-
+               <milestone unit="line" facs="#facs_127_l_2" n="N002"/>лото в дремучем лесу. Белые кувшинки и какие-то чудесные синие цветы лесные
+               <milestone unit="line" facs="#facs_127_l_3" n="N003"/>виднеются там и сям. Но царевна ничего не видит и как будто не чувствует, что
+               <milestone unit="line" facs="#facs_127_l_4" n="N004"/>уже
+               <milestone unit="line" facs="#facs_127_l_5" n="N005"/>больше она не в лапах Кощея. Только нежный – нежный прозрачный румянец
+               <milestone unit="line" facs="#facs_127_l_6" n="N006"/>заливает ее щеку. Что то есть такое трогательно безпомощное в этой малень-
+               <milestone unit="line" facs="#facs_127_l_8" n="N007"/>&lt;кой&gt; царевне, что хочется погладить ее по этой щеки. Она слишком много
+               <milestone unit="line" facs="#facs_127_l_9" n="N008"/>страдала. И для того, чтобы гордо подняла она свою голову, опущенную, как
+               <milestone unit="line" facs="#facs_127_l_10" n="N009"/>увядающий цветок, и улыбка засияла на ее губах, и румянец разгорелся ярче,-
+               <milestone unit="line" facs="#facs_127_l_11" n="N010"/>нужно будет очень очень любить ее и лелеять.
+            </p>
+         <p facs="#facs_127_r_3" xml:lang="ru" xml:id="p0397-ru">
+            <milestone unit="line" facs="#facs_127_l_26" n="N001"/>И Россия мне кажется сейчас этой царевной. Она еще в лапах Кощея, но она
+               <milestone unit="line" facs="#facs_127_l_27" n="N002"/>
+            <hi style="text-decoration: underline;">будет</hi> спасена и вырвана от него Иваном-царевичем, всеми теми мужест-
+               <milestone unit="line" facs="#facs_127_l_28" n="N003"/>венными и смелыми людьми, которые идут на крестные мучения и смерть
+               <milestone unit="line" facs="#facs_127_l_29" n="N004"/>ради любви к своей прекрасной царевне, - родине.
+            </p>
+         <p facs="#facs_127_r_3" xml:lang="de" corresp="#p0397-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_127_l_26" n="N001"/>И Россия мне кажется сейчас этой царевной. Она еще в лапах Кощея, но она
+               <milestone unit="line" facs="#facs_127_l_27" n="N002"/>
+            <hi style="text-decoration: underline;">будет</hi> спасена и вырвана от него Иваном-царевичем, всеми теми мужест-
+               <milestone unit="line" facs="#facs_127_l_28" n="N003"/>венными и смелыми людьми, которые идут на крестные мучения и смерть
+               <milestone unit="line" facs="#facs_127_l_29" n="N004"/>ради любви к своей прекрасной царевне, - родине.
+            </p>
+         <p facs="#facs_127_r_6" xml:lang="ru" xml:id="p0398-ru">
+            <milestone unit="line" facs="#facs_127_l_7" n="N001"/>Но, если их слишком мало?
+            </p>
+         <p facs="#facs_127_r_6" xml:lang="de" corresp="#p0398-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_127_l_7" n="N001"/>Но, если их слишком мало?
+            </p>
+         <p facs="#facs_127_r_8" xml:lang="ru" xml:id="p0399-ru">
+            <milestone unit="line" facs="#facs_127_l_15" n="N001"/>
+            <hi style="text-decoration: line-through;">Ах</hi> &lt;Ах&gt; нет, неужели не найдется достаточно, таких, которые <hi style="text-decoration: underline;">сумеют</hi> лю-
+               <milestone unit="line" facs="#facs_127_l_16" n="N002"/>бить свою родину так, как она в этом нуждается?
+            </p>
+         <p facs="#facs_127_r_8" xml:lang="de" corresp="#p0399-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_127_l_15" n="N001"/>
+            <hi style="text-decoration: line-through;">Ах</hi> &lt;Ах&gt; нет, неужели не найдется достаточно, таких, которые <hi style="text-decoration: underline;">сумеют</hi> лю-
+               <milestone unit="line" facs="#facs_127_l_16" n="N002"/>бить свою родину так, как она в этом нуждается?
+            </p>
+         <p facs="#facs_127_r_5" xml:lang="ru" xml:id="p0400-ru">
+            <milestone unit="line" facs="#facs_127_l_22" n="N001"/>Я верю, настанет время, и расцветет она гордо-прекрасная!
+               <milestone unit="line" facs="#facs_127_l_23" n="N002"/>Но когда это будет? Ах, когда это будет?
+            </p>
+         <p facs="#facs_127_r_5" xml:lang="de" corresp="#p0400-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_127_l_22" n="N001"/>Я верю, настанет время, и расцветет она гордо-прекрасная!
+               <milestone unit="line" facs="#facs_127_l_23" n="N002"/>Но когда это будет? Ах, когда это будет?
+            </p>
+         <p facs="#facs_127_r_7" xml:lang="ru" xml:id="p0401-ru">
+            <milestone unit="line" facs="#facs_127_l_24" n="N001"/>Тем скорее, мне кажется, чем больше русских способны будут найти у
+               <milestone unit="line" facs="#facs_127_l_25" n="N002"/>себя в душе то, что там запрятано слишком глубоко. То, что нашел, нако-
+               <milestone unit="line" facs="#facs_127_l_30" n="N003"/>нец студент <hi style="text-decoration: line-through;">&lt;???&gt;</hi> из рассказа Андреева "Иностранец". Он мечтал навсегда уехать
+               <milestone unit="line" facs="#facs_127_l_36" n="N004"/>заграницу – жить и учиться там. Он не любил всей неустроенной, хаотичес-
+               <milestone unit="line" facs="#facs_127_l_37" n="N005"/>кой и бессмысленной жизни своей родины, не любил улиц, по которым ходил
+            <pb facs="#facs_128" n="128" xml:id="img_0128"/>
+            <fw facs="#facs_128_r_3" type="page-number" place="top">
+               <milestone unit="line" facs="#facs_128_l_8" n="N001"/>126</fw>
+            <milestone unit="line" facs="#facs_128_l_19" n="N001"/>не любил комнаты, в которой жил. И он копил деньги, чтобы покинуть все это
+               <milestone unit="line" facs="#facs_128_l_20" n="N002"/>навсегда. Студенты – товарищи не любили его и прозвали инностранцем.
+            
+            </p>
+         <p facs="#facs_127_r_7" xml:lang="de" corresp="#p0401-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_127_l_24" n="N001"/>Тем скорее, мне кажется, чем больше русских способны будут найти у
+               <milestone unit="line" facs="#facs_127_l_25" n="N002"/>себя в душе то, что там запрятано слишком глубоко. То, что нашел, нако-
+               <milestone unit="line" facs="#facs_127_l_30" n="N003"/>нец студент <hi style="text-decoration: line-through;">&lt;???&gt;</hi> из рассказа Андреева "Иностранец". Он мечтал навсегда уехать
+               <milestone unit="line" facs="#facs_127_l_36" n="N004"/>заграницу – жить и учиться там. Он не любил всей неустроенной, хаотичес-
+               <milestone unit="line" facs="#facs_127_l_37" n="N005"/>кой и бессмысленной жизни своей родины, не любил улиц, по которым ходил
+            <pb facs="#facs_128" n="128" xml:id="img_0128-de"/>
+            <fw facs="#facs_128_r_3" type="page-number" place="top">
+               <milestone unit="line" facs="#facs_128_l_8" n="N001"/>126</fw>
+            <milestone unit="line" facs="#facs_128_l_19" n="N001"/>не любил комнаты, в которой жил. И он копил деньги, чтобы покинуть все это
+               <milestone unit="line" facs="#facs_128_l_20" n="N002"/>навсегда. Студенты – товарищи не любили его и прозвали инностранцем.
+            
+            </p>
+         <p facs="#facs_128_r" xml:lang="ru" xml:id="p0402-ru">
+            <milestone unit="line" facs="#facs_128_l" n="N001"/>Но вот случилось однажды, что страстная любовь знакомого ему ма-
+               <milestone unit="line" facs="#facs_128_l_1" n="N002"/>ленького студента-серба к своей маленькой родине задела в его груди струну,
+               <milestone unit="line" facs="#facs_128_l_2" n="N003"/>никогда до сих пор не звучавшую. И вместо прежнего чувства радости при мыс-
+               <milestone unit="line" facs="#facs_128_l_3" n="N004"/>ли о том, что скоро он улетит в чужие, прекрасные края, другое смутное и
+               <milestone unit="line" facs="#facs_128_l_4" n="N005"/>властное чувство выростало в его груди. И ему страстно хотелось петь, как
+               <milestone unit="line" facs="#facs_128_l_5" n="N006"/>сербу, и тоже петь о родине. Он стал петь, но без слов; и ему захотелось
+               <milestone unit="line" facs="#facs_128_l_6" n="N007"/>найти слова для своей песни, но не мог он найти ни одного, рожденного лю-
+               <milestone unit="line" facs="#facs_128_l_7" n="N008"/>бовью к родине. Он чувствовал его близко, он почти видел это слово и знал,
+               <milestone unit="line" facs="#facs_128_l_9" n="N009"/>
+            <hi style="text-decoration: line-through;">чем</hi> &lt;чем&gt; оно отличается от других: все другие слова плоски и бледны, как нищие
+               <milestone unit="line" facs="#facs_128_l_10" n="N010"/>на паперти, а это облито кровью и слезами, как раскаленный уголь, и
+               <milestone unit="line" facs="#facs_128_l_11" n="N011"/>светло, как небесный огонь, - и не мог найти его. И он подумал, что ско-
+               <milestone unit="line" facs="#facs_128_l_12" n="N012"/>рее найдет то, что нужно, если станет писать.
+            </p>
+         <p facs="#facs_128_r" xml:lang="de" corresp="#p0402-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_128_l" n="N001"/>Но вот случилось однажды, что страстная любовь знакомого ему ма-
+               <milestone unit="line" facs="#facs_128_l_1" n="N002"/>ленького студента-серба к своей маленькой родине задела в его груди струну,
+               <milestone unit="line" facs="#facs_128_l_2" n="N003"/>никогда до сих пор не звучавшую. И вместо прежнего чувства радости при мыс-
+               <milestone unit="line" facs="#facs_128_l_3" n="N004"/>ли о том, что скоро он улетит в чужие, прекрасные края, другое смутное и
+               <milestone unit="line" facs="#facs_128_l_4" n="N005"/>властное чувство выростало в его груди. И ему страстно хотелось петь, как
+               <milestone unit="line" facs="#facs_128_l_5" n="N006"/>сербу, и тоже петь о родине. Он стал петь, но без слов; и ему захотелось
+               <milestone unit="line" facs="#facs_128_l_6" n="N007"/>найти слова для своей песни, но не мог он найти ни одного, рожденного лю-
+               <milestone unit="line" facs="#facs_128_l_7" n="N008"/>бовью к родине. Он чувствовал его близко, он почти видел это слово и знал,
+               <milestone unit="line" facs="#facs_128_l_9" n="N009"/>
+            <hi style="text-decoration: line-through;">чем</hi> &lt;чем&gt; оно отличается от других: все другие слова плоски и бледны, как нищие
+               <milestone unit="line" facs="#facs_128_l_10" n="N010"/>на паперти, а это облито кровью и слезами, как раскаленный уголь, и
+               <milestone unit="line" facs="#facs_128_l_11" n="N011"/>светло, как небесный огонь, - и не мог найти его. И он подумал, что ско-
+               <milestone unit="line" facs="#facs_128_l_12" n="N012"/>рее найдет то, что нужно, если станет писать.
+            </p>
+         <p facs="#facs_128_r_4" xml:lang="ru" xml:id="p0403-ru">
+            <milestone unit="line" facs="#facs_128_l_13" n="N001"/>"И нерешительно, запинаясь, рука его вывела:
+               <milestone unit="line" facs="#facs_128_l_14" n="N002"/>"Родина".
+               <milestone unit="line" facs="#facs_128_l_15" n="N003"/>И остановилась. И более твердо повторила:
+               <milestone unit="line" facs="#facs_128_l_16" n="N004"/>— Родина!
+               <milestone unit="line" facs="#facs_128_l_17" n="N005"/>И быстро большими буквами он закончил:
+               <milestone unit="line" facs="#facs_128_l_18" n="N006"/>—Прости меня!
+            </p>
+      </body>
+   </text>
+</TEI>

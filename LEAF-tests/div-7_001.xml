@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" href="null"?>
+<?xml-stylesheet type="text/css" href="null"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <xenoData>
+         <rdf:RDF xmlns:as="http://www.w3.org/ns/activitystreams#"
+                  xmlns:bf="http://www.openlinksw.com/schemas/bif#"
+                  xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
+                  xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
+                  xmlns:dc="http://purl.org/dc/elements/1.1/"
+                  xmlns:dcterms="http://purl.org/dc/terms/"
+                  xmlns:fabio="https://purl.org/spar/fabio#"
+                  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                  xmlns:geo="http://www.geonames.org/ontology#"
+                  xmlns:oa="http://www.w3.org/ns/oa#"
+                  xmlns:org="http://www.w3.org/ns/org#"
+                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                  xmlns:schema="http://schema.org/"
+                  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"/>
+      </xenoData>
+   </teiHeader>
+   <text>
+      <body>
+         <head facs="#facs_43_r_2">
+            <milestone unit="line" facs="#facs_43_l_33" n="N001"/>III.</head>
+         <head facs="#facs_43_r_2" xml:lang="de">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_43_l_33" n="N001"/>III.</head>
+         <p facs="#facs_43_r_1" xml:lang="ru" xml:id="p0138-ru">
+            <milestone unit="line" facs="#facs_43_l_13" n="N001"/>Я исполнила свое обещание и написала Сараеву еще из Берна и позже
+               <milestone unit="line" facs="#facs_43_l_14" n="N002"/>мы обменивались письмами, но не очень часто: раз в две-три недели и даже
+               <milestone unit="line" facs="#facs_43_l_15" n="N003"/>еще того реже. Вскоре оказалось, что он тоже недоволен той клиникой,
+               <milestone unit="line" facs="#facs_43_l_16" n="N004"/>хотя и начал поправляться вопреки всем мрачным предсказаниям. У меня
+               <milestone unit="line" facs="#facs_43_l_18" n="N005"/>появилась надежда, что он переедет к &lt;нам&gt; <hi style="text-decoration: line-through;">[нашу новую клинику]</hi>.
+            </p>
+         <p facs="#facs_43_r_1" xml:lang="de" corresp="#p0138-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_43_l_13" n="N001"/>Я исполнила свое обещание и написала Сараеву еще из Берна и позже
+               <milestone unit="line" facs="#facs_43_l_14" n="N002"/>мы обменивались письмами, но не очень часто: раз в две-три недели и даже
+               <milestone unit="line" facs="#facs_43_l_15" n="N003"/>еще того реже. Вскоре оказалось, что он тоже недоволен той клиникой,
+               <milestone unit="line" facs="#facs_43_l_16" n="N004"/>хотя и начал поправляться вопреки всем мрачным предсказаниям. У меня
+               <milestone unit="line" facs="#facs_43_l_18" n="N005"/>появилась надежда, что он переедет к &lt;нам&gt; <hi style="text-decoration: line-through;">[нашу новую клинику]</hi>.
+            </p>
+         <p facs="#facs_43_r_4" xml:lang="ru" xml:id="p0139-ru">
+            <milestone unit="line" facs="#facs_43_l_19" n="N001"/>К новому году мне стало лучше, и я начала понемногу вставать и спус¬
+               <milestone unit="line" facs="#facs_43_l_20" n="N002"/>каться к столу. Однажды раздался звонок, и горничная пришла сказать мне,
+               <milestone unit="line" facs="#facs_43_l_21" n="N003"/>что меня желает видеть какой то господин. Я вышла в гостинную и с недо¬
+               <milestone unit="line" facs="#facs_43_l_22" n="N004"/>умением поглядела на господина в широкополой черной шляпе с черной бо-
+               <milestone unit="line" facs="#facs_43_l_23" n="N005"/>родкой. Он стоял передо мной с сияющим видом; на лице его так и было <!--type: "Alter\u0020Aorist!?\u0020Gängig\u0020wäre\u0020написано" continued: "true"-->на-
+               <milestone unit="line" facs="#facs_43_l_24" n="N006"/>
+            <!--type: "Alter\u0020Aorist!?\u0020Gängig\u0020wäre\u0020написано" continued: "true"-->писало, что он ожидал, что я страшно обрадуюсь ему. Наконец, я узнала его.
+               <milestone unit="line" facs="#facs_43_l_25" n="N007"/>Это был Сараев. И я обрадовалась ему в глубине души, быть может, даже
+               <milestone unit="line" facs="#facs_43_l_26" n="N008"/>гораздо больше, чем он того ожидал, но внешне я очень мало проявила эту
+               <milestone unit="line" facs="#facs_43_l_27" n="N009"/>радость, отчасти благодаря своей обычной сдержанности и застенчивос¬
+               <milestone unit="line" facs="#facs_43_l_28" n="N010"/>ти, а еще быть может и из какого то странного духа противоречия и гор¬
+               <milestone unit="line" facs="#facs_43_l_29" n="N011"/>дости: он <hi style="text-decoration: underline;">слишком</hi> был <hi style="text-decoration: underline;">уверен</hi>, что я обрадуюсь. Он был у меня на обратном
+               <milestone unit="line" facs="#facs_43_l_30" n="N012"/>пути от дантиста, его ожидал экипаж и он торопился домой. Он поло-
+               <milestone unit="line" facs="#facs_43_l_31" n="N013"/>жил в коробочку свой вырванный зуб и показывал его мне, точь в точь, как
+            <pb facs="#facs_44" n="44" xml:id="img_0044"/>
+            <fw facs="#facs_44_r" type="page-number" place="top">
+               <milestone unit="line" facs="#facs_44_l" n="N001"/>43</fw>
+            <fw facs="#facs_44_r_2" type="page_number__deleted_or_striked_out">
+               <del>
+                  <milestone unit="line" facs="#facs_44_l_29" n="N001"/>[<hi style="text-decoration: line-through;">76</hi>]
+            </del>
+            </fw>
+            <milestone unit="line" facs="#facs_44_l_1" n="N001"/>это делают дети. Это было необыкновенно мило, но я только снисходительно
+               <milestone unit="line" facs="#facs_44_l_2" n="N002"/>улыбнулась. Уходя, он вручил мне коробку шеколадных конфект.
+            
+            </p>
+         <p facs="#facs_43_r_4" xml:lang="de" corresp="#p0139-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_43_l_19" n="N001"/>К новому году мне стало лучше, и я начала понемногу вставать и спус¬
+               <milestone unit="line" facs="#facs_43_l_20" n="N002"/>каться к столу. Однажды раздался звонок, и горничная пришла сказать мне,
+               <milestone unit="line" facs="#facs_43_l_21" n="N003"/>что меня желает видеть какой то господин. Я вышла в гостинную и с недо¬
+               <milestone unit="line" facs="#facs_43_l_22" n="N004"/>умением поглядела на господина в широкополой черной шляпе с черной бо-
+               <milestone unit="line" facs="#facs_43_l_23" n="N005"/>родкой. Он стоял передо мной с сияющим видом; на лице его так и было <!--type: "Alter\u0020Aorist!?\u0020Gängig\u0020wäre\u0020написано" continued: "true"-->на-
+               <milestone unit="line" facs="#facs_43_l_24" n="N006"/>
+            <!--type: "Alter\u0020Aorist!?\u0020Gängig\u0020wäre\u0020написано" continued: "true"-->писало, что он ожидал, что я страшно обрадуюсь ему. Наконец, я узнала его.
+               <milestone unit="line" facs="#facs_43_l_25" n="N007"/>Это был Сараев. И я обрадовалась ему в глубине души, быть может, даже
+               <milestone unit="line" facs="#facs_43_l_26" n="N008"/>гораздо больше, чем он того ожидал, но внешне я очень мало проявила эту
+               <milestone unit="line" facs="#facs_43_l_27" n="N009"/>радость, отчасти благодаря своей обычной сдержанности и застенчивос¬
+               <milestone unit="line" facs="#facs_43_l_28" n="N010"/>ти, а еще быть может и из какого то странного духа противоречия и гор¬
+               <milestone unit="line" facs="#facs_43_l_29" n="N011"/>дости: он <hi style="text-decoration: underline;">слишком</hi> был <hi style="text-decoration: underline;">уверен</hi>, что я обрадуюсь. Он был у меня на обратном
+               <milestone unit="line" facs="#facs_43_l_30" n="N012"/>пути от дантиста, его ожидал экипаж и он торопился домой. Он поло-
+               <milestone unit="line" facs="#facs_43_l_31" n="N013"/>жил в коробочку свой вырванный зуб и показывал его мне, точь в точь, как
+            <pb facs="#facs_44" n="44" xml:id="img_0044-de"/>
+            <fw facs="#facs_44_r" type="page-number" place="top">
+               <milestone unit="line" facs="#facs_44_l" n="N001"/>43</fw>
+            <fw facs="#facs_44_r_2" type="page_number__deleted_or_striked_out">
+               <del>
+                  <milestone unit="line" facs="#facs_44_l_29" n="N001"/>[<hi style="text-decoration: line-through;">76</hi>]
+            </del>
+            </fw>
+            <milestone unit="line" facs="#facs_44_l_1" n="N001"/>это делают дети. Это было необыкновенно мило, но я только снисходительно
+               <milestone unit="line" facs="#facs_44_l_2" n="N002"/>улыбнулась. Уходя, он вручил мне коробку шеколадных конфект.
+            
+            </p>
+         <p facs="#facs_44_r_3" xml:lang="ru" xml:id="p0140-ru">
+            <milestone unit="line" facs="#facs_44_l_28" n="N001"/>Только поднявшись в свою комнату, я вся отдалась радости, переполнявшей
+               <milestone unit="line" facs="#facs_44_l_30" n="N002"/>меня. Я улыбалась и как ни старалась придать своему лицу серьезное выра-
+               <milestone unit="line" facs="#facs_44_l_31" n="N003"/>жение, улыбка возвращалась снова. Он выздоровел, он выездоровел, по крайней мере,
+               <milestone unit="line" facs="#facs_44_l_32" n="N004"/>настолько, что теперь он вне опасности. А ведь я об этом молилась.. И я снова
+               <milestone unit="line" facs="#facs_44_l_33" n="N005"/>думала о белых цветах…
+            </p>
+         <p facs="#facs_44_r_3" xml:lang="de" corresp="#p0140-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_44_l_28" n="N001"/>Только поднявшись в свою комнату, я вся отдалась радости, переполнявшей
+               <milestone unit="line" facs="#facs_44_l_30" n="N002"/>меня. Я улыбалась и как ни старалась придать своему лицу серьезное выра-
+               <milestone unit="line" facs="#facs_44_l_31" n="N003"/>жение, улыбка возвращалась снова. Он выздоровел, он выездоровел, по крайней мере,
+               <milestone unit="line" facs="#facs_44_l_32" n="N004"/>настолько, что теперь он вне опасности. А ведь я об этом молилась.. И я снова
+               <milestone unit="line" facs="#facs_44_l_33" n="N005"/>думала о белых цветах…
+            </p>
+         <p facs="#facs_44_r_4" xml:lang="ru" xml:id="p0141-ru">
+            <milestone unit="line" facs="#facs_44_l_3" n="N001"/>Через несколько дней я получила от него письмо; ему показалось, что я была
+               <milestone unit="line" facs="#facs_44_l_4" n="N002"/>недовольна его визитом. Я ответила, что это не так, я была рада, но слишком
+               <milestone unit="line" facs="#facs_44_l_5" n="N003"/>ошеломлена его неожиданным появлением. Написала я это в сдержанном тоне
+               <milestone unit="line" facs="#facs_44_l_6" n="N004"/>и возможно, что он не поверил мне и остался при своем убеждении, что я была
+               <milestone unit="line" facs="#facs_44_l_7" n="N005"/>недовольна.
+         </p>
+         <p facs="#facs_44_r_4" xml:lang="de" corresp="#p0141-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_44_l_3" n="N001"/>Через несколько дней я получила от него письмо; ему показалось, что я была
+               <milestone unit="line" facs="#facs_44_l_4" n="N002"/>недовольна его визитом. Я ответила, что это не так, я была рада, но слишком
+               <milestone unit="line" facs="#facs_44_l_5" n="N003"/>ошеломлена его неожиданным появлением. Написала я это в сдержанном тоне
+               <milestone unit="line" facs="#facs_44_l_6" n="N004"/>и возможно, что он не поверил мне и остался при своем убеждении, что я была
+               <milestone unit="line" facs="#facs_44_l_7" n="N005"/>недовольна.
+         </p>
+      </body>
+   </text>
+</TEI>
