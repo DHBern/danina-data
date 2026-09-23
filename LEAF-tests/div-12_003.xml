@@ -14,7 +14,86 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-12_003.xml?thing_annotation_20260923233325418",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-09-23T21:33:25.418Z",
+	"dcterms:modified": "2026-09-23T21:33:25.418Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/tat-jana18",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Danina Tester"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-12_003.xml?thing_annotation_20260923233325418#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-12_003.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-12_003.xml?thing_annotation_20260923233325418#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/rs"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "owl:Thing",
+		"@id": "https://d-nb.info/gnd/4130621-1",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
    </teiHeader>
@@ -55,7 +134,7 @@
                <milestone unit="line" facs="#facs_93_l_33" n="N002"/>сил порвать ее...
             
             </p>
-         <p facs="#facs_92_r_1" xml:lang="de" corresp="#p0271-ru">Ich bin achtzehn Jahre alt. Ich bekomme Tuberkulose, aber ich weiß es noch nicht. Frühling. Der Garten ist in Blüte. Ich gehe einen Pfad zwischen den blühenden Apfelbäumen entlang, atme ihren betörenden Duft ein, höre das Summen der Bienen – und plötzlich spüre ich, dass ich nicht mehr dieselbe bin. Anstelle des frischen Rots, das zuvor auf meinen Wangen gebrannt hatte unter den lebendigen Strahlen der Sonne, breitet sich nun eine tödliche Blässe über mein Gesicht, und auf meiner Stirn bilden sich Schweißperlen. Mit unbeschreiblicher Klarheit und Schmerz erkannte ich damals die Unwiderruflichkeit [Unumkehrbarkeit??] der Veränderung, die in mir vorgegangen war; ich fühlte mich, als ob ich...<pb facs="#facs_93" n="93" xml:id="img_0093-de"/>
+         <p facs="#facs_92_r_1" xml:lang="de" corresp="#p0271-ru">Ich bin achtzehn Jahre alt. Ich bekomme <rs key="Tuberkulose" ref="https://d-nb.info/gnd/4130621-1">Tuberkulose</rs>, aber ich weiß es noch nicht. Frühling. Der Garten ist in Blüte. Ich gehe einen Pfad zwischen den blühenden Apfelbäumen entlang, atme ihren betörenden Duft ein, höre das Summen der Bienen – und plötzlich spüre ich, dass ich nicht mehr dieselbe bin. Anstelle des frischen Rots, das zuvor auf meinen Wangen gebrannt hatte unter den lebendigen Strahlen der Sonne, breitet sich nun eine tödliche Blässe über mein Gesicht, und auf meiner Stirn bilden sich Schweißperlen. Mit unbeschreiblicher Klarheit und Schmerz erkannte ich damals die Unwiderruflichkeit [Unumkehrbarkeit??] der Veränderung, die in mir vorgegangen war; ich fühlte mich, als ob ich...<pb facs="#facs_93" n="93" xml:id="img_0093-de"/>
             <fw facs="#facs_93_r_7" type="page-number" place="top">
                <milestone unit="line" facs="#facs_93_l_23" n="N001"/>92</fw>
             <fw facs="#facs_93_r_5" type="page_number__deleted_or_striked_out">
