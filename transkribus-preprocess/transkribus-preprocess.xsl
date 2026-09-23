@@ -37,6 +37,7 @@
   
   <xsl:mode name="preprocess" on-no-match="shallow-copy"/>
   <xsl:mode name="preprocess-integrate" on-no-match="shallow-copy"/>
+  <xsl:mode name="preprocess-integrate-quote" on-no-match="shallow-copy"/>
   
   <xsl:template name="xsl:initial-template">
     <xsl:variable name="uris" as="xs:string*" select="uri-collection('input-file?select=*.xml')"/>
@@ -140,40 +141,82 @@
   <xsl:template match="ab[@type='paragraph_to_be_merged_with_previous']" mode="preprocess"/>
   
   <xsl:template match="ab[@type='paragraph_to_be_merged_with_previous']" mode="preprocess-integrate">
-    <xsl:comment>MERGED: 
-    </xsl:comment> 
+    <!--<xsl:comment>MERGED: 
+    </xsl:comment>--> 
     <xsl:apply-templates mode="preprocess-integrate"/>
   </xsl:template>
   
-  <xsl:template match="ab[@type='page_number__deleted_or_striked_out']" mode="preprocess-integrate">
-    <fw>
-      <xsl:sequence select="@facs,@type"/>
-      <del>
-        <xsl:apply-templates mode="preprocess"/>
-      </del>
-    </fw>
-  </xsl:template>
+  <!-- <ab facs="#facs_22_r_1" type="quotation_to_be_merged_with_previous"> -->
   
-  <xsl:template match="ab[@type='quotation']" mode="preprocess">
+  <xsl:template match="ab[@type='quotation']" mode="preprocess"/>
+<!--  <xsl:template match="ab[@type='quotation']" mode="preprocess">
+    <xsl:variable name="next-p" select="following::p[1]/generate-id()"/>
     <p>
       <quote>
         <xsl:apply-templates mode="preprocess"/>
       </quote>
     </p>
-    <!-- German translation -->
+    <!-\- German translation -\->
     <p xml:lang="de">
       <quote>
         <xsl:text expand-text="false">{TRANSLATION GOES HERE}</xsl:text>
         <xsl:apply-templates mode="preprocess"/>
+        <!-\- get active here! -\->
+        <!-\- merge in all following pb, fw, and ab until the next p -\->
+        <xsl:if test="ancestor::text and following-sibling::ab[starts-with(@type,'quot')][1][@type='quotation_to_be_merged_with_previous']">
+          <xsl:apply-templates select="following-sibling::node()[following::p[generate-id()=$next-p]] except self::ab[@type='dated_entry_header']" mode="preprocess-integrate-quote">
+            <xsl:with-param name="lang" select="'de'" tunnel="true"/>
+          </xsl:apply-templates>
+        </xsl:if>
       </quote>
     </p>
   </xsl:template>
+-->  
+<!--  <xsl:template match="ab[@type='quotation']" mode="preprocess"/>-->
+  <xsl:template match="ab[@type='quotation']" mode="preprocess-integrate-quote"/>
+  
+  <xsl:template match="ab[@type='quotation_to_be_merged_with_previous']" mode="preprocess"/>
+  
+  <xsl:template match="ab[@type='quotation_to_be_merged_with_previous']" mode="preprocess-integrate"/>
+  
+  <xsl:template match="ab[@type='quotation_to_be_merged_with_previous']" mode="preprocess-integrate-quote">
+    <!--<xsl:comment>MERGED: 
+    </xsl:comment>-->
+    <xsl:apply-templates mode="preprocess-integrate"/>
+  </xsl:template>
   
   <xsl:template match="ab[@type='quotation']" mode="preprocess-integrate">
+    <xsl:variable name="next-p" select="following::p[1]/generate-id()"/>
     <quote>
       <xsl:apply-templates mode="preprocess"/>
+      <!-- merge in all following pb, fw, and ab until the next p -->
+      <xsl:if test="ancestor::text and following-sibling::ab[starts-with(@type,'quot')][1][@type='quotation_to_be_merged_with_previous']">
+        <xsl:apply-templates select="following-sibling::node()[following::p[generate-id()=$next-p]] except self::ab[@type='dated_entry_header']" mode="preprocess-integrate-quote"/>
+      </xsl:if>
     </quote>
   </xsl:template>
+
+  <xsl:template match="comment" mode="#all">
+    <xsl:variable name="quote">"</xsl:variable>
+    <xsl:comment>
+      <xsl:sequence select="'type: '||$quote||@type||$quote"/>
+      <xsl:sequence select="'continued: '||$quote||@continued||$quote"/>
+    </xsl:comment>
+    <xsl:apply-templates mode="preprocess"/>    
+  </xsl:template>
+  
+  <xsl:template match="ab[@type='horizontal_rule_aka_section_divider']" mode="#all">
+    <metamark rend="horizontal rule"/>
+    <xsl:apply-templates select="lb" mode="preprocess"/>
+    <xsl:if test=".//text()[normalize-space()]">
+      <xsl:comment>
+        <xsl:sequence select=".//text()"/>
+      </xsl:comment>
+    </xsl:if>
+  </xsl:template>
+  
+  
+  
   
   <xsl:template match="ab[@type='dated_entry_header']" mode="preprocess-integrate"/>
     
@@ -192,11 +235,86 @@
     </p>
   </xsl:template>
   
+  <!-- three templates to avoid creating spurious elements (at the beginning of the document we want them) -->
+  <xsl:template match="div[position() gt 2]/pb[not(following-sibling::p)]" mode="preprocess"/>
+  <xsl:template match="div[position() gt 2]/fw[@type='page-number'][not(following-sibling::p)]" mode="preprocess"/>
+  <xsl:template match="div[position() gt 2]/ab[@type='page_number__deleted_or_striked_out'][not(following-sibling::p)]" mode="preprocess"/>
+      
   <xsl:template match="pb[following-sibling::p|following-sibling::ab[starts-with(@type,'paragraph')]]" mode="preprocess"/>
     
   <xsl:template match="fw[@type='page-number'][following-sibling::p|following-sibling::ab[starts-with(@type,'paragraph')]]" mode="preprocess"/>
   
   <xsl:template match="ab[@type='page_number__deleted_or_striked_out'][following-sibling::p|following-sibling::ab[starts-with(@type,'paragraph')]]" mode="preprocess"/>
+  
+  
+  <xsl:template match="pb[preceding-sibling::ab[1][@type='quotation']]" mode="preprocess-integrate">
+    <xsl:param name="lang" tunnel="true"/>
+    <xsl:variable name="next-p" select="following::p[1]/generate-id()"/>
+    <xsl:choose>
+      <xsl:when test="following-sibling::ab[@type='quotation_to_be_merged_with_previous'][following-sibling::p/generate-id()=$next-p]"/>
+      <xsl:when test="$lang='de'">
+        <xsl:copy>
+          <xsl:copy-of select="@*"/>
+          <xsl:attribute name="xml:id" select="@xml:id||'-de'"/>
+        </xsl:copy>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:sequence select="."/>
+      </xsl:otherwise>
+    </xsl:choose>
+    
+  </xsl:template>
+  
+  <xsl:template match="fw[preceding-sibling::ab[1][@type='quotation']]" mode="preprocess-integrate">
+    <xsl:param name="lang" tunnel="true"/>
+    <xsl:variable name="next-p" select="following::p[1]/generate-id()"/>
+    <xsl:choose>
+      <xsl:when test="following-sibling::ab[@type='quotation_to_be_merged_with_previous'][following-sibling::p/generate-id()=$next-p]"/>
+      <xsl:otherwise>
+        <xsl:apply-templates mode="preprocess"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="ab[@type='page_number__deleted_or_striked_out'][preceding-sibling::ab[1][@type='quotation']]" mode="preprocess-integrate">
+    <xsl:param name="lang" tunnel="true"/>
+    <xsl:variable name="next-p" select="following::p[1]/generate-id()"/>
+    <xsl:choose>
+      <xsl:when test="following-sibling::ab[@type='quotation_to_be_merged_with_previous'][following-sibling::p/generate-id()=$next-p]"/>
+      <xsl:otherwise>
+        <fw>
+          <xsl:sequence select="@facs,@type"/>
+          <del>
+            <xsl:apply-templates mode="preprocess"/>
+          </del>
+        </fw>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="ab[@type='page_number__deleted_or_striked_out'][not(preceding-sibling::ab[1][@type='quotation'])]" mode="preprocess-integrate">
+    <fw>
+      <xsl:sequence select="@facs,@type"/>
+      <del>
+        <xsl:apply-templates mode="preprocess"/>
+      </del>
+    </fw>
+  </xsl:template>
+  
+  <xsl:template match="pb" mode="preprocess-integrate-quote">
+    <xsl:param name="lang" tunnel="true"/>
+    <xsl:choose>
+      <xsl:when test="$lang='de'">
+        <xsl:copy>
+          <xsl:copy-of select="@*"/>
+          <xsl:attribute name="xml:id" select="@xml:id||'-de'"/>
+        </xsl:copy>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:copy-of select="."/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
   
   <xsl:template match="pb" mode="preprocess-integrate">
     <xsl:param name="lang" tunnel="true"/>
@@ -211,6 +329,10 @@
         <xsl:copy-of select="."/>
       </xsl:otherwise>
     </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="date|unclear|rs" mode="#all">
+    <xsl:apply-templates mode="preprocess"/>
   </xsl:template>
   
 </xsl:transform>
