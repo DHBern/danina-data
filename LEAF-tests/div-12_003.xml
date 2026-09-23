@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" href="null"?>
-<?xml-stylesheet type="text/css" href="null"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,21 +14,8 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData>
-         <rdf:RDF xmlns:as="http://www.w3.org/ns/activitystreams#"
-                  xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-                  xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-                  xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                  xmlns:dcterms="http://purl.org/dc/terms/"
-                  xmlns:fabio="https://purl.org/spar/fabio#"
-                  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-                  xmlns:geo="http://www.geonames.org/ontology#"
-                  xmlns:oa="http://www.w3.org/ns/oa#"
-                  xmlns:org="http://www.w3.org/ns/org#"
-                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-                  xmlns:schema="http://schema.org/"
-                  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"/>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData>
+         
       </xenoData>
    </teiHeader>
    <text>
@@ -41,12 +25,12 @@
                <milestone unit="line" facs="#facs_92_l_43" n="N002"/>расположении духа, одеваю свое любимое розовое кисейное платье с
                <milestone unit="line" facs="#facs_92_l_44" n="N003"/>большой белой оборкой – воротником. Чувствую, что это платье ко мне
                <milestone unit="line" facs="#facs_92_l_45" n="N004"/>идет. Мои две косы тяжело лежат на спине, и это ощущение прият-
-               <milestone unit="line" facs="#facs_92_l_47" n="N005"/>но. Напившись чаю, я выбегаю в сад. Тихонько иду &lt;затем&gt; по аллее и упиваюсь
+               <milestone unit="line" facs="#facs_92_l_47" n="N005"/>но. Напившись чаю, я выбегаю в сад. Тихонько иду &amp;lt;затем&amp;gt; по аллее и упиваюсь
                <milestone unit="line" facs="#facs_92_l_48" n="N006"/>дивным воздухом чудного летнего утра. Деревья кажутся особенно зе-
                <milestone unit="line" facs="#facs_92_l_49" n="N007"/>леными, а небо голубым и птички щебечут как то особенно хорошо. Я
                <milestone unit="line" facs="#facs_92_l_50" n="N008"/>чувствую себя частью этой сияющей природы; мое тело молодо и здоро-
                <milestone unit="line" facs="#facs_92_l_51" n="N009"/>во, как эти деревья и птички, и я не ощущаю его. Я кажусь себе легкой,
-               <milestone unit="line" facs="#facs_92_l_52" n="N010"/>&lt;o&gt;такой&lt;o&gt; легкой, что, кажется, вот-вот я приподнимусь от земли и
+               <milestone unit="line" facs="#facs_92_l_52" n="N010"/>&amp;lt;o&amp;gt;такой&amp;lt;o&amp;gt; легкой, что, кажется, вот-вот я приподнимусь от земли и
                <milestone unit="line" facs="#facs_92_l_54" n="N011"/>полечу. Я воображаю себя принцессой, которая попала в очарован-
                <milestone unit="line" facs="#facs_92_l_55" n="N012"/>ный сад.
             </p>
@@ -71,16 +55,7 @@
                <milestone unit="line" facs="#facs_93_l_33" n="N002"/>сил порвать ее...
             
             </p>
-         <p facs="#facs_92_r_1" xml:lang="de" corresp="#p0271-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_92_l_24" n="N001"/>Mне восемнадцать лет. У меня начинается чахотка, но я еще не знаю
-               <milestone unit="line" facs="#facs_92_l_25" n="N002"/>этого. Ранняя весна. Сад в цвету. Я иду по тропинке между цветущих
-               <milestone unit="line" facs="#facs_92_l_26" n="N003"/>яблонь, впиваю их пьянящий аромат, слушаю жужжание пчел – и
-               <milestone unit="line" facs="#facs_92_l_27" n="N004"/>вдруг ощущаю, что я уже не та. Вместо свежeго румянца, который
-               <milestone unit="line" facs="#facs_92_l_28" n="N005"/>прежде горел на щеках моих под живыми лучами солнца, лицо мое
-               <milestone unit="line" facs="#facs_92_l_29" n="N006"/>покрывала смертельная бледность и на лбу выступали капельки
-               <milestone unit="line" facs="#facs_92_l_30" n="N007"/>пота. С непередаваемой ясностью и болью ощутила я тогда непопра-
-               <milestone unit="line" facs="#facs_92_l_31" n="N008"/>вилось [*непоправимость*??] происшедшей во мне перемены; я почувствовала, как будто ка-
-            <pb facs="#facs_93" n="93" xml:id="img_0093-de"/>
+         <p facs="#facs_92_r_1" xml:lang="de" corresp="#p0271-ru">Ich bin achtzehn Jahre alt. Ich bekomme Tuberkulose, aber ich weiß es noch nicht. Frühling. Der Garten ist in Blüte. Ich gehe einen Pfad zwischen den blühenden Apfelbäumen entlang, atme ihren betörenden Duft ein, höre das Summen der Bienen – und plötzlich spüre ich, dass ich nicht mehr dieselbe bin. Anstelle des frischen Rots, das zuvor auf meinen Wangen gebrannt hatte unter den lebendigen Strahlen der Sonne, breitet sich nun eine tödliche Blässe über mein Gesicht, und auf meiner Stirn bilden sich Schweißperlen. Mit unbeschreiblicher Klarheit und Schmerz erkannte ich damals die Unwiderruflichkeit [Unumkehrbarkeit??] der Veränderung, die in mir vorgegangen war; ich fühlte mich, als ob ich...<pb facs="#facs_93" n="93" xml:id="img_0093-de"/>
             <fw facs="#facs_93_r_7" type="page-number" place="top">
                <milestone unit="line" facs="#facs_93_l_23" n="N001"/>92</fw>
             <fw facs="#facs_93_r_5" type="page_number__deleted_or_striked_out">
@@ -95,20 +70,20 @@
          <p facs="#facs_93_r_1" xml:lang="ru" xml:id="p0272-ru">
             <milestone unit="line" facs="#facs_93_l_1" n="N001"/>С тех пор я больше люблю пасмурные дождливые дни. Тогда завеса
                <milestone unit="line" facs="#facs_93_l_2" n="N002"/>не так заметна. Теперь я забыла даже, как это бывает, когда можно
-               <milestone unit="line" facs="#facs_93_l_4" n="N003"/>свободно дышать, и ходить, и бегать. Только во сне я испытываю &lt;иногда эти&gt; ощу-
+               <milestone unit="line" facs="#facs_93_l_4" n="N003"/>свободно дышать, и ходить, и бегать. Только во сне я испытываю &amp;lt;иногда эти&amp;gt; ощу-
                <milestone unit="line" facs="#facs_93_l_5" n="N004"/>щения здороваго тела.
             </p>
          <p facs="#facs_93_r_1" xml:lang="de" corresp="#p0272-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_93_l_1" n="N001"/>С тех пор я больше люблю пасмурные дождливые дни. Тогда завеса
                <milestone unit="line" facs="#facs_93_l_2" n="N002"/>не так заметна. Теперь я забыла даже, как это бывает, когда можно
-               <milestone unit="line" facs="#facs_93_l_4" n="N003"/>свободно дышать, и ходить, и бегать. Только во сне я испытываю &lt;иногда эти&gt; ощу-
+               <milestone unit="line" facs="#facs_93_l_4" n="N003"/>свободно дышать, и ходить, и бегать. Только во сне я испытываю &amp;lt;иногда эти&amp;gt; ощу-
                <milestone unit="line" facs="#facs_93_l_5" n="N004"/>щения здороваго тела.
             </p>
          <p facs="#facs_93_r_3" xml:lang="ru" xml:id="p0273-ru">
             <milestone unit="line" facs="#facs_93_l_30" n="N001"/>Я хотела бы умерeть не здесь, вдали от родины, в постели, а там у
                <milestone unit="line" facs="#facs_93_l_31" n="N002"/>нас на горе, около кладбища, под большим дубом, где в тихие часы за-
-               <milestone unit="line" facs="#facs_93_l_35" n="N003"/>&lt;o&gt;ката&lt;o&gt; солнца я слушала когда то стрекотание кузнечиков и вдыхала
-               <milestone unit="line" facs="#facs_93_l_37" n="N004"/>&lt;запах&gt; степной травы. Воздух был там так чист, а вид так мил моей душе,
+               <milestone unit="line" facs="#facs_93_l_35" n="N003"/>&amp;lt;o&amp;gt;ката&amp;lt;o&amp;gt; солнца я слушала когда то стрекотание кузнечиков и вдыхала
+               <milestone unit="line" facs="#facs_93_l_37" n="N004"/>&amp;lt;запах&amp;gt; степной травы. Воздух был там так чист, а вид так мил моей душе,
                <milestone unit="line" facs="#facs_93_l_38" n="N005"/>что там я спокойно заснула бы навсегда. Но боюсь, как бы не приш-
                <milestone unit="line" facs="#facs_93_l_39" n="N006"/>лось мне сказать в смертный час словами Мцыри Лермонтова:
             <quote>
@@ -124,8 +99,8 @@
          <p facs="#facs_93_r_3" xml:lang="de" corresp="#p0273-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_93_l_30" n="N001"/>Я хотела бы умерeть не здесь, вдали от родины, в постели, а там у
                <milestone unit="line" facs="#facs_93_l_31" n="N002"/>нас на горе, около кладбища, под большим дубом, где в тихие часы за-
-               <milestone unit="line" facs="#facs_93_l_35" n="N003"/>&lt;o&gt;ката&lt;o&gt; солнца я слушала когда то стрекотание кузнечиков и вдыхала
-               <milestone unit="line" facs="#facs_93_l_37" n="N004"/>&lt;запах&gt; степной травы. Воздух был там так чист, а вид так мил моей душе,
+               <milestone unit="line" facs="#facs_93_l_35" n="N003"/>&amp;lt;o&amp;gt;ката&amp;lt;o&amp;gt; солнца я слушала когда то стрекотание кузнечиков и вдыхала
+               <milestone unit="line" facs="#facs_93_l_37" n="N004"/>&amp;lt;запах&amp;gt; степной травы. Воздух был там так чист, а вид так мил моей душе,
                <milestone unit="line" facs="#facs_93_l_38" n="N005"/>что там я спокойно заснула бы навсегда. Но боюсь, как бы не приш-
                <milestone unit="line" facs="#facs_93_l_39" n="N006"/>лось мне сказать в смертный час словами Мцыри Лермонтова:
             <quote>
