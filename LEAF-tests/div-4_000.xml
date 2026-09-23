@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <text>
+      <head facs="#facs_37_r_1">
+         <milestone unit="line" facs="#facs_37_l_1" n="N001"/>
+         <hi style="text-decoration: underline;">Ушедшее</hi>
+         <milestone unit="line" facs="#facs_37_l_29" n="N002"/>(Часть вторая).</head>
+      <head facs="#facs_37_r_1" xml:lang="de">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_37_l_1" n="N001"/>
+         <hi style="text-decoration: underline;">Ушедшее</hi>
+         <milestone unit="line" facs="#facs_37_l_29" n="N002"/>(Часть вторая).</head>
+      <p facs="#facs_37_r_5" xml:lang="ru" xml:id="p0109-ru">
+         <milestone unit="line" facs="#facs_37_l_28" n="N001"/>Мне кажется, чти эти записки есть ничто инoе, как опрозраченная
+               <milestone unit="line" facs="#facs_37_l_31" n="N002"/>душа «старой девы». Если кто-нибудь может смеятся над этим,- пусть
+               <milestone unit="line" facs="#facs_37_l_32" n="N003"/>смеется. Но в этой опрозраченной душе есть также и отражение прек-
+               <milestone unit="line" facs="#facs_37_l_33" n="N004"/>расной души человека, которого я имела счастье встретить раньше, чем
+               <milestone unit="line" facs="#facs_37_l_34" n="N005"/>умерла.
+            </p>
+      <p facs="#facs_37_r_5" xml:lang="de" corresp="#p0109-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_37_l_28" n="N001"/>Мне кажется, чти эти записки есть ничто инoе, как опрозраченная
+               <milestone unit="line" facs="#facs_37_l_31" n="N002"/>душа «старой девы». Если кто-нибудь может смеятся над этим,- пусть
+               <milestone unit="line" facs="#facs_37_l_32" n="N003"/>смеется. Но в этой опрозраченной душе есть также и отражение прек-
+               <milestone unit="line" facs="#facs_37_l_33" n="N004"/>расной души человека, которого я имела счастье встретить раньше, чем
+               <milestone unit="line" facs="#facs_37_l_34" n="N005"/>умерла.
+            </p>
+      <p facs="#facs_37_r_4" xml:lang="ru" xml:id="p0110-ru">
+         <milestone unit="line" facs="#facs_37_l_2" n="N001"/>Все, что я пишу, я посвящаю ему.
+            </p>
+      <p facs="#facs_37_r_4" xml:lang="de" corresp="#p0110-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_37_l_2" n="N001"/>Все, что я пишу, я посвящаю ему.
+            </p>
+      <p facs="#facs_37_r_8" xml:lang="ru" xml:id="p0111-ru">
+         <milestone unit="line" facs="#facs_37_l_4" n="N001"/>
+         <hi style="text-decoration: line-through;">это</hi> &lt;Это&gt; скромная дань восхищения и благодарности тому, ради кого мне за-
+               <milestone unit="line" facs="#facs_37_l_5" n="N002"/>хотелось стать лучшею. Если бы я не узнала его, я никогда не написала
+               <milestone unit="line" facs="#facs_37_l_6" n="N003"/>бы всего этого.
+         </p>
+      <p facs="#facs_37_r_8" xml:lang="de" corresp="#p0111-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_37_l_4" n="N001"/>
+         <hi style="text-decoration: line-through;">это</hi> &lt;Это&gt; скромная дань восхищения и благодарности тому, ради кого мне за-
+               <milestone unit="line" facs="#facs_37_l_5" n="N002"/>хотелось стать лучшею. Если бы я не узнала его, я никогда не написала
+               <milestone unit="line" facs="#facs_37_l_6" n="N003"/>бы всего этого.
+         </p>
+   </text>
+</TEI>
