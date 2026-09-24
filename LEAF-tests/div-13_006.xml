@@ -179,8 +179,7 @@
          <p facs="#facs_130_r_5" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_130_l_39" n="N001"/>20 января.
             </p>
-         <p facs="#facs_130_r_5" ana="dated_entry_header">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_130_l_39" n="N001"/>20 января.
+         <p facs="#facs_130_r_5" ana="dated_entry_header">{TRANSLATION GOES HERE} <milestone unit="line" facs="#facs_130_l_39" n="N001"/>20 января.
             </p>
          <p facs="#facs_130_r_4" xml:lang="ru" xml:id="p0411-ru">
             <milestone unit="line" facs="#facs_130_l_15" n="N001"/>Сегодня он уехал. Он нанял комнату в <hi style="text-decoration: line-through;">бли</hi> одном из пансионов близжай-
