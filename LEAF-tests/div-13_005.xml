@@ -76,13 +76,91 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_005.xml?note_annotation_20260924112143880#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[4]/note"
+			"rdf:value": "TEI/text/body/p[4]/ref/note"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
 		"rdf:value": "Hallo"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_005.xml?link_annotation_20260924112727170",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-09-24T09:27:27.170Z",
+	"dcterms:modified": "2026-09-24T09:27:27.170Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:linking",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_005.xml?link_annotation_20260924112727170#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_005.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_005.xml?link_annotation_20260924112727170#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/ref"
+		}
+	},
+	"oa:hasBody": {
+		"@id": "https://ilias.unibe.ch",
+		"@type": "cnt:ContentAsText"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -127,7 +205,7 @@
                <milestone unit="line" facs="#facs_124_l_36" n="N006"/>
             <milestone unit="line" facs="#facs_124_l_37" n="N007"/>цев, которые любят друг друга, &amp;lt;любят впервые&amp;gt;, по настоящему,  те, сначала душу, а вместе с ней, но
                <milestone unit="line" facs="#facs_124_l_38" n="N008"/>уже много спустя и тело. Но для тех, кто привык отдавать или брать
-               <milestone unit="line" facs="#facs_124_l_39" n="N009"/>тело без души (он сказал о себе: «мальчишка я был очень распущенный») все это<note type="researchNote">Hallo</note>
+               <milestone unit="line" facs="#facs_124_l_39" n="N009"/>тело без души (он сказал о себе: «мальчишка я был очень распущенный») все <ref target="https://ilias.unibe.ch">это<note type="researchNote">Hallo</note></ref>
                <milestone unit="line" facs="#facs_124_l_40" n="N010"/>должно быть <hi style="text-decoration: underline;">навеки</hi> испорчено, осквернено и разбито. И это ужасно. Неужели
                <milestone unit="line" facs="#facs_124_l_41" n="N011"/>никогда не будет возможно иначе воспитывать детей, которых теперь так ка-
                <milestone unit="line" facs="#facs_124_l_42" n="N012"/>лечит?
