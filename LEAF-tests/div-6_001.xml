@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" href="null"?>
-<?xml-stylesheet type="text/css" href="null"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,21 +11,89 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData>
-         <rdf:RDF xmlns:as="http://www.w3.org/ns/activitystreams#"
-                  xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-                  xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-                  xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                  xmlns:dcterms="http://purl.org/dc/terms/"
-                  xmlns:fabio="https://purl.org/spar/fabio#"
-                  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-                  xmlns:geo="http://www.geonames.org/ontology#"
-                  xmlns:oa="http://www.w3.org/ns/oa#"
-                  xmlns:org="http://www.w3.org/ns/org#"
-                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-                  xmlns:schema="http://schema.org/"
-                  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"/>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-6_001.xml?place_annotation_20260924112919907",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-09-24T09:29:19.907Z",
+	"dcterms:modified": "2026-09-24T09:29:19.907Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/MaschaSt",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mascha Stöckmann"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-6_001.xml?place_annotation_20260924112919907#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-6_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-6_001.xml?place_annotation_20260924112919907#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/237298336",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><xenoData>
+         
       </xenoData>
    </teiHeader>
    <text>
@@ -44,13 +106,13 @@
             <milestone unit="line" facs="#facs_41_tr_1_tl_4" n="N001"/>Сопровождавшая меня сестра милосердия с жаром отговаривала меня от
                <milestone unit="line" facs="#facs_41_tr_1_tl_5" n="N002"/>операции и предлагала посоветовать предварительно с знаменитым
                <milestone unit="line" facs="#facs_41_tr_1_tl_6" n="N003"/>профессором Сали, жившим в Берне. Я согласилась с нею, жизнь снова влекла
-               <milestone unit="line" facs="#facs_41_tr_1_tl_8" n="N004"/>меня к себе &lt;влекла&gt; живым образом человека, которого я только что встретила.
+               <milestone unit="line" facs="#facs_41_tr_1_tl_8" n="N004"/>меня к себе &amp;lt;влекла&amp;gt; живым образом человека, которого я только что встретила.
             </p>
          <p facs="#facs_41_r_2" xml:lang="de" corresp="#p0129-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_41_tr_1_tl_4" n="N001"/>Сопровождавшая меня сестра милосердия с жаром отговаривала меня от
                <milestone unit="line" facs="#facs_41_tr_1_tl_5" n="N002"/>операции и предлагала посоветовать предварительно с знаменитым
                <milestone unit="line" facs="#facs_41_tr_1_tl_6" n="N003"/>профессором Сали, жившим в Берне. Я согласилась с нею, жизнь снова влекла
-               <milestone unit="line" facs="#facs_41_tr_1_tl_8" n="N004"/>меня к себе &lt;влекла&gt; живым образом человека, которого я только что встретила.
+               <milestone unit="line" facs="#facs_41_tr_1_tl_8" n="N004"/>меня к себе &amp;lt;влекла&amp;gt; живым образом человека, которого я только что встретила.
             </p>
          <p facs="#facs_41_r_3" xml:lang="ru" xml:id="p0130-ru">
             <milestone unit="line" facs="#facs_41_tr_1_tl_9" n="N001"/>Мы поехали в Берн. Все это путешествие мне казалось каким то восста-
@@ -58,7 +120,7 @@
                <milestone unit="line" facs="#facs_41_tr_1_tl_11" n="N003"/>маленькие дети или глядели бы воскресние из гроба…
             </p>
          <p facs="#facs_41_r_3" xml:lang="de" corresp="#p0130-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_41_tr_1_tl_9" n="N001"/>Мы поехали в Берн. Все это путешествие мне казалось каким то восста-
+               <milestone unit="line" facs="#facs_41_tr_1_tl_9" n="N001"/>Мы поехали в <placeName key="Bern" ref="http://viaf.org/viaf/237298336" cert="high">Берн<precision match="@ref" precision="high"/></placeName>. Все это путешествие мне казалось каким то восста-
                <milestone unit="line" facs="#facs_41_tr_1_tl_10" n="N002"/>нием из гроба. Я глядела на все широко раскрытыми глазами, какими глядят
                <milestone unit="line" facs="#facs_41_tr_1_tl_11" n="N003"/>маленькие дети или глядели бы воскресние из гроба…
             </p>
@@ -173,7 +235,7 @@
                <milestone unit="line" facs="#facs_42_tr_1_tl_19" n="N013"/>самое себя.
             </p>
          <p facs="#facs_42_r_4" xml:lang="ru" xml:id="p0135-ru">
-            <milestone unit="line" facs="#facs_42_tr_1_tl_20" n="N001"/>Сестра моя &lt;Mme Bärli,&gt; производила на меня впечатление не совсем дюжинной женщины.
+            <milestone unit="line" facs="#facs_42_tr_1_tl_20" n="N001"/>Сестра моя &amp;lt;Mme Bärli,&amp;gt; производила на меня впечатление не совсем дюжинной женщины.
                <milestone unit="line" facs="#facs_42_tr_1_tl_21" n="N002"/>В первый раз, как я ее увидела, мне бросились в глаза три вещи: обилие ко-
                <milestone unit="line" facs="#facs_42_tr_1_tl_22" n="N003"/>лец на ее пальцах, усы и какие-то странные, зеленоватые глаза. Она была из
                <milestone unit="line" facs="#facs_42_tr_1_tl_23" n="N004"/>хорошей, зажиточной <!--type: "Familie\u0020Périllard,\u0020recherchieren" continued: ""-->семьи, но вышла замуж несчастливо, муж обманы¬
@@ -181,7 +243,7 @@
                <milestone unit="line" facs="#facs_42_tr_1_tl_25" n="N006"/>сумела внушить мне жалость к себе, казалась искренней, доброй. Она до-
                <milestone unit="line" facs="#facs_42_tr_1_tl_26" n="N007"/>вольно много читала, знала очень хорошо три языка, замечания ее бывали
                <milestone unit="line" facs="#facs_42_tr_1_tl_27" n="N008"/>иногда тонки и метки. Позже я узнала, что она была фальшива и скорее
-               <milestone unit="line" facs="#facs_42_tr_1_tl_29" n="N009"/>зла, чем добра. Она тоже как и медведи оказалась неудачным пробным &lt;этюдом&gt;
+               <milestone unit="line" facs="#facs_42_tr_1_tl_29" n="N009"/>зла, чем добра. Она тоже как и медведи оказалась неудачным пробным &amp;lt;этюдом&amp;gt;
                <milestone unit="line" facs="#facs_42_tr_1_tl_30" n="N010"/>но, творя ее, природа имела какой то широкий и богатый замысел…
             <pb facs="#facs_43" n="43" xml:id="img_0043"/>
             <fw facs="#facs_43_r" type="page-number" place="top">
@@ -194,7 +256,7 @@
             </fw>
          </p>
          <p facs="#facs_42_r_4" xml:lang="de" corresp="#p0135-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_42_tr_1_tl_20" n="N001"/>Сестра моя &lt;Mme Bärli,&gt; производила на меня впечатление не совсем дюжинной женщины.
+               <milestone unit="line" facs="#facs_42_tr_1_tl_20" n="N001"/>Сестра моя &amp;lt;Mme Bärli,&amp;gt; производила на меня впечатление не совсем дюжинной женщины.
                <milestone unit="line" facs="#facs_42_tr_1_tl_21" n="N002"/>В первый раз, как я ее увидела, мне бросились в глаза три вещи: обилие ко-
                <milestone unit="line" facs="#facs_42_tr_1_tl_22" n="N003"/>лец на ее пальцах, усы и какие-то странные, зеленоватые глаза. Она была из
                <milestone unit="line" facs="#facs_42_tr_1_tl_23" n="N004"/>хорошей, зажиточной <!--type: "Familie\u0020Périllard,\u0020recherchieren" continued: ""-->семьи, но вышла замуж несчастливо, муж обманы¬
@@ -202,7 +264,7 @@
                <milestone unit="line" facs="#facs_42_tr_1_tl_25" n="N006"/>сумела внушить мне жалость к себе, казалась искренней, доброй. Она до-
                <milestone unit="line" facs="#facs_42_tr_1_tl_26" n="N007"/>вольно много читала, знала очень хорошо три языка, замечания ее бывали
                <milestone unit="line" facs="#facs_42_tr_1_tl_27" n="N008"/>иногда тонки и метки. Позже я узнала, что она была фальшива и скорее
-               <milestone unit="line" facs="#facs_42_tr_1_tl_29" n="N009"/>зла, чем добра. Она тоже как и медведи оказалась неудачным пробным &lt;этюдом&gt;
+               <milestone unit="line" facs="#facs_42_tr_1_tl_29" n="N009"/>зла, чем добра. Она тоже как и медведи оказалась неудачным пробным &amp;lt;этюдом&amp;gt;
                <milestone unit="line" facs="#facs_42_tr_1_tl_30" n="N010"/>но, творя ее, природа имела какой то широкий и богатый замысел…
             <pb facs="#facs_43" n="43" xml:id="img_0043-de"/>
             <fw facs="#facs_43_r" type="page-number" place="top">
@@ -216,26 +278,26 @@
          </p>
          <p facs="#facs_43_r_3" xml:lang="ru" xml:id="p0136-ru">
             <milestone unit="line" facs="#facs_43_l_4" n="N001"/>Профессор Сали принял меня, наконец, и, выслушав, не нашел моего состоя¬
-               <milestone unit="line" facs="#facs_43_l_6" n="N002"/>ния таким плохим, чтобы оставалось &lt;лишь&gt; делать ту рискованную операцию. Он по-
+               <milestone unit="line" facs="#facs_43_l_6" n="N002"/>ния таким плохим, чтобы оставалось &amp;lt;лишь&amp;gt; делать ту рискованную операцию. Он по-
                <milestone unit="line" facs="#facs_43_l_7" n="N003"/>советовал попробовать лечение пневматораксом.
             </p>
          <p facs="#facs_43_r_3" xml:lang="de" corresp="#p0136-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_43_l_4" n="N001"/>Профессор Сали принял меня, наконец, и, выслушав, не нашел моего состоя¬
-               <milestone unit="line" facs="#facs_43_l_6" n="N002"/>ния таким плохим, чтобы оставалось &lt;лишь&gt; делать ту рискованную операцию. Он по-
+               <milestone unit="line" facs="#facs_43_l_6" n="N002"/>ния таким плохим, чтобы оставалось &amp;lt;лишь&amp;gt; делать ту рискованную операцию. Он по-
                <milestone unit="line" facs="#facs_43_l_7" n="N003"/>советовал попробовать лечение пневматораксом.
             </p>
          <p facs="#facs_43_r_7" xml:lang="ru" xml:id="p0137-ru">
-            <milestone unit="line" facs="#facs_43_l_8" n="N001"/>Я поселилась у &lt;своей&gt; сестры милосердия, жившей неподалеку от моей прежней
+            <milestone unit="line" facs="#facs_43_l_8" n="N001"/>Я поселилась у &amp;lt;своей&amp;gt; сестры милосердия, жившей неподалеку от моей прежней
                <milestone unit="line" facs="#facs_43_l_9" n="N002"/>клиники, и пригласила к себе одного молодого доктора, специалиста по лече-
                <milestone unit="line" facs="#facs_43_l_10" n="N003"/>нию пневматораксом. Между тем, случилось так, что сестра моя, Mme
-               <milestone unit="line" facs="#facs_43_l_12" n="N004"/>Вärli, приняла к себе еще одну больную и на &lt;небольшой&gt; квартире нашей стало тесно.
+               <milestone unit="line" facs="#facs_43_l_12" n="N004"/>Вärli, приняла к себе еще одну больную и на &amp;lt;небольшой&amp;gt; квартире нашей стало тесно.
                <milestone unit="line" facs="#facs_43_l_32" n="N005"/>Mme Bärli решила тогда открыть маленькую клинику.
          </p>
          <p facs="#facs_43_r_7" xml:lang="de" corresp="#p0137-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_43_l_8" n="N001"/>Я поселилась у &lt;своей&gt; сестры милосердия, жившей неподалеку от моей прежней
+               <milestone unit="line" facs="#facs_43_l_8" n="N001"/>Я поселилась у &amp;lt;своей&amp;gt; сестры милосердия, жившей неподалеку от моей прежней
                <milestone unit="line" facs="#facs_43_l_9" n="N002"/>клиники, и пригласила к себе одного молодого доктора, специалиста по лече-
                <milestone unit="line" facs="#facs_43_l_10" n="N003"/>нию пневматораксом. Между тем, случилось так, что сестра моя, Mme
-               <milestone unit="line" facs="#facs_43_l_12" n="N004"/>Вärli, приняла к себе еще одну больную и на &lt;небольшой&gt; квартире нашей стало тесно.
+               <milestone unit="line" facs="#facs_43_l_12" n="N004"/>Вärli, приняла к себе еще одну больную и на &amp;lt;небольшой&amp;gt; квартире нашей стало тесно.
                <milestone unit="line" facs="#facs_43_l_32" n="N005"/>Mme Bärli решила тогда открыть маленькую клинику.
          </p>
       </body>
