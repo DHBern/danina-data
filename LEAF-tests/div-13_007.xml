@@ -488,6 +488,84 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_007.xml?date_annotation_20260924114147958",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-09-24T09:41:47.958Z",
+	"dcterms:modified": "2026-09-24T09:41:47.958Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Stradanina",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "T H"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_007.xml?date_annotation_20260924114147958#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_007.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_007.xml?date_annotation_20260924114147958#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[4]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1920-03-08"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -537,7 +615,7 @@
                <milestone unit="line" facs="#facs_135_l_44" n="N015"/>высокими и достойными человека.
             </p>
          <p facs="#facs_135_r_4" ana="dated_entry_header">
-            <milestone unit="line" facs="#facs_135_l_7" n="N001"/>8 марта.
+            <milestone unit="line" facs="#facs_135_l_7" n="N001"/><date when="1920-03-08" cert="medium">8 марта.</date>
             </p>
          <p facs="#facs_135_r_4" ana="dated_entry_header"> 8. März.
             </p>
@@ -868,7 +946,7 @@
             </p>
          <p facs="#facs_139_r_8" xml:lang="de" corresp="#p0441-ru">Diese Tage habe ich ohne ersichtlichen Grund einen sehr schlechten Puls, es fällt mir schwer<pb facs="#facs_140" n="140" xml:id="img_0140-de"/>
             <fw facs="#facs_140_r_2" type="page-number" place="top">
-               <milestone unit="line" facs="#facs_140_l_14" n="N001"/>138</fw> zu atmen<milestone unit="line" facs="#facs_140_l_15" n="N001"/>дышать. Вчера я вообразила себе, что могу внезапно умереть ночью и напи-
+               <milestone unit="line" facs="#facs_140_l_14" n="N001"/>138</fw> zu atmen. Вчера я вообразила себе, что могу внезапно умереть ночью и напи-
                <milestone unit="line" facs="#facs_140_l_16" n="N002"/>сала даже на клочке бумаги нечто вроде маленького завещания. Я просила
                <milestone unit="line" facs="#facs_140_l_17" n="N003"/>отдать все мои тетради Борису, а также мою маленькую коробочку для
                <milestone unit="line" facs="#facs_140_l_18" n="N004"/>марок. В ней лежит цветочек primevère, который я когда то держала в
