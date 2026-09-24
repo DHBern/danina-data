@@ -14,7 +14,86 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_002.xml?note_annotation_20260924113527886",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-09-24T09:35:27.886Z",
+	"dcterms:modified": "2026-09-24T09:35:27.886Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/bamelia",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melina Bacher"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_002.xml?note_annotation_20260924113527886#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_002.xml?note_annotation_20260924113527886#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Ein erster Übersetzungsversuch - tbc"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
    </teiHeader>
@@ -36,20 +115,18 @@
                <milestone unit="line" facs="#facs_101_l_4" n="N004"/>дущему разговору. В пояснение своей мысли он добавил, что, может быть,
                <milestone unit="line" facs="#facs_101_l_5" n="N005"/>иногда необходимо солгать для счастия другого человека.
             </p>
-         <p facs="#facs_101_r_1" xml:lang="de" corresp="#p0304-ru">{TRANSLATION GOES HERE} Im Gespräch sagte Boris auch, dass das Leben nicht leicht sei, manchmal, wenn man beispielsweise unehrlicherweise ehrlich ist. И он привел в пример «Дикую утку" Ибсена. Я
+         <p facs="#facs_101_r_1" xml:lang="de" corresp="#p0304-ru">{TRANSLATION GOES HERE} Im Gespräch sagte Boris auch, dass das Leben nicht leicht sei, manchmal, wenn man beispielsweise unehrlicherweise ehrlich ist<note type="researchNote">Ein erster Übersetzungsversuch - tbc</note>. И он привел в пример «Дикую утку" Ибсена. Я
                <milestone unit="line" facs="#facs_101_l_3" n="N003"/>не совсем хорошо поняла, какое отношение имело это к нашему преды¬
                <milestone unit="line" facs="#facs_101_l_4" n="N004"/>дущему разговору. В пояснение своей мысли он добавил, что, может быть,
                <milestone unit="line" facs="#facs_101_l_5" n="N005"/>иногда необходимо солгать для счастия другого человека.
             </p>
          <p facs="#facs_101_r_3" xml:lang="ru" xml:id="p0305-ru">
-            <milestone unit="line" facs="#facs_101_l_22" n="N001"/>Не мелькнула ли у него эта мысль в голове в тот момент, когда я ска¬
-               <milestone unit="line" facs="#facs_101_l_23" n="N002"/>зала, что никому ненужна. Не подумал ли он, что поступил бы, может
+            <milestone unit="line" facs="#facs_101_l_22" n="N001"/>Не мелькнула ли у него эта мысль в голове в тот момент, когда я ска<milestone unit="line" facs="#facs_101_l_23" n="N002"/>зала, что никому ненужна. Не подумал ли он, что поступил бы, может
                <milestone unit="line" facs="#facs_101_l_24" n="N003"/>быть, лучше, если бы создал мне иллюзию, «дкую утку», предоставив мне
                <milestone unit="line" facs="#facs_101_l_25" n="N004"/>думать, что любит меня и что я нужна ему?
             </p>
          <p facs="#facs_101_r_3" xml:lang="de" corresp="#p0305-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_101_l_22" n="N001"/>Не мелькнула ли у него эта мысль в голове в тот момент, когда я ска¬
-               <milestone unit="line" facs="#facs_101_l_23" n="N002"/>зала, что никому ненужна. Не подумал ли он, что поступил бы, может
+               <milestone unit="line" facs="#facs_101_l_22" n="N001"/>Не мелькнула ли у него эта мысль в голове в тот момент, когда я ска<milestone unit="line" facs="#facs_101_l_23" n="N002"/>зала, что никому ненужна. Не подумал ли он, что поступил бы, может
                <milestone unit="line" facs="#facs_101_l_24" n="N003"/>быть, лучше, если бы создал мне иллюзию, «дкую утку», предоставив мне
                <milestone unit="line" facs="#facs_101_l_25" n="N004"/>думать, что любит меня и что я нужна ему?
             </p>
