@@ -17,15 +17,9 @@
    </teiHeader>
    <text>
       <body>
-         <p facs="#facs_34_r_7" xml:lang="de" corresp="#p0101-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_34_l_20" n="N001"/>Вопреки предсказанию доктора состояние мое с каждым днем ухудшалось.
-               <milestone unit="line" facs="#facs_34_l_21" n="N002"/>Этот мягкий, расслабляющий климат оказался для меня неподходящим.
-               <milestone unit="line" facs="#facs_34_l_22" n="N003"/>У меня повторились кравохаркания. Настроение было тяжелое, подавленное.
-               <milestone unit="line" facs="#facs_34_l_23" n="N004"/>Я хотела жить, но мне нельзя было жить. Что-то неуклонно и беспощадно
-               <milestone unit="line" facs="#facs_34_l_24" n="N005"/>давило меня к земле, несмотря на все мои старания выпрямиться.
-            </p>
+         <p facs="#facs_34_r_7" xml:lang="de" corresp="#p0101-ru"/>
          <p facs="#facs_34_r_9" xml:lang="ru" xml:id="p0102-ru">
-            <milestone unit="line" facs="#facs_34_l_25" n="N001"/>Я написала Владимиру Семеновичу, что жалею о приезде в Ментону,
+            <milestone unit="line" facs="#facs_34_l_25" n="N001"/>Entgegen der Prognose des Arztes verschlechterte sich mein Zustand von Tag zu Tag. Dieses milde, entspannende Klima erwies sich für mich als ungeeignet. Das Bluthusten trat erneut auf. Meine Stimmung war bedrückt und niedergeschlagen. Ich wollte leben, aber ich durfte nicht leben. Etwas drückte mich unaufhaltsam und gnadenlos zu Boden, trotz all meiner Bemühungen, mich aufzurichten.</p><p facs="#facs_34_r_9" xml:lang="ru" xml:id="p0102-ru">Я написала Владимиру Семеновичу, что жалею о приезде в Ментону,
                что я недовольна санаторией и хотела бы переехать в Швейцарию.
                «Сегодня получил Вашу открытку, — отвечал он, – и должен признаться,
                что ходил за нею на почту семь дней подряд. Я уже хотел телегафиро-
@@ -43,7 +37,7 @@
             
             </p>
          <p facs="#facs_34_r_9" xml:lang="de" corresp="#p0102-ru">Ich schrieb an Wladimir Semjonowitsch, dass ich meine Reise nach Menton bereue, dass ich mit dem Sanatorium unzufrieden bin und gerne in die Schweiz umziehen würde. „Heute habe ich Ihre Postkarte erhalten“, antwortete er, „und muss gestehen, dass ich sieben Tage hintereinander zur Post gegangen bin, um nach ihr zu fragen. Ich wollte schon der Leiterin des Sanatoriums ein Telegramm schicken und fragen, was mit Ihnen los ist … Wenn es in meiner Macht und meinen Kräften stünde, würde ich Sie nicht nur in die Schweiz bringen, sondern <pb facs="#facs_35" n="35" xml:id="img_0035-de"></pb></p>
-         <p facs="#facs_35_r_3" xml:lang="ru" xml:id="p0103-ru"><fw facs="#facs_35_r" type="page-number" place="top">34 [<hi style="text-decoration: line-through;">67</hi>] </fw>die ganze Welt bereisen und dort Halt machen, wo Sie sagen würden: hier gefällt es mir.</p><p facs="#facs_35_r_3" xml:lang="ru" xml:id="p0103-ru">Одной моей знакомой он написал в санаторию:
+         <p facs="#facs_35_r_3" xml:lang="ru" xml:id="p0103-ru"><fw facs="#facs_35_r" type="page-number" place="top">34 [<hi style="text-decoration: line-through;">67</hi>] </fw>die ganze Welt bereisen und dort Halt machen, wo Sie sagen würden: hier gefällt es mir.“</p><p facs="#facs_35_r_3" xml:lang="ru" xml:id="p0103-ru">Одной моей знакомой он написал в санаторию:
                <milestone unit="line" facs="#facs_35_l_31" n="N002"/>- «Когда Таня больна, я не нахожу себе места».
                <milestone unit="line" facs="#facs_35_l_32" n="N003"/>Сейчас я представляю себе, как этот большой и неприступный с виду чело-
                <milestone unit="line" facs="#facs_35_l_33" n="N004"/>век бродит одиноко по улицам чужого города, заходит на почту и не на-
