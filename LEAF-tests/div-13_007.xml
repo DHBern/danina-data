@@ -249,6 +249,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_007.xml?person_annotation_20260924112729741",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-09-24T09:27:29.741Z",
+	"dcterms:modified": "2026-09-24T09:27:29.741Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Stradanina",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "T H"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_007.xml?person_annotation_20260924112729741#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_007.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_007.xml?person_annotation_20260924112729741#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[28]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/80351209",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -555,8 +634,7 @@
                <milestone unit="line" facs="#facs_139_l_22" n="N002"/>я избрала. Я представила себе вчера нас двоих &amp;lt;идущими&amp;gt; рядом по залитой солнцем доро-
                <milestone unit="line" facs="#facs_139_l_23" n="N003"/>гой среди цветущих дерев. Я была в синем платье, стройная, улыбающаяся. Я
                <milestone unit="line" facs="#facs_139_l_24" n="N004"/>чувствовала, что он любуется и гордится мною, так же как и я горжусь им.
-               <milestone unit="line" facs="#facs_139_l_25" n="N005"/>И потом мы были вместе в концерте и слушали девятую симфонию Бет-
-               <milestone unit="line" facs="#facs_139_l_26" n="N006"/>ховена. И я сжимала его руку в своей руке... Эх ты, помолчала бы лучше. Но,
+               <milestone unit="line" facs="#facs_139_l_25" n="N005"/>И потом мы были вместе в концерте и слушали девятую симфонию <persName key="Beethoven, Ludwig van 1712-1773" ref="http://viaf.org/viaf/80351209">Бетховена</persName>. И я сжимала его руку в своей руке... Эх ты, помолчала бы лучше. Но,
                <milestone unit="line" facs="#facs_139_l_27" n="N007"/>написавши все это я вдруг опять чувствую себя богаче и счастливее всех
                <milestone unit="line" facs="#facs_139_l" n="N008"/>на свете. Так сказочно щедра природа: отнимая одно, она дает дру-
                <milestone unit="line" facs="#facs_139_l_1" n="N009"/>гое.
