@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" href="null"?>
-<?xml-stylesheet type="text/css" href="null"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,21 +14,8 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData>
-         <rdf:RDF xmlns:as="http://www.w3.org/ns/activitystreams#"
-                  xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-                  xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-                  xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                  xmlns:dcterms="http://purl.org/dc/terms/"
-                  xmlns:fabio="https://purl.org/spar/fabio#"
-                  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-                  xmlns:geo="http://www.geonames.org/ontology#"
-                  xmlns:oa="http://www.w3.org/ns/oa#"
-                  xmlns:org="http://www.w3.org/ns/org#"
-                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-                  xmlns:schema="http://schema.org/"
-                  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"/>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData>
+         
       </xenoData>
    </teiHeader>
    <text>
@@ -45,14 +29,14 @@
                <milestone unit="line" facs="#facs_43_l_14" n="N002"/>мы обменивались письмами, но не очень часто: раз в две-три недели и даже
                <milestone unit="line" facs="#facs_43_l_15" n="N003"/>еще того реже. Вскоре оказалось, что он тоже недоволен той клиникой,
                <milestone unit="line" facs="#facs_43_l_16" n="N004"/>хотя и начал поправляться вопреки всем мрачным предсказаниям. У меня
-               <milestone unit="line" facs="#facs_43_l_18" n="N005"/>появилась надежда, что он переедет к &lt;нам&gt; <hi style="text-decoration: line-through;">[нашу новую клинику]</hi>.
+               <milestone unit="line" facs="#facs_43_l_18" n="N005"/>появилась надежда, что он переедет к &amp;lt;нам&amp;gt; <hi style="text-decoration: line-through;">[нашу новую клинику]</hi>.
             </p>
-         <p facs="#facs_43_r_1" xml:lang="de" corresp="#p0138-ru">{TRANSLATION GOES HERE}
+         <p facs="#facs_43_r_1" xml:lang="de" corresp="#p0138-ru">Ich erfüllte mein Versprechen und schrieb Saraev aus Bern, auch später tauschten wir {TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_43_l_13" n="N001"/>Я исполнила свое обещание и написала Сараеву еще из Берна и позже
                <milestone unit="line" facs="#facs_43_l_14" n="N002"/>мы обменивались письмами, но не очень часто: раз в две-три недели и даже
                <milestone unit="line" facs="#facs_43_l_15" n="N003"/>еще того реже. Вскоре оказалось, что он тоже недоволен той клиникой,
                <milestone unit="line" facs="#facs_43_l_16" n="N004"/>хотя и начал поправляться вопреки всем мрачным предсказаниям. У меня
-               <milestone unit="line" facs="#facs_43_l_18" n="N005"/>появилась надежда, что он переедет к &lt;нам&gt; <hi style="text-decoration: line-through;">[нашу новую клинику]</hi>.
+               <milestone unit="line" facs="#facs_43_l_18" n="N005"/>появилась надежда, что он переедет к &amp;lt;нам&amp;gt; <hi style="text-decoration: line-through;">[нашу новую клинику]</hi>.
             </p>
          <p facs="#facs_43_r_4" xml:lang="ru" xml:id="p0139-ru">
             <milestone unit="line" facs="#facs_43_l_19" n="N001"/>К новому году мне стало лучше, и я начала понемногу вставать и спус¬
