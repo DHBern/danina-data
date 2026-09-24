@@ -171,6 +171,85 @@
 	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-6_001.xml?place_annotation_20260924114233643",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-09-24T09:42:33.643Z",
+	"dcterms:modified": "2026-09-24T09:42:33.643Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/MaschaSt",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mascha Stöckmann"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-6_001.xml?place_annotation_20260924114233643#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-6_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-6_001.xml?place_annotation_20260924114233643#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/237298336",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -184,7 +263,7 @@
          <p facs="#facs_41_r_2" xml:lang="ru" xml:id="p0129-ru">
             <milestone unit="line" facs="#facs_41_tr_1_tl_4" n="N001"/>Сопровождавшая меня сестра милосердия с жаром отговаривала меня от
                <milestone unit="line" facs="#facs_41_tr_1_tl_5" n="N002"/>операции и предлагала посоветовать предварительно с знаменитым
-               <milestone unit="line" facs="#facs_41_tr_1_tl_6" n="N003"/>профессором Сали, жившим в Берне. Я согласилась с нею, жизнь снова влекла
+               <milestone unit="line" facs="#facs_41_tr_1_tl_6" n="N003"/>профессором Сали, жившим в <placeName key="Bern" ref="http://viaf.org/viaf/237298336">Берне</placeName>. Я согласилась с нею, жизнь снова влекла
                <milestone unit="line" facs="#facs_41_tr_1_tl_8" n="N004"/>меня к себе &amp;lt;влекла&amp;gt; живым образом человека, которого я только что встретила.
             </p>
          <p facs="#facs_41_r_2" xml:lang="de" corresp="#p0129-ru"/><p facs="#facs_41_r_2" xml:lang="de" corresp="#p0129-ru">Die mit begleitende Schwester der Barmherzigkeit hielt mir hitzig von einer Operation ab und schlug vor, den Rat des berühmten Professoren Sali aus Bern einzuholen.</p>
