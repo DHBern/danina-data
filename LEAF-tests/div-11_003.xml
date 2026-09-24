@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" href="null"?>
-<?xml-stylesheet type="text/css" href="null"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,27 +11,14 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData>
-         <rdf:RDF xmlns:as="http://www.w3.org/ns/activitystreams#"
-                  xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-                  xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-                  xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                  xmlns:dcterms="http://purl.org/dc/terms/"
-                  xmlns:fabio="https://purl.org/spar/fabio#"
-                  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-                  xmlns:geo="http://www.geonames.org/ontology#"
-                  xmlns:oa="http://www.w3.org/ns/oa#"
-                  xmlns:org="http://www.w3.org/ns/org#"
-                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-                  xmlns:schema="http://schema.org/"
-                  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"/>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData>
+         
       </xenoData>
    </teiHeader>
    <text>
       <body>
-         <p facs="#facs_63_r_1" xml:lang="de" corresp="#p0208-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_63_l_26" n="N001"/>Я краснею, вспоминая мой ответ Борису. <hi style="text-decoration: line-through;">на это письмо</hi> Я написа-
+         <p corresp="#p0208-ru" facs="#facs_63_r_1" xml:lang="de">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_63_l_26" n="N001"/>Я краснею, вспоминая мой ответ Борису. <hi>на это письмо</hi> Я написа-
                <milestone unit="line" facs="#facs_63_l_27" n="N002"/>ла, что очень счастлива его письмом и его доверием ко мне. Что „вто-
                <milestone unit="line" facs="#facs_63_l_28" n="N003"/>рое??? возможно“, доказывает роман Лермонтова „Герой нашего времени“. И
                <milestone unit="line" facs="#facs_63_l_29" n="N004"/>вместе с моим ответом я послала ему этот роман.
@@ -84,13 +65,13 @@
             </p>
          <p facs="#facs_64_r_5" xml:lang="ru" xml:id="p0211-ru">
             <milestone unit="line" facs="#facs_64_l_22" n="N001"/>На другой день рано утром мне принесли длиннейшее письмо от Бориса,
-               <milestone unit="line" facs="#facs_64_l_23" n="N002"/>&lt;целую&gt; маленькую статью о том же Герое. Это был настоящий chef d'oeuvre,
+               <milestone unit="line" facs="#facs_64_l_23" n="N002"/>&amp;lt;целую&amp;gt; маленькую статью о том же Герое. Это был настоящий chef d'oeuvre,
                <milestone unit="line" facs="#facs_64_l_24" n="N003"/>повергший меня с облаков на землю, причем я больно ударилась, но в том же
                <milestone unit="line" facs="#facs_64_l_25" n="N004"/>момент душа моя снова поднялась к облакам...
             </p>
          <p facs="#facs_64_r_5" xml:lang="de" corresp="#p0211-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_64_l_22" n="N001"/>На другой день рано утром мне принесли длиннейшее письмо от Бориса,
-               <milestone unit="line" facs="#facs_64_l_23" n="N002"/>&lt;целую&gt; маленькую статью о том же Герое. Это был настоящий chef d'oeuvre,
+               <milestone unit="line" facs="#facs_64_l_23" n="N002"/>&amp;lt;целую&amp;gt; маленькую статью о том же Герое. Это был настоящий chef d'oeuvre,
                <milestone unit="line" facs="#facs_64_l_24" n="N003"/>повергший меня с облаков на землю, причем я больно ударилась, но в том же
                <milestone unit="line" facs="#facs_64_l_25" n="N004"/>момент душа моя снова поднялась к облакам...
             </p>
@@ -139,7 +120,7 @@
                <milestone unit="line" facs="#facs_66_l_2" n="N002"/>ся в... „причинении страданий и радостей“ молодой девушке. Вот поистине
                <milestone unit="line" facs="#facs_66_l_3" n="N003"/>„философия“ и реальная деятельность бабьего пророка, его теория и прак-
                <milestone unit="line" facs="#facs_66_l_4" n="N004"/>тика! Как скудна была содержанием русская жизнь, если в такой теории
-               <milestone unit="line" facs="#facs_66_l_5" n="N005"/>и такой практике находили свое &lt;хотя бы минутное???&gt; удовлетворение сильные умы и характеры,
+               <milestone unit="line" facs="#facs_66_l_5" n="N005"/>и такой практике находили свое &amp;lt;хотя бы минутное???&amp;gt; удовлетворение сильные умы и характеры,
                <milestone unit="line" facs="#facs_66_l_6" n="N006"/>подобные Печорину!
             
             <pb facs="#facs_67" n="67" xml:id="img_0067"/>
@@ -194,7 +175,7 @@
                <milestone unit="line" facs="#facs_66_l_2" n="N002"/>ся в... „причинении страданий и радостей“ молодой девушке. Вот поистине
                <milestone unit="line" facs="#facs_66_l_3" n="N003"/>„философия“ и реальная деятельность бабьего пророка, его теория и прак-
                <milestone unit="line" facs="#facs_66_l_4" n="N004"/>тика! Как скудна была содержанием русская жизнь, если в такой теории
-               <milestone unit="line" facs="#facs_66_l_5" n="N005"/>и такой практике находили свое &lt;хотя бы минутное???&gt; удовлетворение сильные умы и характеры,
+               <milestone unit="line" facs="#facs_66_l_5" n="N005"/>и такой практике находили свое &amp;lt;хотя бы минутное???&amp;gt; удовлетворение сильные умы и характеры,
                <milestone unit="line" facs="#facs_66_l_6" n="N006"/>подобные Печорину!
             
             <pb facs="#facs_67" n="67" xml:id="img_0067"/>
@@ -236,7 +217,7 @@
                <milestone unit="line" facs="#facs_66_l_25" n="N019"/>что оно ставит в неловкое положение личность другого человека, ко-
                <milestone unit="line" facs="#facs_66_l_26" n="N020"/>торого он глубоко уважает. Поэтому он не только не будет стре-
                <milestone unit="line" facs="#facs_66_l_27" n="N021"/>миться к отношеніям каких добивается Печорин, но заметив, что та-
-               <milestone unit="line" facs="#facs_66_l_28" n="N022"/>кие отношения &lt;начинают&gt; складываться помимо его воли, он постарается
+               <milestone unit="line" facs="#facs_66_l_28" n="N022"/>кие отношения &amp;lt;начинают&amp;gt; складываться помимо его воли, он постарается
             
             <pb facs="#facs_67" n="67" xml:id="img_0067"/>
                <fw facs="#facs_67_r" type="page-number" place="top">
@@ -301,7 +282,7 @@
                <milestone unit="line" facs="#facs_66_l_2" n="N002"/>ся в... „причинении страданий и радостей“ молодой девушке. Вот поистине
                <milestone unit="line" facs="#facs_66_l_3" n="N003"/>„философия“ и реальная деятельность бабьего пророка, его теория и прак-
                <milestone unit="line" facs="#facs_66_l_4" n="N004"/>тика! Как скудна была содержанием русская жизнь, если в такой теории
-               <milestone unit="line" facs="#facs_66_l_5" n="N005"/>и такой практике находили свое &lt;хотя бы минутное???&gt; удовлетворение сильные умы и характеры,
+               <milestone unit="line" facs="#facs_66_l_5" n="N005"/>и такой практике находили свое &amp;lt;хотя бы минутное???&amp;gt; удовлетворение сильные умы и характеры,
                <milestone unit="line" facs="#facs_66_l_6" n="N006"/>подобные Печорину!
             
             <pb facs="#facs_67" n="67" xml:id="img_0067-de"/>
@@ -356,7 +337,7 @@
                <milestone unit="line" facs="#facs_66_l_2" n="N002"/>ся в... „причинении страданий и радостей“ молодой девушке. Вот поистине
                <milestone unit="line" facs="#facs_66_l_3" n="N003"/>„философия“ и реальная деятельность бабьего пророка, его теория и прак-
                <milestone unit="line" facs="#facs_66_l_4" n="N004"/>тика! Как скудна была содержанием русская жизнь, если в такой теории
-               <milestone unit="line" facs="#facs_66_l_5" n="N005"/>и такой практике находили свое &lt;хотя бы минутное???&gt; удовлетворение сильные умы и характеры,
+               <milestone unit="line" facs="#facs_66_l_5" n="N005"/>и такой практике находили свое &amp;lt;хотя бы минутное???&amp;gt; удовлетворение сильные умы и характеры,
                <milestone unit="line" facs="#facs_66_l_6" n="N006"/>подобные Печорину!
             
             <pb facs="#facs_67" n="67" xml:id="img_0067-de"/>
@@ -398,7 +379,7 @@
                <milestone unit="line" facs="#facs_66_l_25" n="N019"/>что оно ставит в неловкое положение личность другого человека, ко-
                <milestone unit="line" facs="#facs_66_l_26" n="N020"/>торого он глубоко уважает. Поэтому он не только не будет стре-
                <milestone unit="line" facs="#facs_66_l_27" n="N021"/>миться к отношеніям каких добивается Печорин, но заметив, что та-
-               <milestone unit="line" facs="#facs_66_l_28" n="N022"/>кие отношения &lt;начинают&gt; складываться помимо его воли, он постарается
+               <milestone unit="line" facs="#facs_66_l_28" n="N022"/>кие отношения &amp;lt;начинают&amp;gt; складываться помимо его воли, он постарается
             
             <pb facs="#facs_67" n="67" xml:id="img_0067-de"/>
                <fw facs="#facs_67_r" type="page-number" place="top">
@@ -427,8 +408,8 @@
                <milestone unit="line" facs="#facs_67_l_35" n="N006"/>...Не любит!..
                <milestone unit="line" facs="#facs_67_l_36" n="N007"/>...„Такое положеніе невыносимо не только потому, что оно стесни-
                <milestone unit="line" facs="#facs_67_l_37" n="N008"/>тельно для свободы его личности, но и потому что оно ставит в неловкое
-               <milestone unit="line" facs="#facs_67_l_38" n="N009"/>положение личность другого человека, которого он &lt;глубоко&gt; уважает“... -„ Нелов
-               <milestone unit="line" facs="#facs_67_l_39" n="N010"/>кое положеніе“... &lt;≠&gt; Пусть! Я люблю его, и единственное мое желаніе быть
+               <milestone unit="line" facs="#facs_67_l_38" n="N009"/>положение личность другого человека, которого он &amp;lt;глубоко&amp;gt; уважает“... -„ Нелов
+               <milestone unit="line" facs="#facs_67_l_39" n="N010"/>кое положеніе“... &amp;lt;≠&amp;gt; Пусть! Я люблю его, и единственное мое желаніе быть
                <milestone unit="line" facs="#facs_67_l_40" n="N011"/>для него источником радости, а не страдания, -о, только не страдания!
                <milestone unit="line" facs="#facs_67_l_41" n="N012"/>Я готова страдать сама день и ночь. Я готова лгать. Я хотела было
                <milestone unit="line" facs="#facs_67_l_42" n="N013"/>зачеркнуть эти слова; мне показалось, что они звучат, как фраза, но когда
@@ -444,8 +425,8 @@
                <milestone unit="line" facs="#facs_67_l_35" n="N006"/>...Не любит!..
                <milestone unit="line" facs="#facs_67_l_36" n="N007"/>...„Такое положеніе невыносимо не только потому, что оно стесни-
                <milestone unit="line" facs="#facs_67_l_37" n="N008"/>тельно для свободы его личности, но и потому что оно ставит в неловкое
-               <milestone unit="line" facs="#facs_67_l_38" n="N009"/>положение личность другого человека, которого он &lt;глубоко&gt; уважает“... -„ Нелов
-               <milestone unit="line" facs="#facs_67_l_39" n="N010"/>кое положеніе“... &lt;≠&gt; Пусть! Я люблю его, и единственное мое желаніе быть
+               <milestone unit="line" facs="#facs_67_l_38" n="N009"/>положение личность другого человека, которого он &amp;lt;глубоко&amp;gt; уважает“... -„ Нелов
+               <milestone unit="line" facs="#facs_67_l_39" n="N010"/>кое положеніе“... &amp;lt;≠&amp;gt; Пусть! Я люблю его, и единственное мое желаніе быть
                <milestone unit="line" facs="#facs_67_l_40" n="N011"/>для него источником радости, а не страдания, -о, только не страдания!
                <milestone unit="line" facs="#facs_67_l_41" n="N012"/>Я готова страдать сама день и ночь. Я готова лгать. Я хотела было
                <milestone unit="line" facs="#facs_67_l_42" n="N013"/>зачеркнуть эти слова; мне показалось, что они звучат, как фраза, но когда
@@ -612,7 +593,7 @@
                <milestone unit="line" facs="#facs_69_l_50" n="N013"/>вал голову в мою сторону, и его черные глаза смотрели на меня детски-
                <milestone unit="line" facs="#facs_69_l_51" n="N014"/>доверчиво. Он как бы опять приручался ко мне, как дикий зверек. Я никогда
                <milestone unit="line" facs="#facs_69_l_52" n="N015"/>не забуду выражения его голоса, когда он сказал Mme K., уверявшей, что она
-               <milestone unit="line" facs="#facs_69_l_53" n="N016"/>&lt;вопреки его предположению&gt; никогда ничего плохого о нем не говорила и ссылавшейся при этом на меня.
+               <milestone unit="line" facs="#facs_69_l_53" n="N016"/>&amp;lt;вопреки его предположению&amp;gt; никогда ничего плохого о нем не говорила и ссылавшейся при этом на меня.
             <pb facs="#facs_70" n="70" xml:id="img_0070"/>
             <fw facs="#facs_70_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_70_l_11" n="N001"/>69</fw>
@@ -638,7 +619,7 @@
                <milestone unit="line" facs="#facs_69_l_50" n="N013"/>вал голову в мою сторону, и его черные глаза смотрели на меня детски-
                <milestone unit="line" facs="#facs_69_l_51" n="N014"/>доверчиво. Он как бы опять приручался ко мне, как дикий зверек. Я никогда
                <milestone unit="line" facs="#facs_69_l_52" n="N015"/>не забуду выражения его голоса, когда он сказал Mme K., уверявшей, что она
-               <milestone unit="line" facs="#facs_69_l_53" n="N016"/>&lt;вопреки его предположению&gt; никогда ничего плохого о нем не говорила и ссылавшейся при этом на меня.
+               <milestone unit="line" facs="#facs_69_l_53" n="N016"/>&amp;lt;вопреки его предположению&amp;gt; никогда ничего плохого о нем не говорила и ссылавшейся при этом на меня.
             <pb facs="#facs_70" n="70" xml:id="img_0070-de"/>
             <fw facs="#facs_70_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_70_l_11" n="N001"/>69</fw>
