@@ -93,6 +93,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_012.xml?note_annotation_20260924113315326",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-09-24T09:33:15.326Z",
+	"dcterms:modified": "2026-09-24T09:33:15.326Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/elespdn",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Elena Spadini"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_012.xml?note_annotation_20260924113315326#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_012.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_012.xml?note_annotation_20260924113315326#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[21]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "And this is a test note."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -341,7 +420,7 @@
                <milestone unit="line" facs="#facs_172_l_6" n="N005"/>мому очень плохо, почерк его писем слабый, неровный. Ему будут делать пневмо-
                <milestone unit="line" facs="#facs_172_l_7" n="N006"/>торакс, и я очень за него беспокоюсь.
             </p>
-         <p facs="#facs_172_r_4" xml:lang="de" corresp="#p0562-ru">{TRANSLATION GOES HERE}fdsa this is a translation test. Imagine this is a <persName key="Eusèbe de Césarée, 0265?-0340" ref="http://viaf.org/viaf/4929593">person</persName>.</p>
+         <p facs="#facs_172_r_4" xml:lang="de" corresp="#p0562-ru">{TRANSLATION GOES HERE}fdsa this is a translation test. Imagine<note type="researchNote">And this is a test note.</note> this is a <persName key="Eusèbe de Césarée, 0265?-0340" ref="http://viaf.org/viaf/4929593">person</persName>.</p>
          <p facs="#facs_172_r_6" xml:lang="ru" xml:id="p0563-ru">
             <milestone unit="line" facs="#facs_172_l_8" n="N001"/>Хозяйка снова сделала мне ужаснейшую сцену. Она так задолжалась,
                <milestone unit="line" facs="#facs_172_l_9" n="N002"/>что нам прекратили подачу газа и электричества. И вот она обрушилась
