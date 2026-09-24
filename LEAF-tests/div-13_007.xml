@@ -569,7 +569,7 @@
             <milestone unit="line" facs="#facs_136_l_4" n="N001"/>20 марта.
             </p>
          <p facs="#facs_136_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_136_l_4" n="N001"/>20.  марта.
+               <milestone unit="line" facs="#facs_136_l_4" n="N001"/>20. März.
             </p>
          <p facs="#facs_136_r_3" xml:lang="ru" xml:id="p0431-ru">
             <milestone unit="line" facs="#facs_136_l_34" n="N001"/>Только что была у меня гжа Д. и сказала мне одну новость, которая меня
@@ -587,8 +587,7 @@
                <milestone unit="line" facs="#facs_136_l_46" n="N013"/>когда он о ней говорил, он заметил, что он ее редко встречает, во-первых пото-
                <milestone unit="line" facs="#facs_136_l_47" n="N014"/>му что она занята теперь в одном бюро, а во-вторых так... и он оборвал.
             </p>
-         <p facs="#facs_136_r_3" xml:lang="de" corresp="#p0431-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_136_l_34" n="N001"/>Только что была у меня гжа Д. и сказала мне одну новость, которая меня
+         <p facs="#facs_136_r_3" xml:lang="de" corresp="#p0431-ru">{TRANSLATION GOES HERE} Gerade war Frau D. hier und erzählte mir etwas, was mich erschütterte. Sie schien nicht zu erahnen, dass dies für mich Bedeutung haben könnte <milestone unit="line" facs="#facs_136_l_34" n="N001"/>Только что была у меня гжа Д. и сказала мне одну новость, которая меня
                <milestone unit="line" facs="#facs_136_l_35" n="N002"/>потрясла. Она и не подозревала, что это может иметь для меня значение. По
                <milestone unit="line" facs="#facs_136_l_36" n="N003"/>своему обыкновению рассказывать о всех своих знакомых она упомянула об од-
                <milestone unit="line" facs="#facs_136_l_37" n="N004"/>ной барышне, которую знает немного. Она сказала, что поражена переменой, про-
