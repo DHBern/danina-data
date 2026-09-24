@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" href="null"?>
-<?xml-stylesheet type="text/css" href="null"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,21 +14,8 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData>
-         <rdf:RDF xmlns:as="http://www.w3.org/ns/activitystreams#"
-                  xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-                  xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-                  xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                  xmlns:dcterms="http://purl.org/dc/terms/"
-                  xmlns:fabio="https://purl.org/spar/fabio#"
-                  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-                  xmlns:geo="http://www.geonames.org/ontology#"
-                  xmlns:oa="http://www.w3.org/ns/oa#"
-                  xmlns:org="http://www.w3.org/ns/org#"
-                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-                  xmlns:schema="http://schema.org/"
-                  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"/>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData>
+         
       </xenoData>
    </teiHeader>
    <text>
@@ -87,7 +71,7 @@
                <milestone unit="line" facs="#facs_170_l_2" n="N002"/>Каждый год весною маленькая Таня приезжает из города в деревню, и каждый
                <milestone unit="line" facs="#facs_170_l_3" n="N003"/>год в тот момент, когда господская коляска подкатывает к крыльцу деревен-
                <milestone unit="line" facs="#facs_170_l_4" n="N004"/>ского дома, Илюшка тут как тут, стоит и ждет. Таня обожает деревню
-               <milestone unit="line" facs="#facs_170_l_6" n="N005"/>и &lt;о&gt;терпеть&lt;о&gt; не может города. К городским детям, которые не могут лазить по
+               <milestone unit="line" facs="#facs_170_l_6" n="N005"/>и &amp;lt;о&amp;gt;терпеть&amp;lt;о&amp;gt; не может города. К городским детям, которые не могут лазить по
                <milestone unit="line" facs="#facs_170_l_7" n="N006"/>деревьям так ловко, как она, и бегать также скоро Таня относится с през-
                <milestone unit="line" facs="#facs_170_l_8" n="N007"/>рением. Идеал ее – Илюшка. Кто может взобраться на совершенно отвесное
                <milestone unit="line" facs="#facs_170_l_9" n="N008"/>дерево? Илюшка. Кто столкнул в пруд свою злую мачеху, пренебрегая перспек-
@@ -98,7 +82,7 @@
                <milestone unit="line" facs="#facs_170_l_2" n="N002"/>Каждый год весною маленькая Таня приезжает из города в деревню, и каждый
                <milestone unit="line" facs="#facs_170_l_3" n="N003"/>год в тот момент, когда господская коляска подкатывает к крыльцу деревен-
                <milestone unit="line" facs="#facs_170_l_4" n="N004"/>ского дома, Илюшка тут как тут, стоит и ждет. Таня обожает деревню
-               <milestone unit="line" facs="#facs_170_l_6" n="N005"/>и &lt;о&gt;терпеть&lt;о&gt; не может города. К городским детям, которые не могут лазить по
+               <milestone unit="line" facs="#facs_170_l_6" n="N005"/>и &amp;lt;о&amp;gt;терпеть&amp;lt;о&amp;gt; не может города. К городским детям, которые не могут лазить по
                <milestone unit="line" facs="#facs_170_l_7" n="N006"/>деревьям так ловко, как она, и бегать также скоро Таня относится с през-
                <milestone unit="line" facs="#facs_170_l_8" n="N007"/>рением. Идеал ее – Илюшка. Кто может взобраться на совершенно отвесное
                <milestone unit="line" facs="#facs_170_l_9" n="N008"/>дерево? Илюшка. Кто столкнул в пруд свою злую мачеху, пренебрегая перспек-
@@ -108,8 +92,8 @@
             <milestone unit="line" facs="#facs_170_l_11" n="N001"/>В первый момент встречи после целой зимы разлуки Таня и Илюшка
                <milestone unit="line" facs="#facs_170_l_12" n="N002"/>несколько стесняются и молча рассматривают друг друга, не зная, с чего начать.
                <milestone unit="line" facs="#facs_170_l_13" n="N003"/>У Тани вздернутый носик и живые карие глаза, которыми она смотрит из под-
-               <milestone unit="line" facs="#facs_170_l_14" n="N004"/>обья, "как волчeнок", по выражению бабушки. Но это только когда она стеснят&lt;??&gt;
-               <milestone unit="line" facs="#facs_170_l_15" n="N005"/>ся. &lt;о&gt;Когда&lt;о&gt; же она не чувствует на себе ничего взгляда и ей весело, ея глаза горят
+               <milestone unit="line" facs="#facs_170_l_14" n="N004"/>обья, "как волчeнок", по выражению бабушки. Но это только когда она стеснят&amp;lt;??&amp;gt;
+               <milestone unit="line" facs="#facs_170_l_15" n="N005"/>ся. &amp;lt;о&amp;gt;Когда&amp;lt;о&amp;gt; же она не чувствует на себе ничего взгляда и ей весело, ея глаза горят
                <milestone unit="line" facs="#facs_170_l_16" n="N006"/>торжествующе и задорно, и в них как будто бегают маленькие огоньки. У Илюш-
                <milestone unit="line" facs="#facs_170_l_17" n="N007"/>ки <choice>
                <corr>весну́шчатое</corr>
@@ -134,8 +118,8 @@
                <milestone unit="line" facs="#facs_170_l_11" n="N001"/>В первый момент встречи после целой зимы разлуки Таня и Илюшка
                <milestone unit="line" facs="#facs_170_l_12" n="N002"/>несколько стесняются и молча рассматривают друг друга, не зная, с чего начать.
                <milestone unit="line" facs="#facs_170_l_13" n="N003"/>У Тани вздернутый носик и живые карие глаза, которыми она смотрит из под-
-               <milestone unit="line" facs="#facs_170_l_14" n="N004"/>обья, "как волчeнок", по выражению бабушки. Но это только когда она стеснят&lt;??&gt;
-               <milestone unit="line" facs="#facs_170_l_15" n="N005"/>ся. &lt;о&gt;Когда&lt;о&gt; же она не чувствует на себе ничего взгляда и ей весело, ея глаза горят
+               <milestone unit="line" facs="#facs_170_l_14" n="N004"/>обья, "как волчeнок", по выражению бабушки. Но это только когда она стеснят&amp;lt;??&amp;gt;
+               <milestone unit="line" facs="#facs_170_l_15" n="N005"/>ся. &amp;lt;о&amp;gt;Когда&amp;lt;о&amp;gt; же она не чувствует на себе ничего взгляда и ей весело, ея глаза горят
                <milestone unit="line" facs="#facs_170_l_16" n="N006"/>торжествующе и задорно, и в них как будто бегают маленькие огоньки. У Илюш-
                <milestone unit="line" facs="#facs_170_l_17" n="N007"/>ки <choice>
                <corr>весну́шчатое</corr>
@@ -278,14 +262,7 @@
                <milestone unit="line" facs="#facs_172_l_6" n="N005"/>мому очень плохо, почерк его писем слабый, неровный. Ему будут делать пневмо-
                <milestone unit="line" facs="#facs_172_l_7" n="N006"/>торакс, и я очень за него беспокоюсь.
             </p>
-         <p facs="#facs_172_r_4" xml:lang="de" corresp="#p0562-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_172_l_2" n="N001"/>С тех пор, как я послала Борису мои записки, у меня такое чувство, как
-               <milestone unit="line" facs="#facs_172_l_3" n="N002"/>будто именно <hi style="text-decoration: underline;">это</hi> пророчили те слова. Я ждала от этого события чего то
-               <milestone unit="line" facs="#facs_172_l_4" n="N003"/>светлого и радостного, а вместо этого вокруг меня вдруг стало так тем-
-               <milestone unit="line" facs="#facs_172_l_5" n="N004"/>но и так печально, как никогда еще не было. Главное то, что ему, повиди-
-               <milestone unit="line" facs="#facs_172_l_6" n="N005"/>мому очень плохо, почерк его писем слабый, неровный. Ему будут делать пневмо-
-               <milestone unit="line" facs="#facs_172_l_7" n="N006"/>торакс, и я очень за него беспокоюсь.
-            </p>
+         <p facs="#facs_172_r_4" xml:lang="de" corresp="#p0562-ru">{TRANSLATION GOES HERE}fdsa this is a translation test</p>
          <p facs="#facs_172_r_6" xml:lang="ru" xml:id="p0563-ru">
             <milestone unit="line" facs="#facs_172_l_8" n="N001"/>Хозяйка снова сделала мне ужаснейшую сцену. Она так задолжалась,
                <milestone unit="line" facs="#facs_172_l_9" n="N002"/>что нам прекратили подачу газа и электричества. И вот она обрушилась
@@ -295,7 +272,7 @@
             <fw facs="#facs_173_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_173_l" n="N001"/>171</fw>
             <milestone unit="line" facs="#facs_173_l_28" n="N001"/>Я ответила, что готова переехать в госпиталь и прибавила: „я заплачу
-               <milestone unit="line" facs="#facs_173_l_29" n="N002"/>вам, хотя бы мне пришлось умереть из-за это&lt;го&gt;, но когда – я не знаю“. – „А вот
+               <milestone unit="line" facs="#facs_173_l_29" n="N002"/>вам, хотя бы мне пришлось умереть из-за это&amp;lt;го&amp;gt;, но когда – я не знаю“. – „А вот
                <milestone unit="line" facs="#facs_173_l_30" n="N003"/>в том то и дело“, возразила она. У меня были слезы на глазах, и она под
                <milestone unit="line" facs="#facs_173_l_31" n="N004"/>конец сменила свой тон. В один из прежних разговоров она сказала: „Çа
                <milestone unit="line" facs="#facs_173_l_32" n="N005"/>ne peut plus continuer comme ça avec tous ces étrangers qui meurent et puis
@@ -317,7 +294,7 @@
             <fw facs="#facs_173_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_173_l" n="N001"/>171</fw>
             <milestone unit="line" facs="#facs_173_l_28" n="N001"/>Я ответила, что готова переехать в госпиталь и прибавила: „я заплачу
-               <milestone unit="line" facs="#facs_173_l_29" n="N002"/>вам, хотя бы мне пришлось умереть из-за это&lt;го&gt;, но когда – я не знаю“. – „А вот
+               <milestone unit="line" facs="#facs_173_l_29" n="N002"/>вам, хотя бы мне пришлось умереть из-за это&amp;lt;го&amp;gt;, но когда – я не знаю“. – „А вот
                <milestone unit="line" facs="#facs_173_l_30" n="N003"/>в том то и дело“, возразила она. У меня были слезы на глазах, и она под
                <milestone unit="line" facs="#facs_173_l_31" n="N004"/>конец сменила свой тон. В один из прежних разговоров она сказала: „Çа
                <milestone unit="line" facs="#facs_173_l_32" n="N005"/>ne peut plus continuer comme ça avec tous ces étrangers qui meurent et puis
@@ -344,7 +321,7 @@
                <milestone unit="line" facs="#facs_173_l_20" n="N005"/>это меня почти обижало. Я <hi style="text-decoration: line-through;">хотела</hi> предпочитала бы, чтобы он так и ска-
                <milestone unit="line" facs="#facs_173_l_21" n="N006"/>зал этими самыми словами. „Потребность любви у меня тоже огромная, ве-
                <milestone unit="line" facs="#facs_173_l_22" n="N007"/>роятно, еще большая, чем у Вас, и если я не могу ее удовлетворить, то это по
-               <milestone unit="line" facs="#facs_173_l_23" n="N008"/>той <hi style="text-decoration: line-through;">простой</hi> &lt;же&gt; естественной причине, по какой не могу я переделать свой нос -
+               <milestone unit="line" facs="#facs_173_l_23" n="N008"/>той <hi style="text-decoration: line-through;">простой</hi> &amp;lt;же&amp;gt; естественной причине, по какой не могу я переделать свой нос -
                <milestone unit="line" facs="#facs_173_l_24" n="N009"/>не от меня это зависит. К чему же говорить о том, о чем не нужно, о чем тя-
                <milestone unit="line" facs="#facs_173_l_25" n="N010"/>жело говорить?“
             </p>
@@ -356,7 +333,7 @@
                <milestone unit="line" facs="#facs_173_l_20" n="N005"/>это меня почти обижало. Я <hi style="text-decoration: line-through;">хотела</hi> предпочитала бы, чтобы он так и ска-
                <milestone unit="line" facs="#facs_173_l_21" n="N006"/>зал этими самыми словами. „Потребность любви у меня тоже огромная, ве-
                <milestone unit="line" facs="#facs_173_l_22" n="N007"/>роятно, еще большая, чем у Вас, и если я не могу ее удовлетворить, то это по
-               <milestone unit="line" facs="#facs_173_l_23" n="N008"/>той <hi style="text-decoration: line-through;">простой</hi> &lt;же&gt; естественной причине, по какой не могу я переделать свой нос -
+               <milestone unit="line" facs="#facs_173_l_23" n="N008"/>той <hi style="text-decoration: line-through;">простой</hi> &amp;lt;же&amp;gt; естественной причине, по какой не могу я переделать свой нос -
                <milestone unit="line" facs="#facs_173_l_24" n="N009"/>не от меня это зависит. К чему же говорить о том, о чем не нужно, о чем тя-
                <milestone unit="line" facs="#facs_173_l_25" n="N010"/>жело говорить?“
             </p>
@@ -414,7 +391,7 @@
             </p>
          <p facs="#facs_174_r_6" xml:lang="ru" xml:id="p0568-ru">
             <milestone unit="line" facs="#facs_174_l_3" n="N001"/>Я так редко пишу теперь. Я не в состоянии была все это время взяться за перо.
-               <milestone unit="line" facs="#facs_174_l_4" n="N002"/>&lt;Вчера&gt; был для меня знаменательный день. Доктор признался, что у меня най-
+               <milestone unit="line" facs="#facs_174_l_4" n="N002"/>&amp;lt;Вчера&amp;gt; был для меня знаменательный день. Доктор признался, что у меня най-
                <milestone unit="line" facs="#facs_174_l_5" n="N003"/>ден белок. Уже с некоторого времени у меня опухают руки и ноги. Я чувствую
                <milestone unit="line" facs="#facs_174_l_6" n="N004"/>себя точно отравленной, в голове, особенно после обеда, такое ужасное ощу-
                <milestone unit="line" facs="#facs_174_l_7" n="N005"/>щение, я ничего не соображаю, не помню. И затем эта отчаянная, нестерпимая
@@ -430,8 +407,8 @@
                <milestone unit="line" facs="#facs_174_l_17" n="N015"/>анализ: я уверена, что белок у меня уже давно был и что если бы меня ранее
                <milestone unit="line" facs="#facs_174_l_18" n="N016"/>посадили на молочный режим, то я, быть может, избежала бы этой беды. Впро-
                <milestone unit="line" facs="#facs_174_l_19" n="N017"/>чем, что же я занимаюсь рекриминациями! Что сделано, то сделано! Но что
-               <milestone unit="line" facs="#facs_174_l_20" n="N018"/>будет теперь со мною? Значит &lt;ли это&gt; что это начало конца? И почему это случилось?
-               <milestone unit="line" facs="#facs_174_l_21" n="N019"/>Оттого ли, что я так давно больна, и организм приходит &lt;окончательно&gt; в расстройство, как
+               <milestone unit="line" facs="#facs_174_l_20" n="N018"/>будет теперь со мною? Значит &amp;lt;ли это&amp;gt; что это начало конца? И почему это случилось?
+               <milestone unit="line" facs="#facs_174_l_21" n="N019"/>Оттого ли, что я так давно больна, и организм приходит &amp;lt;окончательно&amp;gt; в расстройство, как
             <pb facs="#facs_175" n="175" xml:id="img_0175"/>
             <fw facs="#facs_175_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_175_l" n="N001"/>173</fw>
@@ -445,7 +422,7 @@
             </p>
          <p facs="#facs_174_r_6" xml:lang="de" corresp="#p0568-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_174_l_3" n="N001"/>Я так редко пишу теперь. Я не в состоянии была все это время взяться за перо.
-               <milestone unit="line" facs="#facs_174_l_4" n="N002"/>&lt;Вчера&gt; был для меня знаменательный день. Доктор признался, что у меня най-
+               <milestone unit="line" facs="#facs_174_l_4" n="N002"/>&amp;lt;Вчера&amp;gt; был для меня знаменательный день. Доктор признался, что у меня най-
                <milestone unit="line" facs="#facs_174_l_5" n="N003"/>ден белок. Уже с некоторого времени у меня опухают руки и ноги. Я чувствую
                <milestone unit="line" facs="#facs_174_l_6" n="N004"/>себя точно отравленной, в голове, особенно после обеда, такое ужасное ощу-
                <milestone unit="line" facs="#facs_174_l_7" n="N005"/>щение, я ничего не соображаю, не помню. И затем эта отчаянная, нестерпимая
@@ -461,8 +438,8 @@
                <milestone unit="line" facs="#facs_174_l_17" n="N015"/>анализ: я уверена, что белок у меня уже давно был и что если бы меня ранее
                <milestone unit="line" facs="#facs_174_l_18" n="N016"/>посадили на молочный режим, то я, быть может, избежала бы этой беды. Впро-
                <milestone unit="line" facs="#facs_174_l_19" n="N017"/>чем, что же я занимаюсь рекриминациями! Что сделано, то сделано! Но что
-               <milestone unit="line" facs="#facs_174_l_20" n="N018"/>будет теперь со мною? Значит &lt;ли это&gt; что это начало конца? И почему это случилось?
-               <milestone unit="line" facs="#facs_174_l_21" n="N019"/>Оттого ли, что я так давно больна, и организм приходит &lt;окончательно&gt; в расстройство, как
+               <milestone unit="line" facs="#facs_174_l_20" n="N018"/>будет теперь со мною? Значит &amp;lt;ли это&amp;gt; что это начало конца? И почему это случилось?
+               <milestone unit="line" facs="#facs_174_l_21" n="N019"/>Оттого ли, что я так давно больна, и организм приходит &amp;lt;окончательно&amp;gt; в расстройство, как
             <pb facs="#facs_175" n="175" xml:id="img_0175-de"/>
             <fw facs="#facs_175_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_175_l" n="N001"/>173</fw>
@@ -479,7 +456,7 @@
                <milestone unit="line" facs="#facs_175_l_2" n="N002"/>Он еще никогда не писал мне так и не называл „родной и милой“: „нет у меня
                <milestone unit="line" facs="#facs_175_l_3" n="N003"/>другого человека, который был бы мне так дорог, как Вы, и сделать которому
                <milestone unit="line" facs="#facs_175_l_4" n="N004"/>что либо радостное я так хотел бы всей душой. Верьте той крепкой привя-
-               <milestone unit="line" facs="#facs_175_l_5" n="N005"/>занности, которая живет во мне к Вам. Если бы у меня были деньги, <hi style="text-decoration: line-through;">&lt;???&gt;</hi>
+               <milestone unit="line" facs="#facs_175_l_5" n="N005"/>занности, которая живет во мне к Вам. Если бы у меня были деньги, <hi style="text-decoration: line-through;">&amp;lt;???&amp;gt;</hi>
             <milestone unit="line" facs="#facs_175_l_6" n="N006"/>я сию же минуту пошел бы на поезд и приехал бы повидаться с вами. Но
                <milestone unit="line" facs="#facs_175_l_7" n="N007"/>я до крайности стеснен в деньгах и не могу пока сделать этого. Весной у
                <milestone unit="line" facs="#facs_175_l_8" n="N008"/>меня, я надеюсь, будет эта возможность, и я воспользуюсь его. 
@@ -489,7 +466,7 @@
                <milestone unit="line" facs="#facs_175_l_2" n="N002"/>Он еще никогда не писал мне так и не называл „родной и милой“: „нет у меня
                <milestone unit="line" facs="#facs_175_l_3" n="N003"/>другого человека, который был бы мне так дорог, как Вы, и сделать которому
                <milestone unit="line" facs="#facs_175_l_4" n="N004"/>что либо радостное я так хотел бы всей душой. Верьте той крепкой привя-
-               <milestone unit="line" facs="#facs_175_l_5" n="N005"/>занности, которая живет во мне к Вам. Если бы у меня были деньги, <hi style="text-decoration: line-through;">&lt;???&gt;</hi>
+               <milestone unit="line" facs="#facs_175_l_5" n="N005"/>занности, которая живет во мне к Вам. Если бы у меня были деньги, <hi style="text-decoration: line-through;">&amp;lt;???&amp;gt;</hi>
             <milestone unit="line" facs="#facs_175_l_6" n="N006"/>я сию же минуту пошел бы на поезд и приехал бы повидаться с вами. Но
                <milestone unit="line" facs="#facs_175_l_7" n="N007"/>я до крайности стеснен в деньгах и не могу пока сделать этого. Весной у
                <milestone unit="line" facs="#facs_175_l_8" n="N008"/>меня, я надеюсь, будет эта возможность, и я воспользуюсь его. 
@@ -512,7 +489,7 @@
                <milestone unit="line" facs="#facs_175_l_37" n="N009"/>мечтаю о разных вкусных вещах, которые я ела бы, если бы была здорова. Я
                <milestone unit="line" facs="#facs_175_l_38" n="N010"/>мучаюсь теперь, как никогда раньше. Я почти ничего не могу есть, у меня
                <milestone unit="line" facs="#facs_175_l_39" n="N011"/>что называется петухи от голода в желудке, и в то же время меня тошнит
-               <milestone unit="line" facs="#facs_175_l_40" n="N012"/>во рту &lt;нестерпимый&gt; вкус соли<hi style="text-decoration: line-through;">,</hi> и от него, и от безумной, жгучей боли в пищеводе и желуд-
+               <milestone unit="line" facs="#facs_175_l_40" n="N012"/>во рту &amp;lt;нестерпимый&amp;gt; вкус соли<hi style="text-decoration: line-through;">,</hi> и от него, и от безумной, жгучей боли в пищеводе и желуд-
             <pb facs="#facs_176" n="176" xml:id="img_0176"/>
             <fw facs="#facs_176_r_1" type="page-number" place="top">
                <milestone unit="line" facs="#facs_176_l_1" n="N001"/>174</fw>
@@ -540,7 +517,7 @@
                <milestone unit="line" facs="#facs_175_l_37" n="N009"/>мечтаю о разных вкусных вещах, которые я ела бы, если бы была здорова. Я
                <milestone unit="line" facs="#facs_175_l_38" n="N010"/>мучаюсь теперь, как никогда раньше. Я почти ничего не могу есть, у меня
                <milestone unit="line" facs="#facs_175_l_39" n="N011"/>что называется петухи от голода в желудке, и в то же время меня тошнит
-               <milestone unit="line" facs="#facs_175_l_40" n="N012"/>во рту &lt;нестерпимый&gt; вкус соли<hi style="text-decoration: line-through;">,</hi> и от него, и от безумной, жгучей боли в пищеводе и желуд-
+               <milestone unit="line" facs="#facs_175_l_40" n="N012"/>во рту &amp;lt;нестерпимый&amp;gt; вкус соли<hi style="text-decoration: line-through;">,</hi> и от него, и от безумной, жгучей боли в пищеводе и желуд-
             <pb facs="#facs_176" n="176" xml:id="img_0176-de"/>
             <fw facs="#facs_176_r_1" type="page-number" place="top">
                <milestone unit="line" facs="#facs_176_l_1" n="N001"/>174</fw>
@@ -578,13 +555,13 @@
             <milestone unit="line" facs="#facs_176_l_3" n="N001"/>Борис ничего не знает; я больше обыкновенного не была в состоянии напи-
                <milestone unit="line" facs="#facs_176_l_4" n="N002"/>сать ему. Боюсь, что ему тоже плохо, послѣднее письмо было очень грустное,
                <milestone unit="line" facs="#facs_176_l_5" n="N003"/>он жаловался на <hi style="text-decoration: line-through;">ужасную погоду</hi> нездоровую <hi style="text-decoration: line-through;">весенни</hi> весеннюю горную погоду,
-               <milestone unit="line" facs="#facs_176_l_6" n="N004"/>на тяжелое самочувствие; мое <hi style="text-decoration: line-through;">пр</hi> &lt;прошлое&gt; письмо произвело на него гнетущее впечат-
+               <milestone unit="line" facs="#facs_176_l_6" n="N004"/>на тяжелое самочувствие; мое <hi style="text-decoration: line-through;">пр</hi> &amp;lt;прошлое&amp;gt; письмо произвело на него гнетущее впечат-
                <milestone unit="line" facs="#facs_176_l_7" n="N005"/>ление, и он просит меня простить его в его „безвинной вине“...</p>
          <p facs="#facs_176_r_5" xml:lang="de" corresp="#p0572-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_176_l_3" n="N001"/>Борис ничего не знает; я больше обыкновенного не была в состоянии напи-
                <milestone unit="line" facs="#facs_176_l_4" n="N002"/>сать ему. Боюсь, что ему тоже плохо, послѣднее письмо было очень грустное,
                <milestone unit="line" facs="#facs_176_l_5" n="N003"/>он жаловался на <hi style="text-decoration: line-through;">ужасную погоду</hi> нездоровую <hi style="text-decoration: line-through;">весенни</hi> весеннюю горную погоду,
-               <milestone unit="line" facs="#facs_176_l_6" n="N004"/>на тяжелое самочувствие; мое <hi style="text-decoration: line-through;">пр</hi> &lt;прошлое&gt; письмо произвело на него гнетущее впечат-
+               <milestone unit="line" facs="#facs_176_l_6" n="N004"/>на тяжелое самочувствие; мое <hi style="text-decoration: line-through;">пр</hi> &amp;lt;прошлое&amp;gt; письмо произвело на него гнетущее впечат-
                <milestone unit="line" facs="#facs_176_l_7" n="N005"/>ление, и он просит меня простить его в его „безвинной вине“...</p>
       </body>
    </text>
