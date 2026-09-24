@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" href="null"?>
-<?xml-stylesheet type="text/css" href="null"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,21 +14,8 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData>
-         <rdf:RDF xmlns:as="http://www.w3.org/ns/activitystreams#"
-                  xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-                  xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-                  xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                  xmlns:dcterms="http://purl.org/dc/terms/"
-                  xmlns:fabio="https://purl.org/spar/fabio#"
-                  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-                  xmlns:geo="http://www.geonames.org/ontology#"
-                  xmlns:oa="http://www.w3.org/ns/oa#"
-                  xmlns:org="http://www.w3.org/ns/org#"
-                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-                  xmlns:schema="http://schema.org/"
-                  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"/>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData>
+         
       </xenoData>
    </teiHeader>
    <text>
@@ -98,7 +82,7 @@
             <milestone unit="line" facs="#facs_129_l_8" n="N001"/>Странно, как раз в прошедшую ночь мне снился сон. Ознакомившись недавно с
                <milestone unit="line" facs="#facs_129_l_9" n="N002"/>теорией Фрейда о снах, я пришла к заключению, что никогда не следует разсказы-
                <milestone unit="line" facs="#facs_129_l_11" n="N003"/>
-            <hi style="text-decoration: line-through;">вать</hi> вать о своих снов, но записать — почему бы и нет. Разве за все, в чем я и помимо
+            <hi>вать</hi> вать о своих снов, но записать — почему бы и нет. Разве за все, в чем я и помимо
                <milestone unit="line" facs="#facs_129_l_12" n="N004"/>снов признаюсь, не обзовут меня каким-нибудь грубым медицинским терминым,
                <milestone unit="line" facs="#facs_129_l_13" n="N005"/>ничего в сущности не объясняющим?
             </p>
@@ -264,7 +248,7 @@
                <milestone unit="line" facs="#facs_131_l_6" n="N003"/>Это был скорее речитатив, но на утро я совершенно забыла и слова и мо-
                <milestone unit="line" facs="#facs_131_l_7" n="N004"/>тив. У меня что-то пело в душе, и было так весело, что я смеялась сама с
                <milestone unit="line" facs="#facs_131_l_8" n="N005"/>
-            <hi style="text-decoration: line-through;">собой</hi> &lt;собой&gt;. Ведь вот, какая я чудная с чего бы мне радоваться? кажется, не с
+            <hi style="text-decoration: line-through;">собой</hi> &amp;lt;собой&amp;gt;. Ведь вот, какая я чудная с чего бы мне радоваться? кажется, не с
                <milestone unit="line" facs="#facs_131_l_10" n="N006"/>чего.
             </p>
          <p facs="#facs_131_r_6" xml:lang="de" corresp="#p0414-ru">{TRANSLATION GOES HERE}
@@ -273,7 +257,7 @@
                <milestone unit="line" facs="#facs_131_l_6" n="N003"/>Это был скорее речитатив, но на утро я совершенно забыла и слова и мо-
                <milestone unit="line" facs="#facs_131_l_7" n="N004"/>тив. У меня что-то пело в душе, и было так весело, что я смеялась сама с
                <milestone unit="line" facs="#facs_131_l_8" n="N005"/>
-            <hi style="text-decoration: line-through;">собой</hi> &lt;собой&gt;. Ведь вот, какая я чудная с чего бы мне радоваться? кажется, не с
+            <hi style="text-decoration: line-through;">собой</hi> &amp;lt;собой&amp;gt;. Ведь вот, какая я чудная с чего бы мне радоваться? кажется, не с
                <milestone unit="line" facs="#facs_131_l_10" n="N006"/>чего.
             </p>
          <p facs="#facs_131_r_5" xml:lang="ru" xml:id="p0415-ru">
@@ -369,12 +353,12 @@
                <milestone unit="line" facs="#facs_132_l_27" n="N003"/>Вам, что у нас в доме грипп.»
             </p>
          <p facs="#facs_132_r_5" xml:lang="ru" xml:id="p0419-ru">
-            <milestone unit="line" facs="#facs_132_l_28" n="N001"/>Он просидел у меня до одиннадцати часов ночи. Мlle &lt;Р.Ш.&gt;, француженка
+            <milestone unit="line" facs="#facs_132_l_28" n="N001"/>Он просидел у меня до одиннадцати часов ночи. Мlle &amp;lt;Р.Ш.&amp;gt;, француженка
                <milestone unit="line" facs="#facs_132_l_29" n="N002"/>тоже, как и я, очень больная, была у меня все это время, готовила
                <milestone unit="line" facs="#facs_132_l_30" n="N003"/>чай и болтала без умолку. Было очень славно.
             </p>
          <p facs="#facs_132_r_5" xml:lang="de" corresp="#p0419-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_132_l_28" n="N001"/>Он просидел у меня до одиннадцати часов ночи. Мlle &lt;Р.Ш.&gt;, француженка
+               <milestone unit="line" facs="#facs_132_l_28" n="N001"/>Он просидел у меня до одиннадцати часов ночи. Мlle &amp;lt;Р.Ш.&amp;gt;, француженка
                <milestone unit="line" facs="#facs_132_l_29" n="N002"/>тоже, как и я, очень больная, была у меня все это время, готовила
                <milestone unit="line" facs="#facs_132_l_30" n="N003"/>чай и болтала без умолку. Было очень славно.
             </p>
@@ -390,7 +374,7 @@
                <milestone unit="line" facs="#facs_132_l_21" n="N003"/>ревности. Да, я ревную, но как-то навыворот. Мне кажется, мне не было бы
                <milestone unit="line" facs="#facs_132_l_22" n="N004"/>так тяжело, если бы он сам предпочел мне другую женщину, но я чувствую себя
                <milestone unit="line" facs="#facs_132_l_23" n="N005"/>как бы отравленной тем, что нравится слишком многим. В частности,
-               <milestone unit="line" facs="#facs_132_l_24" n="N006"/>Мlle &lt;Р.Ш.&gt; он нравится, кажется, даже больше, чем ее жених. На днях она принесла,
+               <milestone unit="line" facs="#facs_132_l_24" n="N006"/>Мlle &amp;lt;Р.Ш.&amp;gt; он нравится, кажется, даже больше, чем ее жених. На днях она принесла,
                <milestone unit="line" facs="#facs_132_l_25" n="N007"/>две фиалки и просила послать их ему в моем письме. Но я уже отправила
             <pb facs="#facs_133" n="133" xml:id="img_0133"/>
             <fw facs="#facs_133_r" type="page-number" place="top">
@@ -420,7 +404,7 @@
                <milestone unit="line" facs="#facs_132_l_21" n="N003"/>ревности. Да, я ревную, но как-то навыворот. Мне кажется, мне не было бы
                <milestone unit="line" facs="#facs_132_l_22" n="N004"/>так тяжело, если бы он сам предпочел мне другую женщину, но я чувствую себя
                <milestone unit="line" facs="#facs_132_l_23" n="N005"/>как бы отравленной тем, что нравится слишком многим. В частности,
-               <milestone unit="line" facs="#facs_132_l_24" n="N006"/>Мlle &lt;Р.Ш.&gt; он нравится, кажется, даже больше, чем ее жених. На днях она принесла,
+               <milestone unit="line" facs="#facs_132_l_24" n="N006"/>Мlle &amp;lt;Р.Ш.&amp;gt; он нравится, кажется, даже больше, чем ее жених. На днях она принесла,
                <milestone unit="line" facs="#facs_132_l_25" n="N007"/>две фиалки и просила послать их ему в моем письме. Но я уже отправила
             <pb facs="#facs_133" n="133" xml:id="img_0133-de"/>
             <fw facs="#facs_133_r" type="page-number" place="top">
