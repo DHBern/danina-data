@@ -81,8 +81,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
-		"dc:format": "text/plain",
-		"rdf:value": "Actually not."
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -134,7 +133,7 @@
                <milestone unit="line" facs="#facs_93_l_33" n="N002"/>сил порвать ее...
             
             </p>
-         <p facs="#facs_92_r_1" xml:lang="de" corresp="#p0271-ru">{<sic>TRANSLATION</sic><note>Actually not.</note> GOES HERE}
+         <p facs="#facs_92_r_1" xml:lang="de" corresp="#p0271-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_92_l_24" n="N001"/>Mне восемнадцать лет. У меня начинается чахотка, но я еще не знаю
                <milestone unit="line" facs="#facs_92_l_25" n="N002"/>этого. Ранняя весна. Сад в цвету. Я иду по тропинке между цветущих
                <milestone unit="line" facs="#facs_92_l_26" n="N003"/>яблонь, впиваю их пьянящий аромат, слушаю жужжание пчел – и
