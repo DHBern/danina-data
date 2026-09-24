@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" href="null"?>
-<?xml-stylesheet type="text/css" href="null"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,21 +11,87 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData>
-         <rdf:RDF xmlns:as="http://www.w3.org/ns/activitystreams#"
-                  xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-                  xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-                  xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                  xmlns:dcterms="http://purl.org/dc/terms/"
-                  xmlns:fabio="https://purl.org/spar/fabio#"
-                  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-                  xmlns:geo="http://www.geonames.org/ontology#"
-                  xmlns:oa="http://www.w3.org/ns/oa#"
-                  xmlns:org="http://www.w3.org/ns/org#"
-                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-                  xmlns:schema="http://schema.org/"
-                  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"/>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-9_001.xml?note_annotation_20260924112137585",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-09-24T09:21:37.585Z",
+	"dcterms:modified": "2026-09-24T09:21:37.585Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/seraphineirina",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Seraphine Schindler"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-9_001.xml?note_annotation_20260924112137585#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-9_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-9_001.xml?note_annotation_20260924112137585#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/pb/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": ""
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><xenoData>
+         
       </xenoData>
    </teiHeader>
    <text>
@@ -45,7 +105,7 @@
                <milestone unit="line" facs="#facs_45_l_25" n="N002"/>–«Прежде всего позвольте Вам представиться», сказал он: Борис Яковлевич
                <milestone unit="line" facs="#facs_45_l_26" n="N003"/>Киндман».
                <milestone unit="line" facs="#facs_45_l_27" n="N004"/>Я испытала мимолетное чувство рассчарования: он оказался евреем,
-            <pb facs="#facs_46" n="46" xml:id="img_0046"/>
+            <pb facs="#facs_46" n="46" xml:id="img_0046"><note/></pb>
             <fw facs="#facs_46_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_46_l_7" n="N001"/>45</fw>
             <fw facs="#facs_46_r_5" type="page_number__deleted_or_striked_out">
@@ -85,7 +145,7 @@
                <milestone unit="line" facs="#facs_46_l_40" n="N002"/>у меня это, пусть мимолетное, чувство разочарования, а также и стыда.
                <milestone unit="line" facs="#facs_46_l_41" n="N003"/>Да, именно стыда: как будто я перед ним была в чем то виновата, когда он
                <milestone unit="line" facs="#facs_46_l_42" n="N004"/>сказал: «я еврей». И всегда бывало у меня это чувство во время аналогичных раз-
-               <milestone unit="line" facs="#facs_46_l_43" n="N005"/> &lt;o&gt;говоров&lt;o&gt; с евреями. Я думаю, что это должен быть стыд не личный, а <hi style="text-decoration: underline;">нацио</hi>-
+               <milestone unit="line" facs="#facs_46_l_43" n="N005"/> &amp;lt;o&amp;gt;говоров&amp;lt;o&amp;gt; с евреями. Я думаю, что это должен быть стыд не личный, а <hi style="text-decoration: underline;">нацио</hi>-
                <milestone unit="line" facs="#facs_46_l_45" n="N006"/>
             <hi style="text-decoration: underline;">нальный мой</hi>, как русской, перед нацией, столь гонимой на моей родине. Но
                <milestone unit="line" facs="#facs_46_l_46" n="N007"/>почему она так гонима именно в России? Есть тут одна причина психоло-
@@ -103,7 +163,7 @@
                <milestone unit="line" facs="#facs_46_l_40" n="N002"/>у меня это, пусть мимолетное, чувство разочарования, а также и стыда.
                <milestone unit="line" facs="#facs_46_l_41" n="N003"/>Да, именно стыда: как будто я перед ним была в чем то виновата, когда он
                <milestone unit="line" facs="#facs_46_l_42" n="N004"/>сказал: «я еврей». И всегда бывало у меня это чувство во время аналогичных раз-
-               <milestone unit="line" facs="#facs_46_l_43" n="N005"/> &lt;o&gt;говоров&lt;o&gt; с евреями. Я думаю, что это должен быть стыд не личный, а <hi style="text-decoration: underline;">нацио</hi>-
+               <milestone unit="line" facs="#facs_46_l_43" n="N005"/> &amp;lt;o&amp;gt;говоров&amp;lt;o&amp;gt; с евреями. Я думаю, что это должен быть стыд не личный, а <hi style="text-decoration: underline;">нацио</hi>-
                <milestone unit="line" facs="#facs_46_l_45" n="N006"/>
             <hi style="text-decoration: underline;">нальный мой</hi>, как русской, перед нацией, столь гонимой на моей родине. Но
                <milestone unit="line" facs="#facs_46_l_46" n="N007"/>почему она так гонима именно в России? Есть тут одна причина психоло-
@@ -159,25 +219,25 @@
                <milestone unit="line" facs="#facs_47_l_19" n="N003"/>
          </p>
          <p facs="#facs_47_r_4" xml:lang="ru" xml:id="p0149-ru">
-            <milestone unit="line" facs="#facs_47_l_5" n="N001"/>Одна милая, интеллигентная дама &lt;-эмигрантка&gt; рассказывала мне о том, как к ней
+            <milestone unit="line" facs="#facs_47_l_5" n="N001"/>Одна милая, интеллигентная дама &amp;lt;-эмигрантка&amp;gt; рассказывала мне о том, как к ней
                <milestone unit="line" facs="#facs_47_l_6" n="N002"/>в имение явилась банда большевиков, простых русских рабочих под предводи-
                <milestone unit="line" facs="#facs_47_l_7" n="N003"/>тельством еврея. Они нашли в погребе вино и очень не прочь были распить его,
                <milestone unit="line" facs="#facs_47_l_8" n="N004"/>но начальник–еврей приказал им вылить его на земь и они, хотя и с со-
                <milestone unit="line" facs="#facs_47_l_9" n="N005"/>жалением, послушались его. И вот замечательно, что симпатии этой дамы
                <milestone unit="line" facs="#facs_47_l_10" n="N006"/>были скорее на стороне рабочих, а не еврея, сумевшего заставить их слу-
                <milestone unit="line" facs="#facs_47_l_11" n="N007"/>шаться себя. Ее возмущало именно то, что дюжіе русскіе молодцы слушаются,
-               <milestone unit="line" facs="#facs_47_l_12" n="N008"/>&lt;o&gt;как&lt;o&gt; дети, какого то несчастного, маленькаго еврея. Чувствовалось, что ей
+               <milestone unit="line" facs="#facs_47_l_12" n="N008"/>&amp;lt;o&amp;gt;как&amp;lt;o&amp;gt; дети, какого то несчастного, маленькаго еврея. Чувствовалось, что ей
                <milestone unit="line" facs="#facs_47_l_14" n="N009"/>было это невыносимо обидно.
             </p>
          <p facs="#facs_47_r_4" xml:lang="de" corresp="#p0149-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_47_l_5" n="N001"/>Одна милая, интеллигентная дама &lt;-эмигрантка&gt; рассказывала мне о том, как к ней
+               <milestone unit="line" facs="#facs_47_l_5" n="N001"/>Одна милая, интеллигентная дама &amp;lt;-эмигрантка&amp;gt; рассказывала мне о том, как к ней
                <milestone unit="line" facs="#facs_47_l_6" n="N002"/>в имение явилась банда большевиков, простых русских рабочих под предводи-
                <milestone unit="line" facs="#facs_47_l_7" n="N003"/>тельством еврея. Они нашли в погребе вино и очень не прочь были распить его,
                <milestone unit="line" facs="#facs_47_l_8" n="N004"/>но начальник–еврей приказал им вылить его на земь и они, хотя и с со-
                <milestone unit="line" facs="#facs_47_l_9" n="N005"/>жалением, послушались его. И вот замечательно, что симпатии этой дамы
                <milestone unit="line" facs="#facs_47_l_10" n="N006"/>были скорее на стороне рабочих, а не еврея, сумевшего заставить их слу-
                <milestone unit="line" facs="#facs_47_l_11" n="N007"/>шаться себя. Ее возмущало именно то, что дюжіе русскіе молодцы слушаются,
-               <milestone unit="line" facs="#facs_47_l_12" n="N008"/>&lt;o&gt;как&lt;o&gt; дети, какого то несчастного, маленькаго еврея. Чувствовалось, что ей
+               <milestone unit="line" facs="#facs_47_l_12" n="N008"/>&amp;lt;o&amp;gt;как&amp;lt;o&amp;gt; дети, какого то несчастного, маленькаго еврея. Чувствовалось, что ей
                <milestone unit="line" facs="#facs_47_l_14" n="N009"/>было это невыносимо обидно.
             </p>
          <p facs="#facs_47_r_3" xml:lang="ru" xml:id="p0150-ru">
@@ -209,7 +269,7 @@
          <p facs="#facs_47_r_1" xml:lang="ru" xml:id="p0151-ru">
             <milestone unit="line" facs="#facs_47_l_27" n="N001"/>«Нет худа без добра», говорит русская пословица. О, если бы из всего
                <milestone unit="line" facs="#facs_47_l_28" n="N002"/>«худа», обрушившегося на Русь по вине большевиков, вышло бы хотя бы то
-               <milestone unit="line" facs="#facs_47_l_30" n="N003"/>«добро», чтобы &lt;- в огне&gt; всех тяжких испытаний национальный характер наш
+               <milestone unit="line" facs="#facs_47_l_30" n="N003"/>«добро», чтобы &amp;lt;- в огне&amp;gt; всех тяжких испытаний национальный характер наш
                <milestone unit="line" facs="#facs_47_l_31" n="N004"/>
             <hi style="text-decoration: line-through;">вы</hi> закалился, окреп, сделался сильным! И чтобы знаменитая l'im-
                <milestone unit="line" facs="#facs_47_l_32" n="N005"/>productivité slave отошла в область преданий!
@@ -225,7 +285,7 @@
          <p facs="#facs_47_r_1" xml:lang="de" corresp="#p0151-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_47_l_27" n="N001"/>«Нет худа без добра», говорит русская пословица. О, если бы из всего
                <milestone unit="line" facs="#facs_47_l_28" n="N002"/>«худа», обрушившегося на Русь по вине большевиков, вышло бы хотя бы то
-               <milestone unit="line" facs="#facs_47_l_30" n="N003"/>«добро», чтобы &lt;- в огне&gt; всех тяжких испытаний национальный характер наш
+               <milestone unit="line" facs="#facs_47_l_30" n="N003"/>«добро», чтобы &amp;lt;- в огне&amp;gt; всех тяжких испытаний национальный характер наш
                <milestone unit="line" facs="#facs_47_l_31" n="N004"/>
             <hi style="text-decoration: line-through;">вы</hi> закалился, окреп, сделался сильным! И чтобы знаменитая l'im-
                <milestone unit="line" facs="#facs_47_l_32" n="N005"/>productivité slave отошла в область преданий!
