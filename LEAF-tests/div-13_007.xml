@@ -1109,8 +1109,7 @@
          <p facs="#facs_143_r_5" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_143_l_32" n="N001"/>21 июня.
             </p>
-         <p facs="#facs_143_r_5" ana="dated_entry_header">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_143_l_32" n="N001"/>21 июня.
+         <p facs="#facs_143_r_5" ana="dated_entry_header"> 21. Juni.
             </p>
          <p facs="#facs_143_r_2" xml:lang="ru" xml:id="p0451-ru">
             <milestone unit="line" facs="#facs_143_l_6" n="N001"/><persName key="Ferdmann, Jules 1889-1962" ref="http://viaf.org/viaf/306263994" cert="high" type="real">Борис</persName> был у меня, у него был пасмурный вид, он жаловался на плохое само-
