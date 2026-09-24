@@ -408,6 +408,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_007.xml?person_annotation_20260924113059271",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-09-24T09:30:59.271Z",
+	"dcterms:modified": "2026-09-24T09:30:59.271Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Stradanina",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "T H"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_007.xml?person_annotation_20260924113059271#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_007.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_007.xml?person_annotation_20260924113059271#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[62]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/306263994",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -1036,7 +1116,7 @@
                <milestone unit="line" facs="#facs_143_l_32" n="N001"/>21 июня.
             </p>
          <p facs="#facs_143_r_2" xml:lang="ru" xml:id="p0451-ru">
-            <milestone unit="line" facs="#facs_143_l_6" n="N001"/>Борис был у меня, у него был пасмурный вид, он жаловался на плохое само-
+            <milestone unit="line" facs="#facs_143_l_6" n="N001"/><persName key="Ferdmann, Jules 1889-1962" ref="http://viaf.org/viaf/306263994" cert="high" type="real">Борис</persName> был у меня, у него был пасмурный вид, он жаловался на плохое само-
                <milestone unit="line" facs="#facs_143_l_21" n="N002"/>чувствие и настроение. Я упомянула о визите г-жи А., но когда он спросил, гово-
                <milestone unit="line" facs="#facs_143_l_27" n="N003"/>рила ли она что нибудь о нем, я ответила: «нет». Мне было больно, что я при-
                <milestone unit="line" facs="#facs_143_l_28" n="N004"/>нуждена была сорвать, но г-жа А. очень просила меня, чтобы разговор наш ос-
