@@ -76,7 +76,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_005.xml?note_annotation_20260924112143880#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[4]/ref/note"
+			"rdf:value": "TEI/text/body/p[5]/ref/note"
 		}
 	},
 	"oa:hasBody": {
@@ -155,7 +155,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-13_005.xml?link_annotation_20260924112727170#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[4]/ref"
+			"rdf:value": "TEI/text/body/p[5]/ref"
 		}
 	},
 	"oa:hasBody": {
@@ -181,7 +181,7 @@
                <milestone unit="line" facs="#facs_123_l_57" n="N001"/>Однажды он сказал: «Вы может быть этого не поймете, но когд<hi style="text-decoration: line-through;">а люби</hi>шь
                <milestone unit="line" facs="#facs_123_l_58" n="N002"/>влюблен, особенно в первый раз, так <hi style="text-decoration: underline;">это</hi> (физическая близость) невозможно». Он
                <milestone unit="line" facs="#facs_123_l_59" n="N003"/>говорил об Ольге.
-            </p>
+            </p><p facs="#facs_123_r_3" xml:lang="de" corresp="#p0378-ru"/>
          <p facs="#facs_123_r_1" xml:lang="ru" xml:id="p0379-ru">
             <milestone unit="line" facs="#facs_123_l_29" n="N001"/>Сегодня я имею намерение пуститься в рассуждения, не особенно мне подобающие.
                <milestone unit="line" facs="#facs_123_l_30" n="N002"/>Возможно, что я наговорю ужасной чепухи, но возможно, что и нет.
