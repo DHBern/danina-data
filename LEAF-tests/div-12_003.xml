@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" href="null"?>
-<?xml-stylesheet type="text/css" href="null"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,21 +14,87 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData>
-         <rdf:RDF xmlns:as="http://www.w3.org/ns/activitystreams#"
-                  xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-                  xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-                  xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                  xmlns:dcterms="http://purl.org/dc/terms/"
-                  xmlns:fabio="https://purl.org/spar/fabio#"
-                  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-                  xmlns:geo="http://www.geonames.org/ontology#"
-                  xmlns:oa="http://www.w3.org/ns/oa#"
-                  xmlns:org="http://www.w3.org/ns/org#"
-                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-                  xmlns:schema="http://schema.org/"
-                  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"/>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-12_003.xml?note_annotation_20260924083905013",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-09-24T06:39:05.013Z",
+	"dcterms:modified": "2026-09-24T06:39:05.013Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/pdaengeli",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Peter Dängeli"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-12_003.xml?note_annotation_20260924083905013#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-12_003.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/div-12_003.xml?note_annotation_20260924083905013#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": "My note."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><xenoData>
+         
       </xenoData>
    </teiHeader>
    <text>
@@ -41,12 +104,12 @@
                <milestone unit="line" facs="#facs_92_l_43" n="N002"/>расположении духа, одеваю свое любимое розовое кисейное платье с
                <milestone unit="line" facs="#facs_92_l_44" n="N003"/>большой белой оборкой – воротником. Чувствую, что это платье ко мне
                <milestone unit="line" facs="#facs_92_l_45" n="N004"/>идет. Мои две косы тяжело лежат на спине, и это ощущение прият-
-               <milestone unit="line" facs="#facs_92_l_47" n="N005"/>но. Напившись чаю, я выбегаю в сад. Тихонько иду &lt;затем&gt; по аллее и упиваюсь
+               <milestone unit="line" facs="#facs_92_l_47" n="N005"/>но. Напившись чаю, я выбегаю в сад. Тихонько иду &amp;lt;затем&amp;gt; по аллее и упиваюсь
                <milestone unit="line" facs="#facs_92_l_48" n="N006"/>дивным воздухом чудного летнего утра. Деревья кажутся особенно зе-
                <milestone unit="line" facs="#facs_92_l_49" n="N007"/>леными, а небо голубым и птички щебечут как то особенно хорошо. Я
                <milestone unit="line" facs="#facs_92_l_50" n="N008"/>чувствую себя частью этой сияющей природы; мое тело молодо и здоро-
                <milestone unit="line" facs="#facs_92_l_51" n="N009"/>во, как эти деревья и птички, и я не ощущаю его. Я кажусь себе легкой,
-               <milestone unit="line" facs="#facs_92_l_52" n="N010"/>&lt;o&gt;такой&lt;o&gt; легкой, что, кажется, вот-вот я приподнимусь от земли и
+               <milestone unit="line" facs="#facs_92_l_52" n="N010"/>&amp;lt;o&amp;gt;такой&amp;lt;o&amp;gt; легкой, что, кажется, вот-вот я приподнимусь от земли и
                <milestone unit="line" facs="#facs_92_l_54" n="N011"/>полечу. Я воображаю себя принцессой, которая попала в очарован-
                <milestone unit="line" facs="#facs_92_l_55" n="N012"/>ный сад.
             </p>
@@ -71,7 +134,7 @@
                <milestone unit="line" facs="#facs_93_l_33" n="N002"/>сил порвать ее...
             
             </p>
-         <p facs="#facs_92_r_1" xml:lang="de" corresp="#p0271-ru">{TRANSLATION GOES HERE}
+         <p facs="#facs_92_r_1" xml:lang="de" corresp="#p0271-ru">{TRANSLATION<note>My note.</note> GOES HERE}
                <milestone unit="line" facs="#facs_92_l_24" n="N001"/>Mне восемнадцать лет. У меня начинается чахотка, но я еще не знаю
                <milestone unit="line" facs="#facs_92_l_25" n="N002"/>этого. Ранняя весна. Сад в цвету. Я иду по тропинке между цветущих
                <milestone unit="line" facs="#facs_92_l_26" n="N003"/>яблонь, впиваю их пьянящий аромат, слушаю жужжание пчел – и
@@ -95,20 +158,20 @@
          <p facs="#facs_93_r_1" xml:lang="ru" xml:id="p0272-ru">
             <milestone unit="line" facs="#facs_93_l_1" n="N001"/>С тех пор я больше люблю пасмурные дождливые дни. Тогда завеса
                <milestone unit="line" facs="#facs_93_l_2" n="N002"/>не так заметна. Теперь я забыла даже, как это бывает, когда можно
-               <milestone unit="line" facs="#facs_93_l_4" n="N003"/>свободно дышать, и ходить, и бегать. Только во сне я испытываю &lt;иногда эти&gt; ощу-
+               <milestone unit="line" facs="#facs_93_l_4" n="N003"/>свободно дышать, и ходить, и бегать. Только во сне я испытываю &amp;lt;иногда эти&amp;gt; ощу-
                <milestone unit="line" facs="#facs_93_l_5" n="N004"/>щения здороваго тела.
             </p>
          <p facs="#facs_93_r_1" xml:lang="de" corresp="#p0272-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_93_l_1" n="N001"/>С тех пор я больше люблю пасмурные дождливые дни. Тогда завеса
                <milestone unit="line" facs="#facs_93_l_2" n="N002"/>не так заметна. Теперь я забыла даже, как это бывает, когда можно
-               <milestone unit="line" facs="#facs_93_l_4" n="N003"/>свободно дышать, и ходить, и бегать. Только во сне я испытываю &lt;иногда эти&gt; ощу-
+               <milestone unit="line" facs="#facs_93_l_4" n="N003"/>свободно дышать, и ходить, и бегать. Только во сне я испытываю &amp;lt;иногда эти&amp;gt; ощу-
                <milestone unit="line" facs="#facs_93_l_5" n="N004"/>щения здороваго тела.
             </p>
          <p facs="#facs_93_r_3" xml:lang="ru" xml:id="p0273-ru">
             <milestone unit="line" facs="#facs_93_l_30" n="N001"/>Я хотела бы умерeть не здесь, вдали от родины, в постели, а там у
                <milestone unit="line" facs="#facs_93_l_31" n="N002"/>нас на горе, около кладбища, под большим дубом, где в тихие часы за-
-               <milestone unit="line" facs="#facs_93_l_35" n="N003"/>&lt;o&gt;ката&lt;o&gt; солнца я слушала когда то стрекотание кузнечиков и вдыхала
-               <milestone unit="line" facs="#facs_93_l_37" n="N004"/>&lt;запах&gt; степной травы. Воздух был там так чист, а вид так мил моей душе,
+               <milestone unit="line" facs="#facs_93_l_35" n="N003"/>&amp;lt;o&amp;gt;ката&amp;lt;o&amp;gt; солнца я слушала когда то стрекотание кузнечиков и вдыхала
+               <milestone unit="line" facs="#facs_93_l_37" n="N004"/>&amp;lt;запах&amp;gt; степной травы. Воздух был там так чист, а вид так мил моей душе,
                <milestone unit="line" facs="#facs_93_l_38" n="N005"/>что там я спокойно заснула бы навсегда. Но боюсь, как бы не приш-
                <milestone unit="line" facs="#facs_93_l_39" n="N006"/>лось мне сказать в смертный час словами Мцыри Лермонтова:
             <quote>
@@ -124,8 +187,8 @@
          <p facs="#facs_93_r_3" xml:lang="de" corresp="#p0273-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_93_l_30" n="N001"/>Я хотела бы умерeть не здесь, вдали от родины, в постели, а там у
                <milestone unit="line" facs="#facs_93_l_31" n="N002"/>нас на горе, около кладбища, под большим дубом, где в тихие часы за-
-               <milestone unit="line" facs="#facs_93_l_35" n="N003"/>&lt;o&gt;ката&lt;o&gt; солнца я слушала когда то стрекотание кузнечиков и вдыхала
-               <milestone unit="line" facs="#facs_93_l_37" n="N004"/>&lt;запах&gt; степной травы. Воздух был там так чист, а вид так мил моей душе,
+               <milestone unit="line" facs="#facs_93_l_35" n="N003"/>&amp;lt;o&amp;gt;ката&amp;lt;o&amp;gt; солнца я слушала когда то стрекотание кузнечиков и вдыхала
+               <milestone unit="line" facs="#facs_93_l_37" n="N004"/>&amp;lt;запах&amp;gt; степной травы. Воздух был там так чист, а вид так мил моей душе,
                <milestone unit="line" facs="#facs_93_l_38" n="N005"/>что там я спокойно заснула бы навсегда. Но боюсь, как бы не приш-
                <milestone unit="line" facs="#facs_93_l_39" n="N006"/>лось мне сказать в смертный час словами Мцыри Лермонтова:
             <quote>
