@@ -1044,8 +1044,7 @@
          <p facs="#facs_142_r_4" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_142_l_11" n="N001"/>20 июня.
             </p>
-         <p facs="#facs_142_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_142_l_11" n="N001"/>20. Juni. </p>
+         <p facs="#facs_142_r_4" ana="dated_entry_header"> 20. Juni. </p>
          <p facs="#facs_142_r_3" xml:lang="ru" xml:id="p0449-ru">
             <milestone unit="line" facs="#facs_142_l_42" n="N001"/>
             <hi style="text-decoration: line-through;">Довно уже</hi> Долго не записывала ничего в свой дневник; это получается 
