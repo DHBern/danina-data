@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" href="null"?>
-<?xml-stylesheet type="text/css" href="null"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,21 +11,8 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData>
-         <rdf:RDF xmlns:as="http://www.w3.org/ns/activitystreams#"
-                  xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-                  xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-                  xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                  xmlns:dcterms="http://purl.org/dc/terms/"
-                  xmlns:fabio="https://purl.org/spar/fabio#"
-                  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-                  xmlns:geo="http://www.geonames.org/ontology#"
-                  xmlns:oa="http://www.w3.org/ns/oa#"
-                  xmlns:org="http://www.w3.org/ns/org#"
-                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-                  xmlns:schema="http://schema.org/"
-                  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"/>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData>
+         
       </xenoData>
    </teiHeader>
    <text>
@@ -45,8 +26,7 @@
                <milestone unit="line" facs="#facs_44_l_9" n="N002"/>теперь!): пришла Великая Русская Революция 1917 года. <hi style="text-decoration: line-through;">Знакомые</hi> Русские ходили
                <milestone unit="line" facs="#facs_44_l_10" n="N003"/>как пьяные от счастья. Одна знакомая принесла мне ленточку с надписью:
                <milestone unit="line" facs="#facs_44_l_11" n="N004"/>"Vive la Révolution Russe." Я приколола ее себе на грудь и чувствовала себя, как
-               <milestone unit="line" facs="#facs_44_l_12" n="N005"/>маленькая девочка после Рождественских подарков. Представляя себе эту ве-
-               <milestone unit="line" facs="#facs_44_l_13" n="N006"/>личественную бескровную революцию, я испытывала гордость за свой народ:
+               <milestone unit="line" facs="#facs_44_l_12" n="N005"/>маленькая девочка после Рождественских подарков. Представляя себе эту величественную бескровную революцию, я испытывала гордость за свой народ:
                <milestone unit="line" facs="#facs_44_l_14" n="N007"/>как прекрасно будет все теперь!
             </p>
          <p facs="#facs_44_r_6" xml:lang="de" corresp="#p0142-ru">{TRANSLATION GOES HERE}
@@ -108,7 +88,7 @@
                <milestone unit="line" facs="#facs_45_l_32" n="N003"/>помню всего, что и как я еще там писала. Но это: «пишите мне, милая» по-
                <milestone unit="line" facs="#facs_45_l_33" n="N004"/>чему то доставило мне некоторое неудовольствие, чем радость: «Ах, вот как,
                <milestone unit="line" facs="#facs_45_l_34" n="N005"/>Милостивый Государь. Вы считаете мою маленькую особу достойной того, чтобы
-               <milestone unit="line" facs="#facs_45_l_35" n="N006"/>&lt;o&gt;Вы&lt;o&gt; ее читали!»
+               <milestone unit="line" facs="#facs_45_l_35" n="N006"/>&amp;lt;o&amp;gt;Вы&amp;lt;o&amp;gt; ее читали!»
             </p>
          <p facs="#facs_45_r_3" xml:lang="de" corresp="#p0144-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_45_l_29" n="N001"/>Сим комплиментом он удостоил меня, кажется, за то, что я спрашивала его
@@ -116,7 +96,7 @@
                <milestone unit="line" facs="#facs_45_l_32" n="N003"/>помню всего, что и как я еще там писала. Но это: «пишите мне, милая» по-
                <milestone unit="line" facs="#facs_45_l_33" n="N004"/>чему то доставило мне некоторое неудовольствие, чем радость: «Ах, вот как,
                <milestone unit="line" facs="#facs_45_l_34" n="N005"/>Милостивый Государь. Вы считаете мою маленькую особу достойной того, чтобы
-               <milestone unit="line" facs="#facs_45_l_35" n="N006"/>&lt;o&gt;Вы&lt;o&gt; ее читали!»
+               <milestone unit="line" facs="#facs_45_l_35" n="N006"/>&amp;lt;o&amp;gt;Вы&amp;lt;o&amp;gt; ее читали!»
             </p>
          <p facs="#facs_45_r_4" xml:lang="ru" xml:id="p0145-ru">
             <milestone unit="line" facs="#facs_45_l_5" n="N001"/>
