@@ -65,9 +65,7 @@
          <p facs="#facs_129_r_6" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_129_l_4" n="N001"/>24 ноября.
             </p>
-         <p facs="#facs_129_r_6" ana="dated_entry_header">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_129_l_4" n="N001"/>24 ноября.
-            </p>
+         <p facs="#facs_129_r_6" ana="dated_entry_header"><milestone unit="line" facs="#facs_129_l_4" n="N001"/>24. November</p>
          <p facs="#facs_129_r_5" xml:lang="ru" xml:id="p0405-ru">
             <milestone unit="line" facs="#facs_129_l_30" n="N001"/>Позавчера была у нас гжа А., и мы говорили об еврейском вопросе, о погромах.
                <milestone unit="line" facs="#facs_129_l_31" n="N002"/>Борис едва сдерживал свое волнение, с дрожью в голосе он сказал: там у ме-
