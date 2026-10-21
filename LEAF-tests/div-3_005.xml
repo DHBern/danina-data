@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" href="null"?>
-<?xml-stylesheet type="text/css" href="null"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,40 +11,20 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData>
-         <rdf:RDF xmlns:as="http://www.w3.org/ns/activitystreams#"
-                  xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-                  xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-                  xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                  xmlns:dcterms="http://purl.org/dc/terms/"
-                  xmlns:fabio="https://purl.org/spar/fabio#"
-                  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-                  xmlns:geo="http://www.geonames.org/ontology#"
-                  xmlns:oa="http://www.w3.org/ns/oa#"
-                  xmlns:org="http://www.w3.org/ns/org#"
-                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-                  xmlns:schema="http://schema.org/"
-                  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"/>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData>
+         
       </xenoData>
    </teiHeader>
    <text>
       <body>
-         <p facs="#facs_34_r_7" xml:lang="de" corresp="#p0101-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_34_l_20" n="N001"/>Вопреки предсказанию доктора состояние мое с каждым днем ухудшалось.
-               <milestone unit="line" facs="#facs_34_l_21" n="N002"/>Этот мягкий, расслабляющий климат оказался для меня неподходящим.
-               <milestone unit="line" facs="#facs_34_l_22" n="N003"/>У меня повторились кравохаркания. Настроение было тяжелое, подавленное.
-               <milestone unit="line" facs="#facs_34_l_23" n="N004"/>Я хотела жить, но мне нельзя было жить. Что-то неуклонно и беспощадно
-               <milestone unit="line" facs="#facs_34_l_24" n="N005"/>давило меня к земле, несмотря на все мои старания выпрямиться.
-            </p>
+         <p facs="#facs_34_r_7" xml:lang="de" corresp="#p0101-ru"/>
          <p facs="#facs_34_r_9" xml:lang="ru" xml:id="p0102-ru">
-            <milestone unit="line" facs="#facs_34_l_25" n="N001"/>Я написала Владимиру Семеновичу, что жалею о приезде в Ментону,
-               <milestone unit="line" facs="#facs_34_l_36" n="N002"/>что я недовольна санаторией и хотела бы переехать в Швейцарию.
-               <milestone unit="line" facs="#facs_34_l_37" n="N003"/>«Сегодня получил Вашу открытку, — отвечал он, – и должен признаться,
-               <milestone unit="line" facs="#facs_34_l_38" n="N004"/>что ходил за нею на почту семь дней подряд. Я уже хотел телегафиро-
-               <milestone unit="line" facs="#facs_34_l_39" n="N005"/>вать начальнице санаторий и запросить, что с Вами?... Если бы было в
-               <milestone unit="line" facs="#facs_34_l_40" n="N006"/>моей власти и силах, я бы отвез Вас не только в Швейцарию, а объездил бы
-            <pb facs="#facs_35" n="35" xml:id="img_0035"/>
+            <milestone unit="line" facs="#facs_34_l_25" n="N001"/>Entgegen der Prognose des Arztes verschlechterte sich mein Zustand von Tag zu Tag. Dieses milde, entspannende Klima erwies sich für mich als ungeeignet. Das Bluthusten trat erneut auf. Meine Stimmung war bedrückt und niedergeschlagen. Ich wollte leben, aber ich durfte nicht leben. Etwas drückte mich unaufhaltsam und gnadenlos zu Boden, trotz all meiner Bemühungen, mich aufzurichten.</p><p facs="#facs_34_r_9" xml:lang="ru" xml:id="p0102-ru">Я написала Владимиру Семеновичу, что жалею о приезде в Ментону,
+               что я недовольна санаторией и хотела бы переехать в Швейцарию.
+               «Сегодня получил Вашу открытку, — отвечал он, – и должен признаться,
+               что ходил за нею на почту семь дней подряд. Я уже хотел телегафиро-
+               вать начальнице санаторий и запросить, что с Вами?... Если бы было в
+               моей власти и силах, я бы отвез Вас не только в Швейцарию, а объездил бы</p><p facs="#facs_34_r_9" xml:lang="ru" xml:id="p0102-ru"><pb facs="#facs_35" n="35" xml:id="img_0035"/>
             <fw facs="#facs_35_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_35_l_1" n="N001"/>34 [<hi style="text-decoration: line-through;">67</hi>]</fw>
             <fw facs="#facs_35_r_2" type="page_number__deleted_or_striked_out">
@@ -62,27 +36,8 @@
                <milestone unit="line" facs="#facs_35_l_3" n="N002"/>шо.»
             
             </p>
-         <p facs="#facs_34_r_9" xml:lang="de" corresp="#p0102-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_34_l_25" n="N001"/>Я написала Владимиру Семеновичу, что жалею о приезде в Ментону,
-               <milestone unit="line" facs="#facs_34_l_36" n="N002"/>что я недовольна санаторией и хотела бы переехать в Швейцарию.
-               <milestone unit="line" facs="#facs_34_l_37" n="N003"/>«Сегодня получил Вашу открытку, — отвечал он, – и должен признаться,
-               <milestone unit="line" facs="#facs_34_l_38" n="N004"/>что ходил за нею на почту семь дней подряд. Я уже хотел телегафиро-
-               <milestone unit="line" facs="#facs_34_l_39" n="N005"/>вать начальнице санаторий и запросить, что с Вами?... Если бы было в
-               <milestone unit="line" facs="#facs_34_l_40" n="N006"/>моей власти и силах, я бы отвез Вас не только в Швейцарию, а объездил бы
-            <pb facs="#facs_35" n="35" xml:id="img_0035-de"/>
-            <fw facs="#facs_35_r" type="page-number" place="top">
-               <milestone unit="line" facs="#facs_35_l_1" n="N001"/>34 [<hi style="text-decoration: line-through;">67</hi>]</fw>
-            <fw facs="#facs_35_r_2" type="page_number__deleted_or_striked_out">
-               <del>
-                  <milestone unit="line" facs="#facs_35_l" n="N001"/>
-               </del>
-            </fw>
-            <milestone unit="line" facs="#facs_35_l_2" n="N001"/>весь мир и остановился бы там, где Вы сказали бы: мне здесь хоро-
-               <milestone unit="line" facs="#facs_35_l_3" n="N002"/>шо.»
-            
-            </p>
-         <p facs="#facs_35_r_3" xml:lang="ru" xml:id="p0103-ru">
-            <milestone unit="line" facs="#facs_35_l_30" n="N001"/>Одной моей знакомой он написал в санаторию:
+         <p facs="#facs_34_r_9" xml:lang="de" corresp="#p0102-ru">Ich schrieb an Wladimir Semjonowitsch, dass ich meine Reise nach Menton bereue, dass ich mit dem Sanatorium unzufrieden bin und gerne in die Schweiz umziehen würde. „Heute habe ich Ihre Postkarte erhalten“, antwortete er, „und muss gestehen, dass ich sieben Tage hintereinander zur Post gegangen bin, um nach ihr zu fragen. Ich wollte schon der Leiterin des Sanatoriums ein Telegramm schicken und fragen, was mit Ihnen los ist? … Wenn es in meiner Macht und meinen Kräften stünde, würde ich Sie nicht nur in die Schweiz bringen, sondern <pb facs="#facs_35" n="35" xml:id="img_0035-de"></pb></p>
+         <p facs="#facs_35_r_3" xml:lang="ru" xml:id="p0103-ru"><fw facs="#facs_35_r" type="page-number" place="top">34 [<hi style="text-decoration: line-through;">67</hi>] </fw>die ganze Welt bereisen und dort Halt machen, wo Sie sagen würden: hier gefällt es mir.“</p><p facs="#facs_35_r_3" xml:lang="ru" xml:id="p0103-ru">Одной моей знакомой он написал в санаторию:
                <milestone unit="line" facs="#facs_35_l_31" n="N002"/>- «Когда Таня больна, я не нахожу себе места».
                <milestone unit="line" facs="#facs_35_l_32" n="N003"/>Сейчас я представляю себе, как этот большой и неприступный с виду чело-
                <milestone unit="line" facs="#facs_35_l_33" n="N004"/>век бродит одиноко по улицам чужого города, заходит на почту и не на-
@@ -116,7 +71,7 @@
             <milestone unit="line" facs="#facs_35_l_5" n="N001"/>В мае 1913 года меня перевезли в одну из Швейцарских клиник. Здесь, в
                <milestone unit="line" facs="#facs_35_l_6" n="N002"/>июне месяце, я в последний раз получила письмо от Владимира Семеновича.
                <milestone unit="line" facs="#facs_35_l_7" n="N003"/>Он жаловался на тяжелое настроение – «скучно-тягучее: ни проблеска мыс-
-               <milestone unit="line" facs="#facs_35_l_8" n="N004"/>ли, ни подъема духа. Вы могли бы нас &lt;2&gt; всех &lt;1&gt; поднять духом и оживить, если
+               <milestone unit="line" facs="#facs_35_l_8" n="N004"/>ли, ни подъема духа. Вы могли бы нас &amp;lt;2&amp;gt; всех &amp;lt;1&amp;gt; поднять духом и оживить, если
                <milestone unit="line" facs="#facs_35_l_9" n="N005"/>бы писали только доброе и хорошeе о своем здоровье. Если мой бюджет по-
                <milestone unit="line" facs="#facs_35_l_10" n="N006"/>зволит, то быть может зимою увидимся.»
             </p>
@@ -124,7 +79,7 @@
                <milestone unit="line" facs="#facs_35_l_5" n="N001"/>В мае 1913 года меня перевезли в одну из Швейцарских клиник. Здесь, в
                <milestone unit="line" facs="#facs_35_l_6" n="N002"/>июне месяце, я в последний раз получила письмо от Владимира Семеновича.
                <milestone unit="line" facs="#facs_35_l_7" n="N003"/>Он жаловался на тяжелое настроение – «скучно-тягучее: ни проблеска мыс-
-               <milestone unit="line" facs="#facs_35_l_8" n="N004"/>ли, ни подъема духа. Вы могли бы нас &lt;2&gt; всех &lt;1&gt; поднять духом и оживить, если
+               <milestone unit="line" facs="#facs_35_l_8" n="N004"/>ли, ни подъема духа. Вы могли бы нас &amp;lt;2&amp;gt; всех &amp;lt;1&amp;gt; поднять духом и оживить, если
                <milestone unit="line" facs="#facs_35_l_9" n="N005"/>бы писали только доброе и хорошeе о своем здоровье. Если мой бюджет по-
                <milestone unit="line" facs="#facs_35_l_10" n="N006"/>зволит, то быть может зимою увидимся.»
             </p>
