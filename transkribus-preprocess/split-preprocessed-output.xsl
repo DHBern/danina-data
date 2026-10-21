@@ -47,15 +47,17 @@
                         <xsl:text>type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" href="null"</xsl:text>
                     </xsl:processing-instruction>
                     <xsl:processing-instruction name="xml-stylesheet">
-                        <xsl:text>type="text/css" href="null"</xsl:text>
+                        <xsl:text>type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"</xsl:text>
                     </xsl:processing-instruction>
                     <xsl:processing-instruction name="xml-model">
-                      <xsl:text>href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:text>
+                        <!--<xsl:text>href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:text>-->
+                        <xsl:text>href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:text>
                     </xsl:processing-instruction>
                     <xsl:processing-instruction name="xml-model">
-                        <xsl:text>href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:text>
+                        <!--<xsl:text>href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:text>-->
+                        <xsl:text>href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:text>
                     </xsl:processing-instruction>
-                                        
+                    
                     <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                         <teiHeader>
                             <fileDesc>

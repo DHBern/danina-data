@@ -3,8 +3,7 @@
 <?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?>
 <?xml-model href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-                    v                    
-                    <TEI xmlns="http://www.tei-c.org/ns/1.0"
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
