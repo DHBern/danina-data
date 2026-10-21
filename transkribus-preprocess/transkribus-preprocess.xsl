@@ -29,7 +29,7 @@
      - [ ] add xml-stylesheet PI (css)
      - [ ] add xenodata element
   - [ ] split file according to decisions (to be taken)
-  - [ ] hyphenation ¬
+  - [x] hyphenation ¬
   
   -->
   
@@ -84,6 +84,7 @@
   <xsl:template match="lb" mode="preprocess">
     <milestone unit="line">
       <xsl:sequence select="@*"/>
+      <xsl:if test="matches(preceding-sibling::text()[1],'¬\s*$')"><xsl:attribute name="break">no</xsl:attribute></xsl:if>
     </milestone>
   </xsl:template>
   
@@ -333,6 +334,23 @@
   
   <xsl:template match="date|unclear|rs" mode="#all">
     <xsl:apply-templates mode="preprocess"/>
+  </xsl:template>
+  
+  <xsl:template match="hi[matches(@style,'^text-decoration:\s+line-through;$')]" mode="#all">
+    <del rend="strikethrough">
+      <xsl:apply-templates mode="preprocess"/>
+    </del>
+  </xsl:template>
+  
+  <xsl:template match="hi[matches(@style,'^text-decoration:\s+underline;$')]" mode="#all">
+    <emph rend="underlined">
+      <xsl:apply-templates mode="preprocess"/>
+    </emph>
+  </xsl:template>
+  
+  <!-- handle hyphenation symbols (¬) -->
+  <xsl:template match="text()[matches(.,'¬\s*$')][following-sibling::*[1][self::lb]]" mode="#all">
+    <xsl:sequence select=". => replace('¬\s*','')"/>
   </xsl:template>
   
 </xsl:transform>
