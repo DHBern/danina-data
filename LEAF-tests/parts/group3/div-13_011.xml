@@ -36,7 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <p facs="#facs_160_r_5" xml:lang="de" corresp="#p0528-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_160_r_5" xml:lang="de" corresp="#p0528-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_160_l_23" n="N001"/>Милый! Этот сон меня так тронул и обрадовал, что я приняла оконча-
                <milestone unit="line" facs="#facs_160_l_24" n="N002"/>тельное решение и послала ему мои Записки. Что то будет? Я очень волнова-
                <milestone unit="line" facs="#facs_160_l_25" n="N003"/>лась вчера и всю ночь мне снились какие то кошмарные сны, но сегодня я чув-
@@ -56,7 +56,7 @@
                <milestone unit="line" facs="#facs_161_l_29" n="N003"/>на одного человека.
             
             </p>
-         <p facs="#facs_160_r_7" xml:lang="de" corresp="#p0529-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_160_r_7" xml:lang="de" corresp="#p0529-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_160_l_32" n="N001"/>В сопроводительном письме я просила его читать так, как если бы все
                <milestone unit="line" facs="#facs_160_l_33" n="N002"/>это писало лицо<del rend="strikethrough">,</del> ему незнакомое и умершее. Я сознаю, что требование это
                <milestone unit="line" facs="#facs_160_l_34" n="N003"/>едва ли выполнило, но мне хотелось подчеркнуть, что я посылаю ему мои
@@ -81,7 +81,7 @@
                <milestone unit="line" facs="#facs_161_l_8" n="N008"/>как будто у меня под ногами колеблется почва, я как будто тону, но я долж-
                <milestone unit="line" facs="#facs_161_l_9" n="N009"/>на поверить, что могу пойти по воде – и буду спасена.
             </p>
-         <p facs="#facs_161_r_1" xml:lang="de" corresp="#p0530-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_161_r_1" xml:lang="de" corresp="#p0530-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_161_l_1" n="N001"/>Мне как то страшно эти дни, я очень ясно почувствовала, что в конце
                <milestone unit="line" facs="#facs_161_l_2" n="N002"/>концов ведь, <emph rend="underlined">действительно</emph>, я должна <emph rend="underlined">умереть</emph>. Я об этом часто думаю и
                <milestone unit="line" facs="#facs_161_l_3" n="N003"/>говорю, но до сих пор я этому как то не верила. И это новое ясное ощущение
@@ -95,7 +95,7 @@
          <p facs="#facs_161_r_3" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_161_l_24" n="N001"/>3 ноября.
             </p>
-         <p facs="#facs_161_r_3" ana="dated_entry_header">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_161_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_161_l_24" n="N001"/>3 ноября.
             </p>
          <p facs="#facs_161_r_4" xml:lang="ru" xml:id="p0531-ru">
@@ -111,7 +111,7 @@
                <milestone unit="line" facs="#facs_161_l_19" n="N010"/>
             <del rend="strikethrough">8 ноября</del> рицательное, мне тоже хочется протестовать.”
             </p>
-         <p facs="#facs_161_r_4" xml:lang="de" corresp="#p0531-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_161_r_4" xml:lang="de" corresp="#p0531-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_161_l_10" n="N001"/>Вчера получила от него письмо с сообщением, что записки благополучно
                <milestone unit="line" facs="#facs_161_l_11" n="N002"/>дошли. Пишет, что получил их всего два часа тому назад, но успел уже про-
                <milestone unit="line" facs="#facs_161_l_12" n="N003"/>честь наудачу много отрывков. Он хвалит и говорит, что из записок выйдет
@@ -127,7 +127,7 @@
          <p facs="#facs_161_r_5" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_161_l_23" n="N001"/>8 ноября.
             </p>
-         <p facs="#facs_161_r_5" ana="dated_entry_header">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_161_r_5" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_161_l_23" n="N001"/>8 ноября.
             </p>
          <p facs="#facs_161_r_7" xml:lang="ru" xml:id="p0532-ru">
@@ -144,7 +144,7 @@
                <milestone unit="line" facs="#facs_162_l_34" n="N006"/>бранить.”
             
             </p>
-         <p facs="#facs_161_r_7" xml:lang="de" corresp="#p0532-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_161_r_7" xml:lang="de" corresp="#p0532-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_161_l_25" n="N001"/>Вчера была Нина и спросила, пишет ли он мне. Я ответила, что ему опять
                <milestone unit="line" facs="#facs_161_l_26" n="N002"/>стало хуже, и спросила, слегка улыбаясь:
             <pb facs="#facs_162" n="162" xml:id="img_0162-de"/>
@@ -163,7 +163,7 @@
                <milestone unit="line" facs="#facs_162_l_2" n="N002"/>- „В сущности, <emph rend="underlined">сердцем </emph>я на него не сержусь, потому что он „особенный”,
                <milestone unit="line" facs="#facs_162_l_3" n="N003"/>и ему прощается то, чего никому другому нельзя было бы простить.”
             </p>
-         <p facs="#facs_162_r_1" xml:lang="de" corresp="#p0533-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_162_r_1" xml:lang="de" corresp="#p0533-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_162_l_1" n="N001"/>Потом, слегка отвернувшись, она добавила:
                <milestone unit="line" facs="#facs_162_l_2" n="N002"/>- „В сущности, <emph rend="underlined">сердцем </emph>я на него не сержусь, потому что он „особенный”,
                <milestone unit="line" facs="#facs_162_l_3" n="N003"/>и ему прощается то, чего никому другому нельзя было бы простить.”
@@ -173,7 +173,7 @@
                <milestone unit="line" facs="#facs_162_l_24" n="N002"/>рие ко мне и, кроме того, показывает, что не так уж велик тот его недоста-
                <milestone unit="line" facs="#facs_162_l_25" n="N003"/>ток, о котором я <del rend="strikethrough">уже</del> &lt;не раз&gt; говорила.
             </p>
-         <p facs="#facs_162_r_3" xml:lang="de" corresp="#p0534-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_162_r_3" xml:lang="de" corresp="#p0534-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_162_l_23" n="N001"/>Я была очень рада тому, что она это сказала. Это показывает ее дове-
                <milestone unit="line" facs="#facs_162_l_24" n="N002"/>рие ко мне и, кроме того, показывает, что не так уж велик тот его недоста-
                <milestone unit="line" facs="#facs_162_l_25" n="N003"/>ток, о котором я <del rend="strikethrough">уже</del> &lt;не раз&gt; говорила.
@@ -193,7 +193,7 @@
                <milestone unit="line" facs="#facs_162_l_14" n="N011"/>тесь”. – „Да я вовсе вами не очарована”, ответила я, смеясь. Он страшно
                <milestone unit="line" facs="#facs_162_l_15" n="N012"/>смутился”...
             </p>
-         <p facs="#facs_162_r_4" xml:lang="de" corresp="#p0535-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_162_r_4" xml:lang="de" corresp="#p0535-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_162_l_4" n="N001"/>Нина продолжала: „Да, у нас были, - особенно, в последнее время, - какие
                <milestone unit="line" facs="#facs_162_l_5" n="N002"/>то очень странные отношения: он был все время как бы на чеку, точно чего
                <milestone unit="line" facs="#facs_162_l_6" n="N003"/>то боялся. Прошлым летом я была в одном прелестном местечке Швей-
@@ -222,7 +222,7 @@
                <milestone unit="line" facs="#facs_163_l_29" n="N004"/>ла, как я: „он не любит ни меня, ни тебя”.
             
             </p>
-         <p facs="#facs_162_r_6" xml:lang="de" corresp="#p0536-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_162_r_6" xml:lang="de" corresp="#p0536-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_162_l_16" n="N001"/>Я живо представила себе эту сценку и не могла устоять перед искушением
                <milestone unit="line" facs="#facs_162_l_17" n="N002"/>рассказать Нине кое-что из его сибирских переживаний, оставивших на нем
                <milestone unit="line" facs="#facs_162_l_18" n="N003"/>какой то страшный, неизгладимый след, мешающий ему относиться к лю-
@@ -239,7 +239,7 @@
          <p facs="#facs_163_r_1" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_163_l_1" n="N001"/>12 ноября.
             </p>
-         <p facs="#facs_163_r_1" ana="dated_entry_header">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_163_r_1" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_163_l_1" n="N001"/>12 ноября.
             </p>
          <p facs="#facs_163_r_3" xml:lang="ru" xml:id="p0537-ru">
@@ -252,7 +252,7 @@
                <milestone unit="line" facs="#facs_163_l_32" n="N007"/>монтова, уверяла, наконец, что здоровые мое стало гораздо лучше и материаль-
                <milestone unit="line" facs="#facs_163_l_33" n="N008"/>ные дела тоже не так то плохи.
             </p>
-         <p facs="#facs_163_r_3" xml:lang="de" corresp="#p0537-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_163_r_3" xml:lang="de" corresp="#p0537-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_163_l_22" n="N001"/>У Бориса случилось таки кровохаркание, но он просит не беспокоиться и
                <milestone unit="line" facs="#facs_163_l_23" n="N002"/>уверяет, что опасности нет. Я чувствую себя убитой, свалившейся с высокой
                <milestone unit="line" facs="#facs_163_l_24" n="N003"/>башни. Хотя ему за последнее время становилось все <del rend="strikethrough">ж</del> хуже, я опасаюсь, что
@@ -265,7 +265,7 @@
          <p facs="#facs_163_r_4" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_163_l_2" n="N001"/>13 ноября.
             </p>
-         <p facs="#facs_163_r_4" ana="dated_entry_header">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_163_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_163_l_2" n="N001"/>13 ноября.
             </p>
          <p facs="#facs_163_r_5" xml:lang="ru" xml:id="p0538-ru">
@@ -277,7 +277,7 @@
                <milestone unit="line" facs="#facs_163_l_19" n="N006"/>ствовала себя плохо, но потом я отошла и теперь мне даже лучше, чем
                <milestone unit="line" facs="#facs_163_l_20" n="N007"/>прежде.
             </p>
-         <p facs="#facs_163_r_5" xml:lang="de" corresp="#p0538-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_163_r_5" xml:lang="de" corresp="#p0538-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_163_l_14" n="N001"/>Сегодня после обеда я решила пойти погулять, чтобы заглушить этим
                <milestone unit="line" facs="#facs_163_l_15" n="N002"/>хоть немного мою тревогу за Бориса. Погода стояла хорошая, и я зашла
                <milestone unit="line" facs="#facs_163_l_16" n="N003"/>слишком далеко. Был момент, когда я почувствовала себя почти дурно и
@@ -289,7 +289,7 @@
          <p facs="#facs_163_r_6" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_163_l_3" n="N001"/>16 ноября.
             </p>
-         <p facs="#facs_163_r_6" ana="dated_entry_header">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_163_r_6" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_163_l_3" n="N001"/>16 ноября.
             </p>
          <p facs="#facs_163_r_8" xml:lang="ru" xml:id="p0539-ru">
@@ -357,7 +357,7 @@
             
             </quote>
          </p>
-         <p facs="#facs_163_r_8" xml:lang="de" corresp="#p0539-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_163_r_8" xml:lang="de" corresp="#p0539-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_163_l_4" n="N001"/>Вчера утром получила от Бориса очень длинное письмо, которое обрадовало
                <milestone unit="line" facs="#facs_163_l_5" n="N002"/>и одновременно опечалило меня. Он признается, <del rend="strikethrough">чтоб</del> что был в серьезной опас-
                <milestone unit="line" facs="#facs_163_l_6" n="N003"/>ности, температура несколько дней была выше 40°, но теперь он опять
@@ -433,7 +433,7 @@
                <milestone unit="line" facs="#facs_165_l_13" n="N002"/>мне радоваться сегодня”. 
             </quote>
          </p>
-         <p facs="#facs_165_r_7" xml:lang="de" corresp="#p0540-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_165_r_7" xml:lang="de" corresp="#p0540-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_165_l_18" n="N001"/>Письмо это ярко напомнило мне наши длинные разговоры в прежние дни
                <milestone unit="line" facs="#facs_165_l_24" n="N002"/>на подобные же темы. В конце он писал: „Мне вредно писать так много, но
                <milestone unit="line" facs="#facs_165_l_25" n="N003"/>я все равно не могу не думать, поэтому не браните”. Меня тронуло это, но я, ко-
@@ -447,7 +447,7 @@
          <p facs="#facs_165_r_1" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_165_l_1" n="N001"/>1 декабря.
             </p>
-         <p facs="#facs_165_r_1" ana="dated_entry_header">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_165_r_1" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_165_l_1" n="N001"/>1 декабря.
             </p>
          <p facs="#facs_165_r_9" xml:lang="ru" xml:id="p0541-ru">
@@ -462,7 +462,7 @@
                <milestone unit="line" facs="#facs_165_l_4" n="N003"/>чины начал напевать от радости.”
             </quote>
          </p>
-         <p facs="#facs_165_r_9" xml:lang="de" corresp="#p0541-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_165_r_9" xml:lang="de" corresp="#p0541-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_165_l_12" n="N001"/>Это пишет Гамсун в своем „Голоде”. Какое замеча-
                <milestone unit="line" facs="#facs_165_l_7" n="N002"/>тельное душевное здоровье! Человек лежит на чердаке, голодает несколько
                <milestone unit="line" facs="#facs_165_l_8" n="N003"/>месяцев, тщетно ищет работы<del rend="strikethrough">,</del> и все таки находит в своей душе достаточ-
@@ -481,7 +481,7 @@
                <milestone unit="line" facs="#facs_165_l_31" n="N004"/>сзади и выстрелил ему в голову из револьвера, так невыносима была ему
                <milestone unit="line" facs="#facs_165_l_32" n="N005"/>жизнь, „когда нет денег, здоровья и воли”.
             </p>
-         <p facs="#facs_165_r_2" xml:lang="de" corresp="#p0542-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_165_r_2" xml:lang="de" corresp="#p0542-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_165_l_28" n="N001"/>Как это отлично от переживаний героя Андреевского рассказа „В под-
                <milestone unit="line" facs="#facs_165_l_29" n="N002"/>вале”, у которого воли не осталось даже на то, чтобы убить себя, и которо-
                <milestone unit="line" facs="#facs_165_l_30" n="N003"/>му каждый раз при пробуждений хотелось, чтобы кто нибудь подошел
@@ -496,7 +496,7 @@
             <pb facs="#facs_166" n="166" xml:id="img_0166"/>
             <milestone unit="line" facs="#facs_166_l" n="N001"/>164
             </p>
-         <p facs="#facs_165_r_8" xml:lang="de" corresp="#p0543-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_165_r_8" xml:lang="de" corresp="#p0543-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_165_l_33" n="N001"/>Сегодня я, проснувшись, тоже по обыкновению подумала, „чему бы мне ра-
                <milestone unit="line" facs="#facs_165_l_34" n="N002"/>доваться”. Сначала я радовалась тому, что получу письмо от Бориса, но ни-
                <milestone unit="line" facs="#facs_165_l_35" n="N003"/>чего не получила, и много овладело мрачное тягучее настроение. Мне ужасно
@@ -519,7 +519,7 @@
                <milestone unit="line" facs="#facs_166_l_40" n="N012"/>когда он был молод, и из души его выливаются песни, такие нежные и бла-
                <milestone unit="line" facs="#facs_166_l_41" n="N013"/>гоухающие, как первые весенние цветочки…
             </p>
-         <p facs="#facs_166_r_2" xml:lang="de" corresp="#p0544-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_166_r_2" xml:lang="de" corresp="#p0544-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_166_l_29" n="N001"/>Меня все преследует образ старичка, о которой я как будто когда то чи-
                <milestone unit="line" facs="#facs_166_l_30" n="N002"/>тала. Но я не могу припомнить, правда ли это, что я о нем читала, или
                <milestone unit="line" facs="#facs_166_l_31" n="N003"/>это под моего воображения. Жалкий, маленький старичек этот почти от-
@@ -553,7 +553,7 @@
             <pb facs="#facs_167" n="167" xml:id="img_0167"/>
             <milestone unit="line" facs="#facs_167_l" n="N001"/>165
             </p>
-         <p facs="#facs_166_r_3" xml:lang="de" corresp="#p0545-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_166_r_3" xml:lang="de" corresp="#p0545-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_166_l_42" n="N001"/>Я видела однажды маленькую восьмилетнюю девочку, которая умирала
                <milestone unit="line" facs="#facs_166_l_43" n="N002"/>от чахотки. В момент, когда я увидела ее впервые, ее несли на руках. И
                <milestone unit="line" facs="#facs_166_l_44" n="N003"/>меня поразили несоразмерно длинные и тоненькие ручки и ножки, которые
@@ -604,7 +604,7 @@
             <pb facs="#facs_168" n="168" xml:id="img_0168"/>
             <milestone unit="line" facs="#facs_168_l" n="N001"/>166
             </p>
-         <p facs="#facs_167_r_1" xml:lang="de" corresp="#p0546-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_167_r_1" xml:lang="de" corresp="#p0546-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_167_l_1" n="N001"/>больше ничто не интересно. Лишь когда я, взяв со стола фотографию маленькой
                <milestone unit="line" facs="#facs_167_l_2" n="N002"/>здоровой девочки, спросила, кто это, она ответила как будто оживившись и с
                <milestone unit="line" facs="#facs_167_l_3" n="N003"/>оттенком гордости: „Это я.“ Но потом она опять погасла и лежала молча
@@ -650,7 +650,7 @@
                <milestone unit="line" facs="#facs_168_l_39" n="N011"/>- „Муляшки, муляшки!“ - повторяет Танечка и опускается на землю.
                <milestone unit="line" facs="#facs_168_l_40" n="N012"/>Что за удивительные штуки!
             </p>
-         <p facs="#facs_168_r_2" xml:lang="de" corresp="#p0547-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_168_r_2" xml:lang="de" corresp="#p0547-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_168_l_29" n="N001"/>Тут я вспоминаю сызнова себя самое такой маленькой здоровой девочкой.
                <milestone unit="line" facs="#facs_168_l_30" n="N002"/>Крошечная Та<del rend="strikethrough">ня</del>&lt;нечка&gt; идет с няней в сад. Няня держит Та<del rend="strikethrough">ню</del>&lt;нечка&gt; за ручку, и они идут
                <milestone unit="line" facs="#facs_168_l_31" n="N003"/>потихонечку по тропинке между высокой, выше самой Танечки, травой. В
@@ -671,7 +671,7 @@
                <milestone unit="line" facs="#facs_168_l_4" n="N004"/>зрелища и, наконец, ей становится жалко „муляшек“. Бедные! В каком
                <milestone unit="line" facs="#facs_168_l_5" n="N005"/>гадком доме должны они жить!
             </p>
-         <p facs="#facs_168_r_1" xml:lang="de" corresp="#p0548-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_168_r_1" xml:lang="de" corresp="#p0548-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_168_l_1" n="N001"/>Танечка еще никогда не видела ничего подобного: земляная горка, а по-
                <milestone unit="line" facs="#facs_168_l_2" n="N002"/>средине дырочка и „муляшки“ влезают и вылезают оттуда. Няня объясняет
                <milestone unit="line" facs="#facs_168_l_3" n="N003"/>что это „муляшкин дом“. Танечка долго не может оторвать глаз от этого
@@ -693,7 +693,7 @@
             <pb facs="#facs_169" n="169" xml:id="img_0169"/>
             <milestone unit="line" facs="#facs_169_l" n="N001"/>167
             </p>
-         <p facs="#facs_168_r_4" xml:lang="de" corresp="#p0549-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_168_r_4" xml:lang="de" corresp="#p0549-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_168_l_6" n="N001"/>Вернувшись домой, Танечка простит маму сделать „муляшкам“ хороший
                <milestone unit="line" facs="#facs_168_l_7" n="N002"/>дом из коробочки. Мама вырезывает в большой картонной коробочке двер
                <milestone unit="line" facs="#facs_168_l_8" n="N003"/>и окошечки, и Танечка в восторге: как хорошо там идет жить му-
@@ -717,7 +717,7 @@
                <milestone unit="line" facs="#facs_169_l_34" n="N006"/>данная мельница, чтобы молоть кофе. Иногда Кондратьевна позволяет Та-
                <milestone unit="line" facs="#facs_169_l_35" n="N007"/>нечке повертеть ручку этой мельницы. Но это очень трудно.
             </p>
-         <p facs="#facs_169_r_2" xml:lang="de" corresp="#p0550-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_169_r_2" xml:lang="de" corresp="#p0550-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_169_l_1" n="N001"/>Танечка очень любит ходить в гости к старой Кондратьевне. Кондратьевна
                <milestone unit="line" facs="#facs_169_l_30" n="N002"/>очень-очень старая старушка: она была няней Танечкина папы. А удивитель-
                <milestone unit="line" facs="#facs_169_l_31" n="N003"/>но, как это папа был маленький? В хате у Кондратьевны очень хорошо. В
@@ -736,7 +736,7 @@
                <milestone unit="line" facs="#facs_169_l_8" n="N007"/>ников“. Тикают большие часы с маятником над пузатым комодом. На ко-
                <milestone unit="line" facs="#facs_169_l_9" n="N008"/>моде стоят карточки в рамках и разные интересные вещи...
             </p>
-         <p facs="#facs_169_r_1" xml:lang="de" corresp="#p0551-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_169_r_1" xml:lang="de" corresp="#p0551-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_169_l_2" n="N001"/>
             <milestone unit="line" facs="#facs_169_l_3" n="N002"/>Чтобы <del rend="strikethrough">перебраться</del> &lt;попасть&gt; в другую, „чистую“ комнату Кондратьевны, нужно пере-
                <milestone unit="line" facs="#facs_169_l_4" n="N003"/>браться через высокий земляной порог. К этой „чистой“ комнате Танечка
@@ -751,7 +751,7 @@
                <milestone unit="line" facs="#facs_169_l_25" n="N002"/>ног, ставит перед ней деревянный табурет вместо стoла и дает ей ножни-
                <milestone unit="line" facs="#facs_169_l_26" n="N003"/>цы и бумажку „вырезывать“. Это очень интересно!
             </p>
-         <p facs="#facs_169_r_3" xml:lang="de" corresp="#p0552-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_169_r_3" xml:lang="de" corresp="#p0552-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_169_l_24" n="N001"/>Кондратьевна усаживает Танечку на свою маленькую скамеечку для
                <milestone unit="line" facs="#facs_169_l_25" n="N002"/>ног, ставит перед ней деревянный табурет вместо стoла и дает ей ножни-
                <milestone unit="line" facs="#facs_169_l_26" n="N003"/>цы и бумажку „вырезывать“. Это очень интересно!

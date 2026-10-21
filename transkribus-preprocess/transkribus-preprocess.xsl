@@ -114,7 +114,7 @@
       <xsl:copy-of select="@*"/>
       <xsl:attribute name="xml:lang" select="'de'"/>
       <xsl:attribute name="corresp" select="'#p'||$n||'-ru'"/>
-      <xsl:text expand-text="false">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}</xsl:text>
+      <xsl:text expand-text="false">{TRANSLATION GOES HERE}</xsl:text>
       <xsl:apply-templates select="node()" mode="preprocess-integrate"/>
       <!-- merge in all following pb, fw, and ab until the next p -->
       <xsl:if test="ancestor::text">    

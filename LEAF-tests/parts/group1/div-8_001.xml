@@ -38,7 +38,7 @@
       <body>
          <head facs="#facs_44_r_5">
             <milestone unit="line" facs="#facs_44_l_23" n="N001"/>IV.</head>
-         <head facs="#facs_44_r_5" xml:lang="de">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <head facs="#facs_44_r_5" xml:lang="de">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_44_l_23" n="N001"/>IV.</head>
          <p facs="#facs_44_r_6" xml:lang="ru" xml:id="p0142-ru">
             <milestone unit="line" facs="#facs_44_l_8" n="N001"/>Вскоре всех нас охватила великая радость (увы, во что обратилась она
@@ -49,7 +49,7 @@
                <milestone unit="line" facs="#facs_44_l_13" n="N006"/>личественную бескровную революцию, я испытывала гордость за свой народ:
                <milestone unit="line" facs="#facs_44_l_14" n="N007"/>как прекрасно будет все теперь!
             </p>
-         <p facs="#facs_44_r_6" xml:lang="de" corresp="#p0142-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_44_r_6" xml:lang="de" corresp="#p0142-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_44_l_8" n="N001"/>Вскоре всех нас охватила великая радость (увы, во что обратилась она
                <milestone unit="line" facs="#facs_44_l_9" n="N002"/>теперь!): пришла Великая Русская Революция 1917 года. <del rend="strikethrough">Знакомые</del> Русские ходили
                <milestone unit="line" facs="#facs_44_l_10" n="N003"/>как пьяные от счастья. Одна знакомая принесла мне ленточку с надписью:
@@ -80,7 +80,7 @@
                <milestone unit="line" facs="#facs_45_l_4" n="N004"/>Ваши руки.»
             
             </p>
-         <p facs="#facs_44_r_8" xml:lang="de" corresp="#p0143-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_44_r_8" xml:lang="de" corresp="#p0143-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_44_l_15" n="N001"/>18 апреля Сараев писал мне: «извините меня, пожалуйста, за долгое
                <milestone unit="line" facs="#facs_44_l_16" n="N002"/>молчание. Сколько пережил, передумал за это время – не расскажешь. Вам
                <milestone unit="line" facs="#facs_44_l_17" n="N003"/>понятно, что революция в России не только общественное, но и личное мое
@@ -110,7 +110,7 @@
                <milestone unit="line" facs="#facs_45_l_34" n="N005"/>Милостивый Государь. Вы считаете мою маленькую особу достойной того, чтобы
                <milestone unit="line" facs="#facs_45_l_35" n="N006"/>&lt;o&gt;Вы&lt;o&gt; ее читали!»
             </p>
-         <p facs="#facs_45_r_3" xml:lang="de" corresp="#p0144-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_45_r_3" xml:lang="de" corresp="#p0144-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_45_l_29" n="N001"/>Сим комплиментом он удостоил меня, кажется, за то, что я спрашивала его
                <milestone unit="line" facs="#facs_45_l_31" n="N002"/>в письма, не испортятли пацифисты всего того, что так хорошо началось. Не
                <milestone unit="line" facs="#facs_45_l_32" n="N003"/>помню всего, что и как я еще там писала. Но это: «пишите мне, милая» по-
@@ -132,7 +132,7 @@
                <milestone unit="line" facs="#facs_45_l_16" n="N012"/>какой то недоверчивый звук.
                <milestone unit="line" facs="#facs_45_l_17" n="N013"/>Ха-ха! Мне «не хочется», чтобы он к нам приехал!
          </p>
-         <p facs="#facs_45_r_4" xml:lang="de" corresp="#p0145-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_45_r_4" xml:lang="de" corresp="#p0145-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_45_l_5" n="N001"/>
             <milestone unit="line" facs="#facs_45_l_6" n="N002"/>Однажды в первых числах мая меня позвали к телефону: это был он. Он
                <milestone unit="line" facs="#facs_45_l_7" n="N003"/>спрашивал меня о порядках в нашей новой маленькой клинике, о ценах и пр.

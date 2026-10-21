@@ -36,7 +36,7 @@
    </teiHeader>
    <text>
       <body>
-         <p facs="#facs_56_r_3" xml:lang="de" corresp="#p0183-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_56_r_3" xml:lang="de" corresp="#p0183-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_56_l_29" n="N001"/>Как то вечером он вошел, когда я писала о своем „романе“ с Женей. Я
                <milestone unit="line" facs="#facs_56_l_31" n="N002"/>чувствовала себя довольно хорошо: по вечерам мне всегда становится луч-
                <milestone unit="line" facs="#facs_56_l_32" n="N003"/>ше, чувствую себя живее. И тут то я решилась рассказать ему вкрат-
@@ -56,7 +56,7 @@
                <milestone unit="line" facs="#facs_56_l_10" n="N005"/>не понравилось ему: „видно, что он пишет и сам знает, какой эффект
                <milestone unit="line" facs="#facs_56_l_11" n="N006"/>должны произвести его слова.“
             </p>
-         <p facs="#facs_56_r_4" xml:lang="de" corresp="#p0184-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_56_r_4" xml:lang="de" corresp="#p0184-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_56_l_6" n="N001"/>Когда я сказала, что мой роман с Женей весь исчерпался в письмах,
                <milestone unit="line" facs="#facs_56_l_7" n="N002"/>это ему понравилось, но он сказал, что было бы лучше, если бы мы с Женой
                <milestone unit="line" facs="#facs_56_l_8" n="N003"/>никогда больше не встретились. Я дала ему прочесть то письмо Жени,
@@ -84,7 +84,7 @@
                <milestone unit="line" facs="#facs_57_l_2" n="N002"/>- „Да, мне нужно было сказать ех–жиних [*ех-жених*]“, сказала я, смеясь.
             
             </p>
-         <p facs="#facs_56_r_6" xml:lang="de" corresp="#p0185-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_56_r_6" xml:lang="de" corresp="#p0185-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_56_l_12" n="N001"/>Когда я довела свой рассказ до конца и он понял, что между мною и Же-
                <milestone unit="line" facs="#facs_56_l_13" n="N002"/>нeй все давно уже кончено, он вдруг сказал:
                <milestone unit="line" facs="#facs_56_l_14" n="N003"/>– „Постойте, зачем же вы мне в таком случае устроили подвох?“
@@ -116,7 +116,7 @@
                <milestone unit="line" facs="#facs_57_l_38" n="N009"/>его собственной истории были черточки сходства с моею, кроме того он воов-
                <milestone unit="line" facs="#facs_57_l_39" n="N010"/>ще очень чуток.
             </p>
-         <p facs="#facs_57_r_3" xml:lang="de" corresp="#p0186-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_57_r_3" xml:lang="de" corresp="#p0186-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_57_l_29" n="N001"/>Мне показалось, что весь мой рассказ произвел на него впечатление
                <milestone unit="line" facs="#facs_57_l_31" n="N002"/>какого то подвоха, женской хитрости, и это было мнѣ больно. Я намере-
                <milestone unit="line" facs="#facs_57_l_32" n="N003"/>валась лишь оказать ему такое же доверие, какое проявил он, раскрыв пе-
@@ -154,7 +154,7 @@
                <milestone unit="line" facs="#facs_58_l_5" n="N003"/>- „Да, я показала только одно, и то там нет ничего особенного.“
             
             </p>
-         <p facs="#facs_57_r_5" xml:lang="de" corresp="#p0187-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_57_r_5" xml:lang="de" corresp="#p0187-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_57_l_40" n="N001"/>Странно, что я ни за что не смогла бы рассказать какой либо женщинѣ
                <milestone unit="line" facs="#facs_57_l_41" n="N002"/>так подробно моего романа, особенно того, что было в нем для меня унизитель-
                <milestone unit="line" facs="#facs_57_l_42" n="N003"/>ного. Говорят, что женщины способны быть более или менее откровенны
@@ -188,7 +188,7 @@
                <milestone unit="line" facs="#facs_58_l_33" n="N005"/>боялся, что это может мне повредить; кроме того, <del rend="strikethrough">ег</del> ему вероятно было
                <milestone unit="line" facs="#facs_58_l_34" n="N006"/>просто неприятно слушать мои излияния.
             </p>
-         <p facs="#facs_58_r_5" xml:lang="de" corresp="#p0188-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_58_r_5" xml:lang="de" corresp="#p0188-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_58_l_27" n="N001"/>Мне хотелось иногда после этого вечера дополнить мой рассказ и обяснить
                <milestone unit="line" facs="#facs_58_l_28" n="N002"/>ему то, что он по всей вероятности не понял из моих сбивчивых фраз, но я за-
                <milestone unit="line" facs="#facs_58_l_31" n="N003"/>метила, что тема эта ему неприятна и что он вообще не любит, когда я гово-
@@ -209,7 +209,7 @@
                <milestone unit="line" facs="#facs_58_l_21" n="N010"/>При этом он как то запнулся, смутился, и я поняла, что он вспомнил
                <milestone unit="line" facs="#facs_58_l_22" n="N011"/>тут именно о моих попытках к подобным откровенностям.
             </p>
-         <p facs="#facs_58_r_4" xml:lang="de" corresp="#p0189-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_58_r_4" xml:lang="de" corresp="#p0189-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_58_l_12" n="N001"/>Однажды, значительно позже, он читал мне вслух разсказ Чехова „Страх“.
                <milestone unit="line" facs="#facs_58_l_13" n="N002"/>Там есть такое место: „Это был умный, добрый, нескучный и искренний
                <milestone unit="line" facs="#facs_58_l_14" n="N003"/>человек, но помню очень хорошо, что когда он поверял мне свои сокровен-
@@ -230,7 +230,7 @@
                <milestone unit="line" facs="#facs_58_l_56" n="N005"/>водит на него неприятное впечатление. („Мне давала читать свои
                <milestone unit="line" facs="#facs_58_l_57" n="N006"/>письма одна дама“, пояснил он.) И я не дала ему моего дневника.
             </p>
-         <p facs="#facs_58_r_3" xml:lang="de" corresp="#p0190-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_58_r_3" xml:lang="de" corresp="#p0190-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_58_l_52" n="N001"/>Как то я читала ему отрывки из моего &lt;старого&gt; дневника и потом сказала,
                <milestone unit="line" facs="#facs_58_l_53" n="N002"/>что могла бы дать ему эти тетради на прочтение, если бы у него было
                <milestone unit="line" facs="#facs_58_l_54" n="N003"/>время, хотя больше никому, даже сестре моей, я не давала их читать.
@@ -265,7 +265,7 @@
                <milestone unit="line" facs="#facs_59_l_45" n="N014"/>щина, которую никто никогда не поцеловал.
             
             </p>
-         <p facs="#facs_58_r_1" xml:lang="de" corresp="#p0191-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_58_r_1" xml:lang="de" corresp="#p0191-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_58_l_29" n="N001"/>Я должна признаться, что всякий раз, когда я чувствовала<del rend="strikethrough">,</del> с его
                <milestone unit="line" facs="#facs_58_l_30" n="N002"/>стороны внутреннее противодействие моему желанию нашего даль-
             <pb facs="#facs_59" n="59" xml:id="img_0059-de"/>
@@ -302,7 +302,7 @@
                <milestone unit="line" facs="#facs_59_l_7" n="N004"/>„Я жить хочу, чтоб мыслить и страдать.“
             </quote>
          </p>
-         <p facs="#facs_59_r_2" xml:lang="de" corresp="#p0192-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_59_r_2" xml:lang="de" corresp="#p0192-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_59_l_2" n="N001"/>Читая недавно Пушкина, я дала ему прочесть стихотворение „Элегия“,
                <milestone unit="line" facs="#facs_59_l_3" n="N002"/>которое мне очень нравится:
             <quote>
@@ -322,7 +322,7 @@
                <milestone unit="line" facs="#facs_59_l_19" n="N002"/>„Блеснет любовь улыбкою прощальной.“
             </quote>
          </p>
-         <p facs="#facs_59_r_1" xml:lang="de" corresp="#p0193-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_59_r_1" xml:lang="de" corresp="#p0193-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_59_l_14" n="N001"/>Он прочел и, вдруг сорвавшись с места, сказал:
                <milestone unit="line" facs="#facs_59_l_15" n="N002"/>- „Мне нужно итти“,
                <milestone unit="line" facs="#facs_59_l_16" n="N003"/>хотя только что пришел. И ушел, ничего не сказав о стихотворений.
@@ -349,7 +349,7 @@
                <milestone unit="line" facs="#facs_60_l_5" n="N005"/>того, чтобы сделать такой намек.
             
             </p>
-         <p facs="#facs_59_r_6" xml:lang="de" corresp="#p0194-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_59_r_6" xml:lang="de" corresp="#p0194-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_59_l_26" n="N001"/>И вот я почувствовала, что он потому так оборвал, что понял в
                <milestone unit="line" facs="#facs_59_l_27" n="N002"/>словах этих мою скрытую мысль. Давая ему читать это стихот-
             <pb facs="#facs_60" n="60" xml:id="img_0060-de"/>
@@ -379,7 +379,7 @@
                <milestone unit="line" facs="#facs_60_l_28" n="N004"/>„Но весна для него не придет.“
             </quote>
          </p>
-         <p facs="#facs_60_r_6" xml:lang="de" corresp="#p0195-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_60_r_6" xml:lang="de" corresp="#p0195-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_60_l_12" n="N001"/>Мне кажется, что в слово „любовь“ мы вкладываем различное содержание,
                <milestone unit="line" facs="#facs_60_l_13" n="N002"/>и из-за этого между нами тоже возможны недоразумения и конфликты.
                <milestone unit="line" facs="#facs_60_l_14" n="N003"/>Я помню еще одну сценку по поводу другого стихотворения: „Сон-цветoк“
@@ -400,7 +400,7 @@
                <milestone unit="line" facs="#facs_60_l_10" n="N005"/>передо мною, я никогда не забуду ее. И, и... если бы он нашел в себе силы &lt;хотя бы&gt; по-
                <milestone unit="line" facs="#facs_60_l_11" n="N006"/>давить ее, он был бы лучше.
             </p>
-         <p facs="#facs_60_r_4" xml:lang="de" corresp="#p0196-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_60_r_4" xml:lang="de" corresp="#p0196-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_60_l_6" n="N001"/>Я не отдавала себе отчета, почему именно это место так запом-
                <milestone unit="line" facs="#facs_60_l_7" n="N002"/>нилось и так нравится мне. Вдруг он улыбнулся, и я поняла – <emph rend="underlined">почему</emph>
             <milestone unit="line" facs="#facs_60_l_8" n="N003"/>и пожалела, зачем я сказала это четверостишие. О, он чуткий, хоро-
@@ -413,7 +413,7 @@
                <milestone unit="line" facs="#facs_60_l_31" n="N002"/>бы: „В конце концов Вы <emph rend="underlined">только </emph>старая дева.“ Но он только подумал
                <milestone unit="line" facs="#facs_60_l_32" n="N003"/>это.
             </p>
-         <p facs="#facs_60_r_3" xml:lang="de" corresp="#p0197-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_60_r_3" xml:lang="de" corresp="#p0197-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_60_l_29" n="N001"/>Но все таки он лучше всех, лучше всех, и я люблю его. Другой сказал
                <milestone unit="line" facs="#facs_60_l_31" n="N002"/>бы: „В конце концов Вы <emph rend="underlined">только </emph>старая дева.“ Но он только подумал
                <milestone unit="line" facs="#facs_60_l_32" n="N003"/>это.
@@ -443,7 +443,7 @@
                <milestone unit="line" facs="#facs_61_l_35" n="N010"/>ла, как будто была во власти чего то сильнейшаго меня самой.
             
             </p>
-         <p facs="#facs_60_r_7" xml:lang="de" corresp="#p0198-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_60_r_7" xml:lang="de" corresp="#p0198-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_60_l_23" n="N001"/>&lt;Он работал над одной книгой.&gt; Когда <del rend="strikethrough">книга его</del> &lt;она&gt; была напечатана, он пришел и, держа руки за спиной,
                <milestone unit="line" facs="#facs_60_l_24" n="N002"/>сказал: „Нет книги“ (раньше он сказал, что надеется сегодня принести ее),
                <milestone unit="line" facs="#facs_60_l_25" n="N003"/>но все лицо его играло сдержанной радостью и я, лукаво заглянув за
@@ -478,7 +478,7 @@
                <milestone unit="line" facs="#facs_61_l_18" n="N007"/>чае хоть несколько светлых минут, если смерть неизбежна. И я написа-
                <milestone unit="line" facs="#facs_61_l_19" n="N008"/>ла...
             </p>
-         <p facs="#facs_61_r_4" xml:lang="de" corresp="#p0199-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_61_r_4" xml:lang="de" corresp="#p0199-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_61_l_12" n="N001"/>С ужасом вспоминаю я также, что когда вскоре после этого случилось
                <milestone unit="line" facs="#facs_61_l_13" n="N002"/>его кровохарканье, то, несмотря на все мое отчаяние и страх за его жизнь,
                <milestone unit="line" facs="#facs_61_l_14" n="N003"/>где то глубоко у меня шевельнулась радость, - радость, что теперь, когда все
@@ -497,7 +497,7 @@
                <milestone unit="line" facs="#facs_61_l_56" n="N006"/>дорожу бесконечно. – Мне не хватает не столько рoдных людей, сколько рoд-
                <milestone unit="line" facs="#facs_61_l_57" n="N007"/>ных вещей.“
             </p>
-         <p facs="#facs_61_r_3" xml:lang="de" corresp="#p0200-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_61_r_3" xml:lang="de" corresp="#p0200-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_61_l_51" n="N001"/>Я написала, чтобы он не думал, что здесь нет никого, кто любил бы его,
                <milestone unit="line" facs="#facs_61_l_52" n="N002"/>и что я молилась о нем еще в один из первых дней нашего знакомства... Мы-
                <milestone unit="line" facs="#facs_61_l_53" n="N003"/>сленно я всегда с ним и жалѣю лишь, что сама так больна и не в состояніи
@@ -523,7 +523,7 @@
                <milestone unit="line" facs="#facs_62_l_2" n="N002"/>мне самой было очень плохо. Что было мне до того, если он при смерти!
             
             </p>
-         <p facs="#facs_61_r_1" xml:lang="de" corresp="#p0201-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_61_r_1" xml:lang="de" corresp="#p0201-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_61_l_27" n="N001"/>Mme Bärli сказала мне, что кровохарканье его ужасно и что он не-
                <milestone unit="line" facs="#facs_61_l_28" n="N002"/>пременно умрет. Я дошла до высшаго предела нервного напряженія,
                <milestone unit="line" facs="#facs_61_l_29" n="N003"/>мне было все равно, кто и что обо мне подумает. Я сказала Mme Bärli,
@@ -544,7 +544,7 @@
             <milestone unit="line" facs="#facs_62_l_29" n="N001"/>Mme Bärli сказала, что я непременно должна буду сделать это, я не должна
                <milestone unit="line" facs="#facs_62_l_31" n="N002"/>оставить его умирать одного.
             </p>
-         <p facs="#facs_62_r_3" xml:lang="de" corresp="#p0202-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_62_r_3" xml:lang="de" corresp="#p0202-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_62_l_29" n="N001"/>Mme Bärli сказала, что я непременно должна буду сделать это, я не должна
                <milestone unit="line" facs="#facs_62_l_31" n="N002"/>оставить его умирать одного.
             </p>
@@ -555,7 +555,7 @@
                <milestone unit="line" facs="#facs_62_l_6" n="N004"/>îcone“, но все таки, где то глубоко я почувствовала маленький–маленький
                <milestone unit="line" facs="#facs_62_l_7" n="N005"/>укол.
             </p>
-         <p facs="#facs_62_r_4" xml:lang="de" corresp="#p0203-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_62_r_4" xml:lang="de" corresp="#p0203-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_62_l_3" n="N001"/>Когда я сказала, что не знаю, любит ли он меня, она сказала: „vous êtes
                <milestone unit="line" facs="#facs_62_l_4" n="N002"/>sa petite îcone, il peut sortir avec <emph rend="underlined">une</emph> Mademoiselle X., <del rend="strikethrough">(???)</del> mais vous...
                <milestone unit="line" facs="#facs_62_l_5" n="N003"/>vous êtes celle à laquelle on ne touche pas.“ Я была горда словами, „sa petite
@@ -611,7 +611,7 @@
                <milestone unit="line" facs="#facs_63_l_25" n="N007"/>ственное.“
             
             </p>
-         <p facs="#facs_62_r_5" xml:lang="de" corresp="#p0204-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_62_r_5" xml:lang="de" corresp="#p0204-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_62_l_27" n="N001"/>Через несколько дней опасность миновала и он стал понемногу оправ-
                <milestone unit="line" facs="#facs_62_l_28" n="N002"/>ляться. Я писала ему каждый день и получала маленькіе записки. Я стала
                <milestone unit="line" facs="#facs_62_l_32" n="N003"/>называть его по имени и прошла его дѣлать то же самое по отношенію
@@ -666,7 +666,7 @@
                <milestone unit="line" facs="#facs_63_l_19" n="N003"/>
             <del rend="strikethrough">неко</del> неладно и холодный тон письма неприятно задел меня.
             </p>
-         <p facs="#facs_63_r_2" xml:lang="de" corresp="#p0205-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_63_r_2" xml:lang="de" corresp="#p0205-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_63_l_17" n="N001"/>И вот замечательный психологический факт: оба эти места его письма
                <milestone unit="line" facs="#facs_63_l_18" n="N002"/>я поняла совершенно превратно, хотя смутно сознавала, что здесь что-то
                <milestone unit="line" facs="#facs_63_l_19" n="N003"/>
@@ -682,7 +682,7 @@
                <milestone unit="line" facs="#facs_63_l_23" n="N004"/>у него нет увлечения какого либо другою женщиной и что он рассказал
                <milestone unit="line" facs="#facs_63_l_24" n="N005"/>мне о себе, о своей душевной жизни все существенное.
             </p>
-         <p facs="#facs_63_r_5" xml:lang="de" corresp="#p0206-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_63_r_5" xml:lang="de" corresp="#p0206-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_63_l_20" n="N001"/>Первое место я поняла так: чтобы устранить в будущем даже тень
                <milestone unit="line" facs="#facs_63_l_21" n="N002"/>возможности <choice>
                <corr/>
@@ -703,7 +703,7 @@
                <milestone unit="line" facs="#facs_63_l_54" n="N008"/>ложение руки и сердца слова, имеющие совершенно противоположный
                <milestone unit="line" facs="#facs_63_l_55" n="N009"/>смысл.
             </p>
-         <p facs="#facs_63_r_3" xml:lang="de" corresp="#p0207-ru">{🇩🇪 TRANSLATION GOES HERE 🇩🇪}
+         <p facs="#facs_63_r_3" xml:lang="de" corresp="#p0207-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_63_l_47" n="N001"/>Ха-ха! Это было великолепно! Вот что называется старая дева! Не-
                <milestone unit="line" facs="#facs_63_l_48" n="N002"/>смотря на то, что я не так глупа, как Бальзаковская старая дева, –
                <milestone unit="line" facs="#facs_63_l_49" n="N003"/>смею польстить себе по крайней мере в этом, – я все таки поддалась
