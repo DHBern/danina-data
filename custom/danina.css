@@ -1,0 +1,12 @@
+/* German translation */
+*[xml\:lang="de"] {
+    background-color: rgba(250, 240, 243, 0.2);
+    border-left: 4px solid #6b8db5;
+    padding-left: 1em;
+}
+
+/* Russian original */
+*[xml\:lang="ru"] {
+    background-color: transparent;
+    border-left: none;
+}
