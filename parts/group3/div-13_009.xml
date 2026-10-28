@@ -36,12 +36,6 @@
    </teiHeader>
    <text>
       <body>
-         <p facs="#facs_150_r_2" xml:lang="de" corresp="#p0478-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_150_l_30" n="N001"/>Наконец, он встал, чтобы итти, я тоже поднялась, так как решила немного
-               <milestone unit="line" facs="#facs_150_l_31" n="N002"/>проводить его. Он начал было убеждать меня остаться, но я сказала, что чув-
-               <milestone unit="line" facs="#facs_150_l_32" n="N003"/>ствую себя хорошо и погода тоже хорошая: был такой тихий серенький день
-               <milestone unit="line" facs="#facs_150_l_33" n="N004"/>без дождя с проблесками блѣдного солнца. Я люблю такіе дни.
-            </p>
          <p facs="#facs_150_r_1" xml:lang="ru" xml:id="p0479-ru">
             <milestone unit="line" facs="#facs_150_l_1" n="N001"/>Он попрощался с М-lle. Ш. и пошел прощаться с Mme Bärli. Я тем вре-
                <milestone unit="line" facs="#facs_150_l_2" n="N002"/>менем спустилась по лестнице и ждала его у калитки. Он скоро пришел.
@@ -115,7 +109,7 @@
                <milestone unit="line" facs="#facs_150_l_17" n="N004"/>-Знаете, это письмо, которое Вы мне написали... это было замеча-
                <milestone unit="line" facs="#facs_150_l_18" n="N005"/>тельное письмо. Его можно было бы поместить в тот сборник"... (Я давала
                <milestone unit="line" facs="#facs_150_l_20" n="N006"/>ему &lt;однажды на прочтение&gt; сборник любовных писем замечательных людей.)
-            <pb facs="#facs_151" n="151" xml:id="img_0151-de"/>
+            <pb n="151" xml:id="img_0151-de"/>
             <fw facs="#facs_151_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_151_l" n="N001"/>149</fw>
             <milestone unit="line" facs="#facs_151_l_1" n="N001"/>У меня в душе все засияло.
@@ -206,7 +200,7 @@
                <milestone unit="line" facs="#facs_151_l_26" n="N003"/>этого пути, и навсегда останется это больная любовь, как и мы са-
                <milestone unit="line" facs="#facs_151_l_27" n="N004"/>ми. Но все таки я не знаю чувства, более достойного названия любви,
                <milestone unit="line" facs="#facs_151_l_28" n="N005"/>чем наше.
-            <pb facs="#facs_152" n="152" xml:id="img_0152-de"/>
+            <pb n="152" xml:id="img_0152-de"/>
             <fw facs="#facs_152_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_152_l_29" n="N001"/>150</fw>
          </p>
@@ -292,7 +286,7 @@
                <milestone unit="line" facs="#facs_152_l_36" n="N002"/>- „Она пишет?“ - спросила я.
                <milestone unit="line" facs="#facs_152_l_37" n="N003"/>- „Нет, куда ей писать.“
                <milestone unit="line" facs="#facs_152_l_38" n="N004"/>Но в другой раз, хваля ее переводы, он добавил: „Она и писать могла бы“.
-            <pb facs="#facs_153" n="153" xml:id="img_0153-de"/>
+            <pb n="153" xml:id="img_0153-de"/>
             <fw facs="#facs_153_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_153_l" n="N001"/>151</fw>
          </p>
@@ -388,7 +382,7 @@
             </p>
          <p facs="#facs_153_r_6" xml:lang="de" corresp="#p0498-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_153_l_18" n="N001"/>Я нервно крутила в пальцах мой наперсток, и он упал два раза на пол.
-            <pb facs="#facs_154" n="154" xml:id="img_0154-de"/>
+            <pb n="154" xml:id="img_0154-de"/>
             <fw facs="#facs_154_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_154_l" n="N001"/>152</fw>
             <milestone unit="line" facs="#facs_154_l_28" n="N001"/>- „Ваш несчастный наперсток“, сказала она, подымая его во второй раз.
@@ -452,6 +446,19 @@
                <milestone unit="line" facs="#facs_154_l_15" n="N003"/>удастся. Он лежит себе там и читает Шекспира, и в голове у него целая
                <milestone unit="line" facs="#facs_154_l_16" n="N004"/>бездна разных интересных и прекрасных мыслей, и он наверное очень мало ду-
                <milestone unit="line" facs="#facs_154_l_17" n="N005"/>мает о тех пустяках, которые так занимают меня.
+            </p>
+         <p facs="#facs_154_r_6" xml:lang="de" corresp="#p0503-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_154_l_13" n="N001"/>Я написала ему в ответ о моем знакомстве с Mlle K., написала с та-
+               <milestone unit="line" facs="#facs_154_l_14" n="N002"/>ким разсчетом, чтобы вызвать его на откровенность. Но едва ли это мне
+               <milestone unit="line" facs="#facs_154_l_15" n="N003"/>удастся. Он лежит себе там и читает Шекспира, и в голове у него целая
+               <milestone unit="line" facs="#facs_154_l_16" n="N004"/>бездна разных интересных и прекрасных мыслей, и он наверное очень мало ду-
+               <milestone unit="line" facs="#facs_154_l_17" n="N005"/>мает о тех пустяках, которые так занимают меня.
+            </p>
+         <p facs="#facs_154_r_7" ana="dated_entry_header">
+            <milestone unit="line" facs="#facs_154_l_21" n="N001"/>20 августа.
+            </p>
+         <p xml:lang="de" facs="#facs_154_r_7" ana="dated_entry_header">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_154_l_21" n="N001"/>20 августа.
             </p>
       </body>
    </text>

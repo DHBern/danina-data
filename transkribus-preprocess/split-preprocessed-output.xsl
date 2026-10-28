@@ -25,11 +25,13 @@
 
             <xsl:variable name="div-id" as="xs:string"
                 select="'div-'||preceding-sibling::div => count()"/>
-
-            <xsl:for-each-group select="node()" group-adjacent="xs:integer(
-                preceding-sibling::p[@xml:lang='ru'] => count()
-                div $group-size => floor())">
-
+            
+            <xsl:for-each-group select="node()" group-adjacent="
+                xs:integer(
+                ((preceding-sibling::p[@xml:lang='ru'] | self::p[@xml:lang='ru']) => count() - 1)
+                idiv $group-size
+                )">
+                
                 <xsl:variable name="group">
                     <xsl:choose>
                         <xsl:when test="(current-group()//pb)[1]/@xml:id=>replace('\D','')=>number() le 69">group1</xsl:when>

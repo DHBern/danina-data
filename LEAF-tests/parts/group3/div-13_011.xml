@@ -36,12 +36,6 @@
    </teiHeader>
    <text>
       <body>
-         <p facs="#facs_160_r_5" xml:lang="de" corresp="#p0528-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_160_l_23" n="N001"/>Милый! Этот сон меня так тронул и обрадовал, что я приняла оконча-
-               <milestone unit="line" facs="#facs_160_l_24" n="N002"/>тельное решение и послала ему мои Записки. Что то будет? Я очень волнова-
-               <milestone unit="line" facs="#facs_160_l_25" n="N003"/>лась вчера и всю ночь мне снились какие то кошмарные сны, но сегодня я чув-
-               <milestone unit="line" facs="#facs_160_l_31" n="N004"/>ствую себя спокойнее.
-            </p>
          <p facs="#facs_160_r_7" xml:lang="ru" xml:id="p0529-ru">
             <milestone unit="line" facs="#facs_160_l_32" n="N001"/>В сопроводительном письме я просила его читать так, как если бы все
                <milestone unit="line" facs="#facs_160_l_33" n="N002"/>это писало лицо<del rend="strikethrough">,</del> ему незнакомое и умершее. Я сознаю, что требование это
@@ -66,7 +60,7 @@
                <milestone unit="line" facs="#facs_160_l_34" n="N003"/>едва ли выполнило, но мне хотелось подчеркнуть, что я посылаю ему мои
                <milestone unit="line" facs="#facs_160_l_35" n="N004"/>Записки не с целью оказать на него известное давление и что это не подвох
                <milestone unit="line" facs="#facs_160_l_36" n="N005"/>с моей стороны. И все таки... Бог знает. Я, кажется, надеюсь на что то,
-            <pb facs="#facs_161" n="161" xml:id="img_0161-de"/>
+            <pb n="161" xml:id="img_0161-de"/>
             <fw facs="#facs_161_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_161_l" n="N001"/>159</fw>
             <milestone unit="line" facs="#facs_161_l_27" n="N001"/>хотя в глубине души я знаю, что <emph rend="underlined">не на что</emph>. Я устала, устала, устала.
@@ -155,7 +149,7 @@
          <p facs="#facs_161_r_7" xml:lang="de" corresp="#p0532-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_161_l_25" n="N001"/>Вчера была Нина и спросила, пишет ли он мне. Я ответила, что ему опять
                <milestone unit="line" facs="#facs_161_l_26" n="N002"/>стало хуже, и спросила, слегка улыбаясь:
-            <pb facs="#facs_162" n="162" xml:id="img_0162-de"/>
+            <pb n="162" xml:id="img_0162-de"/>
             <fw facs="#facs_162_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_162_l" n="N001"/>160</fw>
             <milestone unit="line" facs="#facs_162_l_29" n="N001"/>- „Написать ему от Вас поклон?”
@@ -239,7 +233,7 @@
                <milestone unit="line" facs="#facs_162_l_17" n="N002"/>рассказать Нине кое-что из его сибирских переживаний, оставивших на нем
                <milestone unit="line" facs="#facs_162_l_18" n="N003"/>какой то страшный, неизгладимый след, мешающий ему относиться к лю-
                <milestone unit="line" facs="#facs_162_l_19" n="N004"/>дям, особенно к женщинам, просто. Ольга сказала ему, что она не нашла
-            <pb facs="#facs_163" n="163" xml:id="img_0163-de"/>
+            <pb n="163" xml:id="img_0163-de"/>
             <fw facs="#facs_163_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_163_l" n="N001"/>161</fw>
             <milestone unit="line" facs="#facs_163_l_26" n="N001"/>в нем ничего, за что могла бы зацепиться, и с той поры ему все кажется, что
@@ -377,7 +371,7 @@
                <milestone unit="line" facs="#facs_163_l_4" n="N001"/>Вчера утром получила от Бориса очень длинное письмо, которое обрадовало
                <milestone unit="line" facs="#facs_163_l_5" n="N002"/>и одновременно опечалило меня. Он признается, <del rend="strikethrough">чтоб</del> что был в серьезной опас-
                <milestone unit="line" facs="#facs_163_l_6" n="N003"/>ности, температура несколько дней была выше 40°, но теперь он опять
-            <pb facs="#facs_164" n="164" xml:id="img_0164-de"/>
+            <pb n="164" xml:id="img_0164-de"/>
             <fw facs="#facs_164_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_164_l" n="N001"/>162</fw>
             <milestone unit="line" facs="#facs_164_l_30" n="N001"/>„на том берегу”, как он пишет. Об интересующей меня „Пѣсне о купце Калашни-
@@ -428,7 +422,7 @@
                <milestone unit="line" facs="#facs_164_l_7" n="N001"/>Тут категорический императив. Пусть приходит смерть – правда выше,
                <milestone unit="line" facs="#facs_164_l_8" n="N002"/>дом выше, право выше – биться надо до последнева! Иной филистер прикинул
             
-            <pb facs="#facs_165" n="165" xml:id="img_0165-de"/>
+            <pb n="165" xml:id="img_0165-de"/>
                <fw facs="#facs_165_r" type="page-number" place="top">
                   <lb facs="#facs_165_l" n="N001"/>163</fw>
                <milestone unit="line" facs="#facs_165_l_14" n="N001"/>бы за и против и сказал бы: „с сильным не борись”, хотя и ненавидел бы произвол
@@ -774,6 +768,12 @@
             </p>
          <p facs="#facs_169_r_4" xml:lang="ru" xml:id="p0553-ru">
             <milestone unit="line" facs="#facs_169_l_10" n="N001"/>Кондратьевна добрая. Кроме того она называет Танечку барышней-кра-
+               <milestone unit="line" facs="#facs_169_l_11" n="N002"/>савицей и „умницей“, и это Танечке очень нравится. Плохо у Кондратьевны,
+               <milestone unit="line" facs="#facs_169_l_12" n="N003"/>лишь то, что муж ее, старый садовник „Василиванч“ очень больной и ворчит,
+               <milestone unit="line" facs="#facs_169_l_13" n="N004"/>и Олечка его боится.
+            </p>
+         <p facs="#facs_169_r_4" xml:lang="de" corresp="#p0553-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_169_l_10" n="N001"/>Кондратьевна добрая. Кроме того она называет Танечку барышней-кра-
                <milestone unit="line" facs="#facs_169_l_11" n="N002"/>савицей и „умницей“, и это Танечке очень нравится. Плохо у Кондратьевны,
                <milestone unit="line" facs="#facs_169_l_12" n="N003"/>лишь то, что муж ее, старый садовник „Василиванч“ очень больной и ворчит,
                <milestone unit="line" facs="#facs_169_l_13" n="N004"/>и Олечка его боится.

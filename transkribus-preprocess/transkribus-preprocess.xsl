@@ -310,7 +310,7 @@
     <xsl:choose>
       <xsl:when test="$lang='de'">
         <xsl:copy>
-          <xsl:copy-of select="@*"/>
+          <xsl:copy-of select="@* except @facs"/>
           <xsl:attribute name="xml:id" select="@xml:id||'-de'"/>
         </xsl:copy>
       </xsl:when>
@@ -325,7 +325,7 @@
     <xsl:choose>
       <xsl:when test="$lang='de'">
         <xsl:copy>
-          <xsl:copy-of select="@*"/>
+          <xsl:copy-of select="@* except @facs"/>
           <xsl:attribute name="xml:id" select="@xml:id||'-de'"/>
         </xsl:copy>
       </xsl:when>
@@ -377,11 +377,7 @@
     <xsl:variable name="facs-url" as="xs:string"
       select="replace($service-id-v20, '/i3f/v20/', '/i3f/v30/') || '/full/max/0/default.jpg'"/>
     
-    <pb corresp="{string($in/@facs)}"
-      n="{string($in/@n)}"
-      xml:id="{string($in/@xml:id)}"
-      ana="{string($canvas?label)}"
-      facs="{$facs-url}"/>
+    <pb corresp="{string($in/@facs)}" n="{string($in/@n)}" xml:id="{string($in/@xml:id)}" ana="{string($canvas?label)}" facs="{$facs-url}"/>
   </xsl:template>
   
 </xsl:transform>

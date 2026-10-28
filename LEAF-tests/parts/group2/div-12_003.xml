@@ -36,20 +36,6 @@
    </teiHeader>
    <text>
       <body>
-         <p facs="#facs_92_r_3" xml:lang="de" corresp="#p0270-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_92_l_42" n="N001"/>Мне двенадцать лет. Я просыпаюсь в каком-то особенно чудесном
-               <milestone unit="line" facs="#facs_92_l_43" n="N002"/>расположении духа, одеваю свое любимое розовое кисейное платье с
-               <milestone unit="line" facs="#facs_92_l_44" n="N003"/>большой белой оборкой – воротником. Чувствую, что это платье ко мне
-               <milestone unit="line" facs="#facs_92_l_45" n="N004"/>идет. Мои две косы тяжело лежат на спине, и это ощущение прият-
-               <milestone unit="line" facs="#facs_92_l_47" n="N005"/>но. Напившись чаю, я выбегаю в сад. Тихонько иду &lt;затем&gt; по аллее и упиваюсь
-               <milestone unit="line" facs="#facs_92_l_48" n="N006"/>дивным воздухом чудного летнего утра. Деревья кажутся особенно зе-
-               <milestone unit="line" facs="#facs_92_l_49" n="N007"/>леными, а небо голубым и птички щебечут как то особенно хорошо. Я
-               <milestone unit="line" facs="#facs_92_l_50" n="N008"/>чувствую себя частью этой сияющей природы; мое тело молодо и здоро-
-               <milestone unit="line" facs="#facs_92_l_51" n="N009"/>во, как эти деревья и птички, и я не ощущаю его. Я кажусь себе легкой,
-               <milestone unit="line" facs="#facs_92_l_52" n="N010"/>&lt;o&gt;такой&lt;o&gt; легкой, что, кажется, вот-вот я приподнимусь от земли и
-               <milestone unit="line" facs="#facs_92_l_54" n="N011"/>полечу. Я воображаю себя принцессой, которая попала в очарован-
-               <milestone unit="line" facs="#facs_92_l_55" n="N012"/>ный сад.
-            </p>
          <p facs="#facs_92_r_1" xml:lang="ru" xml:id="p0271-ru">
             <milestone unit="line" facs="#facs_92_l_24" n="N001"/>Mне восемнадцать лет. У меня начинается чахотка, но я еще не знаю
                <milestone unit="line" facs="#facs_92_l_25" n="N002"/>этого. Ранняя весна. Сад в цвету. Я иду по тропинке между цветущих
@@ -84,7 +70,7 @@
                <milestone unit="line" facs="#facs_92_l_29" n="N006"/>покрывала смертельная бледность и на лбу выступали капельки
                <milestone unit="line" facs="#facs_92_l_30" n="N007"/>пота. С непередаваемой ясностью и болью ощутила я тогда непопра-
                <milestone unit="line" facs="#facs_92_l_31" n="N008"/>вилось [*непоправимость*??] происшедшей во мне перемены; я почувствовала, как будто ка-
-            <pb facs="#facs_93" n="93" xml:id="img_0093-de"/>
+            <pb n="93" xml:id="img_0093-de"/>
             <fw facs="#facs_93_r_7" type="page-number" place="top">
                <milestone unit="line" facs="#facs_93_l_23" n="N001"/>92</fw>
             <fw facs="#facs_93_r_5" type="page_number__deleted_or_striked_out">
@@ -265,7 +251,7 @@
                <milestone unit="line" facs="#facs_94_l_21" n="N001"/>Я прочла ему, между прочим, о «принце» и о гимназистѣ «Коле».
                <milestone unit="line" facs="#facs_94_l_22" n="N002"/>Он смеялся и нашел, что все это оригинально. Он сказал, что я
                <milestone unit="line" facs="#facs_94_l_23" n="N003"/>пишу просто и искренне. Да, одно достоинство есть у моего [*«*]рома-
-            <pb facs="#facs_95" n="95" xml:id="img_0095-de"/>
+            <pb n="95" xml:id="img_0095-de"/>
             <fw facs="#facs_95_r_12" type="page-number" place="top">
                <milestone unit="line" facs="#facs_95_l_20" n="N001"/>94</fw>
             <fw facs="#facs_95_r_10" type="page_number__deleted_or_striked_out">

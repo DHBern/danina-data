@@ -36,20 +36,6 @@
    </teiHeader>
    <text>
       <body>
-         <p facs="#facs_63_r_1" xml:lang="de" corresp="#p0208-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_63_l_26" n="N001"/>Я краснею, вспоминая мой ответ Борису. <del rend="strikethrough">на это письмо</del> Я написа-
-               <milestone unit="line" facs="#facs_63_l_27" n="N002"/>ла, что очень счастлива его письмом и его доверием ко мне. Что „вто-
-               <milestone unit="line" facs="#facs_63_l_28" n="N003"/>рое??? возможно“, доказывает роман Лермонтова „Герой нашего времени“. И
-               <milestone unit="line" facs="#facs_63_l_29" n="N004"/>вместе с моим ответом я послала ему этот роман.
-            <pb facs="#facs_64" n="64" xml:id="img_0064-de"/>
-            <fw facs="#facs_64_r" type="page-number" place="top">
-               <milestone unit="line" facs="#facs_64_l" n="N001"/>63</fw>
-            <fw facs="#facs_64_r_2" type="page_number__deleted_or_striked_out">
-               <del>
-                  <milestone unit="line" facs="#facs_64_l_30" n="N001"/>[<del rend="strikethrough">96</del>]
-            </del>
-            </fw>
-         </p>
          <p facs="#facs_64_r_1" xml:lang="ru" xml:id="p0209-ru">
             <milestone unit="line" facs="#facs_64_l_1" n="N001"/>В тот же вечер мне принесли записку:
             <quote>
@@ -184,35 +170,6 @@
                <milestone unit="line" facs="#facs_65_l_27" n="N022"/>причинью страданий и радостей, не имея на то никакого положительного
                <milestone unit="line" facs="#facs_65_l_28" n="N023"/>права – не самая ли это сладкая пища нашей гордости?“ Эта „сладкая
             
-            <pb facs="#facs_66" n="66" xml:id="img_0066"/>
-               <fw facs="#facs_66_r" type="page-number" place="top">
-                  <lb facs="#facs_66_l" n="N001"/>65</fw>
-               <ab facs="#facs_66_r_2" type="page_number__deleted_or_striked_out">
-                  <lb facs="#facs_66_l_30" n="N001"/>[<del rend="strikethrough">98</del>]
-            </ab>
-               <milestone unit="line" facs="#facs_66_l_1" n="N001"/>пища гордости“, это „торжество власти“, эти пышные „словеса“ реализуют-
-               <milestone unit="line" facs="#facs_66_l_2" n="N002"/>ся в... „причинении страданий и радостей“ молодой девушке. Вот поистине
-               <milestone unit="line" facs="#facs_66_l_3" n="N003"/>„философия“ и реальная деятельность бабьего пророка, его теория и прак-
-               <milestone unit="line" facs="#facs_66_l_4" n="N004"/>тика! Как скудна была содержанием русская жизнь, если в такой теории
-               <milestone unit="line" facs="#facs_66_l_5" n="N005"/>и такой практике находили свое &lt;хотя бы минутное???&gt; удовлетворение сильные умы и характеры,
-               <milestone unit="line" facs="#facs_66_l_6" n="N006"/>подобные Печорину!
-            
-            <pb facs="#facs_67" n="67" xml:id="img_0067"/>
-               <fw facs="#facs_67_r" type="page-number" place="top">
-                  <lb facs="#facs_67_l" n="N001"/>66</fw>
-               <ab facs="#facs_67_r_2" type="page_number__deleted_or_striked_out">
-                  <lb facs="#facs_67_l_30" n="N001"/>[<del rend="strikethrough">99</del>]
-            </ab>
-               <milestone unit="line" facs="#facs_67_l_1" n="N001"/>пресечь их.
-               <milestone unit="line" facs="#facs_67_l_2" n="N002"/>Ясность и честность должна быть в человеческих отношениях. Ясность
-               <milestone unit="line" facs="#facs_67_l_3" n="N003"/>и честность в любви, если она есть, а <emph rend="underlined">если нет ее – в дружбе</emph>.
-               <milestone unit="line" facs="#facs_67_l_4" n="N004"/>В отношении Печорина к Мери нет ни того, ни другого. Его холодные любов-
-               <milestone unit="line" facs="#facs_67_l_5" n="N005"/>ные эксперименты просто жалки. Так я думаю и надеюсь, что теперь Вы по-
-               <milestone unit="line" facs="#facs_67_l_6" n="N006"/>нимаете, почему мне неприятна эта тема и почему я всегда избегал ея. Про-
-               <milestone unit="line" facs="#facs_67_l_7" n="N007"/>шу Вас отнестись ко мне справедливо.
-               <milestone unit="line" facs="#facs_67_l_8" n="N008"/>Очень устал. Жму Ваши руки.
-               <milestone unit="line" facs="#facs_67_l_9" n="N009"/>Борис.“
-            
             </quote>
             <quote>
                <milestone unit="line" facs="#facs_66_l_7" n="N001"/>Находить во всем этом самомалейшее удовлетворение так же смешно, как
@@ -237,22 +194,6 @@
                <milestone unit="line" facs="#facs_66_l_26" n="N020"/>торого он глубоко уважает. Поэтому он не только не будет стре-
                <milestone unit="line" facs="#facs_66_l_27" n="N021"/>миться к отношеніям каких добивается Печорин, но заметив, что та-
                <milestone unit="line" facs="#facs_66_l_28" n="N022"/>кие отношения &lt;начинают&gt; складываться помимо его воли, он постарается
-            
-            <pb facs="#facs_67" n="67" xml:id="img_0067"/>
-               <fw facs="#facs_67_r" type="page-number" place="top">
-                  <lb facs="#facs_67_l" n="N001"/>66</fw>
-               <ab facs="#facs_67_r_2" type="page_number__deleted_or_striked_out">
-                  <lb facs="#facs_67_l_30" n="N001"/>[<del rend="strikethrough">99</del>]
-            </ab>
-               <milestone unit="line" facs="#facs_67_l_1" n="N001"/>пресечь их.
-               <milestone unit="line" facs="#facs_67_l_2" n="N002"/>Ясность и честность должна быть в человеческих отношениях. Ясность
-               <milestone unit="line" facs="#facs_67_l_3" n="N003"/>и честность в любви, если она есть, а <emph rend="underlined">если нет ее – в дружбе</emph>.
-               <milestone unit="line" facs="#facs_67_l_4" n="N004"/>В отношении Печорина к Мери нет ни того, ни другого. Его холодные любов-
-               <milestone unit="line" facs="#facs_67_l_5" n="N005"/>ные эксперименты просто жалки. Так я думаю и надеюсь, что теперь Вы по-
-               <milestone unit="line" facs="#facs_67_l_6" n="N006"/>нимаете, почему мне неприятна эта тема и почему я всегда избегал ея. Про-
-               <milestone unit="line" facs="#facs_67_l_7" n="N007"/>шу Вас отнестись ко мне справедливо.
-               <milestone unit="line" facs="#facs_67_l_8" n="N008"/>Очень устал. Жму Ваши руки.
-               <milestone unit="line" facs="#facs_67_l_9" n="N009"/>Борис.“
             
             </quote>
          </p>
@@ -279,7 +220,7 @@
                <milestone unit="line" facs="#facs_64_l_17" n="N002"/>вызвать сострадание к себе с стороны княжны Мери. – „Сострадание, –
                <milestone unit="line" facs="#facs_64_l_21" n="N003"/>говорит он, – чувство, которому покоряются так легко все женщины,
             
-            <pb facs="#facs_65" n="65" xml:id="img_0065-de"/>
+            <pb n="65" xml:id="img_0065-de"/>
                <fw facs="#facs_65_r" type="page-number" place="top">
                   <lb facs="#facs_65_l" n="N001"/>64</fw>
                <ab facs="#facs_65_r_2" type="page_number__deleted_or_striked_out">
@@ -290,35 +231,6 @@
                <milestone unit="line" facs="#facs_65_l_3" n="N003"/>ответной любви, а если он только уважает - только ответного уважения.
                <milestone unit="line" facs="#facs_65_l_4" n="N004"/>Сострадание покажется унизительным для него даже как средство вызвать
                <milestone unit="line" facs="#facs_65_l_5" n="N005"/>любовь.
-            
-            <pb facs="#facs_66" n="66" xml:id="img_0066-de"/>
-               <fw facs="#facs_66_r" type="page-number" place="top">
-                  <lb facs="#facs_66_l" n="N001"/>65</fw>
-               <ab facs="#facs_66_r_2" type="page_number__deleted_or_striked_out">
-                  <lb facs="#facs_66_l_30" n="N001"/>[<del rend="strikethrough">98</del>]
-            </ab>
-               <milestone unit="line" facs="#facs_66_l_1" n="N001"/>пища гордости“, это „торжество власти“, эти пышные „словеса“ реализуют-
-               <milestone unit="line" facs="#facs_66_l_2" n="N002"/>ся в... „причинении страданий и радостей“ молодой девушке. Вот поистине
-               <milestone unit="line" facs="#facs_66_l_3" n="N003"/>„философия“ и реальная деятельность бабьего пророка, его теория и прак-
-               <milestone unit="line" facs="#facs_66_l_4" n="N004"/>тика! Как скудна была содержанием русская жизнь, если в такой теории
-               <milestone unit="line" facs="#facs_66_l_5" n="N005"/>и такой практике находили свое &lt;хотя бы минутное???&gt; удовлетворение сильные умы и характеры,
-               <milestone unit="line" facs="#facs_66_l_6" n="N006"/>подобные Печорину!
-            
-            <pb facs="#facs_67" n="67" xml:id="img_0067-de"/>
-               <fw facs="#facs_67_r" type="page-number" place="top">
-                  <lb facs="#facs_67_l" n="N001"/>66</fw>
-               <ab facs="#facs_67_r_2" type="page_number__deleted_or_striked_out">
-                  <lb facs="#facs_67_l_30" n="N001"/>[<del rend="strikethrough">99</del>]
-            </ab>
-               <milestone unit="line" facs="#facs_67_l_1" n="N001"/>пресечь их.
-               <milestone unit="line" facs="#facs_67_l_2" n="N002"/>Ясность и честность должна быть в человеческих отношениях. Ясность
-               <milestone unit="line" facs="#facs_67_l_3" n="N003"/>и честность в любви, если она есть, а <emph rend="underlined">если нет ее – в дружбе</emph>.
-               <milestone unit="line" facs="#facs_67_l_4" n="N004"/>В отношении Печорина к Мери нет ни того, ни другого. Его холодные любов-
-               <milestone unit="line" facs="#facs_67_l_5" n="N005"/>ные эксперименты просто жалки. Так я думаю и надеюсь, что теперь Вы по-
-               <milestone unit="line" facs="#facs_67_l_6" n="N006"/>нимаете, почему мне неприятна эта тема и почему я всегда избегал ея. Про-
-               <milestone unit="line" facs="#facs_67_l_7" n="N007"/>шу Вас отнестись ко мне справедливо.
-               <milestone unit="line" facs="#facs_67_l_8" n="N008"/>Очень устал. Жму Ваши руки.
-               <milestone unit="line" facs="#facs_67_l_9" n="N009"/>Борис.“
             
             </quote>
             <quote>
@@ -346,7 +258,7 @@
                <milestone unit="line" facs="#facs_65_l_27" n="N022"/>причинью страданий и радостей, не имея на то никакого положительного
                <milestone unit="line" facs="#facs_65_l_28" n="N023"/>права – не самая ли это сладкая пища нашей гордости?“ Эта „сладкая
             
-            <pb facs="#facs_66" n="66" xml:id="img_0066-de"/>
+            <pb n="66" xml:id="img_0066-de"/>
                <fw facs="#facs_66_r" type="page-number" place="top">
                   <lb facs="#facs_66_l" n="N001"/>65</fw>
                <ab facs="#facs_66_r_2" type="page_number__deleted_or_striked_out">
@@ -358,22 +270,6 @@
                <milestone unit="line" facs="#facs_66_l_4" n="N004"/>тика! Как скудна была содержанием русская жизнь, если в такой теории
                <milestone unit="line" facs="#facs_66_l_5" n="N005"/>и такой практике находили свое &lt;хотя бы минутное???&gt; удовлетворение сильные умы и характеры,
                <milestone unit="line" facs="#facs_66_l_6" n="N006"/>подобные Печорину!
-            
-            <pb facs="#facs_67" n="67" xml:id="img_0067-de"/>
-               <fw facs="#facs_67_r" type="page-number" place="top">
-                  <lb facs="#facs_67_l" n="N001"/>66</fw>
-               <ab facs="#facs_67_r_2" type="page_number__deleted_or_striked_out">
-                  <lb facs="#facs_67_l_30" n="N001"/>[<del rend="strikethrough">99</del>]
-            </ab>
-               <milestone unit="line" facs="#facs_67_l_1" n="N001"/>пресечь их.
-               <milestone unit="line" facs="#facs_67_l_2" n="N002"/>Ясность и честность должна быть в человеческих отношениях. Ясность
-               <milestone unit="line" facs="#facs_67_l_3" n="N003"/>и честность в любви, если она есть, а <emph rend="underlined">если нет ее – в дружбе</emph>.
-               <milestone unit="line" facs="#facs_67_l_4" n="N004"/>В отношении Печорина к Мери нет ни того, ни другого. Его холодные любов-
-               <milestone unit="line" facs="#facs_67_l_5" n="N005"/>ные эксперименты просто жалки. Так я думаю и надеюсь, что теперь Вы по-
-               <milestone unit="line" facs="#facs_67_l_6" n="N006"/>нимаете, почему мне неприятна эта тема и почему я всегда избегал ея. Про-
-               <milestone unit="line" facs="#facs_67_l_7" n="N007"/>шу Вас отнестись ко мне справедливо.
-               <milestone unit="line" facs="#facs_67_l_8" n="N008"/>Очень устал. Жму Ваши руки.
-               <milestone unit="line" facs="#facs_67_l_9" n="N009"/>Борис.“
             
             </quote>
             <quote>
@@ -400,7 +296,7 @@
                <milestone unit="line" facs="#facs_66_l_27" n="N021"/>миться к отношеніям каких добивается Печорин, но заметив, что та-
                <milestone unit="line" facs="#facs_66_l_28" n="N022"/>кие отношения &lt;начинают&gt; складываться помимо его воли, он постарается
             
-            <pb facs="#facs_67" n="67" xml:id="img_0067-de"/>
+            <pb n="67" xml:id="img_0067-de"/>
                <fw facs="#facs_67_r" type="page-number" place="top">
                   <lb facs="#facs_67_l" n="N001"/>66</fw>
                <ab facs="#facs_67_r_2" type="page_number__deleted_or_striked_out">
@@ -481,7 +377,7 @@
                <milestone unit="line" facs="#facs_67_l_46" n="N002"/>желание ответить ему резко на его письмо. Как мог он подумать, что я,
                <milestone unit="line" facs="#facs_67_l_47" n="N003"/>стоящая перед ним на коленях, способна дойти до такого непонимания
                <milestone unit="line" facs="#facs_67_l_48" n="N004"/>его личности, чтобы бросить ему в лицо обвинение в Печоринстве? Я не сделала <del rend="strikethrough">бы</del> [???]
-            <pb facs="#facs_68" n="68" xml:id="img_0068-de"/>
+            <pb n="68" xml:id="img_0068-de"/>
             <fw facs="#facs_68_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_68_l" n="N001"/>67</fw>
             <fw facs="#facs_68_r_2" type="page_number__deleted_or_striked_out">
@@ -570,7 +466,7 @@
                <milestone unit="line" facs="#facs_68_l_18" n="N007"/>весь день, когда к вечеру сестра милосердия принесет мне от него ответную
                <milestone unit="line" facs="#facs_68_l_19" n="N008"/>записку. Она казалась мнѣ драгоцѣнностью, счастьем, и я перечитывала
                <milestone unit="line" facs="#facs_68_l_20" n="N009"/>эти клочки по несколько раз, не смотря на то, что ничего особенного они
-            <pb facs="#facs_69" n="69" xml:id="img_0069-de"/>
+            <pb n="69" xml:id="img_0069-de"/>
             <fw facs="#facs_69_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_69_l" n="N001"/>68</fw>
             <fw facs="#facs_69_r_4" type="page_number__deleted_or_striked_out">
@@ -651,7 +547,7 @@
                <milestone unit="line" facs="#facs_69_l_51" n="N014"/>доверчиво. Он как бы опять приручался ко мне, как дикий зверек. Я никогда
                <milestone unit="line" facs="#facs_69_l_52" n="N015"/>не забуду выражения его голоса, когда он сказал Mme K., уверявшей, что она
                <milestone unit="line" facs="#facs_69_l_53" n="N016"/>&lt;вопреки его предположению&gt; никогда ничего плохого о нем не говорила и ссылавшейся при этом на меня.
-            <pb facs="#facs_70" n="70" xml:id="img_0070-de"/>
+            <pb n="70" xml:id="img_0070-de"/>
             <fw facs="#facs_70_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_70_l_11" n="N001"/>69</fw>
             <fw facs="#facs_70_r_3" type="page_number__deleted_or_striked_out">
@@ -688,7 +584,7 @@
                <milestone unit="line" facs="#facs_70_l_8" n="N007"/>- „Ну, все таки compatriote“...
                <milestone unit="line" facs="#facs_70_l_9" n="N008"/>Но в переводе на язык души это значило:
                <milestone unit="line" facs="#facs_70_l_10" n="N009"/>- „Потому что она меня любит, она мой друг.“
-            <pb facs="#facs_71" n="71" xml:id="img_0071-de"/>
+            <pb n="71" xml:id="img_0071-de"/>
             <fw facs="#facs_71_tr_3" type="page-number" place="top">
                <milestone unit="line" facs="#facs_71_tr_3_tl_1" n="N001"/>70</fw>
          </p>

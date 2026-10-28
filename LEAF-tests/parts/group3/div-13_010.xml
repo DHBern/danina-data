@@ -36,19 +36,6 @@
    </teiHeader>
    <text>
       <body>
-         <p facs="#facs_154_r_6" xml:lang="de" corresp="#p0503-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_154_l_13" n="N001"/>Я написала ему в ответ о моем знакомстве с Mlle K., написала с та-
-               <milestone unit="line" facs="#facs_154_l_14" n="N002"/>ким разсчетом, чтобы вызвать его на откровенность. Но едва ли это мне
-               <milestone unit="line" facs="#facs_154_l_15" n="N003"/>удастся. Он лежит себе там и читает Шекспира, и в голове у него целая
-               <milestone unit="line" facs="#facs_154_l_16" n="N004"/>бездна разных интересных и прекрасных мыслей, и он наверное очень мало ду-
-               <milestone unit="line" facs="#facs_154_l_17" n="N005"/>мает о тех пустяках, которые так занимают меня.
-            </p>
-         <p facs="#facs_154_r_7" ana="dated_entry_header">
-            <milestone unit="line" facs="#facs_154_l_21" n="N001"/>20 августа.
-            </p>
-         <p xml:lang="de" facs="#facs_154_r_7" ana="dated_entry_header">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_154_l_21" n="N001"/>20 августа.
-            </p>
          <p facs="#facs_154_r_9" xml:lang="ru" xml:id="p0504-ru">
             <milestone unit="line" facs="#facs_154_l_22" n="N001"/>Сегодня снова приходила Мlle K. Чудесно! Мы наверное подружимся с неe. Бы-
                <milestone unit="line" facs="#facs_154_l_23" n="N002"/>ло очень хорошо. Мы говорили о <emph rend="underlined">нем</emph>.
@@ -77,7 +64,7 @@
          <p facs="#facs_154_r_9" xml:lang="de" corresp="#p0504-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_154_l_22" n="N001"/>Сегодня снова приходила Мlle K. Чудесно! Мы наверное подружимся с неe. Бы-
                <milestone unit="line" facs="#facs_154_l_23" n="N002"/>ло очень хорошо. Мы говорили о <emph rend="underlined">нем</emph>.
-            <pb facs="#facs_155" n="155" xml:id="img_0155-de"/>
+            <pb n="155" xml:id="img_0155-de"/>
             <fw facs="#facs_155_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_155_l_25" n="N001"/>153</fw>
             <milestone unit="line" facs="#facs_155_l_28" n="N001"/>- „Он очень упрямый и капризный человек“, сказала она, но это звучало как
@@ -141,7 +128,7 @@
          <p facs="#facs_155_r_1" xml:lang="de" corresp="#p0506-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_155_l_26" n="N001"/>Утром была Mlle K., много говорили о нем. Он написал ей, что она хорошо
                <milestone unit="line" facs="#facs_155_l_27" n="N002"/>сделала, познакомившись со мною, теперь у нас будет обширная тема
-            <pb facs="#facs_156" n="156" xml:id="img_0156-de"/>
+            <pb n="156" xml:id="img_0156-de"/>
             <fw facs="#facs_156_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_156_l" n="N001"/>154</fw>
          </p>
@@ -231,7 +218,7 @@
                <milestone unit="line" facs="#facs_156_l_13" n="N012"/>„Нужно всегда предпочитать смерть позору.“ Из России я не могу получить де-
                <milestone unit="line" facs="#facs_156_l_14" n="N013"/>нег, поэтому я написала всем моим знакомым о требовании хозяйки, но
                <milestone unit="line" facs="#facs_156_l_15" n="N014"/>не надеюсь, что они достанут денег. В душе я решила переехать в госпи-
-            <pb facs="#facs_157" n="157" xml:id="img_0157-de"/>
+            <pb n="157" xml:id="img_0157-de"/>
             <fw facs="#facs_157_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_157_l" n="N001"/>155</fw>
             <milestone unit="line" facs="#facs_157_l_5" n="N001"/>таль и умереть, если нужно, но не унижаться просьбой к хозяйке подождать еще
@@ -339,7 +326,7 @@
                <milestone unit="line" facs="#facs_157_l_28" n="N004"/>этот куст, на один момент я чувствую его и все то, что я испытывала
                <milestone unit="line" facs="#facs_157_l_29" n="N005"/>однажды, стоя перед ним и самая его ветви с висящими гроздями цветов.
                <milestone unit="line" facs="#facs_157_l_30" n="N006"/>И у меня является страстные желание в действительности увидеть &lt;его&gt; и прикос-
-            <pb facs="#facs_158" n="158" xml:id="img_0158-de"/>
+            <pb n="158" xml:id="img_0158-de"/>
             <fw facs="#facs_158_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_158_l_1" n="N001"/>156</fw>
             <milestone unit="line" facs="#facs_158_l" n="N001"/>нуться к этому ничем не замечательному кусту.
@@ -449,7 +436,7 @@
                <milestone unit="line" facs="#facs_158_l_29" n="N001"/>
             <del rend="strikethrough">Поль</del> Эти дни я чувствую себя такой одинокой-одинокой. Помочь мне
                <milestone unit="line" facs="#facs_158_l_36" n="N002"/>нельзя, но я с бодростью перенесла бы все, если бы он написал мне хоть одно
-            <pb facs="#facs_159" n="159" xml:id="img_0159-de"/>
+            <pb n="159" xml:id="img_0159-de"/>
             <fw facs="#facs_159_r_1" type="page-number" place="top">
                <milestone unit="line" facs="#facs_159_l_4" n="N001"/>157</fw>
             <milestone unit="line" facs="#facs_159_l_10" n="N001"/>ласковое письмо. Дитя, напиши мнѣ, напиши мнѣ! Ты знаешь, что. Ты не
@@ -547,7 +534,7 @@
             </p>
          <p facs="#facs_159_r_3" xml:lang="de" corresp="#p0525-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_159_l_32" n="N001"/>Он написал мне недавно, что если уж я хочу знать все его о ней мнение,
-            <pb facs="#facs_160" n="160" xml:id="img_0160-de"/>
+            <pb n="160" xml:id="img_0160-de"/>
             <fw facs="#facs_160_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_160_l" n="N001"/>158</fw>
             <milestone unit="line" facs="#facs_160_l_28" n="N001"/>то она какая то взбалмошная, с норовом – „то тот, то этот фортель вы-
@@ -602,6 +589,12 @@
             </p>
          <p facs="#facs_160_r_5" xml:lang="ru" xml:id="p0528-ru">
             <milestone unit="line" facs="#facs_160_l_23" n="N001"/>Милый! Этот сон меня так тронул и обрадовал, что я приняла оконча-
+               <milestone unit="line" facs="#facs_160_l_24" n="N002"/>тельное решение и послала ему мои Записки. Что то будет? Я очень волнова-
+               <milestone unit="line" facs="#facs_160_l_25" n="N003"/>лась вчера и всю ночь мне снились какие то кошмарные сны, но сегодня я чув-
+               <milestone unit="line" facs="#facs_160_l_31" n="N004"/>ствую себя спокойнее.
+            </p>
+         <p facs="#facs_160_r_5" xml:lang="de" corresp="#p0528-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_160_l_23" n="N001"/>Милый! Этот сон меня так тронул и обрадовал, что я приняла оконча-
                <milestone unit="line" facs="#facs_160_l_24" n="N002"/>тельное решение и послала ему мои Записки. Что то будет? Я очень волнова-
                <milestone unit="line" facs="#facs_160_l_25" n="N003"/>лась вчера и всю ночь мне снились какие то кошмарные сны, но сегодня я чув-
                <milestone unit="line" facs="#facs_160_l_31" n="N004"/>ствую себя спокойнее.

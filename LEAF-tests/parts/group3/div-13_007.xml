@@ -36,14 +36,6 @@
    </teiHeader>
    <text>
       <body>
-         <p facs="#facs_135_r_1" xml:lang="de" corresp="#p0428-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_135_l_1" n="N001"/>Сейчас я сижу на своей вечной постели, весна наступает и в раскрытую дверь
-               <milestone unit="line" facs="#facs_135_l_2" n="N002"/>вливается какой то особенный весенний аромат и слышится журчание малень-
-               <milestone unit="line" facs="#facs_135_l_3" n="N003"/>кого ручейка. Милый маленький ручеек. Я видела сегодня, как он сверкал на солн-
-               <milestone unit="line" facs="#facs_135_l_4" n="N004"/>це. Мне так хотелось бы пойти и охладить мою руку в его воде.
-               <milestone unit="line" facs="#facs_135_l_5" n="N005"/>Я не могу сделать даже этого, но все-таки я чувствую себя свободной, моя ду-
-               <milestone unit="line" facs="#facs_135_l_6" n="N006"/>ша свободна.
-            </p>
          <p facs="#facs_135_r_3" xml:lang="ru" xml:id="p0429-ru">
             <milestone unit="line" facs="#facs_135_l_28" n="N001"/>Я умру, получив от жизни до смешного мало в обыкновенном, грубым смысле
                <milestone unit="line" facs="#facs_135_l_30" n="N002"/>слова, но я чувствую себя не рабой жизни, а властительницей ее. С детских лет
@@ -106,7 +98,7 @@
                <milestone unit="line" facs="#facs_135_l_9" n="N002"/>равлением. И втайне радовалась, что, может быть, никто кроме меня не сде-
                <milestone unit="line" facs="#facs_135_l_10" n="N003"/>лает этого, и он воспримет меня лишний раз, как свою родную. Он написал
                <milestone unit="line" facs="#facs_135_l_11" n="N004"/>мне: «меня очень тронула Ваша открытка – я совсем забыл о своем
-            <pb facs="#facs_136" n="136" xml:id="img_0136-de"/>
+            <pb n="136" xml:id="img_0136-de"/>
             <fw facs="#facs_136_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_136_l_5" n="N001"/>134</fw>
             <milestone unit="line" facs="#facs_136_l_6" n="N001"/>дня рождения, и Вы напомнили». Я была счастлива. Он написал также, что уму
@@ -180,7 +172,7 @@
                <milestone unit="line" facs="#facs_136_l_26" n="N007"/>чувства ревности, желание вмешиваться в его жизнь, шпионить за ним. Я
                <milestone unit="line" facs="#facs_136_l_27" n="N008"/>думаю, у всякой женщины, которая узнает, что у нее есть соперница, являет
                <milestone unit="line" facs="#facs_136_l_28" n="N009"/>желание непреодолимое увидеть ее, но чувства, которые испытывают при
-            <pb facs="#facs_137" n="137" xml:id="img_0137-de"/>
+            <pb n="137" xml:id="img_0137-de"/>
             <fw facs="#facs_137_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_137_l" n="N001"/>135</fw>
          </p>
@@ -267,7 +259,7 @@
                <milestone unit="line" facs="#facs_137_l_5" n="N003"/>раз после большого промежутка времени, он кажется мне каким-то новым,
                <milestone unit="line" facs="#facs_137_l_6" n="N004"/>внешне от меня далеким и вместе с тем безконечно родным и близким. Я
                <milestone unit="line" facs="#facs_137_l_7" n="N005"/>так много о нем думаю, называю здесь по имени и обращаюсь к нему иногда
-            <pb facs="#facs_138" n="138" xml:id="img_0138-de"/>
+            <pb n="138" xml:id="img_0138-de"/>
             <fw facs="#facs_138_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_138_l" n="N001"/>136</fw>
             <milestone unit="line" facs="#facs_138_l_30" n="N001"/>на «ты», что когда я вижу его, у меня почти всегда бывает какое-то едва уловимое
@@ -343,7 +335,7 @@
                <milestone unit="line" facs="#facs_138_l_25" n="N012"/>это было вчера, я бываю недалека от того, чтобы взбунтоваться. За что не
                <milestone unit="line" facs="#facs_138_l_26" n="N013"/>только мне отказано в самых обыденных человеческих радостях, но я довела
                <milestone unit="line" facs="#facs_138_l_27" n="N014"/>себя до такого состояния, что чувствую себя виноватой и почти преступной
-            <pb facs="#facs_139" n="139" xml:id="img_0139-de"/>
+            <pb n="139" xml:id="img_0139-de"/>
             <fw facs="#facs_139_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_139_l_29" n="N001"/>137</fw>
             <milestone unit="line" facs="#facs_139_l_18" n="N001"/>всякий раз, когда замечаю в себе хоть маленькое стремление к наслаждению
@@ -437,7 +429,7 @@
             </p>
          <p facs="#facs_139_r_8" xml:lang="de" corresp="#p0441-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_139_l_33" n="N001"/>Эти дни у меня без всякой видимой причины очень плохой пульс, мне трудно
-            <pb facs="#facs_140" n="140" xml:id="img_0140-de"/>
+            <pb n="140" xml:id="img_0140-de"/>
             <fw facs="#facs_140_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_140_l_14" n="N001"/>138</fw>
             <milestone unit="line" facs="#facs_140_l_15" n="N001"/>дышать. Вчера я вообразила себе, что могу внезапно умереть ночью и напи-
@@ -519,7 +511,7 @@
             </p>
          <p facs="#facs_140_r_1" xml:lang="de" corresp="#p0445-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_140_l_27" n="N001"/>Это было давно. Мне было двадцать лет, и я получила первое объяснение
-            <pb facs="#facs_141" n="141" xml:id="img_0141-de"/>
+            <pb n="141" xml:id="img_0141-de"/>
             <fw facs="#facs_141_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_141_l_30" n="N001"/>139</fw>
             <milestone unit="line" facs="#facs_141_l" n="N001"/>в любви от Жени. Стояла ранняя весна. Я вышла на прогулку утром и,
@@ -603,7 +595,7 @@
                <milestone unit="line" facs="#facs_141_l_27" n="N004"/>ричек женщин, обозначаемых обыкновенно более грубым словом. Это было ужас-
                <milestone unit="line" facs="#facs_141_l_28" n="N005"/>но. Я чувствовала себя загрязненной, была сама себе противно может
                <milestone unit="line" facs="#facs_141_l_29" n="N006"/>быть, больше всего оттого, что я поняла, <emph rend="underlined">почему</emph> он так ошибся. Я вспоми-
-            <pb facs="#facs_142" n="142" xml:id="img_0142-de"/>
+            <pb n="142" xml:id="img_0142-de"/>
             <fw facs="#facs_142_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_142_l_12" n="N001"/>140</fw>
             <milestone unit="line" facs="#facs_142_l_13" n="N001"/>наю, что когда я так машинально смотрела <del rend="strikethrough">на ул</del> перед собою, я думала о
@@ -678,7 +670,7 @@
                <milestone unit="line" facs="#facs_142_l_27" n="N003"/>мый честный и благородный человек, какого я знала в жизни, что Россию
                <milestone unit="line" facs="#facs_142_l_28" n="N004"/>он глубоко любит и что он вовсе не еврейский националист я призна-
                <milestone unit="line" facs="#facs_142_l_29" n="N005"/>ла, что он очень вспыльчив и в состоянии аффекта теряет самообладание.
-            <pb facs="#facs_143" n="143" xml:id="img_0143-de"/>
+            <pb n="143" xml:id="img_0143-de"/>
             <fw facs="#facs_143_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_143_l" n="N001"/>141</fw>
             <milestone unit="line" facs="#facs_143_l_1" n="N001"/>Он сам не раз жаловался мне на этот недостаток, который мешает ему
@@ -729,6 +721,16 @@
          <p facs="#facs_143_r_8" xml:lang="ru" xml:id="p0453-ru">
             <milestone unit="line" facs="#facs_143_l_8" n="N001"/>Я чувствую себя плохо, после разговора с г-жей А. у меня поднялась темпе-
                <milestone unit="line" facs="#facs_143_l_9" n="N002"/>ратура и показалось немного крови в мокроте.
+            </p>
+         <p facs="#facs_143_r_8" xml:lang="de" corresp="#p0453-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_143_l_8" n="N001"/>Я чувствую себя плохо, после разговора с г-жей А. у меня поднялась темпе-
+               <milestone unit="line" facs="#facs_143_l_9" n="N002"/>ратура и показалось немного крови в мокроте.
+            </p>
+         <p facs="#facs_143_r_3" ana="dated_entry_header">
+            <milestone unit="line" facs="#facs_143_l_48" n="N001"/>27 июня.
+            </p>
+         <p xml:lang="de" facs="#facs_143_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_143_l_48" n="N001"/>27 июня.
             </p>
       </body>
    </text>
