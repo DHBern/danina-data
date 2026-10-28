@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_128"
+                n="128"
+                xml:id="img_0128"
+                ana="126r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597869/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_128_r_1" xml:lang="ru" xml:id="p0404-ru">
             <milestone unit="line" facs="#facs_128_l_22" n="N001"/>Он взглянул на написанное и упал лицом вниз на бумагу и заплакал,
                <milestone unit="line" facs="#facs_128_l_23" n="N002"/>от жалости к родине, к себе, ко всем трудившимся и не знавшим отдыха.

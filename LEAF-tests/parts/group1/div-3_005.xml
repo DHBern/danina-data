@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_34"
+                n="34"
+                xml:id="img_0034"
+                ana="33r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597681/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_34_r_9" xml:lang="ru" xml:id="p0102-ru">
             <milestone unit="line" facs="#facs_34_l_25" n="N001"/>Я написала Владимиру Семеновичу, что жалею о приезде в Ментону,
                <milestone unit="line" facs="#facs_34_l_36" n="N002"/>что я недовольна санаторией и хотела бы переехать в Швейцарию.

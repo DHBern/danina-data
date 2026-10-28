@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_117"
+                n="117"
+                xml:id="img_0117"
+                ana="115r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597847/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_117_r_3" xml:lang="ru" xml:id="p0354-ru">
             <milestone unit="line" facs="#facs_117_l_22" n="N001"/>Истинная любовь лучезарна.
             </p>

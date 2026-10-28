@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_169"
+                n="169"
+                xml:id="img_0169"
+                ana="167r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597951/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_169_r_5" xml:lang="ru" xml:id="p0554-ru">
             <milestone unit="line" facs="#facs_169_l_21" n="N001"/>Вечером Танечка стоит на коленях перед соломенном диваном и дела-
                <milestone unit="line" facs="#facs_169_l_22" n="N002"/>ет „сад“, затыкая в дырочки дивана сорванные ветки. Сад выходит очень кра-

@@ -93,6 +93,10 @@
                         </teiHeader>
                         <text>
                             <body>
+                                <!-- last pb before this group starts (for convenience in LEAF writer; allows to display the image -->
+                                <ab type="leaf-convenience">
+                                    <xsl:copy-of select="current-group()[1]/preceding::pb[1]"/>
+                                </ab>
                                 <xsl:copy-of select="current-group()"/>
                             </body>
                         </text>

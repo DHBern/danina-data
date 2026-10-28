@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_154"
+                n="154"
+                xml:id="img_0154"
+                ana="152r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597921/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_154_r_9" xml:lang="ru" xml:id="p0504-ru">
             <milestone unit="line" facs="#facs_154_l_22" n="N001"/>Сегодня снова приходила Мlle K. Чудесно! Мы наверное подружимся с неe. Бы-
                <milestone unit="line" facs="#facs_154_l_23" n="N002"/>ло очень хорошо. Мы говорили о <emph rend="underlined">нем</emph>.

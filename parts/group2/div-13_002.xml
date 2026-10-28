@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_101"
+                n="101"
+                xml:id="img_0101"
+                ana="100r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597815/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_101_r_1" xml:lang="ru" xml:id="p0304-ru">
             <milestone unit="line" facs="#facs_101_l_1" n="N001"/>В разговоре Борис сказал также, что жить не легко, иногда, например,
                <milestone unit="line" facs="#facs_101_l_2" n="N002"/>безчестно быть честным. И он привел в пример «Дикую утку" Ибсена. Я

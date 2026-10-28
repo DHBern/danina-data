@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_12"
+                n="12"
+                xml:id="img_0012"
+                ana="11r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597637/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_12_r_4" xml:lang="ru" xml:id="p0027-ru">
             <milestone unit="line" facs="#facs_12_l_11" n="N001"/>Было это уже на второй год после нашей первой встречи. В здоровье мо<milestone unit="line" facs="#facs_12_l_12" n="N002" break="no"/>ем произошла значительная перемена к лучшему, я почти перестала
                <milestone unit="line" facs="#facs_12_l_14" n="N003"/>&lt;кашлять&gt; и вид у меня стал здоровый. Мой доктор сказал, что не ожидал

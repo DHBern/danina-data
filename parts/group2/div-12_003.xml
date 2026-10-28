@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_92"
+                n="92"
+                xml:id="img_0092"
+                ana="91r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597797/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_92_r_1" xml:lang="ru" xml:id="p0271-ru">
             <milestone unit="line" facs="#facs_92_l_24" n="N001"/>Mне восемнадцать лет. У меня начинается чахотка, но я еще не знаю
                <milestone unit="line" facs="#facs_92_l_25" n="N002"/>этого. Ранняя весна. Сад в цвету. Я иду по тропинке между цветущих

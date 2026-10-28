@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_84"
+                n="84"
+                xml:id="img_0084"
+                ana="83r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597781/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_84_r_5" xml:lang="ru" xml:id="p0246-ru">
             <milestone unit="line" facs="#facs_84_l_19" n="N001"/>Но странно, что именно теперь, когда [<del rend="strikethrough">для</del>] всяк[<del rend="strikethrough">ого</del>]&lt;oму&gt; посторонн[<del rend="strikethrough">его</del>]&lt;ему&gt; че-
                <milestone unit="line" facs="#facs_84_l_21" n="N002"/>&lt;o&gt;ловеку&lt;o&gt; существование мое должно представляться чем то совершен-

@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_41"
+                n="41"
+                xml:id="img_0041"
+                ana="40r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597695/full/max/0/default.jpg"/>
+         </ab>
          <head facs="#facs_41_r_1">
             <milestone unit="line" facs="#facs_41_tr_1_tl_3" n="N001"/>II.</head>
          <head facs="#facs_41_r_1" xml:lang="de">{TRANSLATION GOES HERE}

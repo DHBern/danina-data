@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_135"
+                n="135"
+                xml:id="img_0135"
+                ana="133r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597883/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_135_r_3" xml:lang="ru" xml:id="p0429-ru">
             <milestone unit="line" facs="#facs_135_l_28" n="N001"/>Я умру, получив от жизни до смешного мало в обыкновенном, грубым смысле
                <milestone unit="line" facs="#facs_135_l_30" n="N002"/>слова, но я чувствую себя не рабой жизни, а властительницей ее. С детских лет

@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_56"
+                n="56"
+                xml:id="img_0056"
+                ana="55r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597725/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_56_r_4" xml:lang="ru" xml:id="p0184-ru">
             <milestone unit="line" facs="#facs_56_l_6" n="N001"/>Когда я сказала, что мой роман с Женей весь исчерпался в письмах,
                <milestone unit="line" facs="#facs_56_l_7" n="N002"/>это ему понравилось, но он сказал, что было бы лучше, если бы мы с Женой

@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_123"
+                n="123"
+                xml:id="img_0123"
+                ana="121r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597859/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_123_r_1" xml:lang="ru" xml:id="p0379-ru">
             <milestone unit="line" facs="#facs_123_l_29" n="N001"/>Сегодня я имею намерение пуститься в рассуждения, не особенно мне подобающие.
                <milestone unit="line" facs="#facs_123_l_30" n="N002"/>Возможно, что я наговорю ужасной чепухи, но возможно, что и нет.

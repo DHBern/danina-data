@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_143"
+                n="143"
+                xml:id="img_0143"
+                ana="141r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597899/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_143_r_1" xml:lang="ru" xml:id="p0454-ru">
             <milestone unit="line" facs="#facs_143_l_22" n="N001"/>Борис был у меня вчера с одним из своих знакомых, который уговаривает
                <milestone unit="line" facs="#facs_143_l_23" n="N002"/>его поехать в горы. У Бориса был очень плохой вид, я испугалась, увидя его,

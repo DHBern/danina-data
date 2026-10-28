@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_95"
+                n="95"
+                xml:id="img_0095"
+                ana="94r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597803/full/max/0/default.jpg"/>
+         </ab>
          <head facs="#facs_95_r_3">
             <milestone unit="line" facs="#facs_95_l_32" n="N001"/>
             <emph rend="underlined">Девочка на берегу моря.</emph>

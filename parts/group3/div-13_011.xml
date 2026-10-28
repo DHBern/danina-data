@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_160"
+                n="160"
+                xml:id="img_0160"
+                ana="158r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597933/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_160_r_7" xml:lang="ru" xml:id="p0529-ru">
             <milestone unit="line" facs="#facs_160_l_32" n="N001"/>В сопроводительном письме я просила его читать так, как если бы все
                <milestone unit="line" facs="#facs_160_l_33" n="N002"/>это писало лицо<del rend="strikethrough">,</del> ему незнакомое и умершее. Я сознаю, что требование это

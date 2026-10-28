@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_22"
+                n="22"
+                xml:id="img_0022"
+                ana="21r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597657/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_22_r_4" xml:lang="ru" xml:id="p0052-ru">
             <milestone unit="line" facs="#facs_22_l_3" n="N001"/>Кончился сезон в санатории, и я вернулась домой. Все настойчивее и на-
                <milestone unit="line" facs="#facs_22_l_4" n="N002"/>стойчивее вставал передо мною вопрос: когда же и как мы встретимся

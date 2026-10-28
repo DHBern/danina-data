@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_110"
+                n="110"
+                xml:id="img_0110"
+                ana="108r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597833/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_110_r_9" xml:lang="ru" xml:id="p0329-ru">
             <milestone unit="line" facs="#facs_110_l_13" n="N001"/>Мама, мама!
                <milestone unit="line" facs="#facs_110_l_14" n="N002"/>Я так смертельно устала ...

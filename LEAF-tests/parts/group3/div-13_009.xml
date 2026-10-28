@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_150"
+                n="150"
+                xml:id="img_0150"
+                ana="148r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597913/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_150_r_1" xml:lang="ru" xml:id="p0479-ru">
             <milestone unit="line" facs="#facs_150_l_1" n="N001"/>Он попрощался с М-lle. Ш. и пошел прощаться с Mme Bärli. Я тем вре-
                <milestone unit="line" facs="#facs_150_l_2" n="N002"/>менем спустилась по лестнице и ждала его у калитки. Он скоро пришел.

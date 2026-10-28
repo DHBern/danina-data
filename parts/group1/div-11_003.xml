@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_64"
+                n="64"
+                xml:id="img_0064"
+                ana="63r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597741/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_64_r_1" xml:lang="ru" xml:id="p0209-ru">
             <milestone unit="line" facs="#facs_64_l_1" n="N001"/>В тот же вечер мне принесли записку:
             <quote>

@@ -36,6 +36,9 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+         </ab>
          <head facs="#facs_3_r_3">
             <milestone unit="line" facs="#facs_3_l_34" n="N001"/>(часть первая).</head>
          <head facs="#facs_3_r_3" xml:lang="de">{TRANSLATION GOES HERE}

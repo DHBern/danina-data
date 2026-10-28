@@ -36,6 +36,13 @@
    </teiHeader>
    <text>
       <body>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_28"
+                n="28"
+                xml:id="img_0028"
+                ana="27r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597669/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_28_r_6" xml:lang="ru" xml:id="p0077-ru">
             <milestone unit="line" facs="#facs_28_l_7" n="N001"/>Я стала поправляться и понемногу любовь к жизни стала охва-
                <milestone unit="line" facs="#facs_28_l_8" n="N002"/>тывать все мое существо. До этого у меня была полная апатия ко всему
