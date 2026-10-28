@@ -309,10 +309,10 @@
     <xsl:param name="lang" tunnel="true"/>
     <xsl:choose>
       <xsl:when test="$lang='de'">
-        <xsl:copy>
+        <milestone unit="page">
           <xsl:copy-of select="@* except @facs"/>
           <xsl:attribute name="xml:id" select="@xml:id||'-de'"/>
-        </xsl:copy>
+        </milestone>
       </xsl:when>
       <xsl:otherwise>
         <!--<xsl:copy-of select="."/>-->
@@ -327,10 +327,10 @@
     <xsl:param name="lang" tunnel="true"/>
     <xsl:choose>
       <xsl:when test="$lang='de'">
-        <xsl:copy>
+        <milestone unit="page">
           <xsl:copy-of select="@* except @facs"/>
           <xsl:attribute name="xml:id" select="@xml:id||'-de'"/>
-        </xsl:copy>
+        </milestone>
       </xsl:when>
       <xsl:otherwise>
         <!--<xsl:copy-of select="."/>-->

@@ -122,7 +122,7 @@
             </p>
          <p facs="#facs_41_r_6" xml:lang="de" corresp="#p0133-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_41_tr_1_tl_31" n="N001"/>Я прожила в Берне две недели в ожидании приема у профессора. Од-
-            <pb n="42" xml:id="img_0042-de"/>
+            <milestone unit="page" n="42" xml:id="img_0042-de"/>
             <fw facs="#facs_42_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_42_tr_1_tl_1" n="N001"/>41 </fw>
             <fw facs="#facs_42_r_1" type="page_number__deleted_or_striked_out">
@@ -192,7 +192,7 @@
                <milestone unit="line" facs="#facs_42_tr_1_tl_27" n="N008"/>иногда тонки и метки. Позже я узнала, что она была фальшива и скорее
                <milestone unit="line" facs="#facs_42_tr_1_tl_29" n="N009"/>зла, чем добра. Она тоже как и медведи оказалась неудачным пробным &lt;этюдом&gt;
                <milestone unit="line" facs="#facs_42_tr_1_tl_30" n="N010"/>но, творя ее, природа имела какой то широкий и богатый замысел…
-            <pb n="43" xml:id="img_0043-de"/>
+            <milestone unit="page" n="43" xml:id="img_0043-de"/>
             <fw facs="#facs_43_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_43_l" n="N001"/>42</fw>
             <fw facs="#facs_43_r_6" type="page_number__deleted_or_striked_out">

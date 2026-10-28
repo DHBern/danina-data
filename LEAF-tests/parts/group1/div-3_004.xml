@@ -95,7 +95,7 @@
          <p facs="#facs_28_r_9" xml:lang="de" corresp="#p0079-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_28_l_39" n="N001"/>Помню я это чувство близости смерти. Как будто лежу я на страшно
                <milestone unit="line" facs="#facs_28_l_40" n="N002"/>остром гребне и вот-вот свалюсь, но в какую сторону? И все время
-            <pb n="29" xml:id="img_0029-de"/>
+            <milestone unit="page" n="29" xml:id="img_0029-de"/>
             <fw facs="#facs_29_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_29_l" n="N001"/>28</fw>
             <fw facs="#facs_29_r_2" type="page_number__deleted_or_striked_out">
@@ -186,7 +186,7 @@
                <milestone unit="line" facs="#facs_29_l_44" n="N006"/>– «Красивая», сказал он, опустив голову и как то странно упрямо.
                <milestone unit="line" facs="#facs_29_l_45" n="N007"/>«Ну, что Вы понимаете?»
                <milestone unit="line" facs="#facs_29_l_46" n="N008"/>«Еще Вашего дедушку научу», сказал Владимир Семенович, шутя.
-            <pb n="30" xml:id="img_0030-de"/>
+            <milestone unit="page" n="30" xml:id="img_0030-de"/>
             <fw facs="#facs_30_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_30_l" n="N001"/>29</fw>
             <fw facs="#facs_30_r_2" type="page_number__deleted_or_striked_out">
@@ -273,7 +273,7 @@
                <milestone unit="line" facs="#facs_30_l_19" n="N017"/>вдыхая воздух, не чувствуешь его.
             <metamark rend="horizontal rule"/>
             <milestone unit="line" facs="#facs_30_l_20" n="N001"/>
-            <pb n="31" xml:id="img_0031-de"/>
+            <milestone unit="page" n="31" xml:id="img_0031-de"/>
             <fw facs="#facs_31_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_31_l" n="N001"/>30</fw>
             <fw facs="#facs_31_r_2" type="page_number__deleted_or_striked_out">
@@ -372,7 +372,7 @@
                <milestone unit="line" facs="#facs_31_l_17" n="N001"/>На следующий день я видела из окна маленькую немецкую девочку на
                <milestone unit="line" facs="#facs_31_l_18" n="N002"/>улице. Она стояла перед колясочкой малютки и задорно с лукавой улыбкой
                <milestone unit="line" facs="#facs_31_l_19" n="N003"/>напевала: "О, mein lieber Augustin, Augustin"... На слове "Augustin" она
-            <pb n="32" xml:id="img_0032-de"/>
+            <milestone unit="page" n="32" xml:id="img_0032-de"/>
             <fw facs="#facs_32_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_32_l_30" n="N001"/>31</fw>
             <fw facs="#facs_32_r" type="page_number__deleted_or_striked_out">
@@ -457,7 +457,7 @@
                <milestone unit="line" facs="#facs_32_l_37" n="N008"/>хонько на своем сhaise-longue или в постели. Вечерами владимир Семено-
                <milestone unit="line" facs="#facs_32_l_38" n="N009"/>вич приходил в мою комнату и читал вслух газету, делился своими воспо-
                <milestone unit="line" facs="#facs_32_l_39" n="N010"/>минаниями из поры студенчества, говорил о девушках, которые ему тогда нравились.
-            <pb n="33" xml:id="img_0033-de"/>
+            <milestone unit="page" n="33" xml:id="img_0033-de"/>
             <fw facs="#facs_33_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_33_l" n="N001"/>32</fw>
             <fw facs="#facs_33_r_2" type="page_number__deleted_or_striked_out">
@@ -558,7 +558,7 @@
                <milestone unit="line" facs="#facs_33_l_19" n="N005"/>прислонилась к его плечу с такой силой, что он должен был почувствовать
                <milestone unit="line" facs="#facs_33_l_21" n="N006"/>это. Он почти тотчас же зажег электричество и отошел.
                <milestone unit="line" facs="#facs_33_l_22" n="N007"/>Анализируя себя, я не могу с точностью сказать, зачем я это сделала, это
-            <pb n="34" xml:id="img_0034-de"/>
+            <milestone unit="page" n="34" xml:id="img_0034-de"/>
             <fw facs="#facs_34_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_34_l_1" n="N001"/>33</fw>
             <fw facs="#facs_34_r_2" type="page_number__deleted_or_striked_out">

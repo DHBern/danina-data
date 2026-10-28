@@ -54,7 +54,7 @@
          <p facs="#facs_110_r_9" xml:lang="de" corresp="#p0329-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_110_l_13" n="N001"/>Мама, мама!
                <milestone unit="line" facs="#facs_110_l_14" n="N002"/>Я так смертельно устала ...
-            <pb n="111" xml:id="img_0111-de"/>
+            <milestone unit="page" n="111" xml:id="img_0111-de"/>
             <fw facs="#facs_111_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_111_l" n="N001"/>109</fw>
             <milestone unit="line" facs="#facs_111_l_29" n="N001"/>Думала ли ты, когда держала на руках свою первую маленькую дочь - такой
@@ -227,7 +227,7 @@
                <milestone unit="line" facs="#facs_112_l_16" n="N005"/>не нужно. Прощаясь<del rend="strikethrough">,</del> вечером, он сказал:
                <milestone unit="line" facs="#facs_112_l_17" n="N006"/>«Ну, милая моя... человек, мне нужно итти"...
                <milestone unit="line" facs="#facs_112_l_18" n="N007"/>И ушел. Дорого дала бы я, чтобы узнать, правильно ли мое предположение,
-            <pb n="113" xml:id="img_0113-de"/>
+            <milestone unit="page" n="113" xml:id="img_0113-de"/>
             <fw facs="#facs_113_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_113_l" n="N001"/>111</fw>
             <milestone unit="line" facs="#facs_113_l_29" n="N001"/>что, когда он прочитал мою записку, он улыбнулся своей хорошей улыбкой и про-
@@ -318,7 +318,7 @@
             </p>
          <p facs="#facs_113_r_9" xml:lang="de" corresp="#p0346-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_113_l_34" n="N001"/>Жарко. Колосится рожь, и маки цветут. За рекой кукует кукушка:
-            <pb n="114" xml:id="img_0114-de"/>
+            <milestone unit="page" n="114" xml:id="img_0114-de"/>
             <fw facs="#facs_114_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_114_l" n="N001"/>112</fw>
             <milestone unit="line" facs="#facs_114_l_30" n="N001"/>Ку-ку! Ку-ку! – Я в красном платье сижу на меже во ржи и плету венок из
@@ -400,7 +400,7 @@
             </p>
          <p facs="#facs_114_r_6" xml:lang="de" corresp="#p0349-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_114_l_16" n="N001"/>Наступает ночь, и ветер шумит листвою за раскрытой настеясь дверью мое-¬
-            <pb n="115" xml:id="img_0115-de"/>
+            <milestone unit="page" n="115" xml:id="img_0115-de"/>
             <fw facs="#facs_115_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_115_l" n="N001"/>113</fw>
             <milestone unit="line" facs="#facs_115_l_29" n="N001"/>го балкона. Майская ночь. Я лежу в постели, кашляю и мне больно дышать. Но
@@ -455,7 +455,7 @@
                <milestone unit="line" facs="#facs_115_l_54" n="N012"/>Друбецкого или Анатолия Курак[sic]ина? Их слова и мысли мертвой шелухой свали-
                <milestone unit="line" facs="#facs_115_l_55" n="N013"/>лись бы с живой души Наташи. Но если бы она была женой кн. Андрея – да, слова
                <milestone unit="line" facs="#facs_115_l_56" n="N014"/>и <emph rend="underlined">мысли</emph> ее были бы иные, совсем также, как и дети бы были иныя. И нам не зачем
-            <pb n="116" xml:id="img_0116-de"/>
+            <milestone unit="page" n="116" xml:id="img_0116-de"/>
             <fw facs="#facs_116_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_116_l" n="N001"/>114</fw>
             <milestone unit="line" facs="#facs_116_l_29" n="N001"/>даже гадать, какая доля в творчестве этих иных "слов" <emph rend="underlined">могла бы</emph> принадлежать
@@ -523,7 +523,7 @@
                <milestone unit="line" facs="#facs_116_l_18" n="N008"/>Женю, музыка стала для меня тем, чем раньше была история. Я усиленно
                <milestone unit="line" facs="#facs_116_l_19" n="N009"/>занималась музыкой, читала музыкальные сочинения. Но это было уже как
                <milestone unit="line" facs="#facs_116_l_20" n="N010"/>то иначе и не так прекрасно, как то первое, полудетское чувство. Когда
-            <pb n="117" xml:id="img_0117-de"/>
+            <milestone unit="page" n="117" xml:id="img_0117-de"/>
             <fw facs="#facs_117_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_117_l" n="N001"/>115</fw>
             <milestone unit="line" facs="#facs_117_l_29" n="N001"/>я видела Женю, не было того света, хотя и его я видела, как нечто един-<milestone unit="line" facs="#facs_117_l_30" n="N002"/>ственное в мире. Было какое то подсознательное и невыразимо словами чувст-<milestone unit="line" facs="#facs_117_l_31" n="N003"/>во: этот человек будет моим мужем. Он шел, я глядела ему в спину и думала:
