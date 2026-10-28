@@ -27,3 +27,14 @@ span[_tag="milestone"][unit="page"]::before {
   font-weight: bold;
   color: #666;
 }
+
+/* fw page-number */
+span[_tag="fw"][type="page-number"] {
+  display: block;
+  text-align: center;
+  font-size: 0.85em;
+  color: #777;
+  border-bottom: 1px dashed #aaa;
+  margin: 0 0 1.5em;
+  padding: 0.4em 0;
+}
