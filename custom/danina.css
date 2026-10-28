@@ -21,13 +21,6 @@
   padding-top: 0.5em;
 }
 
-*[_tag="milestone"][unit="page"]::before {
-  content: "Seite (@n):" attr(n) "\\A";
-  white-space: pre;
-  font-weight: bold;
-  color: #666;
-}
-
 /* fw page-number */
 *[_tag="fw"][type="page-number"] {
   display: block;
