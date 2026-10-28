@@ -14,7 +14,7 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData/><xenoData>
          
       </xenoData>
    </teiHeader>
@@ -525,7 +525,7 @@
                <milestone unit="line" facs="#facs_175_l_38" n="N010"/>мучаюсь теперь, как никогда раньше. Я почти ничего не могу есть, у меня
                <milestone unit="line" facs="#facs_175_l_39" n="N011"/>что называется петухи от голода в желудке, и в то же время меня тошнит
                <milestone unit="line" facs="#facs_175_l_40" n="N012"/>во рту &amp;lt;нестерпимый&amp;gt; вкус соли<del rend="strikethrough">,</del> и от него, и от безумной, жгучей боли в пищеводе и желуд-
-            <pb facs="https://www.e-manuscripta.ch/download/webcache/1000/4597965" n="176" xml:id="img_0176-de"/>
+            <pb facs="https://www.e-manuscripta.ch/i3f/v20/4597965/full/max/0/default.jpg" n="176" xml:id="img_0176-de"/>
             <fw facs="#facs_176_r_1" type="page-number" place="top">
                <milestone unit="line" facs="#facs_176_l_1" n="N001"/>174</fw>
             <milestone unit="line" facs="#facs_176_l_22" n="N001"/>ке я начинаю иногда кричать не своим голосом. Язык у меня красный, как су-
