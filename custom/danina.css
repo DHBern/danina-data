@@ -14,14 +14,14 @@
 }
 
 /* Page milestones */
-span[_tag="milestone"][unit="page"] {
+*[_tag="milestone"][unit="page"] {
   display: block;
   border-top: 1px solid #888;
   margin-top: 1.5em;
   padding-top: 0.5em;
 }
 
-span[_tag="milestone"][unit="page"]::before {
+*[_tag="milestone"][unit="page"]::before {
   content: "Seite (@n):" attr(n) "\\A";
   white-space: pre;
   font-weight: bold;
@@ -29,7 +29,7 @@ span[_tag="milestone"][unit="page"]::before {
 }
 
 /* fw page-number */
-span[_tag="fw"][type="page-number"] {
+*[_tag="fw"][type="page-number"] {
   display: block;
   text-align: center;
   font-size: 0.85em;
