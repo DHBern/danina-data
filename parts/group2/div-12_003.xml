@@ -205,7 +205,7 @@
          <p facs="#facs_94_r_3" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_94_l_25" n="N001"/>30 июля.
             </p>
-         <p facs="#facs_94_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
+         <p xml:lang="de" facs="#facs_94_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_94_l_25" n="N001"/>30 июля.
             </p>
          <p facs="#facs_94_r_4" xml:lang="ru" xml:id="p0276-ru">

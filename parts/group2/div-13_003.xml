@@ -83,7 +83,7 @@
          <p facs="#facs_111_r_3" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_111_l_26" n="N001"/>4 марта.
             </p>
-         <p facs="#facs_111_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
+         <p xml:lang="de" facs="#facs_111_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_111_l_26" n="N001"/>4 марта.
             </p>
          <p facs="#facs_111_r_4" xml:lang="ru" xml:id="p0331-ru">
@@ -181,7 +181,7 @@
          <p facs="#facs_112_r_6" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_112_l_7" n="N001"/>26 марта.
             </p>
-         <p facs="#facs_112_r_6" ana="dated_entry_header">{TRANSLATION GOES HERE}
+         <p xml:lang="de" facs="#facs_112_r_6" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_112_l_7" n="N001"/>26 марта.
             </p>
          <p facs="#facs_112_r_7" xml:lang="ru" xml:id="p0338-ru">
@@ -261,7 +261,7 @@
          <p facs="#facs_113_r_4" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_113_l_4" n="N001"/>10 мая.
             </p>
-         <p facs="#facs_113_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
+         <p xml:lang="de" facs="#facs_113_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_113_l_4" n="N001"/>10 мая.
             </p>
          <p facs="#facs_113_r_5" xml:lang="ru" xml:id="p0343-ru">
@@ -379,7 +379,7 @@
          <p facs="#facs_114_r_4" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_114_l_15" n="N001"/>22 мая.
             </p>
-         <p facs="#facs_114_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
+         <p xml:lang="de" facs="#facs_114_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_114_l_15" n="N001"/>22 мая.
             </p>
          <p facs="#facs_114_r_6" xml:lang="ru" xml:id="p0349-ru">

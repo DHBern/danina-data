@@ -163,7 +163,7 @@
          <p facs="#facs_118_r_6" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_118_l_11" n="N001"/>20 июля.
             </p>
-         <p facs="#facs_118_r_6" ana="dated_entry_header">{TRANSLATION GOES HERE}
+         <p xml:lang="de" facs="#facs_118_r_6" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_118_l_11" n="N001"/>20 июля.
             </p>
          <p facs="#facs_118_r_8" xml:lang="ru" xml:id="p0362-ru">
@@ -219,7 +219,7 @@
          <p facs="#facs_119_r_5" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_119_l_46" n="N001"/>24 августа.
             </p>
-         <p facs="#facs_119_r_5" ana="dated_entry_header">{TRANSLATION GOES HERE}
+         <p xml:lang="de" facs="#facs_119_r_5" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_119_l_46" n="N001"/>24 августа.
             </p>
          <p facs="#facs_119_r_4" xml:lang="ru" xml:id="p0364-ru">
@@ -231,7 +231,7 @@
          <p facs="#facs_119_r_3" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_119_l_52" n="N001"/>25 августа.
             </p>
-         <p facs="#facs_119_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
+         <p xml:lang="de" facs="#facs_119_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_119_l_52" n="N001"/>25 августа.
             </p>
          <p facs="#facs_119_r_1" xml:lang="ru" xml:id="p0365-ru">
@@ -287,7 +287,7 @@
          <p facs="#facs_120_r_3" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_120_l_16" n="N001"/>30 августа.
             </p>
-         <p facs="#facs_120_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
+         <p xml:lang="de" facs="#facs_120_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_120_l_16" n="N001"/>30 августа.
             </p>
          <p facs="#facs_120_r_5" xml:lang="ru" xml:id="p0366-ru">
@@ -341,7 +341,7 @@
          <p facs="#facs_121_r_6" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_121_l_1" n="N001"/>10 сентября.
             </p>
-         <p facs="#facs_121_r_6" ana="dated_entry_header">{TRANSLATION GOES HERE}
+         <p xml:lang="de" facs="#facs_121_r_6" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_121_l_1" n="N001"/>10 сентября.
             </p>
          <p facs="#facs_121_r_5" xml:lang="ru" xml:id="p0369-ru">

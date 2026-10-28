@@ -231,7 +231,7 @@
       <xsl:apply-templates mode="preprocess"/>
     </p>
     <!-- German translation -->
-    <p>
+    <p xml:lang="de">
       <xsl:copy-of select="@* except @type"/>
       <xsl:attribute name="ana" select="@type"/>
       <xsl:text expand-text="false">{TRANSLATION GOES HERE}</xsl:text>

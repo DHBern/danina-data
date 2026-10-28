@@ -326,7 +326,7 @@
          <p facs="#facs_105_r_2" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_105_l_30" n="N001"/>1 декабря <del rend="strikethrough">1918 года</del>.
             </p>
-         <p facs="#facs_105_r_2" ana="dated_entry_header">{TRANSLATION GOES HERE}
+         <p xml:lang="de" facs="#facs_105_r_2" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_105_l_30" n="N001"/>1 декабря <del rend="strikethrough">1918 года</del>.
             </p>
          <p facs="#facs_105_r_1" xml:lang="ru" xml:id="p0313-ru">
@@ -592,7 +592,7 @@
          <p facs="#facs_109_r_1" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_109_l_1" n="N001"/>10 декабря.
             </p>
-         <p facs="#facs_109_r_1" ana="dated_entry_header">{TRANSLATION GOES HERE}
+         <p xml:lang="de" facs="#facs_109_r_1" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_109_l_1" n="N001"/>10 декабря.
             </p>
          <p facs="#facs_109_r_3" xml:lang="ru" xml:id="p0321-ru">
@@ -712,7 +712,7 @@
          <p facs="#facs_110_r_3" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_110_l_29" n="N001"/>16 января 1919 года.
             </p>
-         <p facs="#facs_110_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
+         <p xml:lang="de" facs="#facs_110_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_110_l_29" n="N001"/>16 января 1919 года.
             </p>
          <p facs="#facs_110_r_7" xml:lang="ru" xml:id="p0327-ru">
