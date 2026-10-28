@@ -810,7 +810,11 @@
                <milestone unit="line" facs="#facs_21_l_45" n="N002"/>дивился на эту способность человека (и, кажется, русского человека
                <milestone unit="line" facs="#facs_21_l_47" n="N003"/>по преимуществу) лелеять в душе своей высочайший идеал &lt;рядом&gt; с величайшей
             
-            <pb facs="#facs_22" n="22" xml:id="img_0022"/>
+            <pb corresp="#facs_22"
+                   n="22"
+                   xml:id="img_0022"
+                   ana="21r"
+                   facs="https://www.e-manuscripta.ch/i3f/v30/4597657/full/max/0/default.jpg"/>
                <fw facs="#facs_22_r" type="page-number" place="top">
                   <lb facs="#facs_22_l" n="N001"/>21</fw>
                <ab facs="#facs_22_r_2" type="page_number__deleted_or_striked_out">

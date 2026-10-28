@@ -357,7 +357,11 @@
                <milestone unit="line" facs="#facs_164_l_7" n="N001"/>Тут категорический императив. Пусть приходит смерть – правда выше,
                <milestone unit="line" facs="#facs_164_l_8" n="N002"/>дом выше, право выше – биться надо до последнева! Иной филистер прикинул
             
-            <pb facs="#facs_165" n="165" xml:id="img_0165"/>
+            <pb corresp="#facs_165"
+                   n="165"
+                   xml:id="img_0165"
+                   ana="163r"
+                   facs="https://www.e-manuscripta.ch/i3f/v30/4597943/full/max/0/default.jpg"/>
                <fw facs="#facs_165_r" type="page-number" place="top">
                   <lb facs="#facs_165_l" n="N001"/>163</fw>
                <milestone unit="line" facs="#facs_165_l_14" n="N001"/>бы за и против и сказал бы: „с сильным не борись”, хотя и ненавидел бы произвол

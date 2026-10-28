@@ -2106,7 +2106,11 @@
                <milestone unit="line" facs="#facs_21_l_45" n="N002"/>дивился на эту способность человека (и, кажется, русского человека
                <milestone unit="line" facs="#facs_21_l_47" n="N003"/>по преимуществу) лелеять в душе своей высочайший идеал &lt;рядом&gt; с величайшей
             
-            <pb facs="#facs_22" n="22" xml:id="img_0022"/>
+            <pb corresp="#facs_22"
+                      n="22"
+                      xml:id="img_0022"
+                      ana="21r"
+                      facs="https://www.e-manuscripta.ch/i3f/v30/4597657/full/max/0/default.jpg"/>
                   <fw facs="#facs_22_r" type="page-number" place="top">
                      <lb facs="#facs_22_l" n="N001"/>21</fw>
                   <ab facs="#facs_22_r_2" type="page_number__deleted_or_striked_out">
@@ -6119,7 +6123,11 @@
                <milestone unit="line" facs="#facs_64_l_17" n="N002"/>вызвать сострадание к себе с стороны княжны Мери. – „Сострадание, –
                <milestone unit="line" facs="#facs_64_l_21" n="N003"/>говорит он, – чувство, которому покоряются так легко все женщины,
             
-            <pb facs="#facs_65" n="65" xml:id="img_0065"/>
+            <pb corresp="#facs_65"
+                      n="65"
+                      xml:id="img_0065"
+                      ana="64r"
+                      facs="https://www.e-manuscripta.ch/i3f/v30/4597743/full/max/0/default.jpg"/>
                   <fw facs="#facs_65_r" type="page-number" place="top">
                      <lb facs="#facs_65_l" n="N001"/>64</fw>
                   <ab facs="#facs_65_r_2" type="page_number__deleted_or_striked_out">
@@ -6131,7 +6139,11 @@
                <milestone unit="line" facs="#facs_65_l_4" n="N004"/>Сострадание покажется унизительным для него даже как средство вызвать
                <milestone unit="line" facs="#facs_65_l_5" n="N005"/>любовь.
             
-            <pb facs="#facs_66" n="66" xml:id="img_0066"/>
+            <pb corresp="#facs_66"
+                      n="66"
+                      xml:id="img_0066"
+                      ana="65r"
+                      facs="https://www.e-manuscripta.ch/i3f/v30/4597745/full/max/0/default.jpg"/>
                   <fw facs="#facs_66_r" type="page-number" place="top">
                      <lb facs="#facs_66_l" n="N001"/>65</fw>
                   <ab facs="#facs_66_r_2" type="page_number__deleted_or_striked_out">
@@ -6144,7 +6156,11 @@
                <milestone unit="line" facs="#facs_66_l_5" n="N005"/>и такой практике находили свое &lt;хотя бы минутное???&gt; удовлетворение сильные умы и характеры,
                <milestone unit="line" facs="#facs_66_l_6" n="N006"/>подобные Печорину!
             
-            <pb facs="#facs_67" n="67" xml:id="img_0067"/>
+            <pb corresp="#facs_67"
+                      n="67"
+                      xml:id="img_0067"
+                      ana="66r"
+                      facs="https://www.e-manuscripta.ch/i3f/v30/4597747/full/max/0/default.jpg"/>
                   <fw facs="#facs_67_r" type="page-number" place="top">
                      <lb facs="#facs_67_l" n="N001"/>66</fw>
                   <ab facs="#facs_67_r_2" type="page_number__deleted_or_striked_out">
@@ -8896,7 +8912,11 @@
                <quote>
                   <milestone unit="line" facs="#facs_97_l_30" n="N001"/>«... Точно золото струилось во мне. Я встала перед зеркалом,
             
-            <pb facs="#facs_98" n="98" xml:id="img_0098"/>
+            <pb corresp="#facs_98"
+                      n="98"
+                      xml:id="img_0098"
+                      ana="97r"
+                      facs="https://www.e-manuscripta.ch/i3f/v30/4597809/full/max/0/default.jpg"/>
                   <fw facs="#facs_98_r_8" type="page-number" place="top">
                      <lb facs="#facs_98_l" n="N001"/>97 </fw>
                   <ab facs="#facs_98_r" type="page_number__deleted_or_striked_out">
@@ -14568,7 +14588,11 @@
                   <milestone unit="line" facs="#facs_164_l_7" n="N001"/>Тут категорический императив. Пусть приходит смерть – правда выше,
                <milestone unit="line" facs="#facs_164_l_8" n="N002"/>дом выше, право выше – биться надо до последнева! Иной филистер прикинул
             
-            <pb facs="#facs_165" n="165" xml:id="img_0165"/>
+            <pb corresp="#facs_165"
+                      n="165"
+                      xml:id="img_0165"
+                      ana="163r"
+                      facs="https://www.e-manuscripta.ch/i3f/v30/4597943/full/max/0/default.jpg"/>
                   <fw facs="#facs_165_r" type="page-number" place="top">
                      <lb facs="#facs_165_l" n="N001"/>163</fw>
                   <milestone unit="line" facs="#facs_165_l_14" n="N001"/>бы за и против и сказал бы: „с сильным не борись”, хотя и ненавидел бы произвол

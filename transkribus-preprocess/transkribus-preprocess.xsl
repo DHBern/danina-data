@@ -315,7 +315,10 @@
         </xsl:copy>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:copy-of select="."/>
+        <!--<xsl:copy-of select="."/>-->
+        <xsl:call-template name="make-pb">
+          <xsl:with-param name="in" select="."/>
+        </xsl:call-template>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
