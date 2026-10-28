@@ -30,6 +30,7 @@
      - [ ] add xenodata element
   - [ ] split file according to decisions (to be taken)
   - [x] hyphenation ¬
+  - [ ] image URLs from IIIF manifest
   
   -->
   
@@ -38,6 +39,8 @@
   <xsl:mode name="preprocess" on-no-match="shallow-copy"/>
   <xsl:mode name="preprocess-integrate" on-no-match="shallow-copy"/>
   <xsl:mode name="preprocess-integrate-quote" on-no-match="shallow-copy"/>
+  
+  <xsl:variable name="iiif-manifest" as="map(*)" select="json-doc('https://www.e-manuscripta.ch/i3f/v20/4597615/manifest')"/>
   
   <xsl:template name="xsl:initial-template">
     <xsl:variable name="uris" as="xs:string*" select="uri-collection('input-file?select=*.xml')"/>
@@ -327,7 +330,10 @@
         </xsl:copy>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:copy-of select="."/>
+        <!--<xsl:copy-of select="."/>-->
+        <xsl:call-template name="make-pb">
+          <xsl:with-param name="in" select="."/>
+        </xsl:call-template>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -351,6 +357,31 @@
   <!-- handle hyphenation symbols (¬) -->
   <xsl:template match="text()[matches(.,'¬\s*$')][following-sibling::*[1][self::lb]]" mode="#all">
     <xsl:sequence select=". => replace('¬\s*','')"/>
+  </xsl:template>
+  
+  <!-- handle pb elements and insert IIIF image URLs -->
+  <xsl:template name="make-pb">
+    <xsl:param name="in" as="element(pb)"/>
+    
+    <xsl:variable name="n" as="xs:integer" select="xs:integer($in/@n)"/>
+    <xsl:variable name="canvases" as="array(*)"
+      select="$iiif-manifest?sequences(1)?canvases"/>
+    
+    <!-- n=1->1, n=2->2, n>=3 -> 2*n - 3 -->
+    <xsl:variable name="canvas-pos" as="xs:integer"
+      select="if ($n le 2) then $n else 2 * $n - 3"/>
+    
+    <xsl:variable name="canvas" as="map(*)" select="$canvases($canvas-pos)"/>
+    <xsl:variable name="service-id-v20" as="xs:string"
+      select="$canvas?images(1)?resource?service?('@id')"/>
+    <xsl:variable name="facs-url" as="xs:string"
+      select="replace($service-id-v20, '/i3f/v20/', '/i3f/v30/') || '/full/max/0/default.jpg'"/>
+    
+    <pb corresp="{string($in/@facs)}"
+      n="{string($in/@n)}"
+      xml:id="{string($in/@xml:id)}"
+      ana="{string($canvas?label)}"
+      facs="{$facs-url}"/>
   </xsl:template>
   
 </xsl:transform>

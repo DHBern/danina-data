@@ -50,7 +50,11 @@
                <milestone unit="line" facs="#facs_49_l_15" n="N007"/>Вступились и другие его знакомые и стали говорить ему, что-
                <milestone unit="line" facs="#facs_49_l_16" n="N008"/>бы он не делал этого. Кончилось тем, что он остался. Боже, как я была счаст-
                <milestone unit="line" facs="#facs_49_l_17" n="N009"/>лива!
-            <pb facs="#facs_50" n="50" xml:id="img_0050"/>
+            <pb corresp="#facs_50"
+                n="50"
+                xml:id="img_0050"
+                ana="49r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597713/full/max/0/default.jpg"/>
             <fw facs="#facs_50_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_50_l_15" n="N001"/>49</fw>
             <fw facs="#facs_50_r_5" type="page_number__deleted_or_striked_out">
@@ -134,7 +138,11 @@
                <milestone unit="line" facs="#facs_50_l_29" n="N009"/>вии, что была &lt;тогда&gt; уверена в моей смерти: «Mais vous <emph rend="underlined">etiez</emph> morte, ma chère»
                <milestone unit="line" facs="#facs_50_l_30" n="N010"/>сказала она мне очень мило. Я не была в претензии за эту жестокую
                <milestone unit="line" facs="#facs_50_l_32" n="N011"/>откровенность, так как она подтвердила мне мое &lt;собственное&gt; чувство и мою уве-
-            <pb facs="#facs_51" n="51" xml:id="img_0051"/>
+            <pb corresp="#facs_51"
+                n="51"
+                xml:id="img_0051"
+                ana="50r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597715/full/max/0/default.jpg"/>
             <fw facs="#facs_51_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_51_l_4" n="N001"/>50</fw>
             <fw facs="#facs_51_r_7" type="page_number__deleted_or_striked_out">
@@ -232,7 +240,11 @@
             <milestone unit="line" facs="#facs_51_l_27" n="N001"/>А между тем мои физические страдания бывали нестерпимы. Правда, t°
                <milestone unit="line" facs="#facs_51_l_28" n="N002"/>лишь изредка поднималась выше 38°, но эта трубочка была настоящим
                <milestone unit="line" facs="#facs_51_l_29" n="N003"/>орудием пытки, этот гной, запах его – все было отвратительно. И при всем
-            <pb facs="#facs_52" n="52" xml:id="img_0052"/>
+            <pb corresp="#facs_52"
+                n="52"
+                xml:id="img_0052"
+                ana="51r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597717/full/max/0/default.jpg"/>
             <fw facs="#facs_52_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_52_l" n="N001"/>51</fw>
             <fw facs="#facs_52_r_8" type="page_number__deleted_or_striked_out">
@@ -327,7 +339,11 @@
          <p facs="#facs_52_r_1" xml:lang="ru" xml:id="p0171-ru">
             <milestone unit="line" facs="#facs_52_l_29" n="N001"/>Через несколько дней я напомнила ему об этом: «а что же, Вы ведь
                <milestone unit="line" facs="#facs_52_l_30" n="N002"/>хотели рассказать мне роман?»
-            <pb facs="#facs_53" n="53" xml:id="img_0053"/>
+            <pb corresp="#facs_53"
+                n="53"
+                xml:id="img_0053"
+                ana="52r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597719/full/max/0/default.jpg"/>
             <fw facs="#facs_53_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_53_l_32" n="N001"/>52</fw>
             <fw facs="#facs_53_r_3" type="page_number__deleted_or_striked_out">
@@ -382,7 +398,11 @@
                <milestone unit="line" facs="#facs_53_l_59" n="N023"/>застал ее одну. Она плакала. Он стал спрашивать, что с нею, но она
                <milestone unit="line" facs="#facs_53_l_60" n="N024"/>не отвечала и продолжала судорожно всхлипывать. «Тогда я взял стул,
                <milestone unit="line" facs="#facs_53_l_61" n="N025"/>сел около нее, взял ее за руку, наконец, обнял ее: Она вдруг приподня-
-            <pb facs="#facs_54" n="54" xml:id="img_0054"/>
+            <pb corresp="#facs_54"
+                n="54"
+                xml:id="img_0054"
+                ana="53r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597721/full/max/0/default.jpg"/>
             <fw facs="#facs_54_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_54_l" n="N001"/>53</fw>
             <fw facs="#facs_54_r_2" type="page_number__deleted_or_striked_out">
@@ -492,7 +512,11 @@
                <milestone unit="line" facs="#facs_54_l_22" n="N003"/>до мною рисуются образы: один, другой, третий, и душа его понемногу раскры-
                <milestone unit="line" facs="#facs_54_l_23" n="N004"/>вается для меня. Я чувствовала симпатию ко всем трем, но в разной сте-
                <milestone unit="line" facs="#facs_54_l_24" n="N005"/>пени. Лучше всех был он, думала я. И он, как будто угадав мою мысль, сказал:
-            <pb facs="#facs_55" n="55" xml:id="img_0055"/>
+            <pb corresp="#facs_55"
+                n="55"
+                xml:id="img_0055"
+                ana="54r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597723/full/max/0/default.jpg"/>
             <fw facs="#facs_55_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_55_l" n="N001"/>54</fw>
             <fw facs="#facs_55_r_8" type="page_number__deleted_or_striked_out">
@@ -588,7 +612,11 @@
             <milestone unit="line" facs="#facs_55_l_29" n="N001"/>Уже немного осталocь мне чтобы &lt;закончить эти мои воспомина-&gt;
                <milestone unit="line" facs="#facs_55_l_31" n="N002"/>&lt;ния, которые служат введением в мой&gt; дневник. Для того, чтобы он был понятен, мне
                <milestone unit="line" facs="#facs_55_l_32" n="N003"/>неoбходимо было запис<del rend="strikethrough">[к</del>]ать все это о себе.
-            <pb facs="#facs_56" n="56" xml:id="img_0056"/>
+            <pb corresp="#facs_56"
+                n="56"
+                xml:id="img_0056"
+                ana="55r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597725/full/max/0/default.jpg"/>
             <fw facs="#facs_56_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_56_l" n="N001"/>55</fw>
             <fw facs="#facs_56_r_2" type="page_number__deleted_or_striked_out">

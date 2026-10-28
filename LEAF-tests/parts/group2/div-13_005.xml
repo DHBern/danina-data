@@ -44,7 +44,11 @@
          <p facs="#facs_123_r_1" xml:lang="ru" xml:id="p0379-ru">
             <milestone unit="line" facs="#facs_123_l_29" n="N001"/>Сегодня я имею намерение пуститься в рассуждения, не особенно мне подобающие.
                <milestone unit="line" facs="#facs_123_l_30" n="N002"/>Возможно, что я наговорю ужасной чепухи, но возможно, что и нет.
-            <pb facs="#facs_124" n="124" xml:id="img_0124"/>
+            <pb corresp="#facs_124"
+                n="124"
+                xml:id="img_0124"
+                ana="122r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597861/full/max/0/default.jpg"/>
             <fw facs="#facs_124_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_124_l" n="N001"/>122</fw>
          </p>
@@ -130,7 +134,11 @@
          <p facs="#facs_124_r_6" xml:lang="ru" xml:id="p0383-ru">
             <milestone unit="line" facs="#facs_124_l_9" n="N001"/>Я сижу и улыбаюсь сейчас. Только что была у меня Mme. Вärli, и сказала
                <milestone unit="line" facs="#facs_124_l_10" n="N002"/>между прочим: «Я сейчас совершила почти преступление». Я взглянула на
-            <pb facs="#facs_125" n="125" xml:id="img_0125"/>
+            <pb corresp="#facs_125"
+                n="125"
+                xml:id="img_0125"
+                ana="123r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597863/full/max/0/default.jpg"/>
             <fw facs="#facs_125_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_125_l" n="N001"/>123</fw>
             <milestone unit="line" facs="#facs_125_l_32" n="N001"/>нее с удивлением и она продолжала: «Бумажный абажур на лампе в комнате
@@ -222,7 +230,11 @@
                <milestone unit="line" facs="#facs_125_l_45" n="N002"/>Мира", когда она лежала в гробу, было такое выражение:
                <milestone unit="line" facs="#facs_125_l_46" n="N003"/>Ах, что же это, что же это со мной сделали?
                <milestone unit="line" facs="#facs_125_l_47" n="N004"/>И нельзя было смотреть без слез на ее бедное личико. И даже суровый
-            <pb facs="#facs_126" n="126" xml:id="img_0126"/>
+            <pb corresp="#facs_126"
+                n="126"
+                xml:id="img_0126"
+                ana="124r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597865/full/max/0/default.jpg"/>
             <fw facs="#facs_126_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_126_l" n="N001"/>124</fw>
             <milestone unit="line" facs="#facs_126_l_31" n="N001"/>старый князь, взглянув на него мельком, всякий раз поспешно отворачивался.
@@ -319,7 +331,11 @@
             <milestone unit="line" facs="#facs_126_l_40" n="N001"/>Россия не умрет, нет. И когда нибудь распустится новый прекрасный цве-
                <milestone unit="line" facs="#facs_126_l_41" n="N002"/>ток, но вот передо мною царевна из картины Васнецова "Иван-царевич
                <milestone unit="line" facs="#facs_126_l_42" n="N003"/>на сером волке": руки ее бессильно протянуты на коленях, голова, напи-
-            <pb facs="#facs_127" n="127" xml:id="img_0127"/>
+            <pb corresp="#facs_127"
+                n="127"
+                xml:id="img_0127"
+                ana="125r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597867/full/max/0/default.jpg"/>
             <fw facs="#facs_127_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_127_l" n="N001"/>125</fw>
             <milestone unit="line" facs="#facs_127_l_31" n="N001"/>санная в профиль, опущена, и синий-синий глаз мещает из полу опущенных рис-
@@ -411,7 +427,11 @@
                <milestone unit="line" facs="#facs_127_l_30" n="N003"/>нец студент <del rend="strikethrough">&lt;???&gt;</del> из рассказа Андреева "Иностранец". Он мечтал навсегда уехать
                <milestone unit="line" facs="#facs_127_l_36" n="N004"/>заграницу – жить и учиться там. Он не любил всей неустроенной, хаотичес-
                <milestone unit="line" facs="#facs_127_l_37" n="N005"/>кой и бессмысленной жизни своей родины, не любил улиц, по которым ходил
-            <pb facs="#facs_128" n="128" xml:id="img_0128"/>
+            <pb corresp="#facs_128"
+                n="128"
+                xml:id="img_0128"
+                ana="126r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597869/full/max/0/default.jpg"/>
             <fw facs="#facs_128_r_3" type="page-number" place="top">
                <milestone unit="line" facs="#facs_128_l_8" n="N001"/>126</fw>
             <milestone unit="line" facs="#facs_128_l_19" n="N001"/>не любил комнаты, в которой жил. И он копил деньги, чтобы покинуть все это

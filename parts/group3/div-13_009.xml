@@ -97,7 +97,11 @@
                <milestone unit="line" facs="#facs_150_l_17" n="N004"/>-Знаете, это письмо, которое Вы мне написали... это было замеча-
                <milestone unit="line" facs="#facs_150_l_18" n="N005"/>тельное письмо. Его можно было бы поместить в тот сборник"... (Я давала
                <milestone unit="line" facs="#facs_150_l_20" n="N006"/>ему &lt;однажды на прочтение&gt; сборник любовных писем замечательных людей.)
-            <pb facs="#facs_151" n="151" xml:id="img_0151"/>
+            <pb corresp="#facs_151"
+                n="151"
+                xml:id="img_0151"
+                ana="149r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597915/full/max/0/default.jpg"/>
             <fw facs="#facs_151_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_151_l" n="N001"/>149</fw>
             <milestone unit="line" facs="#facs_151_l_1" n="N001"/>У меня в душе все засияло.
@@ -185,7 +189,11 @@
                <milestone unit="line" facs="#facs_151_l_26" n="N003"/>этого пути, и навсегда останется это больная любовь, как и мы са-
                <milestone unit="line" facs="#facs_151_l_27" n="N004"/>ми. Но все таки я не знаю чувства, более достойного названия любви,
                <milestone unit="line" facs="#facs_151_l_28" n="N005"/>чем наше.
-            <pb facs="#facs_152" n="152" xml:id="img_0152"/>
+            <pb corresp="#facs_152"
+                n="152"
+                xml:id="img_0152"
+                ana="150r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597917/full/max/0/default.jpg"/>
             <fw facs="#facs_152_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_152_l_29" n="N001"/>150</fw>
          </p>
@@ -271,7 +279,11 @@
                <milestone unit="line" facs="#facs_152_l_36" n="N002"/>- „Она пишет?“ - спросила я.
                <milestone unit="line" facs="#facs_152_l_37" n="N003"/>- „Нет, куда ей писать.“
                <milestone unit="line" facs="#facs_152_l_38" n="N004"/>Но в другой раз, хваля ее переводы, он добавил: „Она и писать могла бы“.
-            <pb facs="#facs_153" n="153" xml:id="img_0153"/>
+            <pb corresp="#facs_153"
+                n="153"
+                xml:id="img_0153"
+                ana="151r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597919/full/max/0/default.jpg"/>
             <fw facs="#facs_153_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_153_l" n="N001"/>151</fw>
          </p>
@@ -364,7 +376,11 @@
             </p>
          <p facs="#facs_153_r_6" xml:lang="ru" xml:id="p0498-ru">
             <milestone unit="line" facs="#facs_153_l_18" n="N001"/>Я нервно крутила в пальцах мой наперсток, и он упал два раза на пол.
-            <pb facs="#facs_154" n="154" xml:id="img_0154"/>
+            <pb corresp="#facs_154"
+                n="154"
+                xml:id="img_0154"
+                ana="152r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597921/full/max/0/default.jpg"/>
             <fw facs="#facs_154_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_154_l" n="N001"/>152</fw>
             <milestone unit="line" facs="#facs_154_l_28" n="N001"/>- „Ваш несчастный наперсток“, сказала она, подымая его во второй раз.

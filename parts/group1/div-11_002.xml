@@ -72,7 +72,11 @@
                <milestone unit="line" facs="#facs_56_l_16" n="N005"/>- „Вы говорили, что у Вас есть жених.“
                <milestone unit="line" facs="#facs_56_l_17" n="N006"/>- „Ну, какой же у меня теперь жених может быть. Теперь я мерт--
                <milestone unit="line" facs="#facs_56_l_18" n="N007"/>вый человек.“
-            <pb facs="#facs_57" n="57" xml:id="img_0057"/>
+            <pb corresp="#facs_57"
+                n="57"
+                xml:id="img_0057"
+                ana="56r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597727/full/max/0/default.jpg"/>
             <fw facs="#facs_57_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_57_l" n="N001"/>56</fw>
             <fw facs="#facs_57_r_2" type="page_number__deleted_or_striked_out">
@@ -145,7 +149,11 @@
                <milestone unit="line" facs="#facs_57_l_53" n="N014"/>Я сказала это с мучением в лице и в голосе.
                <milestone unit="line" facs="#facs_57_l_54" n="N015"/>– „Надо думать, что он их никому не показывает“.
                <milestone unit="line" facs="#facs_57_l_55" n="N016"/>- „Вот это то меня и мучит. Может быть он показывает их и хвас-
-            <pb facs="#facs_58" n="58" xml:id="img_0058"/>
+            <pb corresp="#facs_58"
+                n="58"
+                xml:id="img_0058"
+                ana="57r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597729/full/max/0/default.jpg"/>
             <fw facs="#facs_58_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_58_l" n="N001"/>57
                <milestone unit="line" facs="#facs_58_l_6" n="N002"/>[<del rend="strikethrough">90</del>]</fw>
@@ -241,7 +249,11 @@
          <p facs="#facs_58_r_1" xml:lang="ru" xml:id="p0191-ru">
             <milestone unit="line" facs="#facs_58_l_29" n="N001"/>Я должна признаться, что всякий раз, когда я чувствовала<del rend="strikethrough">,</del> с его
                <milestone unit="line" facs="#facs_58_l_30" n="N002"/>стороны внутреннее противодействие моему желанию нашего даль-
-            <pb facs="#facs_59" n="59" xml:id="img_0059"/>
+            <pb corresp="#facs_59"
+                n="59"
+                xml:id="img_0059"
+                ana="58r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597731/full/max/0/default.jpg"/>
             <fw facs="#facs_59_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_59_l" n="N001"/>58</fw>
             <fw facs="#facs_59_r_4" type="page_number__deleted_or_striked_out">
@@ -511,7 +523,11 @@
                <milestone unit="line" facs="#facs_61_l_28" n="N002"/>пременно умрет. Я дошла до высшаго предела нервного напряженія,
                <milestone unit="line" facs="#facs_61_l_29" n="N003"/>мне было все равно, кто и что обо мне подумает. Я сказала Mme Bärli,
                <milestone unit="line" facs="#facs_61_l_30" n="N004"/>что люблю его: „не знаю, любит ли он меня, но я люблю его.“ И просила ее
-            <pb facs="#facs_62" n="62" xml:id="img_0062"/>
+            <pb corresp="#facs_62"
+                n="62"
+                xml:id="img_0062"
+                ana="61r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597737/full/max/0/default.jpg"/>
             <fw facs="#facs_62_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_62_l" n="N001"/>61</fw>
             <fw facs="#facs_62_r_2" type="page_number__deleted_or_striked_out">
@@ -594,7 +610,11 @@
                <sic>надсмеяться</sic>
             </choice>
             <milestone unit="line" facs="#facs_62_l_48" n="N019"/>над самим собою. Такой человек, по-моему, должен сделать все от
-            <pb facs="#facs_63" n="63" xml:id="img_0063"/>
+            <pb corresp="#facs_63"
+                n="63"
+                xml:id="img_0063"
+                ana="62r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597739/full/max/0/default.jpg"/>
             <fw facs="#facs_63_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_63_l" n="N001"/>62</fw>
             <fw facs="#facs_63_r_7" type="page_number__deleted_or_striked_out">
@@ -719,7 +739,11 @@
                <milestone unit="line" facs="#facs_63_l_27" n="N002"/>ла, что очень счастлива его письмом и его доверием ко мне. Что „вто-
                <milestone unit="line" facs="#facs_63_l_28" n="N003"/>рое??? возможно“, доказывает роман Лермонтова „Герой нашего времени“. И
                <milestone unit="line" facs="#facs_63_l_29" n="N004"/>вместе с моим ответом я послала ему этот роман.
-            <pb facs="#facs_64" n="64" xml:id="img_0064"/>
+            <pb corresp="#facs_64"
+                n="64"
+                xml:id="img_0064"
+                ana="63r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597741/full/max/0/default.jpg"/>
             <fw facs="#facs_64_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_64_l" n="N001"/>63</fw>
             <fw facs="#facs_64_r_2" type="page_number__deleted_or_striked_out">

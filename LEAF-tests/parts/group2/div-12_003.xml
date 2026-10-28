@@ -59,7 +59,11 @@
                <milestone unit="line" facs="#facs_92_l_29" n="N006"/>покрывала смертельная бледность и на лбу выступали капельки
                <milestone unit="line" facs="#facs_92_l_30" n="N007"/>пота. С непередаваемой ясностью и болью ощутила я тогда непопра-
                <milestone unit="line" facs="#facs_92_l_31" n="N008"/>вилось [*непоправимость*??] происшедшей во мне перемены; я почувствовала, как будто ка-
-            <pb facs="#facs_93" n="93" xml:id="img_0093"/>
+            <pb corresp="#facs_93"
+                n="93"
+                xml:id="img_0093"
+                ana="92r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597799/full/max/0/default.jpg"/>
             <fw facs="#facs_93_r_7" type="page-number" place="top">
                <milestone unit="line" facs="#facs_93_l_23" n="N001"/>92</fw>
             <fw facs="#facs_93_r_5" type="page_number__deleted_or_striked_out">
@@ -242,7 +246,11 @@
             <milestone unit="line" facs="#facs_94_l_21" n="N001"/>Я прочла ему, между прочим, о «принце» и о гимназистѣ «Коле».
                <milestone unit="line" facs="#facs_94_l_22" n="N002"/>Он смеялся и нашел, что все это оригинально. Он сказал, что я
                <milestone unit="line" facs="#facs_94_l_23" n="N003"/>пишу просто и искренне. Да, одно достоинство есть у моего [*«*]рома-
-            <pb facs="#facs_95" n="95" xml:id="img_0095"/>
+            <pb corresp="#facs_95"
+                n="95"
+                xml:id="img_0095"
+                ana="94r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597803/full/max/0/default.jpg"/>
             <fw facs="#facs_95_r_12" type="page-number" place="top">
                <milestone unit="line" facs="#facs_95_l_20" n="N001"/>94</fw>
             <fw facs="#facs_95_r_10" type="page_number__deleted_or_striked_out">

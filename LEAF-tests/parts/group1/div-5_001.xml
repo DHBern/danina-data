@@ -83,7 +83,11 @@
          <p facs="#facs_37_r_11" xml:lang="ru" xml:id="p0114-ru">
             <milestone unit="line" facs="#facs_37_l_37" n="N001"/>Вечером после ужина к нему пришла сестра милосердия, вероятно
                <milestone unit="line" facs="#facs_37_l_38" n="N002"/>для того, чтобы разобрать его вещи, и я услышала его смех. Ах, этот
-            <pb facs="#facs_38" n="38" xml:id="img_0038"/>
+            <pb corresp="#facs_38"
+                n="38"
+                xml:id="img_0038"
+                ana="37r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597689/full/max/0/default.jpg"/>
             <fw facs="#facs_38_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_38_l" n="N001"/>37</fw>
             <fw facs="#facs_38_r_2" type="page_number__deleted_or_striked_out">
@@ -172,7 +176,11 @@
             </p>
          <p facs="#facs_38_r_8" xml:lang="ru" xml:id="p0119-ru">
             <milestone unit="line" facs="#facs_38_l_18" n="N001"/>Я вся сжалась и замолкла. Через минуту я сказала:
-            <pb facs="#facs_39" n="39" xml:id="img_0039"/>
+            <pb corresp="#facs_39"
+                n="39"
+                xml:id="img_0039"
+                ana="38r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597691/full/max/0/default.jpg"/>
             <fw facs="#facs_39_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_39_l" n="N001"/>38</fw>
             <fw facs="#facs_39_r_6" type="page_number__deleted_or_striked_out">
@@ -260,7 +268,11 @@
             </p>
          <p facs="#facs_39_r_7" xml:lang="ru" xml:id="p0124-ru">
             <milestone unit="line" facs="#facs_39_l_38" n="N001"/>Один раз я услышала ночью, как он громко с тоской произнес женское имя:
-            <pb facs="#facs_40" n="40" xml:id="img_0040"/>
+            <pb corresp="#facs_40"
+                n="40"
+                xml:id="img_0040"
+                ana="39r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597693/full/max/0/default.jpg"/>
             <fw facs="#facs_40_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_40_l" n="N001"/>39</fw>
             <fw facs="#facs_40_r_2" type="page_number__deleted_or_striked_out">
@@ -345,7 +357,11 @@
          <p facs="#facs_40_r_7" xml:lang="ru" xml:id="p0128-ru">
             <milestone unit="line" facs="#facs_40_l_27" n="N001"/>Когда я уехала, он сказал одной моей знакомой: «Вот была здесь одна сим-
                <milestone unit="line" facs="#facs_40_l_28" n="N002"/>патичная барышня, да уехала» ... Она мне это передала позже.
-            <pb facs="#facs_41" n="41" xml:id="img_0041"/>
+            <pb corresp="#facs_41"
+                n="41"
+                xml:id="img_0041"
+                ana="40r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597695/full/max/0/default.jpg"/>
             <fw facs="#facs_41_tr_1" type="page-number" place="top">
                <milestone unit="line" facs="#facs_41_tr_1_tl_1" n="N001"/>
                <emph rend="underlined">40</emph>

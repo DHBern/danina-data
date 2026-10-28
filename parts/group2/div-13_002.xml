@@ -77,7 +77,11 @@
                <milestone unit="line" facs="#facs_101_l_42" n="N010"/>тех или иных поступков со мною не считаться и чувствовать себя
                <milestone unit="line" facs="#facs_101_l_43" n="N011"/>совершенно свободным. Интересно, что сказал бы он, если бы прочел об этой
                <milestone unit="line" facs="#facs_101_l_44" n="N012"/>детской моей фантации.
-            <pb facs="#facs_102" n="102" xml:id="img_0102"/>
+            <pb corresp="#facs_102"
+                n="102"
+                xml:id="img_0102"
+                ana="101r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597817/full/max/0/default.jpg"/>
             <fw facs="#facs_102_r_5" type="page-number" place="top">
                <milestone unit="line" facs="#facs_102_l_1" n="N001"/>101</fw>
             <fw facs="#facs_102_r" type="page_number__deleted_or_striked_out">
@@ -160,7 +164,11 @@
                <milestone unit="line" facs="#facs_102_l_39" n="N002"/>обойтись и без "дикой утки», иллюзии любви личной, которой нет и не мо-
                <milestone unit="line" facs="#facs_102_l_40" n="N003"/>жет быть теперь для меня. И пусть я никогда не изведаю этого личного счастья,
                <milestone unit="line" facs="#facs_102_l_41" n="N004"/>я смогу, кажется мне, &lt;ещё&gt; быть счастливой, если мне удастся хоть что-ни¬
-            <pb facs="#facs_103" n="103" xml:id="img_0103"/>
+            <pb corresp="#facs_103"
+                n="103"
+                xml:id="img_0103"
+                ana="102r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597819/full/max/0/default.jpg"/>
             <fw facs="#facs_103_r_5" type="page-number" place="top">
                <milestone unit="line" facs="#facs_103_l_15" n="N001"/>102</fw>
             <fw facs="#facs_103_r_3" type="page_number__deleted_or_striked_out">
@@ -242,7 +250,11 @@
          <p facs="#facs_103_r_4" xml:lang="ru" xml:id="p0311-ru">
             <milestone unit="line" facs="#facs_103_l_12" n="N001"/>А по вечерам я любила смотреть в освещенныя окна домов. Я видела
                <milestone unit="line" facs="#facs_103_l_13" n="N002"/>фигуры людей, чью-нибудь склоненную над столом голову и думала: как
-            <pb facs="#facs_104" n="104" xml:id="img_0104"/>
+            <pb corresp="#facs_104"
+                n="104"
+                xml:id="img_0104"
+                ana="103r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597821/full/max/0/default.jpg"/>
             <fw facs="#facs_104_r_4" type="page-number" place="centre">
                <milestone unit="line" facs="#facs_104_l_1" n="N001"/>103 </fw>
             <fw facs="#facs_104_r" type="page_number__deleted_or_striked_out">
@@ -278,7 +290,11 @@
                <milestone unit="line" facs="#facs_104_l_12" n="N008"/>если бы эта мысль могла доставить кому-нибудь из этих далеких мне братьев
                <milestone unit="line" facs="#facs_104_l_13" n="N009"/>хоть маленькую радость и поддержать его в минуту слабости и отчая-
                <milestone unit="line" facs="#facs_104_l_14" n="N010"/>ния, то я была бы счастлива и могла бы назвать себя победительницей.
-            <pb facs="#facs_105" n="105" xml:id="img_0105"/>
+            <pb corresp="#facs_105"
+                n="105"
+                xml:id="img_0105"
+                ana="103r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597823/full/max/0/default.jpg"/>
             <fw facs="#facs_105_r_7" type="page-number" place="top">
                <milestone unit="line" facs="#facs_105_l_21" n="N001"/>103a</fw>
             <fw facs="#facs_105_r_5" type="page_number__deleted_or_striked_out">
@@ -360,7 +376,11 @@
                <milestone unit="line" facs="#facs_105_l_16" n="N002"/>ошибалась, полагая, будто могу обойтись без личного счастья и чувствовать
                <milestone unit="line" facs="#facs_105_l_17" n="N003"/>себя хорошо, делая, что нибудь для счастья других людей. Я старалась
                <milestone unit="line" facs="#facs_105_l_18" n="N004"/>как можно меньше думать о Борисе и не ждать каждый день с нетер-<milestone unit="line" facs="#facs_105_l_19" n="N005" break="no"/>пением его прихода. Он редко приходил ко мне за последнее время. У ме-
-            <pb facs="#facs_106" n="106" xml:id="img_0106"/>
+            <pb corresp="#facs_106"
+                n="106"
+                xml:id="img_0106"
+                ana="104r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597825/full/max/0/default.jpg"/>
             <fw facs="#facs_106_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_106_l_29" n="N001"/>104</fw>
             <milestone unit="line" facs="#facs_106_l_30" n="N001"/>ня было такое впечатление, что со времени его кровохаркания мы отдалились
@@ -409,7 +429,11 @@
                <milestone unit="line" facs="#facs_106_l_26" n="N010"/>и здесь, далеко на чужбине, вдали от родных, есть кто то, кто желает
                <milestone unit="line" facs="#facs_106_l_27" n="N011"/>мне добра, помогло мне. И теперь я не делаю глупостей и стараюсь
                <milestone unit="line" facs="#facs_106_l_28" n="N012"/>преодолеть мою нервность.
-            <pb facs="#facs_107" n="107" xml:id="img_0107"/>
+            <pb corresp="#facs_107"
+                n="107"
+                xml:id="img_0107"
+                ana="105r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597827/full/max/0/default.jpg"/>
             <fw facs="#facs_107_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_107_l" n="N001"/>105</fw>
          </p>
@@ -464,7 +488,11 @@
                <milestone unit="line" facs="#facs_107_l_19" n="N015"/>интересует его и нравится ему. Не само по себе, а потому, что это ему нра-<milestone unit="line" facs="#facs_107_l_20" n="N016" break="no"/>вится и его интересует. Кажется, будто я воспринимаю все не непосредственно,
                <milestone unit="line" facs="#facs_107_l_21" n="N017"/>но через него, как некую призму, сквозь, которую я смотрю на свет. Я чувст<milestone unit="line" facs="#facs_107_l_22" n="N018" break="no"/>вую, что без него все для меня потускнеет, примет более унылые и серые тона.
                <milestone unit="line" facs="#facs_107_l_23" n="N019"/>В те дни, когда он заходит ко мне лишь на минутку, я чувствую себя сов-¬
-            <pb facs="#facs_108" n="108" xml:id="img_0108"/>
+            <pb corresp="#facs_108"
+                n="108"
+                xml:id="img_0108"
+                ana="106r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597829/full/max/0/default.jpg"/>
             <fw facs="#facs_108_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_108_l" n="N001"/>106</fw>
          </p>
@@ -516,7 +544,11 @@
                <milestone unit="line" facs="#facs_108_l_27" n="N026"/>чистая, без примеси, дружба – с его стороны, а с моей да, есть маленькая
                <milestone unit="line" facs="#facs_108_l_28" n="N027"/>примесь. Иногда, в те моменты, когда у него бывает его особенно хорошее
                <milestone unit="line" facs="#facs_108_l_29" n="N028"/>выражение лица, которое я так люблю, я <del rend="strikethrough">лю</del> ловлю себя на том, что вся¬
-            <pb facs="#facs_109" n="109" xml:id="img_0109"/>
+            <pb corresp="#facs_109"
+                n="109"
+                xml:id="img_0109"
+                ana="107r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597831/full/max/0/default.jpg"/>
             <fw facs="#facs_109_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_109_l" n="N001"/>107</fw>
             <milestone unit="line" facs="#facs_109_l_29" n="N001"/>моя душа стремится к нему и мне хотелось бы поцеловать его. Но это бывает
@@ -614,7 +646,11 @@
                <milestone unit="line" facs="#facs_109_l_9" n="N004"/>самый близкий и любимый, не может услышать его души и разделить с
                <milestone unit="line" facs="#facs_109_l_10" n="N005"/>ней безмерную тяжесть, которая давит, как могильная плита. И душа
                <milestone unit="line" facs="#facs_109_l_11" n="N006"/>поет, и рыдает, и бьется в бессильном отчаянии в своей тюрьме, но песнь
-            <pb facs="#facs_110" n="110" xml:id="img_0110"/>
+            <pb corresp="#facs_110"
+                n="110"
+                xml:id="img_0110"
+                ana="108r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597833/full/max/0/default.jpg"/>
             <fw facs="#facs_110_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_110_l_8" n="N001"/>108</fw>
             <milestone unit="line" facs="#facs_110_l_9" n="N001"/>ее, как стон заключенного в глухом подземельи: – Душа человека одинока,¬

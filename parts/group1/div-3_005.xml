@@ -50,7 +50,11 @@
                <milestone unit="line" facs="#facs_34_l_38" n="N004"/>что ходил за нею на почту семь дней подряд. Я уже хотел телегафиро-
                <milestone unit="line" facs="#facs_34_l_39" n="N005"/>вать начальнице санаторий и запросить, что с Вами?... Если бы было в
                <milestone unit="line" facs="#facs_34_l_40" n="N006"/>моей власти и силах, я бы отвез Вас не только в Швейцарию, а объездил бы
-            <pb facs="#facs_35" n="35" xml:id="img_0035"/>
+            <pb corresp="#facs_35"
+                n="35"
+                xml:id="img_0035"
+                ana="34r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597683/full/max/0/default.jpg"/>
             <fw facs="#facs_35_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_35_l_1" n="N001"/>34 [<del rend="strikethrough">67</del>]</fw>
             <fw facs="#facs_35_r_2" type="page_number__deleted_or_striked_out">
@@ -173,7 +177,11 @@
             <milestone unit="line" facs="#facs_35_l_28" n="N001"/>Он никогда мне теперь не снится, но иногда мне снился раньше, будто
                <milestone unit="line" facs="#facs_35_l_29" n="N002"/>я получаю от него письмо, в котором он мне что то объясняет, про-
                <milestone unit="line" facs="#facs_35_l_36" n="N003"/>сит прощения и умоляет ответить. И во сне у меня являлось нехоро-
-            <pb facs="#facs_36" n="36" xml:id="img_0036"/>
+            <pb corresp="#facs_36"
+                n="36"
+                xml:id="img_0036"
+                ana="35r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597685/full/max/0/default.jpg"/>
             <fw facs="#facs_36_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_36_l" n="N001"/>35 </fw>
             <fw facs="#facs_36_r_1" type="page_number__deleted_or_striked_out">
@@ -203,7 +211,11 @@
             </p>
          <p facs="#facs_36_r_3" xml:lang="ru" xml:id="p0108-ru">
             <milestone unit="line" facs="#facs_36_l_3" n="N001"/>И мысль: нет, я не отвечу, хотя мне и хочется этого.
-            <pb facs="#facs_37" n="37" xml:id="img_0037"/>
+            <pb corresp="#facs_37"
+                n="37"
+                xml:id="img_0037"
+                ana="36r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597687/full/max/0/default.jpg"/>
             <fw facs="#facs_37_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_37_l" n="N001"/>36</fw>
             <fw facs="#facs_37_r_2" type="page_number__deleted_or_striked_out">

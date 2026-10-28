@@ -52,7 +52,11 @@
                <milestone unit="line" facs="#facs_143_l_24" n="N003"/>так он похудел. Я думаю, что ему действительно необходимо уехать от-
                <milestone unit="line" facs="#facs_143_l_25" n="N004"/>сюда, но опасаюсь, как бы в горах не стало хуже для его сердца. Мme D. ска-
                <milestone unit="line" facs="#facs_143_l_26" n="N005"/>зала мне, что встретив ее в городе, просил поговорить со мною о том,
-            <pb facs="#facs_144" n="144" xml:id="img_0144"/>
+            <pb corresp="#facs_144"
+                n="144"
+                xml:id="img_0144"
+                ana="142r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597901/full/max/0/default.jpg"/>
             <fw facs="#facs_144_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_144_l" n="N001"/>142</fw>
             <milestone unit="line" facs="#facs_144_l_1" n="N001"/>чтобы и я поехала в горы. И теперь его знакомый тоже говорил об этом: «Вот
@@ -140,7 +144,11 @@
             <milestone unit="line" facs="#facs_144_l_29" n="N001"/>Две недели тому назад он долго говорил со мною о том, как ему тяжело
                <milestone unit="line" facs="#facs_144_l_30" n="N002"/>жить, как все не удается ему и жестоко нападал на свой тяжелый ха-
                <milestone unit="line" facs="#facs_144_l_31" n="N003"/>рактер, на свою вспыльчивость, во время которой, потеряв самообладание,
-            <pb facs="#facs_145" n="145" xml:id="img_0145"/>
+            <pb corresp="#facs_145"
+                n="145"
+                xml:id="img_0145"
+                ana="143r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597903/full/max/0/default.jpg"/>
             <fw facs="#facs_145_r_3" type="page-number" place="top">
                <milestone unit="line" facs="#facs_145_l_16" n="N001"/>143</fw>
             <milestone unit="line" facs="#facs_145_l_17" n="N001"/>он может больно обидеть человека, хотя вскоре затем ему становится очень
@@ -213,7 +221,11 @@
                <milestone unit="line" facs="#facs_145_l_27" n="N004"/>здоров, то мог бы заработать и для себя, и для меня, и «для Вас также», до-
                <milestone unit="line" facs="#facs_145_l_28" n="N005"/>бавил он. Я думаю, впрочем, что последние слова он добавил только для
                <milestone unit="line" facs="#facs_145_l_29" n="N006"/>того, чтобы не обидеть Mlle Ш.
-            <pb facs="#facs_146" n="146" xml:id="img_0146"/>
+            <pb corresp="#facs_146"
+                n="146"
+                xml:id="img_0146"
+                ana="144r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597905/full/max/0/default.jpg"/>
             <fw facs="#facs_146_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_146_l_1" n="N001"/>144</fw>
          </p>
@@ -305,7 +317,11 @@
                <milestone unit="line" facs="#facs_146_l_29" n="N002"/>весь прозрачный, как из хрусталя, с круглым куполом и весь светился
                <milestone unit="line" facs="#facs_146_l_30" n="N003"/>голубым светом. Но моим глазам было больно смотреть.
                <milestone unit="line" facs="#facs_146_l_31" n="N004"/>И еще мне снились маки, хорошие, настоящие красные таки, как у
-            <pb facs="#facs_147" n="147" xml:id="img_0147"/>
+            <pb corresp="#facs_147"
+                n="147"
+                xml:id="img_0147"
+                ana="145r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597907/full/max/0/default.jpg"/>
             <fw facs="#facs_147_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_147_l" n="N001"/>145</fw>
          </p>
@@ -543,7 +559,11 @@
                <milestone unit="line" facs="#facs_149_l_41" n="N002"/>смену его настроения легкомыслием с его стороны. Я улыбнулась незаметно
                <milestone unit="line" facs="#facs_149_l_42" n="N003"/>и, к сожалению, не видела его лица, но подозрѣваю, что он тоже улыб-
                <milestone unit="line" facs="#facs_149_l_43" n="N004"/>нулся.
-            <pb facs="#facs_150" n="150" xml:id="img_0150"/>
+            <pb corresp="#facs_150"
+                n="150"
+                xml:id="img_0150"
+                ana="148r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597913/full/max/0/default.jpg"/>
             <fw facs="#facs_150_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_150_l" n="N001"/>148</fw>
          </p>
