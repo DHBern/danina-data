@@ -336,6 +336,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-9_001.xml?person_annotation_20261028202258159",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-28T19:22:58.159Z",
+	"dcterms:modified": "2026-10-28T19:22:58.159Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eva-sob",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eva Maurer"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-9_001.xml?person_annotation_20261028202258159#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-9_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-9_001.xml?person_annotation_20261028202258159#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q7325",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -350,7 +430,7 @@
             <milestone unit="line" facs="#facs_45_l_24" n="N001"/>9 мая он вошел ко мне в комнату.
                <milestone unit="line" facs="#facs_45_l_25" n="N002"/>–«Прежде всего позвольте Вам представиться», сказал он: <persName key="Jules Ferdmann" ref="http://www.wikidata.org/entity/Q96364071" cert="high" type="identifiable">Борис Яковлевич
                <milestone unit="line" facs="#facs_45_l_26" n="N003"/>Киндман</persName>».
-               <milestone unit="line" facs="#facs_45_l_27" n="N004"/>Я испытала мимолетное чувство рассчарования: он оказался евреем,
+               <milestone unit="line" facs="#facs_45_l_27" n="N004"/>Я испытала мимолетное чувство рассчарования: он оказался <persName key="Jewish people" ref="http://www.wikidata.org/entity/Q7325" cert="high">евреем</persName>,
             <pb corresp="#facs_46" n="46" xml:id="img_0046" ana="45r" facs="https://www.e-manuscripta.ch/i3f/v30/4597705/full/max/0/default.jpg"/>
             <fw facs="#facs_46_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_46_l_7" n="N001"/>45</fw>
