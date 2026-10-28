@@ -653,6 +653,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-9_001.xml?person_annotation_20261028202616176",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-28T19:26:16.176Z",
+	"dcterms:modified": "2026-10-28T19:26:16.176Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eva-sob",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eva Maurer"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-9_001.xml?person_annotation_20261028202616176#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-9_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-9_001.xml?person_annotation_20261028202616176#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q49542",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -744,8 +823,8 @@
                <milestone unit="line" facs="#facs_46_l_25" n="N002"/>нием говорят о <persName key="Jewish people" ref="http://www.wikidata.org/entity/Q7325">жидовском</persName> нахальстве и т.д.  Для них «<persName key="Jewish people" ref="http://www.wikidata.org/entity/Q7325">жид</persName>» есть воплощение
                <milestone unit="line" facs="#facs_46_l_26" n="N003"/>всех скверных качеств. Я не стану отрицать, что, действительно, в силу
                <milestone unit="line" facs="#facs_46_l_27" n="N004"/>разных исторических и социальных условий некоторые национальные
-               <milestone unit="line" facs="#facs_46_l_28" n="N005"/>черты евреев несимпатичны, но в этой исключительной враждебности русс-
-               <milestone unit="line" facs="#facs_46_l_29" n="N006"/>ких к евреям есть нечто большее: мне кажется, что в основании ее лежит
+               <milestone unit="line" facs="#facs_46_l_28" n="N005"/>черты евреев несимпатичны, но в этой исключительной враждебности <persName key="Russians" ref="http://www.wikidata.org/entity/Q49542">русс-
+               <milestone unit="line" facs="#facs_46_l_29" n="N006"/>ких</persName> к евреям есть нечто большее: мне кажется, что в основании ее лежит
                <milestone unit="line" facs="#facs_46_l_30" n="N007"/>зависть к <emph rend="underlined">хорошим</emph> качествам евреев, тем качествам, которых именно
                <milestone unit="line" facs="#facs_46_l_31" n="N008"/>так недостает русским: энергии, предприимчивости, умения сильно любить,
             <pb corresp="#facs_47" n="47" xml:id="img_0047" ana="46r" facs="https://www.e-manuscripta.ch/i3f/v30/4597707/full/max/0/default.jpg"/>
