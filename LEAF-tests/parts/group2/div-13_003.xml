@@ -122,7 +122,11 @@
             <milestone unit="line" facs="#facs_111_l_12" n="N001"/>А, помню, каким сильным ключем била во мне раньше жизнь. Помню, как
                <milestone unit="line" facs="#facs_111_l_13" n="N002"/>ночью я стояла на ковре перед моей постелью. В окно лился лунный свет, а я
                <milestone unit="line" facs="#facs_111_l_14" n="N003"/>смотрела и не могла оторвать глаз от созвездия Ориона. В душе моей было
-            <pb facs="#facs_112" n="112" xml:id="img_0112"/>
+            <pb corresp="#facs_112"
+                n="112"
+                xml:id="img_0112"
+                ana="110r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597837/full/max/0/default.jpg"/>
             <milestone unit="line" facs="#facs_112_l" n="N001"/>110¬
                <milestone unit="line" facs="#facs_112_l_29" n="N001"/>так полно, прекрасно. Мне чудилось, будто там где то в небе есть и моя звез-
                <milestone unit="line" facs="#facs_112_l_30" n="N002"/>да, и мне предстоит совершить в жизни, что то значительное и прекрасное...
@@ -132,7 +136,7 @@
                <milestone unit="line" facs="#facs_111_l_12" n="N001"/>А, помню, каким сильным ключем била во мне раньше жизнь. Помню, как
                <milestone unit="line" facs="#facs_111_l_13" n="N002"/>ночью я стояла на ковре перед моей постелью. В окно лился лунный свет, а я
                <milestone unit="line" facs="#facs_111_l_14" n="N003"/>смотрела и не могла оторвать глаз от созвездия Ориона. В душе моей было
-            <pb facs="#facs_112" n="112" xml:id="img_0112-de"/>
+            <milestone unit="page" n="112" xml:id="img_0112-de"/>
             <milestone unit="line" facs="#facs_112_l" n="N001"/>110¬
                <milestone unit="line" facs="#facs_112_l_29" n="N001"/>так полно, прекрасно. Мне чудилось, будто там где то в небе есть и моя звез-
                <milestone unit="line" facs="#facs_112_l_30" n="N002"/>да, и мне предстоит совершить в жизни, что то значительное и прекрасное...

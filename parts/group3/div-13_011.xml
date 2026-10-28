@@ -507,7 +507,11 @@
                <milestone unit="line" facs="#facs_165_l_34" n="N002"/>доваться”. Сначала я радовалась тому, что получу письмо от Бориса, но ни-
                <milestone unit="line" facs="#facs_165_l_35" n="N003"/>чего не получила, и много овладело мрачное тягучее настроение. Мне ужасно
                <milestone unit="line" facs="#facs_165_l_36" n="N004"/>хотелось, чтобы кто нибудь пришел или случилось что-нибудь особенное.
-            <pb facs="#facs_166" n="166" xml:id="img_0166"/>
+            <pb corresp="#facs_166"
+                n="166"
+                xml:id="img_0166"
+                ana="164r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597945/full/max/0/default.jpg"/>
             <milestone unit="line" facs="#facs_166_l" n="N001"/>164
             </p>
          <p facs="#facs_165_r_8" xml:lang="de" corresp="#p0543-ru">{TRANSLATION GOES HERE}
@@ -515,7 +519,7 @@
                <milestone unit="line" facs="#facs_165_l_34" n="N002"/>доваться”. Сначала я радовалась тому, что получу письмо от Бориса, но ни-
                <milestone unit="line" facs="#facs_165_l_35" n="N003"/>чего не получила, и много овладело мрачное тягучее настроение. Мне ужасно
                <milestone unit="line" facs="#facs_165_l_36" n="N004"/>хотелось, чтобы кто нибудь пришел или случилось что-нибудь особенное.
-            <pb facs="#facs_166" n="166" xml:id="img_0166-de"/>
+            <milestone unit="page" n="166" xml:id="img_0166-de"/>
             <milestone unit="line" facs="#facs_166_l" n="N001"/>164
             </p>
          <p facs="#facs_166_r_2" xml:lang="ru" xml:id="p0544-ru">
@@ -564,7 +568,11 @@
                <milestone unit="line" facs="#facs_166_l_54" n="N013"/>Когда я спросила, как зовут ее куклу, она назвала какое то имя, не посмот-
                <milestone unit="line" facs="#facs_166_l_55" n="N014"/>рев на куклу, но глядя перед собой со сложенными, как у покойников, тон-
                <milestone unit="line" facs="#facs_166_l_56" n="N015"/>кими ручками. Я почувствовала, что кукла от нее далеко-далеко, и ей
-            <pb facs="#facs_167" n="167" xml:id="img_0167"/>
+            <pb corresp="#facs_167"
+                n="167"
+                xml:id="img_0167"
+                ana="165r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597947/full/max/0/default.jpg"/>
             <milestone unit="line" facs="#facs_167_l" n="N001"/>165
             </p>
          <p facs="#facs_166_r_3" xml:lang="de" corresp="#p0545-ru">{TRANSLATION GOES HERE}
@@ -583,7 +591,7 @@
                <milestone unit="line" facs="#facs_166_l_54" n="N013"/>Когда я спросила, как зовут ее куклу, она назвала какое то имя, не посмот-
                <milestone unit="line" facs="#facs_166_l_55" n="N014"/>рев на куклу, но глядя перед собой со сложенными, как у покойников, тон-
                <milestone unit="line" facs="#facs_166_l_56" n="N015"/>кими ручками. Я почувствовала, что кукла от нее далеко-далеко, и ей
-            <pb facs="#facs_167" n="167" xml:id="img_0167-de"/>
+            <milestone unit="page" n="167" xml:id="img_0167-de"/>
             <milestone unit="line" facs="#facs_167_l" n="N001"/>165
             </p>
          <p facs="#facs_167_r_1" xml:lang="ru" xml:id="p0546-ru">
@@ -615,7 +623,11 @@
             <milestone unit="line" facs="#facs_167_l_26" n="N026"/>спокойно, и вы забудете о солнце.“ И маленькая девочка и маленькая собачка
                <milestone unit="line" facs="#facs_167_l_27" n="N027"/>послушались призыва земли... А солнце продолжает светить для других малень-
                <milestone unit="line" facs="#facs_167_l_28" n="N028"/>ких девочек и собачек, которые могут бегать на здоровых крепких кожках.
-            <pb facs="#facs_168" n="168" xml:id="img_0168"/>
+            <pb corresp="#facs_168"
+                n="168"
+                xml:id="img_0168"
+                ana="166r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597949/full/max/0/default.jpg"/>
             <milestone unit="line" facs="#facs_168_l" n="N001"/>166
             </p>
          <p facs="#facs_167_r_1" xml:lang="de" corresp="#p0546-ru">{TRANSLATION GOES HERE}
@@ -647,7 +659,7 @@
             <milestone unit="line" facs="#facs_167_l_26" n="N026"/>спокойно, и вы забудете о солнце.“ И маленькая девочка и маленькая собачка
                <milestone unit="line" facs="#facs_167_l_27" n="N027"/>послушались призыва земли... А солнце продолжает светить для других малень-
                <milestone unit="line" facs="#facs_167_l_28" n="N028"/>ких девочек и собачек, которые могут бегать на здоровых крепких кожках.
-            <pb facs="#facs_168" n="168" xml:id="img_0168-de"/>
+            <milestone unit="page" n="168" xml:id="img_0168-de"/>
             <milestone unit="line" facs="#facs_168_l" n="N001"/>166
             </p>
          <p facs="#facs_168_r_2" xml:lang="ru" xml:id="p0547-ru">
@@ -704,7 +716,11 @@
                <milestone unit="line" facs="#facs_168_l_14" n="N009"/>через двери и даже окотечки. Ведь вот какие неблагодарные! Сначала Та-
                <milestone unit="line" facs="#facs_168_l_15" n="N010"/>нечка ловит беглецов и водворяет их снова в „дом“, но наконец это стано-
                <milestone unit="line" facs="#facs_168_l_16" n="N011"/>вится ей скучно. И разочарование в первый раз в жизни овладевается, ее &lt;маленькой&gt; душой...
-            <pb facs="#facs_169" n="169" xml:id="img_0169"/>
+            <pb corresp="#facs_169"
+                n="169"
+                xml:id="img_0169"
+                ana="167r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597951/full/max/0/default.jpg"/>
             <milestone unit="line" facs="#facs_169_l" n="N001"/>167
             </p>
          <p facs="#facs_168_r_4" xml:lang="de" corresp="#p0549-ru">{TRANSLATION GOES HERE}
@@ -719,7 +735,7 @@
                <milestone unit="line" facs="#facs_168_l_14" n="N009"/>через двери и даже окотечки. Ведь вот какие неблагодарные! Сначала Та-
                <milestone unit="line" facs="#facs_168_l_15" n="N010"/>нечка ловит беглецов и водворяет их снова в „дом“, но наконец это стано-
                <milestone unit="line" facs="#facs_168_l_16" n="N011"/>вится ей скучно. И разочарование в первый раз в жизни овладевается, ее &lt;маленькой&gt; душой...
-            <pb facs="#facs_169" n="169" xml:id="img_0169-de"/>
+            <milestone unit="page" n="169" xml:id="img_0169-de"/>
             <milestone unit="line" facs="#facs_169_l" n="N001"/>167
             </p>
          <p facs="#facs_169_r_2" xml:lang="ru" xml:id="p0550-ru">

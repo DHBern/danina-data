@@ -439,7 +439,11 @@
                <milestone unit="line" facs="#facs_8_l_28" n="N014"/>невысказанное слово и прямо вносила в свое раскрытое сердце, угадывая
                <milestone unit="line" facs="#facs_8_l_29" n="N015"/>тайный смыся всей душевной работы Пьера".
             </quote>
-            <pb facs="#facs_9" n="9" xml:id="img_0009"/>
+            <pb corresp="#facs_9"
+                n="9"
+                xml:id="img_0009"
+                ana="8r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597631/full/max/0/default.jpg"/>
             <milestone unit="line" facs="#facs_9_l" n="N001"/> 8 
             <fw facs="#facs_9_r_2" type="page_number__deleted_or_striked_out">
                <del>
@@ -475,7 +479,7 @@
                <milestone unit="line" facs="#facs_8_l_28" n="N014"/>невысказанное слово и прямо вносила в свое раскрытое сердце, угадывая
                <milestone unit="line" facs="#facs_8_l_29" n="N015"/>тайный смыся всей душевной работы Пьера".
             </quote>
-            <pb facs="#facs_9" n="9" xml:id="img_0009-de"/>
+            <milestone unit="page" n="9" xml:id="img_0009-de"/>
             <milestone unit="line" facs="#facs_9_l" n="N001"/> 8 
             <fw facs="#facs_9_r_2" type="page_number__deleted_or_striked_out">
                <del>
@@ -634,7 +638,11 @@
                <milestone unit="line" facs="#facs_10_l_23" n="N004"/>покончить самоубийством, если я не подам ему никакой надежды
                <milestone unit="line" facs="#facs_10_l_24" n="N005"/>на взаимность, высказывал желание приехать к нам, чтобы только
                <milestone unit="line" facs="#facs_10_l_25" n="N006"/>увидать меня. Я была выбита из равновсесия и не знала, что делать.
-            <pb facs="#facs_11" n="11" xml:id="img_0011"/>
+            <pb corresp="#facs_11"
+                n="11"
+                xml:id="img_0011"
+                ana="10r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597635/full/max/0/default.jpg"/>
             <milestone unit="line" facs="#facs_11_l" n="N001"/>10
             <fw facs="#facs_11_r_5" type="page_number__deleted_or_striked_out">
                <del>
@@ -649,7 +657,7 @@
                <milestone unit="line" facs="#facs_10_l_23" n="N004"/>покончить самоубийством, если я не подам ему никакой надежды
                <milestone unit="line" facs="#facs_10_l_24" n="N005"/>на взаимность, высказывал желание приехать к нам, чтобы только
                <milestone unit="line" facs="#facs_10_l_25" n="N006"/>увидать меня. Я была выбита из равновсесия и не знала, что делать.
-            <pb facs="#facs_11" n="11" xml:id="img_0011-de"/>
+            <milestone unit="page" n="11" xml:id="img_0011-de"/>
             <milestone unit="line" facs="#facs_11_l" n="N001"/>10
             <fw facs="#facs_11_r_5" type="page_number__deleted_or_striked_out">
                <del>

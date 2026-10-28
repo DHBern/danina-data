@@ -54,7 +54,11 @@
             </p>
          <p facs="#facs_169_r_7" xml:lang="ru" xml:id="p0555-ru">
             <milestone unit="line" facs="#facs_169_l_36" n="N001"/>Но вот один шутник „дядя“ замечает, что у Танечки слипаются глаза и
-            <pb facs="#facs_170" n="170" xml:id="img_0170"/>
+            <pb corresp="#facs_170"
+                n="170"
+                xml:id="img_0170"
+                ana="168r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597953/full/max/0/default.jpg"/>
             <milestone unit="line" facs="#facs_170_l" n="N001"/>168
                <milestone unit="line" facs="#facs_170_l_30" n="N001"/>он предлагается <del rend="strikethrough">ей</del> сделать ей <del rend="strikethrough">сделать</del> из спичек подпорки. Танечка сердится
                <milestone unit="line" facs="#facs_170_l_31" n="N002"/>и изо всех сил старается раскрыть глаза как можно шире. Другой „дядя“ с
@@ -66,7 +70,7 @@
             </p>
          <p facs="#facs_169_r_7" xml:lang="de" corresp="#p0555-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_169_l_36" n="N001"/>Но вот один шутник „дядя“ замечает, что у Танечки слипаются глаза и
-            <pb facs="#facs_170" n="170" xml:id="img_0170-de"/>
+            <milestone unit="page" n="170" xml:id="img_0170-de"/>
             <milestone unit="line" facs="#facs_170_l" n="N001"/>168
                <milestone unit="line" facs="#facs_170_l_30" n="N001"/>он предлагается <del rend="strikethrough">ей</del> сделать ей <del rend="strikethrough">сделать</del> из спичек подпорки. Танечка сердится
                <milestone unit="line" facs="#facs_170_l_31" n="N002"/>и изо всех сил старается раскрыть глаза как можно шире. Другой „дядя“ с
@@ -382,7 +386,11 @@
          </p>
          <p facs="#facs_173_r_6" xml:lang="ru" xml:id="p0566-ru">
             <milestone unit="line" facs="#facs_173_l_4" n="N001"/>Я не мала. Смутно я <del rend="strikethrough">на д</del> надеялась, что записки произведут в нем пере-
-            <pb facs="#facs_174" n="174" xml:id="img_0174"/>
+            <pb corresp="#facs_174"
+                n="174"
+                xml:id="img_0174"
+                ana="172r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597961/full/max/0/default.jpg"/>
             <milestone unit="line" facs="#facs_174_l" n="N001"/>172
                <milestone unit="line" facs="#facs_174_l_27" n="N001"/>ворот, но когда я попыталась представить себе его влюбленным, я убедилась, что
                <milestone unit="line" facs="#facs_174_l_28" n="N002"/>это ужасно не шло бы к нему, и я не смогла бы относиться к нему по-прежнему.
@@ -392,7 +400,7 @@
             </p>
          <p facs="#facs_173_r_6" xml:lang="de" corresp="#p0566-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_173_l_4" n="N001"/>Я не мала. Смутно я <del rend="strikethrough">на д</del> надеялась, что записки произведут в нем пере-
-            <pb facs="#facs_174" n="174" xml:id="img_0174-de"/>
+            <milestone unit="page" n="174" xml:id="img_0174-de"/>
             <milestone unit="line" facs="#facs_174_l" n="N001"/>172
                <milestone unit="line" facs="#facs_174_l_27" n="N001"/>ворот, но когда я попыталась представить себе его влюбленным, я убедилась, что
                <milestone unit="line" facs="#facs_174_l_28" n="N002"/>это ужасно не шло бы к нему, и я не смогла бы относиться к нему по-прежнему.

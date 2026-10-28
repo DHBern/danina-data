@@ -138,7 +138,11 @@
                <milestone unit="line" facs="#facs_93_l_19" n="N007"/>вую руку. Не будь около меня Бориса, я наверное уже давно бы умерла. Я
                <milestone unit="line" facs="#facs_93_l_20" n="N008"/>чувствую, что он жалеет и любит меня. Но это все таки не то, чего
                <milestone unit="line" facs="#facs_93_l_21" n="N009"/>бы мне хотелось. Мы не совсем близки, и мы не родные, и я не могу
-            <pb facs="#facs_94" n="94" xml:id="img_0094"/>
+            <pb corresp="#facs_94"
+                n="94"
+                xml:id="img_0094"
+                ana="93r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597801/full/max/0/default.jpg"/>
             <milestone unit="line" facs="#facs_94_l_26" n="N001"/>93 
             <fw facs="#facs_94_r_5" type="page_number__deleted_or_striked_out">
                <del>
@@ -161,7 +165,7 @@
                <milestone unit="line" facs="#facs_93_l_19" n="N007"/>вую руку. Не будь около меня Бориса, я наверное уже давно бы умерла. Я
                <milestone unit="line" facs="#facs_93_l_20" n="N008"/>чувствую, что он жалеет и любит меня. Но это все таки не то, чего
                <milestone unit="line" facs="#facs_93_l_21" n="N009"/>бы мне хотелось. Мы не совсем близки, и мы не родные, и я не могу
-            <pb facs="#facs_94" n="94" xml:id="img_0094-de"/>
+            <milestone unit="page" n="94" xml:id="img_0094-de"/>
             <milestone unit="line" facs="#facs_94_l_26" n="N001"/>93 
             <fw facs="#facs_94_r_5" type="page_number__deleted_or_striked_out">
                <del>

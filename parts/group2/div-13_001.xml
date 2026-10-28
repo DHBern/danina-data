@@ -83,7 +83,11 @@
          <p facs="#facs_95_r_11" xml:lang="ru" xml:id="p0283-ru">
             <milestone unit="line" facs="#facs_95_l_37" n="N001"/>Я опасаюсь, что дурно поступила, дав Борису именно этот отры-
                <milestone unit="line" facs="#facs_95_l_38" n="N002"/>вок. Зачем я это сделала? Отчасти потому, что он показался мне
-            <pb facs="#facs_96" n="96" xml:id="img_0096"/>
+            <pb corresp="#facs_96"
+                n="96"
+                xml:id="img_0096"
+                ana="95r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597805/full/max/0/default.jpg"/>
             <milestone unit="line" facs="#facs_96_l_9" n="N001"/>95
             <fw facs="#facs_96_r_6" type="page_number__deleted_or_striked_out">
                <del>
@@ -99,7 +103,7 @@
          <p facs="#facs_95_r_11" xml:lang="de" corresp="#p0283-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_95_l_37" n="N001"/>Я опасаюсь, что дурно поступила, дав Борису именно этот отры-
                <milestone unit="line" facs="#facs_95_l_38" n="N002"/>вок. Зачем я это сделала? Отчасти потому, что он показался мне
-            <pb facs="#facs_96" n="96" xml:id="img_0096-de"/>
+            <milestone unit="page" n="96" xml:id="img_0096-de"/>
             <milestone unit="line" facs="#facs_96_l_9" n="N001"/>95
             <fw facs="#facs_96_r_6" type="page_number__deleted_or_striked_out">
                <del>

@@ -371,7 +371,11 @@
                <milestone unit="line" facs="#facs_147_l_20" n="N018"/>это развеселит Вас и Вы в следующий раз не будете такой печальный.
                <milestone unit="line" facs="#facs_147_l_21" n="N019"/>Пока до свидания. Т. Д."
             </quote>
-            <pb facs="#facs_148" n="148" xml:id="img_0148"/>
+            <pb corresp="#facs_148"
+                n="148"
+                xml:id="img_0148"
+                ana="146r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597909/full/max/0/default.jpg"/>
             <milestone unit="line" facs="#facs_148_l" n="N001"/>146
             </p>
          <p facs="#facs_147_r_4" xml:lang="de" corresp="#p0469-ru">{TRANSLATION GOES HERE}
@@ -397,7 +401,7 @@
                <milestone unit="line" facs="#facs_147_l_20" n="N018"/>это развеселит Вас и Вы в следующий раз не будете такой печальный.
                <milestone unit="line" facs="#facs_147_l_21" n="N019"/>Пока до свидания. Т. Д."
             </quote>
-            <pb facs="#facs_148" n="148" xml:id="img_0148-de"/>
+            <milestone unit="page" n="148" xml:id="img_0148-de"/>
             <milestone unit="line" facs="#facs_148_l" n="N001"/>146
             </p>
          <p facs="#facs_148_r_4" xml:lang="ru" xml:id="p0470-ru">
@@ -459,7 +463,11 @@
                <milestone unit="line" facs="#facs_148_l_27" n="N004"/>повеселела. Мы болтали непринужденно, но мне все время казалось, что
                <milestone unit="line" facs="#facs_148_l_28" n="N005"/>ему хочется сказать что-то особенное, но он не решается. Прошло уже
                <milestone unit="line" facs="#facs_148_l_29" n="N006"/>полтора часа, а Мlle. Ш. все еще не приходила. Обычно она каким-то пу-
-            <pb facs="#facs_149" n="149" xml:id="img_0149"/>
+            <pb corresp="#facs_149"
+                n="149"
+                xml:id="img_0149"
+                ana="147r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597911/full/max/0/default.jpg"/>
             <milestone unit="line" facs="#facs_149_l" n="N001"/>147
                <milestone unit="line" facs="#facs_149_l_34" n="N001"/>тем сразу узнавала, что он здесь, немедленно являлась и сидела у меня,
                <milestone unit="line" facs="#facs_149_l_35" n="N002"/>треща без умолку, все время, пока он оставался здесь. Наконец, Борис сказал:
@@ -474,7 +482,7 @@
                <milestone unit="line" facs="#facs_148_l_27" n="N004"/>повеселела. Мы болтали непринужденно, но мне все время казалось, что
                <milestone unit="line" facs="#facs_148_l_28" n="N005"/>ему хочется сказать что-то особенное, но он не решается. Прошло уже
                <milestone unit="line" facs="#facs_148_l_29" n="N006"/>полтора часа, а Мlle. Ш. все еще не приходила. Обычно она каким-то пу-
-            <pb facs="#facs_149" n="149" xml:id="img_0149-de"/>
+            <milestone unit="page" n="149" xml:id="img_0149-de"/>
             <milestone unit="line" facs="#facs_149_l" n="N001"/>147
                <milestone unit="line" facs="#facs_149_l_34" n="N001"/>тем сразу узнавала, что он здесь, немедленно являлась и сидела у меня,
                <milestone unit="line" facs="#facs_149_l_35" n="N002"/>треща без умолку, все время, пока он оставался здесь. Наконец, Борис сказал:

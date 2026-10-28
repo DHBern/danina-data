@@ -412,7 +412,11 @@
                <milestone unit="line" facs="#facs_76_l_56" n="N015"/>О, свѣчи глаз, о звезды – свечи!
                <milestone unit="line" facs="#facs_76_l_57" n="N016"/>О возглас: «Навсегда!»
             </quote>
-            <pb facs="#facs_77" n="77" xml:id="img_0077"/>
+            <pb corresp="#facs_77"
+                n="77"
+                xml:id="img_0077"
+                ana="76r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597767/full/max/0/default.jpg"/>
             <milestone unit="line" facs="#facs_77_l" n="N001"/>76
             </p>
          <p facs="#facs_75_r_1" xml:lang="de" corresp="#p0229-ru">{TRANSLATION GOES HERE}
@@ -471,7 +475,7 @@
                <milestone unit="line" facs="#facs_76_l_56" n="N015"/>О, свѣчи глаз, о звезды – свечи!
                <milestone unit="line" facs="#facs_76_l_57" n="N016"/>О возглас: «Навсегда!»
             </quote>
-            <pb facs="#facs_77" n="77" xml:id="img_0077-de"/>
+            <milestone unit="page" n="77" xml:id="img_0077-de"/>
             <milestone unit="line" facs="#facs_77_l" n="N001"/>76
             </p>
          <p facs="#facs_77_r_2" ana="dated_entry_header">

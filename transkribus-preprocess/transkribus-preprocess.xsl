@@ -219,9 +219,6 @@
     </xsl:if>
   </xsl:template>
   
-  
-  
-  
   <xsl:template match="ab[@type='dated_entry_header']" mode="preprocess-integrate"/>
     
   <xsl:template match="ab[@type='dated_entry_header']" mode="preprocess">
@@ -257,13 +254,15 @@
     <xsl:choose>
       <xsl:when test="following-sibling::ab[@type='quotation_to_be_merged_with_previous'][following-sibling::p/generate-id()=$next-p]"/>
       <xsl:when test="$lang='de'">
-        <xsl:copy>
-          <xsl:copy-of select="@*"/>
+        <milestone unit="page">
+          <xsl:copy-of select="@* except @facs"/>
           <xsl:attribute name="xml:id" select="@xml:id||'-de'"/>
-        </xsl:copy>
+        </milestone>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:sequence select="."/>
+        <xsl:call-template name="make-pb">
+          <xsl:with-param name="in" select="."/>
+        </xsl:call-template>
       </xsl:otherwise>
     </xsl:choose>
     
@@ -315,7 +314,6 @@
         </milestone>
       </xsl:when>
       <xsl:otherwise>
-        <!--<xsl:copy-of select="."/>-->
         <xsl:call-template name="make-pb">
           <xsl:with-param name="in" select="."/>
         </xsl:call-template>
@@ -333,7 +331,6 @@
         </milestone>
       </xsl:when>
       <xsl:otherwise>
-        <!--<xsl:copy-of select="."/>-->
         <xsl:call-template name="make-pb">
           <xsl:with-param name="in" select="."/>
         </xsl:call-template>

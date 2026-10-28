@@ -335,7 +335,11 @@
          <p facs="#facs_59_r_6" xml:lang="ru" xml:id="p0194-ru">
             <milestone unit="line" facs="#facs_59_l_26" n="N001"/>И вот я почувствовала, что он потому так оборвал, что понял в
                <milestone unit="line" facs="#facs_59_l_27" n="N002"/>словах этих мою скрытую мысль. Давая ему читать это стихот-
-            <pb facs="#facs_60" n="60" xml:id="img_0060"/>
+            <pb corresp="#facs_60"
+                n="60"
+                xml:id="img_0060"
+                ana="59r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597733/full/max/0/default.jpg"/>
             <milestone unit="line" facs="#facs_60_l" n="N001"/>59
             <fw facs="#facs_60_r_2" type="page_number__deleted_or_striked_out">
                <del>
@@ -352,7 +356,7 @@
          <p facs="#facs_59_r_6" xml:lang="de" corresp="#p0194-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_59_l_26" n="N001"/>И вот я почувствовала, что он потому так оборвал, что понял в
                <milestone unit="line" facs="#facs_59_l_27" n="N002"/>словах этих мою скрытую мысль. Давая ему читать это стихот-
-            <pb facs="#facs_60" n="60" xml:id="img_0060-de"/>
+            <milestone unit="page" n="60" xml:id="img_0060-de"/>
             <milestone unit="line" facs="#facs_60_l" n="N001"/>59
             <fw facs="#facs_60_r_2" type="page_number__deleted_or_striked_out">
                <del>
@@ -424,7 +428,11 @@
                <milestone unit="line" facs="#facs_60_l_25" n="N003"/>но все лицо его играло сдержанной радостью и я, лукаво заглянув за
                <milestone unit="line" facs="#facs_60_l_26" n="N004"/>спину его, воскликнула: „а там что?“
                <milestone unit="line" facs="#facs_60_l_27" n="N005"/>Я записала подробно в свой дневник <del rend="strikethrough">все</del> весь этот эпизод с эпигра-
-            <pb facs="#facs_61" n="61" xml:id="img_0061"/>
+            <pb corresp="#facs_61"
+                n="61"
+                xml:id="img_0061"
+                ana="60r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597735/full/max/0/default.jpg"/>
             <milestone unit="line" facs="#facs_61_l" n="N001"/>6о
             <fw facs="#facs_61_r_6" type="page_number__deleted_or_striked_out">
                <del>
@@ -449,7 +457,7 @@
                <milestone unit="line" facs="#facs_60_l_25" n="N003"/>но все лицо его играло сдержанной радостью и я, лукаво заглянув за
                <milestone unit="line" facs="#facs_60_l_26" n="N004"/>спину его, воскликнула: „а там что?“
                <milestone unit="line" facs="#facs_60_l_27" n="N005"/>Я записала подробно в свой дневник <del rend="strikethrough">все</del> весь этот эпизод с эпигра-
-            <pb facs="#facs_61" n="61" xml:id="img_0061-de"/>
+            <milestone unit="page" n="61" xml:id="img_0061-de"/>
             <milestone unit="line" facs="#facs_61_l" n="N001"/>6о
             <fw facs="#facs_61_r_6" type="page_number__deleted_or_striked_out">
                <del>
