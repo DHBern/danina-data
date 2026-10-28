@@ -12,3 +12,18 @@
     background-color: transparent;
     border-left: none;
 }
+
+/* Page milestones */
+span[_tag="milestone"][unit="page"] {
+  display: block;
+  border-top: 1px solid #888;
+  margin-top: 1.5em;
+  padding-top: 0.5em;
+}
+
+span[_tag="milestone"][unit="page"]::before {
+  content: "Seite (@n):" attr(n) "\\A";
+  white-space: pre;
+  font-weight: bold;
+  color: #666;
+}
