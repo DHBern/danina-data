@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" href="null"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,36 +14,19 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData>
-         <rdf:RDF xmlns:as="http://www.w3.org/ns/activitystreams#"
-                  xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-                  xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-                  xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                  xmlns:dcterms="http://purl.org/dc/terms/"
-                  xmlns:fabio="https://purl.org/spar/fabio#"
-                  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-                  xmlns:geo="http://www.geonames.org/ontology#"
-                  xmlns:oa="http://www.w3.org/ns/oa#"
-                  xmlns:org="http://www.w3.org/ns/org#"
-                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-                  xmlns:schema="http://schema.org/"
-                  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"/>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData/><xenoData>
+         
       </xenoData>
    </teiHeader>
    <text>
       <body>
-         <ab type="leaf-convenience">
-            <pb corresp="#facs_48"
-                n="48"
-                xml:id="img_0048"
-                ana="47r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597709/full/max/0/default.jpg"/>
-         </ab>
          <head facs="#facs_48_r_7">
             <milestone unit="line" facs="#facs_48_l_8" n="N001"/>VI.</head>
          <head facs="#facs_48_r_7" xml:lang="de">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_48_l_8" n="N001"/>VI.</head>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_48" n="48" xml:id="img_0048" ana="47r" facs="https://www.e-manuscripta.ch/i3f/v30/4597709/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_48_r_6" xml:lang="ru" xml:id="p0152-ru">
             <milestone unit="line" facs="#facs_48_l_2" n="N001"/>Но я отвлеклась.
                <milestone unit="line" facs="#facs_48_l_3" n="N002"/>Итак, желание мое исполнилось: мы стали видеться почти каждый день.
@@ -64,20 +44,20 @@
          <p facs="#facs_48_r_5" xml:lang="ru" xml:id="p0153-ru">
             <milestone unit="line" facs="#facs_48_l_37" n="N001"/>Я стала, конечно, отрицать это. Мой неприветливый вид объяснялся
                <milestone unit="line" facs="#facs_48_l_38" n="N002"/>утомлением, [<del rend="strikethrough">когда</del>] которое я испытывала, выходя из комнаты на балкон,
-               <milestone unit="line" facs="#facs_48_l_39" n="N003"/>но была тут и&lt;2&gt; еще&lt;1&gt; другая причина: я очень стеснялась его вначале и,
-               <milestone unit="line" facs="#facs_48_l_40" n="N004"/>&lt;o&gt;главное&lt;o&gt;, ужасно боялась, чтобы он не догадался, насколько он мне нра-
+               <milestone unit="line" facs="#facs_48_l_39" n="N003"/>но была тут и&amp;lt;2&amp;gt; еще&amp;lt;1&amp;gt; другая причина: я очень стеснялась его вначале и,
+               <milestone unit="line" facs="#facs_48_l_40" n="N004"/>&amp;lt;o&amp;gt;главное&amp;lt;o&amp;gt;, ужасно боялась, чтобы он не догадался, насколько он мне нра-
                <milestone unit="line" facs="#facs_48_l_42" n="N005"/>вится и как мне хочется, чтобы он приходил ко мне как можно чаще.
-               <milestone unit="line" facs="#facs_48_l_44" n="N006"/>Мне почему то кажется, что если бы он догадался тогда об этом, &lt;он или уехал бы&gt; или
+               <milestone unit="line" facs="#facs_48_l_44" n="N006"/>Мне почему то кажется, что если бы он догадался тогда об этом, &amp;lt;он или уехал бы&amp;gt; или
                <milestone unit="line" facs="#facs_48_l_45" n="N007"/>не приходил бы ко мне так часто; еще в прошлой клинике я заметила
                <milestone unit="line" facs="#facs_48_l_46" n="N008"/>у него наклонность к противоречию и упрямство.
             </p>
          <p facs="#facs_48_r_5" xml:lang="de" corresp="#p0153-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_48_l_37" n="N001"/>Я стала, конечно, отрицать это. Мой неприветливый вид объяснялся
                <milestone unit="line" facs="#facs_48_l_38" n="N002"/>утомлением, [<del rend="strikethrough">когда</del>] которое я испытывала, выходя из комнаты на балкон,
-               <milestone unit="line" facs="#facs_48_l_39" n="N003"/>но была тут и&lt;2&gt; еще&lt;1&gt; другая причина: я очень стеснялась его вначале и,
-               <milestone unit="line" facs="#facs_48_l_40" n="N004"/>&lt;o&gt;главное&lt;o&gt;, ужасно боялась, чтобы он не догадался, насколько он мне нра-
+               <milestone unit="line" facs="#facs_48_l_39" n="N003"/>но была тут и&amp;lt;2&amp;gt; еще&amp;lt;1&amp;gt; другая причина: я очень стеснялась его вначале и,
+               <milestone unit="line" facs="#facs_48_l_40" n="N004"/>&amp;lt;o&amp;gt;главное&amp;lt;o&amp;gt;, ужасно боялась, чтобы он не догадался, насколько он мне нра-
                <milestone unit="line" facs="#facs_48_l_42" n="N005"/>вится и как мне хочется, чтобы он приходил ко мне как можно чаще.
-               <milestone unit="line" facs="#facs_48_l_44" n="N006"/>Мне почему то кажется, что если бы он догадался тогда об этом, &lt;он или уехал бы&gt; или
+               <milestone unit="line" facs="#facs_48_l_44" n="N006"/>Мне почему то кажется, что если бы он догадался тогда об этом, &amp;lt;он или уехал бы&amp;gt; или
                <milestone unit="line" facs="#facs_48_l_45" n="N007"/>не приходил бы ко мне так часто; еще в прошлой клинике я заметила
                <milestone unit="line" facs="#facs_48_l_46" n="N008"/>у него наклонность к противоречию и упрямство.
             </p>
@@ -85,16 +65,16 @@
             <milestone unit="line" facs="#facs_48_l_17" n="N001"/>Вначале июня мне вдруг стало очень плохо: в результате
                <milestone unit="line" facs="#facs_48_l_18" n="N002"/>лечения пневматораксом у меня начался гнойный плеврит, температура
                <milestone unit="line" facs="#facs_48_l_19" n="N003"/>поднялась и доктору пришлось, в конце концов, вставить мне в спину
-               <milestone unit="line" facs="#facs_48_l_20" n="N004"/>довольно толстую серебрянную трубочку для того, чтобы гной мо&lt;г&gt; выте-
-               <milestone unit="line" facs="#facs_48_l_21" n="N005"/>&lt;o&gt;кать&lt;o&gt; из легкого. Это было ужасно больно, я сильно мучилась, не спала
+               <milestone unit="line" facs="#facs_48_l_20" n="N004"/>довольно толстую серебрянную трубочку для того, чтобы гной мо&amp;lt;г&amp;gt; выте-
+               <milestone unit="line" facs="#facs_48_l_21" n="N005"/>&amp;lt;o&amp;gt;кать&amp;lt;o&amp;gt; из легкого. Это было ужасно больно, я сильно мучилась, не спала
                <milestone unit="line" facs="#facs_48_l_23" n="N006"/>по ночам, мне часто вспрыскивали морфий.
             </p>
          <p facs="#facs_48_r_4" xml:lang="de" corresp="#p0154-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_48_l_17" n="N001"/>Вначале июня мне вдруг стало очень плохо: в результате
                <milestone unit="line" facs="#facs_48_l_18" n="N002"/>лечения пневматораксом у меня начался гнойный плеврит, температура
                <milestone unit="line" facs="#facs_48_l_19" n="N003"/>поднялась и доктору пришлось, в конце концов, вставить мне в спину
-               <milestone unit="line" facs="#facs_48_l_20" n="N004"/>довольно толстую серебрянную трубочку для того, чтобы гной мо&lt;г&gt; выте-
-               <milestone unit="line" facs="#facs_48_l_21" n="N005"/>&lt;o&gt;кать&lt;o&gt; из легкого. Это было ужасно больно, я сильно мучилась, не спала
+               <milestone unit="line" facs="#facs_48_l_20" n="N004"/>довольно толстую серебрянную трубочку для того, чтобы гной мо&amp;lt;г&amp;gt; выте-
+               <milestone unit="line" facs="#facs_48_l_21" n="N005"/>&amp;lt;o&amp;gt;кать&amp;lt;o&amp;gt; из легкого. Это было ужасно больно, я сильно мучилась, не спала
                <milestone unit="line" facs="#facs_48_l_23" n="N006"/>по ночам, мне часто вспрыскивали морфий.
             </p>
          <p facs="#facs_48_r_3" xml:lang="ru" xml:id="p0155-ru">
@@ -112,12 +92,8 @@
                <milestone unit="line" facs="#facs_48_l_28" n="N002"/>- «Какой у Вас высокий лоб!.. Мне нравится, что Вы не говорите того,
                <milestone unit="line" facs="#facs_48_l_29" n="N003"/>чего не нужно говорить… Вы слушаете и вы <emph rend="underlined">понимаете</emph>... Я вижу, что мы
                <milestone unit="line" facs="#facs_48_l_30" n="N004"/>с Вами всегда сможем столковаться и даже, быть может, никогда и не по-
-               <milestone unit="line" facs="#facs_48_l_32" n="N005"/>ссоримся, хотя я со всеми &lt;всегда&gt; кончаю почему то ссорою».
-            <pb corresp="#facs_49"
-                n="49"
-                xml:id="img_0049"
-                ana="48r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597711/full/max/0/default.jpg"/>
+               <milestone unit="line" facs="#facs_48_l_32" n="N005"/>ссоримся, хотя я со всеми &amp;lt;всегда&amp;gt; кончаю почему то ссорою».
+            <pb corresp="#facs_49" n="49" xml:id="img_0049" ana="48r" facs="https://www.e-manuscripta.ch/i3f/v30/4597711/full/max/0/default.jpg"/>
             <fw facs="#facs_49_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_49_l" n="N001"/>48</fw>
             <fw facs="#facs_49_r_2" type="page_number__deleted_or_striked_out">
@@ -132,7 +108,7 @@
                <milestone unit="line" facs="#facs_48_l_28" n="N002"/>- «Какой у Вас высокий лоб!.. Мне нравится, что Вы не говорите того,
                <milestone unit="line" facs="#facs_48_l_29" n="N003"/>чего не нужно говорить… Вы слушаете и вы <emph rend="underlined">понимаете</emph>... Я вижу, что мы
                <milestone unit="line" facs="#facs_48_l_30" n="N004"/>с Вами всегда сможем столковаться и даже, быть может, никогда и не по-
-               <milestone unit="line" facs="#facs_48_l_32" n="N005"/>ссоримся, хотя я со всеми &lt;всегда&gt; кончаю почему то ссорою».
+               <milestone unit="line" facs="#facs_48_l_32" n="N005"/>ссоримся, хотя я со всеми &amp;lt;всегда&amp;gt; кончаю почему то ссорою».
             <milestone unit="page" n="49" xml:id="img_0049-de"/>
             <fw facs="#facs_49_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_49_l" n="N001"/>48</fw>
@@ -149,7 +125,7 @@
                <milestone unit="line" facs="#facs_49_l_3" n="N003"/>торые на целую голову выдавались бы, если бы всех остальных поставить в
                <milestone unit="line" facs="#facs_49_l_4" n="N004"/>ряд». Я затруднялась ответом и тогда он сам сказал: Петр Великий, Пушкин,
                <milestone unit="line" facs="#facs_49_l_5" n="N005"/>Белинский, Плеханов… Меня поразило, что он назвал двух последних и не наз-
-               <milestone unit="line" facs="#facs_49_l_6" n="N006"/>вал многих других, хотя знал&lt;2&gt; хорошо&lt;1&gt; историю и литературу.
+               <milestone unit="line" facs="#facs_49_l_6" n="N006"/>вал многих других, хотя знал&amp;lt;2&amp;gt; хорошо&amp;lt;1&amp;gt; историю и литературу.
             </p>
          <p facs="#facs_49_r_1" xml:lang="de" corresp="#p0157-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_49_l_1" n="N001"/>Говорил он со мною большею частью о политической жизни в России прежде
@@ -157,7 +133,7 @@
                <milestone unit="line" facs="#facs_49_l_3" n="N003"/>торые на целую голову выдавались бы, если бы всех остальных поставить в
                <milestone unit="line" facs="#facs_49_l_4" n="N004"/>ряд». Я затруднялась ответом и тогда он сам сказал: Петр Великий, Пушкин,
                <milestone unit="line" facs="#facs_49_l_5" n="N005"/>Белинский, Плеханов… Меня поразило, что он назвал двух последних и не наз-
-               <milestone unit="line" facs="#facs_49_l_6" n="N006"/>вал многих других, хотя знал&lt;2&gt; хорошо&lt;1&gt; историю и литературу.
+               <milestone unit="line" facs="#facs_49_l_6" n="N006"/>вал многих других, хотя знал&amp;lt;2&amp;gt; хорошо&amp;lt;1&amp;gt; историю и литературу.
             </p>
          <p facs="#facs_49_r_3" xml:lang="ru" xml:id="p0158-ru">
             <milestone unit="line" facs="#facs_49_l_28" n="N001"/>Рассказывал он мне также о своей жизни в тюрьме и на поселении в Си-
