@@ -93,6 +93,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group3/div-13_009.xml?person_annotation_20261028092007790",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-28T08:20:07.790Z",
+	"dcterms:modified": "2026-10-28T08:20:07.790Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/pdaengeli",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Peter Dängeli"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group3/div-13_009.xml?person_annotation_20261028092007790#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group3/div-13_009.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group3/div-13_009.xml?person_annotation_20261028092007790#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/persName/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p001",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData/><xenoData>
          
       </xenoData>
@@ -106,7 +185,7 @@
                <milestone unit="line" facs="#facs_150_l_33" n="N004"/>без дождя с проблесками блѣдного солнца. Я люблю такіе дни.
             </p>
          <p facs="#facs_150_r_1" xml:lang="ru" xml:id="p0479-ru">
-            <milestone unit="line" facs="#facs_150_l_1" n="N001"/>Он попрощался с М-lle. Ш. и пошел прощаться с <persName cert="high" type="real"><persName>Mme Bärli</persName></persName>. Я тем вре-
+            <milestone unit="line" facs="#facs_150_l_1" n="N001"/>Он попрощался с М-lle. Ш. и пошел прощаться с <persName cert="high" type="real"><persName><persName key="Mme Bärli" ref="https://danina.digitaleditions.ch/id/danina_p001">Mme Bärli</persName></persName></persName>. Я тем вре-
                <milestone unit="line" facs="#facs_150_l_2" n="N002"/>менем спустилась по лестнице и ждала его у калитки. Он скоро пришел.
                <milestone unit="line" facs="#facs_150_l_3" n="N003"/>Я слышала неприятный резкий смех Mme Bärli, но не могла разобрать, что
                <milestone unit="line" facs="#facs_150_l_4" n="N004"/>говорила она ему на прощание. Я спросила его и он уклончиво ответил:
