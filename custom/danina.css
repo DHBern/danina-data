@@ -31,3 +31,13 @@
   margin: 0 0 1.5em;
   padding: 0.4em 0;
 }
+
+/* Strikethrough */
+*[rend="strikethrough"] {
+  text-decoration: line-through;
+}
+
+/* Underlined */
+*[rend="underlined"] {
+  text-decoration: underline;
+}
