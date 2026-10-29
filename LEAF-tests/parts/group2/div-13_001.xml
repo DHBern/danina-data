@@ -52,10 +52,10 @@
             <emph rend="underlined">Девочка на берегу моря.</emph>
          </head>
          <p facs="#facs_95_r_6" xml:lang="ru" xml:id="p0279-ru">
-            <milestone unit="line" facs="#facs_95_l_14" n="N001"/>Я переписала этот отрывок, а также записанные 20 июля два мо<milestone unit="line" facs="#facs_95_l_16" n="N002"/>&lt;o&gt;мента&lt;o&gt; моей жизни и подарила все это Борису, надписав: «Моему дру<milestone unit="line" facs="#facs_95_l_17" n="N003"/>гу на память».
+            <milestone unit="line" facs="#facs_95_l_14" n="N001"/>Я переписала этот отрывок, а также записанные 20 июля два мо<milestone unit="line" facs="#facs_95_l_16" n="N002"/><damage type="punchhole">мента</damage> моей жизни и подарила все это Борису, надписав: «Моему дру<milestone unit="line" facs="#facs_95_l_17" n="N003"/>гу на память».
             </p>
          <p facs="#facs_95_r_6" xml:lang="de" corresp="#p0279-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_95_l_14" n="N001"/>Я переписала этот отрывок, а также записанные 20 июля два мо<milestone unit="line" facs="#facs_95_l_16" n="N002"/>&lt;o&gt;мента&lt;o&gt; моей жизни и подарила все это Борису, надписав: «Моему дру<milestone unit="line" facs="#facs_95_l_17" n="N003"/>гу на память».
+               <milestone unit="line" facs="#facs_95_l_14" n="N001"/>Я переписала этот отрывок, а также записанные 20 июля два мо<milestone unit="line" facs="#facs_95_l_16" n="N002"/><damage type="punchhole">мента</damage> моей жизни и подарила все это Борису, надписав: «Моему дру<milestone unit="line" facs="#facs_95_l_17" n="N003"/>гу на память».
             </p>
          <p facs="#facs_95_r_7" xml:lang="ru" xml:id="p0280-ru">
             <milestone unit="line" facs="#facs_95_l_27" n="N001"/>Это [<del rend="strikethrough">ег</del>] мой ответ на его эпиграф.
@@ -122,13 +122,13 @@
                <milestone unit="line" facs="#facs_96_l_4" n="N004"/>нуждаюсь в том, чтобы он любил меня сильно-сильно!
             </p>
          <p facs="#facs_96_r_3" xml:lang="ru" xml:id="p0285-ru">
-            <milestone unit="line" facs="#facs_96_l_27" n="N001"/>&lt;o&gt;Плод&lt;o&gt; ли это моего воображения или это на самом деле так, но у
+            <milestone unit="line" facs="#facs_96_l_27" n="N001"/><damage type="punchhole">Плод</damage> ли это моего воображения или это на самом деле так, но у
                <milestone unit="line" facs="#facs_96_l_28" n="N002"/>меня такое ощущение, как будто нас окружает железное кольцо, и
                <milestone unit="line" facs="#facs_96_l_29" n="N003"/>оно все более сжимается, и мы становимся все ближе и ближе друг
                <milestone unit="line" facs="#facs_96_l_30" n="N004"/>к другу.
             </p>
          <p facs="#facs_96_r_3" xml:lang="de" corresp="#p0285-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_96_l_27" n="N001"/>&lt;o&gt;Плод&lt;o&gt; ли это моего воображения или это на самом деле так, но у
+               <milestone unit="line" facs="#facs_96_l_27" n="N001"/><damage type="punchhole">Плод</damage> ли это моего воображения или это на самом деле так, но у
                <milestone unit="line" facs="#facs_96_l_28" n="N002"/>меня такое ощущение, как будто нас окружает железное кольцо, и
                <milestone unit="line" facs="#facs_96_l_29" n="N003"/>оно все более сжимается, и мы становимся все ближе и ближе друг
                <milestone unit="line" facs="#facs_96_l_30" n="N004"/>к другу.
@@ -144,7 +144,7 @@
          <p facs="#facs_96_r_5" xml:lang="ru" xml:id="p0287-ru">
             <milestone unit="line" facs="#facs_96_l_23" n="N001"/>Я родилась, чтобы любить. Основным стремлением моего «я» была
                <milestone unit="line" facs="#facs_96_l_24" n="N002"/>всегда любовь во всех ее видах, но, главным образом, любовь личная и иск<milestone unit="line" facs="#facs_96_l_25" n="N003"/>лючительная. И мне не суждено узнать ее. Я никогда не изведаю всех
-               <milestone unit="line" facs="#facs_96_l_35" n="N004"/>&lt;o&gt;радостей&lt;o&gt; и горестей <emph rend="underlined">полной</emph> любви. Здесь должно быть что-то, чего я
+               <milestone unit="line" facs="#facs_96_l_35" n="N004"/><damage type="punchhole">радостей</damage> и горестей <emph rend="underlined">полной</emph> любви. Здесь должно быть что-то, чего я
                <milestone unit="line" facs="#facs_96_l_36" n="N005"/>никогда не узнаю. Сама по себе физическая близость представлялась
                <milestone unit="line" facs="#facs_96_l_37" n="N006"/>мне когда то даже отвратительной, и без настоящей любви он[*a*??] верно
                <milestone unit="line" facs="#facs_96_l_38" n="N007"/>такова и есть. Но настоящая любовь все меняет и очищает.
@@ -152,7 +152,7 @@
          <p facs="#facs_96_r_5" xml:lang="de" corresp="#p0287-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_96_l_23" n="N001"/>Я родилась, чтобы любить. Основным стремлением моего «я» была
                <milestone unit="line" facs="#facs_96_l_24" n="N002"/>всегда любовь во всех ее видах, но, главным образом, любовь личная и иск<milestone unit="line" facs="#facs_96_l_25" n="N003"/>лючительная. И мне не суждено узнать ее. Я никогда не изведаю всех
-               <milestone unit="line" facs="#facs_96_l_35" n="N004"/>&lt;o&gt;радостей&lt;o&gt; и горестей <emph rend="underlined">полной</emph> любви. Здесь должно быть что-то, чего я
+               <milestone unit="line" facs="#facs_96_l_35" n="N004"/><damage type="punchhole">радостей</damage> и горестей <emph rend="underlined">полной</emph> любви. Здесь должно быть что-то, чего я
                <milestone unit="line" facs="#facs_96_l_36" n="N005"/>никогда не узнаю. Сама по себе физическая близость представлялась
                <milestone unit="line" facs="#facs_96_l_37" n="N006"/>мне когда то даже отвратительной, и без настоящей любви он[*a*??] верно
                <milestone unit="line" facs="#facs_96_l_38" n="N007"/>такова и есть. Но настоящая любовь все меняет и очищает.
@@ -180,7 +180,7 @@
                <milestone unit="line" facs="#facs_97_l_33" n="N005"/>случиться и со мною. Мне казалось, что я запачкана навсегда. Я убега<milestone unit="line" facs="#facs_97_l_34" n="N006"/>ла от этих девочек, но они гонялись за мной и шептали мне на ухо
                <milestone unit="line" facs="#facs_97_l_35" n="N007"/>все новые грязные анекдоты. Под конец, заразившись этим наивным
                <milestone unit="line" facs="#facs_97_l_36" n="N008"/>цинизмом, я сама однажды рассказала один из этих анекдотов кузине,
-               <milestone unit="line" facs="#facs_97_l_38" n="N009"/>&lt;o&gt;которая&lt;o&gt; была, кажется, искренне возмущена.
+               <milestone unit="line" facs="#facs_97_l_38" n="N009"/><damage type="punchhole">которая</damage> была, кажется, искренне возмущена.
             
             </p>
          <p facs="#facs_96_r_7" xml:lang="de" corresp="#p0288-ru">{TRANSLATION GOES HERE}
@@ -202,7 +202,7 @@
                <milestone unit="line" facs="#facs_97_l_33" n="N005"/>случиться и со мною. Мне казалось, что я запачкана навсегда. Я убега<milestone unit="line" facs="#facs_97_l_34" n="N006"/>ла от этих девочек, но они гонялись за мной и шептали мне на ухо
                <milestone unit="line" facs="#facs_97_l_35" n="N007"/>все новые грязные анекдоты. Под конец, заразившись этим наивным
                <milestone unit="line" facs="#facs_97_l_36" n="N008"/>цинизмом, я сама однажды рассказала один из этих анекдотов кузине,
-               <milestone unit="line" facs="#facs_97_l_38" n="N009"/>&lt;o&gt;которая&lt;o&gt; была, кажется, искренне возмущена.
+               <milestone unit="line" facs="#facs_97_l_38" n="N009"/><damage type="punchhole">которая</damage> была, кажется, искренне возмущена.
             
             </p>
          <p facs="#facs_97_r_4" xml:lang="ru" xml:id="p0289-ru">
@@ -214,7 +214,7 @@
                <milestone unit="line" facs="#facs_97_l_16" n="N006"/>каких-то химических и физиологических процессов, происходящих в его
                <milestone unit="line" facs="#facs_97_l_17" n="N007"/>теле. Хотя Женя никогда даже не поцеловал меня, у меня с тех пор,
                <milestone unit="line" facs="#facs_97_l_18" n="N008"/>как я полюбила его, создалось такое ощущение, как будто [<del rend="strikethrough">ст</del>] я стала
-               <milestone unit="line" facs="#facs_97_l_20" n="N009"/>&lt;o&gt;женщиной&lt;o&gt;. Я заметила, что при чтении романов многие сцены любви,
+               <milestone unit="line" facs="#facs_97_l_20" n="N009"/><damage type="punchhole">женщиной</damage>. Я заметила, что при чтении романов многие сцены любви,
                <milestone unit="line" facs="#facs_97_l_21" n="N010"/>которые раньше я понимала только умом, поверхностно, я стала по<milestone unit="line" facs="#facs_97_l_22" n="N011"/>нимать так, как будто я сама пережила нечто подобное. Возьму к
                <milestone unit="line" facs="#facs_97_l_23" n="N012"/>примѣру легенду о [<del rend="strikethrough">«</del>]Дитрихе и Изелине в «Пане» Гамсуна. Откуда я
                <milestone unit="line" facs="#facs_97_l_24" n="N013"/>могу знать, что то, что чувствует Изелина на другой день после пер<milestone unit="line" facs="#facs_97_l_25" n="N014"/>вой ночи, проведенной с Дитрихом, Гамсун описал замечательно верно?
@@ -250,7 +250,7 @@
                <milestone unit="line" facs="#facs_97_l_16" n="N006"/>каких-то химических и физиологических процессов, происходящих в его
                <milestone unit="line" facs="#facs_97_l_17" n="N007"/>теле. Хотя Женя никогда даже не поцеловал меня, у меня с тех пор,
                <milestone unit="line" facs="#facs_97_l_18" n="N008"/>как я полюбила его, создалось такое ощущение, как будто [<del rend="strikethrough">ст</del>] я стала
-               <milestone unit="line" facs="#facs_97_l_20" n="N009"/>&lt;o&gt;женщиной&lt;o&gt;. Я заметила, что при чтении романов многие сцены любви,
+               <milestone unit="line" facs="#facs_97_l_20" n="N009"/><damage type="punchhole">женщиной</damage>. Я заметила, что при чтении романов многие сцены любви,
                <milestone unit="line" facs="#facs_97_l_21" n="N010"/>которые раньше я понимала только умом, поверхностно, я стала по<milestone unit="line" facs="#facs_97_l_22" n="N011"/>нимать так, как будто я сама пережила нечто подобное. Возьму к
                <milestone unit="line" facs="#facs_97_l_23" n="N012"/>примѣру легенду о [<del rend="strikethrough">«</del>]Дитрихе и Изелине в «Пане» Гамсуна. Откуда я
                <milestone unit="line" facs="#facs_97_l_24" n="N013"/>могу знать, что то, что чувствует Изелина на другой день после пер<milestone unit="line" facs="#facs_97_l_25" n="N014"/>вой ночи, проведенной с Дитрихом, Гамсун описал замечательно верно?
@@ -284,7 +284,7 @@
                <milestone unit="line" facs="#facs_98_l_8" n="N003"/>целыми днями и смотрела на него, <emph rend="underlined">как сумасшедшая</emph>».
             </p>
          <p facs="#facs_98_r_5" xml:lang="ru" xml:id="p0291-ru">
-            <milestone unit="line" facs="#facs_98_l_35" n="N001"/>&lt;o&gt;И&lt;o&gt; если бы даже я никогда не читала в книгах, что мать, которой по<milestone unit="line" facs="#facs_98_l_36" n="N002"/>казывают впервые ее ребенка, всегда при виде его улыбается, я все-таки
+            <milestone unit="line" facs="#facs_98_l_35" n="N001"/><damage type="punchhole">И</damage> если бы даже я никогда не читала в книгах, что мать, которой по<milestone unit="line" facs="#facs_98_l_36" n="N002"/>казывают впервые ее ребенка, всегда при виде его улыбается, я все-таки
                <milestone unit="line" facs="#facs_98_l_37" n="N003"/>знала бы это. Когда я в воображении своем впервые пережила этот
                <milestone unit="line" facs="#facs_98_l_38" n="N004"/>самый торжественный в жизни женщины момент, я улыбнулась. Я
                <milestone unit="line" facs="#facs_98_l_39" n="N005"/>способна любить ребенка, которого у меня никогда не будет.
@@ -292,10 +292,10 @@
                <milestone unit="line" facs="#facs_98_l_41" n="N007"/>что же мне делать? И не лучше ли находить хоть такие утешения, чем
                <milestone unit="line" facs="#facs_98_l_42" n="N008"/>проклинать весь свет за то, что жизнь моя сложилась несчастливо,
                <milestone unit="line" facs="#facs_98_l_43" n="N009"/>что я больна туберкулезом с восемнадцати лет, что я не вышла
-               <milestone unit="line" facs="#facs_98_l_45" n="N010"/>&lt;o&gt;замуж&lt;o&gt; и не была матерью.
+               <milestone unit="line" facs="#facs_98_l_45" n="N010"/><damage type="punchhole">замуж</damage> и не была матерью.
             </p>
          <p facs="#facs_98_r_5" xml:lang="de" corresp="#p0291-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_98_l_35" n="N001"/>&lt;o&gt;И&lt;o&gt; если бы даже я никогда не читала в книгах, что мать, которой по<milestone unit="line" facs="#facs_98_l_36" n="N002"/>казывают впервые ее ребенка, всегда при виде его улыбается, я все-таки
+               <milestone unit="line" facs="#facs_98_l_35" n="N001"/><damage type="punchhole">И</damage> если бы даже я никогда не читала в книгах, что мать, которой по<milestone unit="line" facs="#facs_98_l_36" n="N002"/>казывают впервые ее ребенка, всегда при виде его улыбается, я все-таки
                <milestone unit="line" facs="#facs_98_l_37" n="N003"/>знала бы это. Когда я в воображении своем впервые пережила этот
                <milestone unit="line" facs="#facs_98_l_38" n="N004"/>самый торжественный в жизни женщины момент, я улыбнулась. Я
                <milestone unit="line" facs="#facs_98_l_39" n="N005"/>способна любить ребенка, которого у меня никогда не будет.
@@ -303,7 +303,7 @@
                <milestone unit="line" facs="#facs_98_l_41" n="N007"/>что же мне делать? И не лучше ли находить хоть такие утешения, чем
                <milestone unit="line" facs="#facs_98_l_42" n="N008"/>проклинать весь свет за то, что жизнь моя сложилась несчастливо,
                <milestone unit="line" facs="#facs_98_l_43" n="N009"/>что я больна туберкулезом с восемнадцати лет, что я не вышла
-               <milestone unit="line" facs="#facs_98_l_45" n="N010"/>&lt;o&gt;замуж&lt;o&gt; и не была матерью.
+               <milestone unit="line" facs="#facs_98_l_45" n="N010"/><damage type="punchhole">замуж</damage> и не была матерью.
             </p>
          <p facs="#facs_98_r_4" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_98_l_20" n="N001"/>7 августа.
@@ -368,7 +368,7 @@
                <milestone unit="line" facs="#facs_99_l_5" n="N003"/>Я плакала и молилась. Ужасно, что я ничем не могу помочь ему и
                <milestone unit="line" facs="#facs_99_l_6" n="N004"/>даже пойти к нему не могу. Все кажется мне теперь какимто необыч<milestone unit="line" facs="#facs_99_l_7" n="N005"/>ным, и я не знаю, что делать с собою. Теперь я немного успокоилась:
                <milestone unit="line" facs="#facs_99_l_8" n="N006"/>он прислал записку, говорит, что чувствует себя хорошо и уверяет, что
-               <milestone unit="line" facs="#facs_99_l_9" n="N007"/>&lt;o&gt;все&lt;o&gt; обойдется благополучно. – «Совершенно спокоен», добавляет он. Меня вос<milestone unit="line" facs="#facs_99_l_10" n="N008"/>хищает, что он так спокоен. Mme Bärli тоже подтверждает, что он
+               <milestone unit="line" facs="#facs_99_l_9" n="N007"/><damage type="punchhole">все</damage> обойдется благополучно. – «Совершенно спокоен», добавляет он. Меня вос<milestone unit="line" facs="#facs_99_l_10" n="N008"/>хищает, что он так спокоен. Mme Bärli тоже подтверждает, что он
                <milestone unit="line" facs="#facs_99_l_11" n="N009"/>совсем не волнуется.
             </p>
          <p facs="#facs_99_r_6" xml:lang="de" corresp="#p0294-ru">{TRANSLATION GOES HERE}
@@ -376,7 +376,7 @@
                <milestone unit="line" facs="#facs_99_l_5" n="N003"/>Я плакала и молилась. Ужасно, что я ничем не могу помочь ему и
                <milestone unit="line" facs="#facs_99_l_6" n="N004"/>даже пойти к нему не могу. Все кажется мне теперь какимто необыч<milestone unit="line" facs="#facs_99_l_7" n="N005"/>ным, и я не знаю, что делать с собою. Теперь я немного успокоилась:
                <milestone unit="line" facs="#facs_99_l_8" n="N006"/>он прислал записку, говорит, что чувствует себя хорошо и уверяет, что
-               <milestone unit="line" facs="#facs_99_l_9" n="N007"/>&lt;o&gt;все&lt;o&gt; обойдется благополучно. – «Совершенно спокоен», добавляет он. Меня вос<milestone unit="line" facs="#facs_99_l_10" n="N008"/>хищает, что он так спокоен. Mme Bärli тоже подтверждает, что он
+               <milestone unit="line" facs="#facs_99_l_9" n="N007"/><damage type="punchhole">все</damage> обойдется благополучно. – «Совершенно спокоен», добавляет он. Меня вос<milestone unit="line" facs="#facs_99_l_10" n="N008"/>хищает, что он так спокоен. Mme Bärli тоже подтверждает, что он
                <milestone unit="line" facs="#facs_99_l_11" n="N009"/>совсем не волнуется.
             </p>
          <p facs="#facs_99_r_5" xml:lang="ru" xml:id="p0295-ru">
@@ -386,7 +386,7 @@
                <milestone unit="line" facs="#facs_99_l_47" n="N005"/>быть для него всем. Я знаю, что я этого совсем недостойна, и пусть
                <milestone unit="line" facs="#facs_99_l_48" n="N006"/>он обо мне не думает, я буду думать о нем и молиться.
                <milestone unit="line" facs="#facs_99_l_49" n="N007"/>
-            <milestone unit="line" facs="#facs_99_l_50" n="N008"/>&lt;o&gt;Спи&lt;o&gt; спокойно, мой милый Боря.
+            <milestone unit="line" facs="#facs_99_l_50" n="N008"/><damage type="punchhole">Спи</damage> спокойно, мой милый Боря.
             </p>
          <p facs="#facs_99_r_5" xml:lang="de" corresp="#p0295-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_99_l_41" n="N001"/>О чем он думает, лежа там один? Не для меня верно его главные
@@ -395,7 +395,7 @@
                <milestone unit="line" facs="#facs_99_l_47" n="N005"/>быть для него всем. Я знаю, что я этого совсем недостойна, и пусть
                <milestone unit="line" facs="#facs_99_l_48" n="N006"/>он обо мне не думает, я буду думать о нем и молиться.
                <milestone unit="line" facs="#facs_99_l_49" n="N007"/>
-            <milestone unit="line" facs="#facs_99_l_50" n="N008"/>&lt;o&gt;Спи&lt;o&gt; спокойно, мой милый Боря.
+            <milestone unit="line" facs="#facs_99_l_50" n="N008"/><damage type="punchhole">Спи</damage> спокойно, мой милый Боря.
             </p>
          <p facs="#facs_99_r_4" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_99_l_22" n="N001"/>27 августа.
@@ -457,11 +457,11 @@
             </p>
          <p facs="#facs_100_r_1" xml:lang="ru" xml:id="p0298-ru">
             <milestone unit="line" facs="#facs_100_l_1" n="N001"/>Эти слова повторялись много раз, и было в этом такое напряже<milestone unit="line" facs="#facs_100_l_2" n="N002"/>ние, когда кажется, вот-вот что то порвется. Безнадежное отчаяние и
-               <milestone unit="line" facs="#facs_100_l_3" n="N003"/>спокойствие отчаяния. Смысл был такой, что она не может жить без<milestone unit="line" facs="#facs_100_l_4" n="N004"/>&lt;o&gt;него.&lt;o&gt;
+               <milestone unit="line" facs="#facs_100_l_3" n="N003"/>спокойствие отчаяния. Смысл был такой, что она не может жить без<milestone unit="line" facs="#facs_100_l_4" n="N004"/><damage type="punchhole">него.</damage>
             </p>
          <p facs="#facs_100_r_1" xml:lang="de" corresp="#p0298-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_100_l_1" n="N001"/>Эти слова повторялись много раз, и было в этом такое напряже<milestone unit="line" facs="#facs_100_l_2" n="N002"/>ние, когда кажется, вот-вот что то порвется. Безнадежное отчаяние и
-               <milestone unit="line" facs="#facs_100_l_3" n="N003"/>спокойствие отчаяния. Смысл был такой, что она не может жить без<milestone unit="line" facs="#facs_100_l_4" n="N004"/>&lt;o&gt;него.&lt;o&gt;
+               <milestone unit="line" facs="#facs_100_l_3" n="N003"/>спокойствие отчаяния. Смысл был такой, что она не может жить без<milestone unit="line" facs="#facs_100_l_4" n="N004"/><damage type="punchhole">него.</damage>
             </p>
          <p facs="#facs_100_r_3" xml:lang="ru" xml:id="p0299-ru">
             <milestone unit="line" facs="#facs_100_l_25" n="N001"/>Потом я вижу себя во сне в большой красивой комнате, полной
@@ -494,13 +494,13 @@
                <milestone unit="line" facs="#facs_100_l_6" n="N001"/>26 сентября.
             </p>
          <p facs="#facs_100_r_7" xml:lang="ru" xml:id="p0301-ru">
-            <milestone unit="line" facs="#facs_100_l_21" n="N001"/>&lt;o&gt;Сегодня&lt;o&gt; мне очень плохо. Мне кажется, что на этот раз я не ошибусь,
+            <milestone unit="line" facs="#facs_100_l_21" n="N001"/><damage type="punchhole">Сегодня</damage> мне очень плохо. Мне кажется, что на этот раз я не ошибусь,
                <milestone unit="line" facs="#facs_100_l_22" n="N002"/>если скажу, что теперь в моем легком прозошло что-то непоправимое,
                <milestone unit="line" facs="#facs_100_l_23" n="N003"/>и я скоро умру. Что же, я почти рада этому, но мне жаль, что я не успею
                <milestone unit="line" facs="#facs_100_l_24" n="N004"/>сказать в этих записках всего, что мне хотелось бы. Многое еще хоте<milestone unit="line" facs="#facs_100_l_35" n="N005"/>лось бы мне сказать. А писать теперь мне трудно.
             </p>
          <p facs="#facs_100_r_7" xml:lang="de" corresp="#p0301-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_100_l_21" n="N001"/>&lt;o&gt;Сегодня&lt;o&gt; мне очень плохо. Мне кажется, что на этот раз я не ошибусь,
+               <milestone unit="line" facs="#facs_100_l_21" n="N001"/><damage type="punchhole">Сегодня</damage> мне очень плохо. Мне кажется, что на этот раз я не ошибусь,
                <milestone unit="line" facs="#facs_100_l_22" n="N002"/>если скажу, что теперь в моем легком прозошло что-то непоправимое,
                <milestone unit="line" facs="#facs_100_l_23" n="N003"/>и я скоро умру. Что же, я почти рада этому, но мне жаль, что я не успею
                <milestone unit="line" facs="#facs_100_l_24" n="N004"/>сказать в этих записках всего, что мне хотелось бы. Многое еще хоте<milestone unit="line" facs="#facs_100_l_35" n="N005"/>лось бы мне сказать. А писать теперь мне трудно.

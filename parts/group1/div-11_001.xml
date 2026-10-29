@@ -92,7 +92,7 @@
                <milestone unit="line" facs="#facs_50_l_7" n="N006"/>самой за отсутствием достаточного штата прислуги, отразились на мне
                <milestone unit="line" facs="#facs_50_l_8" n="N007"/>так плохо, что у меня от переутомления температура поднялась очень вы<milestone unit="line" facs="#facs_50_l_9" n="N008"/>соко. Я смутно помню один ужасный вечер, когда у меня было 40°. Я не в
                <milestone unit="line" facs="#facs_50_l_10" n="N009"/>состоянии была шевельнуть ни одним членом и чувствовала себя тяжелой,
-               <milestone unit="line" facs="#facs_50_l_12" n="N010"/>&lt;o&gt;свинцовой&lt;o&gt;, почти мертвой. Мне ничего не хотелось, ничего не было жаль.
+               <milestone unit="line" facs="#facs_50_l_12" n="N010"/><damage type="punchhole">свинцовой</damage>, почти мертвой. Мне ничего не хотелось, ничего не было жаль.
                <milestone unit="line" facs="#facs_50_l_13" n="N011"/>Я не могла больше бороться. Вошел Борис Яковлевич.
                <milestone unit="line" facs="#facs_50_l_14" n="N012"/>- «Я сег[*о*]дня ночью умру», сказала я равнодушно.
             </p>
@@ -103,7 +103,7 @@
                <milestone unit="line" facs="#facs_50_l_7" n="N006"/>самой за отсутствием достаточного штата прислуги, отразились на мне
                <milestone unit="line" facs="#facs_50_l_8" n="N007"/>так плохо, что у меня от переутомления температура поднялась очень вы<milestone unit="line" facs="#facs_50_l_9" n="N008"/>соко. Я смутно помню один ужасный вечер, когда у меня было 40°. Я не в
                <milestone unit="line" facs="#facs_50_l_10" n="N009"/>состоянии была шевельнуть ни одним членом и чувствовала себя тяжелой,
-               <milestone unit="line" facs="#facs_50_l_12" n="N010"/>&lt;o&gt;свинцовой&lt;o&gt;, почти мертвой. Мне ничего не хотелось, ничего не было жаль.
+               <milestone unit="line" facs="#facs_50_l_12" n="N010"/><damage type="punchhole">свинцовой</damage>, почти мертвой. Мне ничего не хотелось, ничего не было жаль.
                <milestone unit="line" facs="#facs_50_l_13" n="N011"/>Я не могла больше бороться. Вошел Борис Яковлевич.
                <milestone unit="line" facs="#facs_50_l_14" n="N012"/>- «Я сег[*о*]дня ночью умру», сказала я равнодушно.
             </p>
@@ -271,14 +271,14 @@
             </p>
          <p facs="#facs_52_r_4" xml:lang="ru" xml:id="p0169-ru">
             <milestone unit="line" facs="#facs_52_l_18" n="N001"/>Была в то время среди наших больных еще одна русская армянка; доб<milestone unit="line" facs="#facs_52_l_19" n="N002"/>рая душа, она тоже приходила ко мне, когда могла вставать, но она
-               <milestone unit="line" facs="#facs_52_l_21" n="N003"/>&lt;o&gt;преи&lt;o&gt;мущественно только жаловалась, ворчала и говорила о своей болезни.
+               <milestone unit="line" facs="#facs_52_l_21" n="N003"/><damage type="punchhole">преи</damage>мущественно только жаловалась, ворчала и говорила о своей болезни.
                <milestone unit="line" facs="#facs_52_l_22" n="N004"/>Разговор же с Борисом Яковлевичем всегда заставлял меня хоть отчасти
                <milestone unit="line" facs="#facs_52_l_23" n="N005"/>забывать о своей болезни, обо всем дурном и тяжелом, и действовал на
                <milestone unit="line" facs="#facs_52_l_24" n="N006"/>меня лучше всякого морфия. Даже один звук его голоса какъ то успокаи<milestone unit="line" facs="#facs_52_l_25" n="N007"/>вал меня. И даже одно его присутствие.
             </p>
          <p facs="#facs_52_r_4" xml:lang="de" corresp="#p0169-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_52_l_18" n="N001"/>Была в то время среди наших больных еще одна русская армянка; доб<milestone unit="line" facs="#facs_52_l_19" n="N002"/>рая душа, она тоже приходила ко мне, когда могла вставать, но она
-               <milestone unit="line" facs="#facs_52_l_21" n="N003"/>&lt;o&gt;преи&lt;o&gt;мущественно только жаловалась, ворчала и говорила о своей болезни.
+               <milestone unit="line" facs="#facs_52_l_21" n="N003"/><damage type="punchhole">преи</damage>мущественно только жаловалась, ворчала и говорила о своей болезни.
                <milestone unit="line" facs="#facs_52_l_22" n="N004"/>Разговор же с Борисом Яковлевичем всегда заставлял меня хоть отчасти
                <milestone unit="line" facs="#facs_52_l_23" n="N005"/>забывать о своей болезни, обо всем дурном и тяжелом, и действовал на
                <milestone unit="line" facs="#facs_52_l_24" n="N006"/>меня лучше всякого морфия. Даже один звук его голоса какъ то успокаи<milestone unit="line" facs="#facs_52_l_25" n="N007"/>вал меня. И даже одно его присутствие.
@@ -483,13 +483,13 @@
             <milestone unit="line" facs="#facs_55_l_8" n="N001"/>На другой день он, придя ко мне, чувствовал себя вначале как будто неловко,
                <milestone unit="line" facs="#facs_55_l_9" n="N002"/>как это всегда бывает после откровенного разговора.
                <milestone unit="line" facs="#facs_55_l_10" n="N003"/>- «Ну, вот теперь Ваше любопытство удовлетворено», - сказал он, - «но я
-               <milestone unit="line" facs="#facs_55_l_12" n="N004"/>&lt;o&gt;ужасно&lt;o&gt; плохо рассказал».
+               <milestone unit="line" facs="#facs_55_l_12" n="N004"/><damage type="punchhole">ужасно</damage> плохо рассказал».
             </p>
          <p facs="#facs_55_r_6" xml:lang="de" corresp="#p0177-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_55_l_8" n="N001"/>На другой день он, придя ко мне, чувствовал себя вначале как будто неловко,
                <milestone unit="line" facs="#facs_55_l_9" n="N002"/>как это всегда бывает после откровенного разговора.
                <milestone unit="line" facs="#facs_55_l_10" n="N003"/>- «Ну, вот теперь Ваше любопытство удовлетворено», - сказал он, - «но я
-               <milestone unit="line" facs="#facs_55_l_12" n="N004"/>&lt;o&gt;ужасно&lt;o&gt; плохо рассказал».
+               <milestone unit="line" facs="#facs_55_l_12" n="N004"/><damage type="punchhole">ужасно</damage> плохо рассказал».
             </p>
          <p facs="#facs_55_r_5" xml:lang="ru" xml:id="p0178-ru">
             <milestone unit="line" facs="#facs_55_l_37" n="N001"/>Меня больно задело, что он назвал мое чувство простым любопытствoм.
