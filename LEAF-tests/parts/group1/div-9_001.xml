@@ -330,6 +330,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group1/div-9_001.xml?note_annotation_20261029111542297",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-29T10:15:42.297Z",
+	"dcterms:modified": "2026-10-29T10:15:42.297Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eva-sob",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eva Maurer"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group1/div-9_001.xml?note_annotation_20261029111542297#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group1/div-9_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group1/div-9_001.xml?note_annotation_20261029111542297#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Hier wechselt die Autorin vermutlich die Zeitebene; der Vorfall muss nach der Oktoberrevolution passiert sein? "
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -439,7 +518,7 @@
          </p>
          <p facs="#facs_47_r_4" xml:lang="ru" xml:id="p0149-ru">
             <milestone unit="line" facs="#facs_47_l_5" n="N001"/>Одна милая, интеллигентная дама &amp;lt;-эмигрантка&amp;gt; рассказывала мне о том, как к ней
-               <milestone unit="line" facs="#facs_47_l_6" n="N002"/>в имение явилась банда большевиков, простых русских рабочих под предводи<milestone unit="line" facs="#facs_47_l_7" n="N003"/>тельством еврея. Они нашли в погребе вино и очень не прочь были распить его,
+               <milestone unit="line" facs="#facs_47_l_6" n="N002"/>в имение явилась банда большевиков, простых русских рабочих под предводи<milestone unit="line" facs="#facs_47_l_7" n="N003"/>тельством еврея<note type="researchNote">Hier wechselt die Autorin vermutlich die Zeitebene; der Vorfall muss nach der Oktoberrevolution passiert sein? </note>. Они нашли в погребе вино и очень не прочь были распить его,
                <milestone unit="line" facs="#facs_47_l_8" n="N004"/>но начальник–еврей приказал им вылить его на земь и они, хотя и с со<milestone unit="line" facs="#facs_47_l_9" n="N005"/>жалением, послушались его. И вот замечательно, что симпатии этой дамы
                <milestone unit="line" facs="#facs_47_l_10" n="N006"/>были скорее на стороне рабочих, а не еврея, сумевшего заставить их слу<milestone unit="line" facs="#facs_47_l_11" n="N007"/>шаться себя. Ее возмущало именно то, что дюжіе русскіе молодцы слушаются,
                <milestone unit="line" facs="#facs_47_l_12" n="N008"/>&amp;lt;o&amp;gt;как&amp;lt;o&amp;gt; дети, какого то несчастного, маленькаго еврея. Чувствовалось, что ей
