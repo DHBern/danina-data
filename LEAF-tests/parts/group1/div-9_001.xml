@@ -489,6 +489,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group1/div-9_001.xml?note_annotation_20261029112414918",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-29T10:24:14.918Z",
+	"dcterms:modified": "2026-10-29T10:24:14.918Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eva-sob",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eva Maurer"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group1/div-9_001.xml?note_annotation_20261029112414918#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group1/div-9_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group1/div-9_001.xml?note_annotation_20261029112414918#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Hier folgt eine Anmerkung von Jens Herlth"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -617,7 +696,7 @@
                <milestone unit="line" facs="#facs_47_l_49" n="N002"/>всегда в личной форме. Ведь есть же все-таки русские, обладающие энергией;
                <milestone unit="line" facs="#facs_47_l_50" n="N003"/>дело надо понимать так, что чувство это всосалось в ряде поколений в
                <milestone unit="line" facs="#facs_47_l_51" n="N004"/>кровь и выражается у многих лишь бессознательно. Наше русское националь<milestone unit="line" facs="#facs_47_l_52" n="N005"/>ное достоинство - это способность сознать и признать свои недостатки
-               <milestone unit="line" facs="#facs_47_l_53" n="N006"/>всенародно покаяться в грехе своем. Но, к сожалению, дальше <title key="преступление и наказание" ref="https://danina.digitaleditions.ch/id/danina_w008" cert="high">Раскольни<milestone unit="line" facs="#facs_47_l_54" n="N007"/>ковскаго покаянія на площади</title> мы не научились итти и не умѣем, по
+               <milestone unit="line" facs="#facs_47_l_53" n="N006"/>всенародно покаяться в грехе своем. Но, к сожалению, дальше <note type="scholarNote">Hier folgt eine Anmerkung von Jens Herlth</note><title key="преступление и наказание" ref="https://danina.digitaleditions.ch/id/danina_w008" cert="high">Раскольни<milestone unit="line" facs="#facs_47_l_54" n="N007"/>ковскаго покаянія на площади</title> мы не научились итти и не умѣем, по
                <milestone unit="line" facs="#facs_47_l_55" n="N008"/>большей части, исправлять свои ошибки. Нам нужно учиться, учиться хо<milestone unit="line" facs="#facs_47_l_57" n="N009"/>теть, и нам нужно помнить слова Апокалипсиса: «ты ни холоден; ни
                <milestone unit="line" facs="#facs_47_l_58" n="N010"/>горяч; о, если бы ты был холоден или горяч! Но как ты тепл, а не горяч и
                <milestone unit="line" facs="#facs_47_l_59" n="N011"/>не холоден, то извергну тебя из уст своих!»
