@@ -183,7 +183,7 @@
                <milestone unit="line" facs="#facs_172_l_31" n="N004"/>смерть, но ведь жизнь так же таинственна и чудесна, несмотря на все стра<milestone unit="line" facs="#facs_172_l_32" n="N005"/>дания. И, пока мы живы, нужно пытаться проникнуть как можно глубже в ее
                <milestone unit="line" facs="#facs_172_l_33" n="N006"/>тайны, а тайна смерти откроется всего полнее именно тем, кто полнее про<milestone unit="line" facs="#facs_172_l_34" n="N007"/>накнется жизнью.
             </p>
-         <p facs="#facs_172_r_1" ana="dated_entry_header">
+         <p facs="#facs_172_r_1" ana="dated_entry_header" xml:id="d1384-ru">
             <milestone unit="line" facs="#facs_172_l_1" n="N001"/>13 декабря.
             </p>
          <p xml:lang="de" facs="#facs_172_r_1" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -257,7 +257,7 @@
                <milestone unit="line" facs="#facs_173_l_39" n="N012"/>бредовую мысль и умер из-за этого.
             
             </p>
-         <p facs="#facs_173_r_1" ana="dated_entry_header">
+         <p facs="#facs_173_r_1" ana="dated_entry_header" xml:id="d1400-ru">
             <milestone unit="line" facs="#facs_173_l_1" n="N001"/>8 января 1921 года.
             </p>
          <p xml:lang="de" facs="#facs_173_r_1" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -309,7 +309,7 @@
                <milestone unit="line" facs="#facs_174_l_29" n="N003"/>И мне нравится теперь, что он так верен своей первой любви. Я не буду больше пре<milestone unit="line" facs="#facs_174_l_30" n="N004"/>тендовать на место Ольги в твоем сердце...
             
             </p>
-         <p facs="#facs_174_r_1" ana="dated_entry_header">
+         <p facs="#facs_174_r_1" ana="dated_entry_header" xml:id="d1416-ru">
             <milestone unit="line" facs="#facs_174_l_1" n="N001"/>31 января.
             </p>
          <p xml:lang="de" facs="#facs_174_r_1" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -321,7 +321,7 @@
          <p facs="#facs_174_r_3" xml:lang="de" corresp="#p0567-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_174_l_23" n="N001"/>Никогда, никогда, никогда.
             </p>
-         <p facs="#facs_174_r_4" ana="dated_entry_header">
+         <p facs="#facs_174_r_4" ana="dated_entry_header" xml:id="d1424-ru">
             <milestone unit="line" facs="#facs_174_l_2" n="N001"/>6 марта.
             </p>
          <p xml:lang="de" facs="#facs_174_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -393,7 +393,7 @@
                <milestone unit="line" facs="#facs_175_l_7" n="N007"/>я до крайности стеснен в деньгах и не могу пока сделать этого. Весной у
                <milestone unit="line" facs="#facs_175_l_8" n="N008"/>меня, я надеюсь, будет эта возможность, и я воспользуюсь его. 
             </p>
-         <p facs="#facs_175_r_3" ana="dated_entry_header">
+         <p facs="#facs_175_r_3" ana="dated_entry_header" xml:id="d1436-ru">
             <milestone unit="line" facs="#facs_175_l_22" n="N001"/>18 апреля.
             </p>
          <p xml:lang="de" facs="#facs_175_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -447,7 +447,7 @@
                <milestone unit="line" facs="#facs_176_l_31" n="N010"/>ничего не остается. Но поскорее!
             
             </p>
-         <p facs="#facs_176_r_2" ana="dated_entry_header">
+         <p facs="#facs_176_r_2" ana="dated_entry_header" xml:id="d1444-ru">
             <milestone unit="line" facs="#facs_176_l_2" n="N001"/>7 мая.
             </p>
          <p xml:lang="de" facs="#facs_176_r_2" ana="dated_entry_header">{TRANSLATION GOES HERE}

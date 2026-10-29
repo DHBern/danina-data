@@ -69,7 +69,7 @@
                <milestone unit="line" facs="#facs_144_l_2" n="N002"/>бы вам обоим поехать, и Вам и ему»…
             
             </p>
-         <p facs="#facs_144_r_7" ana="dated_entry_header">
+         <p facs="#facs_144_r_7" ana="dated_entry_header" xml:id="d0862-ru">
             <milestone unit="line" facs="#facs_144_l_12" n="N001"/>27 июля.
             </p>
          <p xml:lang="de" facs="#facs_144_r_7" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -205,7 +205,7 @@
             <fw facs="#facs_146_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_146_l_1" n="N001"/>144</fw>
          </p>
-         <p facs="#facs_146_r_2" ana="dated_entry_header">
+         <p facs="#facs_146_r_2" ana="dated_entry_header" xml:id="d0898-ru">
             <milestone unit="line" facs="#facs_146_l" n="N001"/>29 июля.
             </p>
          <p xml:lang="de" facs="#facs_146_r_2" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -245,7 +245,7 @@
                <milestone unit="line" facs="#facs_146_l_11" n="N003"/>для всех, совершенно прозрачной, и мне нечего было бы стыдиться. Я не в со<milestone unit="line" facs="#facs_146_l_12" n="N004"/>стоянии записать всех дурных мыслей, которые мне иногда приходят в
                <milestone unit="line" facs="#facs_146_l_13" n="N005"/>голову.
             </p>
-         <p facs="#facs_146_r_5" ana="dated_entry_header">
+         <p facs="#facs_146_r_5" ana="dated_entry_header" xml:id="d0914-ru">
             <milestone unit="line" facs="#facs_146_l_26" n="N001"/>30 июля.
             </p>
          <p xml:lang="de" facs="#facs_146_r_5" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -267,7 +267,7 @@
                <milestone unit="line" facs="#facs_146_l_18" n="N005"/>чего у нас нет и чего мы желали бы, но того, чем мы полны, мы не в
                <milestone unit="line" facs="#facs_146_l_19" n="N006"/>состоянии бываем выразить!"
             </p>
-         <p facs="#facs_146_r_7" ana="dated_entry_header">
+         <p facs="#facs_146_r_7" ana="dated_entry_header" xml:id="d0922-ru">
             <milestone unit="line" facs="#facs_146_l_25" n="N001"/>31 июля.
             </p>
          <p xml:lang="de" facs="#facs_146_r_7" ana="dated_entry_header">{TRANSLATION GOES HERE}

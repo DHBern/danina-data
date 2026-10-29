@@ -71,7 +71,7 @@
                <milestone unit="line" facs="#facs_135_l_43" n="N014"/>страдания их, если они все же будут, станут иными чем теперь: более
                <milestone unit="line" facs="#facs_135_l_44" n="N015"/>высокими и достойными человека.
             </p>
-         <p facs="#facs_135_r_4" ana="dated_entry_header">
+         <p facs="#facs_135_r_4" ana="dated_entry_header" xml:id="d0726-ru">
             <milestone unit="line" facs="#facs_135_l_7" n="N001"/>8 марта.
             </p>
          <p xml:lang="de" facs="#facs_135_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -101,7 +101,7 @@
                <milestone unit="line" facs="#facs_136_l_7" n="N002"/>стало лучше, он начал вставать и приедет, как только почувствует себя в си<milestone unit="line" facs="#facs_136_l_8" n="N003"/>лах на это.
             
             </p>
-         <p facs="#facs_136_r_4" ana="dated_entry_header">
+         <p facs="#facs_136_r_4" ana="dated_entry_header" xml:id="d0734-ru">
             <milestone unit="line" facs="#facs_136_l_4" n="N001"/>20 марта.
             </p>
          <p xml:lang="de" facs="#facs_136_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -179,7 +179,7 @@
                <milestone unit="line" facs="#facs_137_l_41" n="N014"/>она любит его больше, чем я, и достойнее его, чем я. Тогда я должна была бы
                <milestone unit="line" facs="#facs_137_l_42" n="N015"/>ей помочь. Но, дурочка, он не любит, ни тебя, ни ее…
             </p>
-         <p facs="#facs_137_r_1" ana="dated_entry_header">
+         <p facs="#facs_137_r_1" ana="dated_entry_header" xml:id="d0750-ru">
             <milestone unit="line" facs="#facs_137_l_1" n="N001"/>21 марта.
             </p>
          <p xml:lang="de" facs="#facs_137_r_1" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -197,7 +197,7 @@
                <milestone unit="line" facs="#facs_137_l_16" n="N003"/>во время сна. Мне кажется, что я страдаю от мысли, что она любит его больше
                <milestone unit="line" facs="#facs_137_l_17" n="N004"/>чем я.
             </p>
-         <p facs="#facs_137_r_4" ana="dated_entry_header">
+         <p facs="#facs_137_r_4" ana="dated_entry_header" xml:id="d0758-ru">
             <milestone unit="line" facs="#facs_137_l_2" n="N001"/>27 марта.
             </p>
          <p xml:lang="de" facs="#facs_137_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -315,7 +315,7 @@
                <milestone unit="line" facs="#facs_139_l_27" n="N007"/>написавши все это я вдруг опять чувствую себя богаче и счастливее всех
                <milestone unit="line" facs="#facs_139_l" n="N008"/>на свете. Так сказочно щедра природа: отнимая одно, она дает дру<milestone unit="line" facs="#facs_139_l_1" n="N009"/>гое.
             </p>
-         <p facs="#facs_139_r" ana="dated_entry_header">
+         <p facs="#facs_139_r" ana="dated_entry_header" xml:id="d0778-ru">
             <milestone unit="line" facs="#facs_139_l_2" n="N001"/>30 марта.
             </p>
          <p xml:lang="de" facs="#facs_139_r" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -337,7 +337,7 @@
                <milestone unit="line" facs="#facs_139_l_14" n="N004"/>самой, и это было не тяжело, а как то сладостно приятно. Одна, и не нужно
                <milestone unit="line" facs="#facs_139_l_15" n="N005"/>мне никого, и его тоже не нужно. Я, наконец, достигла того, <del rend="strikethrough">чег</del> к чему стре<milestone unit="line" facs="#facs_139_l_17" n="N006"/>милась: я счастлива и без него. Лишь бы только он жил.
             </p>
-         <p facs="#facs_139_r_4" ana="dated_entry_header">
+         <p facs="#facs_139_r_4" ana="dated_entry_header" xml:id="d0786-ru">
             <milestone unit="line" facs="#facs_139_l_3" n="N001"/>2 апреля.
             </p>
          <p xml:lang="de" facs="#facs_139_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -515,7 +515,7 @@
                <milestone unit="line" facs="#facs_142_l_22" n="N010"/>что он мог <emph rend="underlined">так</emph> понять меня!..
             
             </p>
-         <p facs="#facs_142_r_4" ana="dated_entry_header">
+         <p facs="#facs_142_r_4" ana="dated_entry_header" xml:id="d0826-ru">
             <milestone unit="line" facs="#facs_142_l_11" n="N001"/>20 июня.
             </p>
          <p xml:lang="de" facs="#facs_142_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -577,7 +577,7 @@
                <milestone unit="line" facs="#facs_143_l_5" n="N005"/>ради достоинств.
             
             </p>
-         <p facs="#facs_143_r_5" ana="dated_entry_header">
+         <p facs="#facs_143_r_5" ana="dated_entry_header" xml:id="d0838-ru">
             <milestone unit="line" facs="#facs_143_l_32" n="N001"/>21 июня.
             </p>
          <p xml:lang="de" facs="#facs_143_r_5" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -611,7 +611,7 @@
          <p facs="#facs_143_r_8" xml:lang="de" corresp="#p0453-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_143_l_8" n="N001"/>Я чувствую себя плохо, после разговора с гжей А. у меня поднялась темпе<milestone unit="line" facs="#facs_143_l_9" n="N002"/>ратура и показалось немного крови в мокроте.
             </p>
-         <p facs="#facs_143_r_3" ana="dated_entry_header">
+         <p facs="#facs_143_r_3" ana="dated_entry_header" xml:id="d0854-ru">
             <milestone unit="line" facs="#facs_143_l_48" n="N001"/>27 июня.
             </p>
          <p xml:lang="de" facs="#facs_143_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}

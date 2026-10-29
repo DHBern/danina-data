@@ -305,7 +305,7 @@
                <milestone unit="line" facs="#facs_98_l_43" n="N009"/>что я больна туберкулезом с восемнадцати лет, что я не вышла
                <milestone unit="line" facs="#facs_98_l_45" n="N010"/><damage type="punchhole">замуж</damage> и не была матерью.
             </p>
-         <p facs="#facs_98_r_4" ana="dated_entry_header">
+         <p facs="#facs_98_r_4" ana="dated_entry_header" xml:id="d0058-ru">
             <milestone unit="line" facs="#facs_98_l_20" n="N001"/>7 августа.
             </p>
          <p xml:lang="de" facs="#facs_98_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -357,7 +357,7 @@
             <milestone unit="line" facs="#facs_99_l_1" n="N001"/>так же бывало на лице это неуловимое отражение прекрасной души.
             
             </p>
-         <p facs="#facs_99_r_7" ana="dated_entry_header">
+         <p facs="#facs_99_r_7" ana="dated_entry_header" xml:id="d0070-ru">
             <milestone unit="line" facs="#facs_99_l_14" n="N001"/>24 августа.
             </p>
          <p xml:lang="de" facs="#facs_99_r_7" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -397,7 +397,7 @@
                <milestone unit="line" facs="#facs_99_l_49" n="N007"/>
             <milestone unit="line" facs="#facs_99_l_50" n="N008"/><damage type="punchhole">Спи</damage> спокойно, мой милый Боря.
             </p>
-         <p facs="#facs_99_r_4" ana="dated_entry_header">
+         <p facs="#facs_99_r_4" ana="dated_entry_header" xml:id="d0082-ru">
             <milestone unit="line" facs="#facs_99_l_22" n="N001"/>27 августа.
             </p>
          <p xml:lang="de" facs="#facs_99_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -475,7 +475,7 @@
                <milestone unit="line" facs="#facs_100_l_27" n="N003"/>самыми окнами течет широкая река, течет медленно и вода в ней чис<milestone unit="line" facs="#facs_100_l_28" n="N004"/>тая-чистая. На берегу плакучие ивы, по реке плывут два лебедя, а там
                <milestone unit="line" facs="#facs_100_l_29" n="N005"/>под водой лежит утопленница, та, которой было все, все равно…
             </p>
-         <p facs="#facs_100_r_4" ana="dated_entry_header">
+         <p facs="#facs_100_r_4" ana="dated_entry_header" xml:id="d0102-ru">
             <milestone unit="line" facs="#facs_100_l_5" n="N001"/>1 сентября.
             </p>
          <p xml:lang="de" facs="#facs_100_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -487,7 +487,7 @@
          <p facs="#facs_100_r_5" xml:lang="de" corresp="#p0300-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_100_l_20" n="N001"/>Борис неожиданно быстро оправился и даже начал вставать.
             </p>
-         <p facs="#facs_100_r_6" ana="dated_entry_header">
+         <p facs="#facs_100_r_6" ana="dated_entry_header" xml:id="d0110-ru">
             <milestone unit="line" facs="#facs_100_l_6" n="N001"/>26 сентября.
             </p>
          <p xml:lang="de" facs="#facs_100_r_6" ana="dated_entry_header">{TRANSLATION GOES HERE}

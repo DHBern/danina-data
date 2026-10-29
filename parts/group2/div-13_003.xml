@@ -81,7 +81,7 @@
                <milestone unit="line" facs="#facs_111_l_4" n="N004"/>у него было точно такое же &lt;нежное и кроткое&gt; выражение лица, как у папы, когда он возился с ма<milestone unit="line" facs="#facs_111_l_5" n="N005"/>ленькими детьми, собачками или цыплятами. И я подумала: как нечастно
                <milestone unit="line" facs="#facs_111_l_6" n="N006"/>сложилась и его жизнь...
             </p>
-         <p facs="#facs_111_r_3" ana="dated_entry_header">
+         <p facs="#facs_111_r_3" ana="dated_entry_header" xml:id="d0246-ru">
             <milestone unit="line" facs="#facs_111_l_26" n="N001"/>4 марта.
             </p>
          <p xml:lang="de" facs="#facs_111_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -181,7 +181,7 @@
          <p facs="#facs_112_r_5" xml:lang="de" corresp="#p0337-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_112_l_23" n="N001"/>Как хорошо понимаю я это состояние души!
             </p>
-         <p facs="#facs_112_r_6" ana="dated_entry_header">
+         <p facs="#facs_112_r_6" ana="dated_entry_header" xml:id="d0278-ru">
             <milestone unit="line" facs="#facs_112_l_7" n="N001"/>26 марта.
             </p>
          <p xml:lang="de" facs="#facs_112_r_6" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -253,7 +253,7 @@
                <milestone unit="line" facs="#facs_113_l_27" n="N001"/>Он сказал как то, что умеет входить в душевное состояние других людей хотя<milestone unit="line" facs="#facs_113_l_28" n="N002"/>может быть и не показывает этого. Это было сказано к случаю, но мне в словах
                <milestone unit="line" facs="#facs_113_l_31" n="N003"/>его, как они были сказаны, послышался явственный намек на мое душевное состоя<milestone unit="line" facs="#facs_113_l_32" n="N004"/>ние.
             </p>
-         <p facs="#facs_113_r_4" ana="dated_entry_header">
+         <p facs="#facs_113_r_4" ana="dated_entry_header" xml:id="d0302-ru">
             <milestone unit="line" facs="#facs_113_l_4" n="N001"/>10 мая.
             </p>
          <p xml:lang="de" facs="#facs_113_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -363,7 +363,7 @@
                <milestone unit="line" facs="#facs_114_l_35" n="N006"/>музыка. Это она играет. Я прикладывала ухо к земле и <emph rend="underlined">слышала</emph> таинствен<milestone unit="line" facs="#facs_114_l_36" n="N007"/>ную, далекую музыку. Это была, быть может, самая прекрасная музыка, какую
                <milestone unit="line" facs="#facs_114_l_37" n="N008"/>я когда либо слышала в жизни, потому что она была в моей душе.
             </p>
-         <p facs="#facs_114_r_4" ana="dated_entry_header">
+         <p facs="#facs_114_r_4" ana="dated_entry_header" xml:id="d0330-ru">
             <milestone unit="line" facs="#facs_114_l_15" n="N001"/>22 мая.
             </p>
          <p xml:lang="de" facs="#facs_114_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}

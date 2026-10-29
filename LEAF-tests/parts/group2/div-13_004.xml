@@ -151,7 +151,7 @@
                <milestone unit="line" facs="#facs_118_l_15" n="N001"/>Странно, почему я это вспомнила. Неужели я надеюсь на такой же конец в
                <milestone unit="line" facs="#facs_118_l_16" n="N002"/>отношения между мной и Борисом?
             </p>
-         <p facs="#facs_118_r_6" ana="dated_entry_header">
+         <p facs="#facs_118_r_6" ana="dated_entry_header" xml:id="d0386-ru">
             <milestone unit="line" facs="#facs_118_l_11" n="N001"/>20 июля.
             </p>
          <p xml:lang="de" facs="#facs_118_r_6" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -205,7 +205,7 @@
                <milestone unit="line" facs="#facs_119_l_15" n="N006"/>&lt;Einzug&gt; Весь последующий наш разговор был простой и дружеский. Ничего особенного
                <milestone unit="line" facs="#facs_119_l_16" n="N007"/>нами не было сказано, но было так хорошо. Он сказал, между прочим: «Ну, Вы<milestone unit="line" facs="#facs_119_l_17" n="N008"/>романист". Таким тоном говорят с маленькими детьми.
             </p>
-         <p facs="#facs_119_r_5" ana="dated_entry_header">
+         <p facs="#facs_119_r_5" ana="dated_entry_header" xml:id="d0398-ru">
             <milestone unit="line" facs="#facs_119_l_46" n="N001"/>24 августа.
             </p>
          <p xml:lang="de" facs="#facs_119_r_5" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -217,7 +217,7 @@
          <p facs="#facs_119_r_4" xml:lang="de" corresp="#p0364-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_119_l_19" n="N001"/>Вчера вечером он заходил ко мне на минутку, жаловался на плохое настрое<milestone unit="line" facs="#facs_119_l_20" n="N002"/>ние, на то, что ничего не может делать, что в доме этом ему надоело до смерти.<milestone unit="line" facs="#facs_119_l_21" n="N003"/>К тому же деньги у него изсякают и он едва ли еще долгое время сможет оплачи<milestone unit="line" facs="#facs_119_l_22" n="N004"/>вать счета нашей клиники.
             </p>
-         <p facs="#facs_119_r_3" ana="dated_entry_header">
+         <p facs="#facs_119_r_3" ana="dated_entry_header" xml:id="d0406-ru">
             <milestone unit="line" facs="#facs_119_l_52" n="N001"/>25 августа.
             </p>
          <p xml:lang="de" facs="#facs_119_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -271,7 +271,7 @@
                <milestone unit="line" facs="#facs_120_l_41" n="N013"/>делать?
             
             </p>
-         <p facs="#facs_120_r_3" ana="dated_entry_header">
+         <p facs="#facs_120_r_3" ana="dated_entry_header" xml:id="d0414-ru">
             <milestone unit="line" facs="#facs_120_l_16" n="N001"/>30 августа.
             </p>
          <p xml:lang="de" facs="#facs_120_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -323,7 +323,7 @@
             <fw facs="#facs_121_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_121_l" n="N001"/>119</fw>
          </p>
-         <p facs="#facs_121_r_6" ana="dated_entry_header">
+         <p facs="#facs_121_r_6" ana="dated_entry_header" xml:id="d0430-ru">
             <milestone unit="line" facs="#facs_121_l_1" n="N001"/>10 сентября.
             </p>
          <p xml:lang="de" facs="#facs_121_r_6" ana="dated_entry_header">{TRANSLATION GOES HERE}

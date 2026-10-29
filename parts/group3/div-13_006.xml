@@ -79,7 +79,7 @@
                <milestone unit="line" facs="#facs_129_l_14" n="N003"/>- Возьми меня, родина!"
             
             </p>
-         <p facs="#facs_129_r_6" ana="dated_entry_header">
+         <p facs="#facs_129_r_6" ana="dated_entry_header" xml:id="d0586-ru">
             <milestone unit="line" facs="#facs_129_l_4" n="N001"/>24 ноября.
             </p>
          <p xml:lang="de" facs="#facs_129_r_6" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -161,7 +161,7 @@
                <milestone unit="line" facs="#facs_130_l_1" n="N001"/>И слово: «Жид» мне кажется теперь не презрительным, а гордым и озаренным
                <milestone unit="line" facs="#facs_130_l_2" n="N002"/>ореолом мученичества.
             </p>
-         <p facs="#facs_130_r_7" ana="dated_entry_header">
+         <p facs="#facs_130_r_7" ana="dated_entry_header" xml:id="d0610-ru">
             <milestone unit="line" facs="#facs_130_l_27" n="N001"/>8 января 1920
             </p>
          <p xml:lang="de" facs="#facs_130_r_7" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -187,7 +187,7 @@
                <milestone unit="line" facs="#facs_130_l_11" n="N008"/>Между нами, я чувствую это, незаметно выростает это ужасная <emph rend="underlined">сте<milestone unit="line" facs="#facs_130_l_12" n="N009"/>на молчания</emph>, о которой так хорошо говорит Гейерстам. Я чувствую так
                <milestone unit="line" facs="#facs_130_l_13" n="N010"/>же, что все во мне начинает его раздражать…
             </p>
-         <p facs="#facs_130_r_5" ana="dated_entry_header">
+         <p facs="#facs_130_r_5" ana="dated_entry_header" xml:id="d0618-ru">
             <milestone unit="line" facs="#facs_130_l_39" n="N001"/>20 января.
             </p>
          <p xml:lang="de" facs="#facs_130_r_5" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -209,7 +209,7 @@
                <milestone unit="line" facs="#facs_130_l_21" n="N007"/>«Нет, мы не будем киснуть», ответила я, глядя на него с немного
                <milestone unit="line" facs="#facs_130_l_22" n="N008"/>лукавой улыбкой.
             </p>
-         <p facs="#facs_130_r_3" ana="dated_entry_header">
+         <p facs="#facs_130_r_3" ana="dated_entry_header" xml:id="d0626-ru">
             <milestone unit="line" facs="#facs_130_l_49" n="N001"/>25 января.
             </p>
          <p xml:lang="de" facs="#facs_130_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -237,7 +237,7 @@
                <milestone unit="line" facs="#facs_131_l_30" n="N002"/>тяжело.
             
             </p>
-         <p facs="#facs_131_r_3" ana="dated_entry_header">
+         <p facs="#facs_131_r_3" ana="dated_entry_header" xml:id="d0634-ru">
             <milestone unit="line" facs="#facs_131_l_11" n="N001"/>2 февраля.
             </p>
          <p xml:lang="de" facs="#facs_131_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -317,7 +317,7 @@
                <milestone unit="line" facs="#facs_132_l_2" n="N002"/>могу удовлетворяться <emph rend="underlined">игрою</emph> в мужа и жену.
             
             </p>
-         <p facs="#facs_132_r_8" ana="dated_entry_header">
+         <p facs="#facs_132_r_8" ana="dated_entry_header" xml:id="d0654-ru">
             <milestone unit="line" facs="#facs_132_l_14" n="N001"/>9 февраля.
             </p>
          <p xml:lang="de" facs="#facs_132_r_8" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -337,7 +337,7 @@
                <milestone unit="line" facs="#facs_132_l_8" n="N005"/>будет уходить, и эта долбящая в голову мысль востесняет все остальные,
                <milestone unit="line" facs="#facs_132_l_9" n="N006"/>которых до его прихода было так много и которыми так хотелось поде<milestone unit="line" facs="#facs_132_l_10" n="N007"/>литься с ним.
             </p>
-         <p facs="#facs_132_r_6" ana="dated_entry_header">
+         <p facs="#facs_132_r_6" ana="dated_entry_header" xml:id="d0662-ru">
             <milestone unit="line" facs="#facs_132_l_36" n="N001"/>14 февраля.
             </p>
          <p xml:lang="de" facs="#facs_132_r_6" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -363,7 +363,7 @@
                <milestone unit="line" facs="#facs_132_l_29" n="N002"/>тоже, как и я, очень больная, была у меня все это время, готовила
                <milestone unit="line" facs="#facs_132_l_30" n="N003"/>чай и болтала без умолку. Было очень славно.
             </p>
-         <p facs="#facs_132_r_3" ana="dated_entry_header">
+         <p facs="#facs_132_r_3" ana="dated_entry_header" xml:id="d0674-ru">
             <milestone unit="line" facs="#facs_132_l_44" n="N001"/>25 февраля.
             </p>
          <p xml:lang="de" facs="#facs_132_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -441,7 +441,7 @@
          <p facs="#facs_133_r_4" xml:lang="de" corresp="#p0422-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_133_l_20" n="N001"/>Когда влюблена понастоящему, то кажется, будто в груди тает ма<milestone unit="line" facs="#facs_133_l_21" n="N002"/>ленькая, прозрачная лодинка. – Но я этого теперь не испытываю.
             </p>
-         <p facs="#facs_133_r_3" ana="dated_entry_header">
+         <p facs="#facs_133_r_3" ana="dated_entry_header" xml:id="d0690-ru">
             <milestone unit="line" facs="#facs_133_l_50" n="N001"/>26 февраля.
             </p>
          <p xml:lang="de" facs="#facs_133_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -537,7 +537,7 @@
             <fw facs="#facs_135_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_135_l" n="N001"/>133</fw>
          </p>
-         <p facs="#facs_135_r_2" ana="dated_entry_header">
+         <p facs="#facs_135_r_2" ana="dated_entry_header" xml:id="d0714-ru">
             <milestone unit="line" facs="#facs_135_l_29" n="N001"/>5 марта.
             </p>
          <p xml:lang="de" facs="#facs_135_r_2" ana="dated_entry_header">{TRANSLATION GOES HERE}

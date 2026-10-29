@@ -303,7 +303,7 @@
             </del>
             </fw>
          </p>
-         <p facs="#facs_105_r_2" ana="dated_entry_header">
+         <p facs="#facs_105_r_2" ana="dated_entry_header" xml:id="d0162-ru">
             <milestone unit="line" facs="#facs_105_l_30" n="N001"/>1 декабря <del rend="strikethrough">1918 года</del>.
             </p>
          <p xml:lang="de" facs="#facs_105_r_2" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -561,7 +561,7 @@
                <milestone unit="line" facs="#facs_109_l_30" n="N002"/>не всегда, и я уверена, что на самом деле я ни за что не смогла бы этого сде<milestone unit="line" facs="#facs_109_l_31" n="N003"/>лать.
             
             </p>
-         <p facs="#facs_109_r_1" ana="dated_entry_header">
+         <p facs="#facs_109_r_1" ana="dated_entry_header" xml:id="d0198-ru">
             <milestone unit="line" facs="#facs_109_l_1" n="N001"/>10 декабря.
             </p>
          <p xml:lang="de" facs="#facs_109_r_1" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -675,7 +675,7 @@
                <milestone unit="line" facs="#facs_110_l_37" n="N001"/>И снова мне вспомнилась народная сказка о братце Иванушке и сестри<milestone unit="line" facs="#facs_110_l_38" n="N002"/>це Оленушке. Они были такие несчастные, эти две бедные сироты, они так
                <milestone unit="line" facs="#facs_110_l_39" n="N003"/>трогательно заботились друг о друге. Брат и сестра...
             </p>
-         <p facs="#facs_110_r_3" ana="dated_entry_header">
+         <p facs="#facs_110_r_3" ana="dated_entry_header" xml:id="d0226-ru">
             <milestone unit="line" facs="#facs_110_l_29" n="N001"/>16 января 1919 года.
             </p>
          <p xml:lang="de" facs="#facs_110_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}

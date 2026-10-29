@@ -121,7 +121,7 @@
                <milestone unit="line" facs="#facs_124_l_25" n="N006"/>словами: «ну да<emph rend="underlined">, конечно </emph>же: я люблю тебя, моя милая.» К сожалению, я не
                <milestone unit="line" facs="#facs_124_l_26" n="N007"/>могла разобрать, что было написано дальше – Боже мой, до чего я глупа!
             </p>
-         <p facs="#facs_124_r_4" ana="dated_entry_header">
+         <p facs="#facs_124_r_4" ana="dated_entry_header" xml:id="d0490-ru">
             <milestone unit="line" facs="#facs_124_l_8" n="N001"/>25 октября.
             </p>
          <p xml:lang="de" facs="#facs_124_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -179,7 +179,7 @@
                <milestone unit="line" facs="#facs_125_l_40" n="N006"/>
             <emph rend="underlined">мало</emph> умеют любить.
             </p>
-         <p facs="#facs_125_r_4" ana="dated_entry_header">
+         <p facs="#facs_125_r_4" ana="dated_entry_header" xml:id="d0506-ru">
             <milestone unit="line" facs="#facs_125_l_1" n="N001"/>26 октября.
             </p>
          <p xml:lang="de" facs="#facs_125_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}

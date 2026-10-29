@@ -191,7 +191,7 @@
             <fw facs="#facs_152_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_152_l_29" n="N001"/>150</fw>
          </p>
-         <p facs="#facs_152_r_3" ana="dated_entry_header">
+         <p facs="#facs_152_r_3" ana="dated_entry_header" xml:id="d1014-ru">
             <milestone unit="line" facs="#facs_152_l_30" n="N001"/>18 августа.
             </p>
          <p xml:lang="de" facs="#facs_152_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -417,7 +417,7 @@
                <milestone unit="line" facs="#facs_154_l_15" n="N003"/>удастся. Он лежит себе там и читает Шекспира, и в голове у него целая
                <milestone unit="line" facs="#facs_154_l_16" n="N004"/>бездна разных интересных и прекрасных мыслей, и он наверное очень мало ду<milestone unit="line" facs="#facs_154_l_17" n="N005"/>мает о тех пустяках, которые так занимают меня.
             </p>
-         <p facs="#facs_154_r_7" ana="dated_entry_header">
+         <p facs="#facs_154_r_7" ana="dated_entry_header" xml:id="d1082-ru">
             <milestone unit="line" facs="#facs_154_l_21" n="N001"/>20 августа.
             </p>
          <p xml:lang="de" facs="#facs_154_r_7" ana="dated_entry_header">{TRANSLATION GOES HERE}

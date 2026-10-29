@@ -115,7 +115,7 @@
                <milestone unit="line" facs="#facs_85_l_3" n="N003"/>к тому же, что у молодежи инстинкт жизни сравнительно слаб, он
                <milestone unit="line" facs="#facs_85_l_4" n="N004"/>усиливается в более зрелом возрасте.
             </p>
-         <p facs="#facs_85_r_3" ana="dated_entry_header">
+         <p facs="#facs_85_r_3" ana="dated_entry_header" xml:id="d0146-ru">
             <milestone unit="line" facs="#facs_85_l_19" n="N001"/>11 июня.
             </p>
          <p xml:lang="de" facs="#facs_85_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -321,7 +321,7 @@
                <milestone unit="line" facs="#facs_88_l_37" n="N006"/>любил, я все же не могла бы доставить ему ничего кроме лишних
                <milestone unit="line" facs="#facs_88_l_38" n="N007"/>страданий, так как ему было бы тяжело видеть меня такой боль<milestone unit="line" facs="#facs_88_l_39" n="N008"/>ной, и настоящей женой я бы для него никогда не могла быть.
             </p>
-         <p facs="#facs_88_r_1" ana="dated_entry_header">
+         <p facs="#facs_88_r_1" ana="dated_entry_header" xml:id="d0178-ru">
             <milestone unit="line" facs="#facs_88_l_1" n="N001"/>15 июня.
             </p>
          <p xml:lang="de" facs="#facs_88_r_1" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -411,7 +411,7 @@
                <milestone unit="line" facs="#facs_89_l_19" n="N002"/>Это как раз то, чего я ожидала, и &lt;мне&gt; не пришлось разочароваться, чего
                <milestone unit="line" facs="#facs_89_l_20" n="N003"/>я так боялась.
             </p>
-         <p facs="#facs_89_r_6" ana="dated_entry_header">
+         <p facs="#facs_89_r_6" ana="dated_entry_header" xml:id="d0202-ru">
             <milestone unit="line" facs="#facs_89_l_10" n="N001"/>17 июня.
             </p>
          <p xml:lang="de" facs="#facs_89_r_6" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -439,7 +439,7 @@
             <milestone unit="line" facs="#facs_89_l_49" n="N010"/>прочесть.
                <milestone unit="line" facs="#facs_89_l_50" n="N011"/>Что будет дальше?
             </p>
-         <p facs="#facs_89_r_4" ana="dated_entry_header">
+         <p facs="#facs_89_r_4" ana="dated_entry_header" xml:id="d0210-ru">
             <milestone unit="line" facs="#facs_89_l_22" n="N001"/>5 июля.
             </p>
          <p xml:lang="de" facs="#facs_89_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
@@ -609,7 +609,7 @@
                <milestone unit="line" facs="#facs_91_l_26" n="N010"/>кто-нибудь, кто позаботился бы о нем и пожалел его на старости
                <milestone unit="line" facs="#facs_91_l_27" n="N011"/>лет. Рыдания подступили к моему горлу, и я должна была выйти из<milestone unit="line" facs="#facs_91_l_28" n="N012"/>за стола, чтобы скрыть свои слезы.
             </p>
-         <p facs="#facs_91_r_3" ana="dated_entry_header">
+         <p facs="#facs_91_r_3" ana="dated_entry_header" xml:id="d0238-ru">
             <milestone unit="line" facs="#facs_91_l_60" n="N001"/>20 июля.
             </p>
          <p xml:lang="de" facs="#facs_91_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}

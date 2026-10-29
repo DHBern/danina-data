@@ -185,7 +185,7 @@
                <milestone unit="line" facs="#facs_94_l_4" n="N004"/>— «Нет, мне будет тогда скучно»...
                <milestone unit="line" facs="#facs_94_l_5" n="N005"/>Он опустил глаза.
             </p>
-         <p facs="#facs_94_r_3" ana="dated_entry_header">
+         <p facs="#facs_94_r_3" ana="dated_entry_header" xml:id="d0274-ru">
             <milestone unit="line" facs="#facs_94_l_25" n="N001"/>30 июля.
             </p>
          <p xml:lang="de" facs="#facs_94_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
