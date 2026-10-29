@@ -355,8 +355,8 @@
   </xsl:template>
   
   <!-- handle hyphenation symbols (¬) -->
-  <xsl:template match="text()[matches(.,'¬\s*$')][following-sibling::*[1][self::lb]]" mode="#all">
-    <xsl:sequence select=". => replace('¬\s*','')"/>
+  <xsl:template match="text()[matches(.,'(¬|-)\s*$')][following-sibling::*[1][self::lb]]" mode="#all">
+    <xsl:sequence select=". => replace('(¬|-)\s*','')"/>
   </xsl:template>
   
   <!-- handle pb elements and insert IIIF image URLs -->
