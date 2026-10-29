@@ -172,6 +172,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group1/div-9_001.xml?note_annotation_20261029105324210",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-29T09:53:24.210Z",
+	"dcterms:modified": "2026-10-29T09:53:24.210Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eva-sob",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eva Maurer"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group1/div-9_001.xml?note_annotation_20261029105324210#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group1/div-9_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group1/div-9_001.xml?note_annotation_20261029105324210#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Jules Ferdmann beantragte tatsächlich am ... beim russischen Konsulat in Lausanne am 26.4.1917 einen neuen Pass. Siehe Dokumente in BAR ..... (ergänzen) "
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -199,7 +278,7 @@
             </del>
             </fw>
             <milestone unit="line" facs="#facs_46_l_2" n="N001"/>хотя я и раньше иногда это думала, судя по его наружности. И звали его вов<milestone unit="line" facs="#facs_46_l_3" n="N002"/>се не Евгением... Но главное, что меня, повидимому, задело, было то, что он не
-               <milestone unit="line" facs="#facs_46_l_4" n="N003"/>имел достаточно доверия ко мне, чтобы [<del rend="strikethrough">ск</del>] назвать мне ранее свою настоя<milestone unit="line" facs="#facs_46_l_5" n="N004"/>щую фамилию. Теперь, после революции, он получил в консульстве новый паспорт
+               <milestone unit="line" facs="#facs_46_l_4" n="N003"/>имел достаточно доверия ко мне, чтобы [<del rend="strikethrough">ск</del>] назвать мне ранее свою настоя<milestone unit="line" facs="#facs_46_l_5" n="N004"/>щую фамилию. Теперь, после революции, он получил в консульстве<note type="scholarNote">Jules Ferdmann beantragte tatsächlich am ... beim russischen Konsulat in Lausanne am 26.4.1917 einen neuen Pass. Siehe Dokumente in BAR ..... (ergänzen) </note> новый паспорт
                <milestone unit="line" facs="#facs_46_l_6" n="N005"/>с настоящей фамилией своей и мог назвать ее и мне.
             
             </p>
