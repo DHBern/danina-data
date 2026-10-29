@@ -41,3 +41,9 @@
 *[rend="underlined"] {
   text-decoration: underline;
 }
+
+/* Menu */
+button[aria-label="Tag Correction"] {
+  opacity: 0.4;
+  filter: grayscale(100%);
+}
