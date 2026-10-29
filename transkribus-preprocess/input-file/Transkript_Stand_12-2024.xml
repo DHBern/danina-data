@@ -10679,7 +10679,7 @@
             <ab facs="#facs_72_r_2" type="page_number__deleted_or_striked_out">
                <lb facs="#facs_72_l_1" n="N001"/>[2]
             </ab>
-            <ab facs="#facs_72_r_1" type="dated_entry_header">
+            <ab facs="#facs_72_r_1" type="dated_entry_header" xml:id="d0010-ru">
                <lb facs="#facs_72_l_3" n="N001"/><hi style="text-decoration: underline;">26 февраля 1918 года</hi>. 5 ч. утра.
             </ab>
             <p facs="#facs_72_r_3">
@@ -10727,7 +10727,7 @@
                <lb facs="#facs_73_l_38" n="N008"/>перь, на себе самой, мысль Оскара Уайльда, что страдание, достигнув из-
                <lb facs="#facs_73_l_40" n="N009"/><damage type="punchhole">вестной</damage> степени, становится радостью. Les extremités se bouchent.
             </ab>
-            <ab facs="#facs_73_r_1" type="dated_entry_header">
+            <ab facs="#facs_73_r_1" type="dated_entry_header" xml:id="d0030-ru">
                <lb facs="#facs_73_l_1" n="N001"/>27. марта.
             </ab>
             <p facs="#facs_73_r_4">
@@ -10867,7 +10867,7 @@
             <pb facs="#facs_77" n="77" xml:id="img_0077"/>
             <fw facs="#facs_77_r" type="page-number" place="top">
                <lb facs="#facs_77_l" n="N001"/>76</fw>
-            <ab facs="#facs_77_r_2" type="dated_entry_header">
+            <ab facs="#facs_77_r_2" type="dated_entry_header" xml:id="d0054-ru">
                <lb facs="#facs_77_l_31" n="N001"/>15 апреля.
             </ab>
             <p facs="#facs_77_r_1">
@@ -11010,7 +11010,7 @@
                <lb facs="#facs_80_l_40" n="N010"/>это кажется откровением, как бывает всегда, когда <hi style="text-decoration: underline;">сама</hi> дойдешь до
                <lb facs="#facs_80_l_41" n="N011"/>какого-нибудь вывода, хотя бы он уже давно был сделан другими и из-
                <lb facs="#facs_80_l_42" n="N012"/>вестен, как общепризнанная истина.</p>
-            <ab facs="#facs_80_r_4" type="dated_entry_header">
+            <ab facs="#facs_80_r_4" type="dated_entry_header" xml:id="d0094-ru">
                <lb facs="#facs_80_l_12" n="N001"/>5 июня.
             </ab>
             <p facs="#facs_80_r_6">
@@ -11028,7 +11028,7 @@
                <lb facs="#facs_81_l_34" n="N005"/>как много значит для меня это сравнение; он поблагодарил меня за та-
                <lb facs="#facs_81_l_35" n="N006"/>кой большой комплимент.
             </ab>
-            <ab facs="#facs_81_r_1" type="dated_entry_header">
+            <ab facs="#facs_81_r_1" type="dated_entry_header" xml:id="d0102-ru">
                <lb facs="#facs_81_l_1" n="N001"/>6 июня.
             </ab>
             <p facs="#facs_81_r_4">
@@ -11147,7 +11147,7 @@
                <lb facs="#facs_84_l_42" n="N009"/>пѣнія. Что он мне на ней напишет? Боюсь, что я буду разочарована,
                <lb facs="#facs_84_l_44" n="N010"/><damage type="punchhole">и он</damage> напишет не то, чего я смутно ожидаю.
             </ab>
-            <ab facs="#facs_84_r" type="dated_entry_header">
+            <ab facs="#facs_84_r" type="dated_entry_header" xml:id="d0126-ru">
                <lb facs="#facs_84_l" n="N001"/>7 июня.
             </ab>
             <p facs="#facs_84_r_1">
@@ -11193,7 +11193,7 @@
                <lb facs="#facs_85_l_2" n="N002"/>раз у порога смерти, я научилась ценить жизнь. Мечников говорит
                <lb facs="#facs_85_l_3" n="N003"/>к тому же, что у молодежи инстинкт жизни сравнительно слаб, он
                <lb facs="#facs_85_l_4" n="N004"/>усиливается в более зрелом возрасте.</p>
-            <ab facs="#facs_85_r_3" type="dated_entry_header">
+            <ab facs="#facs_85_r_3" type="dated_entry_header" xml:id="d0146-ru">
                <lb facs="#facs_85_l_19" n="N001"/>11 июня.
             </ab>
             <p facs="#facs_85_r_4">
@@ -11301,7 +11301,7 @@
                <lb facs="#facs_88_l_37" n="N006"/>любил, я все же не могла бы доставить ему ничего кроме лишних
                <lb facs="#facs_88_l_38" n="N007"/>страданий, так как ему было бы тяжело видеть меня такой боль-
                <lb facs="#facs_88_l_39" n="N008"/>ной, и настоящей женой я бы для него никогда не могла быть.</p>
-            <ab facs="#facs_88_r_1" type="dated_entry_header">
+            <ab facs="#facs_88_r_1" type="dated_entry_header" xml:id="d0178-ru">
                <lb facs="#facs_88_l_1" n="N001"/>15 июня.
             </ab>
             <p facs="#facs_88_r_3">
@@ -11344,7 +11344,7 @@
                <lb facs="#facs_89_l_17" n="N001"/>Когда он ушел, я перечитала эпиграф много раз и знаю его наизусть.
                <lb facs="#facs_89_l_19" n="N002"/>Это как раз то, чего я ожидала, и &lt;мне&gt; не пришлось разочароваться, чего
                <lb facs="#facs_89_l_20" n="N003"/>я так боялась.</p>
-            <ab facs="#facs_89_r_6" type="dated_entry_header">
+            <ab facs="#facs_89_r_6" type="dated_entry_header" xml:id="d0202-ru">
                <lb facs="#facs_89_l_10" n="N001"/>17 июня.
             </ab>
             <p facs="#facs_89_r_5">
@@ -11359,7 +11359,7 @@
                <lb facs="#facs_89_l_48" n="N009"/>Но, мне кажется, улыбнулась я так, что в улыбке моей он мог <hi style="text-decoration: underline;">все</hi>
                <lb facs="#facs_89_l_49" n="N010"/>прочесть.
                <lb facs="#facs_89_l_50" n="N011"/>Что будет дальше?</p>
-            <ab facs="#facs_89_r_4" type="dated_entry_header">
+            <ab facs="#facs_89_r_4" type="dated_entry_header" xml:id="d0210-ru">
                <lb facs="#facs_89_l_22" n="N001"/>5 июля.
             </ab>
             <p facs="#facs_89_r_3">
@@ -11446,7 +11446,7 @@
                <lb facs="#facs_91_l_26" n="N010"/>кто-нибудь, кто позаботился бы о нем и пожалел его на старости
                <lb facs="#facs_91_l_27" n="N011"/>лет. Рыдания подступили к моему горлу, и я должна была выйти из-
                <lb facs="#facs_91_l_28" n="N012"/>за стола, чтобы скрыть свои слезы.</p>
-            <ab facs="#facs_91_r_3" type="dated_entry_header">
+            <ab facs="#facs_91_r_3" type="dated_entry_header" xml:id="d0238-ru">
                <lb facs="#facs_91_l_60" n="N001"/>20 июля.
             </ab>
             <p facs="#facs_91_r_1">
@@ -11549,7 +11549,7 @@
                <lb facs="#facs_94_l_3" n="N003"/>в окрестности, я ответила:
                <lb facs="#facs_94_l_4" n="N004"/>— «Нет, мне будет тогда скучно»...
                <lb facs="#facs_94_l_5" n="N005"/>Он опустил глаза.</p>
-            <ab facs="#facs_94_r_3" type="dated_entry_header">
+            <ab facs="#facs_94_r_3" type="dated_entry_header" xml:id="d0274-ru">
                <lb facs="#facs_94_l_25" n="N001"/>30 июля.
             </ab>
             <p facs="#facs_94_r_4">
@@ -11731,7 +11731,7 @@
                <lb facs="#facs_98_l_42" n="N008"/>проклинать весь свет за то, что жизнь моя сложилась несчастливо,
                <lb facs="#facs_98_l_43" n="N009"/>что я больна туберкулезом с восемнадцати лет, что я не вышла
                <lb facs="#facs_98_l_45" n="N010"/><damage type="punchhole">замуж</damage> и не была матерью.</p>
-            <ab facs="#facs_98_r_4" type="dated_entry_header">
+            <ab facs="#facs_98_r_4" type="dated_entry_header" xml:id="d0058-ru">
                <lb facs="#facs_98_l_20" n="N001"/>7 августа.
             </ab>
             <p facs="#facs_98_r_3">
@@ -11754,7 +11754,7 @@
             <ab facs="#facs_99_r_8" type="paragraph_to_be_merged_with_previous">
                <lb facs="#facs_99_l_1" n="N001"/>так же бывало на лице это неуловимое отражение прекрасной души.
             </ab>
-            <ab facs="#facs_99_r_7" type="dated_entry_header">
+            <ab facs="#facs_99_r_7" type="dated_entry_header" xml:id="d0070-ru">
                <lb facs="#facs_99_l_14" n="N001"/>24 августа.
             </ab>
             <p facs="#facs_99_r_6">
@@ -11776,7 +11776,7 @@
                <lb facs="#facs_99_l_48" n="N006"/>он обо мне не думает, я буду думать о нем и молиться.
                <lb facs="#facs_99_l_49" n="N007"/>
                <lb facs="#facs_99_l_50" n="N008"/><damage type="punchhole">Спи</damage> спокойно, мой милый Боря.</p>
-            <ab facs="#facs_99_r_4" type="dated_entry_header">
+            <ab facs="#facs_99_r_4" type="dated_entry_header" xml:id="d0082-ru">
                <lb facs="#facs_99_l_22" n="N001"/>27 августа.
             </ab>
             <p facs="#facs_99_r_3">
@@ -11814,12 +11814,12 @@
                <lb facs="#facs_100_l_27" n="N003"/>самыми окнами течет широкая река, течет медленно и вода в ней чис-
                <lb facs="#facs_100_l_28" n="N004"/>тая-чистая. На берегу плакучие ивы, по реке плывут два лебедя, а там
                <lb facs="#facs_100_l_29" n="N005"/>под водой лежит утопленница, та, которой было все, все равно…</p>
-            <ab facs="#facs_100_r_4" type="dated_entry_header">
+            <ab facs="#facs_100_r_4" type="dated_entry_header" xml:id="d0102-ru">
                <lb facs="#facs_100_l_5" n="N001"/>1 сентября.
             </ab>
             <p facs="#facs_100_r_5">
                <lb facs="#facs_100_l_20" n="N001"/>Борис неожиданно быстро оправился и даже начал вставать.</p>
-            <ab facs="#facs_100_r_6" type="dated_entry_header">
+            <ab facs="#facs_100_r_6" type="dated_entry_header" xml:id="d0110-ru">
                <lb facs="#facs_100_l_6" n="N001"/>26 сентября.
             </ab>
             <p facs="#facs_100_r_7">
@@ -11977,7 +11977,7 @@
             <ab facs="#facs_105_r_5" type="page_number__deleted_or_striked_out">
                <lb facs="#facs_105_l_20" n="N001"/>[<unclear>??</unclear>]
             </ab>
-            <ab facs="#facs_105_r_2" type="dated_entry_header">
+            <ab facs="#facs_105_r_2" type="dated_entry_header" xml:id="d0162-ru">
                <lb facs="#facs_105_l_30" n="N001"/>1 декабря <hi style="text-decoration: line-through;">1918 года</hi>.
             </ab>
             <p facs="#facs_105_r_1">
@@ -12118,7 +12118,7 @@
                <lb facs="#facs_109_l_30" n="N002"/>не всегда, и я уверена, что на самом деле я ни за что не смогла бы этого сде¬
                <lb facs="#facs_109_l_31" n="N003"/>лать.
             </ab>
-            <ab facs="#facs_109_r_1" type="dated_entry_header">
+            <ab facs="#facs_109_r_1" type="dated_entry_header" xml:id="d0198-ru">
                <lb facs="#facs_109_l_1" n="N001"/>10 декабря.
             </ab>
             <p facs="#facs_109_r_3">
@@ -12174,7 +12174,7 @@
                <lb facs="#facs_110_l_37" n="N001"/>И снова мне вспомнилась народная сказка о братце Иванушке и сестри¬
                <lb facs="#facs_110_l_38" n="N002"/>це Оленушке. Они были такие несчастные, эти две бедные сироты, они так
                <lb facs="#facs_110_l_39" n="N003"/>трогательно заботились друг о друге. Брат и сестра...</p>
-            <ab facs="#facs_110_r_3" type="dated_entry_header">
+            <ab facs="#facs_110_r_3" type="dated_entry_header" xml:id="d0226-ru">
                <lb facs="#facs_110_l_29" n="N001"/>16 января 1919 года.
             </ab>
             <p facs="#facs_110_r_7">
@@ -12204,7 +12204,7 @@
                <lb facs="#facs_111_l_4" n="N004"/>у него было точно такое же &lt;нежное и кроткое&gt; выражение лица, как у папы, когда он возился с ма-¬
                <lb facs="#facs_111_l_5" n="N005"/>ленькими детьми, собачками или цыплятами. И я подумала: как нечастно
                <lb facs="#facs_111_l_6" n="N006"/>сложилась и его жизнь...</p>
-            <ab facs="#facs_111_r_3" type="dated_entry_header">
+            <ab facs="#facs_111_r_3" type="dated_entry_header" xml:id="d0246-ru">
                <lb facs="#facs_111_l_26" n="N001"/>4 марта.
             </ab>
             <p facs="#facs_111_r_4">
@@ -12252,7 +12252,7 @@
                <lb facs="#facs_112_l_6" n="N004"/>все таки хочет и рад умереть, потому что жить он не может...</p>
             <p facs="#facs_112_r_5">
                <lb facs="#facs_112_l_23" n="N001"/>Как хорошо понимаю я это состояние души!</p>
-            <ab facs="#facs_112_r_6" type="dated_entry_header">
+            <ab facs="#facs_112_r_6" type="dated_entry_header" xml:id="d0278-ru">
                <lb facs="#facs_112_l_7" n="N001"/>26 марта.
             </ab>
             <p facs="#facs_112_r_7">
@@ -12288,7 +12288,7 @@
                <lb facs="#facs_113_l_28" n="N002"/>может быть и не показывает этого. Это было сказано к случаю, но мне в словах
                <lb facs="#facs_113_l_31" n="N003"/>его, как они были сказаны, послышался явственный намек на мое душевное состоя-
                <lb facs="#facs_113_l_32" n="N004"/>ние.</p>
-            <ab facs="#facs_113_r_4" type="dated_entry_header">
+            <ab facs="#facs_113_r_4" type="dated_entry_header" xml:id="d0302-ru">
                <lb facs="#facs_113_l_4" n="N001"/>10 мая.
             </ab>
             <p facs="#facs_113_r_5">
@@ -12347,7 +12347,7 @@
                <lb facs="#facs_114_l_35" n="N006"/>музыка. Это она играет. Я прикладывала ухо к земле и <hi style="text-decoration: underline;">слышала</hi> таинствен-¬
                <lb facs="#facs_114_l_36" n="N007"/>ную, далекую музыку. Это была, быть может, самая прекрасная музыка, какую
                <lb facs="#facs_114_l_37" n="N008"/>я когда либо слышала в жизни, потому что она была в моей душе.</p>
-            <ab facs="#facs_114_r_4" type="dated_entry_header">
+            <ab facs="#facs_114_r_4" type="dated_entry_header" xml:id="d0330-ru">
                <lb facs="#facs_114_l_15" n="N001"/>22 мая.
             </ab>
             <p facs="#facs_114_r_6">
@@ -12492,7 +12492,7 @@
             <p facs="#facs_118_r_5">
                <lb facs="#facs_118_l_15" n="N001"/>Странно, почему я это вспомнила. Неужели я надеюсь на такой же конец в
                <lb facs="#facs_118_l_16" n="N002"/>отношения между мной и Борисом?</p>
-            <ab facs="#facs_118_r_6" type="dated_entry_header">
+            <ab facs="#facs_118_r_6" type="dated_entry_header" xml:id="d0386-ru">
                <lb facs="#facs_118_l_11" n="N001"/>20 июля.
             </ab>
             <p facs="#facs_118_r_8">
@@ -12520,7 +12520,7 @@
                <lb facs="#facs_119_l_15" n="N006"/>&lt;Einzug&gt; Весь последующий наш разговор был простой и дружеский. Ничего особенного
                <lb facs="#facs_119_l_16" n="N007"/>нами не было сказано, но было так хорошо. Он сказал, между прочим: «Ну, Вы¬
                <lb facs="#facs_119_l_17" n="N008"/>романист". Таким тоном говорят с маленькими детьми.</p>
-            <ab facs="#facs_119_r_5" type="dated_entry_header">
+            <ab facs="#facs_119_r_5" type="dated_entry_header" xml:id="d0398-ru">
                <lb facs="#facs_119_l_46" n="N001"/>24 августа.
             </ab>
             <p facs="#facs_119_r_4">
@@ -12528,7 +12528,7 @@
                <lb facs="#facs_119_l_20" n="N002"/>ние, на то, что ничего не может делать, что в доме этом ему надоело до смерти.¬
                <lb facs="#facs_119_l_21" n="N003"/>К тому же деньги у него изсякают и он едва ли еще долгое время сможет оплачи¬
                <lb facs="#facs_119_l_22" n="N004"/>вать счета нашей клиники.</p>
-            <ab facs="#facs_119_r_3" type="dated_entry_header">
+            <ab facs="#facs_119_r_3" type="dated_entry_header" xml:id="d0406-ru">
                <lb facs="#facs_119_l_52" n="N001"/>25 августа.
             </ab>
             <p facs="#facs_119_r_1">
@@ -12555,7 +12555,7 @@
                <lb facs="#facs_120_l_40" n="N012"/>тяжелые минуты – я не боюсь их, но имею ли я право волновать его? Что мне
                <lb facs="#facs_120_l_41" n="N013"/>делать?
             </ab>
-            <ab facs="#facs_120_r_3" type="dated_entry_header">
+            <ab facs="#facs_120_r_3" type="dated_entry_header" xml:id="d0414-ru">
                <lb facs="#facs_120_l_16" n="N001"/>30 августа.
             </ab>
             <p facs="#facs_120_r_5">
@@ -12578,7 +12578,7 @@
             <pb facs="#facs_121" n="121" xml:id="img_0121"/>
             <fw facs="#facs_121_r" type="page-number" place="top">
                <lb facs="#facs_121_l" n="N001"/>119</fw>
-            <ab facs="#facs_121_r_6" type="dated_entry_header">
+            <ab facs="#facs_121_r_6" type="dated_entry_header" xml:id="d0430-ru">
                <lb facs="#facs_121_l_1" n="N001"/>10 сентября.
             </ab>
             <p facs="#facs_121_r_5">
@@ -12717,7 +12717,7 @@
                <lb facs="#facs_124_l_24" n="N005"/>Но сегодня мне снилось, будто я получила от него другое письмо, начинавшееся
                <lb facs="#facs_124_l_25" n="N006"/>словами: «ну да<hi style="text-decoration: underline;">, конечно </hi>же: я люблю тебя, моя милая.» К сожалению, я не
                <lb facs="#facs_124_l_26" n="N007"/>могла разобрать, что было написано дальше – Боже мой, до чего я глупа!</p>
-            <ab facs="#facs_124_r_4" type="dated_entry_header">
+            <ab facs="#facs_124_r_4" type="dated_entry_header" xml:id="d0490-ru">
                <lb facs="#facs_124_l_8" n="N001"/>25 октября.
             </ab>
             <p facs="#facs_124_r_6">
@@ -12744,7 +12744,7 @@
                <lb facs="#facs_125_l_38" n="N004"/>мягкостью и нежностью, запрятанной и загнанной глубоко внутрь души.
                <lb facs="#facs_125_l_39" n="N005"/>Бедный абажур и бедные люди, которым так хочется любви и которые так
                <lb facs="#facs_125_l_40" n="N006"/><hi style="text-decoration: underline;">мало</hi> умеют любить.</p>
-            <ab facs="#facs_125_r_4" type="dated_entry_header">
+            <ab facs="#facs_125_r_4" type="dated_entry_header" xml:id="d0506-ru">
                <lb facs="#facs_125_l_1" n="N001"/>26 октября.
             </ab>
             <p facs="#facs_125_r_6">
@@ -12887,7 +12887,7 @@
                <lb facs="#facs_129_l_7" n="N002"/>И в горячих слезах он сказал:
                <lb facs="#facs_129_l_14" n="N003"/>- Возьми меня, родина!"
             </ab>
-            <ab facs="#facs_129_r_6" type="dated_entry_header">
+            <ab facs="#facs_129_r_6" type="dated_entry_header" xml:id="d0586-ru">
                <lb facs="#facs_129_l_4" n="N001"/>24 ноября.
             </ab>
             <p facs="#facs_129_r_5">
@@ -12923,7 +12923,7 @@
             <p facs="#facs_130_r_8">
                <lb facs="#facs_130_l_1" n="N001"/>И слово: «Жид» мне кажется теперь не презрительным, а гордым и озаренным
                <lb facs="#facs_130_l_2" n="N002"/>ореолом мученичества.</p>
-            <ab facs="#facs_130_r_7" type="dated_entry_header">
+            <ab facs="#facs_130_r_7" type="dated_entry_header" xml:id="d0610-ru">
                <lb facs="#facs_130_l_27" n="N001"/>8 января 1920
             </ab>
             <p facs="#facs_130_r_6">
@@ -12937,7 +12937,7 @@
                <lb facs="#facs_130_l_11" n="N008"/>Между нами, я чувствую это, незаметно выростает это ужасная <hi style="text-decoration: underline;">сте-
                <lb facs="#facs_130_l_12" n="N009"/>на молчания</hi>, о которой так хорошо говорит Гейерстам. Я чувствую так
                <lb facs="#facs_130_l_13" n="N010"/>же, что все во мне начинает его раздражать…</p>
-            <ab facs="#facs_130_r_5" type="dated_entry_header">
+            <ab facs="#facs_130_r_5" type="dated_entry_header" xml:id="d0618-ru">
                <lb facs="#facs_130_l_39" n="N001"/>20 января.
             </ab>
             <p facs="#facs_130_r_4">
@@ -12949,7 +12949,7 @@
                <lb facs="#facs_130_l_20" n="N006"/>щание, крепко сжимая мою руку.
                <lb facs="#facs_130_l_21" n="N007"/>«Нет, мы не будем киснуть», ответила я, глядя на него с немного
                <lb facs="#facs_130_l_22" n="N008"/>лукавой улыбкой.</p>
-            <ab facs="#facs_130_r_3" type="dated_entry_header">
+            <ab facs="#facs_130_r_3" type="dated_entry_header" xml:id="d0626-ru">
                <lb facs="#facs_130_l_49" n="N001"/>25 января.
             </ab>
             <p facs="#facs_130_r_1">
@@ -12962,7 +12962,7 @@
                <lb facs="#facs_131_l_29" n="N001"/>то дать, а когда у меня у самого ничего нет, на душе пусто, то это
                <lb facs="#facs_131_l_30" n="N002"/>тяжело.
             </ab>
-            <ab facs="#facs_131_r_3" type="dated_entry_header">
+            <ab facs="#facs_131_r_3" type="dated_entry_header" xml:id="d0634-ru">
                <lb facs="#facs_131_l_11" n="N001"/>2 февраля.
             </ab>
             <p facs="#facs_131_r_7">
@@ -13000,7 +13000,7 @@
                <lb facs="#facs_132_l_1" n="N001"/>редко, но все же бывает. Что до меня, то я так странно устроена, что вполне
                <lb facs="#facs_132_l_2" n="N002"/>могу удовлетворяться <hi style="text-decoration: underline;">игрою</hi> в мужа и жену.
             </ab>
-            <ab facs="#facs_132_r_8" type="dated_entry_header">
+            <ab facs="#facs_132_r_8" type="dated_entry_header" xml:id="d0654-ru">
                <lb facs="#facs_132_l_14" n="N001"/>9 февраля.
             </ab>
             <p facs="#facs_132_r_7">
@@ -13011,7 +13011,7 @@
                <lb facs="#facs_132_l_8" n="N005"/>будет уходить, и эта долбящая в голову мысль востесняет все остальные,
                <lb facs="#facs_132_l_9" n="N006"/>которых до его прихода было так много и которыми так хотелось поде-
                <lb facs="#facs_132_l_10" n="N007"/>литься с ним.</p>
-            <ab facs="#facs_132_r_6" type="dated_entry_header">
+            <ab facs="#facs_132_r_6" type="dated_entry_header" xml:id="d0662-ru">
                <lb facs="#facs_132_l_36" n="N001"/>14 февраля.
             </ab>
             <p facs="#facs_132_r_2">
@@ -13022,7 +13022,7 @@
                <lb facs="#facs_132_l_28" n="N001"/>Он просидел у меня до одиннадцати часов ночи. Мlle &lt;Р.Ш.&gt;, француженка
                <lb facs="#facs_132_l_29" n="N002"/>тоже, как и я, очень больная, была у меня все это время, готовила
                <lb facs="#facs_132_l_30" n="N003"/>чай и болтала без умолку. Было очень славно.</p>
-            <ab facs="#facs_132_r_3" type="dated_entry_header">
+            <ab facs="#facs_132_r_3" type="dated_entry_header" xml:id="d0674-ru">
                <lb facs="#facs_132_l_44" n="N001"/>25 февраля.
             </ab>
             <p facs="#facs_132_r_1">
@@ -13061,7 +13061,7 @@
             <p facs="#facs_133_r_4">
                <lb facs="#facs_133_l_20" n="N001"/>Когда влюблена по-настоящему, то кажется, будто в груди тает ма-
                <lb facs="#facs_133_l_21" n="N002"/>ленькая, прозрачная лодинка. – Но я этого теперь не испытываю.</p>
-            <ab facs="#facs_133_r_3" type="dated_entry_header">
+            <ab facs="#facs_133_r_3" type="dated_entry_header" xml:id="d0690-ru">
                <lb facs="#facs_133_l_50" n="N001"/>26 февраля.
             </ab>
             <p facs="#facs_133_r_1">
@@ -13108,7 +13108,7 @@
             <pb facs="#facs_135" n="135" xml:id="img_0135"/>
             <fw facs="#facs_135_r" type="page-number" place="top">
                <lb facs="#facs_135_l" n="N001"/>133</fw>
-            <ab facs="#facs_135_r_2" type="dated_entry_header">
+            <ab facs="#facs_135_r_2" type="dated_entry_header" xml:id="d0714-ru">
                <lb facs="#facs_135_l_29" n="N001"/>5 марта.
             </ab>
             <p facs="#facs_135_r_1">
@@ -13134,7 +13134,7 @@
                <lb facs="#facs_135_l_42" n="N013"/>будут думать о тех, кто приготовил им светлую, счастливую жизнь. И
                <lb facs="#facs_135_l_43" n="N014"/>страдания их, если они все же будут, станут иными чем теперь: более
                <lb facs="#facs_135_l_44" n="N015"/>высокими и достойными человека.</p>
-            <ab facs="#facs_135_r_4" type="dated_entry_header">
+            <ab facs="#facs_135_r_4" type="dated_entry_header" xml:id="d0726-ru">
                <lb facs="#facs_135_l_7" n="N001"/>8 марта.
             </ab>
             <p facs="#facs_135_r_6">
@@ -13150,7 +13150,7 @@
                <lb facs="#facs_136_l_7" n="N002"/>стало лучше, он начал вставать и приедет, как только почувствует себя в си-
                <lb facs="#facs_136_l_8" n="N003"/>лах на это.
             </ab>
-            <ab facs="#facs_136_r_4" type="dated_entry_header">
+            <ab facs="#facs_136_r_4" type="dated_entry_header" xml:id="d0734-ru">
                <lb facs="#facs_136_l_4" n="N001"/>20 марта.
             </ab>
             <p facs="#facs_136_r_3">
@@ -13197,7 +13197,7 @@
                <lb facs="#facs_137_l_40" n="N013"/>меня значит и не стала бы на меня сердиться. Или, наоборот, я увидела бы, что
                <lb facs="#facs_137_l_41" n="N014"/>она любит его больше, чем я, и достойнее его, чем я. Тогда я должна была бы
                <lb facs="#facs_137_l_42" n="N015"/>ей помочь. Но, дурочка, он не любит, ни тебя, ни ее…</p>
-            <ab facs="#facs_137_r_1" type="dated_entry_header">
+            <ab facs="#facs_137_r_1" type="dated_entry_header" xml:id="d0750-ru">
                <lb facs="#facs_137_l_1" n="N001"/>21 марта.
             </ab>
             <p facs="#facs_137_r_3">
@@ -13205,7 +13205,7 @@
                <lb facs="#facs_137_l_15" n="N002"/><hi style="text-decoration: line-through;">ном</hi> &lt;ном&gt; настроении, какое бывает иногда после тяжелой внутренней работы души
                <lb facs="#facs_137_l_16" n="N003"/>во время сна. Мне кажется, что я страдаю от мысли, что она любит его больше
                <lb facs="#facs_137_l_17" n="N004"/>чем я.</p>
-            <ab facs="#facs_137_r_4" type="dated_entry_header">
+            <ab facs="#facs_137_r_4" type="dated_entry_header" xml:id="d0758-ru">
                <lb facs="#facs_137_l_2" n="N001"/>27 марта.
             </ab>
             <p facs="#facs_137_r_6">
@@ -13266,7 +13266,7 @@
                <lb facs="#facs_139_l_27" n="N007"/>написавши все это я вдруг опять чувствую себя богаче и счастливее всех
                <lb facs="#facs_139_l" n="N008"/>на свете. Так сказочно щедра природа: отнимая одно, она дает дру-
                <lb facs="#facs_139_l_1" n="N009"/>гое.</p>
-            <ab facs="#facs_139_r" type="dated_entry_header">
+            <ab facs="#facs_139_r" type="dated_entry_header" xml:id="d0778-ru">
                <lb facs="#facs_139_l_2" n="N001"/>30 марта.
             </ab>
             <p facs="#facs_139_r_1">
@@ -13276,7 +13276,7 @@
                <lb facs="#facs_139_l_14" n="N004"/>самой, и это было не тяжело, а как то сладостно приятно. Одна, и не нужно
                <lb facs="#facs_139_l_15" n="N005"/>мне никого, и его тоже не нужно. Я, наконец, достигла того, <hi style="text-decoration: line-through;">чег</hi> к чему стре-
                <lb facs="#facs_139_l_17" n="N006"/>милась: я счастлива и без него. Лишь бы только он жил.</p>
-            <ab facs="#facs_139_r_4" type="dated_entry_header">
+            <ab facs="#facs_139_r_4" type="dated_entry_header" xml:id="d0786-ru">
                <lb facs="#facs_139_l_3" n="N001"/>2 апреля.
             </ab>
             <p facs="#facs_139_r_3">
@@ -13375,7 +13375,7 @@
                <lb facs="#facs_142_l_21" n="N009"/>Нет, это слишком ужасно! И неужели же у меня была такая улыбка,
                <lb facs="#facs_142_l_22" n="N010"/>что он мог <hi style="text-decoration: underline;">так</hi> понять меня!..
             </ab>
-            <ab facs="#facs_142_r_4" type="dated_entry_header">
+            <ab facs="#facs_142_r_4" type="dated_entry_header" xml:id="d0826-ru">
                <lb facs="#facs_142_l_11" n="N001"/>20 июня.
             </ab>
             <p facs="#facs_142_r_3">
@@ -13406,7 +13406,7 @@
                <lb facs="#facs_143_l_4" n="N004"/>дей? Истинно хорошие люди всегда поймут его и простят ему его недостатки
                <lb facs="#facs_143_l_5" n="N005"/>ради достоинств.
             </ab>
-            <ab facs="#facs_143_r_5" type="dated_entry_header">
+            <ab facs="#facs_143_r_5" type="dated_entry_header" xml:id="d0838-ru">
                <lb facs="#facs_143_l_32" n="N001"/>21 июня.
             </ab>
             <p facs="#facs_143_r_2">
@@ -13426,7 +13426,7 @@
             <p facs="#facs_143_r_8">
                <lb facs="#facs_143_l_8" n="N001"/>Я чувствую себя плохо, после разговора с г-жей А. у меня поднялась темпе-
                <lb facs="#facs_143_l_9" n="N002"/>ратура и показалось немного крови в мокроте.</p>
-            <ab facs="#facs_143_r_3" type="dated_entry_header">
+            <ab facs="#facs_143_r_3" type="dated_entry_header" xml:id="d0854-ru">
                <lb facs="#facs_143_l_48" n="N001"/>27 июня.
             </ab>
             <p facs="#facs_143_r_1">
@@ -13442,7 +13442,7 @@
                <lb facs="#facs_144_l_1" n="N001"/>чтобы и я поехала в горы. И теперь его знакомый тоже говорил об этом: «Вот
                <lb facs="#facs_144_l_2" n="N002"/>бы вам обоим поехать, и Вам и ему»…
             </ab>
-            <ab facs="#facs_144_r_7" type="dated_entry_header">
+            <ab facs="#facs_144_r_7" type="dated_entry_header" xml:id="d0862-ru">
                <lb facs="#facs_144_l_12" n="N001"/>27 июля.
             </ab>
             <p facs="#facs_144_r_6">
@@ -13513,7 +13513,7 @@
             <pb facs="#facs_146" n="146" xml:id="img_0146"/>
             <fw facs="#facs_146_r" type="page-number" place="top">
                <lb facs="#facs_146_l_1" n="N001"/>144</fw>
-            <ab facs="#facs_146_r_2" type="dated_entry_header">
+            <ab facs="#facs_146_r_2" type="dated_entry_header" xml:id="d0898-ru">
                <lb facs="#facs_146_l" n="N001"/>29 июля.
             </ab>
             <p facs="#facs_146_r_1">
@@ -13533,7 +13533,7 @@
                <lb facs="#facs_146_l_11" n="N003"/>для всех, совершенно прозрачной, и мне нечего было бы стыдиться. Я не в со-
                <lb facs="#facs_146_l_12" n="N004"/>стоянии записать всех дурных мыслей, которые мне иногда приходят в
                <lb facs="#facs_146_l_13" n="N005"/>голову.</p>
-            <ab facs="#facs_146_r_5" type="dated_entry_header">
+            <ab facs="#facs_146_r_5" type="dated_entry_header" xml:id="d0914-ru">
                <lb facs="#facs_146_l_26" n="N001"/>30 июля.
             </ab>
             <p facs="#facs_146_r_6">
@@ -13543,7 +13543,7 @@
                <lb facs="#facs_146_l_17" n="N004"/>прав, когда писал своей невесте: "Лучше всего мы умеем говорить о том,
                <lb facs="#facs_146_l_18" n="N005"/>чего у нас нет и чего мы желали бы, но того, чем мы полны, мы не в
                <lb facs="#facs_146_l_19" n="N006"/>состоянии бываем выразить!"</p>
-            <ab facs="#facs_146_r_7" type="dated_entry_header">
+            <ab facs="#facs_146_r_7" type="dated_entry_header" xml:id="d0922-ru">
                <lb facs="#facs_146_l_25" n="N001"/>31 июля.
             </ab>
             <p facs="#facs_146_r_9">
@@ -13737,7 +13737,7 @@
             <pb facs="#facs_152" n="152" xml:id="img_0152"/>
             <fw facs="#facs_152_r_2" type="page-number" place="top">
                <lb facs="#facs_152_l_29" n="N001"/>150</fw>
-            <ab facs="#facs_152_r_3" type="dated_entry_header">
+            <ab facs="#facs_152_r_3" type="dated_entry_header" xml:id="d1014-ru">
                <lb facs="#facs_152_l_30" n="N001"/>18 августа.
             </ab>
             <p facs="#facs_152_r">
@@ -13843,7 +13843,7 @@
                <lb facs="#facs_154_l_15" n="N003"/>удастся. Он лежит себе там и читает Шекспира, и в голове у него целая
                <lb facs="#facs_154_l_16" n="N004"/>бездна разных интересных и прекрасных мыслей, и он наверное очень мало ду-
                <lb facs="#facs_154_l_17" n="N005"/>мает о тех пустяках, которые так занимают меня.</p>
-            <ab facs="#facs_154_r_7" type="dated_entry_header">
+            <ab facs="#facs_154_r_7" type="dated_entry_header" xml:id="d1082-ru">
                <lb facs="#facs_154_l_21" n="N001"/>20 августа.
             </ab>
             <p facs="#facs_154_r_9">
@@ -13879,7 +13879,7 @@
                <lb facs="#facs_155_l_22" n="N009"/>зить. Это быть может оттого, что наша любовь больше любовь души, при
                <lb facs="#facs_155_l_23" n="N010"/>физической же влюбленности неизбежна борьба, соперничество и враждеб-
                <lb facs="#facs_155_l_24" n="N011"/>ность.</p>
-            <ab facs="#facs_155_r_3" type="dated_entry_header">
+            <ab facs="#facs_155_r_3" type="dated_entry_header" xml:id="d1094-ru">
                <lb facs="#facs_155_l_53" n="N001"/>22 августа.
             </ab>
             <p facs="#facs_155_r_1">
@@ -13901,7 +13901,7 @@
                <lb facs="#facs_156_l_37" n="N010"/>реньку любит, тот хороший, а кто его не любит, тот плохой, а если пло-
                <lb facs="#facs_156_l_38" n="N011"/>&lt;о&gt;хой&lt;о&gt; его любит, то значит он хороший.“
                <lb facs="#facs_156_l_39" n="N012"/>Это она очень зло сказала, но метко: это была удачная <choice><corr>карикатура</corr><sic>каррикатура</sic></choice>.</p>
-            <ab facs="#facs_156_r_1" type="dated_entry_header">
+            <ab facs="#facs_156_r_1" type="dated_entry_header" xml:id="d1106-ru">
                <lb facs="#facs_156_l_1" n="N001"/>21 сентября.
             </ab>
             <p facs="#facs_156_r_4">
@@ -14012,7 +14012,7 @@
             </ab>
             <p facs="#facs_159_r_9">
                <lb facs="#facs_159_l_3" n="N001"/>Папа, а буду твоей достойной дочерью!</p>
-            <ab facs="#facs_159_r_8" type="dated_entry_header">
+            <ab facs="#facs_159_r_8" type="dated_entry_header" xml:id="d1180-ru">
                <lb facs="#facs_159_l_21" n="N001"/>22 сентября.
             </ab>
             <p facs="#facs_159_r">
@@ -14022,7 +14022,7 @@
                <lb facs="#facs_159_l_2" n="N001"/>Была у окулиста (ездила в трамвае в первый раз за 3½ года), спрашивала,
                <lb facs="#facs_159_l_19" n="N002"/>могу ли работать с моими глазами: мне предложили за плату раскрашивать
                <lb facs="#facs_159_l_20" n="N003"/>коробочки для шеколаду с видами из русской жизни.</p>
-            <ab facs="#facs_159_r_6" type="dated_entry_header">
+            <ab facs="#facs_159_r_6" type="dated_entry_header" xml:id="d1192-ru">
                <lb facs="#facs_159_l_35" n="N001"/>25 сентября.
             </ab>
             <p facs="#facs_159_r_5">
@@ -14033,7 +14033,7 @@
                <lb facs="#facs_159_l_15" n="N005"/>мет<hi style="text-decoration: line-through;">,</hi> и, если надо, простит.” Он мучается невозможностью для него помочь мне,
                <lb facs="#facs_159_l_16" n="N006"/>его собственные материальные <hi style="text-decoration: line-through;">обстоятельства</hi> дела очень плохи, а из всех его
                <lb facs="#facs_159_l_17" n="N007"/>попыток достать для меня денег пока ничего не выходит</p>
-            <ab facs="#facs_159_r_4" type="dated_entry_header">
+            <ab facs="#facs_159_r_4" type="dated_entry_header" xml:id="d1200-ru">
                <lb facs="#facs_159_l_44" n="N001"/>26 сентября.
             </ab>
             <p facs="#facs_159_r_2">
@@ -14052,7 +14052,7 @@
                <lb facs="#facs_160_l_28" n="N001"/>то она какая то взбалмошная, с норовом – „то тот, то этот фортель вы-
                <lb facs="#facs_160_l_29" n="N002"/>кинет, и все ни к чему”...
             </ab>
-            <ab facs="#facs_160_r_1" type="dated_entry_header">
+            <ab facs="#facs_160_r_1" type="dated_entry_header" xml:id="d1212-ru">
                <lb facs="#facs_160_l_1" n="N001"/>29 октября.
             </ab>
             <p facs="#facs_160_r_3">
@@ -14101,7 +14101,7 @@
                <lb facs="#facs_161_l_7" n="N007"/>нова. Нужно сделать усилие и подняться еще ступенькой выше. Я чувствую,
                <lb facs="#facs_161_l_8" n="N008"/>как будто у меня под ногами колеблется почва, я как будто тону, но я долж-
                <lb facs="#facs_161_l_9" n="N009"/>на поверить, что могу пойти по воде – и буду спасена.</p>
-            <ab facs="#facs_161_r_3" type="dated_entry_header">
+            <ab facs="#facs_161_r_3" type="dated_entry_header" xml:id="d1236-ru">
                <lb facs="#facs_161_l_24" n="N001"/>3 ноября.
             </ab>
             <p facs="#facs_161_r_4">
@@ -14115,7 +14115,7 @@
                <lb facs="#facs_161_l_17" n="N008"/>скажешь.<hi style="text-decoration: line-through;">”</hi> Когда я читаю у Вас что нибудь хорошие о себе, мне хочется ска-
                <lb facs="#facs_161_l_18" n="N009"/>зать Вам: но ведь я хуже, много хуже. Когда же я встречаю, что нибудь от-
                <lb facs="#facs_161_l_19" n="N010"/><hi style="text-decoration: line-through;">8 ноября</hi> рицательное, мне тоже хочется протестовать.”</p>
-            <ab facs="#facs_161_r_5" type="dated_entry_header">
+            <ab facs="#facs_161_r_5" type="dated_entry_header" xml:id="d1244-ru">
                <lb facs="#facs_161_l_23" n="N001"/>8 ноября.
             </ab>
             <p facs="#facs_161_r_7">
@@ -14167,7 +14167,7 @@
                <lb facs="#facs_163_l_28" n="N003"/>Между нами создалось какое-то братское настроение. Она верно подума-
                <lb facs="#facs_163_l_29" n="N004"/>ла, как я: „он не любит ни меня, ни тебя”.
             </ab>
-            <ab facs="#facs_163_r_1" type="dated_entry_header">
+            <ab facs="#facs_163_r_1" type="dated_entry_header" xml:id="d1268-ru">
                <lb facs="#facs_163_l_1" n="N001"/>12 ноября.
             </ab>
             <p facs="#facs_163_r_3">
@@ -14179,7 +14179,7 @@
                <lb facs="#facs_163_l_31" n="N006"/>книг и одного занимающего меня издания „Песни о купце Калашникове” Лер-
                <lb facs="#facs_163_l_32" n="N007"/>монтова, уверяла, наконец, что здоровые мое стало гораздо лучше и материаль-
                <lb facs="#facs_163_l_33" n="N008"/>ные дела тоже не так то плохи.</p>
-            <ab facs="#facs_163_r_4" type="dated_entry_header">
+            <ab facs="#facs_163_r_4" type="dated_entry_header" xml:id="d1276-ru">
                <lb facs="#facs_163_l_2" n="N001"/>13 ноября.
             </ab>
             <p facs="#facs_163_r_5">
@@ -14190,7 +14190,7 @@
                <lb facs="#facs_163_l_18" n="N005"/>пустынно. Но я овладела собой и вернулась благополучно. Сначала я чув-
                <lb facs="#facs_163_l_19" n="N006"/>ствовала себя плохо, но потом я отошла и теперь мне даже лучше, чем
                <lb facs="#facs_163_l_20" n="N007"/>прежде.</p>
-            <ab facs="#facs_163_r_6" type="dated_entry_header">
+            <ab facs="#facs_163_r_6" type="dated_entry_header" xml:id="d1284-ru">
                <lb facs="#facs_163_l_3" n="N001"/>16 ноября.
             </ab>
             <p facs="#facs_163_r_8">
@@ -14264,7 +14264,7 @@
                <lb facs="#facs_165_l_25" n="N003"/>я все равно не могу не думать, поэтому не браните”. Меня тронуло это, но я, ко-
                <lb facs="#facs_165_l_26" n="N004"/>нечно, побранила его за то, что он, едва выбравшись из серьезной переделки,
                <lb facs="#facs_165_l_27" n="N005"/>написал так много.</p>
-            <ab facs="#facs_165_r_1" type="dated_entry_header">
+            <ab facs="#facs_165_r_1" type="dated_entry_header" xml:id="d1296-ru">
                <lb facs="#facs_165_l_1" n="N001"/>1 декабря.
             </ab>
             <ab facs="#facs_165_r_10" type="quotation">
@@ -14513,7 +14513,7 @@
                <lb facs="#facs_172_l_32" n="N005"/>дания. И, пока мы живы, нужно пытаться проникнуть как можно глубже в ее
                <lb facs="#facs_172_l_33" n="N006"/>тайны, а тайна смерти откроется всего полнее именно тем, кто полнее про-
                <lb facs="#facs_172_l_34" n="N007"/>накнется жизнью.</p>
-            <ab facs="#facs_172_r_1" type="dated_entry_header">
+            <ab facs="#facs_172_r_1" type="dated_entry_header" xml:id="d1384-ru">
                <lb facs="#facs_172_l_1" n="N001"/>13 декабря.
             </ab>
             <p facs="#facs_172_r_3">
@@ -14555,7 +14555,7 @@
                <lb facs="#facs_173_l_38" n="N011"/>справедливость Верховенскому: он, в конце концов, привел в исполнение свою
                <lb facs="#facs_173_l_39" n="N012"/>бредовую мысль и умер из-за этого.
             </ab>
-            <ab facs="#facs_173_r_1" type="dated_entry_header">
+            <ab facs="#facs_173_r_1" type="dated_entry_header" xml:id="d1400-ru">
                <lb facs="#facs_173_l_1" n="N001"/>8 января 1921 года.
             </ab>
             <p facs="#facs_173_r_3">
@@ -14586,12 +14586,12 @@
                <lb facs="#facs_174_l_29" n="N003"/>И мне нравится теперь, что он так верен своей первой любви. Я не буду больше пре-
                <lb facs="#facs_174_l_30" n="N004"/>тендовать на место Ольги в твоем сердце...
             </ab>
-            <ab facs="#facs_174_r_1" type="dated_entry_header">
+            <ab facs="#facs_174_r_1" type="dated_entry_header" xml:id="d1416-ru">
                <lb facs="#facs_174_l_1" n="N001"/>31 января.
             </ab>
             <p facs="#facs_174_r_3">
                <lb facs="#facs_174_l_23" n="N001"/>Никогда, никогда, никогда.</p>
-            <ab facs="#facs_174_r_4" type="dated_entry_header">
+            <ab facs="#facs_174_r_4" type="dated_entry_header" xml:id="d1424-ru">
                <lb facs="#facs_174_l_2" n="N001"/>6 марта.
             </ab>
             <p facs="#facs_174_r_6">
@@ -14634,7 +14634,7 @@
                <lb facs="#facs_175_l_6" n="N006"/>я сию же минуту пошел бы на поезд и приехал бы повидаться с вами. Но
                <lb facs="#facs_175_l_7" n="N007"/>я до крайности стеснен в деньгах и не могу пока сделать этого. Весной у
                <lb facs="#facs_175_l_8" n="N008"/>меня, я надеюсь, будет эта возможность, и я воспользуюсь его. </p>
-            <ab facs="#facs_175_r_3" type="dated_entry_header">
+            <ab facs="#facs_175_r_3" type="dated_entry_header" xml:id="d1436-ru">
                <lb facs="#facs_175_l_22" n="N001"/>18 апреля.
             </ab>
             <p facs="#facs_175_r_5">
@@ -14665,7 +14665,7 @@
                <lb facs="#facs_176_l_30" n="N009"/>здоровления или смерти. О Смерть! Тихая, прекрасная Смерть! Мне больше
                <lb facs="#facs_176_l_31" n="N010"/>ничего не остается. Но поскорее!
             </ab>
-            <ab facs="#facs_176_r_2" type="dated_entry_header">
+            <ab facs="#facs_176_r_2" type="dated_entry_header" xml:id="d1444-ru">
                <lb facs="#facs_176_l_2" n="N001"/>7 мая.
             </ab>
             <p facs="#facs_176_r_4">
