@@ -42,8 +42,11 @@
   text-decoration: underline;
 }
 
-/* Menu */
-button[aria-label="Tag Correction"] {
-  opacity: 0.4;
-  filter: grayscale(100%);
+/* Notes */
+.noteWrapper.note:has(div[type="scholarNote"])::before {
+  background-color: #4a90e2;
+}
+
+.noteWrapper.note:has(div[type="researchNote"])::before {
+  background-color: #e67e22;
 }
