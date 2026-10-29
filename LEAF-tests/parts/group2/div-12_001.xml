@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" href="null"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,36 +11,175 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData>
-         <rdf:RDF xmlns:as="http://www.w3.org/ns/activitystreams#"
-                  xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-                  xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-                  xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                  xmlns:dcterms="http://purl.org/dc/terms/"
-                  xmlns:fabio="https://purl.org/spar/fabio#"
-                  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-                  xmlns:geo="http://www.geonames.org/ontology#"
-                  xmlns:oa="http://www.w3.org/ns/oa#"
-                  xmlns:org="http://www.w3.org/ns/org#"
-                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-                  xmlns:schema="http://schema.org/"
-                  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"/>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group2/div-12_001.xml?date_annotation_20261029104848854",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-29T09:48:48.854Z",
+	"dcterms:modified": "2026-10-29T09:48:48.854Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Stradanina",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "T H"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group2/div-12_001.xml?date_annotation_20261029104848854#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group2/div-12_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group2/div-12_001.xml?date_annotation_20261029104848854#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/emph/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1918-02-26"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group2/div-12_001.xml?note_annotation_20261029105227980",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-29T09:52:27.980Z",
+	"dcterms:modified": "2026-10-29T09:52:27.980Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Stradanina",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "T H"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group2/div-12_001.xml?note_annotation_20261029105227980#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group2/div-12_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/LEAF-tests/parts/group2/div-12_001.xml?note_annotation_20261029105227980#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/ab[3]/choice[2]/corr/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Im Original falsch geschrieben."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><xenoData>
+         
       </xenoData>
    </teiHeader>
    <text>
       <body>
          <ab type="leaf-convenience">
-            <pb corresp="#facs_71"
-                n="71"
-                xml:id="img_0071"
-                ana="70r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597755/full/max/0/default.jpg"/>
+            <pb corresp="#facs_71" n="71" xml:id="img_0071" ana="70r" facs="https://www.e-manuscripta.ch/i3f/v30/4597755/full/max/0/default.jpg"/>
          </ab>
          <head facs="#facs_71_tr_1">
             <milestone unit="line" facs="#facs_71_tr_1_tl_1" n="N001"/>Дневник</head>
-         <head facs="#facs_71_tr_1" xml:lang="de">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_71_tr_1_tl_1" n="N001"/>Дневник</head>
+         <head facs="#facs_71_tr_1" xml:lang="de">Tagebuch</head>
          <ab facs="#facs_71_r" type="motto_epigraph">
             <milestone unit="line" facs="#facs_71_l" n="N001"/>"Hexopoшо человеку быть одному"
                <milestone unit="line" facs="#facs_71_l_1" n="N002"/>(„Книга бытия", гл. 2)
@@ -63,13 +196,13 @@
                <sic>adheision</sic>
             </choice> à la vie.
                <milestone unit="line" facs="#facs_71_l_8" n="N007"/>(<choice>
-               <corr>Maeterlinck</corr>
+               <corr>Maeterlinck<note type="scholarNote">Im Original falsch geschrieben.</note></corr>
                <sic>Maeterlink </sic>
             </choice>"La sagesse et la destinée)
             </ab>
          <p facs="#facs_72_r_1" ana="dated_entry_header">
             <milestone unit="line" facs="#facs_72_l_3" n="N001"/>
-            <emph rend="underlined">26 февраля 1918 года</emph>. 5 ч. утра.
+            <emph rend="underlined"><date when="1918-02-26">26 февраля 1918 года</date></emph>. 5 ч. утра.
             </p>
          <p xml:lang="de" facs="#facs_72_r_1" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_72_l_3" n="N001"/>
@@ -130,18 +263,14 @@
          <p facs="#facs_72_r_7" xml:lang="ru" xml:id="p0224-ru">
             <milestone unit="line" facs="#facs_72_l_47" n="N001"/>Мне кажется, что теперь он понимает меня глубоко. Он и во мне
                <milestone unit="line" facs="#facs_72_l_48" n="N002"/>увидел то, что не всякому видно. Я это поняла, когда он сказал на-
-            <pb corresp="#facs_73"
-                n="73"
-                xml:id="img_0073"
-                ana="72r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597759/full/max/0/default.jpg"/>
+            <pb corresp="#facs_73" n="73" xml:id="img_0073" ana="72r" facs="https://www.e-manuscripta.ch/i3f/v30/4597759/full/max/0/default.jpg"/>
             <fw facs="#facs_73_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_73_l" n="N001"/>72</fw>
             <milestone unit="line" facs="#facs_73_l_31" n="N001"/>счет моей улыбки, что, когда я смеюсь, у меня рот складывается, вероят<milestone unit="line" facs="#facs_73_l_32" n="N002"/>но, так же, как когда я плачу. Видно, что я не привыкла смеяться. И по<milestone unit="line" facs="#facs_73_l_33" n="N003"/>том он добавил:
                <milestone unit="line" facs="#facs_73_l_34" n="N004"/>- Как Вы страдаете!
                <milestone unit="line" facs="#facs_73_l_35" n="N005"/>Фактически это кажется неверно, т.е. при плаче у меня иная складка,
                <milestone unit="line" facs="#facs_73_l_36" n="N006"/>чем при смехе, но в смысле психологическом это, по-моему, было очень
-               <milestone unit="line" facs="#facs_73_l_37" n="N007"/>тонко сказано. Я уже раньше думала о тoм, как хорошо понимаю я те<milestone unit="line" facs="#facs_73_l_38" n="N008"/>перь, на себе самой, мысль Оскара Уайльда, что страдание, достигнув из<milestone unit="line" facs="#facs_73_l_40" n="N009"/>&lt;o&gt;вестной&lt;o&gt; степени, становится радостью. Les extremités se bouchent.
+               <milestone unit="line" facs="#facs_73_l_37" n="N007"/>тонко сказано. Я уже раньше думала о тoм, как хорошо понимаю я те<milestone unit="line" facs="#facs_73_l_38" n="N008"/>перь, на себе самой, мысль Оскара Уайльда, что страдание, достигнув из<milestone unit="line" facs="#facs_73_l_40" n="N009"/>&amp;lt;o&amp;gt;вестной&amp;lt;o&amp;gt; степени, становится радостью. Les extremités se bouchent.
             
             </p>
          <p facs="#facs_72_r_7" xml:lang="de" corresp="#p0224-ru">{TRANSLATION GOES HERE}
@@ -154,7 +283,7 @@
                <milestone unit="line" facs="#facs_73_l_34" n="N004"/>- Как Вы страдаете!
                <milestone unit="line" facs="#facs_73_l_35" n="N005"/>Фактически это кажется неверно, т.е. при плаче у меня иная складка,
                <milestone unit="line" facs="#facs_73_l_36" n="N006"/>чем при смехе, но в смысле психологическом это, по-моему, было очень
-               <milestone unit="line" facs="#facs_73_l_37" n="N007"/>тонко сказано. Я уже раньше думала о тoм, как хорошо понимаю я те<milestone unit="line" facs="#facs_73_l_38" n="N008"/>перь, на себе самой, мысль Оскара Уайльда, что страдание, достигнув из<milestone unit="line" facs="#facs_73_l_40" n="N009"/>&lt;o&gt;вестной&lt;o&gt; степени, становится радостью. Les extremités se bouchent.
+               <milestone unit="line" facs="#facs_73_l_37" n="N007"/>тонко сказано. Я уже раньше думала о тoм, как хорошо понимаю я те<milestone unit="line" facs="#facs_73_l_38" n="N008"/>перь, на себе самой, мысль Оскара Уайльда, что страдание, достигнув из<milestone unit="line" facs="#facs_73_l_40" n="N009"/>&amp;lt;o&amp;gt;вестной&amp;lt;o&amp;gt; степени, становится радостью. Les extremités se bouchent.
             
             </p>
          <p facs="#facs_73_r_1" ana="dated_entry_header">
@@ -174,11 +303,7 @@
                <milestone unit="line" facs="#facs_73_l_16" n="N014"/>Это, может быть, есть первоначальная причина моей болезни. С самого
                <milestone unit="line" facs="#facs_73_l_17" n="N015"/>детства я страдала, не высказываясь. Помню, как, будучи совсем ребен<milestone unit="line" facs="#facs_73_l_18" n="N016"/>ком, я сижу на окнѣ во время грозы и шепчу: «хоть бы меня убила мол<milestone unit="line" facs="#facs_73_l_19" n="N017"/>ния». Достаточно было выговора, резкого слова, чтобы довести меня до
                <milestone unit="line" facs="#facs_73_l_20" n="N018"/>отчаяния. И потребность высказаться перед кем-нибудь, кто понял бы
-            <pb corresp="#facs_74"
-                n="74"
-                xml:id="img_0074"
-                ana="73r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597761/full/max/0/default.jpg"/>
+            <pb corresp="#facs_74" n="74" xml:id="img_0074" ana="73r" facs="https://www.e-manuscripta.ch/i3f/v30/4597761/full/max/0/default.jpg"/>
             <fw facs="#facs_74_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_74_l_34" n="N001"/>73</fw>
             <fw facs="#facs_74_r_3" type="page_number__deleted_or_striked_out">
@@ -194,7 +319,7 @@
                <milestone unit="line" facs="#facs_74_l_37" n="N006"/>я бегу туда. Вскоре приходит и принц. Если я в красном платье, он [<del rend="strikethrough">то</del>-]
                <milestone unit="line" facs="#facs_74_l_38" n="N007"/>[<del rend="strikethrough">же</del>] в красном [<del rend="strikethrough">платье</del>] костюме, если я в голубом, он тоже одет в голубое.
                <milestone unit="line" facs="#facs_74_l_39" n="N008"/>Я сажусь на камень, оставляя место рядом с собою, и начинаю беседовать
-               <milestone unit="line" facs="#facs_74_l_41" n="N009"/>с &lt;o&gt;принцем&lt;o&gt;, поверять ему свои тайны и свои жалобы. Сила моего воображения
+               <milestone unit="line" facs="#facs_74_l_41" n="N009"/>с &amp;lt;o&amp;gt;принцем&amp;lt;o&amp;gt;, поверять ему свои тайны и свои жалобы. Сила моего воображения
                <milestone unit="line" facs="#facs_74_l_42" n="N010"/>была при этом так велика, что я уходила со «свидания», чувствуя себя облег<milestone unit="line" facs="#facs_74_l_43" n="N011"/>ченною.
             
             </p>
@@ -225,7 +350,7 @@
                <milestone unit="line" facs="#facs_74_l_37" n="N006"/>я бегу туда. Вскоре приходит и принц. Если я в красном платье, он [<del rend="strikethrough">то</del>-]
                <milestone unit="line" facs="#facs_74_l_38" n="N007"/>[<del rend="strikethrough">же</del>] в красном [<del rend="strikethrough">платье</del>] костюме, если я в голубом, он тоже одет в голубое.
                <milestone unit="line" facs="#facs_74_l_39" n="N008"/>Я сажусь на камень, оставляя место рядом с собою, и начинаю беседовать
-               <milestone unit="line" facs="#facs_74_l_41" n="N009"/>с &lt;o&gt;принцем&lt;o&gt;, поверять ему свои тайны и свои жалобы. Сила моего воображения
+               <milestone unit="line" facs="#facs_74_l_41" n="N009"/>с &amp;lt;o&amp;gt;принцем&amp;lt;o&amp;gt;, поверять ему свои тайны и свои жалобы. Сила моего воображения
                <milestone unit="line" facs="#facs_74_l_42" n="N010"/>была при этом так велика, что я уходила со «свидания», чувствуя себя облег<milestone unit="line" facs="#facs_74_l_43" n="N011"/>ченною.
             
             </p>
@@ -233,13 +358,13 @@
             <milestone unit="line" facs="#facs_74_l_7" n="N001"/>Иногда мне кажется: не был ли этот детский роман прообразом моего [<del rend="strikethrough">бо</del>-]
                <milestone unit="line" facs="#facs_74_l_19" n="N002"/>позднейшего, более реального, но по существу такого же воображаемого ро<milestone unit="line" facs="#facs_74_l_20" n="N003"/>мана. Ведь Женя был для меня тем же «принцем на горе». Я его не видaла,
                <milestone unit="line" facs="#facs_74_l_21" n="N004"/>как и он меня. Я говорила с ним в письмах. И может быть только поэ<milestone unit="line" facs="#facs_74_l_22" n="N005"/>тому мы и могли стать так близки друг другу. Когда я ему писала, он
-               <milestone unit="line" facs="#facs_74_l_23" n="N006"/>казался мне таким далеким и почти несуществующим, что я не стыди<milestone unit="line" facs="#facs_74_l_24" n="N007"/>&lt;o&gt;лась&lt;o&gt; высказывать ему мои сокровенные мысли и чувства. Когда же мы встре<milestone unit="line" facs="#facs_74_l_25" n="N008"/>тились, я почувствовала, что между нами как будто стена выросла.
+               <milestone unit="line" facs="#facs_74_l_23" n="N006"/>казался мне таким далеким и почти несуществующим, что я не стыди<milestone unit="line" facs="#facs_74_l_24" n="N007"/>&amp;lt;o&amp;gt;лась&amp;lt;o&amp;gt; высказывать ему мои сокровенные мысли и чувства. Когда же мы встре<milestone unit="line" facs="#facs_74_l_25" n="N008"/>тились, я почувствовала, что между нами как будто стена выросла.
             </p>
          <p facs="#facs_74_r_4" xml:lang="de" corresp="#p0226-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_74_l_7" n="N001"/>Иногда мне кажется: не был ли этот детский роман прообразом моего [<del rend="strikethrough">бо</del>-]
                <milestone unit="line" facs="#facs_74_l_19" n="N002"/>позднейшего, более реального, но по существу такого же воображаемого ро<milestone unit="line" facs="#facs_74_l_20" n="N003"/>мана. Ведь Женя был для меня тем же «принцем на горе». Я его не видaла,
                <milestone unit="line" facs="#facs_74_l_21" n="N004"/>как и он меня. Я говорила с ним в письмах. И может быть только поэ<milestone unit="line" facs="#facs_74_l_22" n="N005"/>тому мы и могли стать так близки друг другу. Когда я ему писала, он
-               <milestone unit="line" facs="#facs_74_l_23" n="N006"/>казался мне таким далеким и почти несуществующим, что я не стыди<milestone unit="line" facs="#facs_74_l_24" n="N007"/>&lt;o&gt;лась&lt;o&gt; высказывать ему мои сокровенные мысли и чувства. Когда же мы встре<milestone unit="line" facs="#facs_74_l_25" n="N008"/>тились, я почувствовала, что между нами как будто стена выросла.
+               <milestone unit="line" facs="#facs_74_l_23" n="N006"/>казался мне таким далеким и почти несуществующим, что я не стыди<milestone unit="line" facs="#facs_74_l_24" n="N007"/>&amp;lt;o&amp;gt;лась&amp;lt;o&amp;gt; высказывать ему мои сокровенные мысли и чувства. Когда же мы встре<milestone unit="line" facs="#facs_74_l_25" n="N008"/>тились, я почувствовала, что между нами как будто стена выросла.
             </p>
          <p facs="#facs_74_r_6" xml:lang="ru" xml:id="p0227-ru">
             <milestone unit="line" facs="#facs_74_l_26" n="N001"/>Странноe это было свидание.
@@ -251,11 +376,7 @@
             <milestone unit="line" facs="#facs_74_l_11" n="N001"/>Я помню, как я вхожу в гостинницу и спрашиваю швейцара, здѣсь ли
                <milestone unit="line" facs="#facs_74_l_12" n="N002"/>Т., и вдруг он сам передо мною выростает и отвечает: «здесь». В этот мо<milestone unit="line" facs="#facs_74_l_13" n="N003"/>мент я почувствовала, что этот стоящий передо мною, близкий мне чело<milestone unit="line" facs="#facs_74_l_14" n="N004"/>век – мне чужой. Помню дальше, как молча мы поднялись в его комна<milestone unit="line" facs="#facs_74_l_15" n="N005"/>ту, сели в разныx [<del rend="strikethrough">концах</del>] углах ее и начали говорить о расписании по<milestone unit="line" facs="#facs_74_l_16" n="N006"/>ездов, о погодe и тому подобном. Я долго не могла заставить себя сказать
                <milestone unit="line" facs="#facs_74_l_17" n="N007"/>ему «ты», что было так легко в письмах. Он заговорил о том, [<del rend="strikethrough">чт</del>] с ка<milestone unit="line" facs="#facs_74_l_18" n="N008"/>ким нетерпением ждал меня и как, не в силах более дожидаться[<del rend="strikethrough">,</del>] у себя
-            <pb corresp="#facs_75"
-                n="75"
-                xml:id="img_0075"
-                ana="74r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597763/full/max/0/default.jpg"/>
+            <pb corresp="#facs_75" n="75" xml:id="img_0075" ana="74r" facs="https://www.e-manuscripta.ch/i3f/v30/4597763/full/max/0/default.jpg"/>
             <fw facs="#facs_75_r_4" type="page-number" place="top">
                <milestone unit="line" facs="#facs_75_l_1" n="N001"/>74</fw>
             <fw facs="#facs_75_r" type="page_number__deleted_or_striked_out">
@@ -264,10 +385,10 @@
             </del>
             </fw>
             <milestone unit="line" facs="#facs_75_l_32" n="N001"/>
-            <milestone unit="line" facs="#facs_75_l_33" n="N002"/>в комнате, спустился в вестибюль, где мы и встретились. &lt;Я молчала.&gt; Когда мы,
+            <milestone unit="line" facs="#facs_75_l_33" n="N002"/>в комнате, спустился в вестибюль, где мы и встретились. &amp;lt;Я молчала.&amp;gt; Когда мы,
                <milestone unit="line" facs="#facs_75_l_34" n="N003"/>через несколько минут, вышли из гостинницы на улицу и проходили ми<milestone unit="line" facs="#facs_75_l_35" n="N004"/>мо собора, он сказал, что был там и поставили за меня свечку. Я промол<milestone unit="line" facs="#facs_75_l_36" n="N005"/>чала. Я была очень тронута, но <emph rend="underlined">не могла</emph> ничего сказать. Я ничего не от<milestone unit="line" facs="#facs_75_l_37" n="N006"/>ветила и дальше, когда он сказал: «мы как будто совсем чужие, но ведь
                <milestone unit="line" facs="#facs_75_l_38" n="N007"/>это не так». Он сказал это почти с мольбой в голocе. Я сама невыно<milestone unit="line" facs="#facs_75_l_39" n="N008"/>симо страдала от этого чувства, но не в состоянии была дать ему ка<milestone unit="line" facs="#facs_75_l_40" n="N009"/>койлибо ответ. Неудивительно, что я ему показалась «не той». Он пи<milestone unit="line" facs="#facs_75_l_41" n="N010"/>
-            <milestone unit="line" facs="#facs_75_l_42" n="N011"/>&lt;o&gt;сал&lt;o&gt; потом: ... «я весь как то встрепенулся, взглянул на тебя, — нет, не
+            <milestone unit="line" facs="#facs_75_l_42" n="N011"/>&amp;lt;o&amp;gt;сал&amp;lt;o&amp;gt; потом: ... «я весь как то встрепенулся, взглянул на тебя, — нет, не
                <milestone unit="line" facs="#facs_75_l_43" n="N012"/>ты. И в тоске подумал: где же <emph rend="underlined">она</emph>? Как то странно раздвоился твой об<milestone unit="line" facs="#facs_75_l_44" n="N013"/>раз в моем воображении: будто Тани две – прежняя и теперешняя».
             
             </p>
@@ -284,10 +405,10 @@
             </del>
             </fw>
             <milestone unit="line" facs="#facs_75_l_32" n="N001"/>
-            <milestone unit="line" facs="#facs_75_l_33" n="N002"/>в комнате, спустился в вестибюль, где мы и встретились. &lt;Я молчала.&gt; Когда мы,
+            <milestone unit="line" facs="#facs_75_l_33" n="N002"/>в комнате, спустился в вестибюль, где мы и встретились. &amp;lt;Я молчала.&amp;gt; Когда мы,
                <milestone unit="line" facs="#facs_75_l_34" n="N003"/>через несколько минут, вышли из гостинницы на улицу и проходили ми<milestone unit="line" facs="#facs_75_l_35" n="N004"/>мо собора, он сказал, что был там и поставили за меня свечку. Я промол<milestone unit="line" facs="#facs_75_l_36" n="N005"/>чала. Я была очень тронута, но <emph rend="underlined">не могла</emph> ничего сказать. Я ничего не от<milestone unit="line" facs="#facs_75_l_37" n="N006"/>ветила и дальше, когда он сказал: «мы как будто совсем чужие, но ведь
                <milestone unit="line" facs="#facs_75_l_38" n="N007"/>это не так». Он сказал это почти с мольбой в голocе. Я сама невыно<milestone unit="line" facs="#facs_75_l_39" n="N008"/>симо страдала от этого чувства, но не в состоянии была дать ему ка<milestone unit="line" facs="#facs_75_l_40" n="N009"/>койлибо ответ. Неудивительно, что я ему показалась «не той». Он пи<milestone unit="line" facs="#facs_75_l_41" n="N010"/>
-            <milestone unit="line" facs="#facs_75_l_42" n="N011"/>&lt;o&gt;сал&lt;o&gt; потом: ... «я весь как то встрепенулся, взглянул на тебя, — нет, не
+            <milestone unit="line" facs="#facs_75_l_42" n="N011"/>&amp;lt;o&amp;gt;сал&amp;lt;o&amp;gt; потом: ... «я весь как то встрепенулся, взглянул на тебя, — нет, не
                <milestone unit="line" facs="#facs_75_l_43" n="N012"/>ты. И в тоске подумал: где же <emph rend="underlined">она</emph>? Как то странно раздвоился твой об<milestone unit="line" facs="#facs_75_l_44" n="N013"/>раз в моем воображении: будто Тани две – прежняя и теперешняя».
             
             </p>
@@ -305,11 +426,7 @@
                <milestone unit="line" facs="#facs_75_l_28" n="N015"/>точно облака в пруд, – этa минута единственнa и неповторяема».
                <milestone unit="line" facs="#facs_75_l_29" n="N016"/>Ведь это <emph rend="underlined">меня</emph> он увидел, меня настоящую, далекую и скрытую он
                <milestone unit="line" facs="#facs_75_l_30" n="N017"/>угадал. В этом великая тайна. Бывают моменты, когда как бы завеcа
-            <pb corresp="#facs_76"
-                n="76"
-                xml:id="img_0076"
-                ana="75r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597765/full/max/0/default.jpg"/>
+            <pb corresp="#facs_76" n="76" xml:id="img_0076" ana="75r" facs="https://www.e-manuscripta.ch/i3f/v30/4597765/full/max/0/default.jpg"/>
             <fw facs="#facs_76_r_3" type="page-number" place="top">
                <milestone unit="line" facs="#facs_76_l_30" n="N001"/>75</fw>
             <fw facs="#facs_76_r_2" type="page_number__deleted_or_striked_out">
@@ -325,7 +442,7 @@
                <milestone unit="line" facs="#facs_76_l_35" n="N006"/>мне кажется, я не видела его глаз. Они были огромные и казались мне
                <milestone unit="line" facs="#facs_76_l_36" n="N007"/>темно-синими. И когда я в них взглянула, мне захотелось смотреть в
                <milestone unit="line" facs="#facs_76_l_37" n="N008"/>ниx всегда, не отрываясь, и в них я прочла странную ласку, хотя взгляд
-               <milestone unit="line" facs="#facs_76_l_39" n="N009"/>&lt;o&gt;его&lt;o&gt; был холоден. Но это длилось всего один момент.
+               <milestone unit="line" facs="#facs_76_l_39" n="N009"/>&amp;lt;o&amp;gt;его&amp;lt;o&amp;gt; был холоден. Но это длилось всего один момент.
                <milestone unit="line" facs="#facs_76_l_40" n="N010"/>Тут я хочу привести одно из его стихотворений, присланных мне. Вот
                <milestone unit="line" facs="#facs_76_l_41" n="N011"/>оно:
             
@@ -347,11 +464,7 @@
                <milestone unit="line" facs="#facs_76_l_56" n="N015"/>О, свѣчи глаз, о звезды – свечи!
                <milestone unit="line" facs="#facs_76_l_57" n="N016"/>О возглас: «Навсегда!»
             </quote>
-            <pb corresp="#facs_77"
-                n="77"
-                xml:id="img_0077"
-                ana="76r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597767/full/max/0/default.jpg"/>
+            <pb corresp="#facs_77" n="77" xml:id="img_0077" ana="76r" facs="https://www.e-manuscripta.ch/i3f/v30/4597767/full/max/0/default.jpg"/>
             <milestone unit="line" facs="#facs_77_l" n="N001"/>76
             </p>
          <p facs="#facs_75_r_1" xml:lang="de" corresp="#p0229-ru">{TRANSLATION GOES HERE}
@@ -384,7 +497,7 @@
                <milestone unit="line" facs="#facs_76_l_35" n="N006"/>мне кажется, я не видела его глаз. Они были огромные и казались мне
                <milestone unit="line" facs="#facs_76_l_36" n="N007"/>темно-синими. И когда я в них взглянула, мне захотелось смотреть в
                <milestone unit="line" facs="#facs_76_l_37" n="N008"/>ниx всегда, не отрываясь, и в них я прочла странную ласку, хотя взгляд
-               <milestone unit="line" facs="#facs_76_l_39" n="N009"/>&lt;o&gt;его&lt;o&gt; был холоден. Но это длилось всего один момент.
+               <milestone unit="line" facs="#facs_76_l_39" n="N009"/>&amp;lt;o&amp;gt;его&amp;lt;o&amp;gt; был холоден. Но это длилось всего один момент.
                <milestone unit="line" facs="#facs_76_l_40" n="N010"/>Тут я хочу привести одно из его стихотворений, присланных мне. Вот
                <milestone unit="line" facs="#facs_76_l_41" n="N011"/>оно:
             
@@ -440,7 +553,7 @@
                <milestone unit="line" facs="#facs_77_l_12" n="N002"/>молча и покорно. Я ждала от него письма, ждала долго и упорно, жда<milestone unit="line" facs="#facs_77_l_13" n="N003"/>лa и тогда, когда стало совершенно очевидно, что он мне никогда больше
                <milestone unit="line" facs="#facs_77_l_14" n="N004"/>не напишет. Весь мир был для меня в этом неприходившем письме. Я
                <milestone unit="line" facs="#facs_77_l_15" n="N005"/>засыпала и просыпалась с одной мыслью: «Может быть сегодня онo по<milestone unit="line" facs="#facs_77_l_16" n="N006"/>лучится». И с каждым неоправдавшим этой надежды днем я как будто все
-               <milestone unit="line" facs="#facs_77_l_17" n="N007"/>ниже и ниже клонилась под непосильной тяжестью. Я жила и двига<milestone unit="line" facs="#facs_77_l_19" n="N008"/>&lt;o&gt;лась&lt;o&gt; как-то машинально, жизнь моя была пуста, я умирала. Мое
+               <milestone unit="line" facs="#facs_77_l_17" n="N007"/>ниже и ниже клонилась под непосильной тяжестью. Я жила и двига<milestone unit="line" facs="#facs_77_l_19" n="N008"/>&amp;lt;o&amp;gt;лась&amp;lt;o&amp;gt; как-то машинально, жизнь моя была пуста, я умирала. Мое
                <milestone unit="line" facs="#facs_77_l_20" n="N009"/>молчание, как говорит Уайльд, <del rend="strikethrough">[«</del>]было «внятно лишь одному Богу». Но вот
                <milestone unit="line" facs="#facs_77_l_21" n="N010"/>мне показалось, что молчание мое внятно не одному лишь Богу, и все
                <milestone unit="line" facs="#facs_77_l_22" n="N011"/>переменилось. Мне хочется пожить еще немного, чтобы любить и быть
@@ -449,16 +562,12 @@
                <milestone unit="line" facs="#facs_77_l_25" n="N014"/>жизнь, быть может, еще даст мне. Я так хотела бы знать, любит
                <milestone unit="line" facs="#facs_77_l_26" n="N015"/>ли меня Борис так, как я его. Иногда мне кажется, что да. Он так вни<milestone unit="line" facs="#facs_77_l_27" n="N016"/>мателен ко мне и так восхищается тем, что я страдаю молча и не
                <milestone unit="line" facs="#facs_77_l_28" n="N017"/>жалуюсь. Один раз Мmе Bärli сказала мне, что он меня всегда расхва<milestone unit="line" facs="#facs_77_l_29" n="N018"/>ливает и что я его «petite icone». Да он и сам мне говорил: «Вы ведь
-            <pb corresp="#facs_78"
-                n="78"
-                xml:id="img_0078"
-                ana="77r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597769/full/max/0/default.jpg"/>
+            <pb corresp="#facs_78" n="78" xml:id="img_0078" ana="77r" facs="https://www.e-manuscripta.ch/i3f/v30/4597769/full/max/0/default.jpg"/>
             <fw facs="#facs_78_r_3" type="page-number" place="top">
-               <milestone unit="line" facs="#facs_78_l_32" n="N001"/> ﻿77</fw>
+               <milestone unit="line" facs="#facs_78_l_32" n="N001"/> 77</fw>
             <fw facs="#facs_78_r_2" type="page_number__deleted_or_striked_out">
                <del>
-                  <milestone unit="line" facs="#facs_78_l_31" n="N001"/> [<del rend="strikethrough">8</del>]﻿
+                  <milestone unit="line" facs="#facs_78_l_31" n="N001"/> [<del rend="strikethrough">8</del>]
             </del>
             </fw>
             <milestone unit="line" facs="#facs_78_l" n="N001"/>только слабая девушка, а ведетe себя, как стоик». Я боюсь, что это не
@@ -473,7 +582,7 @@
                <milestone unit="line" facs="#facs_77_l_12" n="N002"/>молча и покорно. Я ждала от него письма, ждала долго и упорно, жда<milestone unit="line" facs="#facs_77_l_13" n="N003"/>лa и тогда, когда стало совершенно очевидно, что он мне никогда больше
                <milestone unit="line" facs="#facs_77_l_14" n="N004"/>не напишет. Весь мир был для меня в этом неприходившем письме. Я
                <milestone unit="line" facs="#facs_77_l_15" n="N005"/>засыпала и просыпалась с одной мыслью: «Может быть сегодня онo по<milestone unit="line" facs="#facs_77_l_16" n="N006"/>лучится». И с каждым неоправдавшим этой надежды днем я как будто все
-               <milestone unit="line" facs="#facs_77_l_17" n="N007"/>ниже и ниже клонилась под непосильной тяжестью. Я жила и двига<milestone unit="line" facs="#facs_77_l_19" n="N008"/>&lt;o&gt;лась&lt;o&gt; как-то машинально, жизнь моя была пуста, я умирала. Мое
+               <milestone unit="line" facs="#facs_77_l_17" n="N007"/>ниже и ниже клонилась под непосильной тяжестью. Я жила и двига<milestone unit="line" facs="#facs_77_l_19" n="N008"/>&amp;lt;o&amp;gt;лась&amp;lt;o&amp;gt; как-то машинально, жизнь моя была пуста, я умирала. Мое
                <milestone unit="line" facs="#facs_77_l_20" n="N009"/>молчание, как говорит Уайльд, <del rend="strikethrough">[«</del>]было «внятно лишь одному Богу». Но вот
                <milestone unit="line" facs="#facs_77_l_21" n="N010"/>мне показалось, что молчание мое внятно не одному лишь Богу, и все
                <milestone unit="line" facs="#facs_77_l_22" n="N011"/>переменилось. Мне хочется пожить еще немного, чтобы любить и быть
@@ -484,10 +593,10 @@
                <milestone unit="line" facs="#facs_77_l_28" n="N017"/>жалуюсь. Один раз Мmе Bärli сказала мне, что он меня всегда расхва<milestone unit="line" facs="#facs_77_l_29" n="N018"/>ливает и что я его «petite icone». Да он и сам мне говорил: «Вы ведь
             <milestone unit="page" n="78" xml:id="img_0078-de"/>
             <fw facs="#facs_78_r_3" type="page-number" place="top">
-               <milestone unit="line" facs="#facs_78_l_32" n="N001"/> ﻿77</fw>
+               <milestone unit="line" facs="#facs_78_l_32" n="N001"/> 77</fw>
             <fw facs="#facs_78_r_2" type="page_number__deleted_or_striked_out">
                <del>
-                  <milestone unit="line" facs="#facs_78_l_31" n="N001"/> [<del rend="strikethrough">8</del>]﻿
+                  <milestone unit="line" facs="#facs_78_l_31" n="N001"/> [<del rend="strikethrough">8</del>]
             </del>
             </fw>
             <milestone unit="line" facs="#facs_78_l" n="N001"/>только слабая девушка, а ведетe себя, как стоик». Я боюсь, что это не
@@ -516,7 +625,7 @@
          <p facs="#facs_78_r_4" xml:lang="ru" xml:id="p0233-ru">
             <milestone unit="line" facs="#facs_78_l_25" n="N001"/>Теперь я научилась быть радостной, счастливой и тем, что у меня
                <milestone unit="line" facs="#facs_78_l_26" n="N002"/>есть, и не стараться «отравить чужую радость своим горем и истерзать
-               <milestone unit="line" facs="#facs_78_l_27" n="N003"/>других своего скорбью&lt;»&gt;. А также, мне кажется, я могу теперь «все, что
+               <milestone unit="line" facs="#facs_78_l_27" n="N003"/>других своего скорбью&amp;lt;»&amp;gt;. А также, мне кажется, я могу теперь «все, что
                <milestone unit="line" facs="#facs_78_l_28" n="N004"/>ни случится со мною, обратить себе в добро». Обо всем этом Оскар
                <milestone unit="line" facs="#facs_78_l_30" n="N005"/>Уайльд говорит в «De profundis»; его мысли поразительно совпадают
                <milestone unit="line" facs="#facs_78_l_38" n="N006"/>с теми, к которым путем страдания пришла и я.
@@ -524,7 +633,7 @@
          <p facs="#facs_78_r_4" xml:lang="de" corresp="#p0233-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_78_l_25" n="N001"/>Теперь я научилась быть радостной, счастливой и тем, что у меня
                <milestone unit="line" facs="#facs_78_l_26" n="N002"/>есть, и не стараться «отравить чужую радость своим горем и истерзать
-               <milestone unit="line" facs="#facs_78_l_27" n="N003"/>других своего скорбью&lt;»&gt;. А также, мне кажется, я могу теперь «все, что
+               <milestone unit="line" facs="#facs_78_l_27" n="N003"/>других своего скорбью&amp;lt;»&amp;gt;. А также, мне кажется, я могу теперь «все, что
                <milestone unit="line" facs="#facs_78_l_28" n="N004"/>ни случится со мною, обратить себе в добро». Обо всем этом Оскар
                <milestone unit="line" facs="#facs_78_l_30" n="N005"/>Уайльд говорит в «De profundis»; его мысли поразительно совпадают
                <milestone unit="line" facs="#facs_78_l_38" n="N006"/>с теми, к которым путем страдания пришла и я.
@@ -544,11 +653,7 @@
                <milestone unit="line" facs="#facs_78_l_14" n="N002"/>письменного стола и шепчу: «нет никого на свете лучше папы».
                <milestone unit="line" facs="#facs_78_l_15" n="N003"/>Но наши отношения были всегда холодны, мы никогда о своих делах
                <milestone unit="line" facs="#facs_78_l_16" n="N004"/>и переживанияx между собою не разговаривали. Один раз мне сказа<milestone unit="line" facs="#facs_78_l_17" n="N005"/>ли, что папа жаловался на старocть и одиночество и говорил, что
-            <pb corresp="#facs_79"
-                n="79"
-                xml:id="img_0079"
-                ana="78r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597771/full/max/0/default.jpg"/>
+            <pb corresp="#facs_79" n="79" xml:id="img_0079" ana="78r" facs="https://www.e-manuscripta.ch/i3f/v30/4597771/full/max/0/default.jpg"/>
             <fw facs="#facs_79_r_3" type="page-number" place="top">
                <milestone unit="line" facs="#facs_79_l_31" n="N001"/>78</fw>
             <fw facs="#facs_79_r_2" type="page_number__deleted_or_striked_out">
@@ -562,7 +667,7 @@
                <milestone unit="line" facs="#facs_79_l_36" n="N007"/>Для большинства дочерей во всем этом не было бы ничего необыкновенного, но
                <milestone unit="line" facs="#facs_79_l_37" n="N008"/>для меня это было совершенно противоестественно. И заслуга моя заключает<milestone unit="line" facs="#facs_79_l_38" n="N009"/>ся именно в том, что я поступила <emph rend="underlined">вопреки</emph> своему характеру, я заставила
                <milestone unit="line" facs="#facs_79_l_39" n="N010"/>себя сделать то, что было для меня почти невозможно, более того: я рискну<milestone unit="line" facs="#facs_79_l_40" n="N011"/>ла показаться <emph rend="underlined">смешной</emph>, чего я боюсь больше всего на свете. Я долго не реша<milestone unit="line" facs="#facs_79_l_41" n="N012"/>лась войти к папе, несколько раз я подходила к его двери и уходила. Мне
-               <milestone unit="line" facs="#facs_79_l_42" n="N013"/>казалось, что я вaлюсь в пропасть. Когда я, наконец, вошла и [<del rend="strikethrough">стала</del>] &lt;начала&gt; го<milestone unit="line" facs="#facs_79_l_43" n="N014"/>ворить, я с ужасом заметила, что губы мои шевелятся, но не издают ни<milestone unit="line" facs="#facs_79_l_44" n="N015"/>какого звука. Мой голoc не повиновался мне. Когда папа посмотрел на ме<milestone unit="line" facs="#facs_79_l_45" n="N016"/>ня со страхом, я овладела собой и смогла говорить. Он сначала не по<milestone unit="line" facs="#facs_79_l_46" n="N017"/>нял меня, он думал, что я спрашиваю совета, как мне поступать. Про<milestone unit="line" facs="#facs_79_l_47" n="N018"/>читав письма, он сказал: «если он имеет на тебя виды, то ведь это его
+               <milestone unit="line" facs="#facs_79_l_42" n="N013"/>казалось, что я вaлюсь в пропасть. Когда я, наконец, вошла и [<del rend="strikethrough">стала</del>] &amp;lt;начала&amp;gt; го<milestone unit="line" facs="#facs_79_l_43" n="N014"/>ворить, я с ужасом заметила, что губы мои шевелятся, но не издают ни<milestone unit="line" facs="#facs_79_l_44" n="N015"/>какого звука. Мой голoc не повиновался мне. Когда папа посмотрел на ме<milestone unit="line" facs="#facs_79_l_45" n="N016"/>ня со страхом, я овладела собой и смогла говорить. Он сначала не по<milestone unit="line" facs="#facs_79_l_46" n="N017"/>нял меня, он думал, что я спрашиваю совета, как мне поступать. Про<milestone unit="line" facs="#facs_79_l_47" n="N018"/>читав письма, он сказал: «если он имеет на тебя виды, то ведь это его
                <milestone unit="line" facs="#facs_79_l_48" n="N019"/>дело предпринять шаги в этом смыслѣ». И еще он сказал: «я понимаю,
                <milestone unit="line" facs="#facs_79_l_49" n="N020"/>что он мог тебя полюбить, но зачем он пишет это таким фельeтонным
                <milestone unit="line" facs="#facs_79_l_50" n="N021"/>языком». Еще и теперь при воспоминании об этих словах я мучительно
@@ -589,7 +694,7 @@
                <milestone unit="line" facs="#facs_79_l_36" n="N007"/>Для большинства дочерей во всем этом не было бы ничего необыкновенного, но
                <milestone unit="line" facs="#facs_79_l_37" n="N008"/>для меня это было совершенно противоестественно. И заслуга моя заключает<milestone unit="line" facs="#facs_79_l_38" n="N009"/>ся именно в том, что я поступила <emph rend="underlined">вопреки</emph> своему характеру, я заставила
                <milestone unit="line" facs="#facs_79_l_39" n="N010"/>себя сделать то, что было для меня почти невозможно, более того: я рискну<milestone unit="line" facs="#facs_79_l_40" n="N011"/>ла показаться <emph rend="underlined">смешной</emph>, чего я боюсь больше всего на свете. Я долго не реша<milestone unit="line" facs="#facs_79_l_41" n="N012"/>лась войти к папе, несколько раз я подходила к его двери и уходила. Мне
-               <milestone unit="line" facs="#facs_79_l_42" n="N013"/>казалось, что я вaлюсь в пропасть. Когда я, наконец, вошла и [<del rend="strikethrough">стала</del>] &lt;начала&gt; го<milestone unit="line" facs="#facs_79_l_43" n="N014"/>ворить, я с ужасом заметила, что губы мои шевелятся, но не издают ни<milestone unit="line" facs="#facs_79_l_44" n="N015"/>какого звука. Мой голoc не повиновался мне. Когда папа посмотрел на ме<milestone unit="line" facs="#facs_79_l_45" n="N016"/>ня со страхом, я овладела собой и смогла говорить. Он сначала не по<milestone unit="line" facs="#facs_79_l_46" n="N017"/>нял меня, он думал, что я спрашиваю совета, как мне поступать. Про<milestone unit="line" facs="#facs_79_l_47" n="N018"/>читав письма, он сказал: «если он имеет на тебя виды, то ведь это его
+               <milestone unit="line" facs="#facs_79_l_42" n="N013"/>казалось, что я вaлюсь в пропасть. Когда я, наконец, вошла и [<del rend="strikethrough">стала</del>] &amp;lt;начала&amp;gt; го<milestone unit="line" facs="#facs_79_l_43" n="N014"/>ворить, я с ужасом заметила, что губы мои шевелятся, но не издают ни<milestone unit="line" facs="#facs_79_l_44" n="N015"/>какого звука. Мой голoc не повиновался мне. Когда папа посмотрел на ме<milestone unit="line" facs="#facs_79_l_45" n="N016"/>ня со страхом, я овладела собой и смогла говорить. Он сначала не по<milestone unit="line" facs="#facs_79_l_46" n="N017"/>нял меня, он думал, что я спрашиваю совета, как мне поступать. Про<milestone unit="line" facs="#facs_79_l_47" n="N018"/>читав письма, он сказал: «если он имеет на тебя виды, то ведь это его
                <milestone unit="line" facs="#facs_79_l_48" n="N019"/>дело предпринять шаги в этом смыслѣ». И еще он сказал: «я понимаю,
                <milestone unit="line" facs="#facs_79_l_49" n="N020"/>что он мог тебя полюбить, но зачем он пишет это таким фельeтонным
                <milestone unit="line" facs="#facs_79_l_50" n="N021"/>языком». Еще и теперь при воспоминании об этих словах я мучительно
@@ -602,11 +707,7 @@
                <milestone unit="line" facs="#facs_79_l_55" n="N002"/>Но тогда эта фраза ударила меня, как ножoм по сердцу. Я была рада
                <milestone unit="line" facs="#facs_79_l_56" n="N003"/>однако, что папа понял и оценил меня. Сестра говорила мне, что в эту
                <milestone unit="line" facs="#facs_79_l_57" n="N004"/>зиму, которую я провела вне дома в санатории, папа был очень весел
-            <pb corresp="#facs_80"
-                n="80"
-                xml:id="img_0080"
-                ana="79r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597773/full/max/0/default.jpg"/>
+            <pb corresp="#facs_80" n="80" xml:id="img_0080" ana="79r" facs="https://www.e-manuscripta.ch/i3f/v30/4597773/full/max/0/default.jpg"/>
             <fw facs="#facs_80_r_7" type="page-number" place="top">
                <milestone unit="line" facs="#facs_80_l_17" n="N001"/>79</fw>
             <fw facs="#facs_80_r_5" type="page_number__deleted_or_striked_out">
@@ -660,7 +761,7 @@
                <milestone unit="line" facs="#facs_80_l_31" n="N002"/>завещаю ему его. То, что я пишу, приобретет быть может какую-нибудь
                <milestone unit="line" facs="#facs_80_l_32" n="N003"/>цену, когда я замолкну навсегда. Странно, как меняется значение сказанного
                <milestone unit="line" facs="#facs_80_l_33" n="N004"/>в зависимости от момента, в который оно было произнесено. То, что смеш<milestone unit="line" facs="#facs_80_l_34" n="N005"/>но при жизни, может стать трогательным после смерти. Одни и те
-               <milestone unit="line" facs="#facs_80_l_36" n="N006"/>&lt;o&gt;же&lt;o&gt; слова, сказанные в подходящий момент, производят совсем иное впе<milestone unit="line" facs="#facs_80_l_37" n="N007"/>чатление, чем сказанные не вó время. Высшее искусство жить состоит,
+               <milestone unit="line" facs="#facs_80_l_36" n="N006"/>&amp;lt;o&amp;gt;же&amp;lt;o&amp;gt; слова, сказанные в подходящий момент, производят совсем иное впе<milestone unit="line" facs="#facs_80_l_37" n="N007"/>чатление, чем сказанные не вó время. Высшее искусство жить состоит,
                <milestone unit="line" facs="#facs_80_l_38" n="N008"/>мне кажется, в том, чтобы делать и говорить все в свое время. Это не<milestone unit="line" facs="#facs_80_l_39" n="N009"/>сомненно не ново, но я сейчас это как-то особенно ясно поняла, и мне
                <milestone unit="line" facs="#facs_80_l_40" n="N010"/>это кажется откровением, как бывает всегда, когда <emph rend="underlined">сама</emph> дойдешь до
                <milestone unit="line" facs="#facs_80_l_41" n="N011"/>какогонибудь вывода, хотя бы он уже давно был сделан другими и из<milestone unit="line" facs="#facs_80_l_42" n="N012"/>вестен, как общепризнанная истина.
@@ -670,7 +771,7 @@
                <milestone unit="line" facs="#facs_80_l_31" n="N002"/>завещаю ему его. То, что я пишу, приобретет быть может какую-нибудь
                <milestone unit="line" facs="#facs_80_l_32" n="N003"/>цену, когда я замолкну навсегда. Странно, как меняется значение сказанного
                <milestone unit="line" facs="#facs_80_l_33" n="N004"/>в зависимости от момента, в который оно было произнесено. То, что смеш<milestone unit="line" facs="#facs_80_l_34" n="N005"/>но при жизни, может стать трогательным после смерти. Одни и те
-               <milestone unit="line" facs="#facs_80_l_36" n="N006"/>&lt;o&gt;же&lt;o&gt; слова, сказанные в подходящий момент, производят совсем иное впе<milestone unit="line" facs="#facs_80_l_37" n="N007"/>чатление, чем сказанные не вó время. Высшее искусство жить состоит,
+               <milestone unit="line" facs="#facs_80_l_36" n="N006"/>&amp;lt;o&amp;gt;же&amp;lt;o&amp;gt; слова, сказанные в подходящий момент, производят совсем иное впе<milestone unit="line" facs="#facs_80_l_37" n="N007"/>чатление, чем сказанные не вó время. Высшее искусство жить состоит,
                <milestone unit="line" facs="#facs_80_l_38" n="N008"/>мне кажется, в том, чтобы делать и говорить все в свое время. Это не<milestone unit="line" facs="#facs_80_l_39" n="N009"/>сомненно не ново, но я сейчас это как-то особенно ясно поняла, и мне
                <milestone unit="line" facs="#facs_80_l_40" n="N010"/>это кажется откровением, как бывает всегда, когда <emph rend="underlined">сама</emph> дойдешь до
                <milestone unit="line" facs="#facs_80_l_41" n="N011"/>какогонибудь вывода, хотя бы он уже давно был сделан другими и из<milestone unit="line" facs="#facs_80_l_42" n="N012"/>вестен, как общепризнанная истина.
@@ -685,11 +786,7 @@
             <milestone unit="line" facs="#facs_80_l_13" n="N001"/>Как то я сказала Борису, что он напоминает мне папу. Это было по
                <milestone unit="line" facs="#facs_80_l_14" n="N002"/>поводу его обыкновения высказывать правду в глаза и притом в довольно
                <milestone unit="line" facs="#facs_80_l_15" n="N003"/>резкой форме. Но основное сходство их в том, что оба они – благородны.
-            <pb corresp="#facs_81"
-                n="81"
-                xml:id="img_0081"
-                ana="80r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597775/full/max/0/default.jpg"/>
+            <pb corresp="#facs_81" n="81" xml:id="img_0081" ana="80r" facs="https://www.e-manuscripta.ch/i3f/v30/4597775/full/max/0/default.jpg"/>
             <fw facs="#facs_81_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_81_l" n="N001"/>80</fw>
             <milestone unit="line" facs="#facs_81_l_30" n="N001"/>Уже сделав это сравнение Бориса с папой, я вспомнила, что как то дав<milestone unit="line" facs="#facs_81_l_31" n="N002"/>но, еще при жизни папы, я мысленно пожелала о том, чтобы человек,
@@ -719,7 +816,7 @@
             </p>
          <p facs="#facs_81_r_4" xml:lang="ru" xml:id="p0240-ru">
             <milestone unit="line" facs="#facs_81_l_2" n="N001"/>К тому времени, как я окончила гимназию и заболела, относится зна<milestone unit="line" facs="#facs_81_l_3" n="N002"/>
-            <milestone unit="line" facs="#facs_81_l_4" n="N003"/>&lt;o&gt;чительный&lt;o&gt; перелом в моей жизни. Ранее этого у меня было стремление
+            <milestone unit="line" facs="#facs_81_l_4" n="N003"/>&amp;lt;o&amp;gt;чительный&amp;lt;o&amp;gt; перелом в моей жизни. Ранее этого у меня было стремление
                <milestone unit="line" facs="#facs_81_l_5" n="N004"/>к жизни, к работе на пользу народа. Уже в детстве, 13ти летним ре<milestone unit="line" facs="#facs_81_l_6" n="N005"/>бенком, я просила у Бога о том, «чтобы я принесла хоть какую-нибудь
                <milestone unit="line" facs="#facs_81_l_7" n="N006"/>пользу людям, какую – и сама не знаю, когда выросту – узнаю». Когда я
                <milestone unit="line" facs="#facs_81_l_8" n="N007"/>была в шестом классе гимназии и у нас образовались кружки для
@@ -733,11 +830,7 @@
                <milestone unit="line" facs="#facs_81_l_19" n="N018"/>тратой времени. Вместе с развитием моей болезни в сознании моем
                <milestone unit="line" facs="#facs_81_l_20" n="N019"/>мало по малу стала происходить перемена. Прежнее бодрое и жи<milestone unit="line" facs="#facs_81_l_21" n="N020"/>вое настроение стало сменяться апатией и усталостью. Перечи<milestone unit="line" facs="#facs_81_l_22" n="N021"/>тывая мой дневник, я вижу, что самой мне тогда казалось, что я
                <milestone unit="line" facs="#facs_81_l_23" n="N022"/>должна заболеть, потому что я ни к чему не способна, что у меня
-            <pb corresp="#facs_82"
-                n="82"
-                xml:id="img_0082"
-                ana="81r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597777/full/max/0/default.jpg"/>
+            <pb corresp="#facs_82" n="82" xml:id="img_0082" ana="81r" facs="https://www.e-manuscripta.ch/i3f/v30/4597777/full/max/0/default.jpg"/>
             <fw facs="#facs_82_r_4" type="page-number" place="top">
                <milestone unit="line" facs="#facs_82_l_1" n="N001"/>81</fw>
             <fw facs="#facs_82_r" type="page_number__deleted_or_striked_out">
@@ -748,7 +841,7 @@
          </p>
          <p facs="#facs_81_r_4" xml:lang="de" corresp="#p0240-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_81_l_2" n="N001"/>К тому времени, как я окончила гимназию и заболела, относится зна<milestone unit="line" facs="#facs_81_l_3" n="N002"/>
-            <milestone unit="line" facs="#facs_81_l_4" n="N003"/>&lt;o&gt;чительный&lt;o&gt; перелом в моей жизни. Ранее этого у меня было стремление
+            <milestone unit="line" facs="#facs_81_l_4" n="N003"/>&amp;lt;o&amp;gt;чительный&amp;lt;o&amp;gt; перелом в моей жизни. Ранее этого у меня было стремление
                <milestone unit="line" facs="#facs_81_l_5" n="N004"/>к жизни, к работе на пользу народа. Уже в детстве, 13ти летним ре<milestone unit="line" facs="#facs_81_l_6" n="N005"/>бенком, я просила у Бога о том, «чтобы я принесла хоть какую-нибудь
                <milestone unit="line" facs="#facs_81_l_7" n="N006"/>пользу людям, какую – и сама не знаю, когда выросту – узнаю». Когда я
                <milestone unit="line" facs="#facs_81_l_8" n="N007"/>была в шестом классе гимназии и у нас образовались кружки для
@@ -810,13 +903,9 @@
                <milestone unit="line" facs="#facs_82_l_22" n="N005"/>я была слишком слаба. Встреча с Женей чуть было не содействовала
                <milestone unit="line" facs="#facs_82_l_23" n="N006"/>моему выздоровлению. Одна мысль о том, что я не одна и что есть кто
                <milestone unit="line" facs="#facs_82_l_24" n="N007"/>то, кто любит и понимает меня, вернула мне интерес к жизни,
-               <milestone unit="line" facs="#facs_82_l_25" n="N008"/>но теперь я вижу, что [<del rend="strikethrough">даже</del>] если бы Женя &lt;и&gt; не разлюбил меня, он все таки
+               <milestone unit="line" facs="#facs_82_l_25" n="N008"/>но теперь я вижу, что [<del rend="strikethrough">даже</del>] если бы Женя &amp;lt;и&amp;gt; не разлюбил меня, он все таки
                <milestone unit="line" facs="#facs_82_l_26" n="N009"/>не был бы в состоянии[<del rend="strikethrough">,</del>] надолго вернуть меня к жизни. Он сам стра<milestone unit="line" facs="#facs_82_l_27" n="N010"/>дал тем же душевным недостатком, что и я. Мы были слишком по<milestone unit="line" facs="#facs_82_l_28" n="N011"/>хожи друг на друга. Он был еще бóльшим индивидуалистом, чем я, и так
-            <pb corresp="#facs_83"
-                n="83"
-                xml:id="img_0083"
-                ana="82r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597779/full/max/0/default.jpg"/>
+            <pb corresp="#facs_83" n="83" xml:id="img_0083" ana="82r" facs="https://www.e-manuscripta.ch/i3f/v30/4597779/full/max/0/default.jpg"/>
             <fw facs="#facs_83_r_5" type="page-number" place="top">
                <milestone unit="line" facs="#facs_83_l_7" n="N001"/>82</fw>
             <fw facs="#facs_83_r_2" type="page_number__deleted_or_striked_out">
@@ -835,7 +924,7 @@
                <milestone unit="line" facs="#facs_82_l_22" n="N005"/>я была слишком слаба. Встреча с Женей чуть было не содействовала
                <milestone unit="line" facs="#facs_82_l_23" n="N006"/>моему выздоровлению. Одна мысль о том, что я не одна и что есть кто
                <milestone unit="line" facs="#facs_82_l_24" n="N007"/>то, кто любит и понимает меня, вернула мне интерес к жизни,
-               <milestone unit="line" facs="#facs_82_l_25" n="N008"/>но теперь я вижу, что [<del rend="strikethrough">даже</del>] если бы Женя &lt;и&gt; не разлюбил меня, он все таки
+               <milestone unit="line" facs="#facs_82_l_25" n="N008"/>но теперь я вижу, что [<del rend="strikethrough">даже</del>] если бы Женя &amp;lt;и&amp;gt; не разлюбил меня, он все таки
                <milestone unit="line" facs="#facs_82_l_26" n="N009"/>не был бы в состоянии[<del rend="strikethrough">,</del>] надолго вернуть меня к жизни. Он сам стра<milestone unit="line" facs="#facs_82_l_27" n="N010"/>дал тем же душевным недостатком, что и я. Мы были слишком по<milestone unit="line" facs="#facs_82_l_28" n="N011"/>хожи друг на друга. Он был еще бóльшим индивидуалистом, чем я, и так
             <milestone unit="page" n="83" xml:id="img_0083-de"/>
             <fw facs="#facs_83_r_5" type="page-number" place="top">
@@ -857,7 +946,7 @@
                <milestone unit="line" facs="#facs_83_l_44" n="N008"/>и о чем молилась. Это в первый раз в моей жизни: исполнилось то,
                <milestone unit="line" facs="#facs_83_l_45" n="N009"/>чего я хотела. В книге о маленьком братце Гейерстама говорит<milestone unit="line" facs="#facs_83_l_46" n="N010"/>ся о том, что любовь никогда не стоит на месте, она или нароста<milestone unit="line" facs="#facs_83_l_47" n="N011"/>ет или уменьшается. Я это почувствовала теперь с необыкновен<milestone unit="line" facs="#facs_83_l_48" n="N012"/>ною ясностью: моя любовь к Борису все время увеличивается, медленно
                <milestone unit="line" facs="#facs_83_l_49" n="N013"/>и неуклонно. Когда он недавно уезжал на один день, я ясно почувствова<milestone unit="line" facs="#facs_83_l_50" n="N014"/>ла, как страшно он мне нужен, и что если они[??] уедет куда-нибудь
-               <milestone unit="line" facs="#facs_83_l_53" n="N015"/>&lt;o&gt;навсегда&lt;o&gt;, я этого не вынесу. Еще и поэтому я боюсь, что &lt;мое&gt; чувство все
+               <milestone unit="line" facs="#facs_83_l_53" n="N015"/>&amp;lt;o&amp;gt;навсегда&amp;lt;o&amp;gt;, я этого не вынесу. Еще и поэтому я боюсь, что &amp;lt;мое&amp;gt; чувство все
                <milestone unit="line" facs="#facs_83_l_54" n="N016"/>усиливается: ведь он всегда может уехать и я останусь одна.
                <milestone unit="line" facs="#facs_83_l_55" n="N017"/>Недавно он спросил меня, не нахожу ли я его самодовольным, как
                <milestone unit="line" facs="#facs_83_l_56" n="N018"/>некоторые другие. Я ответила, что нет и что, наоборот, мне в нем
@@ -871,21 +960,17 @@
                <milestone unit="line" facs="#facs_83_l_44" n="N008"/>и о чем молилась. Это в первый раз в моей жизни: исполнилось то,
                <milestone unit="line" facs="#facs_83_l_45" n="N009"/>чего я хотела. В книге о маленьком братце Гейерстама говорит<milestone unit="line" facs="#facs_83_l_46" n="N010"/>ся о том, что любовь никогда не стоит на месте, она или нароста<milestone unit="line" facs="#facs_83_l_47" n="N011"/>ет или уменьшается. Я это почувствовала теперь с необыкновен<milestone unit="line" facs="#facs_83_l_48" n="N012"/>ною ясностью: моя любовь к Борису все время увеличивается, медленно
                <milestone unit="line" facs="#facs_83_l_49" n="N013"/>и неуклонно. Когда он недавно уезжал на один день, я ясно почувствова<milestone unit="line" facs="#facs_83_l_50" n="N014"/>ла, как страшно он мне нужен, и что если они[??] уедет куда-нибудь
-               <milestone unit="line" facs="#facs_83_l_53" n="N015"/>&lt;o&gt;навсегда&lt;o&gt;, я этого не вынесу. Еще и поэтому я боюсь, что &lt;мое&gt; чувство все
+               <milestone unit="line" facs="#facs_83_l_53" n="N015"/>&amp;lt;o&amp;gt;навсегда&amp;lt;o&amp;gt;, я этого не вынесу. Еще и поэтому я боюсь, что &amp;lt;мое&amp;gt; чувство все
                <milestone unit="line" facs="#facs_83_l_54" n="N016"/>усиливается: ведь он всегда может уехать и я останусь одна.
                <milestone unit="line" facs="#facs_83_l_55" n="N017"/>Недавно он спросил меня, не нахожу ли я его самодовольным, как
                <milestone unit="line" facs="#facs_83_l_56" n="N018"/>некоторые другие. Я ответила, что нет и что, наоборот, мне в нем
                <milestone unit="line" facs="#facs_83_l_57" n="N019"/>больше всего нравится та черта, что он не доволен собою. Он отвер<milestone unit="line" facs="#facs_83_l_58" n="N020"/>нулся на минутку.
             </p>
          <p facs="#facs_83_r_1" xml:lang="ru" xml:id="p0244-ru">
-            <milestone unit="line" facs="#facs_83_l_28" n="N001"/>Я не знаю, сказала ли бы я ему [<del rend="strikethrough">все эти</del>] &lt;этот&gt; комплимент (да и дру<milestone unit="line" facs="#facs_83_l_29" n="N002"/>гие были, кажется), если бы гжа С. не сказала мне как то, что Бо<milestone unit="line" facs="#facs_83_l_30" n="N003"/>рис спрашивал ее, [<del rend="strikethrough">как то</del>] не думает ли она, что я его люблю. Она
+            <milestone unit="line" facs="#facs_83_l_28" n="N001"/>Я не знаю, сказала ли бы я ему [<del rend="strikethrough">все эти</del>] &amp;lt;этот&amp;gt; комплимент (да и дру<milestone unit="line" facs="#facs_83_l_29" n="N002"/>гие были, кажется), если бы гжа С. не сказала мне как то, что Бо<milestone unit="line" facs="#facs_83_l_30" n="N003"/>рис спрашивал ее, [<del rend="strikethrough">как то</del>] не думает ли она, что я его люблю. Она
                <milestone unit="line" facs="#facs_83_l_31" n="N004"/>ответила ему, что, конечно, вероятно люблю, «как брата, как
                <milestone unit="line" facs="#facs_83_l_32" n="N005"/>родного». Он переспросил: «как родного?» Она добавила: «ведь Вы ее
-            <pb corresp="#facs_84"
-                n="84"
-                xml:id="img_0084"
-                ana="83r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597781/full/max/0/default.jpg"/>
+            <pb corresp="#facs_84" n="84" xml:id="img_0084" ana="83r" facs="https://www.e-manuscripta.ch/i3f/v30/4597781/full/max/0/default.jpg"/>
             <fw facs="#facs_84_r_6" type="page-number" place="top">
                <milestone unit="line" facs="#facs_84_l_2" n="N001"/>83</fw>
             <fw facs="#facs_84_r_4" type="page_number__deleted_or_striked_out">
@@ -895,17 +980,17 @@
             </fw>
             <milestone unit="line" facs="#facs_84_l_34" n="N001"/>любите?» На что он будто бы сказал: «я ее очень люблю». Я понимаю, что
                <milestone unit="line" facs="#facs_84_l_35" n="N002"/>
-            <milestone unit="line" facs="#facs_84_l_36" n="N003"/>это мало или ничего не значит. И, конечно, он не любит меня как [<del rend="strikethrough">ту</del>] &lt;Ольгу&gt;,
+            <milestone unit="line" facs="#facs_84_l_36" n="N003"/>это мало или ничего не значит. И, конечно, он не любит меня как [<del rend="strikethrough">ту</del>] &amp;lt;Ольгу&amp;gt;,
                <milestone unit="line" facs="#facs_84_l_37" n="N004"/>[<del rend="strikethrough">другую девушку, о которой он мне однажды, рассказывал</del>,] но я была
                <milestone unit="line" facs="#facs_84_l_38" n="N005"/>все-таки очень счастлива, когда услыхала об этих его словах.
                <milestone unit="line" facs="#facs_84_l_39" n="N006"/>Недавно он сказал мне, что, когда появится в свет его книжка, он
                <milestone unit="line" facs="#facs_84_l_40" n="N007"/>даст ее мне и вместо этиграфа напишет на ней для меня несколько
                <milestone unit="line" facs="#facs_84_l_41" n="N008"/>строк. Он сказал это весьма обещающим тоном. Я сгораю от нетер<milestone unit="line" facs="#facs_84_l_42" n="N009"/>пѣнія. Что он мне на ней напишет? Боюсь, что я буду разочарована,
-               <milestone unit="line" facs="#facs_84_l_44" n="N010"/>&lt;o&gt;и он&lt;o&gt; напишет не то, чего я смутно ожидаю.
+               <milestone unit="line" facs="#facs_84_l_44" n="N010"/>&amp;lt;o&amp;gt;и он&amp;lt;o&amp;gt; напишет не то, чего я смутно ожидаю.
             
             </p>
          <p facs="#facs_83_r_1" xml:lang="de" corresp="#p0244-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_83_l_28" n="N001"/>Я не знаю, сказала ли бы я ему [<del rend="strikethrough">все эти</del>] &lt;этот&gt; комплимент (да и дру<milestone unit="line" facs="#facs_83_l_29" n="N002"/>гие были, кажется), если бы гжа С. не сказала мне как то, что Бо<milestone unit="line" facs="#facs_83_l_30" n="N003"/>рис спрашивал ее, [<del rend="strikethrough">как то</del>] не думает ли она, что я его люблю. Она
+               <milestone unit="line" facs="#facs_83_l_28" n="N001"/>Я не знаю, сказала ли бы я ему [<del rend="strikethrough">все эти</del>] &amp;lt;этот&amp;gt; комплимент (да и дру<milestone unit="line" facs="#facs_83_l_29" n="N002"/>гие были, кажется), если бы гжа С. не сказала мне как то, что Бо<milestone unit="line" facs="#facs_83_l_30" n="N003"/>рис спрашивал ее, [<del rend="strikethrough">как то</del>] не думает ли она, что я его люблю. Она
                <milestone unit="line" facs="#facs_83_l_31" n="N004"/>ответила ему, что, конечно, вероятно люблю, «как брата, как
                <milestone unit="line" facs="#facs_83_l_32" n="N005"/>родного». Он переспросил: «как родного?» Она добавила: «ведь Вы ее
             <milestone unit="page" n="84" xml:id="img_0084-de"/>
@@ -918,13 +1003,13 @@
             </fw>
             <milestone unit="line" facs="#facs_84_l_34" n="N001"/>любите?» На что он будто бы сказал: «я ее очень люблю». Я понимаю, что
                <milestone unit="line" facs="#facs_84_l_35" n="N002"/>
-            <milestone unit="line" facs="#facs_84_l_36" n="N003"/>это мало или ничего не значит. И, конечно, он не любит меня как [<del rend="strikethrough">ту</del>] &lt;Ольгу&gt;,
+            <milestone unit="line" facs="#facs_84_l_36" n="N003"/>это мало или ничего не значит. И, конечно, он не любит меня как [<del rend="strikethrough">ту</del>] &amp;lt;Ольгу&amp;gt;,
                <milestone unit="line" facs="#facs_84_l_37" n="N004"/>[<del rend="strikethrough">другую девушку, о которой он мне однажды, рассказывал</del>,] но я была
                <milestone unit="line" facs="#facs_84_l_38" n="N005"/>все-таки очень счастлива, когда услыхала об этих его словах.
                <milestone unit="line" facs="#facs_84_l_39" n="N006"/>Недавно он сказал мне, что, когда появится в свет его книжка, он
                <milestone unit="line" facs="#facs_84_l_40" n="N007"/>даст ее мне и вместо этиграфа напишет на ней для меня несколько
                <milestone unit="line" facs="#facs_84_l_41" n="N008"/>строк. Он сказал это весьма обещающим тоном. Я сгораю от нетер<milestone unit="line" facs="#facs_84_l_42" n="N009"/>пѣнія. Что он мне на ней напишет? Боюсь, что я буду разочарована,
-               <milestone unit="line" facs="#facs_84_l_44" n="N010"/>&lt;o&gt;и он&lt;o&gt; напишет не то, чего я смутно ожидаю.
+               <milestone unit="line" facs="#facs_84_l_44" n="N010"/>&amp;lt;o&amp;gt;и он&amp;lt;o&amp;gt; напишет не то, чего я смутно ожидаю.
             
             </p>
          <p facs="#facs_84_r" ana="dated_entry_header">
