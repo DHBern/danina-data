@@ -36,6 +36,10 @@
    </teiHeader>
    <text>
       <body>
+         <head facs="#facs_41_r_1">
+            <milestone unit="line" facs="#facs_41_tr_1_tl_3" n="N001"/>II.</head>
+         <head facs="#facs_41_r_1" xml:lang="de">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_41_tr_1_tl_3" n="N001"/>II.</head>
          <ab type="leaf-convenience">
             <pb corresp="#facs_41"
                 n="41"
@@ -43,10 +47,6 @@
                 ana="40r"
                 facs="https://www.e-manuscripta.ch/i3f/v30/4597695/full/max/0/default.jpg"/>
          </ab>
-         <head facs="#facs_41_r_1">
-            <milestone unit="line" facs="#facs_41_tr_1_tl_3" n="N001"/>II.</head>
-         <head facs="#facs_41_r_1" xml:lang="de">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_41_tr_1_tl_3" n="N001"/>II.</head>
          <p facs="#facs_41_r_2" xml:lang="ru" xml:id="p0129-ru">
             <milestone unit="line" facs="#facs_41_tr_1_tl_4" n="N001"/>Сопровождавшая меня сестра милосердия с жаром отговаривала меня от
                <milestone unit="line" facs="#facs_41_tr_1_tl_5" n="N002"/>операции и предлагала посоветовать предварительно с знаменитым

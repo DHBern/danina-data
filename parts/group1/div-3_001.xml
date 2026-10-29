@@ -36,13 +36,13 @@
    </teiHeader>
    <text>
       <body>
-         <ab type="leaf-convenience">
-            <pb facs="#facs_3" n="3" xml:id="img_0003"/>
-         </ab>
          <head facs="#facs_3_r_3">
             <milestone unit="line" facs="#facs_3_l_34" n="N001"/>(часть первая).</head>
          <head facs="#facs_3_r_3" xml:lang="de">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_3_l_34" n="N001"/>(часть первая).</head>
+         <ab type="leaf-convenience">
+            <pb facs="#facs_3" n="3" xml:id="img_0003"/>
+         </ab>
          <ab facs="#facs_3_r_4" type="motto_epigraph">
             <milestone unit="line" facs="#facs_3_l_2" n="N001"/>"Все, что касается другого, касается нас самих".
                <milestone unit="line" facs="#facs_3_l_3" n="N002"/>Оскар Уайльд.

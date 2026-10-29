@@ -36,6 +36,10 @@
    </teiHeader>
    <text>
       <body>
+         <head facs="#facs_43_r_2">
+            <milestone unit="line" facs="#facs_43_l_33" n="N001"/>III.</head>
+         <head facs="#facs_43_r_2" xml:lang="de">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_43_l_33" n="N001"/>III.</head>
          <ab type="leaf-convenience">
             <pb corresp="#facs_43"
                 n="43"
@@ -43,10 +47,6 @@
                 ana="42r"
                 facs="https://www.e-manuscripta.ch/i3f/v30/4597699/full/max/0/default.jpg"/>
          </ab>
-         <head facs="#facs_43_r_2">
-            <milestone unit="line" facs="#facs_43_l_33" n="N001"/>III.</head>
-         <head facs="#facs_43_r_2" xml:lang="de">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_43_l_33" n="N001"/>III.</head>
          <p facs="#facs_43_r_1" xml:lang="ru" xml:id="p0138-ru">
             <milestone unit="line" facs="#facs_43_l_13" n="N001"/>Я исполнила свое обещание и написала Сараеву еще из Берна и позже
                <milestone unit="line" facs="#facs_43_l_14" n="N002"/>мы обменивались письмами, но не очень часто: раз в две-три недели и даже

@@ -36,6 +36,10 @@
    </teiHeader>
    <text>
       <body>
+         <head facs="#facs_45_r_5">
+            <milestone unit="line" facs="#facs_45_l_23" n="N001"/>V.</head>
+         <head facs="#facs_45_r_5" xml:lang="de">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_45_l_23" n="N001"/>V.</head>
          <ab type="leaf-convenience">
             <pb corresp="#facs_45"
                 n="45"
@@ -43,10 +47,6 @@
                 ana="44r"
                 facs="https://www.e-manuscripta.ch/i3f/v30/4597703/full/max/0/default.jpg"/>
          </ab>
-         <head facs="#facs_45_r_5">
-            <milestone unit="line" facs="#facs_45_l_23" n="N001"/>V.</head>
-         <head facs="#facs_45_r_5" xml:lang="de">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_45_l_23" n="N001"/>V.</head>
          <p facs="#facs_45_r_7" xml:lang="ru" xml:id="p0146-ru">
             <milestone unit="line" facs="#facs_45_l_24" n="N001"/>9 мая он вошел ко мне в комнату.
                <milestone unit="line" facs="#facs_45_l_25" n="N002"/>–«Прежде всего позвольте Вам представиться», сказал он: Борис Яковлевич

@@ -36,13 +36,6 @@
    </teiHeader>
    <text>
       <body>
-         <ab type="leaf-convenience">
-            <pb corresp="#facs_37"
-                n="37"
-                xml:id="img_0037"
-                ana="36r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597687/full/max/0/default.jpg"/>
-         </ab>
          <head facs="#facs_37_r_1">
             <milestone unit="line" facs="#facs_37_l_1" n="N001"/>
             <emph rend="underlined">Ушедшее</emph>
@@ -51,6 +44,13 @@
                <milestone unit="line" facs="#facs_37_l_1" n="N001"/>
             <emph rend="underlined">Ушедшее</emph>
             <milestone unit="line" facs="#facs_37_l_29" n="N002"/>(Часть вторая).</head>
+         <ab type="leaf-convenience">
+            <pb corresp="#facs_37"
+                n="37"
+                xml:id="img_0037"
+                ana="36r"
+                facs="https://www.e-manuscripta.ch/i3f/v30/4597687/full/max/0/default.jpg"/>
+         </ab>
          <p facs="#facs_37_r_5" xml:lang="ru" xml:id="p0109-ru">
             <milestone unit="line" facs="#facs_37_l_28" n="N001"/>Мне кажется, чти эти записки есть ничто инoе, как опрозраченная
                <milestone unit="line" facs="#facs_37_l_31" n="N002"/>душа «старой девы». Если кто-нибудь может смеятся над этим,- пусть
