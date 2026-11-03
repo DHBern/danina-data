@@ -14,7 +14,8 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+      
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
@@ -2220,10 +2221,7 @@
 	}
 }]]>
         </rdf:Description>
-      </rdf:RDF></xenoData><xenoData>
-         
-      </xenoData>
-   </teiHeader>
+      </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
          <ab type="leaf-convenience">
@@ -2236,7 +2234,7 @@
                <milestone unit="line" facs="#facs_155_l_25" n="N001"/>153</fw>
             <milestone unit="line" facs="#facs_155_l_28" n="N001"/>- „<persName key="Он" ref="https://danina.digitaleditions.ch/id/danina_p013">Он</persName> очень упрямый и капризный человек“, сказала <persName key="она" ref="https://danina.digitaleditions.ch/id/danina_p012">она</persName>, но это звучало как
                <milestone unit="line" facs="#facs_155_l_29" n="N002"/>поцелуй.
-               <milestone unit="line" facs="#facs_155_l_30" n="N003"/>Я рассказала ей о так расстроившем меня разговоре с <persName key="гжей А" ref="https://danina.digitaleditions.ch/id/danina_p017">гжей А</persName>., которая ска<milestone unit="line" facs="#facs_155_l_31" n="N004"/>зала, что он ненормальный.
+               <milestone unit="line" facs="#facs_155_l_30" n="N003"/>Я рассказала ей о так расстроившем меня разговоре с <persName key="гжей А" ref="https://danina.digitaleditions.ch/id/danina_p017">гжей А.</persName>, которая ска<milestone unit="line" facs="#facs_155_l_31" n="N004"/>зала, что он ненормальный.
                <milestone unit="line" facs="#facs_155_l_32" n="N005"/>„Ну что же, я люблю сумасшедших, я его потому и люблю, что он не та<milestone unit="line" facs="#facs_155_l_33" n="N006"/>кой, как все, сумасшедший.“
                <milestone unit="line" facs="#facs_155_l_34" n="N007"/>- „Да, ответила я, он быть может немного сумасшедший в том смысле, что
                <milestone unit="line" facs="#facs_155_l_35" n="N008"/>у него есть мания преследования. Если бы ему скажете что-нибудь даже очень
