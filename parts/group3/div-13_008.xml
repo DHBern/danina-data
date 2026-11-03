@@ -2301,6 +2301,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_008.xml?person_annotation_20261103163358480",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-03T15:33:58.480Z",
+	"dcterms:modified": "2026-11-03T15:33:58.480Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_008.xml?person_annotation_20261103163358480#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_008.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_008.xml?person_annotation_20261103163358480#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[45]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -2649,11 +2728,11 @@
                <milestone unit="line" facs="#facs_148_l_53" n="N018"/>на сердце, а в горах с плохим сердцем жить вредно".
             </p>
          <p facs="#facs_148_r_1" xml:lang="ru" xml:id="p0472-ru">
-            <milestone unit="line" facs="#facs_148_l_24" n="N001"/>Таким путем я поняла, что он получил мое письмо. Но больше по
+            <milestone unit="line" facs="#facs_148_l_24" n="N001"/>Таким путем я поняла, что <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013">он</persName> получил мое письмо. Но больше по
                <milestone unit="line" facs="#facs_148_l_25" n="N002"/>поводу него он ничего не сказал. Я заметила только, что он действи<milestone unit="line" facs="#facs_148_l_26" n="N003"/>тельно был совсем другой, веселый, довольный, острил, смеялся. Я тоже
                <milestone unit="line" facs="#facs_148_l_27" n="N004"/>повеселела. Мы болтали непринужденно, но мне все время казалось, что
                <milestone unit="line" facs="#facs_148_l_28" n="N005"/>ему хочется сказать что-то особенное, но он не решается. Прошло уже
-               <milestone unit="line" facs="#facs_148_l_29" n="N006"/>полтора часа, а Мlle. Ш. все еще не приходила. Обычно она каким-то пу-
+               <milestone unit="line" facs="#facs_148_l_29" n="N006"/>полтора часа, а Мlle Ш. все еще не приходила. Обычно она каким-то пу-
             <pb corresp="#facs_149" n="149" xml:id="img_0149" ana="147r" facs="https://www.e-manuscripta.ch/i3f/v30/4597911/full/max/0/default.jpg"/>
             <milestone unit="line" facs="#facs_149_l" n="N001"/>147
                <milestone unit="line" facs="#facs_149_l_34" n="N001"/>тем сразу узнавала, что он здесь, немедленно являлась и сидела у меня,
