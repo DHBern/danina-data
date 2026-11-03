@@ -1696,10 +1696,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103115720966",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103120327319",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-03T10:57:20.966Z",
-	"dcterms:modified": "2026-11-03T10:57:20.966Z",
+	"dcterms:created": "2026-11-03T11:03:27.319Z",
+	"dcterms:modified": "2026-11-03T11:03:27.319Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1710,7 +1710,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103115720966#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103120327319#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml",
@@ -1724,14 +1724,14 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103115720966#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103120327319#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[49]/persName[4]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p015",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1775,10 +1775,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103120327319",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103120540687",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-03T11:03:27.319Z",
-	"dcterms:modified": "2026-11-03T11:03:27.319Z",
+	"dcterms:created": "2026-11-03T11:05:40.687Z",
+	"dcterms:modified": "2026-11-03T11:05:40.687Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1789,7 +1789,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103120327319#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103120540687#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml",
@@ -1803,14 +1803,14 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103120327319#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103120540687#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[49]/persName[3]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "https://danina.digitaleditions.ch/id/danina_p015",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -2152,7 +2152,7 @@
             <pb corresp="#facs_133" n="133" xml:id="img_0133" ana="131r" facs="https://www.e-manuscripta.ch/i3f/v30/4597879/full/max/0/default.jpg"/>
             <fw facs="#facs_133_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_133_l" n="N001"/>131</fw>
-            <milestone unit="line" facs="#facs_133_l_1" n="N001"/>ему мое письмо. У меня у самой было желание послать ему белую фиалку. После
+            <milestone unit="line" facs="#facs_133_l_1" n="N001"/>ему мое письмо. У меня у самой было желание послать <persName key="ему" ref="https://danina.digitaleditions.ch/id/danina_p013">ему</persName> белую фиалку. После
                <milestone unit="line" facs="#facs_133_l_2" n="N002"/>того, как такая же идея пришла и <persName key="ей" ref="https://danina.digitaleditions.ch/id/danina_p015">ей</persName> в голову, я сказала себе: хорошо, в таком
                <milestone unit="line" facs="#facs_133_l_3" n="N003"/>случае я не пошлю ему моей фиалки. Но вчера я всетаки послала ее, только пото<milestone unit="line" facs="#facs_133_l_4" n="N004"/>му, что <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013">он</persName> болен... И вот сегодня она сказала мне, что вчера тоже писала ему.
                <milestone unit="line" facs="#facs_133_l_5" n="N005"/>И я в отчаянии, что послала мою жалкую беленькую фиалку: ведь она быть
