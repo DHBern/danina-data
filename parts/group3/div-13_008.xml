@@ -1748,6 +1748,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_008.xml?person_annotation_20261103162358007",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-03T15:23:58.007Z",
+	"dcterms:modified": "2026-11-03T15:23:58.007Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_008.xml?person_annotation_20261103162358007#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_008.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_008.xml?person_annotation_20261103162358007#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[39]/quote/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -2018,7 +2097,7 @@
          <p facs="#facs_147_r_4" xml:lang="ru" xml:id="p0469-ru">
             <milestone unit="line" facs="#facs_147_l_1" n="N001"/>Постараюсь припомнить возможно точнее то, что именно я написала:
             <quote>
-               <milestone unit="line" facs="#facs_147_l_2" n="N001"/>"Дорогой Борис Яковлевич,
+               <milestone unit="line" facs="#facs_147_l_2" n="N001"/>"Дорогой <persName key="Борис Яковлевич" ref="https://danina.digitaleditions.ch/id/danina_p013">Борис Яковлевич</persName>,
                <milestone unit="line" facs="#facs_147_l_3" n="N002"/>мне очень грустно, что Вы уезжаете в таком тяжелом настроении. На<milestone unit="line" facs="#facs_147_l_4" n="N003"/>деюсь, что Вы устроили теперь свои дела и вообще, что все образуется".
                <milestone unit="line" facs="#facs_147_l_5" n="N004"/>Мой врач сказал, что опасности для Вашего сердца нет и что никакого
                <milestone unit="line" facs="#facs_147_l_6" n="N005"/>кровохаркания с Вами не случится. Он спросил, когда же я сама решусь
