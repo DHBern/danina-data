@@ -129,7 +129,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?work_annotation_20261103111503881",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-03T10:15:03.881Z",
-	"dcterms:modified": "2026-11-03T10:15:03.881Z",
+	"dcterms:modified": "2026-11-03T10:16:31.065Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -161,7 +161,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "bf:Title",
-		"@id": "http://www.wikidata.org/entity/Q343550",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p106",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -306,7 +306,7 @@
                <milestone unit="line" facs="#facs_130_l_8" n="N005"/>час, каждую минуту я с ним. Или этот шаг только усложнял бы наши и без
                <milestone unit="line" facs="#facs_130_l_9" n="N006"/>того непростые отношения, сделал бы их еще более натянутыми, а главное,
                <milestone unit="line" facs="#facs_130_l_10" n="N007"/>еще более увеличил бы его страдания? Как трудно жить!...
-               <milestone unit="line" facs="#facs_130_l_11" n="N008"/>Между нами, я чувствую это, незаметно выростает это ужасная <emph rend="underlined">сте<milestone unit="line" facs="#facs_130_l_12" n="N009"/>на молчания</emph>, о которой так хорошо говорит <title key="Gustaf af Geijerstam" ref="http://www.wikidata.org/entity/Q343550" cert="high">Гейерстам</title>. Я чувствую так
+               <milestone unit="line" facs="#facs_130_l_11" n="N008"/>Между нами, я чувствую это, незаметно выростает это ужасная <emph rend="underlined">сте<milestone unit="line" facs="#facs_130_l_12" n="N009"/>на молчания</emph>, о которой так хорошо говорит <title key="Гейерстам" ref="https://danina.digitaleditions.ch/id/danina_p106" cert="high">Гейерстам</title>. Я чувствую так
                <milestone unit="line" facs="#facs_130_l_13" n="N010"/>же, что все во мне начинает его раздражать…
             </p>
          <p facs="#facs_130_r_6" xml:lang="de" corresp="#p0410-ru">{TRANSLATION GOES HERE}
