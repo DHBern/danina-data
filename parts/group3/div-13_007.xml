@@ -2171,10 +2171,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?person_annotation_20261103153253810",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?person_annotation_20261103153846054",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-03T14:32:53.810Z",
-	"dcterms:modified": "2026-11-03T14:38:46.054Z",
+	"dcterms:created": "2026-11-03T14:38:46.054Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -2185,7 +2184,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?person_annotation_20261103153253810#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?person_annotation_20261103153846054#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml",
@@ -2199,14 +2198,14 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?person_annotation_20261103153253810#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?person_annotation_20261103153846054#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[55]/persName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "https://danina.digitaleditions.ch/id/danina_p021",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p017",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -2365,7 +2364,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "https://danina.digitaleditions.ch/id/danina_p021",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p017",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -2602,7 +2601,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "https://danina.digitaleditions.ch/id/danina_p021",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p017",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -3074,7 +3073,7 @@
             <milestone unit="line" facs="#facs_142_l_42" n="N001"/>
             <del rend="strikethrough">Довно уже</del> Долго не записывала ничего в свой дневник; это получается 
                <milestone unit="line" facs="#facs_142_l_44" n="N002"/>как-то <del rend="strikethrough">смешно</del> &amp;lt;нехорошо&amp;gt;, когда записываешь все одно и то же. Но сегодня у меня есть
-               <milestone unit="line" facs="#facs_142_l_45" n="N003"/>нечто новое. Была у меня <persName key="г-жа А." ref="https://danina.digitaleditions.ch/id/danina_p021" cert="medium">г-жа А.</persName>, с которой я знакома лишь по нескольким
+               <milestone unit="line" facs="#facs_142_l_45" n="N003"/>нечто новое. Была у меня <persName key="г-жа А." ref="https://danina.digitaleditions.ch/id/danina_p017" cert="medium">г-жа А.</persName>, с которой я знакома лишь по нескольким
                <milestone unit="line" facs="#facs_142_l_46" n="N004"/>письмам ее ко мне. В разговоре с нею я упомянула <persName key="Бориса" ref="https://danina.digitaleditions.ch/id/danina_p013">Бориса</persName>.
                <milestone unit="line" facs="#facs_142_l_47" n="N005"/>«Вы с ним ничего?» – сказала она мне вдруг таким тоном, как если
                <milestone unit="line" facs="#facs_142_l_48" n="N006"/>бы кто-нибудь спросил: «Вы входите в клетку тигра?»
@@ -3097,7 +3096,7 @@
                <milestone unit="line" facs="#facs_142_l_53" n="N011"/>отшатнулись», сказала она.
             </p>
          <p facs="#facs_142_r_1" xml:lang="ru" xml:id="p0450-ru">
-            <milestone unit="line" facs="#facs_142_l_25" n="N001"/>Когда <persName key="она" ref="https://danina.digitaleditions.ch/id/danina_p021">она</persName> &amp;lt;начала&amp;gt; говорить все это, меня будто что-то толкнуло в сердце и
+            <milestone unit="line" facs="#facs_142_l_25" n="N001"/>Когда <persName key="она" ref="https://danina.digitaleditions.ch/id/danina_p017">она</persName> &amp;lt;начала&amp;gt; говорить все это, меня будто что-то толкнуло в сердце и
                <milestone unit="line" facs="#facs_142_l_26" n="N002"/>все поплыло перед глазами. Я стала защищать его, сказала, что это са<milestone unit="line" facs="#facs_142_l_27" n="N003"/>мый честный и благородный человек, какого я знала в жизни, что Россию
                <milestone unit="line" facs="#facs_142_l_28" n="N004"/>он глубоко любит и что он вовсе не еврейский националист я призна<milestone unit="line" facs="#facs_142_l_29" n="N005"/>ла, что он очень вспыльчив и в состоянии аффекта теряет самообладание.
             <pb corresp="#facs_143" n="143" xml:id="img_0143" ana="141r" facs="https://www.e-manuscripta.ch/i3f/v30/4597899/full/max/0/default.jpg"/>
@@ -3129,7 +3128,7 @@
                <milestone unit="line" facs="#facs_143_l_32" n="N001"/>21 июня.
             </p>
          <p facs="#facs_143_r_2" xml:lang="ru" xml:id="p0451-ru">
-            <milestone unit="line" facs="#facs_143_l_6" n="N001"/><persName key="Борис" ref="https://danina.digitaleditions.ch/id/danina_p013">Борис</persName> был у меня, у него был пасмурный вид, он жаловался на плохое само<milestone unit="line" facs="#facs_143_l_21" n="N002"/>чувствие и настроение. Я упомянула о визите <persName key="гжи А." ref="https://danina.digitaleditions.ch/id/danina_p021">гжи А.</persName>, но когда он спросил, гово<milestone unit="line" facs="#facs_143_l_27" n="N003"/>рила ли она что нибудь о нем, я ответила: «нет». Мне было больно, что я при<milestone unit="line" facs="#facs_143_l_28" n="N004"/>нуждена была сорвать, но гжа А. очень просила меня, чтобы разговор наш ос<milestone unit="line" facs="#facs_143_l_29" n="N005"/>тался между нами, а кроме того я не хотела его расстраивать. Я поняла
+            <milestone unit="line" facs="#facs_143_l_6" n="N001"/><persName key="Борис" ref="https://danina.digitaleditions.ch/id/danina_p013">Борис</persName> был у меня, у него был пасмурный вид, он жаловался на плохое само<milestone unit="line" facs="#facs_143_l_21" n="N002"/>чувствие и настроение. Я упомянула о визите <persName key="гжи А." ref="https://danina.digitaleditions.ch/id/danina_p017">гжи А.</persName>, но когда он спросил, гово<milestone unit="line" facs="#facs_143_l_27" n="N003"/>рила ли она что нибудь о нем, я ответила: «нет». Мне было больно, что я при<milestone unit="line" facs="#facs_143_l_28" n="N004"/>нуждена была сорвать, но гжа А. очень просила меня, чтобы разговор наш ос<milestone unit="line" facs="#facs_143_l_29" n="N005"/>тался между нами, а кроме того я не хотела его расстраивать. Я поняла
                <milestone unit="line" facs="#facs_143_l_30" n="N006"/>теперь, почему он за последнее время так сумрачен и зол. «Все от него
                <milestone unit="line" facs="#facs_143_l_31" n="N007"/>шатнулись». Он говорил мне и сам о всех этих неприятностях с людьми, ко<milestone unit="line" facs="#facs_143_l_33" n="N008"/>торые под влиянием событий в России стали резко отрицательно относиться
                <milestone unit="line" facs="#facs_143_l_34" n="N009"/>ко всем евреям, не разбирая ни правых, ни виноватых, но только теперь после
