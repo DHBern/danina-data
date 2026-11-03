@@ -410,84 +410,6 @@
 	}
 }]]>
         </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_009.xml?note_annotation_20261103172937096",
-	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-03T16:29:37.096Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/rtwlk",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "rtwlk"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_009.xml?note_annotation_20261103172937096#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_009.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "4.3.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_009.xml?note_annotation_20261103172937096#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[3]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NoteScholarly",
-		"dc:format": "text/plain",
-		"rdf:value": "Wahrscheinlich wurde der Satz von Tat'jana Danina falsch notiert. Vermütlich sollte er wie folgt lauten: \"C'est un chagrin de voir Monsieur Kindmann partir.\""
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "4.3.2"
-	}
-}]]>
-        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -515,8 +437,8 @@
          <p facs="#facs_150_r_3" xml:lang="ru" xml:id="p0480-ru">
             <milestone unit="line" facs="#facs_150_l_26" n="N001"/>По видимому <persName key="Mme Bärli" ref="https://danina.digitaleditions.ch/id/danina_p009">Mme Bärli</persName> что то сострила на наш счет. На следующий день,
                <milestone unit="line" facs="#facs_150_l_27" n="N002"/>когда я пожаловалась ей на боль в груди, она немедленно отпустила:
-               <milestone unit="line" facs="#facs_150_l_28" n="N003"/>– "C'est du chagrin de voir <persName key="Mr. Kindmann" ref="https://danina.digitaleditions.ch/id/danina_p013">Mr. Kindmann</persName> parti?"<note type="scholarNote">Wahrscheinlich wurde der Satz von Tat'jana Danina falsch notiert. Vermütlich sollte er wie folgt lauten: "C'est un chagrin de voir Monsieur Kindmann partir."</note>
-               <milestone unit="line" facs="#facs_150_l_29" n="N004"/>- "Oui justement", ответила я, шутя.
+               <milestone unit="line" facs="#facs_150_l_28" n="N003"/>– "C'est du chagrin de voir <persName key="Mr. Kindmann" ref="https://danina.digitaleditions.ch/id/danina_p013">Mr. Kindmann</persName> parti?"<note type="scholarNote">Wahrscheinlich wurde der Satz von Tat'jana Danina falsch notiert. Vermütlich sollte er wie folgt lauten: "C'est du chagrin de voir Monsieur Kindmann partir."</note>
+               <milestone unit="line" facs="#facs_150_l_29" n="N004"/>- "Oui, justement", ответила я, шутя.
                <milestone unit="line" facs="#facs_150_l_34" n="N005"/>Но я перескочила перед.
             </p>
          <p facs="#facs_150_r_3" xml:lang="de" corresp="#p0480-ru">{TRANSLATION GOES HERE}
