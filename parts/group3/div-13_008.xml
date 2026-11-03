@@ -408,6 +408,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_008.xml?person_annotation_20261103155431261",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-03T14:54:31.261Z",
+	"dcterms:modified": "2026-11-03T14:54:31.261Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_008.xml?person_annotation_20261103155431261#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_008.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_008.xml?person_annotation_20261103155431261#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -464,7 +543,7 @@
                <milestone unit="line" facs="#facs_144_l_39" n="N002"/>«Потом мы и Вас перетащим», сказал он бодрым тоном, стараясь скрыть свое волне<milestone unit="line" facs="#facs_144_l_40" n="N003"/>ние.
             </p>
          <p facs="#facs_144_r_4" xml:lang="ru" xml:id="p0457-ru">
-            <milestone unit="line" facs="#facs_144_l_41" n="N001"/>Мы долго говорили потом об этой поездке, и я повторила то, что пи<milestone unit="line" facs="#facs_144_l_15" n="N002"/>сала &amp;lt;ему&amp;gt;, наднях, а именно, что на его месте я непременно поехала бы немед<milestone unit="line" facs="#facs_144_l_16" n="N003"/>ленно, не откладывая ни на один день, и что если ему там станет луч<milestone unit="line" facs="#facs_144_l_19" n="N004"/>ше и для меня &amp;lt;затем&amp;gt; окажется возможность поехать, то я <del rend="strikethrough">тоже пережду</del> &amp;lt;воспользуюсь этой возможностью&amp;gt;. Я напи<milestone unit="line" facs="#facs_144_l_20" n="N005"/>сала это для того, чтобы помочь ему решиться, так как думаю, что одной
+            <milestone unit="line" facs="#facs_144_l_41" n="N001"/>Мы долго говорили потом об этой поездке, и я повторила то, что пи<milestone unit="line" facs="#facs_144_l_15" n="N002"/>сала &amp;lt;ему&amp;gt;, наднях, а именно, что на его месте я непременно поехала бы немед<milestone unit="line" facs="#facs_144_l_16" n="N003"/>ленно, не откладывая ни на один день, и что если ему там станет луч<milestone unit="line" facs="#facs_144_l_19" n="N004"/>ше и для меня &amp;lt;затем&amp;gt; окажется возможность поехать, то я <del rend="strikethrough">тоже пережду</del> &amp;lt;воспользуюсь этой возможностью&amp;gt;. Я напи<milestone unit="line" facs="#facs_144_l_20" n="N005"/>сала это для того, чтобы помочь <persName key="ему" ref="https://danina.digitaleditions.ch/id/danina_p013">ему</persName> решиться, так как думаю, что одной
                <milestone unit="line" facs="#facs_144_l_21" n="N006"/>из причин, удерживающих его здесь и заставляющих колебаться, является
                <milestone unit="line" facs="#facs_144_l_22" n="N007"/>не желание оставить меня одну. Выхода нет: он должен уехать, и я долж<milestone unit="line" facs="#facs_144_l_23" n="N008"/>на облегчить ему это, даже если бы в конце концов мне пришлось ос<milestone unit="line" facs="#facs_144_l_24" n="N009"/>таться одной.
             </p>
