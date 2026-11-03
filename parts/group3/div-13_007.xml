@@ -644,6 +644,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?person_annotation_20261103143918087",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-03T13:39:18.087Z",
+	"dcterms:modified": "2026-11-03T13:39:18.087Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?person_annotation_20261103143918087#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?person_annotation_20261103143918087#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[13]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p016",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -758,7 +837,7 @@
                <milestone unit="line" facs="#facs_137_l_29" n="N002"/>женщина обливает соперницу серной кислотой. Обыкновенная женщина испыты<milestone unit="line" facs="#facs_137_l_30" n="N003"/>вает чувство враждебности, гнева, она плачет и стремится удалить соперницу.
                <milestone unit="line" facs="#facs_137_l_31" n="N004"/>Я не хочу предаваться самомнению, но, спускаясь в глубину своей души, я не нахожу
                <milestone unit="line" facs="#facs_137_l_32" n="N005"/>там ни враждебности, ни гнева, а только боль. Раньше это была боль за меня
-               <milestone unit="line" facs="#facs_137_l_33" n="N006"/>самое, а сегодня, когда гжа Д. нарисовала мне мою соперницу так трагичес<milestone unit="line" facs="#facs_137_l_34" n="N007"/>ки, боль за нее, чувство вины перед нею, желание сделать для нее что-нибудь, помочь,
+               <milestone unit="line" facs="#facs_137_l_33" n="N006"/>самое, а сегодня, когда <persName key="гжа Д." ref="https://danina.digitaleditions.ch/id/danina_p016">гжа Д.</persName> нарисовала мне мою соперницу так трагичес<milestone unit="line" facs="#facs_137_l_34" n="N007"/>ки, боль за нее, чувство вины перед нею, желание сделать для нее что-нибудь, помочь,
                <milestone unit="line" facs="#facs_137_l_35" n="N008"/>ей. Если она способна так любить его, — а я почему то уверена, что ее нравственны,
                <milestone unit="line" facs="#facs_137_l_36" n="N009"/>потрясение произошло именно оттого, что он оттолкнул ее, то она должна быть
                <milestone unit="line" facs="#facs_137_l_37" n="N010"/>хорошая. Если бы можно было так сделать, чтобы она пришла ко мне и я по<milestone unit="line" facs="#facs_137_l_38" n="N011"/>дружилась бы с нею, ей стало бы, может быть, легче, она могла бы видеться с ним,
