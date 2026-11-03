@@ -407,6 +407,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?person_annotation_20261103143246214",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-03T13:32:46.214Z",
+	"dcterms:modified": "2026-11-03T13:32:46.214Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?person_annotation_20261103143246214#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?person_annotation_20261103143246214#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -481,7 +560,7 @@
                <milestone unit="line" facs="#facs_136_l_35" n="N002"/>потрясла. Она и не подозревала, что это может иметь для меня значение. По
                <milestone unit="line" facs="#facs_136_l_36" n="N003"/>своему обыкновению рассказывать о всех своих знакомых она упомянула об од<milestone unit="line" facs="#facs_136_l_37" n="N004"/>ной барышне, которую знает немного. Она сказала, что поражена переменой, про<milestone unit="line" facs="#facs_136_l_38" n="N005"/>исшедшей с нею за последнее время, так она похудела, побледнела, нос и подбо<milestone unit="line" facs="#facs_136_l_39" n="N006"/>родок заострены, лицо строгое, измученное, никогда не улыбается. Все теперь стра<milestone unit="line" facs="#facs_136_l_40" n="N007"/>дают и всем тяжело жить, — вздохнула гжа Д., но другие всетаки так не ме<milestone unit="line" facs="#facs_136_l_41" n="N008"/>няются, это барышня производит впечатление, будто она пере&amp;lt;не&amp;gt;сла тяжелое нравст<milestone unit="line" facs="#facs_136_l_42" n="N009"/>венное потрясение. Сначала я слушала невнимательно, но вдруг меня как будто
                <milestone unit="line" facs="#facs_136_l_43" n="N010"/>что-то ударило в сердце, и я спросила, как фамилия этой девушки. Мое чувство
-               <milestone unit="line" facs="#facs_136_l_44" n="N011"/>не обмануло меня, это была <persName key="Мlle K." ref="https://danina.digitaleditions.ch/id/danina_p012">Мlle K.</persName>, о которой я слышала от Бориса. По несколь<milestone unit="line" facs="#facs_136_l_45" n="N012"/>ким брошенным им замечаниям я поняла, что она его любит. В последний раз,
+               <milestone unit="line" facs="#facs_136_l_44" n="N011"/>не обмануло меня, это была <persName key="Мlle K." ref="https://danina.digitaleditions.ch/id/danina_p012">Мlle K.</persName>, о которой я слышала от <persName key="Бориса" ref="https://danina.digitaleditions.ch/id/danina_p013">Бориса</persName>. По несколь<milestone unit="line" facs="#facs_136_l_45" n="N012"/>ким брошенным им замечаниям я поняла, что она его любит. В последний раз,
                <milestone unit="line" facs="#facs_136_l_46" n="N013"/>когда он о ней говорил, он заметил, что он ее редко встречает, вопервых пото<milestone unit="line" facs="#facs_136_l_47" n="N014"/>му что она занята теперь в одном бюро, а во-вторых так... и он оборвал.
             </p>
          <p facs="#facs_136_r_3" xml:lang="de" corresp="#p0431-ru">{TRANSLATION GOES HERE}
