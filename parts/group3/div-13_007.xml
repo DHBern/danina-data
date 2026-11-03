@@ -92,6 +92,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?person_annotation_20261103142436707",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-03T13:24:36.707Z",
+	"dcterms:modified": "2026-11-03T13:24:36.707Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?person_annotation_20261103142436707#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?person_annotation_20261103142436707#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -136,7 +215,7 @@
                <milestone unit="line" facs="#facs_135_l_7" n="N001"/>8 марта.
             </p>
          <p facs="#facs_135_r_6" xml:lang="ru" xml:id="p0430-ru">
-            <milestone unit="line" facs="#facs_135_l_8" n="N001"/>Я послала Борису к третьему марта, дню его рождения, открытку с позд<milestone unit="line" facs="#facs_135_l_9" n="N002"/>равлением. И втайне радовалась, что, может быть, никто кроме меня не сде<milestone unit="line" facs="#facs_135_l_10" n="N003"/>лает этого, и он воспримет меня лишний раз, как свою родную. Он написал
+            <milestone unit="line" facs="#facs_135_l_8" n="N001"/>Я послала <persName key="Борису" ref="https://danina.digitaleditions.ch/id/danina_p013">Борису</persName> к третьему марта, дню его рождения, открытку с позд<milestone unit="line" facs="#facs_135_l_9" n="N002"/>равлением. И втайне радовалась, что, может быть, никто кроме меня не сде<milestone unit="line" facs="#facs_135_l_10" n="N003"/>лает этого, и он воспримет меня лишний раз, как свою родную. Он написал
                <milestone unit="line" facs="#facs_135_l_11" n="N004"/>мне: «меня очень тронула Ваша открытка – я совсем забыл о своем
             <pb corresp="#facs_136" n="136" xml:id="img_0136" ana="134r" facs="https://www.e-manuscripta.ch/i3f/v30/4597885/full/max/0/default.jpg"/>
             <fw facs="#facs_136_r_2" type="page-number" place="top">
