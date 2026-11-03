@@ -1985,6 +1985,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_008.xml?person_annotation_20261103162843936",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-03T15:28:43.936Z",
+	"dcterms:modified": "2026-11-03T15:28:43.936Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_008.xml?person_annotation_20261103162843936#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_008.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_008.xml?person_annotation_20261103162843936#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[39]/quote/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p009",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -2262,7 +2341,7 @@
                <milestone unit="line" facs="#facs_147_l_7" n="N006"/>поехать в горы. Я сказала, что пока я еще не думаю об этом, но Вас я
                <milestone unit="line" facs="#facs_147_l_8" n="N007"/>прошу написать подробнее, как Вы себя будете чувствовать – от этого бу<milestone unit="line" facs="#facs_147_l_9" n="N008"/>дет зависеть и мое решение. - Когда Вы уедете, я буду все время думать
                <milestone unit="line" facs="#facs_147_l_10" n="N009"/>о том, чтобы Вам было там хорошо. Я имею глупость верить, что это
-               <milestone unit="line" facs="#facs_147_l_11" n="N010"/><damage type="punchhole">может</damage> помочь: вроде <title key="Сhantecler" ref="https://danina.digitaleditions.ch/id/danina_w014">Сhantecler</title>'а из пьесы Ростана<note type="scholarNote">Tat'jana Danina bezieht sich hier auf den französischen Theaterschriftsteller Edmond Eugène Alexis Rostand.</note>, петуха, кото<milestone unit="line" facs="#facs_147_l_13" n="N011"/>рый воображал, что солнце восходит, ибо он вызывает его своим пе<milestone unit="line" facs="#facs_147_l_14" n="N012"/>нием. Когда у Вас шла горлом кровь и Мme Bärli все время внушала
+               <milestone unit="line" facs="#facs_147_l_11" n="N010"/><damage type="punchhole">может</damage> помочь: вроде <title key="Сhantecler" ref="https://danina.digitaleditions.ch/id/danina_w014">Сhantecler</title>'а из пьесы Ростана<note type="scholarNote">Tat'jana Danina bezieht sich hier auf den französischen Theaterschriftsteller Edmond Eugène Alexis Rostand.</note>, петуха, кото<milestone unit="line" facs="#facs_147_l_13" n="N011"/>рый воображал, что солнце восходит, ибо он вызывает его своим пе<milestone unit="line" facs="#facs_147_l_14" n="N012"/>нием. Когда у Вас шла горлом кровь и <persName key="Мme Bärli" ref="https://danina.digitaleditions.ch/id/danina_p009">Мme Bärli</persName> все время внушала
                <milestone unit="line" facs="#facs_147_l_15" n="N013"/>мне, что Вы умрете, я сказала себе: «Нет, нет! я не хочу!» И я употре<milestone unit="line" facs="#facs_147_l_16" n="N014"/>била такое страшное усилие воли, что потом мне казалось, что Вы
                <milestone unit="line" facs="#facs_147_l_17" n="N015"/>не умерли оттого, что я не хотела этого. Я понимаю, что это очень
                <milestone unit="line" facs="#facs_147_l_18" n="N016"/>смешно, но все таки мне доставляет удовольствие так думать. - Не
