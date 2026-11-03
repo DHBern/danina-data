@@ -1968,7 +1968,7 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteScholarly",
 		"dc:format": "text/plain",
-		"rdf:value": "Hier ist der Dichter Iwan Bunin gemeint."
+		"rdf:value": "Hier ist mit an Sicherheit grenzender Wahrscheinlichkeit der Waldweg des russischen Dichters Iwan Bunin gemeint."
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
