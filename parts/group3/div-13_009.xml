@@ -2261,7 +2261,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_009.xml?person_annotation_20261103180748670",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-03T17:07:48.670Z",
-	"dcterms:modified": "2026-11-03T17:07:48.670Z",
+	"dcterms:modified": "2026-11-03T17:15:44.661Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -2293,7 +2293,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "https://danina.digitaleditions.ch/id/danina_p012",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -2875,7 +2875,7 @@
                <milestone unit="line" facs="#facs_154_l_29" n="N002"/>может, не надо было говорить, но я хотела подчеркнуть мою к нему бли<milestone unit="line" facs="#facs_154_l_30" n="N003"/>зость. Ей это было, кажется, неприятно.
             </p>
          <p facs="#facs_154_r_4" xml:lang="ru" xml:id="p0501-ru">
-            <milestone unit="line" facs="#facs_154_l_7" n="N001"/>&amp;lt;о&amp;gt;Вчера&amp;lt;о&amp;gt; я получила открытку от <persName key="Бориса" ref="https://danina.digitaleditions.ch/id/danina_p012">Бориса</persName>. (До этого он прислал мне три длин<milestone unit="line" facs="#facs_154_l_8" n="N002"/>ных письма.) Пишет, что решил остаться там, не смотря на слабую деятель<milestone unit="line" facs="#facs_154_l_9" n="N003"/>ность сердца (он уже собирался возвращаться); лежит целыми днями и читает
+            <milestone unit="line" facs="#facs_154_l_7" n="N001"/>&amp;lt;о&amp;gt;Вчера&amp;lt;о&amp;gt; я получила открытку от <persName key="Бориса" ref="https://danina.digitaleditions.ch/id/danina_p013">Бориса</persName>. (До этого он прислал мне три длин<milestone unit="line" facs="#facs_154_l_8" n="N002"/>ных письма.) Пишет, что решил остаться там, не смотря на слабую деятель<milestone unit="line" facs="#facs_154_l_9" n="N003"/>ность сердца (он уже собирался возвращаться); лежит целыми днями и читает
                <milestone unit="line" facs="#facs_154_l_10" n="N004"/>Шекспира. „И нахожу, что я был осел, давно не занявшись основательным изу<milestone unit="line" facs="#facs_154_l_11" n="N005"/>чением этого гениальнейшего из людей. Я преклонаюсь перед ним, изумляюсь
                <milestone unit="line" facs="#facs_154_l_12" n="N006"/>ему, горжусь им за человека“.
             </p>
