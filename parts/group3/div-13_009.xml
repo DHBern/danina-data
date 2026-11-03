@@ -444,7 +444,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_009.xml?note_annotation_20261103172228917",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-03T16:22:28.917Z",
-	"dcterms:modified": "2026-11-03T16:22:28.917Z",
+	"dcterms:modified": "2026-11-03T16:29:37.096Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
