@@ -2333,9 +2333,7 @@
          <p facs="#facs_130_r_7" ana="dated_entry_header" xml:id="d0610-ru">
             <milestone unit="line" facs="#facs_130_l_27" n="N001"/><date when="1920-01-08">8 января 1920</date>
             </p>
-         <p xml:lang="de" facs="#facs_130_r_7" ana="dated_entry_header">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_130_l_27" n="N001"/>8 января 1920
-            </p>
+         <p xml:lang="de" facs="#facs_130_r_7" ana="dated_entry_header">8. Januar 1920</p>
          <p facs="#facs_130_r_6" xml:lang="ru" xml:id="p0410-ru">
             <milestone unit="line" facs="#facs_130_l_4" n="N001"/>О, как мне больно, больно! Вчера он жаловался на страшную тоску и сказал,
                <milestone unit="line" facs="#facs_130_l_5" n="N002"/>что хотел бы умереть. О, если бы кто-нибудь научил меня, как поступить, чтобы
@@ -2350,9 +2348,7 @@
          <p facs="#facs_130_r_5" ana="dated_entry_header" xml:id="d0618-ru">
             <milestone unit="line" facs="#facs_130_l_39" n="N001"/><date when="1920-01-20">20 января</date>.
             </p>
-         <p xml:lang="de" facs="#facs_130_r_5" ana="dated_entry_header">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_130_l_39" n="N001"/>20 января.
-            </p>
+         <p xml:lang="de" facs="#facs_130_r_5" ana="dated_entry_header">{</p>
          <p facs="#facs_130_r_4" xml:lang="ru" xml:id="p0411-ru">
             <milestone unit="line" facs="#facs_130_l_15" n="N001"/>Сегодня <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013">он</persName> уехал. Он нанял комнату в <del rend="strikethrough">бли</del> одном из пансионов близжай<milestone unit="line" facs="#facs_130_l_16" n="N002"/>шего города. Перед отъездом он несколько раз заходил ко мне, но каждый раз
                <milestone unit="line" facs="#facs_130_l_17" n="N003"/>ненадолго, так как был занят укладкой своих вещей. Казалось, что ему все
