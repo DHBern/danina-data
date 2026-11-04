@@ -2378,9 +2378,7 @@
          <p facs="#facs_131_r_3" ana="dated_entry_header" xml:id="d0634-ru">
             <milestone unit="line" facs="#facs_131_l_11" n="N001"/><date when="1920-02-20">2 февраля</date>.
             </p>
-         <p xml:lang="de" facs="#facs_131_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_131_l_11" n="N001"/>2 февраля.
-            </p>
+         <p xml:lang="de" facs="#facs_131_r_3" ana="dated_entry_header">2. Februar.</p>
          <p facs="#facs_131_r_7" xml:lang="ru" xml:id="p0413-ru">
             <milestone unit="line" facs="#facs_131_l_12" n="N001"/>Вчера был <persName key="Борис" ref="https://danina.digitaleditions.ch/id/danina_p013">Борис</persName>. Вид у него был утомленный. Он был очень внимателен ко мне и
                <milestone unit="line" facs="#facs_131_l_13" n="N002"/>нежно улыбался, видя, как я оживилась.
