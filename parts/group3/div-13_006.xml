@@ -2383,10 +2383,7 @@
             <milestone unit="line" facs="#facs_131_l_12" n="N001"/>Вчера был <persName key="Борис" ref="https://danina.digitaleditions.ch/id/danina_p013">Борис</persName>. Вид у него был утомленный. Он был очень внимателен ко мне и
                <milestone unit="line" facs="#facs_131_l_13" n="N002"/>нежно улыбался, видя, как я оживилась.
             </p>
-         <p facs="#facs_131_r_7" xml:lang="de" corresp="#p0413-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_131_l_12" n="N001"/>Вчера был Борис. Вид у него был утомленный. Он был очень внимателен ко мне и
-               <milestone unit="line" facs="#facs_131_l_13" n="N002"/>нежно улыбался, видя, как я оживилась.
-            </p>
+         <p facs="#facs_131_r_7" xml:lang="de" corresp="#p0413-ru">Gestern war Boris da. Er sah ermüdet aus. Er war sehr aufmerksam zu mir und lächelte zärtlich, als er sah, wie ich auflebte.“</p>
          <p facs="#facs_131_r_6" xml:lang="ru" xml:id="p0414-ru">
             <milestone unit="line" facs="#facs_131_l_4" n="N001"/>Позавчера вечером я была в очень хорошем настроении и все пела какую
                <milestone unit="line" facs="#facs_131_l_5" n="N002"/>то сочиненную мною песенку о том, как я люблю моего маленького друга.
