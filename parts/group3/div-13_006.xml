@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -2349,16 +2346,7 @@
                <milestone unit="line" facs="#facs_130_l_11" n="N008"/>Между нами, я чувствую это, незаметно выростает это ужасная <emph rend="underlined">сте<milestone unit="line" facs="#facs_130_l_12" n="N009"/>на молчания</emph>, о которой так хорошо говорит <title key="Гейерстам" ref="https://danina.digitaleditions.ch/id/danina_p106" cert="high">Гейерстам</title><note type="scholarNote">Tat'jana Danina referenziert hier auf den schwedische Schriftsteller Gustaf af Geijerstam.</note>. Я чувствую так
                <milestone unit="line" facs="#facs_130_l_13" n="N010"/>же, что все во мне начинает его раздражать…
             </p>
-         <p facs="#facs_130_r_6" xml:lang="de" corresp="#p0410-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_130_l_4" n="N001"/>О, как мне больно, больно! Вчера он жаловался на страшную тоску и сказал,
-               <milestone unit="line" facs="#facs_130_l_5" n="N002"/>что хотел бы умереть. О, если бы кто-нибудь научил меня, как поступить, чтобы
-               <milestone unit="line" facs="#facs_130_l_6" n="N003"/>облегчить ему жизнь! Я хотела бы дать ему прочесть мои записки для того, что<milestone unit="line" facs="#facs_130_l_7" n="N004"/>бы он почувствовал, что воистину он никогда не один, потому что каждый
-               <milestone unit="line" facs="#facs_130_l_8" n="N005"/>час, каждую минуту я с ним. Или этот шаг только усложнял бы наши и без
-               <milestone unit="line" facs="#facs_130_l_9" n="N006"/>того непростые отношения, сделал бы их еще более натянутыми, а главное,
-               <milestone unit="line" facs="#facs_130_l_10" n="N007"/>еще более увеличил бы его страдания? Как трудно жить!...
-               <milestone unit="line" facs="#facs_130_l_11" n="N008"/>Между нами, я чувствую это, незаметно выростает это ужасная <emph rend="underlined">сте<milestone unit="line" facs="#facs_130_l_12" n="N009"/>на молчания</emph>, о которой так хорошо говорит Гейерстам. Я чувствую так
-               <milestone unit="line" facs="#facs_130_l_13" n="N010"/>же, что все во мне начинает его раздражать…
-            </p>
+         <p facs="#facs_130_r_6" xml:lang="de" corresp="#p0410-ru">Oh, wie sehr es mir wehtut, wie sehr! Gestern klagte er über eine furchtbare Schwermut und sagte, er möchte sterben. Oh, wenn mich doch jemand lehrte, wie ich handeln soll, um ihm das Leben zu erleichtern! Ich möchte ihm meine Aufzeichnungen zu lesen geben, damit er fühlen kann, dass er wahrhaftig niemals allein ist, weil ich jede Stunde, jede Minute bei ihm bin. Oder würde dieser Schritt unsere ohnehin nicht einfachen Beziehungen nur verwickeln, sie noch gespannter machen und vor allem seine Leiden noch vergrössern? Wie schwer ist es zu leben! … Zwischen uns, ich fühle es, wächst unmerklich diese entsetzliche Mauer des Schweigens empor, von der Geijerstam so schön spricht. Ich fühle auch, dass alles an mir ihn zu reizen beginnt …</p>
          <p facs="#facs_130_r_5" ana="dated_entry_header" xml:id="d0618-ru">
             <milestone unit="line" facs="#facs_130_l_39" n="N001"/><date when="1920-01-20">20 января</date>.
             </p>
