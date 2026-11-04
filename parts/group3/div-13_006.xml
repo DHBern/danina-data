@@ -2361,9 +2361,7 @@
          <p facs="#facs_130_r_3" ana="dated_entry_header" xml:id="d0626-ru">
             <milestone unit="line" facs="#facs_130_l_49" n="N001"/><date when="1920-01-25">25 января</date>.
             </p>
-         <p xml:lang="de" facs="#facs_130_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_130_l_49" n="N001"/>25 января.
-            </p>
+         <p xml:lang="de" facs="#facs_130_r_3" ana="dated_entry_header">25. Januar.</p>
          <p facs="#facs_130_r_1" xml:lang="ru" xml:id="p0412-ru">
             <milestone unit="line" facs="#facs_130_l_24" n="N001"/>Сегодня был у меня <persName key="Борис" ref="https://danina.digitaleditions.ch/id/danina_p013">Борис</persName>. Разговор все как то не клеился, и я хочу запи<milestone unit="line" facs="#facs_130_l_25" n="N002"/>сать только слова его: когда я к Вам иду, я чувствую, что должен что
             <pb corresp="#facs_131" n="131" xml:id="img_0131" ana="129r" facs="https://www.e-manuscripta.ch/i3f/v30/4597875/full/max/0/default.jpg"/>
