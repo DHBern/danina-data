@@ -130,7 +130,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261103111943791",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-03T10:19:43.791Z",
-	"dcterms:modified": "2026-11-03T10:19:43.791Z",
+	"dcterms:modified": "2026-11-05T09:26:18.123Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -161,7 +161,7 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NoteScholarly",
+		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
 		"rdf:value": "Tat'jana Danina referenziert hier auf den schwedische Schriftsteller Gustaf af Geijerstam."
 	},
@@ -1936,6 +1936,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261103121403590",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-03T11:14:03.590Z",
+	"dcterms:modified": "2026-11-05T09:26:42.490Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1966,9 +1967,9 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NoteScholarly",
+		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
-		"rdf:value": "Hier ist mit an Sicherheit grenzender Wahrscheinlichkeit der Waldweg des russischen Dichters Iwan Bunin gemeint."
+		"rdf:value": "Hier ist der Dichter Iwan Bunin gemeint."
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -2423,7 +2424,7 @@
                <milestone unit="line" facs="#facs_130_l_8" n="N005"/>час, каждую минуту я с ним. Или этот шаг только усложнял бы наши и без
                <milestone unit="line" facs="#facs_130_l_9" n="N006"/>того непростые отношения, сделал бы их еще более натянутыми, а главное,
                <milestone unit="line" facs="#facs_130_l_10" n="N007"/>еще более увеличил бы его страдания? Как трудно жить!...
-               <milestone unit="line" facs="#facs_130_l_11" n="N008"/>Между нами, я чувствую это, незаметно выростает это ужасная <emph rend="underlined">сте<milestone unit="line" facs="#facs_130_l_12" n="N009"/>на молчания</emph>, о которой так хорошо говорит <title key="Гейерстам" ref="https://danina.digitaleditions.ch/id/danina_p106" cert="high">Гейерстам</title><note type="scholarNote">Tat'jana Danina referenziert hier auf den schwedische Schriftsteller Gustaf af Geijerstam.</note>. Я чувствую так
+               <milestone unit="line" facs="#facs_130_l_11" n="N008"/>Между нами, я чувствую это, незаметно выростает это ужасная <emph rend="underlined">сте<milestone unit="line" facs="#facs_130_l_12" n="N009"/>на молчания</emph>, о которой так хорошо говорит <title key="Гейерстам" ref="https://danina.digitaleditions.ch/id/danina_p106" cert="high">Гейерстам</title><note type="researchNote">Tat'jana Danina referenziert hier auf den schwedische Schriftsteller Gustaf af Geijerstam.</note>. Я чувствую так
                <milestone unit="line" facs="#facs_130_l_13" n="N010"/>же, что все во мне начинает его раздражать…
             </p>
          <p facs="#facs_130_r_6" xml:lang="de" corresp="#p0410-ru">Oh, wie sehr es mir wehtut, wie sehr! Gestern klagte er über eine furchtbare Schwermut und sagte, er möchte sterben. Oh, wenn mich doch jemand lehrte, wie ich handeln soll, um ihm das Leben zu erleichtern! Ich möchte ihm meine Aufzeichnungen zu lesen geben, damit er fühlen kann, dass er wahrhaftig niemals allein ist, weil ich jede Stunde, jede Minute bei ihm bin. Oder würde dieser Schritt unsere ohnehin nicht einfachen Beziehungen nur verwickeln, sie noch gespannter machen und vor allem seine Leiden noch vergrössern? Wie schwer ist es zu leben! … Zwischen uns, ich fühle es, wächst unmerklich diese entsetzliche Mauer des Schweigens empor, von der Geijerstam so schön spricht. Ich fühle auch, dass alles an mir ihn zu reizen beginnt …</p>
@@ -2654,7 +2655,7 @@
             <milestone unit="line" facs="#facs_134_l_1" n="N001"/>И мой слабый голос, может быть, прозвучит, когда нибудь и будет кемни<milestone unit="line" facs="#facs_134_l_2" n="N002"/>будь услышан. Жизнь прекрасна. Жизнь прекрасна. Не смотря ни на что. Я
                <milestone unit="line" facs="#facs_134_l_3" n="N003"/>хотела бы перелить в души тех, кто отчаивается, тех, кто спрашивает:
                <milestone unit="line" facs="#facs_134_l_4" n="N004"/>за что сужденно им так страдать? – то чувство единства, чувство преем<milestone unit="line" facs="#facs_134_l_5" n="N005"/>ственности жизни, которое помогает мне жить. Мне так близки и
-               <milestone unit="line" facs="#facs_134_l_6" n="N006"/>понятны слова поэта Бунина<note type="scholarNote">Hier ist der Dichter Iwan Bunin gemeint.</note>: <title key="&amp;quot;радостно жить и знать, что я умру, и этот день пройдет, но вечно будет радость жить.&amp;quot;" ref="https://danina.digitaleditions.ch/id/danina_w007" cert="medium">"радостно жить и знать, что я умру,
+               <milestone unit="line" facs="#facs_134_l_6" n="N006"/>понятны слова поэта Бунина<note type="researchNote">Hier ist der Dichter Iwan Bunin gemeint.</note>: <title key="&amp;quot;радостно жить и знать, что я умру, и этот день пройдет, но вечно будет радость жить.&amp;quot;" ref="https://danina.digitaleditions.ch/id/danina_w007" cert="medium">"радостно жить и знать, что я умру,
                <milestone unit="line" facs="#facs_134_l_7" n="N007"/>и этот день пройдет, но вечно будет радость жить."</title>
             </p>
          <p facs="#facs_134_r_1" xml:lang="de" corresp="#p0425-ru">{TRANSLATION GOES HERE}
