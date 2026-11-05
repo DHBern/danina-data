@@ -49,7 +49,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-7_001.xml?person_annotation_20261105105834186",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-05T09:58:34.186Z",
-	"dcterms:modified": "2026-11-05T09:58:34.186Z",
+	"dcterms:modified": "2026-11-05T09:59:36.532Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/bamelia",
 		"@type": [
@@ -90,7 +90,88 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "4.3.2"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-7_001.xml?place_annotation_20261105110037572",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T10:00:37.572Z",
+	"dcterms:modified": "2026-11-05T10:00:37.572Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/bamelia",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melina Bacher"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-7_001.xml?place_annotation_20261105110037572#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-7_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-7_001.xml?place_annotation_20261105110037572#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://danina.digitaleditions.ch/id/danina_o004",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
@@ -107,7 +188,7 @@
             <pb corresp="#facs_43" n="43" xml:id="img_0043" ana="42r" facs="https://www.e-manuscripta.ch/i3f/v30/4597699/full/max/0/default.jpg"/>
          </ab>
          <p facs="#facs_43_r_1" xml:lang="ru" xml:id="p0138-ru">
-            <milestone unit="line" facs="#facs_43_l_13" n="N001"/>Я исполнила свое обещание и написала <persName key="Сараеву" ref="https://danina.digitaleditions.ch/id/danina_p013">Сараеву</persName> еще из Берна и позже
+            <milestone unit="line" facs="#facs_43_l_13" n="N001"/>Я исполнила свое обещание и написала <persName key="Сараеву" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Сараеву</persName> еще из <placeName key="Берна" ref="https://danina.digitaleditions.ch/id/danina_o004" cert="high">Берна</placeName> и позже
                <milestone unit="line" facs="#facs_43_l_14" n="N002"/>мы обменивались письмами, но не очень часто: раз в две-три недели и даже
                <milestone unit="line" facs="#facs_43_l_15" n="N003"/>еще того реже. Вскоре оказалось, что он тоже недоволен той клиникой,
                <milestone unit="line" facs="#facs_43_l_16" n="N004"/>хотя и начал поправляться вопреки всем мрачным предсказаниям. У меня
