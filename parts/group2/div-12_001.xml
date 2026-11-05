@@ -122,86 +122,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?work_annotation_20261105110436857",
-	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-05T10:04:36.857Z",
-	"dcterms:modified": "2026-11-05T10:04:36.857Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/MaschaSt",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Mascha Stöckmann"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?work_annotation_20261105110436857#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "4.3.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?work_annotation_20261105110436857#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/ab[2]/title"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "bf:Title",
-		"@id": "https://danina.digitaleditions.ch/id/danina_w009",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "4.3.2"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?organization_annotation_20261105110755106",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-05T10:07:55.106Z",
@@ -488,6 +408,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?work_annotation_20261105112819102",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T10:28:19.102Z",
+	"dcterms:modified": "2026-11-05T10:28:19.102Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/MaschaSt",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mascha Stöckmann"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?work_annotation_20261105112819102#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?work_annotation_20261105112819102#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/ab[2]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "https://danina.digitaleditions.ch/id/danina_w009",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -502,8 +502,8 @@
             <pb corresp="#facs_71" n="71" xml:id="img_0071" ana="70r" facs="https://www.e-manuscripta.ch/i3f/v30/4597755/full/max/0/default.jpg"/>
          </ab>
          <ab facs="#facs_71_r" type="motto_epigraph">
-            <milestone unit="line" facs="#facs_71_l" n="N001"/><title key="&amp;quot;Hexopoшо человеку быть одному&amp;quot;" ref="https://danina.digitaleditions.ch/id/danina_w009" cert="high">"Hexopoшо человеку быть одному"</title>
-               <milestone unit="line" facs="#facs_71_l_1" n="N002"/>(„Книга бытия", гл. 2)<note type="scholarNote">Genesis 2,18</note>
+            <milestone unit="line" facs="#facs_71_l" n="N001"/>"Hexopoшо человеку быть одному"
+               <milestone unit="line" facs="#facs_71_l_1" n="N002"/>(<title key="„Книга бытия&amp;quot;, гл. 2" ref="https://danina.digitaleditions.ch/id/danina_w009" cert="high">„Книга бытия", гл. 2</title>)<note type="scholarNote">Genesis 2,18</note>
             </ab>
          <ab facs="#facs_71_r_1" type="motto_epigraph">
             <milestone unit="line" facs="#facs_71_l_2" n="N001"/>Une belle destinée est celle ou pas une
