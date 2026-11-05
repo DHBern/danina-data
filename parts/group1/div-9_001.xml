@@ -11,7 +11,8 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+      
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
@@ -201,10 +202,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-9_001.xml?note_annotation_20261105104028964",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-9_001.xml?note_annotation_20261105104438568",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-05T09:40:28.964Z",
-	"dcterms:modified": "2026-11-05T09:44:38.568Z",
+	"dcterms:created": "2026-11-05T09:44:38.568Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eva-sob",
 		"@type": [
@@ -215,7 +215,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-9_001.xml?note_annotation_20261105104028964#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-9_001.xml?note_annotation_20261105104438568#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-9_001.xml",
@@ -229,7 +229,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-9_001.xml?note_annotation_20261105104028964#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-9_001.xml?note_annotation_20261105104438568#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p/note"
 		}
@@ -248,10 +248,86 @@
 	}
 }]]>
         </rdf:Description>
-      </rdf:RDF></xenoData><xenoData/><xenoData>
-         
-      </xenoData>
-   </teiHeader>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-9_001.xml?note_annotation_20261105104719593",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T09:47:19.593Z",
+	"dcterms:modified": "2026-11-05T09:47:19.593Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/eva-sob",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Eva Maurer"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-9_001.xml?note_annotation_20261105104719593#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-9_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-9_001.xml?note_annotation_20261105104719593#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Jules Ferdmann erhielt einen neuen Pass vom russischen Konsulat in Lausann am  ...., siehe BAR .... "
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
          <head facs="#facs_45_r_5">
@@ -275,7 +351,7 @@
             </del>
             </fw>
             <milestone unit="line" facs="#facs_46_l_2" n="N001"/>хотя я и раньше иногда это думала, судя по его наружности. И звали его вов<milestone unit="line" facs="#facs_46_l_3" n="N002"/>се не Евгением... Но главное, что меня, повидимому, задело, было то, что он не
-               <milestone unit="line" facs="#facs_46_l_4" n="N003"/>имел достаточно доверия ко мне, чтобы [<del rend="strikethrough">ск</del>] назвать мне ранее свою настоя<milestone unit="line" facs="#facs_46_l_5" n="N004"/>щую фамилию. Теперь, после революции<note type="scholarNote">Die Autorin bezieht sich hier auf die sog. Februarrevolution 1917.</note>, он получил в консульстве новый паспорт
+               <milestone unit="line" facs="#facs_46_l_4" n="N003"/>имел достаточно доверия ко мне, чтобы [<del rend="strikethrough">ск</del>] назвать мне ранее свою настоя<milestone unit="line" facs="#facs_46_l_5" n="N004"/>щую фамилию. Теперь, после революции<note type="scholarNote">Die Autorin bezieht sich hier auf die sog. Februarrevolution 1917.</note>, он получил в консульстве<note type="researchNote">Jules Ferdmann erhielt einen neuen Pass vom russischen Konsulat in Lausann am  ...., siehe BAR .... </note> новый паспорт
                <milestone unit="line" facs="#facs_46_l_6" n="N005"/>с настоящей фамилией своей и мог назвать ее и мне.
             
             </p>
