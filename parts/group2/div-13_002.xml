@@ -14,7 +14,8 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+      
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
@@ -170,10 +171,7 @@
 	}
 }]]>
         </rdf:Description>
-      </rdf:RDF></xenoData><xenoData>
-         
-      </xenoData>
-   </teiHeader>
+      </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
          <ab type="leaf-convenience">
@@ -424,7 +422,7 @@
             </fw>
          </p>
          <p facs="#facs_105_r_2" ana="dated_entry_header" xml:id="d0162-ru">
-            <milestone unit="line" facs="#facs_105_l_30" n="N001"/><date when="1918-12-01" cert="high">1 декабря</date> <del rend="strikethrough">1918 года</del>.
+            <milestone unit="line" facs="#facs_105_l_30" n="N001"/><date when="1918-12-01" cert="high">1 декабря <del rend="strikethrough">1918 года</del></date>.
             </p>
          <p xml:lang="de" facs="#facs_105_r_2" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_105_l_30" n="N001"/>1 декабря <del rend="strikethrough">1918 года</del>.
