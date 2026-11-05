@@ -204,7 +204,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-9_001.xml?note_annotation_20261105104028964",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-05T09:40:28.964Z",
-	"dcterms:modified": "2026-11-05T09:40:28.964Z",
+	"dcterms:modified": "2026-11-05T09:44:09.780Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/eva-sob",
 		"@type": [
@@ -235,7 +235,7 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NoteScholarly",
+		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
 		"rdf:value": "Die Autorin bezieht sich hier auf die sog. Februarrevolution 1917."
 	},
@@ -275,7 +275,7 @@
             </del>
             </fw>
             <milestone unit="line" facs="#facs_46_l_2" n="N001"/>хотя я и раньше иногда это думала, судя по его наружности. И звали его вов<milestone unit="line" facs="#facs_46_l_3" n="N002"/>се не Евгением... Но главное, что меня, повидимому, задело, было то, что он не
-               <milestone unit="line" facs="#facs_46_l_4" n="N003"/>имел достаточно доверия ко мне, чтобы [<del rend="strikethrough">ск</del>] назвать мне ранее свою настоя<milestone unit="line" facs="#facs_46_l_5" n="N004"/>щую фамилию. Теперь, после революции<note type="scholarNote">Die Autorin bezieht sich hier auf die sog. Februarrevolution 1917.</note>, он получил в консульстве новый паспорт
+               <milestone unit="line" facs="#facs_46_l_4" n="N003"/>имел достаточно доверия ко мне, чтобы [<del rend="strikethrough">ск</del>] назвать мне ранее свою настоя<milestone unit="line" facs="#facs_46_l_5" n="N004"/>щую фамилию. Теперь, после революции<note type="researchNote">Die Autorin bezieht sich hier auf die sog. Februarrevolution 1917.</note>, он получил в консульстве новый паспорт
                <milestone unit="line" facs="#facs_46_l_6" n="N005"/>с настоящей фамилией своей и мог назвать ее и мне.
             
             </p>
