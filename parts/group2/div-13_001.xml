@@ -960,6 +960,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_001.xml?person_annotation_20261105113023111",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T10:30:23.111Z",
+	"dcterms:modified": "2026-11-05T10:30:23.111Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Stradanina",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "T H"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_001.xml?person_annotation_20261105113023111#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_001.xml?person_annotation_20261105113023111#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[35]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p009",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -1277,7 +1356,7 @@
                <milestone unit="line" facs="#facs_99_l_5" n="N003"/>Я плакала и молилась. Ужасно, что я ничем не могу помочь ему и
                <milestone unit="line" facs="#facs_99_l_6" n="N004"/>даже пойти к нему не могу. Все кажется мне теперь каким-то необыч<milestone unit="line" facs="#facs_99_l_7" n="N005"/>ным, и я не знаю, что делать с собою. Теперь я немного успокоилась:
                <milestone unit="line" facs="#facs_99_l_8" n="N006"/>он прислал записку, говорит, что чувствует себя хорошо и уверяет, что
-               <milestone unit="line" facs="#facs_99_l_9" n="N007"/><damage type="punchhole">все</damage> обойдется благополучно. – «Совершенно спокоен», добавляет он. Меня вос<milestone unit="line" facs="#facs_99_l_10" n="N008"/>хищает, что он так спокоен. Mme Bärli тоже подтверждает, что он
+               <milestone unit="line" facs="#facs_99_l_9" n="N007"/><damage type="punchhole">все</damage> обойдется благополучно. – «Совершенно спокоен», добавляет он. Меня вос<milestone unit="line" facs="#facs_99_l_10" n="N008"/>хищает, что он так спокоен. <persName key="Mme Bärli" ref="https://danina.digitaleditions.ch/id/danina_p009">Mme Bärli</persName> тоже подтверждает, что он
                <milestone unit="line" facs="#facs_99_l_11" n="N009"/>совсем не волнуется.
             </p>
          <p facs="#facs_99_r_6" xml:lang="de" corresp="#p0294-ru">{TRANSLATION GOES HERE}
@@ -1290,7 +1369,7 @@
             </p>
          <p facs="#facs_99_r_5" xml:lang="ru" xml:id="p0295-ru">
             <milestone unit="line" facs="#facs_99_l_41" n="N001"/>О чем он думает, лежа там один? Не для меня верно его главные
-               <milestone unit="line" facs="#facs_99_l_43" n="N002"/>мысли. И мне больно, что я не [<del rend="strikethrough">имею</del>] &amp;lt;занимаю&amp;gt; бóльшего места в его жизни. Ма<milestone unit="line" facs="#facs_99_l_45" n="N003"/>ленькое мѣсто &amp;lt;я занимаю&amp;gt;, и думает он верно и обо мне сегодня, но много ли? Ужасный
+               <milestone unit="line" facs="#facs_99_l_43" n="N002"/>мысли. И мне больно, что я не [<del rend="strikethrough">имею</del>] &amp;lt;занимаю&amp;gt; бóльшего места в его жизни. Ма<milestone unit="line" facs="#facs_99_l_45" n="N003"/>ленькое мeсто &amp;lt;я занимаю&amp;gt;, и думает он верно и обо мне сегодня, но много ли? Ужасный
                <milestone unit="line" facs="#facs_99_l_46" n="N004"/>эгоизм с моей стороны это желание владеть всем его мыслами и
                <milestone unit="line" facs="#facs_99_l_47" n="N005"/>быть для него всем. Я знаю, что я этого совсем недостойна, и пусть
                <milestone unit="line" facs="#facs_99_l_48" n="N006"/>он обо мне не думает, я буду думать о нем и молиться.
