@@ -406,6 +406,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-8_001.xml?note_annotation_20261105110424140",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T10:04:24.140Z",
+	"dcterms:modified": "2026-11-05T10:04:24.140Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BedaAckermann",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Beda Ackermann"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-8_001.xml?note_annotation_20261105110424140#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-8_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-8_001.xml?note_annotation_20261105110424140#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Zitat angeblich von Andreev; unklar aus welchem Werk und ob wirklich von Andreev"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -449,7 +528,7 @@
                   <milestone unit="line" facs="#facs_45_l_30" n="N001"/>[<del rend="strikethrough">77</del>]
             </del>
             </fw>
-            <milestone unit="line" facs="#facs_45_l_1" n="N001"/>это вполне подходит!» В конце этого письма было: «Пишите мне, милая. Мне
+            <milestone unit="line" facs="#facs_45_l_1" n="N001"/>это вполне подходит!»<note type="researchNote">Zitat angeblich von Andreev; unklar aus welchem Werk und ob wirklich von Andreev</note> В конце этого письма было: «Пишите мне, милая. Мне
                <milestone unit="line" facs="#facs_45_l_2" n="N002"/>так понравилось Ваше последнее пильмо - Вы рассуждаетс там очень здраво. Если
                <milestone unit="line" facs="#facs_45_l_3" n="N003"/>бы все у нас дома так думали – все пошло бы, как по маслу. Пишите же! Жду
                <milestone unit="line" facs="#facs_45_l_4" n="N004"/>Ваши руки.»
