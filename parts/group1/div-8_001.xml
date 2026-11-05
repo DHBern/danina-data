@@ -565,6 +565,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-8_001.xml?note_annotation_20261105110711129",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T10:07:11.129Z",
+	"dcterms:modified": "2026-11-05T10:07:11.129Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BedaAckermann",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Beda Ackermann"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-8_001.xml?note_annotation_20261105110711129#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-8_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-8_001.xml?note_annotation_20261105110711129#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Sehr höfliche, respektvolle Anrede, die im vorrevolutionären Russland gebräuchlich war."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -638,7 +717,7 @@
             <milestone unit="line" facs="#facs_45_l_29" n="N001"/>Сим комплиментом <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">он</persName> удостоил меня, кажется, за то, что я спрашивала его
                <milestone unit="line" facs="#facs_45_l_31" n="N002"/>в письма, не испортятли пацифисты всего того, что так хорошо началось. Не
                <milestone unit="line" facs="#facs_45_l_32" n="N003"/>помню всего, что и как я еще там писала. Но это: «пишите мне, милая» по<milestone unit="line" facs="#facs_45_l_33" n="N004"/>чему то доставило мне некоторое неудовольствие, чем радость: «Ах, вот как,
-               <milestone unit="line" facs="#facs_45_l_34" n="N005"/>Милостивый Государь. Вы считаете мою маленькую особу достойной того, чтобы
+               <milestone unit="line" facs="#facs_45_l_34" n="N005"/>Милостивый Государь<note type="scholarNote">Sehr höfliche, respektvolle Anrede, die im vorrevolutionären Russland gebräuchlich war.</note>. Вы считаете мою маленькую особу достойной того, чтобы
                <milestone unit="line" facs="#facs_45_l_35" n="N006"/><damage type="punchhole">Вы</damage> ее читали!»
             </p>
          <p facs="#facs_45_r_3" xml:lang="de" corresp="#p0144-ru">{TRANSLATION GOES HERE}
