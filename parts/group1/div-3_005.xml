@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" href="null"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,31 +14,170 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData>
-         <rdf:RDF xmlns:as="http://www.w3.org/ns/activitystreams#"
-                  xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-                  xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-                  xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                  xmlns:dcterms="http://purl.org/dc/terms/"
-                  xmlns:fabio="https://purl.org/spar/fabio#"
-                  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-                  xmlns:geo="http://www.geonames.org/ontology#"
-                  xmlns:oa="http://www.w3.org/ns/oa#"
-                  xmlns:org="http://www.w3.org/ns/org#"
-                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-                  xmlns:schema="http://schema.org/"
-                  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"/>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_005.xml?date_annotation_20261105110450975",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T10:04:50.975Z",
+	"dcterms:modified": "2026-11-05T10:04:50.975Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/bente79",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Katrin Karl"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_005.xml?date_annotation_20261105110450975#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_005.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_005.xml?date_annotation_20261105110450975#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1913-05"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_005.xml?date_annotation_20261105110537484",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T10:05:37.484Z",
+	"dcterms:modified": "2026-11-05T10:05:37.484Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/bente79",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Katrin Karl"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_005.xml?date_annotation_20261105110537484#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_005.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_005.xml?date_annotation_20261105110537484#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/date[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1913-06"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><xenoData>
+         
       </xenoData>
    </teiHeader>
    <text>
       <body>
          <ab type="leaf-convenience">
-            <pb corresp="#facs_34"
-                n="34"
-                xml:id="img_0034"
-                ana="33r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597681/full/max/0/default.jpg"/>
+            <pb corresp="#facs_34" n="34" xml:id="img_0034" ana="33r" facs="https://www.e-manuscripta.ch/i3f/v30/4597681/full/max/0/default.jpg"/>
          </ab>
          <p facs="#facs_34_r_9" xml:lang="ru" xml:id="p0102-ru">
             <milestone unit="line" facs="#facs_34_l_25" n="N001"/>Я написала Владимиру Семеновичу, что жалею о приезде в Ментону,
@@ -49,11 +185,7 @@
                <milestone unit="line" facs="#facs_34_l_37" n="N003"/>«Сегодня получил Вашу открытку, — отвечал он, – и должен признаться,
                <milestone unit="line" facs="#facs_34_l_38" n="N004"/>что ходил за нею на почту семь дней подряд. Я уже хотел телегафиро<milestone unit="line" facs="#facs_34_l_39" n="N005"/>вать начальнице санаторий и запросить, что с Вами?... Если бы было в
                <milestone unit="line" facs="#facs_34_l_40" n="N006"/>моей власти и силах, я бы отвез Вас не только в Швейцарию, а объездил бы
-            <pb corresp="#facs_35"
-                n="35"
-                xml:id="img_0035"
-                ana="34r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597683/full/max/0/default.jpg"/>
+            <pb corresp="#facs_35" n="35" xml:id="img_0035" ana="34r" facs="https://www.e-manuscripta.ch/i3f/v30/4597683/full/max/0/default.jpg"/>
             <fw facs="#facs_35_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_35_l_1" n="N001"/>34 [<del rend="strikethrough">67</del>]</fw>
             <fw facs="#facs_35_r_2" type="page_number__deleted_or_striked_out">
@@ -109,15 +241,15 @@
                - - - - - - - - - - - - - -
             -->
          <p facs="#facs_35_r_6" xml:lang="ru" xml:id="p0104-ru">
-            <milestone unit="line" facs="#facs_35_l_5" n="N001"/>В мае 1913 года меня перевезли в одну из Швейцарских клиник. Здесь, в
-               <milestone unit="line" facs="#facs_35_l_6" n="N002"/>июне месяце, я в последний раз получила письмо от Владимира Семеновича.
-               <milestone unit="line" facs="#facs_35_l_7" n="N003"/>Он жаловался на тяжелое настроение – «скучнотягучее: ни проблеска мыс<milestone unit="line" facs="#facs_35_l_8" n="N004"/>ли, ни подъема духа. Вы могли бы нас &lt;2&gt; всех &lt;1&gt; поднять духом и оживить, если
+            <milestone unit="line" facs="#facs_35_l_5" n="N001"/>В <date when="1913-05" cert="high">мае 1913</date> года меня перевезли в одну из Швейцарских клиник. Здесь, в
+               <milestone unit="line" facs="#facs_35_l_6" n="N002"/><date when="1913-06">июне</date> месяце, я в последний раз получила письмо от Владимира Семеновича.
+               <milestone unit="line" facs="#facs_35_l_7" n="N003"/>Он жаловался на тяжелое настроение – «скучнотягучее: ни проблеска мыс<milestone unit="line" facs="#facs_35_l_8" n="N004"/>ли, ни подъема духа. Вы могли бы нас &amp;lt;2&amp;gt; всех &amp;lt;1&amp;gt; поднять духом и оживить, если
                <milestone unit="line" facs="#facs_35_l_9" n="N005"/>бы писали только доброе и хорошeе о своем здоровье. Если мой бюджет по<milestone unit="line" facs="#facs_35_l_10" n="N006"/>зволит, то быть может зимою увидимся.»
             </p>
          <p facs="#facs_35_r_6" xml:lang="de" corresp="#p0104-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_35_l_5" n="N001"/>В мае 1913 года меня перевезли в одну из Швейцарских клиник. Здесь, в
                <milestone unit="line" facs="#facs_35_l_6" n="N002"/>июне месяце, я в последний раз получила письмо от Владимира Семеновича.
-               <milestone unit="line" facs="#facs_35_l_7" n="N003"/>Он жаловался на тяжелое настроение – «скучнотягучее: ни проблеска мыс<milestone unit="line" facs="#facs_35_l_8" n="N004"/>ли, ни подъема духа. Вы могли бы нас &lt;2&gt; всех &lt;1&gt; поднять духом и оживить, если
+               <milestone unit="line" facs="#facs_35_l_7" n="N003"/>Он жаловался на тяжелое настроение – «скучнотягучее: ни проблеска мыс<milestone unit="line" facs="#facs_35_l_8" n="N004"/>ли, ни подъема духа. Вы могли бы нас &amp;lt;2&amp;gt; всех &amp;lt;1&amp;gt; поднять духом и оживить, если
                <milestone unit="line" facs="#facs_35_l_9" n="N005"/>бы писали только доброе и хорошeе о своем здоровье. Если мой бюджет по<milestone unit="line" facs="#facs_35_l_10" n="N006"/>зволит, то быть может зимою увидимся.»
             </p>
          <p facs="#facs_35_r_8" xml:lang="ru" xml:id="p0105-ru">
@@ -158,11 +290,7 @@
          <p facs="#facs_35_r_10" xml:lang="ru" xml:id="p0107-ru">
             <milestone unit="line" facs="#facs_35_l_28" n="N001"/>Он никогда мне теперь не снится, но иногда мне снился раньше, будто
                <milestone unit="line" facs="#facs_35_l_29" n="N002"/>я получаю от него письмо, в котором он мне что то объясняет, про<milestone unit="line" facs="#facs_35_l_36" n="N003"/>сит прощения и умоляет ответить. И во сне у меня являлось нехоро-
-            <pb corresp="#facs_36"
-                n="36"
-                xml:id="img_0036"
-                ana="35r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597685/full/max/0/default.jpg"/>
+            <pb corresp="#facs_36" n="36" xml:id="img_0036" ana="35r" facs="https://www.e-manuscripta.ch/i3f/v30/4597685/full/max/0/default.jpg"/>
             <fw facs="#facs_36_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_36_l" n="N001"/>35 </fw>
             <fw facs="#facs_36_r_1" type="page_number__deleted_or_striked_out">
@@ -191,11 +319,7 @@
             </p>
          <p facs="#facs_36_r_3" xml:lang="ru" xml:id="p0108-ru">
             <milestone unit="line" facs="#facs_36_l_3" n="N001"/>И мысль: нет, я не отвечу, хотя мне и хочется этого.
-            <pb corresp="#facs_37"
-                n="37"
-                xml:id="img_0037"
-                ana="36r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597687/full/max/0/default.jpg"/>
+            <pb corresp="#facs_37" n="37" xml:id="img_0037" ana="36r" facs="https://www.e-manuscripta.ch/i3f/v30/4597687/full/max/0/default.jpg"/>
             <fw facs="#facs_37_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_37_l" n="N001"/>36</fw>
             <fw facs="#facs_37_r_2" type="page_number__deleted_or_striked_out">
