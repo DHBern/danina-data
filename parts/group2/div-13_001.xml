@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" href="null"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,21 +11,88 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData>
-         <rdf:RDF xmlns:as="http://www.w3.org/ns/activitystreams#"
-                  xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-                  xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-                  xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                  xmlns:dcterms="http://purl.org/dc/terms/"
-                  xmlns:fabio="https://purl.org/spar/fabio#"
-                  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-                  xmlns:geo="http://www.geonames.org/ontology#"
-                  xmlns:oa="http://www.w3.org/ns/oa#"
-                  xmlns:org="http://www.w3.org/ns/org#"
-                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-                  xmlns:schema="http://schema.org/"
-                  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"/>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_001.xml?person_annotation_20261105105821901",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T09:58:21.901Z",
+	"dcterms:modified": "2026-11-05T09:58:21.901Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Stradanina",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "T H"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_001.xml?person_annotation_20261105105821901#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_001.xml?person_annotation_20261105105821901#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><xenoData>
+         
       </xenoData>
    </teiHeader>
    <text>
@@ -45,14 +106,10 @@
             <emph rend="underlined">Девочка на берегу моря.</emph>
          </head>
          <ab type="leaf-convenience">
-            <pb corresp="#facs_95"
-                n="95"
-                xml:id="img_0095"
-                ana="94r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597803/full/max/0/default.jpg"/>
+            <pb corresp="#facs_95" n="95" xml:id="img_0095" ana="94r" facs="https://www.e-manuscripta.ch/i3f/v30/4597803/full/max/0/default.jpg"/>
          </ab>
          <p facs="#facs_95_r_6" xml:lang="ru" xml:id="p0279-ru">
-            <milestone unit="line" facs="#facs_95_l_14" n="N001"/>Я переписала этот отрывок, а также записанные 20 июля два мо<milestone unit="line" facs="#facs_95_l_16" n="N002"/><damage type="punchhole">мента</damage> моей жизни и подарила все это Борису, надписав: «Моему дру<milestone unit="line" facs="#facs_95_l_17" n="N003"/>гу на память».
+            <milestone unit="line" facs="#facs_95_l_14" n="N001"/>Я переписала этот отрывок, а также записанные 20 июля два мо<milestone unit="line" facs="#facs_95_l_16" n="N002"/><damage type="punchhole">мента</damage> моей жизни и подарила все это <persName key="Борису" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Борису</persName>, надписав: «Моему дру<milestone unit="line" facs="#facs_95_l_17" n="N003"/>гу на память».
             </p>
          <p facs="#facs_95_r_6" xml:lang="de" corresp="#p0279-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_95_l_14" n="N001"/>Я переписала этот отрывок, а также записанные 20 июля два мо<milestone unit="line" facs="#facs_95_l_16" n="N002"/><damage type="punchhole">мента</damage> моей жизни и подарила все это Борису, надписав: «Моему дру<milestone unit="line" facs="#facs_95_l_17" n="N003"/>гу на память».
@@ -81,11 +138,7 @@
             </p>
          <p facs="#facs_95_r_11" xml:lang="ru" xml:id="p0283-ru">
             <milestone unit="line" facs="#facs_95_l_37" n="N001"/>Я опасаюсь, что дурно поступила, дав Борису именно этот отры<milestone unit="line" facs="#facs_95_l_38" n="N002"/>вок. Зачем я это сделала? Отчасти потому, что он показался мне
-            <pb corresp="#facs_96"
-                n="96"
-                xml:id="img_0096"
-                ana="95r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597805/full/max/0/default.jpg"/>
+            <pb corresp="#facs_96" n="96" xml:id="img_0096" ana="95r" facs="https://www.e-manuscripta.ch/i3f/v30/4597805/full/max/0/default.jpg"/>
             <milestone unit="line" facs="#facs_96_l_9" n="N001"/>95
             <fw facs="#facs_96_r_6" type="page_number__deleted_or_striked_out">
                <del>
@@ -159,14 +212,10 @@
             </p>
          <p facs="#facs_96_r_7" xml:lang="ru" xml:id="p0288-ru">
             <milestone unit="line" facs="#facs_96_l_39" n="N001"/>Но нужно ли мне жалеть обо всем этом? – До тринадцати лет
-               <milestone unit="line" facs="#facs_96_l_40" n="N002"/>я не знала решительно ничего о сущности отношений между по<milestone unit="line" facs="#facs_96_l_41" n="N003"/>лами. И вот, я помню, в это лето, когда мне исполнилось тринад<milestone unit="line" facs="#facs_96_l_42" n="N004"/>цать лет, мама взяла &lt;к&gt; нам на лето двух бедных гимназисток, двенад<milestone unit="line" facs="#facs_96_l_43" n="N005"/>цати и пятнадцати лет. Эти девочки, заметив мою наивность,
+               <milestone unit="line" facs="#facs_96_l_40" n="N002"/>я не знала решительно ничего о сущности отношений между по<milestone unit="line" facs="#facs_96_l_41" n="N003"/>лами. И вот, я помню, в это лето, когда мне исполнилось тринад<milestone unit="line" facs="#facs_96_l_42" n="N004"/>цать лет, мама взяла &amp;lt;к&amp;gt; нам на лето двух бедных гимназисток, двенад<milestone unit="line" facs="#facs_96_l_43" n="N005"/>цати и пятнадцати лет. Эти девочки, заметив мою наивность,
                <milestone unit="line" facs="#facs_96_l_44" n="N006"/>сочли нужным просветить меня. Это было сделано в так[<del rend="strikethrough">ими</del>]ой [<del rend="strikethrough">отвра-</del>]
                <milestone unit="line" facs="#facs_96_l_45" n="N007"/>наивно-циничной форме, с такими отвратительными коммен-
-            <pb corresp="#facs_97"
-                n="97"
-                xml:id="img_0097"
-                ana="96r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597807/full/max/0/default.jpg"/>
+            <pb corresp="#facs_97" n="97" xml:id="img_0097" ana="96r" facs="https://www.e-manuscripta.ch/i3f/v30/4597807/full/max/0/default.jpg"/>
             <fw facs="#facs_97_r_6" type="page-number" place="top">
                <milestone unit="line" facs="#facs_97_l_1" n="N001"/>96	</fw>
             <fw facs="#facs_97_r" type="page_number__deleted_or_striked_out">
@@ -185,7 +234,7 @@
             </p>
          <p facs="#facs_96_r_7" xml:lang="de" corresp="#p0288-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_96_l_39" n="N001"/>Но нужно ли мне жалеть обо всем этом? – До тринадцати лет
-               <milestone unit="line" facs="#facs_96_l_40" n="N002"/>я не знала решительно ничего о сущности отношений между по<milestone unit="line" facs="#facs_96_l_41" n="N003"/>лами. И вот, я помню, в это лето, когда мне исполнилось тринад<milestone unit="line" facs="#facs_96_l_42" n="N004"/>цать лет, мама взяла &lt;к&gt; нам на лето двух бедных гимназисток, двенад<milestone unit="line" facs="#facs_96_l_43" n="N005"/>цати и пятнадцати лет. Эти девочки, заметив мою наивность,
+               <milestone unit="line" facs="#facs_96_l_40" n="N002"/>я не знала решительно ничего о сущности отношений между по<milestone unit="line" facs="#facs_96_l_41" n="N003"/>лами. И вот, я помню, в это лето, когда мне исполнилось тринад<milestone unit="line" facs="#facs_96_l_42" n="N004"/>цать лет, мама взяла &amp;lt;к&amp;gt; нам на лето двух бедных гимназисток, двенад<milestone unit="line" facs="#facs_96_l_43" n="N005"/>цати и пятнадцати лет. Эти девочки, заметив мою наивность,
                <milestone unit="line" facs="#facs_96_l_44" n="N006"/>сочли нужным просветить меня. Это было сделано в так[<del rend="strikethrough">ими</del>]ой [<del rend="strikethrough">отвра-</del>]
                <milestone unit="line" facs="#facs_96_l_45" n="N007"/>наивно-циничной форме, с такими отвратительными коммен-
             <milestone unit="page" n="97" xml:id="img_0097-de"/>
@@ -226,11 +275,7 @@
             <quote>
                <milestone unit="line" facs="#facs_97_l_30" n="N001"/>«... Точно золото струилось во мне. Я встала перед зеркалом,
             
-            <pb corresp="#facs_98"
-                   n="98"
-                   xml:id="img_0098"
-                   ana="97r"
-                   facs="https://www.e-manuscripta.ch/i3f/v30/4597809/full/max/0/default.jpg"/>
+            <pb corresp="#facs_98" n="98" xml:id="img_0098" ana="97r" facs="https://www.e-manuscripta.ch/i3f/v30/4597809/full/max/0/default.jpg"/>
                <fw facs="#facs_98_r_8" type="page-number" place="top">
                   <lb facs="#facs_98_l" n="N001"/>97 </fw>
                <ab facs="#facs_98_r" type="page_number__deleted_or_striked_out">
@@ -322,15 +367,11 @@
                <milestone unit="line" facs="#facs_98_l_55" n="N004"/>подобное.
             </p>
          <p facs="#facs_98_r_1" xml:lang="ru" xml:id="p0293-ru">
-            <milestone unit="line" facs="#facs_98_l_26" n="N001"/>Мой милый, милый Боря (я всегда называю его &lt;так&gt; теперь, когда о нем
+            <milestone unit="line" facs="#facs_98_l_26" n="N001"/>Мой милый, милый Боря (я всегда называю его &amp;lt;так&amp;gt; теперь, когда о нем
                <milestone unit="line" facs="#facs_98_l_27" n="N002"/>думаю). Как я люблю его, и как люблю я, когда он говорит о чем-нибудь
                <milestone unit="line" facs="#facs_98_l_28" n="N003"/>близком его сердцу. Тогда сильные движения души отражаются на лице
                <milestone unit="line" facs="#facs_98_l_29" n="N004"/>его, и [<del rend="strikethrough">это</del>] выражение его бывает так хорошо. Это выражение почти неуло<milestone unit="line" facs="#facs_98_l_30" n="N005"/>вимо, я не могу описать его, но оно напоминает мне о папе. У папы
-            <pb corresp="#facs_99"
-                n="99"
-                xml:id="img_0099"
-                ana="98r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597811/full/max/0/default.jpg"/>
+            <pb corresp="#facs_99" n="99" xml:id="img_0099" ana="98r" facs="https://www.e-manuscripta.ch/i3f/v30/4597811/full/max/0/default.jpg"/>
             <fw facs="#facs_99_r_9" type="page-number" place="top">
                <milestone unit="line" facs="#facs_99_l_12" n="N001"/>98</fw>
             <fw facs="#facs_99_r_2" type="page_number__deleted_or_striked_out">
@@ -342,7 +383,7 @@
             
             </p>
          <p facs="#facs_98_r_1" xml:lang="de" corresp="#p0293-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_98_l_26" n="N001"/>Мой милый, милый Боря (я всегда называю его &lt;так&gt; теперь, когда о нем
+               <milestone unit="line" facs="#facs_98_l_26" n="N001"/>Мой милый, милый Боря (я всегда называю его &amp;lt;так&amp;gt; теперь, когда о нем
                <milestone unit="line" facs="#facs_98_l_27" n="N002"/>думаю). Как я люблю его, и как люблю я, когда он говорит о чем-нибудь
                <milestone unit="line" facs="#facs_98_l_28" n="N003"/>близком его сердцу. Тогда сильные движения души отражаются на лице
                <milestone unit="line" facs="#facs_98_l_29" n="N004"/>его, и [<del rend="strikethrough">это</del>] выражение его бывает так хорошо. Это выражение почти неуло<milestone unit="line" facs="#facs_98_l_30" n="N005"/>вимо, я не могу описать его, но оно напоминает мне о папе. У папы
@@ -381,7 +422,7 @@
             </p>
          <p facs="#facs_99_r_5" xml:lang="ru" xml:id="p0295-ru">
             <milestone unit="line" facs="#facs_99_l_41" n="N001"/>О чем он думает, лежа там один? Не для меня верно его главные
-               <milestone unit="line" facs="#facs_99_l_43" n="N002"/>мысли. И мне больно, что я не [<del rend="strikethrough">имею</del>] &lt;занимаю&gt; бóльшего места в его жизни. Ма<milestone unit="line" facs="#facs_99_l_45" n="N003"/>ленькое мѣсто &lt;я занимаю&gt;, и думает он верно и обо мне сегодня, но много ли? Ужасный
+               <milestone unit="line" facs="#facs_99_l_43" n="N002"/>мысли. И мне больно, что я не [<del rend="strikethrough">имею</del>] &amp;lt;занимаю&amp;gt; бóльшего места в его жизни. Ма<milestone unit="line" facs="#facs_99_l_45" n="N003"/>ленькое мѣсто &amp;lt;я занимаю&amp;gt;, и думает он верно и обо мне сегодня, но много ли? Ужасный
                <milestone unit="line" facs="#facs_99_l_46" n="N004"/>эгоизм с моей стороны это желание владеть всем его мыслами и
                <milestone unit="line" facs="#facs_99_l_47" n="N005"/>быть для него всем. Я знаю, что я этого совсем недостойна, и пусть
                <milestone unit="line" facs="#facs_99_l_48" n="N006"/>он обо мне не думает, я буду думать о нем и молиться.
@@ -390,7 +431,7 @@
             </p>
          <p facs="#facs_99_r_5" xml:lang="de" corresp="#p0295-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_99_l_41" n="N001"/>О чем он думает, лежа там один? Не для меня верно его главные
-               <milestone unit="line" facs="#facs_99_l_43" n="N002"/>мысли. И мне больно, что я не [<del rend="strikethrough">имею</del>] &lt;занимаю&gt; бóльшего места в его жизни. Ма<milestone unit="line" facs="#facs_99_l_45" n="N003"/>ленькое мѣсто &lt;я занимаю&gt;, и думает он верно и обо мне сегодня, но много ли? Ужасный
+               <milestone unit="line" facs="#facs_99_l_43" n="N002"/>мысли. И мне больно, что я не [<del rend="strikethrough">имею</del>] &amp;lt;занимаю&amp;gt; бóльшего места в его жизни. Ма<milestone unit="line" facs="#facs_99_l_45" n="N003"/>ленькое мѣсто &amp;lt;я занимаю&amp;gt;, и думает он верно и обо мне сегодня, но много ли? Ужасный
                <milestone unit="line" facs="#facs_99_l_46" n="N004"/>эгоизм с моей стороны это желание владеть всем его мыслами и
                <milestone unit="line" facs="#facs_99_l_47" n="N005"/>быть для него всем. Я знаю, что я этого совсем недостойна, и пусть
                <milestone unit="line" facs="#facs_99_l_48" n="N006"/>он обо мне не думает, я буду думать о нем и молиться.
@@ -416,11 +457,7 @@
                <milestone unit="line" facs="#facs_99_l_29" n="N004"/>реке каталась в лодке молодежь. У одной из девушек было что-то с тем
                <milestone unit="line" facs="#facs_99_l_30" n="N005"/>молодым человеком, который сидел на руле. Его звали Борисом. Других
                <milestone unit="line" facs="#facs_99_l_31" n="N006"/>я не помню. Что именно случилось, я не помню. Умер ли тот, кого она
-            <pb corresp="#facs_100"
-                n="100"
-                xml:id="img_0100"
-                ana="99r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597813/full/max/0/default.jpg"/>
+            <pb corresp="#facs_100" n="100" xml:id="img_0100" ana="99r" facs="https://www.e-manuscripta.ch/i3f/v30/4597813/full/max/0/default.jpg"/>
             <fw facs="#facs_100_r_10" type="page-number" place="top">
                <milestone unit="line" facs="#facs_100_l_8" n="N001"/>99</fw>
             <fw facs="#facs_100_r_8" type="page_number__deleted_or_striked_out">
@@ -510,11 +547,7 @@
                <milestone unit="line" facs="#facs_100_l_38" n="N003"/>меня ни пользы, ни радости». Он ответил: «Как знать? Теперь от меня
                <milestone unit="line" facs="#facs_100_l_39" n="N004"/>пожалуй нет пользы, но бывает, что человек живетживет, совершенствует<milestone unit="line" facs="#facs_100_l_40" n="N005"/>ся и получает вдруг возможность сделать нечто ценное и жизнь его
                <milestone unit="line" facs="#facs_100_l_41" n="N006"/>оказывается не совсем безплодно прожитой».
-            <pb corresp="#facs_101"
-                n="101"
-                xml:id="img_0101"
-                ana="100r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597815/full/max/0/default.jpg"/>
+            <pb corresp="#facs_101" n="101" xml:id="img_0101" ana="100r" facs="https://www.e-manuscripta.ch/i3f/v30/4597815/full/max/0/default.jpg"/>
             <fw facs="#facs_101_r_6" type="page-number" place="top">
                <milestone unit="line" facs="#facs_101_l_7" n="N001"/>100 </fw>
             <fw facs="#facs_101_r_4" type="page_number__deleted_or_striked_out">
