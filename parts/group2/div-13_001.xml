@@ -169,6 +169,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_001.xml?note_annotation_20261105110403179",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T10:04:03.179Z",
+	"dcterms:modified": "2026-11-05T10:04:03.179Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Stradanina",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "T H"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_001.xml?note_annotation_20261105110403179#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_001.xml?note_annotation_20261105110403179#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Hier nochmal verweisen, bzw. das Bild verlinken?"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -193,7 +272,7 @@
                <milestone unit="line" facs="#facs_95_l_14" n="N001"/>Я переписала этот отрывок, а также записанные 20 июля два мо<milestone unit="line" facs="#facs_95_l_16" n="N002"/><damage type="punchhole">мента</damage> моей жизни и подарила все это Борису, надписав: «Моему дру<milestone unit="line" facs="#facs_95_l_17" n="N003"/>гу на память».
             </p>
          <p facs="#facs_95_r_7" xml:lang="ru" xml:id="p0280-ru">
-            <milestone unit="line" facs="#facs_95_l_27" n="N001"/>Это [<del rend="strikethrough">ег</del>] мой ответ на его эпиграф.
+            <milestone unit="line" facs="#facs_95_l_27" n="N001"/>Это [<del rend="strikethrough">ег</del>] мой ответ на его эпиграф<note type="researchNote">Hier nochmal verweisen, bzw. das Bild verlinken?</note>.
             </p>
          <p facs="#facs_95_r_7" xml:lang="de" corresp="#p0280-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_95_l_27" n="N001"/>Это [<del rend="strikethrough">ег</del>] мой ответ на его эпиграф.
@@ -206,7 +285,7 @@
             </p>
          <p facs="#facs_95_r_9" xml:lang="ru" xml:id="p0282-ru">
             <milestone unit="line" facs="#facs_95_l_26" n="N001"/>На другой день он в разговоре не касался «Девочки», и я спросила, не
-               <milestone unit="line" facs="#facs_95_l_28" n="N002"/>очень ли это плохо сделано. – «Нетъ, это хорошо» – ответил он, но видимо
+               <milestone unit="line" facs="#facs_95_l_28" n="N002"/>очень ли это плохо сделано. – «Нет, это хорошо» – ответил он, но видимо
                <milestone unit="line" facs="#facs_95_l_29" n="N003"/>не хотел говорить об этом дальше. Не знаю, был ли он затруднен гово<milestone unit="line" facs="#facs_95_l_30" n="N004"/>рить в виду сюжета или же нашел отрывок неудачно написанным.
             </p>
          <p facs="#facs_95_r_9" xml:lang="de" corresp="#p0282-ru">{TRANSLATION GOES HERE}
