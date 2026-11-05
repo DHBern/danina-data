@@ -1827,7 +1827,7 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
-		"rdf:value": "Wahrscheinlich ist hier die Figur Graf Pyotr \"Pierre\" Bezukhov (Krieg und Frieden) gemeint."
+		"rdf:value": "Wahrscheinlich ist hier die Figur Graf Pjotr \"Pierre\" Bezukhov (Krieg und Frieden) gemeint."
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
