@@ -1205,6 +1205,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_002.xml?person_annotation_20261105165200677",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T15:52:00.677Z",
+	"dcterms:modified": "2026-11-05T15:52:00.677Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_002.xml?person_annotation_20261105165200677#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_002.xml?person_annotation_20261105165200677#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[29]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -1547,7 +1627,7 @@
             <milestone unit="line" facs="#facs_106_l_17" n="N001"/>Однажды я спустилась в гостинную и села за роял после пятилет<milestone unit="line" facs="#facs_106_l_18" n="N002" break="no"/>няго перерыва. Когда я стала играть, у меня было такое ощущение, будто
                <milestone unit="line" facs="#facs_106_l_19" n="N003"/>я воскресла из мертвых. Доктор позволил мне играть лишь пять минут,
                <milestone unit="line" facs="#facs_106_l_20" n="N004"/>но я играла больше часу; я страшно устала, у меня потемнело в гла<milestone unit="line" facs="#facs_106_l_21" n="N005" break="no"/>зах, сердце билось учащенно. Я была уверена, что мое <del rend="strikethrough">здоровье</del> состояние
-               <milestone unit="line" facs="#facs_106_l_22" n="N006"/>здоровья ухудшится, и я почти желала этого. Но на другой день Борис
+               <milestone unit="line" facs="#facs_106_l_22" n="N006"/>здоровья ухудшится, и я почти желала этого. Но на другой день <persName key="Борис" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Борис</persName>
                <milestone unit="line" facs="#facs_106_l_23" n="N007"/>сказал мне, что «ужасно боится" за меня и уговаривал не утомляться.
                <milestone unit="line" facs="#facs_106_l_24" n="N008"/>И это меня так тронуло! Хотя я и раньше знала, что он обо мне забо<milestone unit="line" facs="#facs_106_l_25" n="N009" break="no"/>тится, но никогда еще он не говорил мне этого так прямо. Сознание, что
                <milestone unit="line" facs="#facs_106_l_26" n="N010"/>и здесь, далеко на чужбине, вдали от родных, есть кто то, кто желает
