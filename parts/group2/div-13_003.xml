@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" href="null"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -17,40 +14,253 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData>
-         <rdf:RDF xmlns:as="http://www.w3.org/ns/activitystreams#"
-                  xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-                  xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-                  xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-                  xmlns:dc="http://purl.org/dc/elements/1.1/"
-                  xmlns:dcterms="http://purl.org/dc/terms/"
-                  xmlns:fabio="https://purl.org/spar/fabio#"
-                  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-                  xmlns:geo="http://www.geonames.org/ontology#"
-                  xmlns:oa="http://www.w3.org/ns/oa#"
-                  xmlns:org="http://www.w3.org/ns/org#"
-                  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-                  xmlns:schema="http://schema.org/"
-                  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"/>
+      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?date_annotation_20261105121757906",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T11:17:57.906Z",
+	"dcterms:modified": "2026-11-05T11:17:57.906Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?date_annotation_20261105121757906#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?date_annotation_20261105121757906#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1919-03-04"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?date_annotation_20261105121815989",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T11:18:15.989Z",
+	"dcterms:modified": "2026-11-05T11:18:15.989Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?date_annotation_20261105121815989#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?date_annotation_20261105121815989#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[21]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1919-03-26"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?date_annotation_20261105121852281",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T11:18:52.281Z",
+	"dcterms:modified": "2026-11-05T11:18:52.281Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?date_annotation_20261105121852281#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?date_annotation_20261105121852281#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[33]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1919-05-10"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><xenoData>
+         
       </xenoData>
    </teiHeader>
    <text>
       <body>
          <ab type="leaf-convenience">
-            <pb corresp="#facs_110"
-                n="110"
-                xml:id="img_0110"
-                ana="108r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597833/full/max/0/default.jpg"/>
+            <pb corresp="#facs_110" n="110" xml:id="img_0110" ana="108r" facs="https://www.e-manuscripta.ch/i3f/v30/4597833/full/max/0/default.jpg"/>
          </ab>
          <p facs="#facs_110_r_9" xml:lang="ru" xml:id="p0329-ru">
             <milestone unit="line" facs="#facs_110_l_13" n="N001"/>Мама, мама!
                <milestone unit="line" facs="#facs_110_l_14" n="N002"/>Я так смертельно устала ...
-            <pb corresp="#facs_111"
-                n="111"
-                xml:id="img_0111"
-                ana="109r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597835/full/max/0/default.jpg"/>
+            <pb corresp="#facs_111" n="111" xml:id="img_0111" ana="109r" facs="https://www.e-manuscripta.ch/i3f/v30/4597835/full/max/0/default.jpg"/>
             <fw facs="#facs_111_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_111_l" n="N001"/>109</fw>
             <milestone unit="line" facs="#facs_111_l_29" n="N001"/>Думала ли ты, когда держала на руках свою первую маленькую дочь - такой
@@ -72,17 +282,17 @@
          <p facs="#facs_111_r_1" xml:lang="ru" xml:id="p0330-ru">
             <milestone unit="line" facs="#facs_111_l_1" n="N001"/>Вчера пришел ко мне Борис, держа на руках маленькую собачку. Он гладил ее и
                <milestone unit="line" facs="#facs_111_l_2" n="N002"/>по временам склонял немного на бок свою голову, как будто для того, чтобы при<milestone unit="line" facs="#facs_111_l_3" n="N003" break="no"/>жаться щекой к собачке, но не доводил своего жеста до конца. Меня поразило, что
-               <milestone unit="line" facs="#facs_111_l_4" n="N004"/>у него было точно такое же &lt;нежное и кроткое&gt; выражение лица, как у папы, когда он возился с ма<milestone unit="line" facs="#facs_111_l_5" n="N005" break="no"/>ленькими детьми, собачками или цыплятами. И я подумала: как нечастно
+               <milestone unit="line" facs="#facs_111_l_4" n="N004"/>у него было точно такое же &amp;lt;нежное и кроткое&amp;gt; выражение лица, как у папы, когда он возился с ма<milestone unit="line" facs="#facs_111_l_5" n="N005" break="no"/>ленькими детьми, собачками или цыплятами. И я подумала: как нечастно
                <milestone unit="line" facs="#facs_111_l_6" n="N006"/>сложилась и его жизнь...
             </p>
          <p facs="#facs_111_r_1" xml:lang="de" corresp="#p0330-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_111_l_1" n="N001"/>Вчера пришел ко мне Борис, держа на руках маленькую собачку. Он гладил ее и
                <milestone unit="line" facs="#facs_111_l_2" n="N002"/>по временам склонял немного на бок свою голову, как будто для того, чтобы при<milestone unit="line" facs="#facs_111_l_3" n="N003"/>жаться щекой к собачке, но не доводил своего жеста до конца. Меня поразило, что
-               <milestone unit="line" facs="#facs_111_l_4" n="N004"/>у него было точно такое же &lt;нежное и кроткое&gt; выражение лица, как у папы, когда он возился с ма<milestone unit="line" facs="#facs_111_l_5" n="N005"/>ленькими детьми, собачками или цыплятами. И я подумала: как нечастно
+               <milestone unit="line" facs="#facs_111_l_4" n="N004"/>у него было точно такое же &amp;lt;нежное и кроткое&amp;gt; выражение лица, как у папы, когда он возился с ма<milestone unit="line" facs="#facs_111_l_5" n="N005"/>ленькими детьми, собачками или цыплятами. И я подумала: как нечастно
                <milestone unit="line" facs="#facs_111_l_6" n="N006"/>сложилась и его жизнь...
             </p>
          <p facs="#facs_111_r_3" ana="dated_entry_header" xml:id="d0246-ru">
-            <milestone unit="line" facs="#facs_111_l_26" n="N001"/>4 марта.
+            <milestone unit="line" facs="#facs_111_l_26" n="N001"/><date when="1919-03-04" cert="high">4 марта</date>.
             </p>
          <p xml:lang="de" facs="#facs_111_r_3" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_111_l_26" n="N001"/>4 марта.
@@ -129,11 +339,7 @@
             <milestone unit="line" facs="#facs_111_l_12" n="N001"/>А, помню, каким сильным ключем била во мне раньше жизнь. Помню, как
                <milestone unit="line" facs="#facs_111_l_13" n="N002"/>ночью я стояла на ковре перед моей постелью. В окно лился лунный свет, а я
                <milestone unit="line" facs="#facs_111_l_14" n="N003"/>смотрела и не могла оторвать глаз от созвездия Ориона. В душе моей было
-            <pb corresp="#facs_112"
-                n="112"
-                xml:id="img_0112"
-                ana="110r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597837/full/max/0/default.jpg"/>
+            <pb corresp="#facs_112" n="112" xml:id="img_0112" ana="110r" facs="https://www.e-manuscripta.ch/i3f/v30/4597837/full/max/0/default.jpg"/>
             <milestone unit="line" facs="#facs_112_l" n="N001"/>110¬
                <milestone unit="line" facs="#facs_112_l_29" n="N001"/>так полно, прекрасно. Мне чудилось, будто там где то в небе есть и моя звез<milestone unit="line" facs="#facs_112_l_30" n="N002"/>да, и мне предстоит совершить в жизни, что то значительное и прекрасное...
             
@@ -168,11 +374,11 @@
                <milestone unit="line" facs="#facs_112_l_32" n="N004"/>жизнь и не <emph rend="underlined">мочь</emph> жить.
             </p>
          <p facs="#facs_112_r_4" xml:lang="ru" xml:id="p0336-ru">
-            <milestone unit="line" facs="#facs_112_l_3" n="N001"/>Для Андреевских герось – сказал недавно Борис характерно, что они на<milestone unit="line" facs="#facs_112_l_4" n="N002" break="no"/>чинают любить жизнь лишь перед смертью. Так Вернер из «Семи повешен<milestone unit="line" facs="#facs_112_l_5" n="N003" break="no"/>&lt;ных&gt;" вдруг перед казнью видит, как прекрасна жизнь, он поет ей осанну, но
+            <milestone unit="line" facs="#facs_112_l_3" n="N001"/>Для Андреевских герось – сказал недавно Борис характерно, что они на<milestone unit="line" facs="#facs_112_l_4" n="N002" break="no"/>чинают любить жизнь лишь перед смертью. Так Вернер из «Семи повешен<milestone unit="line" facs="#facs_112_l_5" n="N003" break="no"/>&amp;lt;ных&amp;gt;" вдруг перед казнью видит, как прекрасна жизнь, он поет ей осанну, но
                <milestone unit="line" facs="#facs_112_l_6" n="N004"/>все таки хочет и рад умереть, потому что жить он не может...
             </p>
          <p facs="#facs_112_r_4" xml:lang="de" corresp="#p0336-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_112_l_3" n="N001"/>Для Андреевских герось – сказал недавно Борис характерно, что они на<milestone unit="line" facs="#facs_112_l_4" n="N002"/>чинают любить жизнь лишь перед смертью. Так Вернер из «Семи повешен<milestone unit="line" facs="#facs_112_l_5" n="N003"/>&lt;ных&gt;" вдруг перед казнью видит, как прекрасна жизнь, он поет ей осанну, но
+               <milestone unit="line" facs="#facs_112_l_3" n="N001"/>Для Андреевских герось – сказал недавно Борис характерно, что они на<milestone unit="line" facs="#facs_112_l_4" n="N002"/>чинают любить жизнь лишь перед смертью. Так Вернер из «Семи повешен<milestone unit="line" facs="#facs_112_l_5" n="N003"/>&amp;lt;ных&amp;gt;" вдруг перед казнью видит, как прекрасна жизнь, он поет ей осанну, но
                <milestone unit="line" facs="#facs_112_l_6" n="N004"/>все таки хочет и рад умереть, потому что жить он не может...
             </p>
          <p facs="#facs_112_r_5" xml:lang="ru" xml:id="p0337-ru">
@@ -182,7 +388,7 @@
                <milestone unit="line" facs="#facs_112_l_23" n="N001"/>Как хорошо понимаю я это состояние души!
             </p>
          <p facs="#facs_112_r_6" ana="dated_entry_header" xml:id="d0278-ru">
-            <milestone unit="line" facs="#facs_112_l_7" n="N001"/>26 марта.
+            <milestone unit="line" facs="#facs_112_l_7" n="N001"/><date when="1919-03-26" cert="high">26 марта</date>.
             </p>
          <p xml:lang="de" facs="#facs_112_r_6" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_112_l_7" n="N001"/>26 марта.
@@ -209,16 +415,12 @@
             </p>
          <p facs="#facs_112_r_10" xml:lang="ru" xml:id="p0340-ru">
             <milestone unit="line" facs="#facs_112_l_12" n="N001"/>
-            <del rend="strikethrough">В этот де</del> Он заходил ко мне после этого несколько раз, но все на минут<milestone unit="line" facs="#facs_112_l_13" n="N002"/>ку, то &lt;попросит одолжить ему ножницы&gt;, то еще что нибудь. О за<milestone unit="line" facs="#facs_112_l_14" n="N003"/>писке не сказал ни слова. Что он думает о ней? Я убеждена, что он был тронут
+            <del rend="strikethrough">В этот де</del> Он заходил ко мне после этого несколько раз, но все на минут<milestone unit="line" facs="#facs_112_l_13" n="N002"/>ку, то &amp;lt;попросит одолжить ему ножницы&amp;gt;, то еще что нибудь. О за<milestone unit="line" facs="#facs_112_l_14" n="N003"/>писке не сказал ни слова. Что он думает о ней? Я убеждена, что он был тронут
                <milestone unit="line" facs="#facs_112_l_15" n="N004"/>и смущен. Ему хотелось что нибудь сказать, но он не мог или чувствовал, что это
                <milestone unit="line" facs="#facs_112_l_16" n="N005"/>не нужно. Прощаясь<del rend="strikethrough">,</del> вечером, он сказал:
                <milestone unit="line" facs="#facs_112_l_17" n="N006"/>«Ну, милая моя... человек, мне нужно итти"...
                <milestone unit="line" facs="#facs_112_l_18" n="N007"/>И ушел. Дорого дала бы я, чтобы узнать, правильно ли мое предположение,
-            <pb corresp="#facs_113"
-                n="113"
-                xml:id="img_0113"
-                ana="111r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597839/full/max/0/default.jpg"/>
+            <pb corresp="#facs_113" n="113" xml:id="img_0113" ana="111r" facs="https://www.e-manuscripta.ch/i3f/v30/4597839/full/max/0/default.jpg"/>
             <fw facs="#facs_113_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_113_l" n="N001"/>111</fw>
             <milestone unit="line" facs="#facs_113_l_29" n="N001"/>что, когда он прочитал мою записку, он улыбнулся своей хорошей улыбкой и про<milestone unit="line" facs="#facs_113_l_30" n="N002"/>шептал: «Милая моя!"
@@ -226,7 +428,7 @@
             </p>
          <p facs="#facs_112_r_10" xml:lang="de" corresp="#p0340-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_112_l_12" n="N001"/>
-            <del rend="strikethrough">В этот де</del> Он заходил ко мне после этого несколько раз, но все на минут<milestone unit="line" facs="#facs_112_l_13" n="N002"/>ку, то &lt;попросит одолжить ему ножницы&gt;, то еще что нибудь. О за<milestone unit="line" facs="#facs_112_l_14" n="N003"/>писке не сказал ни слова. Что он думает о ней? Я убеждена, что он был тронут
+            <del rend="strikethrough">В этот де</del> Он заходил ко мне после этого несколько раз, но все на минут<milestone unit="line" facs="#facs_112_l_13" n="N002"/>ку, то &amp;lt;попросит одолжить ему ножницы&amp;gt;, то еще что нибудь. О за<milestone unit="line" facs="#facs_112_l_14" n="N003"/>писке не сказал ни слова. Что он думает о ней? Я убеждена, что он был тронут
                <milestone unit="line" facs="#facs_112_l_15" n="N004"/>и смущен. Ему хотелось что нибудь сказать, но он не мог или чувствовал, что это
                <milestone unit="line" facs="#facs_112_l_16" n="N005"/>не нужно. Прощаясь<del rend="strikethrough">,</del> вечером, он сказал:
                <milestone unit="line" facs="#facs_112_l_17" n="N006"/>«Ну, милая моя... человек, мне нужно итти"...
@@ -238,11 +440,11 @@
             
             </p>
          <p facs="#facs_113_r_1" xml:lang="ru" xml:id="p0341-ru">
-            <milestone unit="line" facs="#facs_113_l_1" n="N001"/>Он сказал мне: «милая мая", но запнулся и добавил "человек». Это было ска<milestone unit="line" facs="#facs_113_l_2" n="N002" break="no"/>зано &lt;в&gt; шутливом тоне. Но в душе ему хотелось сказать мне что-нибудь ласковое
+            <milestone unit="line" facs="#facs_113_l_1" n="N001"/>Он сказал мне: «милая мая", но запнулся и добавил "человек». Это было ска<milestone unit="line" facs="#facs_113_l_2" n="N002" break="no"/>зано &amp;lt;в&amp;gt; шутливом тоне. Но в душе ему хотелось сказать мне что-нибудь ласковое
                <milestone unit="line" facs="#facs_113_l_3" n="N003"/>серьезно. Правда?
             </p>
          <p facs="#facs_113_r_1" xml:lang="de" corresp="#p0341-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_113_l_1" n="N001"/>Он сказал мне: «милая мая", но запнулся и добавил "человек». Это было ска<milestone unit="line" facs="#facs_113_l_2" n="N002"/>зано &lt;в&gt; шутливом тоне. Но в душе ему хотелось сказать мне что-нибудь ласковое
+               <milestone unit="line" facs="#facs_113_l_1" n="N001"/>Он сказал мне: «милая мая", но запнулся и добавил "человек». Это было ска<milestone unit="line" facs="#facs_113_l_2" n="N002"/>зано &amp;lt;в&amp;gt; шутливом тоне. Но в душе ему хотелось сказать мне что-нибудь ласковое
                <milestone unit="line" facs="#facs_113_l_3" n="N003"/>серьезно. Правда?
             </p>
          <p facs="#facs_113_r_3" xml:lang="ru" xml:id="p0342-ru">
@@ -254,7 +456,7 @@
                <milestone unit="line" facs="#facs_113_l_31" n="N003"/>его, как они были сказаны, послышался явственный намек на мое душевное состоя<milestone unit="line" facs="#facs_113_l_32" n="N004"/>ние.
             </p>
          <p facs="#facs_113_r_4" ana="dated_entry_header" xml:id="d0302-ru">
-            <milestone unit="line" facs="#facs_113_l_4" n="N001"/>10 мая.
+            <milestone unit="line" facs="#facs_113_l_4" n="N001"/><date when="1919-05-10" cert="high">10 мая</date>.
             </p>
          <p xml:lang="de" facs="#facs_113_r_4" ana="dated_entry_header">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_113_l_4" n="N001"/>10 мая.
@@ -269,7 +471,7 @@
             <milestone unit="line" facs="#facs_113_l_5" n="N001"/>Троицын день. Мы едем в церковь. Я сплела венок из белых роз, чтобы поло<milestone unit="line" facs="#facs_113_l_6" n="N002"/>жить его в церкви на икону. Мне восемь лет, и запах этих белых, слегка розо<milestone unit="line" facs="#facs_113_l_7" n="N003" break="no"/>ватых, особенно в бутонах, раз кажется мне необыкновенным. Садясь в экипаж,<milestone unit="line" facs="#facs_113_l_8" n="N004" break="no"/>я стараюсь не измять бело-розового кисейного платья; – свеже- выглаженное
                <milestone unit="line" facs="#facs_113_l_9" n="N005"/>и накрахмаленное, оно пахнет также как то особенно прекрасно. Малень<milestone unit="line" facs="#facs_113_l_10" n="N006"/>на сельская церковь вся разукрашена зелеными ветками и цветами. В ней
                <milestone unit="line" facs="#facs_113_l_11" n="N007"/>так славно и уютно. Запах ладана смешивается с запахом роз. Я молюсь
-               <milestone unit="line" facs="#facs_113_l_12" n="N008"/>&lt;сначала&gt; горячо, Бог знает о чем. Потом внимательно гляжу на старенького
+               <milestone unit="line" facs="#facs_113_l_12" n="N008"/>&amp;lt;сначала&amp;gt; горячо, Бог знает о чем. Потом внимательно гляжу на старенького
                <milestone unit="line" facs="#facs_113_l_13" n="N009"/>батюшку и крещусь время от времени. Старушка сзади меня шепчет: «Какие
                <milestone unit="line" facs="#facs_113_l_14" n="N010"/>хорошенькие девочки, особенно маленькая". Маленькая – это моя сестра. И я
                <milestone unit="line" facs="#facs_113_l_15" n="N011"/>недовольна, что не обо мне это "особенно". Но мне все таки приятно.
@@ -278,7 +480,7 @@
                <milestone unit="line" facs="#facs_113_l_5" n="N001"/>Троицын день. Мы едем в церковь. Я сплела венок из белых роз, чтобы поло<milestone unit="line" facs="#facs_113_l_6" n="N002"/>жить его в церкви на икону. Мне восемь лет, и запах этих белых, слегка розо<milestone unit="line" facs="#facs_113_l_7" n="N003"/>ватых, особенно в бутонах, раз кажется мне необыкновенным. Садясь в экипаж,<milestone unit="line" facs="#facs_113_l_8" n="N004"/>я стараюсь не измять бело-розового кисейного платья; – свеже- выглаженное
                <milestone unit="line" facs="#facs_113_l_9" n="N005"/>и накрахмаленное, оно пахнет также как то особенно прекрасно. Малень<milestone unit="line" facs="#facs_113_l_10" n="N006"/>на сельская церковь вся разукрашена зелеными ветками и цветами. В ней
                <milestone unit="line" facs="#facs_113_l_11" n="N007"/>так славно и уютно. Запах ладана смешивается с запахом роз. Я молюсь
-               <milestone unit="line" facs="#facs_113_l_12" n="N008"/>&lt;сначала&gt; горячо, Бог знает о чем. Потом внимательно гляжу на старенького
+               <milestone unit="line" facs="#facs_113_l_12" n="N008"/>&amp;lt;сначала&amp;gt; горячо, Бог знает о чем. Потом внимательно гляжу на старенького
                <milestone unit="line" facs="#facs_113_l_13" n="N009"/>батюшку и крещусь время от времени. Старушка сзади меня шепчет: «Какие
                <milestone unit="line" facs="#facs_113_l_14" n="N010"/>хорошенькие девочки, особенно маленькая". Маленькая – это моя сестра. И я
                <milestone unit="line" facs="#facs_113_l_15" n="N011"/>недовольна, что не обо мне это "особенно". Но мне все таки приятно.
@@ -299,11 +501,7 @@
             </p>
          <p facs="#facs_113_r_9" xml:lang="ru" xml:id="p0346-ru">
             <milestone unit="line" facs="#facs_113_l_34" n="N001"/>Жарко. Колосится рожь, и маки цветут. За рекой кукует кукушка:
-            <pb corresp="#facs_114"
-                n="114"
-                xml:id="img_0114"
-                ana="112r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597841/full/max/0/default.jpg"/>
+            <pb corresp="#facs_114" n="114" xml:id="img_0114" ana="112r" facs="https://www.e-manuscripta.ch/i3f/v30/4597841/full/max/0/default.jpg"/>
             <fw facs="#facs_114_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_114_l" n="N001"/>112</fw>
             <milestone unit="line" facs="#facs_114_l_30" n="N001"/>Ку-ку! Ку-ку! – Я в красном платье сижу на меже во ржи и плету венок из
@@ -352,13 +550,13 @@
                <milestone unit="line" facs="#facs_114_l_14" n="N014"/>
          </p>
          <p facs="#facs_114_r_3" xml:lang="ru" xml:id="p0348-ru">
-            <milestone unit="line" facs="#facs_114_l_25" n="N001"/>Для меня же за &lt;всякой&gt; самой простой вещью скрывалось нечто таинственное, необъяс<milestone unit="line" facs="#facs_114_l_26" n="N002" break="no"/>нимое словами. Я жила почти исключительно в мире фантазии. О вымышленном
+            <milestone unit="line" facs="#facs_114_l_25" n="N001"/>Для меня же за &amp;lt;всякой&amp;gt; самой простой вещью скрывалось нечто таинственное, необъяс<milestone unit="line" facs="#facs_114_l_26" n="N002" break="no"/>нимое словами. Я жила почти исключительно в мире фантазии. О вымышленном
                <milestone unit="line" facs="#facs_114_l_27" n="N003"/>принце я уже записала. Но я выдумала еще, будто за кладбищем на горе под на<milestone unit="line" facs="#facs_114_l_28" n="N004"/>валенной кучей намней находится подземелье и в нем живет какая то необык<milestone unit="line" facs="#facs_114_l_29" n="N005" break="no"/>новенная и несчастная женщина. И если приложить ухо к земле, то слышна
                <milestone unit="line" facs="#facs_114_l_35" n="N006"/>музыка. Это она играет. Я прикладывала ухо к земле и <emph rend="underlined">слышала</emph> таинствен<milestone unit="line" facs="#facs_114_l_36" n="N007" break="no"/>ную, далекую музыку. Это была, быть может, самая прекрасная музыка, какую
                <milestone unit="line" facs="#facs_114_l_37" n="N008"/>я когда либо слышала в жизни, потому что она была в моей душе.
             </p>
          <p facs="#facs_114_r_3" xml:lang="de" corresp="#p0348-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_114_l_25" n="N001"/>Для меня же за &lt;всякой&gt; самой простой вещью скрывалось нечто таинственное, необъяс<milestone unit="line" facs="#facs_114_l_26" n="N002"/>нимое словами. Я жила почти исключительно в мире фантазии. О вымышленном
+               <milestone unit="line" facs="#facs_114_l_25" n="N001"/>Для меня же за &amp;lt;всякой&amp;gt; самой простой вещью скрывалось нечто таинственное, необъяс<milestone unit="line" facs="#facs_114_l_26" n="N002"/>нимое словами. Я жила почти исключительно в мире фантазии. О вымышленном
                <milestone unit="line" facs="#facs_114_l_27" n="N003"/>принце я уже записала. Но я выдумала еще, будто за кладбищем на горе под на<milestone unit="line" facs="#facs_114_l_28" n="N004"/>валенной кучей намней находится подземелье и в нем живет какая то необык<milestone unit="line" facs="#facs_114_l_29" n="N005"/>новенная и несчастная женщина. И если приложить ухо к земле, то слышна
                <milestone unit="line" facs="#facs_114_l_35" n="N006"/>музыка. Это она играет. Я прикладывала ухо к земле и <emph rend="underlined">слышала</emph> таинствен<milestone unit="line" facs="#facs_114_l_36" n="N007"/>ную, далекую музыку. Это была, быть может, самая прекрасная музыка, какую
                <milestone unit="line" facs="#facs_114_l_37" n="N008"/>я когда либо слышала в жизни, потому что она была в моей душе.
@@ -371,11 +569,7 @@
             </p>
          <p facs="#facs_114_r_6" xml:lang="ru" xml:id="p0349-ru">
             <milestone unit="line" facs="#facs_114_l_16" n="N001"/>Наступает ночь, и ветер шумит листвою за раскрытой настеясь дверью мое-¬
-            <pb corresp="#facs_115"
-                n="115"
-                xml:id="img_0115"
-                ana="113r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597843/full/max/0/default.jpg"/>
+            <pb corresp="#facs_115" n="115" xml:id="img_0115" ana="113r" facs="https://www.e-manuscripta.ch/i3f/v30/4597843/full/max/0/default.jpg"/>
             <fw facs="#facs_115_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_115_l" n="N001"/>113</fw>
             <milestone unit="line" facs="#facs_115_l_29" n="N001"/>го балкона. Майская ночь. Я лежу в постели, кашляю и мне больно дышать. Но
@@ -408,22 +602,18 @@
             
             </p>
          <p facs="#facs_115_r_3" xml:lang="ru" xml:id="p0350-ru">
-            <milestone unit="line" facs="#facs_115_l_43" n="N001"/>Чехов в своей «Душечке" выразил в окаррикатуренном виде ту &lt;же&gt; черту "настоящей
+            <milestone unit="line" facs="#facs_115_l_43" n="N001"/>Чехов в своей «Душечке" выразил в окаррикатуренном виде ту &amp;lt;же&amp;gt; черту "настоящей
                <milestone unit="line" facs="#facs_115_l_44" n="N002"/>женщины", которую Толстой поэтически зарисовал в образе Наташи Ростовой. Ду<milestone unit="line" facs="#facs_115_l_45" n="N003" break="no"/>шечка говорит словами того, кого любит, и мнения ее меняются, когда ме<milestone unit="line" facs="#facs_115_l_46" n="N004"/>няется предмет любви. Когда она никого не любила, она во всем окружающем не ви<milestone unit="line" facs="#facs_115_l_47" n="N005" break="no"/>дела никакого смысла. Она видела, например, бутылку, но не знала: «зачем бутыл<milestone unit="line" facs="#facs_115_l_48" n="N006"/>ка?" Что до Наташи Ростовой, то о ней Вересаев в своем разборе Достоевского
                <milestone unit="line" facs="#facs_115_l_49" n="N007"/>и Толстого ("Живая Жизнь") говорит так: – «Наташа так словами Пьера и го<milestone unit="line" facs="#facs_115_l_50" n="N008" break="no"/>ворит смеется Николай Ростов. Но он ничего не знает о той таинственной ла<milestone unit="line" facs="#facs_115_l_51" n="N009" break="no"/>братории, из которой вышли эти слова. Пусть они формулированы Пьером,
                <milestone unit="line" facs="#facs_115_l_52" n="N010"/>это не значит, что они - только его, а не Наташи также – Ну а все таки:
                <milestone unit="line" facs="#facs_115_l_53" n="N011"/>ведь сами слова эти были бы иные, если бы она была женою другого? Чьей? Бориса
                <milestone unit="line" facs="#facs_115_l_54" n="N012"/>Друбецкого или Анатолия Курак[sic]ина? Их слова и мысли мертвой шелухой свали<milestone unit="line" facs="#facs_115_l_55" n="N013"/>лись бы с живой души Наташи. Но если бы она была женой кн. Андрея – да, слова
                <milestone unit="line" facs="#facs_115_l_56" n="N014"/>и <emph rend="underlined">мысли</emph> ее были бы иные, совсем также, как и дети бы были иныя. И нам не зачем
-            <pb corresp="#facs_116"
-                n="116"
-                xml:id="img_0116"
-                ana="114r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597845/full/max/0/default.jpg"/>
+            <pb corresp="#facs_116" n="116" xml:id="img_0116" ana="114r" facs="https://www.e-manuscripta.ch/i3f/v30/4597845/full/max/0/default.jpg"/>
             <fw facs="#facs_116_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_116_l" n="N001"/>114</fw>
             <milestone unit="line" facs="#facs_116_l_29" n="N001"/>даже гадать, какая доля в творчестве этих иных "слов" <emph rend="underlined">могла бы</emph> принадлежать
-               <milestone unit="line" facs="#facs_116_l_30" n="N002"/>Наташе. При разборе «Войны и мира" мы увид&lt;ели&gt;им, что она творит с душою Андрея,
+               <milestone unit="line" facs="#facs_116_l_30" n="N002"/>Наташе. При разборе «Войны и мира" мы увид&amp;lt;ели&amp;gt;им, что она творит с душою Андрея,
                <milestone unit="line" facs="#facs_116_l_31" n="N003"/>увидим, как она вверх ногами ставит все его миросозерцание. И когда бы он это
                <milestone unit="line" facs="#facs_116_l_32" n="N004"/>новое миросозерцание свое формулировал в слова, и Наташа бы повторяла их,<milestone unit="line" facs="#facs_116_l_33" n="N005"/>странно бы нам было смеяться над нею. Мы могли бы только сказать: да,
                <milestone unit="line" facs="#facs_116_l_34" n="N006"/>дети Наташи от кн. Андрея не были бы похожи на Пьера. Но и в детях от
@@ -432,7 +622,7 @@
             
             </p>
          <p facs="#facs_115_r_3" xml:lang="de" corresp="#p0350-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_115_l_43" n="N001"/>Чехов в своей «Душечке" выразил в окаррикатуренном виде ту &lt;же&gt; черту "настоящей
+               <milestone unit="line" facs="#facs_115_l_43" n="N001"/>Чехов в своей «Душечке" выразил в окаррикатуренном виде ту &amp;lt;же&amp;gt; черту "настоящей
                <milestone unit="line" facs="#facs_115_l_44" n="N002"/>женщины", которую Толстой поэтически зарисовал в образе Наташи Ростовой. Ду<milestone unit="line" facs="#facs_115_l_45" n="N003"/>шечка говорит словами того, кого любит, и мнения ее меняются, когда ме<milestone unit="line" facs="#facs_115_l_46" n="N004"/>няется предмет любви. Когда она никого не любила, она во всем окружающем не ви<milestone unit="line" facs="#facs_115_l_47" n="N005"/>дела никакого смысла. Она видела, например, бутылку, но не знала: «зачем бутыл<milestone unit="line" facs="#facs_115_l_48" n="N006"/>ка?" Что до Наташи Ростовой, то о ней Вересаев в своем разборе Достоевского
                <milestone unit="line" facs="#facs_115_l_49" n="N007"/>и Толстого ("Живая Жизнь") говорит так: – «Наташа так словами Пьера и го<milestone unit="line" facs="#facs_115_l_50" n="N008"/>ворит смеется Николай Ростов. Но он ничего не знает о той таинственной ла<milestone unit="line" facs="#facs_115_l_51" n="N009"/>братории, из которой вышли эти слова. Пусть они формулированы Пьером,
                <milestone unit="line" facs="#facs_115_l_52" n="N010"/>это не значит, что они - только его, а не Наташи также – Ну а все таки:
@@ -443,7 +633,7 @@
             <fw facs="#facs_116_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_116_l" n="N001"/>114</fw>
             <milestone unit="line" facs="#facs_116_l_29" n="N001"/>даже гадать, какая доля в творчестве этих иных "слов" <emph rend="underlined">могла бы</emph> принадлежать
-               <milestone unit="line" facs="#facs_116_l_30" n="N002"/>Наташе. При разборе «Войны и мира" мы увид&lt;ели&gt;им, что она творит с душою Андрея,
+               <milestone unit="line" facs="#facs_116_l_30" n="N002"/>Наташе. При разборе «Войны и мира" мы увид&amp;lt;ели&amp;gt;им, что она творит с душою Андрея,
                <milestone unit="line" facs="#facs_116_l_31" n="N003"/>увидим, как она вверх ногами ставит все его миросозерцание. И когда бы он это
                <milestone unit="line" facs="#facs_116_l_32" n="N004"/>новое миросозерцание свое формулировал в слова, и Наташа бы повторяла их,<milestone unit="line" facs="#facs_116_l_33" n="N005"/>странно бы нам было смеяться над нею. Мы могли бы только сказать: да,
                <milestone unit="line" facs="#facs_116_l_34" n="N006"/>дети Наташи от кн. Андрея не были бы похожи на Пьера. Но и в детях от
@@ -452,7 +642,7 @@
             
             </p>
          <p facs="#facs_116_r_1" xml:lang="ru" xml:id="p0351-ru">
-            <milestone unit="line" facs="#facs_116_l_1" n="N001"/>Гимназисткой, я любила учителя истории, и все слова, относящиеся к исто<milestone unit="line" facs="#facs_116_l_2" n="N002" break="no"/>рии не только что самые историческые события, приобрели тогда для меня ка<milestone unit="line" facs="#facs_116_l_3" n="N003"/>кой то особый блеск и что &gt;то&gt; такое, чего невозможно выразить словами. Самое
+            <milestone unit="line" facs="#facs_116_l_1" n="N001"/>Гимназисткой, я любила учителя истории, и все слова, относящиеся к исто<milestone unit="line" facs="#facs_116_l_2" n="N002" break="no"/>рии не только что самые историческые события, приобрели тогда для меня ка<milestone unit="line" facs="#facs_116_l_3" n="N003"/>кой то особый блеск и что &amp;gt;то&amp;gt; такое, чего невозможно выразить словами. Самое
                <milestone unit="line" facs="#facs_116_l_4" n="N004"/>слово "история" было какое-то особенное, озаренное внутренным светом. Я
                <milestone unit="line" facs="#facs_116_l_5" n="N005"/>любила историю и прежде того, как у нас появился этот новый учитель ис<milestone unit="line" facs="#facs_116_l_6" n="N006"/>тории, но с его появлением все както осветилось и получило еще более глу<milestone unit="line" facs="#facs_116_l_7" n="N007"/>бокий смысл. Я всегда хорошо училась, но при нем мои способности как бы
                <milestone unit="line" facs="#facs_116_l_8" n="N008"/>обострились, и я с каким то особенным проникновением схватывала его
@@ -460,7 +650,7 @@
                <milestone unit="line" facs="#facs_116_l_10" n="N010"/>моя первая любовь и быть может самая настоящая.
             </p>
          <p facs="#facs_116_r_1" xml:lang="de" corresp="#p0351-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_116_l_1" n="N001"/>Гимназисткой, я любила учителя истории, и все слова, относящиеся к исто<milestone unit="line" facs="#facs_116_l_2" n="N002"/>рии не только что самые историческые события, приобрели тогда для меня ка<milestone unit="line" facs="#facs_116_l_3" n="N003"/>кой то особый блеск и что &gt;то&gt; такое, чего невозможно выразить словами. Самое
+               <milestone unit="line" facs="#facs_116_l_1" n="N001"/>Гимназисткой, я любила учителя истории, и все слова, относящиеся к исто<milestone unit="line" facs="#facs_116_l_2" n="N002"/>рии не только что самые историческые события, приобрели тогда для меня ка<milestone unit="line" facs="#facs_116_l_3" n="N003"/>кой то особый блеск и что &amp;gt;то&amp;gt; такое, чего невозможно выразить словами. Самое
                <milestone unit="line" facs="#facs_116_l_4" n="N004"/>слово "история" было какое-то особенное, озаренное внутренным светом. Я
                <milestone unit="line" facs="#facs_116_l_5" n="N005"/>любила историю и прежде того, как у нас появился этот новый учитель ис<milestone unit="line" facs="#facs_116_l_6" n="N006"/>тории, но с его появлением все както осветилось и получило еще более глу<milestone unit="line" facs="#facs_116_l_7" n="N007"/>бокий смысл. Я всегда хорошо училась, но при нем мои способности как бы
                <milestone unit="line" facs="#facs_116_l_8" n="N008"/>обострились, и я с каким то особенным проникновением схватывала его
@@ -468,7 +658,7 @@
                <milestone unit="line" facs="#facs_116_l_10" n="N010"/>моя первая любовь и быть может самая настоящая.
             </p>
          <p facs="#facs_116_r_4" xml:lang="ru" xml:id="p0352-ru">
-            <milestone unit="line" facs="#facs_116_l_11" n="N001"/>&lt;Когда&gt; я видела его, это был какой то свет, мягкий, льющийся изнутри свет.
+            <milestone unit="line" facs="#facs_116_l_11" n="N001"/>&amp;lt;Когда&amp;gt; я видела его, это был какой то свет, мягкий, льющийся изнутри свет.
                <milestone unit="line" facs="#facs_116_l_12" n="N002"/>Даже те дни, по каким у нас бывали уроки истории, вторник, среда и пят<milestone unit="line" facs="#facs_116_l_13" n="N003" break="no"/>ница, — не только в то время, но и долго спустя казались мне лучшими днями
                <milestone unit="line" facs="#facs_116_l_14" n="N004"/>недели. Проходя нарочно мимо учительской комнаты, я глядела, там ли он.
                <milestone unit="line" facs="#facs_116_l_15" n="N005"/>Если его не было, то в учительской было темно и скучно. Если он был, там был
@@ -477,11 +667,7 @@
                <milestone unit="line" facs="#facs_116_l_18" n="N008"/>Женю, музыка стала для меня тем, чем раньше была история. Я усиленно
                <milestone unit="line" facs="#facs_116_l_19" n="N009"/>занималась музыкой, читала музыкальные сочинения. Но это было уже как
                <milestone unit="line" facs="#facs_116_l_20" n="N010"/>то иначе и не так прекрасно, как то первое, полудетское чувство. Когда
-            <pb corresp="#facs_117"
-                n="117"
-                xml:id="img_0117"
-                ana="115r"
-                facs="https://www.e-manuscripta.ch/i3f/v30/4597847/full/max/0/default.jpg"/>
+            <pb corresp="#facs_117" n="117" xml:id="img_0117" ana="115r" facs="https://www.e-manuscripta.ch/i3f/v30/4597847/full/max/0/default.jpg"/>
             <fw facs="#facs_117_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_117_l" n="N001"/>115</fw>
             <milestone unit="line" facs="#facs_117_l_29" n="N001"/>я видела Женю, не было того света, хотя и его я видела, как нечто един<milestone unit="line" facs="#facs_117_l_30" n="N002"/>ственное в мире. Было какое то подсознательное и невыразимо словами чувст<milestone unit="line" facs="#facs_117_l_31" n="N003"/>во: этот человек будет моим мужем. Он шел, я глядела ему в спину и думала:
@@ -491,7 +677,7 @@
             
             </p>
          <p facs="#facs_116_r_4" xml:lang="de" corresp="#p0352-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_116_l_11" n="N001"/>&lt;Когда&gt; я видела его, это был какой то свет, мягкий, льющийся изнутри свет.
+               <milestone unit="line" facs="#facs_116_l_11" n="N001"/>&amp;lt;Когда&amp;gt; я видела его, это был какой то свет, мягкий, льющийся изнутри свет.
                <milestone unit="line" facs="#facs_116_l_12" n="N002"/>Даже те дни, по каким у нас бывали уроки истории, вторник, среда и пят<milestone unit="line" facs="#facs_116_l_13" n="N003"/>ница, — не только в то время, но и долго спустя казались мне лучшими днями
                <milestone unit="line" facs="#facs_116_l_14" n="N004"/>недели. Проходя нарочно мимо учительской комнаты, я глядела, там ли он.
                <milestone unit="line" facs="#facs_116_l_15" n="N005"/>Если его не было, то в учительской было темно и скучно. Если он был, там был
@@ -510,13 +696,13 @@
             
             </p>
          <p facs="#facs_117_r_1" xml:lang="ru" xml:id="p0353-ru">
-            <milestone unit="line" facs="#facs_117_l_1" n="N001"/>&lt;Einzug&gt;Женя почти никогда мне не снится, но учитель истории иногда снится и
+            <milestone unit="line" facs="#facs_117_l_1" n="N001"/>&amp;lt;Einzug&amp;gt;Женя почти никогда мне не снится, но учитель истории иногда снится и
                <milestone unit="line" facs="#facs_117_l_2" n="N002"/>тогда у меня появляется тоже чувство света. Как то снилось мне: я иду по
                <milestone unit="line" facs="#facs_117_l_3" n="N003"/>лестнице в гимназии, и он навстречу, и во сне вернулись прежнее, что я всегда
                <milestone unit="line" facs="#facs_117_l_4" n="N004"/>испытывала в таких случаях: он был как бы окружен какимто голубова<milestone unit="line" facs="#facs_117_l_5" n="N005" break="no"/>тым сиянием.
             </p>
          <p facs="#facs_117_r_1" xml:lang="de" corresp="#p0353-ru">{TRANSLATION GOES HERE}
-               <milestone unit="line" facs="#facs_117_l_1" n="N001"/>&lt;Einzug&gt;Женя почти никогда мне не снится, но учитель истории иногда снится и
+               <milestone unit="line" facs="#facs_117_l_1" n="N001"/>&amp;lt;Einzug&amp;gt;Женя почти никогда мне не снится, но учитель истории иногда снится и
                <milestone unit="line" facs="#facs_117_l_2" n="N002"/>тогда у меня появляется тоже чувство света. Как то снилось мне: я иду по
                <milestone unit="line" facs="#facs_117_l_3" n="N003"/>лестнице в гимназии, и он навстречу, и во сне вернулись прежнее, что я всегда
                <milestone unit="line" facs="#facs_117_l_4" n="N004"/>испытывала в таких случаях: он был как бы окружен какимто голубова<milestone unit="line" facs="#facs_117_l_5" n="N005"/>тым сиянием.
