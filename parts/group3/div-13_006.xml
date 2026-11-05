@@ -988,7 +988,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103113313306",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-03T10:33:13.306Z",
-	"dcterms:modified": "2026-11-03T10:33:13.306Z",
+	"dcterms:modified": "2026-11-05T11:04:52.642Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1029,7 +1029,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "4.3.2"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -1067,7 +1068,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103113557437",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-03T10:35:57.437Z",
-	"dcterms:modified": "2026-11-03T10:35:57.437Z",
+	"dcterms:modified": "2026-11-05T11:05:05.083Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1108,7 +1109,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "4.3.2"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -1146,7 +1148,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103113644360",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-03T10:36:44.360Z",
-	"dcterms:modified": "2026-11-03T10:36:44.360Z",
+	"dcterms:modified": "2026-11-05T11:05:12.367Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1187,7 +1189,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "4.3.2"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -2588,7 +2591,7 @@
             </p>
          <p xml:lang="de" facs="#facs_130_r_5" ana="dated_entry_header">20. Januar.</p>
          <p facs="#facs_130_r_4" xml:lang="ru" xml:id="p0411-ru">
-            <milestone unit="line" facs="#facs_130_l_15" n="N001"/>Сегодня <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013">он</persName> уехал. Он нанял комнату в <del rend="strikethrough">бли</del> одном из пансионов близжай<milestone unit="line" facs="#facs_130_l_16" n="N002"/>шего города. Перед отъездом он несколько раз заходил ко мне, но каждый раз
+            <milestone unit="line" facs="#facs_130_l_15" n="N001"/>Сегодня <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">он</persName> уехал. Он нанял комнату в <del rend="strikethrough">бли</del> одном из пансионов близжай<milestone unit="line" facs="#facs_130_l_16" n="N002"/>шего города. Перед отъездом он несколько раз заходил ко мне, но каждый раз
                <milestone unit="line" facs="#facs_130_l_17" n="N003"/>ненадолго, так как был занят укладкой своих вещей. Казалось, что ему все
                <milestone unit="line" facs="#facs_130_l_18" n="N004"/>хочется сказать мне нечто ласковое и хорошее, но он не может.
                <milestone unit="line" facs="#facs_130_l_19" n="N005"/>«Ну не киснете и все прочее», удалось ему только сказать мне на про<milestone unit="line" facs="#facs_130_l_20" n="N006"/>щание, крепко сжимая мою руку.
@@ -2601,7 +2604,7 @@
             </p>
          <p xml:lang="de" facs="#facs_130_r_3" ana="dated_entry_header">25. Januar.</p>
          <p facs="#facs_130_r_1" xml:lang="ru" xml:id="p0412-ru">
-            <milestone unit="line" facs="#facs_130_l_24" n="N001"/>Сегодня был у меня <persName key="Борис" ref="https://danina.digitaleditions.ch/id/danina_p013">Борис</persName>. Разговор все как то не клеился, и я хочу запи<milestone unit="line" facs="#facs_130_l_25" n="N002"/>сать только слова его: когда я к Вам иду, я чувствую, что должен что
+            <milestone unit="line" facs="#facs_130_l_24" n="N001"/>Сегодня был у меня <persName key="Борис" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Борис</persName>. Разговор все как то не клеился, и я хочу запи<milestone unit="line" facs="#facs_130_l_25" n="N002"/>сать только слова его: когда я к Вам иду, я чувствую, что должен что
             <pb corresp="#facs_131" n="131" xml:id="img_0131" ana="129r" facs="https://www.e-manuscripta.ch/i3f/v30/4597875/full/max/0/default.jpg"/>
             <fw facs="#facs_131_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_131_l" n="N001"/>129</fw>
@@ -2615,7 +2618,7 @@
             </p>
          <p xml:lang="de" facs="#facs_131_r_3" ana="dated_entry_header">2. Februar.</p>
          <p facs="#facs_131_r_7" xml:lang="ru" xml:id="p0413-ru">
-            <milestone unit="line" facs="#facs_131_l_12" n="N001"/>Вчера был <persName key="Борис" ref="https://danina.digitaleditions.ch/id/danina_p013">Борис</persName>. Вид у него был утомленный. Он был очень внимателен ко мне и
+            <milestone unit="line" facs="#facs_131_l_12" n="N001"/>Вчера был <persName key="Борис" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Борис</persName>. Вид у него был утомленный. Он был очень внимателен ко мне и
                <milestone unit="line" facs="#facs_131_l_13" n="N002"/>нежно улыбался, видя, как я оживилась.
             </p>
          <p facs="#facs_131_r_7" xml:lang="de" corresp="#p0413-ru">Gestern war Boris da. Er sah ermüdet aus. Er war sehr aufmerksam zu mir und lächelte zärtlich, als er sah, wie ich auflebte.</p>
