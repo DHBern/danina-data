@@ -1435,6 +1435,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_001.xml?note_annotation_20261105113408171",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T10:34:08.171Z",
+	"dcterms:modified": "2026-11-05T10:34:08.171Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Stradanina",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "T H"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_001.xml?note_annotation_20261105113408171#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_001.xml?note_annotation_20261105113408171#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[43]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Da wäre es dann hilfreich, wenn man das Werk taggen könnte, damit es kein Durcheinander mit unserem Boris gibt."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -1798,7 +1877,7 @@
          <p facs="#facs_99_r_1" xml:lang="ru" xml:id="p0297-ru">
             <milestone unit="line" facs="#facs_99_l_26" n="N001"/>Сегодня мне снился страшный и очень яркий сон. Будто я читаю неиз<milestone unit="line" facs="#facs_99_l_27" n="N002"/>данный рассказ <persName key="Чехова" ref="https://danina.digitaleditions.ch/id/danina_p108" cert="high">Чехова</persName>. Я вижу еще крупный шрифт книги, но помню толь<milestone unit="line" facs="#facs_99_l_28" n="N003"/>ко общий смысл рассказа<note type="researchNote">Welcher ist das?</note> и впечатление, какое он на меня произвел. На
                <milestone unit="line" facs="#facs_99_l_29" n="N004"/>реке каталась в лодке молодежь. У одной из девушек было что-то с тем
-               <milestone unit="line" facs="#facs_99_l_30" n="N005"/>молодым человеком, который сидел на руле. Его звали Борисом. Других
+               <milestone unit="line" facs="#facs_99_l_30" n="N005"/>молодым человеком, который сидел на руле. Его звали Борисом<note type="researchNote">Da wäre es dann hilfreich, wenn man das Werk taggen könnte, damit es kein Durcheinander mit unserem Boris gibt.</note>. Других
                <milestone unit="line" facs="#facs_99_l_31" n="N006"/>я не помню. Что именно случилось, я не помню. Умер ли тот, кого она
             <pb corresp="#facs_100" n="100" xml:id="img_0100" ana="99r" facs="https://www.e-manuscripta.ch/i3f/v30/4597813/full/max/0/default.jpg"/>
             <fw facs="#facs_100_r_10" type="page-number" place="top">
@@ -1836,7 +1915,7 @@
             
             </p>
          <p facs="#facs_100_r_1" xml:lang="ru" xml:id="p0298-ru">
-            <milestone unit="line" facs="#facs_100_l_1" n="N001"/>Эти слова повторялись много раз, и было в этом такое напряже<milestone unit="line" facs="#facs_100_l_2" n="N002"/>ние, когда кажется, вот-вот что то порвется. Безнадежное отчаяние и
+            <milestone unit="line" facs="#facs_100_l_1" n="N001"/>Эти слова повторялись много раз, и было в этом такое напряже<milestone unit="line" facs="#facs_100_l_2" n="N002"/>ние, когда кажется, вот-вот что-то порвется. Безнадежное отчаяние и
                <milestone unit="line" facs="#facs_100_l_3" n="N003"/>спокойствие отчаяния. Смысл был такой, что она не может жить без<milestone unit="line" facs="#facs_100_l_4" n="N004"/><damage type="punchhole">него.</damage>
             </p>
          <p facs="#facs_100_r_1" xml:lang="de" corresp="#p0298-ru">{TRANSLATION GOES HERE}
