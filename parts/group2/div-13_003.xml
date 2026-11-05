@@ -1432,7 +1432,7 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteScholarly",
 		"dc:format": "text/plain",
-		"rdf:value": "Natal'ja \"Natascha\" Rostova ist eine Figur aus Tolstois Krieg und Frieden."
+		"rdf:value": "Natal'ja \"Natascha\" Rostova ist eine Figur aus Tolstojs Krieg und Frieden."
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -1795,7 +1795,7 @@
             </p>
          <p facs="#facs_115_r_3" xml:lang="ru" xml:id="p0350-ru">
             <milestone unit="line" facs="#facs_115_l_43" n="N001"/><title key="Чехов в своей «Душечке»" ref="https://danina.digitaleditions.ch/id/danina_w020" cert="high">Чехов в своей «Душечке»</title> выразил в окаррикатуренном виде ту &amp;lt;же&amp;gt; черту "настоящей
-               <milestone unit="line" facs="#facs_115_l_44" n="N002"/>женщины", которую Толстой поэтически зарисовал в образе Наташи Ростовой<note type="scholarNote">Natal'ja "Natascha" Rostova ist eine Figur aus Tolstois Krieg und Frieden.</note>. Ду<milestone unit="line" facs="#facs_115_l_45" n="N003" break="no"/>шечка говорит словами того, кого любит, и мнения ее меняются, когда ме<milestone unit="line" facs="#facs_115_l_46" n="N004"/>няется предмет любви. Когда она никого не любила, она во всем окружающем не ви<milestone unit="line" facs="#facs_115_l_47" n="N005" break="no"/>дела никакого смысла. Она видела, например, бутылку, но не знала: «зачем бутыл<milestone unit="line" facs="#facs_115_l_48" n="N006"/>ка?" Что до Наташи Ростовой, то о ней Вересаев в своем разборе Достоевского
+               <milestone unit="line" facs="#facs_115_l_44" n="N002"/>женщины", которую Толстой поэтически зарисовал в образе Наташи Ростовой<note type="scholarNote">Natal'ja "Natascha" Rostova ist eine Figur aus Tolstojs Krieg und Frieden.</note>. Ду<milestone unit="line" facs="#facs_115_l_45" n="N003" break="no"/>шечка говорит словами того, кого любит, и мнения ее меняются, когда ме<milestone unit="line" facs="#facs_115_l_46" n="N004"/>няется предмет любви. Когда она никого не любила, она во всем окружающем не ви<milestone unit="line" facs="#facs_115_l_47" n="N005" break="no"/>дела никакого смысла. Она видела, например, бутылку, но не знала: «зачем бутыл<milestone unit="line" facs="#facs_115_l_48" n="N006"/>ка?" Что до Наташи Ростовой, то о ней Вересаев в своем разборе Достоевского
                <milestone unit="line" facs="#facs_115_l_49" n="N007"/>и Толстого ("Живая Жизнь") говорит так: – «Наташа так словами Пьера и го<milestone unit="line" facs="#facs_115_l_50" n="N008" break="no"/>ворит смеется Николай Ростов. Но он ничего не знает о той таинственной ла<milestone unit="line" facs="#facs_115_l_51" n="N009" break="no"/>братории, из которой вышли эти слова. Пусть они формулированы Пьером,
                <milestone unit="line" facs="#facs_115_l_52" n="N010"/>это не значит, что они - только его, а не Наташи также – Ну а все таки:
                <milestone unit="line" facs="#facs_115_l_53" n="N011"/>ведь сами слова эти были бы иные, если бы она была женою другого? Чьей? Бориса
