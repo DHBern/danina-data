@@ -1228,7 +1228,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103113959098",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-03T10:39:59.098Z",
-	"dcterms:modified": "2026-11-03T10:39:59.098Z",
+	"dcterms:modified": "2026-11-05T11:05:35.141Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1269,7 +1269,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "4.3.2"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -2654,7 +2655,7 @@
             </p>
          <p xml:lang="de" facs="#facs_132_r_8" ana="dated_entry_header">9. Februar.</p>
          <p facs="#facs_132_r_7" xml:lang="ru" xml:id="p0417-ru">
-            <milestone unit="line" facs="#facs_132_l_4" n="N001"/>Вчера в воскресенье <persName key="&amp;quot;муж&amp;quot;" ref="https://danina.digitaleditions.ch/id/danina_p013">"муж"</persName> был у меня. Он теперь так сказать на положении дач<milestone unit="line" facs="#facs_132_l_5" n="N002"/>ного мужа и приезжает по воскресеньям. Разговор снова как то не клеился. Не
+            <milestone unit="line" facs="#facs_132_l_4" n="N001"/>Вчера в воскресенье <persName key="&amp;quot;муж&amp;quot;" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">"муж"</persName> был у меня. Он теперь так сказать на положении дач<milestone unit="line" facs="#facs_132_l_5" n="N002"/>ного мужа и приезжает по воскресеньям. Разговор снова как то не клеился. Не
                <milestone unit="line" facs="#facs_132_l_6" n="N003"/>знаю, отчего это? Может быть оттого, что он приезжает теперь всего на два
                <milestone unit="line" facs="#facs_132_l_7" n="N004"/>часа и это как то висит над головой: вот время идет и скоро ему уже надо
                <milestone unit="line" facs="#facs_132_l_8" n="N005"/>будет уходить, и эта долбящая в голову мысль вытесняет все остальные,
