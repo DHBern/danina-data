@@ -884,6 +884,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_005.xml?place_annotation_20261105113218691",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T10:32:18.691Z",
+	"dcterms:modified": "2026-11-05T10:32:18.691Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/bente79",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Katrin Karl"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_005.xml?place_annotation_20261105113218691#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_005.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_005.xml?place_annotation_20261105113218691#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[10]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://danina.digitaleditions.ch/id/danina_o006",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:medium"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -995,7 +1075,7 @@
             </p>
          <p facs="#facs_35_r_7" xml:lang="de" corresp="#p0106-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_35_l_24" n="N001"/>A что стало с тем, с другим?
-               <milestone unit="line" facs="#facs_35_l_25" n="N002"/>Я знаю о нем лишь то, что сестра написала мне однажды: «На вой<milestone unit="line" facs="#facs_35_l_26" n="N003"/>ну он взят не был, по крайней мере, вначале. Как то приезжал в С.,
+               <milestone unit="line" facs="#facs_35_l_25" n="N002"/>Я знаю о нем лишь то, что сестра написала мне однажды: «На вой<milestone unit="line" facs="#facs_35_l_26" n="N003"/>ну он взят не был, по крайней мере, вначале. Как то приезжал в <placeName key="С." ref="https://danina.digitaleditions.ch/id/danina_o006" cert="medium">С.</placeName>,
                <milestone unit="line" facs="#facs_35_l_27" n="N004"/>занял, где мог, денег, прокутил и уехал.»
             </p>
          <p facs="#facs_35_r_10" xml:lang="ru" xml:id="p0107-ru">
