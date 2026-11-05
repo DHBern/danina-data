@@ -170,6 +170,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?organization_annotation_20261105110755106",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T10:07:55.106Z",
+	"dcterms:modified": "2026-11-05T10:07:55.106Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/MaschaSt",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mascha Stöckmann"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?organization_annotation_20261105110755106#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?organization_annotation_20261105110755106#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -239,7 +319,7 @@
             <milestone unit="line" facs="#facs_72_l_30" n="N001"/>Эти слова я беру из моей молитвы, которая вылилась у меня однажды,
                <milestone unit="line" facs="#facs_72_l_31" n="N002"/>когда я была почти в состоянии какого-то экстаза. Это было незадолго
                <milestone unit="line" facs="#facs_72_l_32" n="N003"/>до моей поездки в Цюриx, когда, под влиянием мыслей об операции и смерти,
-               <milestone unit="line" facs="#facs_72_l_35" n="N004"/>я была в состоянии высшаго нервного напряжения. Тогда приехал в кли<milestone unit="line" facs="#facs_72_l_36" n="N005"/>нику Борис. Он мне сразу понравился, после первого же нашего разговора,
+               <milestone unit="line" facs="#facs_72_l_35" n="N004"/>я была в состоянии высшаго нервного напряжения. Тогда приехал в кли<milestone unit="line" facs="#facs_72_l_36" n="N005"/>нику <orgName key="Борис" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Борис</orgName>. Он мне сразу понравился, после первого же нашего разговора,
                <milestone unit="line" facs="#facs_72_l_38" n="N006"/>и даже раньше, просто по смеху своему, и мне стало так жаль, что он
                <milestone unit="line" facs="#facs_72_l_39" n="N007"/>может умереть – так тяжело он был болен в то время. Мне показалось,
                <milestone unit="line" facs="#facs_72_l_40" n="N008"/>что между нами могло бы быть много общего и, кроме того, меня пора<milestone unit="line" facs="#facs_72_l_41" n="N009"/>зил его ум редким качеством своим видеть во всем скрытое, то, что не
