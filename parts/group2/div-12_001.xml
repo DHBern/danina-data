@@ -573,6 +573,27 @@
 			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
 			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
 			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
 		}
 	],
 	"as:generator": {
@@ -654,6 +675,27 @@
 			"@type": "cito:Citation",
 			"dc:format": "text/plain",
 			"rdf:value": ""
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
 		},
 		{
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
@@ -1408,7 +1450,7 @@
             <pb corresp="#facs_71" n="71" xml:id="img_0071" ana="70r" facs="https://www.e-manuscripta.ch/i3f/v30/4597755/full/max/0/default.jpg"/>
          </ab>
          <ab facs="#facs_71_r" type="motto_epigraph">
-            <milestone unit="line" facs="#facs_71_l" n="N001"/>"Hexopoшо человеку быть одному"<note type="citation"><bibl><ref target="https://danina.digitaleditions.ch/id/danina_w009"/><bibl/></bibl></note>
+            <milestone unit="line" facs="#facs_71_l" n="N001"/>"Hexopoшо человеку быть одному"<note type="citation"><bibl><ref target="https://danina.digitaleditions.ch/id/danina_w009"/><bibl><bibl/></bibl></bibl></note>
                <milestone unit="line" facs="#facs_71_l_1" n="N002"/>(<title key="„Книга бытия&amp;quot;, гл. 2" ref="https://danina.digitaleditions.ch/id/danina_w009" cert="high">„Книга бытия", гл. 2</title>)<note type="scholarNote">Genesis 2,18</note>
             </ab>
          <ab facs="#facs_71_r_1" type="motto_epigraph">
@@ -1421,7 +1463,7 @@
             <choice>
                <corr/>
                <sic>adheision</sic>
-            </choice> à la vie.<note type="citation"><bibl><ref target="https://danina.digitaleditions.ch/id/danina_w016"/><bibl/></bibl></note>
+            </choice> à la vie.<note type="citation"><bibl><ref target="https://danina.digitaleditions.ch/id/danina_w016"/><bibl><bibl/></bibl></bibl></note>
                <milestone unit="line" facs="#facs_71_l_8" n="N007"/>(<choice>
                <corr><orgName key="Maeterlinck" ref="https://danina.digitaleditions.ch/id/danina_p114">Maeterlinck</orgName></corr>
                <sic>Maeterlink </sic>
@@ -1463,7 +1505,7 @@
             <milestone unit="line" facs="#facs_72_l_30" n="N001"/>Эти слова я беру из моей молитвы, которая вылилась у меня однажды,
                <milestone unit="line" facs="#facs_72_l_31" n="N002"/>когда я была почти в состоянии какого-то экстаза. Это было незадолго
                <milestone unit="line" facs="#facs_72_l_32" n="N003"/>до моей поездки в Цюриx, когда, под влиянием мыслей об операции и смерти,
-               <milestone unit="line" facs="#facs_72_l_35" n="N004"/>я была в состоянии высшаго нервного напряжения. Тогда приехал в кли<milestone unit="line" facs="#facs_72_l_36" n="N005"/>нику <orgName key="Борис" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Борис</orgName>. Он мне сразу понравился, после первого же нашего разговора,
+               <milestone unit="line" facs="#facs_72_l_35" n="N004"/>я была в состоянии высшаго нервного напряжения. Тогда приехал в кли<milestone unit="line" facs="#facs_72_l_36" n="N005"/>нику <persName key="Борис" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Борис</persName>. Он мне сразу понравился, после первого же нашего разговора,
                <milestone unit="line" facs="#facs_72_l_38" n="N006"/>и даже раньше, просто по смеху своему, и мне стало так жаль, что он
                <milestone unit="line" facs="#facs_72_l_39" n="N007"/>может умереть – так тяжело он был болен в то время. Мне показалось,
                <milestone unit="line" facs="#facs_72_l_40" n="N008"/>что между нами могло бы быть много общего и, кроме того, меня пора<milestone unit="line" facs="#facs_72_l_41" n="N009"/>зил его ум редким качеством своим видеть во всем скрытое, то, что не
