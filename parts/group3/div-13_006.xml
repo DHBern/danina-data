@@ -2099,7 +2099,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261103123520711",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-03T11:35:20.711Z",
-	"dcterms:modified": "2026-11-03T11:35:20.711Z",
+	"dcterms:modified": "2026-11-05T11:06:28.692Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -2130,7 +2130,7 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NoteScholarly",
+		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
 		"rdf:value": "Tat'jana Danina bezieht sich hier auf die Figur Sofja Alexandrowna aus dem Drama Onkel Vanja von Anton Čechov."
 	},
@@ -2444,6 +2444,85 @@
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261105120338312#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[65]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Das Zitat bedarf einer Überprüfung."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261105120652348",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T11:06:52.348Z",
+	"dcterms:modified": "2026-11-05T11:06:52.348Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261105120652348#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261105120652348#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[61]/note[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -2808,7 +2887,7 @@
             <milestone unit="line" facs="#facs_134_l_1" n="N001"/>И мой слабый голос, может быть, прозвучит, когда нибудь и будет кемни<milestone unit="line" facs="#facs_134_l_2" n="N002"/>будь услышан. Жизнь прекрасна. Жизнь прекрасна. Не смотря ни на что. Я
                <milestone unit="line" facs="#facs_134_l_3" n="N003"/>хотела бы перелить в души тех, кто отчаивается, тех, кто спрашивает:
                <milestone unit="line" facs="#facs_134_l_4" n="N004"/>за что сужденно им так страдать? – то чувство единства, чувство преем<milestone unit="line" facs="#facs_134_l_5" n="N005"/>ственности жизни, которое помогает мне жить. Мне так близки и
-               <milestone unit="line" facs="#facs_134_l_6" n="N006"/>понятны слова поэта Бунина<note type="scholarNote">Hier ist der Dichter Iwan Bunin gemeint.</note>: <title key="&amp;quot;радостно жить и знать, что я умру, и этот день пройдет, но вечно будет радость жить.&amp;quot;" ref="https://danina.digitaleditions.ch/id/danina_w007" cert="medium">"радостно жить и знать, что я умру,
+               <milestone unit="line" facs="#facs_134_l_6" n="N006"/>понятны слова поэта Бунина<note type="scholarNote">Hier ist der Dichter Iwan Bunin gemeint.</note>: <note type="researchNote">Das Zitat bedarf einer Überprüfung.</note><title key="&amp;quot;радостно жить и знать, что я умру, и этот день пройдет, но вечно будет радость жить.&amp;quot;" ref="https://danina.digitaleditions.ch/id/danina_w007" cert="medium">"радостно жить и знать, что я умру,
                <milestone unit="line" facs="#facs_134_l_7" n="N007"/>и этот день пройдет, но вечно будет радость жить."</title>
             </p>
          <p facs="#facs_134_r_1" xml:lang="de" corresp="#p0425-ru">{TRANSLATION GOES HERE}
@@ -2837,7 +2916,7 @@
                <milestone unit="line" facs="#facs_134_l_28" n="N009"/>прочтут о муках тех, что жили до них в годы страшной всемирной вой<milestone unit="line" facs="#facs_134_l_38" n="N010"/>ны, в годы великой смуты на Руси.
             </p>
          <p facs="#facs_134_r_5" xml:lang="ru" xml:id="p0427-ru">
-            <milestone unit="line" facs="#facs_134_l_39" n="N001"/>А теперь, как Чеховская Соня<note type="scholarNote">Tat'jana Danina bezieht sich hier auf die Figur Sofja Alexandrowna aus dem Drama Onkel Vanja von Anton Čechov.</note>, я говорю: <title key="«Мы увидим ангелов и все небо в алмазах и, дядя Ваня, милый дядя Ваня, мы отдохнем, мы отдохнем»" ref="https://danina.digitaleditions.ch/id/danina_w006">«Мы увидим ангелов и все небо в
+            <milestone unit="line" facs="#facs_134_l_39" n="N001"/>А теперь, как Чеховская Соня<note type="researchNote">Tat'jana Danina bezieht sich hier auf die Figur Sofja Alexandrowna aus dem Drama Onkel Vanja von Anton Čechov.</note>, я говорю: <title key="«Мы увидим ангелов и все небо в алмазах и, дядя Ваня, милый дядя Ваня, мы отдохнем, мы отдохнем»" ref="https://danina.digitaleditions.ch/id/danina_w006">«Мы увидим ангелов и все небо в
                <milestone unit="line" facs="#facs_134_l_40" n="N002"/>алмазах и, дядя Ваня, милый дядя Ваня, мы отдохнем, мы отдохнем»</title> ...<note type="researchNote">Das Zitat bedarf einer Überprüfung.</note>
             <pb corresp="#facs_135" n="135" xml:id="img_0135" ana="133r" facs="https://www.e-manuscripta.ch/i3f/v30/4597883/full/max/0/default.jpg"/>
             <fw facs="#facs_135_r" type="page-number" place="top">
