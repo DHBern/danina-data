@@ -327,6 +327,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-8_001.xml?person_annotation_20261105110125875",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T10:01:25.875Z",
+	"dcterms:modified": "2026-11-05T10:01:25.875Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/BedaAckermann",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Beda Ackermann"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-8_001.xml?person_annotation_20261105110125875#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-8_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-8_001.xml?person_annotation_20261105110125875#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p112",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -361,7 +440,7 @@
                <milestone unit="line" facs="#facs_44_l_16" n="N002"/>молчание. Сколько пережил, передумал за это время – не расскажешь. Вам
                <milestone unit="line" facs="#facs_44_l_17" n="N003"/>понятно, что революция в России<note type="scholarNote">Gemeint ist die Februarrevolution 1917.</note> не только общественное, но и личное мое
                <milestone unit="line" facs="#facs_44_l_18" n="N004"/>дело. Не приходится говорить и о том, что первые шаги революций были очень
-               <milestone unit="line" facs="#facs_44_l_19" n="N005"/>удачны. Все бы и дальше шло хорошо, если бы не эти негодяи, да, негодяи, ко<milestone unit="line" facs="#facs_44_l_20" n="N006"/>торые зовут себя интернационалистами. Андреев говорит где то: мы уби<milestone unit="line" facs="#facs_44_l_21" n="N007"/>ваем тех, кого любим. К тем из интернационалистов, которые искренни,
+               <milestone unit="line" facs="#facs_44_l_19" n="N005"/>удачны. Все бы и дальше шло хорошо, если бы не эти негодяи, да, негодяи, ко<milestone unit="line" facs="#facs_44_l_20" n="N006"/>торые зовут себя интернационалистами. <persName key="Андреев" ref="https://danina.digitaleditions.ch/id/danina_p112">Андреев</persName> говорит где то: мы уби<milestone unit="line" facs="#facs_44_l_21" n="N007"/>ваем тех, кого любим. К тем из интернационалистов, которые искренни,
             <pb corresp="#facs_45" n="45" xml:id="img_0045" ana="44r" facs="https://www.e-manuscripta.ch/i3f/v30/4597703/full/max/0/default.jpg"/>
             <fw facs="#facs_45_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_45_l" n="N001"/>44</fw>
