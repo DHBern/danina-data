@@ -1683,6 +1683,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_002.xml?person_annotation_20261105173734986",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T16:37:34.986Z",
+	"dcterms:modified": "2026-11-05T16:37:34.986Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_002.xml?person_annotation_20261105173734986#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_002.xml?person_annotation_20261105173734986#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[47]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -2264,7 +2344,7 @@
                <milestone unit="line" facs="#facs_110_l_6" n="N005"/>вверх, как связанный голубок взвивается в синюю высь, когда ему развяжут<milestone unit="line" facs="#facs_110_l_7" n="N006"/>крылья...
             </p>
          <p facs="#facs_110_r_6" xml:lang="ru" xml:id="p0325-ru">
-            <milestone unit="line" facs="#facs_110_l_19" n="N001"/>Когда я это писала, пришел Борис и спросил, бывает у меня такое настрое<milestone unit="line" facs="#facs_110_l_20" n="N002"/>ние, когда чувствуешь себя глубоко несчастным, некрасивым, когда не можешь ни
+            <milestone unit="line" facs="#facs_110_l_19" n="N001"/>Когда я это писала, пришел <persName key="Борис" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Борис</persName> и спросил, бывает у меня такое настрое<milestone unit="line" facs="#facs_110_l_20" n="N002"/>ние, когда чувствуешь себя глубоко несчастным, некрасивым, когда не можешь ни
                <milestone unit="line" facs="#facs_110_l_21" n="N003"/>за что взяться, не подумав: зачем мне это делать, зачем писать, зачем
                <milestone unit="line" facs="#facs_110_l_32" n="N004"/>ходить, зачем все. Он сказал, что у него бывают периоды такой ужасной тос<milestone unit="line" facs="#facs_110_l_33" n="N005" break="no"/>ки, когда можно сойти с ума. Сейчас у него такое настроение. Единственное
                <milestone unit="line" facs="#facs_110_l_34" n="N006"/>спасение – уехать, переменить обстановку. Я ответила, что хорошо пони<milestone unit="line" facs="#facs_110_l_35" n="N007"/>маю такое состояние души и со мной самой творится сейчас то же самое.
