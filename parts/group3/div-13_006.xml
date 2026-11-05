@@ -1861,7 +1861,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103120704916",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-03T11:07:04.916Z",
-	"dcterms:modified": "2026-11-03T11:07:04.916Z",
+	"dcterms:modified": "2026-11-05T11:07:03.276Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1902,7 +1902,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "4.3.2"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -2099,7 +2100,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261103123520711",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-03T11:35:20.711Z",
-	"dcterms:modified": "2026-11-05T11:06:28.692Z",
+	"dcterms:modified": "2026-11-05T11:07:45.340Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -2130,7 +2131,7 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NoteInternal",
+		"@type": "cwrc:NoteScholarly",
 		"dc:format": "text/plain",
 		"rdf:value": "Tat'jana Danina bezieht sich hier auf die Figur Sofja Alexandrowna aus dem Drama Onkel Vanja von Anton Čechov."
 	},
@@ -2848,7 +2849,7 @@
                <milestone unit="line" facs="#facs_133_l_50" n="N001"/>26 февраля.
             </p>
          <p facs="#facs_133_r_1" xml:lang="ru" xml:id="p0423-ru">
-            <milestone unit="line" facs="#facs_133_l_23" n="N001"/><persName key="Боря" ref="https://danina.digitaleditions.ch/id/danina_p013">Боря</persName>, мой Бoря! спокойной ночи! Я не знаю, что с тобой сегодня, как ты
+            <milestone unit="line" facs="#facs_133_l_23" n="N001"/><persName key="Боря" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Боря</persName>, мой Бoря! спокойной ночи! Я не знаю, что с тобой сегодня, как ты
                <milestone unit="line" facs="#facs_133_l_24" n="N002"/>себя чувствуешь, и думаю неотступно о том, как легко и бесстрашно бывает
                <milestone unit="line" facs="#facs_133_l_25" n="N003"/>на душе, когда находишься вблизи того, кого любишь, и как в отсутствии его
                <milestone unit="line" facs="#facs_133_l_26" n="N004"/>становится темно и страшно, голова падает на грудь и руки, как мертвые,
@@ -2916,7 +2917,7 @@
                <milestone unit="line" facs="#facs_134_l_28" n="N009"/>прочтут о муках тех, что жили до них в годы страшной всемирной вой<milestone unit="line" facs="#facs_134_l_38" n="N010"/>ны, в годы великой смуты на Руси.
             </p>
          <p facs="#facs_134_r_5" xml:lang="ru" xml:id="p0427-ru">
-            <milestone unit="line" facs="#facs_134_l_39" n="N001"/>А теперь, как Чеховская Соня<note type="researchNote">Tat'jana Danina bezieht sich hier auf die Figur Sofja Alexandrowna aus dem Drama Onkel Vanja von Anton Čechov.</note>, я говорю: <title key="«Мы увидим ангелов и все небо в алмазах и, дядя Ваня, милый дядя Ваня, мы отдохнем, мы отдохнем»" ref="https://danina.digitaleditions.ch/id/danina_w006">«Мы увидим ангелов и все небо в
+            <milestone unit="line" facs="#facs_134_l_39" n="N001"/>А теперь, как Чеховская Соня<note type="scholarNote">Tat'jana Danina bezieht sich hier auf die Figur Sofja Alexandrowna aus dem Drama Onkel Vanja von Anton Čechov.</note>, я говорю: <title key="«Мы увидим ангелов и все небо в алмазах и, дядя Ваня, милый дядя Ваня, мы отдохнем, мы отдохнем»" ref="https://danina.digitaleditions.ch/id/danina_w006">«Мы увидим ангелов и все небо в
                <milestone unit="line" facs="#facs_134_l_40" n="N002"/>алмазах и, дядя Ваня, милый дядя Ваня, мы отдохнем, мы отдохнем»</title> ...<note type="researchNote">Das Zitat bedarf einer Überprüfung.</note>
             <pb corresp="#facs_135" n="135" xml:id="img_0135" ana="133r" facs="https://www.e-manuscripta.ch/i3f/v30/4597883/full/max/0/default.jpg"/>
             <fw facs="#facs_135_r" type="page-number" place="top">
