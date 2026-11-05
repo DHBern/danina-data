@@ -728,6 +728,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_002.xml?person_annotation_20261105162549314",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T15:25:49.314Z",
+	"dcterms:modified": "2026-11-05T15:25:49.314Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_002.xml?person_annotation_20261105162549314#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_002.xml?person_annotation_20261105162549314#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[25]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p018",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -1015,7 +1095,7 @@
                <milestone unit="line" facs="#facs_105_l_38" n="N008"/>вмещает в себя столько то и ни капли больше.
             </p>
          <p facs="#facs_105_r_4" xml:lang="ru" xml:id="p0315-ru">
-            <milestone unit="line" facs="#facs_105_l_8" n="N001"/>Если бы я вздумала говорить с Yvonne о чем нибудь, что меня живо инте<milestone unit="line" facs="#facs_105_l_9" n="N002" break="no"/>ресует, я уверена, что все это бесплодно перелилось бы через край ее души.
+            <milestone unit="line" facs="#facs_105_l_8" n="N001"/>Если бы я вздумала говорить с <persName key="Yvonne" ref="https://danina.digitaleditions.ch/id/danina_p018" cert="high">Yvonne</persName> о чем нибудь, что меня живо инте<milestone unit="line" facs="#facs_105_l_9" n="N002" break="no"/>ресует, я уверена, что все это бесплодно перелилось бы через край ее души.
                <milestone unit="line" facs="#facs_105_l_10" n="N003"/>Наоборот, когда я говорю с Борисом, я чувствую, что мои мысли вливают<milestone unit="line" facs="#facs_105_l_11" n="N004" break="no"/>cя в сосуд его души, не наполняя его до крась. Когда он высказывает свои
                <milestone unit="line" facs="#facs_105_l_12" n="N005"/>мысли, я понимаю его хорошо, но иногда мне кажется, что есть в его
                <milestone unit="line" facs="#facs_105_l_13" n="N006"/>идеях что то, чего я не в состоянии понять до конца и что во мне пере<milestone unit="line" facs="#facs_105_l_14" n="N007" break="no"/>ливается через край.
