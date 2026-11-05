@@ -1113,7 +1113,7 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
-		"rdf:value": "[Für später]: Ich glaube, den Trinitatis-Tag (Kirchenfesttag) ist erklärungsbedürftig. Siehe: https://de.wikipedia.org/wiki/Trinitatis"
+		"rdf:value": "[Für später]: Ich glaube, den Trinitatis-Tag (Dreifaltigkeitstag) ist erklärungsbedürftig. Siehe: https://de.wikipedia.org/wiki/Trinitatis"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -1341,7 +1341,7 @@
                <milestone unit="line" facs="#facs_113_l_23" n="N001"/>Воспоминания детства толпятся в моей голове...
             </p>
          <p facs="#facs_113_r_6" xml:lang="ru" xml:id="p0344-ru">
-            <milestone unit="line" facs="#facs_113_l_5" n="N001"/>Троицын день<note type="researchNote">[Für später]: Ich glaube, den Trinitatis-Tag (Kirchenfesttag) ist erklärungsbedürftig. Siehe: https://de.wikipedia.org/wiki/Trinitatis</note>. Мы едем в церковь. Я сплела венок из белых роз, чтобы поло<milestone unit="line" facs="#facs_113_l_6" n="N002"/>жить его в церкви на икону. Мне восемь лет, и запах этих белых, слегка розо<milestone unit="line" facs="#facs_113_l_7" n="N003" break="no"/>ватых, особенно в бутонах, раз кажется мне необыкновенным. Садясь в экипаж,<milestone unit="line" facs="#facs_113_l_8" n="N004" break="no"/>я стараюсь не измять бело-розового кисейного платья; – свеже- выглаженное
+            <milestone unit="line" facs="#facs_113_l_5" n="N001"/>Троицын день<note type="researchNote">[Für später]: Ich glaube, den Trinitatis-Tag (Dreifaltigkeitstag) ist erklärungsbedürftig. Siehe: https://de.wikipedia.org/wiki/Trinitatis</note>. Мы едем в церковь. Я сплела венок из белых роз, чтобы поло<milestone unit="line" facs="#facs_113_l_6" n="N002"/>жить его в церкви на икону. Мне восемь лет, и запах этих белых, слегка розо<milestone unit="line" facs="#facs_113_l_7" n="N003" break="no"/>ватых, особенно в бутонах, раз кажется мне необыкновенным. Садясь в экипаж,<milestone unit="line" facs="#facs_113_l_8" n="N004" break="no"/>я стараюсь не измять бело-розового кисейного платья; – свеже- выглаженное
                <milestone unit="line" facs="#facs_113_l_9" n="N005"/>и накрахмаленное, оно пахнет также как то особенно прекрасно. Малень<milestone unit="line" facs="#facs_113_l_10" n="N006"/>на сельская церковь вся разукрашена зелеными ветками и цветами. В ней
                <milestone unit="line" facs="#facs_113_l_11" n="N007"/>так славно и уютно. Запах ладана смешивается с запахом роз. Я молюсь
                <milestone unit="line" facs="#facs_113_l_12" n="N008"/>&amp;lt;сначала&amp;gt; горячо, Бог знает о чем. Потом внимательно гляжу на старенького
