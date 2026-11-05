@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -127,7 +130,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261103111943791",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-03T10:19:43.791Z",
-	"dcterms:modified": "2026-11-03T10:19:43.791Z",
+	"dcterms:modified": "2026-11-05T10:33:09.388Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1933,6 +1936,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261103121403590",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-03T11:14:03.590Z",
+	"dcterms:modified": "2026-11-05T11:02:29.961Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1965,7 +1969,7 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteScholarly",
 		"dc:format": "text/plain",
-		"rdf:value": "Hier ist mit an Sicherheit grenzender Wahrscheinlichkeit der Waldweg des russischen Dichters Iwan Bunin gemeint."
+		"rdf:value": "Hier ist der Dichter Iwan Bunin gemeint."
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -2373,244 +2377,6 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261105112504613",
-	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-05T10:25:04.613Z",
-	"dcterms:modified": "2026-11-05T10:25:04.613Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/amariamor",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Anna-Maria Morath"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261105112504613#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "4.3.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261105112504613#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[11]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NoteInternal",
-		"dc:format": "text/plain",
-		"rdf:value": "Boris?"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "4.3.2"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105113433407",
-	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-05T10:34:33.407Z",
-	"dcterms:modified": "2026-11-05T10:34:33.407Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/amariamor",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Anna-Maria Morath"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105113433407#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "4.3.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105113433407#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[31]/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "4.3.2"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105113501279",
-	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-05T10:35:01.279Z",
-	"dcterms:modified": "2026-11-05T10:35:01.279Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/amariamor",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Anna-Maria Morath"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105113501279#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "4.3.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105113501279#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[33]/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "4.3.2"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -2686,7 +2452,7 @@
                <milestone unit="line" facs="#facs_129_l_46" n="N004"/>не значит. Важно то, что за ними скрывается.
             </p>
          <p facs="#facs_129_r_1" xml:lang="ru" xml:id="p0408-ru">
-            <milestone unit="line" facs="#facs_129_l_18" n="N001"/>И мне снилось: толпа каких то враждебных людей и среди них «он<note type="researchNote">Boris?</note>» – мой
+            <milestone unit="line" facs="#facs_129_l_18" n="N001"/>И мне снилось: толпа каких то враждебных людей и среди них «он» – мой
                <milestone unit="line" facs="#facs_129_l_19" n="N002"/>муж. О нем говорят, что то очень плохое, ему кричит: «Жид. Жид!» Ему гро<milestone unit="line" facs="#facs_129_l_20" n="N003"/>зит страшная опасность. Он далеко от меня, но я вижу, что он идет гордо
                <milestone unit="line" facs="#facs_129_l_21" n="N004"/>и спокойно. Он кажется мне выше своего роста и похож на Чехова... Вдруг мы
                <milestone unit="line" facs="#facs_129_l_22" n="N005"/>оказываемся рядом высоко-высоко на какой то площадке, это происходит, как
@@ -2774,10 +2540,10 @@
                <milestone unit="line" facs="#facs_131_l_13" n="N002"/>нежно улыбался, видя, как я оживилась.
             </p>
          <p facs="#facs_131_r_7" xml:lang="de" corresp="#p0413-ru">Gestern war Boris da. Er sah ermüdet aus. Er war sehr aufmerksam zu mir und lächelte zärtlich, als er sah, wie ich auflebte.</p>
-         <p facs="#facs_131_r_6" xml:lang="ru" xml:id="p0414-ru">Позавчера вечером я была в очень хорошем настроении и все пела какую <milestone unit="line" facs="#facs_131_l_5" n="N002"/>то сочиненную мною песенку о том, как я люблю <persName key="моего маленького друга" ref="https://danina.digitaleditions.ch/id/danina_p013">моего маленького друга</persName>. <milestone unit="line" facs="#facs_131_l_6" n="N003"/>Это был скорее речитатив, но на утро я совершенно забыла и слова и мо<milestone unit="line" facs="#facs_131_l_7" n="N004"/>тив. У меня что-то пело в душе, и было так весело, что я смеялась сама с <milestone unit="line" facs="#facs_131_l_8" n="N005"/> <del rend="strikethrough"><damage type="punchhole">собой</damage></del> собой. Ведь вот, какая я чудная с чего бы мне радоваться? кажется, не с <milestone unit="line" facs="#facs_131_l_10" n="N006"/>чего.</p>
+         <p facs="#facs_131_r_6" xml:lang="ru" xml:id="p0414-ru">Позавчера вечером я была в очень хорошем настроении и все пела какую <milestone unit="line" facs="#facs_131_l_5" n="N002"/>то сочиненную мною песенку о том, как я люблю моего маленького друга. <milestone unit="line" facs="#facs_131_l_6" n="N003"/>Это был скорее речитатив, но на утро я совершенно забыла и слова и мо<milestone unit="line" facs="#facs_131_l_7" n="N004"/>тив. У меня что-то пело в душе, и было так весело, что я смеялась сама с <milestone unit="line" facs="#facs_131_l_8" n="N005"/> <del rend="strikethrough">собой</del> &amp;lt;собой&amp;gt;. Ведь вот, какая я чудная с чего бы мне радоваться? кажется, не с <milestone unit="line" facs="#facs_131_l_10" n="N006"/>чего.</p>
          <p facs="#facs_131_r_6" xml:lang="de" corresp="#p0414-ru">Vorgestern Abend war ich in sehr guter Stimmung und sang immerzu ein von mir erdachtes Liedchen davon, wie ich meinen kleinen Freund liebe. Es war eher ein Rezitativ, aber am nächsten Morgen hatte ich Worte und Melodie völlig vergessen. Etwas sang in meiner Seele, und es war so fröhlich, dass ich über mich selbst lachte. Da sieht man, wie wunderlich ich bin, weshalb sollte ich mich freuen? Scheint es doch, ich habe keinen Grund. </p>
          <p facs="#facs_131_r_5" xml:lang="ru" xml:id="p0415-ru">
-            <milestone unit="line" facs="#facs_131_l_39" n="N001"/>И мне приснилось, будто голова <persName key="его" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">его</persName> лежит у меня на груди, и я перебираю,
+            <milestone unit="line" facs="#facs_131_l_39" n="N001"/>И мне приснилось, будто голова его лежит у меня на груди, и я перебираю,
                <milestone unit="line" facs="#facs_131_l_40" n="N002"/>правой рукой его волны, слегка касаясь их пальцами. Я чувствовала это
                <milestone unit="line" facs="#facs_131_l_41" n="N003"/>так, как если бы это было на самом деле, и я ясно ощущала: ему хорошо,
                <milestone unit="line" facs="#facs_131_l_42" n="N004"/>он был, как утихшее после долгого плача дитя.
