@@ -409,6 +409,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?work_annotation_20261105112710717",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T10:27:10.717Z",
+	"dcterms:modified": "2026-11-05T10:27:10.717Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/MaschaSt",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mascha Stöckmann"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?work_annotation_20261105112710717#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?work_annotation_20261105112710717#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/ab[3]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "https://danina.digitaleditions.ch/id/danina_w016",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -440,7 +519,7 @@
                <milestone unit="line" facs="#facs_71_l_8" n="N007"/>(<choice>
                <corr><orgName key="Maeterlinck" ref="https://danina.digitaleditions.ch/id/danina_p114">Maeterlinck</orgName></corr>
                <sic>Maeterlink </sic>
-            </choice>"La sagesse et la destinée)
+            </choice>"<title key="La sagesse et la destinée" ref="https://danina.digitaleditions.ch/id/danina_w016">La sagesse et la destinée</title>)
             </ab>
          <p facs="#facs_72_r_1" ana="dated_entry_header" xml:id="d0010-ru">
             <milestone unit="line" facs="#facs_72_l_3" n="N001"/>
