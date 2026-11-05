@@ -1669,7 +1669,7 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteScholarly",
 		"dc:format": "text/plain",
-		"rdf:value": "Auch Boris Drubeckoj und Anatolij Kuragin sind Figuren aus Tolstojs Krieg und Frieden (mehr...).\n"
+		"rdf:value": "Auch Boris Drubezkoj und Anatolij Kuragin sind Figuren aus Tolstojs Krieg und Frieden (mehr...).\n"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
