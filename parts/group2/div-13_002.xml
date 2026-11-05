@@ -489,6 +489,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_002.xml?person_annotation_20261105161518654",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T15:15:18.654Z",
+	"dcterms:modified": "2026-11-05T15:15:18.654Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_002.xml?person_annotation_20261105161518654#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_002.xml?person_annotation_20261105161518654#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -562,7 +641,7 @@
             </fw>
          </p>
          <p facs="#facs_102_r_4" xml:lang="ru" xml:id="p0307-ru">
-            <milestone unit="line" facs="#facs_102_l_17" n="N001"/>Но когда он написал, что любовь девушки, которой он не мог бы отве<milestone unit="line" facs="#facs_102_l_18" n="N002" break="no"/>тить тем же чувством, доставляла бы ему глубокое страдание, трепала бы<milestone unit="line" facs="#facs_102_l_19" n="N003" break="no"/>ему нервы, я подумала: "теперь я должна сделать все от меня зависящие,
+            <milestone unit="line" facs="#facs_102_l_17" n="N001"/>Но когда <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013">он</persName> написал, что любовь девушки, которой он не мог бы отве<milestone unit="line" facs="#facs_102_l_18" n="N002" break="no"/>тить тем же чувством, доставляла бы ему глубокое страдание, трепала бы<milestone unit="line" facs="#facs_102_l_19" n="N003" break="no"/>ему нервы, я подумала: "теперь я должна сделать все от меня зависящие,
                <milestone unit="line" facs="#facs_102_l_20" n="N004"/>не останавливаясь даже перед ложью, чтобы он перестал думать, что я лю<milestone unit="line" facs="#facs_102_l_21" n="N005" break="no"/>лю его". Но он встал с постели так неожиданно скоро, что я не успела напи<milestone unit="line" facs="#facs_102_l_22" n="N006" break="no"/>сать ему в этом смысле и солгать в объяснение некоторых моих поступков
                <milestone unit="line" facs="#facs_102_l_23" n="N007"/>и фраз. Хоть была бы не очень велика, потому что все это было ребячеством
                <milestone unit="line" facs="#facs_102_l_24" n="N008"/>но все же пришлось бы кое в чем солдать. Так например у меня здесь же
