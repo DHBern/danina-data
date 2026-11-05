@@ -758,7 +758,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-8_001.xml?place_annotation_20261105110840434",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-05T10:08:40.434Z",
-	"dcterms:modified": "2026-11-05T10:08:40.434Z",
+	"dcterms:modified": "2026-11-05T10:33:12.133Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/BedaAckermann",
 		"@type": [
@@ -799,7 +799,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "4.3.2"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
@@ -888,7 +889,7 @@
          <p facs="#facs_45_r_4" xml:lang="ru" xml:id="p0145-ru">
             <milestone unit="line" facs="#facs_45_l_5" n="N001"/>
             <milestone unit="line" facs="#facs_45_l_6" n="N002"/>Однажды в первых числах мая меня позвали к телефону: это был <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013">он</persName>. Он
-               <milestone unit="line" facs="#facs_45_l_7" n="N003"/>спрашивал меня о порядках в <placeName key="нашей новой маленькой клинике" ref="https://danina.digitaleditions.ch/id/danina_o005">нашей новой маленькой клинике</placeName>, о ценах и пр.
+               <milestone unit="line" facs="#facs_45_l_7" n="N003"/>спрашивал меня о порядках в <placeName key="нашей новой маленькой клинике" ref="https://danina.digitaleditions.ch/id/danina_o005" cert="high">нашей новой маленькой клинике</placeName>, о ценах и пр.
                <milestone unit="line" facs="#facs_45_l_8" n="N004"/>Я чуть не уронила трубку телефона при этом известий, но сумела сохранить
                <milestone unit="line" facs="#facs_45_l_9" n="N005"/>невозмутимый тон и не преминула перечислить некоторые недостатки кли<milestone unit="line" facs="#facs_45_l_10" n="N006" break="no"/>ники, сказала, что единственная свободная комната очень мала и вообще я
                <milestone unit="line" facs="#facs_45_l_11" n="N007"/>не знаю, понравится ли ему у нас. Я как будто испугалась ответственности
