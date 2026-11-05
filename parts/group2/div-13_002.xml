@@ -955,7 +955,7 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteScholarly",
 		"dc:format": "text/plain",
-		"rdf:value": "Die Autorin bezieht sich hier auf William Shakepeares Hamlet."
+		"rdf:value": "Die Autorin bezieht sich hier auf William Shakespeares Hamlet."
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -2195,7 +2195,7 @@
          <p facs="#facs_105_r_3" xml:lang="ru" xml:id="p0314-ru">
             <milestone unit="line" facs="#facs_105_l_29" n="N001"/>Сравнение это заимствовано мною у Уайльда<note type="researchNote">Das ist jetzt die grosse Frage mit den Autorennamen. In der Demodatei div-9_001.xml haben wir die Autor:innen nicht als Personen getaggt. In der Datei div-13_001.xml sind die Autor:innen als Personenentitäten getaggt.</note>, хотя я и не помню, как выра<milestone unit="line" facs="#facs_105_l_31" n="N002" break="no"/>жена у него эта мысль. Приблизительно он говорит следующее: замечательно,
                <milestone unit="line" facs="#facs_105_l_32" n="N003"/>&amp;lt;как&amp;gt;одно и то же событие по разному отражается на психике различных
-               <milestone unit="line" facs="#facs_105_l_33" n="N004"/>людей: то<del rend="strikethrough">, что для</del> событие, которое для <del rend="strikethrough">Гамсу</del> <title key="Гамлета" ref="https://danina.digitaleditions.ch/id/danina_w018" cert="high">Гамлета</title><note type="scholarNote">Die Autorin bezieht sich hier auf William Shakepeares Hamlet.</note> служит источником
+               <milestone unit="line" facs="#facs_105_l_33" n="N004"/>людей: то<del rend="strikethrough">, что для</del> событие, которое для <del rend="strikethrough">Гамсу</del> <title key="Гамлета" ref="https://danina.digitaleditions.ch/id/danina_w018" cert="high">Гамлета</title><note type="scholarNote">Die Autorin bezieht sich hier auf William Shakespeares Hamlet.</note> служит источником
                <milestone unit="line" facs="#facs_105_l_35" n="N005"/>самых сложных и тонких переживаний, для других <del rend="strikethrough">героев</del> &amp;lt;персонажей&amp;gt; драмы, напр.
                <milestone unit="line" facs="#facs_105_l_36" n="N006"/>для Розенштерна и Гильдекранца<note type="researchNote">Für die Gruppe 'literaturwissenschaftliche Kommentare': Ich glaube, sie verwechselt die Figurennamen (Danina: Rosenstern und Hildekranz). Sind es nicht Rosenkranz und Güldenstern?</note> является не более, как нарушением прид<milestone unit="line" facs="#facs_105_l_37" n="N007" break="no"/>ворнаго этикета. Каждый человек, говорит Уальд, подобен сосуду, который
                <milestone unit="line" facs="#facs_105_l_38" n="N008"/>вмещает в себя столько то и ни капли больше.
