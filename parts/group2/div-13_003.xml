@@ -678,10 +678,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?person_annotation_20261105175300177",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?person_annotation_20261105175308127",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-05T16:53:00.177Z",
-	"dcterms:modified": "2026-11-05T16:53:08.127Z",
+	"dcterms:created": "2026-11-05T16:53:08.127Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -692,7 +691,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?person_annotation_20261105175300177#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?person_annotation_20261105175308127#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml",
@@ -706,7 +705,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?person_annotation_20261105175300177#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?person_annotation_20261105175308127#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[25]/persName"
 		}
@@ -1316,10 +1315,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?work_annotation_20261105183242928",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?work_annotation_20261105183305866",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-05T17:32:42.928Z",
-	"dcterms:modified": "2026-11-05T17:33:05.866Z",
+	"dcterms:created": "2026-11-05T17:33:05.866Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1330,7 +1328,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?work_annotation_20261105183242928#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?work_annotation_20261105183305866#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml",
@@ -1344,7 +1342,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?work_annotation_20261105183242928#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?work_annotation_20261105183305866#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[51]/title"
 		}
@@ -1838,6 +1836,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?note_annotation_20261106105320581",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-06T09:53:20.581Z",
+	"dcterms:modified": "2026-11-06T09:53:20.581Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?note_annotation_20261106105320581#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_003.xml?note_annotation_20261106105320581#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[17]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Werner ist eine Figur aus der Erzählung  \tLeonid Andreevs «Die sieben Gehenkten»."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -1961,7 +2038,7 @@
                <milestone unit="line" facs="#facs_112_l_32" n="N004"/>жизнь и не <emph rend="underlined">мочь</emph> жить.
             </p>
          <p facs="#facs_112_r_4" xml:lang="ru" xml:id="p0336-ru">
-            <milestone unit="line" facs="#facs_112_l_3" n="N001"/>Для Андреевских герось – сказал недавно <persName key="Борис" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Борис</persName> характерно, что они на<milestone unit="line" facs="#facs_112_l_4" n="N002" break="no"/>чинают любить жизнь лишь перед смертью. Так Вернер из «Семи повешен<milestone unit="line" facs="#facs_112_l_5" n="N003" break="no"/>&amp;lt;ных&amp;gt;" вдруг перед казнью видит, как прекрасна жизнь, он поет ей осанну, но
+            <milestone unit="line" facs="#facs_112_l_3" n="N001"/>Для Андреевских герось – сказал недавно <persName key="Борис" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Борис</persName> характерно, что они на<milestone unit="line" facs="#facs_112_l_4" n="N002" break="no"/>чинают любить жизнь лишь перед смертью. Так Вернер<note type="scholarNote">Werner ist eine Figur aus der Erzählung  	Leonid Andreevs «Die sieben Gehenkten».</note> из «Семи повешен<milestone unit="line" facs="#facs_112_l_5" n="N003" break="no"/>&amp;lt;ных&amp;gt;" вдруг перед казнью видит, как прекрасна жизнь, он поет ей осанну, но
                <milestone unit="line" facs="#facs_112_l_6" n="N004"/>все таки хочет и рад умереть, потому что жить он не может...
             </p>
          <p facs="#facs_112_r_4" xml:lang="de" corresp="#p0336-ru">{TRANSLATION GOES HERE}
