@@ -2872,7 +2872,7 @@
             </p>
          <p facs="#facs_34_r_6" xml:lang="ru" xml:id="p0100-ru">
             <milestone unit="line" facs="#facs_34_l_7" n="N001"/>Через два дня сестра моя и Владимир Семенович уехали, он – в Дрезден,
-               <milestone unit="line" facs="#facs_34_l_8" n="N002"/>сестра - домой в Россию. Я осталась одна.
+               <milestone unit="line" facs="#facs_34_l_8" n="N002"/><persName key="сестра" ref="https://danina.digitaleditions.ch/id/danina_p003" cert="high">сестра</persName> - домой в Россию. Я осталась одна.
             </p>
          <p facs="#facs_34_r_6" xml:lang="de" corresp="#p0100-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_34_l_7" n="N001"/>Через два дня сестра моя и Владимир Семенович уехали, он – в Дрезден,
