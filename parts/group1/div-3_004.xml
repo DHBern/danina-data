@@ -2009,6 +2009,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?person_annotation_20261110174456811",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-10T16:44:56.811Z",
+	"dcterms:modified": "2026-11-10T16:44:56.811Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?person_annotation_20261110174456811#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?person_annotation_20261110174456811#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[39]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p006",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -2389,7 +2469,7 @@
                <milestone unit="line" facs="#facs_33_l_28" n="N004"/>Я ничего не захотела ответить.
             </p>
          <p facs="#facs_33_r_4" xml:lang="ru" xml:id="p0096-ru">
-            <milestone unit="line" facs="#facs_33_l_6" n="N001"/>Теперь мне кажется, что я должна была сказать ему искренне и пря<milestone unit="line" facs="#facs_33_l_7" n="N002"/>мо, что я понимаю его и дорожу его отношением ко мне, но не могу отве<milestone unit="line" facs="#facs_33_l_8" n="N003"/>тить ему тем же чувством. Правда, я ничего не предпринимала, чтобы за<milestone unit="line" facs="#facs_33_l_10" n="N004"/>ставить его полюбить меня, я не кокетничала с ним, относилась к нему с
+            <milestone unit="line" facs="#facs_33_l_6" n="N001"/>Теперь мне кажется, что я должна была сказать <persName key="ему" ref="https://danina.digitaleditions.ch/id/danina_p006" cert="high">ему</persName> искренне и пря<milestone unit="line" facs="#facs_33_l_7" n="N002"/>мо, что я понимаю его и дорожу его отношением ко мне, но не могу отве<milestone unit="line" facs="#facs_33_l_8" n="N003"/>тить ему тем же чувством. Правда, я ничего не предпринимала, чтобы за<milestone unit="line" facs="#facs_33_l_10" n="N004"/>ставить его полюбить меня, я не кокетничала с ним, относилась к нему с
                <milestone unit="line" facs="#facs_33_l_11" n="N005"/>уважением, но я упрекаю себя в том, что уделяла ему слишком мало
                <milestone unit="line" facs="#facs_33_l_12" n="N006"/>внимания. Впрочем, мне вдруг вспоминается сейчас один момент, когда я, мо<milestone unit="line" facs="#facs_33_l_13" n="N007"/>жет быть, очень дурно поступила.
             </p>
