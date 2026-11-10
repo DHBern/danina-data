@@ -891,6 +891,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110113831254",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-10T10:38:31.254Z",
+	"dcterms:modified": "2026-11-10T10:38:31.254Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110113831254#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110113831254#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[43]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p006",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -1474,7 +1554,7 @@ https://danina.digitaleditions.ch/id/danina_p118</note> в своей книге
                <milestone unit="line" facs="#facs_20_l_28" n="N020"/>боится меня. Это доставило мне удовольствие. Я не уверена &amp;lt;каково&amp;gt; в точности
                <milestone unit="line" facs="#facs_20_l_29" n="N021"/>было его чувство ко мне, но странно, что по отношению к нему я не
                <milestone unit="line" facs="#facs_20_l_30" n="N022"/>испытываю того глубокого чувства сожаления, которое владеет много
-               <milestone unit="line" facs="#facs_20_l_31" n="N023"/>при мысли о Владимире Семеновиче. Когда я уехала из санатории, он на<milestone unit="line" facs="#facs_20_l_32" n="N024"/>шел себе место в имении неподалеку от нашего дома и часто бывал у
+               <milestone unit="line" facs="#facs_20_l_31" n="N023"/>при мысли о <persName key="Владимире Семеновиче" ref="https://danina.digitaleditions.ch/id/danina_p006" cert="high">Владимире Семеновиче</persName>. Когда я уехала из санатории, он на<milestone unit="line" facs="#facs_20_l_32" n="N024"/>шел себе место в имении неподалеку от нашего дома и часто бывал у
             <pb corresp="#facs_21" n="21" xml:id="img_0021" ana="20r" facs="https://www.e-manuscripta.ch/i3f/v30/4597655/full/max/0/default.jpg"/>
             <fw facs="#facs_21_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_21_l" n="N001"/>20</fw>
