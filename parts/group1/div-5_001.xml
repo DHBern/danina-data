@@ -493,6 +493,166 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-5_001.xml?person_annotation_20261110205503170",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-10T19:55:03.170Z",
+	"dcterms:modified": "2026-11-10T19:55:03.170Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-5_001.xml?person_annotation_20261110205503170#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-5_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-5_001.xml?person_annotation_20261110205503170#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-5_001.xml?person_annotation_20261110205530549",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-10T19:55:30.549Z",
+	"dcterms:modified": "2026-11-10T19:55:30.549Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-5_001.xml?person_annotation_20261110205530549#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-5_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-5_001.xml?person_annotation_20261110205530549#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[9]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -576,7 +736,7 @@
          <p facs="#facs_38_r_3" xml:lang="ru" xml:id="p0115-ru">
             <milestone unit="line" facs="#facs_38_l_29" n="N001"/>На другой день горничная сказала мне его фамилию, но не умела верно про<milestone unit="line" facs="#facs_38_l_31" n="N002"/>изнести ее. Двери моей и его комнаты были раскрыты в корридор, где стояла
                <milestone unit="line" facs="#facs_38_l_32" n="N003"/>большая печь, отоплявшая весь наш этаж. Он, должно быть, слышал, что гор<milestone unit="line" facs="#facs_38_l_33" n="N004" break="no"/>ничная плохо выговаривает его имя и неожиданно сказал сам:
-               <milestone unit="line" facs="#facs_38_l_34" n="N005"/>- «Евгений Сараев.»
+               <milestone unit="line" facs="#facs_38_l_34" n="N005"/>- «<persName key="Евгений Сараев" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Евгений Сараев</persName>.»
             </p>
          <p facs="#facs_38_r_3" xml:lang="de" corresp="#p0115-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_38_l_29" n="N001"/>На другой день горничная сказала мне его фамилию, но не умела верно про<milestone unit="line" facs="#facs_38_l_31" n="N002"/>изнести ее. Двери моей и его комнаты были раскрыты в корридор, где стояла
@@ -584,7 +744,7 @@
                <milestone unit="line" facs="#facs_38_l_34" n="N005"/>- «Евгений Сараев.»
             </p>
          <p facs="#facs_38_r_4" xml:lang="ru" xml:id="p0116-ru">
-            <milestone unit="line" facs="#facs_38_l_6" n="N001"/>Я спросила его, из какой он губернии, и у нас завязался разговор о поряд<milestone unit="line" facs="#facs_38_l_7" n="N002"/>ках в клинике, о болезни и пр. Во всем, что он говорил, в голосе его, кото<milestone unit="line" facs="#facs_38_l_8" n="N003"/>рый я слушала как музыку, я «узнавала» его. Это он, это он, пело что то
+            <milestone unit="line" facs="#facs_38_l_6" n="N001"/>Я спросила <persName key="его" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">его</persName>, из какой он губернии, и у нас завязался разговор о поряд<milestone unit="line" facs="#facs_38_l_7" n="N002"/>ках в клинике, о болезни и пр. Во всем, что он говорил, в голосе его, кото<milestone unit="line" facs="#facs_38_l_8" n="N003"/>рый я слушала как музыку, я «узнавала» его. Это он, это он, пело что то
                <milestone unit="line" facs="#facs_38_l_9" n="N004"/>во мне. И имя у него то же самое, которое случалось мне иногда в забытьи
                <milestone unit="line" facs="#facs_38_l_10" n="N005"/>произносить со стоном. Это совпадение показалось мне каким то симво<milestone unit="line" facs="#facs_38_l_11" n="N006"/>лическим предзнаменованием.
             </p>
