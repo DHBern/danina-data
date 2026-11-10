@@ -2232,7 +2232,7 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
-		"rdf:value": "RV: Ich vermute, die zweite Frau, die Boris auf Anhieb liebte, ist Olga."
+		"rdf:value": "RV: Ich vermute, die zweite Frau, in die Boris auf Anhieb verliebte, ist Olga."
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -3122,6 +3122,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml?person_annotation_20261110235747891",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-10T22:57:47.891Z",
+	"dcterms:modified": "2026-11-10T22:57:47.891Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml?person_annotation_20261110235747891#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml?person_annotation_20261110235747891#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[49]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -3407,7 +3487,7 @@
                <milestone unit="line" facs="#facs_53_l_42" n="N007"/>и вдруг почувствовал, что кто-то обнимает меня». Очнулся: это была она.
                <milestone unit="line" facs="#facs_53_l_43" n="N008"/>И она стала делить с ним все невзгоды жизни в Сибири. Он сказал, что это
                <milestone unit="line" facs="#facs_53_l_44" n="N009"/>была самая замечательная женщина, какую он знал в своей жизни, но он
-               <milestone unit="line" facs="#facs_53_l_45" n="N010"/>никогда не любил ее по настоящему. <persName key="Другую" ref="https://danina.digitaleditions.ch/id/danina_p022" cert="low">Другую</persName> <note type="researchNote">RV: Ich vermute, die zweite Frau, die Boris auf Anhieb liebte, ist Olga.</note>же полюбил сразу всем существом
+               <milestone unit="line" facs="#facs_53_l_45" n="N010"/>никогда не любил ее по настоящему. <persName key="Другую" ref="https://danina.digitaleditions.ch/id/danina_p022" cert="low">Другую</persName> <note type="researchNote">RV: Ich vermute, die zweite Frau, in die Boris auf Anhieb verliebte, ist Olga.</note>же полюбил сразу всем существом
                <milestone unit="line" facs="#facs_53_l_46" n="N011"/>своим; как только увидел ее, так вдруг почувствовал, что в судьбе его совершает<milestone unit="line" facs="#facs_53_l_47" n="N012"/>ся что то непоправимое, что ему нужно скорей уйти отсюда, бежать. «Это
                <milestone unit="line" facs="#facs_53_l_48" n="N013"/>было маленькое существо с нервным ртом, широким низким лбом, большими
                <milestone unit="line" facs="#facs_53_l_49" n="N014"/>черными бездонными глазами. Волосы она причесывала так, что пробор был
@@ -3630,7 +3710,7 @@
                <milestone unit="line" facs="#facs_56_l_5" n="N005"/>И вот я писала.
             </p>
          <p facs="#facs_56_r_3" xml:lang="ru" xml:id="p0183-ru">
-            <milestone unit="line" facs="#facs_56_l_29" n="N001"/>Как то вечером он вошел, когда я писала о своем „романе“ с Женей. Я
+            <milestone unit="line" facs="#facs_56_l_29" n="N001"/>Как то вечером <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">он</persName> вошел, когда я писала о своем „романе“ с Женей. Я
                <milestone unit="line" facs="#facs_56_l_31" n="N002"/>чувствовала себя довольно хорошо: по вечерам мне всегда становится луч<milestone unit="line" facs="#facs_56_l_32" n="N003"/>ше, чувствую себя живее. И тут то я решилась рассказать ему вкрат<milestone unit="line" facs="#facs_56_l_33" n="N004"/>це этот роман. Я стеснялась, говорила в шутливом тоне и так, что он
                <milestone unit="line" facs="#facs_56_l_34" n="N005"/>смотрел на меня с недоумением, видимо не понимая, было ли то, что я
                <milestone unit="line" facs="#facs_56_l_35" n="N006"/>ему говорила, на самом дѣлѣ или же я все это выдумала. Тогда я ска<milestone unit="line" facs="#facs_56_l_36" n="N007"/>зала, что роман мой автобиографический, и показала ему карточку
