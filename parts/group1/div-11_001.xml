@@ -1288,6 +1288,85 @@
 	"cwrc:hasCertainty": "cwrc:low"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml?note_annotation_20261110233100138",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-10T22:31:00.138Z",
+	"dcterms:modified": "2026-11-10T22:31:00.138Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml?note_annotation_20261110233100138#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml?note_annotation_20261110233100138#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "L'accent circonflexe hinzugefügt: icône anstelel von icone."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -1486,7 +1565,7 @@
          <p facs="#facs_52_r_6" xml:lang="ru" xml:id="p0167-ru">
             <milestone unit="line" facs="#facs_52_l_5" n="N001"/>Однажды <persName key="хозяйка" ref="https://danina.digitaleditions.ch/id/danina_p009" cert="low">хозяйка</persName> вошла ко мне, когда я плакала от боли, и сказала: «Pour<milestone unit="line" facs="#facs_52_l_6" n="N002"/>quoi pleurez-vous? Mr. Kindmann ne vous est pas fidèle?»<note type="scholarNote">«Pourquoi pleurez-vous ? M. Kindmann ne vous est pas fidèle ?» – «Warum weinen Sie? Ist Herr Kindmann Ihnen nicht treu?»</note>
                <milestone unit="line" facs="#facs_52_l_7" n="N003"/>– «Оui, justement», сказала я сердито-шутливым тоном.
-               <milestone unit="line" facs="#facs_52_l_8" n="N004"/>– «О, il reviendra quand même vers vous qui êtes sa petite îcone.<note type="scholarNote">«Oh, il reviendra quand même vers vous qui êtes sa petite icône.» – «Oh, er wird schon wieder zu Ihnen zurückkommen, da Sie doch sein kleines Idol/seine kleine Ikone sind.»</note>»
+               <milestone unit="line" facs="#facs_52_l_8" n="N004"/>– «О, il reviendra quand même vers vous qui êtes sa petite icône.<note type="scholarNote">«Oh, il reviendra quand même vers vous qui êtes sa petite icône.» – «Oh, er wird schon wieder zu Ihnen zurückkommen, da Sie doch sein kleines Idol/seine kleine Ikone sind.»</note>»
             </p>
          <p facs="#facs_52_r_6" xml:lang="de" corresp="#p0167-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_52_l_5" n="N001"/>Однажды хозяйка вошла ко мне, когда я плакала от боли, и сказала: «Pour<milestone unit="line" facs="#facs_52_l_6" n="N002"/>quoi pleurez-vous? Mr. Kindmann ne vous est pas fidèle?»
@@ -1496,7 +1575,7 @@
          <p facs="#facs_52_r_5" xml:lang="ru" xml:id="p0168-ru">
             <milestone unit="line" facs="#facs_52_l_37" n="N001"/>И только тут я почувствовала смутно, что <persName key="она" ref="https://danina.digitaleditions.ch/id/danina_p009" cert="low">она</persName> не просто невинно по<milestone unit="line" facs="#facs_52_l_38" n="N002"/>шутила, но хотела бы влить в мою душу яд и заставить меня направить
                <milestone unit="line" facs="#facs_52_l_39" n="N003"/>мысли мои на ту сторону его жизни, которая мнѣ не была извѣстна. Но
-               <milestone unit="line" facs="#facs_52_l_40" n="N004"/>я была слишком довольна названием petite icône и не стала в тот раз
+               <milestone unit="line" facs="#facs_52_l_40" n="N004"/>я была слишком довольна названием petite icône <note type="researchNote">L'accent circonflexe hinzugefügt: icône anstelel von icone.</note>и не стала в тот раз
                <milestone unit="line" facs="#facs_52_l_41" n="N005"/>думать о том, что она повидимому хотела мне внушить.
                <milestone unit="line" facs="#facs_52_l_42" n="N006"/>Он пел иногда настоящие народные русские песни, такие, каких я
                <milestone unit="line" facs="#facs_52_l_43" n="N007"/>никогда раньше не слыхала, и я любила, когда он пел. Мне очень нравился
