@@ -1121,7 +1121,7 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
-		"rdf:value": "Grobe temporale Eingrenzung vornehmen? Juni 1918?"
+		"rdf:value": "Grobe temporale Eingrenzung vornehmen?"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -1355,7 +1355,7 @@
                <milestone unit="line" facs="#facs_31_l_34" n="N004"/>У меня что-то сдавило в груди.
                <milestone unit="line" facs="#facs_31_l_35" n="N005"/>– "Когда?" – спросила я, стараясь придать своему голосу равнодушный тон.
                <milestone unit="line" facs="#facs_31_l_36" n="N006"/>Я не смела поднять глаз, чтобы не покраснеть.
-               <milestone unit="line" facs="#facs_31_l_37" n="N007"/>- "В июне<note type="researchNote">Grobe temporale Eingrenzung vornehmen? Juni 1918?</note>."
+               <milestone unit="line" facs="#facs_31_l_37" n="N007"/>- "В июне<note type="researchNote">Grobe temporale Eingrenzung vornehmen?</note>."
                <milestone unit="line" facs="#facs_31_l_38" n="N008"/>Значит, он здоров и не писал не потому, что был болен, как я думала и опа<milestone unit="line" facs="#facs_31_l_39" n="N009"/>салась одно время.
                <milestone unit="line" facs="#facs_31_l_40" n="N010"/>Больше мы о нем не говорили.
             </p>
