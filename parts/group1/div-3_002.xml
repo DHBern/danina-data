@@ -129,7 +129,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110105730946",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-10T09:57:30.946Z",
-	"dcterms:modified": "2026-11-10T09:57:30.946Z",
+	"dcterms:modified": "2026-11-10T10:00:36.191Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -161,7 +161,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "https://danina.digitaleditions.ch/id/danina_p020",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p006",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -209,7 +209,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110105748151",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-10T09:57:48.151Z",
-	"dcterms:modified": "2026-11-10T09:57:48.151Z",
+	"dcterms:modified": "2026-11-10T10:00:23.093Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -241,7 +241,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "https://danina.digitaleditions.ch/id/danina_p020",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p006",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -308,7 +308,7 @@
             </fw>
          </p>
          <p facs="#facs_13_r" xml:lang="ru" xml:id="p0029-ru">
-            <milestone unit="line" facs="#facs_13_l" n="N001"/>Я продолжала бывать у Невольских, а они с <persName key="Владимиром Семеновичем" ref="https://danina.digitaleditions.ch/id/danina_p020" cert="high">Владимиром Семеновичем</persName> у
+            <milestone unit="line" facs="#facs_13_l" n="N001"/>Я продолжала бывать у Невольских, а они с <persName key="Владимиром Семеновичем" ref="https://danina.digitaleditions.ch/id/danina_p006" cert="high">Владимиром Семеновичем</persName> у
                <milestone unit="line" facs="#facs_13_l_31" n="N002"/>нас. Когда Владимии Семенович говорил о Травинском, он никогда не отзы<milestone unit="line" facs="#facs_13_l_32" n="N003" break="no"/>вался о нем плохо, но не скрывал, что он не нравится ему.
             </p>
          <p facs="#facs_13_r" xml:lang="de" corresp="#p0029-ru">{TRANSLATION GOES HERE}
@@ -334,7 +334,7 @@
                <milestone unit="line" facs="#facs_13_l_10" n="N010"/>кажется, тоже спокойна.
             </p>
          <p facs="#facs_13_r_5" xml:lang="ru" xml:id="p0031-ru">
-            <milestone unit="line" facs="#facs_13_l_11" n="N001"/><persName key="Владимир Семенович" ref="https://danina.digitaleditions.ch/id/danina_p020" cert="high">Владимир Семенович</persName> сидел в кресле в стороне и наблюдал за всем про<milestone unit="line" facs="#facs_13_l_12" n="N002" break="no"/>исходившим. Я проходила мимо него, чтобы взять что то. Он вдруг остано<milestone unit="line" facs="#facs_13_l_13" n="N003"/>вил меня со словами:
+            <milestone unit="line" facs="#facs_13_l_11" n="N001"/><persName key="Владимир Семенович" ref="https://danina.digitaleditions.ch/id/danina_p006" cert="high">Владимир Семенович</persName> сидел в кресле в стороне и наблюдал за всем про<milestone unit="line" facs="#facs_13_l_12" n="N002" break="no"/>исходившим. Я проходила мимо него, чтобы взять что то. Он вдруг остано<milestone unit="line" facs="#facs_13_l_13" n="N003"/>вил меня со словами:
                <milestone unit="line" facs="#facs_13_l_14" n="N004"/>- «Что, грустно Вам, Таня, оставаться?"
                <milestone unit="line" facs="#facs_13_l_15" n="N005"/>- «Нет, мне все равно».
                <milestone unit="line" facs="#facs_13_l_16" n="N006"/>- "А у кого на глазах слезы?"
