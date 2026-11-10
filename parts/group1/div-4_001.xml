@@ -14,7 +14,8 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+      
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
@@ -46,10 +47,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-4_001.xml?note_annotation_20261110181257667",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-4_001.xml?person_annotation_20261110204725952",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-10T17:12:57.667Z",
-	"dcterms:modified": "2026-11-10T17:12:57.667Z",
+	"dcterms:created": "2026-11-10T19:47:25.952Z",
+	"dcterms:modified": "2026-11-10T19:47:25.952Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -58,9 +59,9 @@
 		],
 		"cwrc:hasName": "rtwlk"
 	},
-	"oa:motivatedBy": "oa:describing",
+	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-4_001.xml?note_annotation_20261110181257667#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-4_001.xml?person_annotation_20261110204725952#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-4_001.xml",
@@ -74,15 +75,15 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-4_001.xml?note_annotation_20261110181257667#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-4_001.xml?person_annotation_20261110204725952#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[5]/note"
+			"rdf:value": "TEI/text/body/p[3]/persName"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NoteInternal",
-		"dc:format": "text/plain",
-		"rdf:value": "\"Ihn\" identifizieren!"
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -90,13 +91,11 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "4.3.2"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:low"
 }]]>
         </rdf:Description>
-      </rdf:RDF></xenoData><xenoData>
-         
-      </xenoData>
-   </teiHeader>
+      </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
          <head facs="#facs_37_r_1">
@@ -123,14 +122,14 @@
                <milestone unit="line" facs="#facs_37_l_34" n="N005"/>умерла.
             </p>
          <p facs="#facs_37_r_4" xml:lang="ru" xml:id="p0110-ru">
-            <milestone unit="line" facs="#facs_37_l_2" n="N001"/>Все, что я пишу, я посвящаю ему.
+            <milestone unit="line" facs="#facs_37_l_2" n="N001"/>Все, что я пишу, я посвящаю <persName key="ему" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="low">ему</persName>.
             </p>
          <p facs="#facs_37_r_4" xml:lang="de" corresp="#p0110-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_37_l_2" n="N001"/>Все, что я пишу, я посвящаю ему.
             </p>
          <p facs="#facs_37_r_8" xml:lang="ru" xml:id="p0111-ru">
             <milestone unit="line" facs="#facs_37_l_4" n="N001"/>
-            <del rend="strikethrough">это</del> &amp;lt;Это&amp;gt; скромная дань восхищения и благодарности тому, ради кого мне за<milestone unit="line" facs="#facs_37_l_5" n="N002"/>хотелось стать лучшею. Если бы я не узнала его<note type="researchNote">"Ihn" identifizieren!</note>, я никогда не написала
+            <del rend="strikethrough">это</del> &amp;lt;Это&amp;gt; скромная дань восхищения и благодарности тому, ради кого мне за<milestone unit="line" facs="#facs_37_l_5" n="N002"/>хотелось стать лучшею. Если бы я не узнала его, я никогда не написала
                <milestone unit="line" facs="#facs_37_l_6" n="N003"/>бы всего этого.
          </p>
          <p facs="#facs_37_r_8" xml:lang="de" corresp="#p0111-ru">{TRANSLATION GOES HERE}
