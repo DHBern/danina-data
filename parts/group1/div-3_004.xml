@@ -1370,6 +1370,166 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?person_annotation_20261110173549328",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-10T16:35:49.328Z",
+	"dcterms:modified": "2026-11-10T16:35:49.328Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?person_annotation_20261110173549328#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?person_annotation_20261110173549328#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[29]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p003",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?person_annotation_20261110173602884",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-10T16:36:02.884Z",
+	"dcterms:modified": "2026-11-10T16:36:02.884Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?person_annotation_20261110173602884#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?person_annotation_20261110173602884#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[29]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p006",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -1671,7 +1831,7 @@
             <milestone unit="line" facs="#facs_32_l_6" n="N001"/>В Ментону<note type="researchNote">Pension in Menton (FRA?) taggen?</note> мы приехали в начале октября. Сезон еще не начался. Было
                <milestone unit="line" facs="#facs_32_l_7" n="N002"/>жарко. Во всех отелях шел ремонт. Санатория, в которую хотели меня
                <milestone unit="line" facs="#facs_32_l_8" n="N003"/>местить, была еще закрыта. Нам едва удалось найти две комнаты в одном
-               <milestone unit="line" facs="#facs_32_l_9" n="N004"/>маленьком пансионе. Сестру и меня несколько смущало, что Владимир Се<milestone unit="line" facs="#facs_32_l_10" n="N005"/>менович, которому надо было ехать в Дрезден для занятий при университе<milestone unit="line" facs="#facs_32_l_11" n="N006"/>те, теряет с нами время по-напрасну, и мы уговаривали его оставить
+               <milestone unit="line" facs="#facs_32_l_9" n="N004"/>маленьком пансионе. <persName key="Сестру" ref="https://danina.digitaleditions.ch/id/danina_p003" cert="high">Сестру</persName> и меня несколько смущало, что <persName key="Владимир Семенович" ref="https://danina.digitaleditions.ch/id/danina_p006" cert="high">Владимир Се<milestone unit="line" facs="#facs_32_l_10" n="N005"/>менович</persName>, которому надо было ехать в Дрезден для занятий при университе<milestone unit="line" facs="#facs_32_l_11" n="N006"/>те, теряет с нами время по-напрасну, и мы уговаривали его оставить
                <milestone unit="line" facs="#facs_32_l_12" n="N007"/>нас одних. Но он заявил, что все равно хотел отдохнуть где нибудь прежде
                <milestone unit="line" facs="#facs_32_l_13" n="N008"/>чем приступить к занятиям, и если ему нравится отдыхать именно здесь
                <milestone unit="line" facs="#facs_32_l_14" n="N009"/>то это его дело. В этом смысле он писал мне еще до нашей поездки за<milestone unit="line" facs="#facs_32_l_15" n="N010"/>границу: «А буду отдыхать, ходить на лекции и размышлять. И если бы Вы
