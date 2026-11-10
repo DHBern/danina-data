@@ -1291,6 +1291,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?note_annotation_20261110173434238",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-10T16:34:34.238Z",
+	"dcterms:modified": "2026-11-10T16:34:34.238Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?note_annotation_20261110173434238#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?note_annotation_20261110173434238#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[29]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Pension in Menton (FRA?) taggen?"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -1589,7 +1668,7 @@
                <milestone unit="line" facs="#facs_32_l_32" n="N003"/>не знает всего того, что знаю я, не знает, <emph rend="underlined">как</emph> прекрасна жизнь.
             </p>
          <p facs="#facs_32_r_1" xml:lang="ru" xml:id="p0091-ru">
-            <milestone unit="line" facs="#facs_32_l_6" n="N001"/>В Ментону мы приехали в начале октября. Сезон еще не начался. Было
+            <milestone unit="line" facs="#facs_32_l_6" n="N001"/>В Ментону<note type="researchNote">Pension in Menton (FRA?) taggen?</note> мы приехали в начале октября. Сезон еще не начался. Было
                <milestone unit="line" facs="#facs_32_l_7" n="N002"/>жарко. Во всех отелях шел ремонт. Санатория, в которую хотели меня
                <milestone unit="line" facs="#facs_32_l_8" n="N003"/>местить, была еще закрыта. Нам едва удалось найти две комнаты в одном
                <milestone unit="line" facs="#facs_32_l_9" n="N004"/>маленьком пансионе. Сестру и меня несколько смущало, что Владимир Се<milestone unit="line" facs="#facs_32_l_10" n="N005"/>менович, которому надо было ехать в Дрезден для занятий при университе<milestone unit="line" facs="#facs_32_l_11" n="N006"/>те, теряет с нами время по-напрасну, и мы уговаривали его оставить
