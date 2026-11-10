@@ -1524,6 +1524,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?note_annotation_20261110121619141",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-10T11:16:19.141Z",
+	"dcterms:modified": "2026-11-10T11:16:19.141Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?note_annotation_20261110121619141#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?note_annotation_20261110121619141#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Relevante Ortsentität? G. , einem Sanatorium in der Nähe von Suchumi?"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -1767,7 +1846,7 @@
                <milestone unit="line" facs="#facs_15_l_52" n="N004"/>сыпаясь, я вижу его на улице. Что то неуловимые в воздухе говорит мне:
                <milestone unit="line" facs="#facs_15_l_54" n="N005"/>скоро будет снег И тогда в душе моей встает какое то &amp;lt;далекоe и&amp;gt; смутное воспо<milestone unit="line" facs="#facs_15_l_55" n="N006" break="no"/>минание зимы, не какой-либо определенной зимы, но зимы вообще, всех
                <milestone unit="line" facs="#facs_15_l_56" n="N007"/>зим, уже пережитых мною. Но сегодня, когда я впервые в этом году почув
-               <milestone unit="line" facs="#facs_15_l_58" n="N008"/>ствовала зиму, мне почему то с особенной силой &amp;lt;припоминалась&amp;gt; одна из моих зим, мо<milestone unit="line" facs="#facs_15_l_59" n="N009" break="no"/>жет быть самая счастливая в моей жизни. Это зима <date when="1911">1911</date> года, проведен<milestone unit="line" facs="#facs_15_l_60" n="N010" break="no"/>ная мною в Г., санатории близ Сухума. Воспоминания об этой зиме
+               <milestone unit="line" facs="#facs_15_l_58" n="N008"/>ствовала зиму, мне почему то с особенной силой &amp;lt;припоминалась&amp;gt; одна из моих зим, мо<milestone unit="line" facs="#facs_15_l_59" n="N009" break="no"/>жет быть самая счастливая в моей жизни. Это зима <date when="1911">1911</date> года, проведен<milestone unit="line" facs="#facs_15_l_60" n="N010" break="no"/>ная мною в Г., санатории близ Сухума<note type="researchNote">Relevante Ortsentität? G. , einem Sanatorium in der Nähe von Suchumi?</note>. Воспоминания об этой зиме
             <pb corresp="#facs_16" n="16" xml:id="img_0016" ana="15r" facs="https://www.e-manuscripta.ch/i3f/v30/4597645/full/max/0/default.jpg"/>
             <fw facs="#facs_16_r_6" type="page-number" place="top">
                <milestone unit="line" facs="#facs_16_l_3" n="N001"/>15 </fw>
