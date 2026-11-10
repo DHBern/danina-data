@@ -2084,6 +2084,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml?person_annotation_20261110233927651",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-10T22:39:27.651Z",
+	"dcterms:modified": "2026-11-10T22:39:27.651Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml?person_annotation_20261110233927651#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml?person_annotation_20261110233927651#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[29]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p022",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -2440,7 +2520,7 @@
                <milestone unit="line" facs="#facs_54_l_32" n="N002"/>каким говорю теперь, — что люблю eе и никогда до нее не любил понастоящe<milestone unit="line" facs="#facs_54_l_33" n="N003"/>му, но у меня eсть подруга, которую я не могу бросить. Я сказал, что готов
                <milestone unit="line" facs="#facs_54_l_35" n="N004"/>с радостью на все, чего она потребует, но не в состоянии &amp;lt;сделать&amp;gt;, одного: не могу оста<milestone unit="line" facs="#facs_54_l_36" n="N005"/>вить подругу, потому что <emph rend="underlined">это выше</emph>… Что сталось бы c нею, если бы я оcта<milestone unit="line" facs="#facs_54_l_37" n="N006"/>вил ее? Нам необходимо разстаться». Она согласилась с этим. Но на слѣдующий
                <milestone unit="line" facs="#facs_54_l_38" n="N007"/>день рано утром пришли сказать <persName key="ему" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">ему</persName>, что она отравилась. «И я, бѣдный чело<milestone unit="line" facs="#facs_54_l_39" n="N008"/>век»… Он побежал к ней вместе с подругой. Смертельной опасности не было,
-               <milestone unit="line" facs="#facs_54_l_40" n="N009"/>но Oльга была больна довольно долго. Женщины переговорили между собою,
+               <milestone unit="line" facs="#facs_54_l_40" n="N009"/>но <persName key="Oльга" ref="https://danina.digitaleditions.ch/id/danina_p022" cert="high">Oльга</persName> была больна довольно долго. Женщины переговорили между собою,
                <milestone unit="line" facs="#facs_54_l_41" n="N010"/>подруга его была готова устраниться. «Мы c ней измучились за это время» <milestone unit="line" facs="#facs_54_l_42" n="N011"/>сказал он.
             </p>
          <p facs="#facs_54_r_3" xml:lang="de" corresp="#p0173-ru">{TRANSLATION GOES HERE}
