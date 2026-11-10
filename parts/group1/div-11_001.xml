@@ -492,6 +492,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml?note_annotation_20261110230729876",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-10T22:07:29.876Z",
+	"dcterms:modified": "2026-11-10T22:07:29.876Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml?note_annotation_20261110230729876#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml?note_annotation_20261110230729876#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "«Mais vous étiez morte, ma chère» – «Aber sie waren tot/[todgeweiht], meine Liebe»."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -577,7 +656,7 @@
                <milestone unit="line" facs="#facs_50_l_22" n="N003"/>он придет завтра, держалась за этот миг будущего, как утопающий
                <milestone unit="line" facs="#facs_50_l_23" n="N004"/>держится за доску. Именно доску, а не соломинку дал он мне. Из всех слов
                <milestone unit="line" facs="#facs_50_l_24" n="N005"/>его я ясно почувствовала, что он <emph rend="underlined">не хочет</emph>, чтобы я умерла. Я убеждена,
-               <milestone unit="line" facs="#facs_50_l_25" n="N006"/>что не приди он ко мне в этот вечер и не говори он так, как он гово<milestone unit="line" facs="#facs_50_l_26" n="N007"/>рил, – я непременно умерла бы в эту ночь. <persName key="Mme Bärli" ref="https://danina.digitaleditions.ch/id/danina_p009" cert="high">Mme Bärli</persName>, которая мало це<milestone unit="line" facs="#facs_50_l_27" n="N008"/>ремонилась со мною, как и с другими больными, сказала мне впоследст<milestone unit="line" facs="#facs_50_l_29" n="N009"/>вии, что была &amp;lt;тогда&amp;gt; уверена в моей смерти: «Mais vous <emph rend="underlined">etiez</emph> morte, ma chère»
+               <milestone unit="line" facs="#facs_50_l_25" n="N006"/>что не приди он ко мне в этот вечер и не говори он так, как он гово<milestone unit="line" facs="#facs_50_l_26" n="N007"/>рил, – я непременно умерла бы в эту ночь. <persName key="Mme Bärli" ref="https://danina.digitaleditions.ch/id/danina_p009" cert="high">Mme Bärli</persName>, которая мало це<milestone unit="line" facs="#facs_50_l_27" n="N008"/>ремонилась со мною, как и с другими больными, сказала мне впоследст<milestone unit="line" facs="#facs_50_l_29" n="N009"/>вии, что была &amp;lt;тогда&amp;gt; уверена в моей смерти: «Mais vous <emph rend="underlined">etiez</emph> morte, ma chère<note type="scholarNote">«Mais vous étiez morte, ma chère» – «Aber sie waren tot/[todgeweiht], meine Liebe».</note>»
                <milestone unit="line" facs="#facs_50_l_30" n="N010"/>сказала она мне очень мило. Я не была в претензии за эту жестокую
                <milestone unit="line" facs="#facs_50_l_32" n="N011"/>откровенность, так как она подтвердила мне мое &amp;lt;собственное&amp;gt; чувство и мою уве-
             <pb corresp="#facs_51" n="51" xml:id="img_0051" ana="50r" facs="https://www.e-manuscripta.ch/i3f/v30/4597715/full/max/0/default.jpg"/>
