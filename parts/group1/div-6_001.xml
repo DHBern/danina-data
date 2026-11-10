@@ -648,6 +648,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-6_001.xml?note_annotation_20261110220336589",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-10T21:03:36.589Z",
+	"dcterms:modified": "2026-11-10T21:03:36.589Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-6_001.xml?note_annotation_20261110220336589#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-6_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-6_001.xml?note_annotation_20261110220336589#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[11]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Möglicherweise handelt es sich hierbei um Ivan Sikors'kyjs «Allgemeine Psychologie mit Physiognomie», vgl. https://danina.digitaleditions.ch/id/danina_w024"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -740,7 +819,7 @@
             <milestone unit="line" facs="#facs_42_tr_1_tl_7" n="N001"/>Читая недавно психологию Сикорского, я нашла там такое место: «души
                <milestone unit="line" facs="#facs_42_tr_1_tl_8" n="N002"/>различных животных – это как бы ряд пробных этюдов и набросков для бу<milestone unit="line" facs="#facs_42_tr_1_tl_9" n="N003"/>дущей, имеющей когда то прийти души. Такой душою, поистине, является
                <milestone unit="line" facs="#facs_42_tr_1_tl_10" n="N004"/>[<del rend="strikethrough">душа</del>] челове[<del rend="strikethrough">ка</del>]ческая душа. В ней сконцентрированы, объединены и развиты
-               <milestone unit="line" facs="#facs_42_tr_1_tl_11" n="N005"/>все отдельные этюды, образцы которых в зачатке заложены в душе жи<milestone unit="line" facs="#facs_42_tr_1_tl_12" n="N006" break="no"/>вотных». При виде медведей у меня неясно мелькала в голове та же самая
+               <milestone unit="line" facs="#facs_42_tr_1_tl_11" n="N005"/>все отдельные этюды, образцы которых в зачатке заложены в душе жи<milestone unit="line" facs="#facs_42_tr_1_tl_12" n="N006" break="no"/>вотных».<note type="researchNote">Möglicherweise handelt es sich hierbei um Ivan Sikors'kyjs «Allgemeine Psychologie mit Physiognomie», vgl. https://danina.digitaleditions.ch/id/danina_w024</note> При виде медведей у меня неясно мелькала в голове та же самая
                <milestone unit="line" facs="#facs_42_tr_1_tl_13" n="N007"/>мысль. Меня охватывал мистический страх от этих громад живого, покры<milestone unit="line" facs="#facs_42_tr_1_tl_14" n="N008" break="no"/>того шерстью тела. Казалось, что природа затратила здесь, чтобы <emph rend="underlined">выразить</emph>
             <milestone unit="line" facs="#facs_42_tr_1_tl_15" n="N009"/>себя, огромное усилие, но создание не выражало того, что нужно было, оно оста<milestone unit="line" facs="#facs_42_tr_1_tl_16" n="N010" break="no"/>лось замкнутым в каком то тупике, и чувствовалась скрытая боль
                <milestone unit="line" facs="#facs_42_tr_1_tl_17" n="N011"/>природы. Создав человека, природа как будто вырвалась из этого тупика
