@@ -172,6 +172,166 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml?person_annotation_20261110225700300",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-10T21:57:00.300Z",
+	"dcterms:modified": "2026-11-10T21:57:00.300Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml?person_annotation_20261110225700300#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml?person_annotation_20261110225700300#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml?person_annotation_20261110225713354",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-10T21:57:13.354Z",
+	"dcterms:modified": "2026-11-10T21:57:13.354Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml?person_annotation_20261110225713354#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_001.xml?person_annotation_20261110225713354#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -227,7 +387,7 @@
                <milestone unit="line" facs="#facs_50_l_8" n="N007"/>так плохо, что у меня от переутомления температура поднялась очень вы<milestone unit="line" facs="#facs_50_l_9" n="N008"/>соко. Я смутно помню один ужасный вечер, когда у меня было 40°. Я не в
                <milestone unit="line" facs="#facs_50_l_10" n="N009"/>состоянии была шевельнуть ни одним членом и чувствовала себя тяжелой,
                <milestone unit="line" facs="#facs_50_l_12" n="N010"/><damage type="punchhole">свинцовой</damage>, почти мертвой. Мне ничего не хотелось, ничего не было жаль.
-               <milestone unit="line" facs="#facs_50_l_13" n="N011"/>Я не могла больше бороться. Вошел Борис Яковлевич.
+               <milestone unit="line" facs="#facs_50_l_13" n="N011"/>Я не могла больше бороться. Вошел <persName key="Борис Яковлевич" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Борис Яковлевич</persName>.
                <milestone unit="line" facs="#facs_50_l_14" n="N012"/>- «Я сег[*о*]дня ночью умру», сказала я равнодушно.
             </p>
          <p facs="#facs_50_r_4" xml:lang="de" corresp="#p0160-ru">{TRANSLATION GOES HERE}
@@ -242,7 +402,7 @@
                <milestone unit="line" facs="#facs_50_l_14" n="N012"/>- «Я сег[*о*]дня ночью умру», сказала я равнодушно.
             </p>
          <p facs="#facs_50_r_3" xml:lang="ru" xml:id="p0161-ru">
-            <milestone unit="line" facs="#facs_50_l_48" n="N001"/>Он сел на стул у моей постели и стал говорить что то. Он говорил мно<milestone unit="line" facs="#facs_50_l_49" n="N002"/>го и горячо, но я не все понимала и помню лишь немногое. Он убеждал ме<milestone unit="line" facs="#facs_50_l_50" n="N003"/>ня не отчаиваться и говорил, что часто кажется, будто наступает конец,
+            <milestone unit="line" facs="#facs_50_l_48" n="N001"/><persName key="Он" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Он</persName> сел на стул у моей постели и стал говорить что то. Он говорил мно<milestone unit="line" facs="#facs_50_l_49" n="N002"/>го и горячо, но я не все понимала и помню лишь немногое. Он убеждал ме<milestone unit="line" facs="#facs_50_l_50" n="N003"/>ня не отчаиваться и говорил, что часто кажется, будто наступает конец,
                <milestone unit="line" facs="#facs_50_l_51" n="N004"/>а потом все опять идет хорошо. Уходя, он сказал, что надеется, что завтра,
                <milestone unit="line" facs="#facs_50_l_52" n="N005"/>когда он придет ко мне, я сама буду смеяться над своим пророчеством.
             </p>
