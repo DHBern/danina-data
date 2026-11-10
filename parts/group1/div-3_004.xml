@@ -2523,10 +2523,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?place_annotation_20261110175959917",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?place_annotation_20261110180100945",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-10T16:59:59.917Z",
-	"dcterms:modified": "2026-11-10T17:01:00.945Z",
+	"dcterms:created": "2026-11-10T17:01:00.945Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -2537,7 +2536,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?place_annotation_20261110175959917#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?place_annotation_20261110180100945#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml",
@@ -2551,7 +2550,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?place_annotation_20261110175959917#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?place_annotation_20261110180100945#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[29]/placeName"
 		}
@@ -2866,7 +2865,7 @@
                <milestone unit="line" facs="#facs_32_l_32" n="N003"/>не знает всего того, что знаю я, не знает, <emph rend="underlined">как</emph> прекрасна жизнь.
             </p>
          <p facs="#facs_32_r_1" xml:lang="ru" xml:id="p0091-ru">
-            <milestone unit="line" facs="#facs_32_l_6" n="N001"/>В <placeName key="Ментону" ref="https://danina.digitaleditions.ch/id/danina_o003" cert="high">Ментону </placeName>мы приехали в начале октября. Сезон еще не начался. Было
+            <milestone unit="line" facs="#facs_32_l_6" n="N001"/>В <placeName key="Ментону" ref="https://danina.digitaleditions.ch/id/danina_o003" cert="high">Ментону</placeName> мы приехали в начале октября. Сезон еще не начался. Было
                <milestone unit="line" facs="#facs_32_l_7" n="N002"/>жарко. Во всех отелях шел ремонт. Санатория, в которую хотели меня
                <milestone unit="line" facs="#facs_32_l_8" n="N003"/>местить, была еще закрыта. Нам едва удалось найти две комнаты в одном
                <milestone unit="line" facs="#facs_32_l_9" n="N004"/>маленьком пансионе. <persName key="Сестру" ref="https://danina.digitaleditions.ch/id/danina_p003" cert="high">Сестру</persName> и меня несколько смущало, что <persName key="Владимир Семенович" ref="https://danina.digitaleditions.ch/id/danina_p006" cert="high">Владимир Се<milestone unit="line" facs="#facs_32_l_10" n="N005"/>менович</persName>, которому надо было ехать в Дрезден для занятий при университе<milestone unit="line" facs="#facs_32_l_11" n="N006"/>те, теряет с нами время по-напрасну, и мы уговаривали его оставить
