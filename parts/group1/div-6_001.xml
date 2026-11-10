@@ -727,6 +727,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-6_001.xml?person_annotation_20261110220723716",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-10T21:07:23.716Z",
+	"dcterms:modified": "2026-11-10T21:07:23.716Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-6_001.xml?person_annotation_20261110220723716#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-6_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-6_001.xml?person_annotation_20261110220723716#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[13]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p009",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -838,7 +918,7 @@
                <milestone unit="line" facs="#facs_42_tr_1_tl_19" n="N013"/>самое себя.
             </p>
          <p facs="#facs_42_r_4" xml:lang="ru" xml:id="p0135-ru">
-            <milestone unit="line" facs="#facs_42_tr_1_tl_20" n="N001"/>Сестра моя &amp;lt;Mme Bärli,&amp;gt; производила на меня впечатление не совсем дюжинной женщины.
+            <milestone unit="line" facs="#facs_42_tr_1_tl_20" n="N001"/>Сестра моя &amp;lt;<persName key="Mme Bärli" ref="https://danina.digitaleditions.ch/id/danina_p009" cert="high">Mme Bärli</persName>,&amp;gt; производила на меня впечатление не совсем дюжинной женщины.
                <milestone unit="line" facs="#facs_42_tr_1_tl_21" n="N002"/>В первый раз, как я ее увидела, мне бросились в глаза три вещи: обилие ко<milestone unit="line" facs="#facs_42_tr_1_tl_22" n="N003"/>лец на ее пальцах, усы и какие-то странные, зеленоватые глаза. Она была из
                <milestone unit="line" facs="#facs_42_tr_1_tl_23" n="N004"/>хорошей, зажиточной <!--type: "Familie\u0020Périllard,\u0020recherchieren" continued: ""-->семьи, но вышла замуж несчастливо, муж обманы<milestone unit="line" facs="#facs_42_tr_1_tl_24" n="N005" break="no"/>вал ее, промотал все ея состояние и, в конце концов, она развелась с ним. Она
                <milestone unit="line" facs="#facs_42_tr_1_tl_25" n="N006"/>сумела внушить мне жалость к себе, казалась искренней, доброй. Она до<milestone unit="line" facs="#facs_42_tr_1_tl_26" n="N007"/>вольно много читала, знала очень хорошо три языка, замечания ее бывали
