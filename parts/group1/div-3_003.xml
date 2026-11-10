@@ -1452,6 +1452,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_003.xml?person_annotation_20261110161734110",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-10T15:17:34.110Z",
+	"dcterms:modified": "2026-11-10T15:17:34.110Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_003.xml?person_annotation_20261110161734110#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_003.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_003.xml?person_annotation_20261110161734110#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[29]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p005",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -1723,7 +1803,7 @@
                <milestone unit="line" facs="#facs_25_l_14" n="N005"/>что доктор позволил, но только мне нужно быть осторожной.
             </p>
          <p facs="#facs_25_r_8" xml:lang="ru" xml:id="p0066-ru">
-            <milestone unit="line" facs="#facs_25_l_15" n="N001"/>Я приехала. Я ждала, что Женя придет встретить меня на вок<milestone unit="line" facs="#facs_25_l_16" n="N002"/>зале. Но приехала одна сестра. Он передал ей, что никак не может
+            <milestone unit="line" facs="#facs_25_l_15" n="N001"/>Я приехала. Я ждала, что <persName key="Женя" ref="https://danina.digitaleditions.ch/id/danina_p005" cert="high">Женя</persName> придет встретить меня на вок<milestone unit="line" facs="#facs_25_l_16" n="N002"/>зале. Но приехала одна сестра. Он передал ей, что никак не может
                <milestone unit="line" facs="#facs_25_l_17" n="N003"/>приехать, так как имеет деловое свидание именно в час прихода по<milestone unit="line" facs="#facs_25_l_18" n="N004"/>езда. Мы долго ехали по безконечным кривым улицам так долго ждан<milestone unit="line" facs="#facs_25_l_19" n="N005"/>ной мною Москвы. Все было для меня, маленькой провинциалки, никогда
                <milestone unit="line" facs="#facs_25_l_20" n="N006"/>не бывавшей в больших городах, чудесно и необычно.
             <pb corresp="#facs_26" n="26" xml:id="img_0026" ana="25r" facs="https://www.e-manuscripta.ch/i3f/v30/4597665/full/max/0/default.jpg"/>
