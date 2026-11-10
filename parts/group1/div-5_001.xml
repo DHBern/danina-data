@@ -1132,6 +1132,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-5_001.xml?note_annotation_20261110210133421",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-10T20:01:33.421Z",
+	"dcterms:modified": "2026-11-10T20:01:33.421Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-5_001.xml?note_annotation_20261110210133421#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-5_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-5_001.xml?note_annotation_20261110210133421#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[21]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "[TODO]: Hintergrund Erster Weltkrieg und Zar Nikolaus II.  ergänzen..."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -1315,7 +1394,7 @@
                <milestone unit="line" facs="#facs_39_l_8" n="N003"/>то полновесного. Мне понравилось, что он любил читать по русской истории
                <milestone unit="line" facs="#facs_39_l_9" n="N004"/>
             <milestone unit="line" facs="#facs_39_l_10" n="N005"/>
-            <milestone unit="line" facs="#facs_39_l_11" n="N006"/>и имел при себе ценные книги из этой области. Он был &amp;lt;эмигрант&amp;gt; &amp;lt;тем не менее&amp;gt; горячо сто<milestone unit="line" facs="#facs_39_l_12" n="N007" break="no"/>ял за оборону России от внешнего врага. Однажды я спросила, видел ли он ца<milestone unit="line" facs="#facs_39_l_13" n="N008"/>ря Николая и нравится ли он ему. Да, видел и нравится. «Он простой офицер»<milestone unit="line" facs="#facs_39_l_14" n="N009" break="no"/>
+            <milestone unit="line" facs="#facs_39_l_11" n="N006"/>и имел при себе ценные книги из этой области. Он был &amp;lt;эмигрант&amp;gt; &amp;lt;тем не менее&amp;gt; горячо сто<milestone unit="line" facs="#facs_39_l_12" n="N007" break="no"/>ял за оборону России от внешнего врага. Однажды я спросила, видел ли он ца<milestone unit="line" facs="#facs_39_l_13" n="N008"/>ря Николая<note type="researchNote">[TODO]: Hintergrund Erster Weltkrieg und Zar Nikolaus II.  ergänzen...</note> и нравится ли он ему. Да, видел и нравится. «Он простой офицер»<milestone unit="line" facs="#facs_39_l_14" n="N009" break="no"/>
             <milestone unit="line" facs="#facs_39_l_15" n="N010"/>сказал он. И мне почему то тоже понравилось, что он, в качестве &amp;lt;политического эмигранта&amp;gt;
                <milestone unit="line" facs="#facs_39_l_16" n="N011"/>не счел своим долгом обругать человека, судьба которого оказалась позже
                <milestone unit="line" facs="#facs_39_l_17" n="N012"/>столь трагической. Вероятно, с того момента я поняла, что он не односто<milestone unit="line" facs="#facs_39_l_18" n="N013" break="no"/>ронен, как это случается с партийными людьми. В другой раз он сказал,
