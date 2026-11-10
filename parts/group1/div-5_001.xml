@@ -82,7 +82,7 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteScholarly",
 		"dc:format": "text/plain",
-		"rdf:value": "...«un monsieur russe avec des beaux yeux noirs» – «ein russischer Herr mit schönen schwarzen Augen»..."
+		"rdf:value": "...«un monsieur russe avec de beaux yeux noirs» – «ein russischer Herr mit schönen schwarzen Augen»..."
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -113,7 +113,7 @@
                <sic>beau </sic>
             </choice>yeux
                <milestone unit="line" facs="#facs_37_l_16" n="N005"/>
-            <del rend="strikethrough">noirs</del> &amp;lt;noirs&amp;gt;<note type="scholarNote">...«un monsieur russe avec des beaux yeux noirs» – «ein russischer Herr mit schönen schwarzen Augen»...</note>», но он очень болен и наверное скоро умрет.
+            <del rend="strikethrough">noirs</del> &amp;lt;noirs&amp;gt;<note type="scholarNote">...«un monsieur russe avec de beaux yeux noirs» – «ein russischer Herr mit schönen schwarzen Augen»...</note>», но он очень болен и наверное скоро умрет.
                <milestone unit="line" facs="#facs_37_l_17" n="N006"/>
          </p>
          <p facs="#facs_37_r_6" xml:lang="de" corresp="#p0112-ru">{TRANSLATION GOES HERE}
