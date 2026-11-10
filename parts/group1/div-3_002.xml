@@ -766,7 +766,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110113540434",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-10T10:35:40.434Z",
-	"dcterms:modified": "2026-11-10T10:35:40.434Z",
+	"dcterms:modified": "2026-11-10T10:57:52.794Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -798,7 +798,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "https://danina.digitaleditions.ch/id/danina_p020",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p019",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -846,7 +846,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110113601797",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-10T10:36:01.797Z",
-	"dcterms:modified": "2026-11-10T10:36:01.797Z",
+	"dcterms:modified": "2026-11-10T10:57:59.827Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -878,7 +878,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "https://danina.digitaleditions.ch/id/danina_p020",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p019",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1514,7 +1514,7 @@ https://danina.digitaleditions.ch/id/danina_p118</note> в своей книге
                <milestone unit="line" facs="#facs_18_l_55" n="N002"/>Наконец одному из служащих удалось пробраться на самодельных лыжах
                <milestone unit="line" facs="#facs_18_l_56" n="N003"/>в город и привезти почту. Время раздачи писем всегда было самым интерес<milestone unit="line" facs="#facs_18_l_58" n="N004"/>ным в этом &amp;lt;доме&amp;gt; наполненном больными, заброшенными сюда далеко
                <milestone unit="line" facs="#facs_18_l_59" n="N005"/>от своих родных и близких. Все с радостным волнением ожидали известий
-               <milestone unit="line" facs="#facs_18_l_60" n="N006"/>из дому и, когда старый швейцар <persName key="Василий" ref="https://danina.digitaleditions.ch/id/danina_p020" cert="high">Василий</persName> появлялся в читальне с пачкой
+               <milestone unit="line" facs="#facs_18_l_60" n="N006"/>из дому и, когда старый швейцар <persName key="Василий" ref="https://danina.digitaleditions.ch/id/danina_p019" cert="high">Василий</persName> появлялся в читальне с пачкой
             <pb corresp="#facs_19" n="19" xml:id="img_0019" ana="18r" facs="https://www.e-manuscripta.ch/i3f/v30/4597651/full/max/0/default.jpg"/>
             <fw facs="#facs_19_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_19_l_7" n="N001"/>18</fw>
@@ -1523,7 +1523,7 @@ https://danina.digitaleditions.ch/id/danina_p118</note> в своей книге
                   <milestone unit="line" facs="#facs_19_l_8" n="N001"/>[<del rend="strikethrough">51</del>]
             </del>
             </fw>
-            <milestone unit="line" facs="#facs_19_l_2" n="N001"/>писем, все оживленной толпой окружали его. <persName key="Василий" ref="https://danina.digitaleditions.ch/id/danina_p020" cert="high">Василий</persName> медленно и мето<milestone unit="line" facs="#facs_19_l_3" n="N002"/>дически выкрикивал по алфавиту фамилий счастливусь, которые поспеш<milestone unit="line" facs="#facs_19_l_4" n="N003"/>но тянулись за своей корреспонденцией. На этот раз, как это само собою
+            <milestone unit="line" facs="#facs_19_l_2" n="N001"/>писем, все оживленной толпой окружали его. <persName key="Василий" ref="https://danina.digitaleditions.ch/id/danina_p019" cert="high">Василий</persName> медленно и мето<milestone unit="line" facs="#facs_19_l_3" n="N002"/>дически выкрикивал по алфавиту фамилий счастливусь, которые поспеш<milestone unit="line" facs="#facs_19_l_4" n="N003"/>но тянулись за своей корреспонденцией. На этот раз, как это само собою
                <milestone unit="line" facs="#facs_19_l_5" n="N004"/>понятно, радость была особенно велика. Я получила неcколько писем,
                <milestone unit="line" facs="#facs_19_l_6" n="N005"/>одно из них было заветное, первое на "ты".
             
