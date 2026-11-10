@@ -1982,7 +1982,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "https://danina.digitaleditions.ch/id/danina_p019",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p005",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -2062,7 +2062,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "https://danina.digitaleditions.ch/id/danina_p019",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p005",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -2570,7 +2570,7 @@
                <milestone unit="line" facs="#facs_116_l_15" n="N005"/>Если его не было, то в учительской было темно и скучно. Если он был, там был
                <milestone unit="line" facs="#facs_116_l_16" n="N006"/>свет. (Для Душечки, когда она любила управляющего лесным складом, даже
                <milestone unit="line" facs="#facs_116_l_17" n="N007"/>в словах: лес, тес, балка – слышалось что-то трогательное.) Когда я полюбила
-               <milestone unit="line" facs="#facs_116_l_18" n="N008"/><persName key="Женю" ref="https://danina.digitaleditions.ch/id/danina_p019" cert="high">Женю</persName>, музыка стала для меня тем, чем раньше была история. Я усиленно
+               <milestone unit="line" facs="#facs_116_l_18" n="N008"/><persName key="Женю" ref="https://danina.digitaleditions.ch/id/danina_p005" cert="high">Женю</persName>, музыка стала для меня тем, чем раньше была история. Я усиленно
                <milestone unit="line" facs="#facs_116_l_19" n="N009"/>занималась музыкой, читала музыкальные сочинения. Но это было уже как
                <milestone unit="line" facs="#facs_116_l_20" n="N010"/>то иначе и не так прекрасно, как то первое, полудетское чувство. Когда
             <pb corresp="#facs_117" n="117" xml:id="img_0117" ana="115r" facs="https://www.e-manuscripta.ch/i3f/v30/4597847/full/max/0/default.jpg"/>
@@ -2602,7 +2602,7 @@
             
             </p>
          <p facs="#facs_117_r_1" xml:lang="ru" xml:id="p0353-ru">
-            <milestone unit="line" facs="#facs_117_l_1" n="N001"/>&amp;lt;Einzug&amp;gt;<note type="researchNote"> Einzug müsste wahrscheinlich noch entfernt werden, oder?</note><persName key="Женя" ref="https://danina.digitaleditions.ch/id/danina_p019" cert="high">Женя</persName> почти никогда мне не снится, но учитель истории иногда снится и
+            <milestone unit="line" facs="#facs_117_l_1" n="N001"/>&amp;lt;Einzug&amp;gt;<note type="researchNote"> Einzug müsste wahrscheinlich noch entfernt werden, oder?</note><persName key="Женя" ref="https://danina.digitaleditions.ch/id/danina_p005" cert="high">Женя</persName> почти никогда мне не снится, но учитель истории иногда снится и
                <milestone unit="line" facs="#facs_117_l_2" n="N002"/>тогда у меня появляется тоже чувство света. Как то снилось мне: я иду по
                <milestone unit="line" facs="#facs_117_l_3" n="N003"/>лестнице в гимназии, и он навстречу, и во сне вернулись прежнее, что я всегда
                <milestone unit="line" facs="#facs_117_l_4" n="N004"/>испытывала в таких случаях: он был как бы окружен какимто голубова<milestone unit="line" facs="#facs_117_l_5" n="N005" break="no"/>тым сиянием.
