@@ -14,7 +14,8 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+      
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
@@ -126,10 +127,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110105730946",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110110036191",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-10T09:57:30.946Z",
-	"dcterms:modified": "2026-11-10T10:00:36.191Z",
+	"dcterms:created": "2026-11-10T10:00:36.191Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -140,7 +140,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110105730946#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110110036191#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml",
@@ -154,7 +154,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110105730946#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110110036191#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[9]/persName"
 		}
@@ -206,10 +206,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110105748151",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110110023093",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-10T09:57:48.151Z",
-	"dcterms:modified": "2026-11-10T10:00:23.093Z",
+	"dcterms:created": "2026-11-10T10:00:23.093Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -220,7 +219,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110105748151#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110110023093#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml",
@@ -234,7 +233,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110105748151#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110110023093#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[5]/persName"
 		}
@@ -525,85 +524,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?note_annotation_20261110111219649",
-	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-10T10:12:19.649Z",
-	"dcterms:modified": "2026-11-10T10:12:19.649Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/rtwlk",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "rtwlk"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?note_annotation_20261110111219649#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "4.3.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?note_annotation_20261110111219649#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[9]/persName[2]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NoteInternal",
-		"dc:format": "text/plain",
-		"rdf:value": "Zum besseren Verständnis ist hier der Kosename von Tat'jana Danina (Autorin) getaggt."
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "4.3.2"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?work_annotation_20261110112801985",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-10T10:28:01.985Z",
@@ -763,10 +683,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110113540434",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110115752794",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-10T10:35:40.434Z",
-	"dcterms:modified": "2026-11-10T10:57:52.794Z",
+	"dcterms:created": "2026-11-10T10:57:52.794Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -777,7 +696,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110113540434#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110115752794#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml",
@@ -791,7 +710,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110113540434#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110115752794#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[37]/persName"
 		}
@@ -843,10 +762,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110113601797",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110115759827",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-10T10:36:01.797Z",
-	"dcterms:modified": "2026-11-10T10:57:59.827Z",
+	"dcterms:created": "2026-11-10T10:57:59.827Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -857,7 +775,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110113601797#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110115759827#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml",
@@ -871,7 +789,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110113601797#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?person_annotation_20261110115759827#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[37]/persName[2]"
 		}
@@ -1131,10 +1049,7 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
-      </rdf:RDF></xenoData><xenoData>
-         
-      </xenoData>
-   </teiHeader>
+      </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
          <ab type="leaf-convenience">
@@ -1212,7 +1127,7 @@
             </p>
          <p facs="#facs_13_r_5" xml:lang="ru" xml:id="p0031-ru">
             <milestone unit="line" facs="#facs_13_l_11" n="N001"/><persName key="Владимир Семенович" ref="https://danina.digitaleditions.ch/id/danina_p006" cert="high">Владимир Семенович</persName> сидел в кресле в стороне и наблюдал за всем про<milestone unit="line" facs="#facs_13_l_12" n="N002" break="no"/>исходившим. Я проходила мимо него, чтобы взять что то. Он вдруг остано<milestone unit="line" facs="#facs_13_l_13" n="N003"/>вил меня со словами:
-               <milestone unit="line" facs="#facs_13_l_14" n="N004"/>- «Что, грустно Вам, <persName key="Таня" ref="https://danina.digitaleditions.ch/id/danina_p001">Таня<note type="researchNote">Zum besseren Verständnis ist hier der Kosename von Tat'jana Danina (Autorin) getaggt.</note></persName>, оставаться?"
+               <milestone unit="line" facs="#facs_13_l_14" n="N004"/>- «Что, грустно Вам, <persName key="Таня" ref="https://danina.digitaleditions.ch/id/danina_p001">Таня</persName><note type="researchNote">Zum besseren Verständnis ist hier der Kosename von Tat'jana Danina (Autorin) getaggt.</note>, оставаться?"
                <milestone unit="line" facs="#facs_13_l_15" n="N005"/>- «Нет, мне все равно».
                <milestone unit="line" facs="#facs_13_l_16" n="N006"/>- "А у кого на глазах слезы?"
                <milestone unit="line" facs="#facs_13_l_17" n="N007"/>Я уверена, что у меня их не было, но мне показалось, что я видела
