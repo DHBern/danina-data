@@ -2761,10 +2761,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml?person_annotation_20261111215526421",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml?person_annotation_20261111215625814",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-11T20:55:26.421Z",
-	"dcterms:modified": "2026-11-11T20:56:25.814Z",
+	"dcterms:created": "2026-11-11T20:56:25.814Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -2775,7 +2774,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml?person_annotation_20261111215526421#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml?person_annotation_20261111215625814#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml",
@@ -2789,7 +2788,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml?person_annotation_20261111215526421#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml?person_annotation_20261111215625814#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[37]/persName[2]"
 		}
@@ -3319,10 +3318,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml?work_annotation_20261111224747761",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml?work_annotation_20261111224823013",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-11T21:47:47.761Z",
-	"dcterms:modified": "2026-11-11T21:48:23.013Z",
+	"dcterms:created": "2026-11-11T21:48:23.013Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -3333,7 +3331,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml?work_annotation_20261111224747761#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml?work_annotation_20261111224823013#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml",
@@ -3347,7 +3345,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml?work_annotation_20261111224747761#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml?work_annotation_20261111224823013#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[47]/title"
 		}
@@ -3861,7 +3859,7 @@
                   <milestone unit="line" facs="#facs_62_l_30" n="N001"/>[<del rend="strikethrough">94</del>]
             </del>
             </fw>
-            <milestone unit="line" facs="#facs_62_l_1" n="N001"/>непременно сказать мне, если наступит конец. Я хотела пойти к <persName key="нему" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">нему</persName>,<note type="researchNote">[Frage]: Taggen wir Orts- und Personenentitäten des gleichen Abschnitts erneut, wenn dieser Abschnitt über zwei Seiten geht? Es wäre eine Komfort-Funktion, aber gleichzeitg relativ redundant.</note> хотя
+            <milestone unit="line" facs="#facs_62_l_1" n="N001"/>непременно сказать мне, если наступит конец. Я хотела пойти к <persName key="нему" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">нему</persName>, <note type="researchNote">[Frage]: Taggen wir Orts- und Personenentitäten des gleichen Abschnitts erneut, wenn dieser Abschnitt über zwei Seiten geht? Es wäre eine Komfort-Funktion, aber gleichzeitg relativ redundant.</note> хотя
                <milestone unit="line" facs="#facs_62_l_2" n="N002"/>мне самой было очень плохо. Что было мне до того, если он при смерти!
             
             </p>
