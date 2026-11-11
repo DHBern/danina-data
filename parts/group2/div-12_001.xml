@@ -1144,6 +1144,69 @@
 			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
 			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
 			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
 		}
 	],
 	"as:generator": {
@@ -1225,6 +1288,69 @@
 			"@type": "cito:Citation",
 			"dc:format": "text/plain",
 			"rdf:value": ""
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
 		},
 		{
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
@@ -2938,6 +3064,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?person_annotation_20261112002502009",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-11T23:25:02.009Z",
+	"dcterms:modified": "2026-11-11T23:25:02.009Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/amariamor",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anna-Maria Morath"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?person_annotation_20261112002502009#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?person_annotation_20261112002502009#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[21]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p005",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -3183,7 +3389,7 @@
             <milestone unit="line" facs="#facs_75_l_14" n="N001"/>Да, их две, и я – настоящая я – была в письмах... Это было начало кон<milestone unit="line" facs="#facs_75_l_15" n="N002"/>ца, хотя я боролась еще долго и не хотела верить тому, что должно было
                <milestone unit="line" facs="#facs_75_l_16" n="N003"/>неизбежно случиться. Я думала, что смогу все-таки слиться в одну и выйти
                <milestone unit="line" facs="#facs_75_l_17" n="N004"/>победительницей, но видимо это было невозможно. Впрочем, я так и не знаю
-               <milestone unit="line" facs="#facs_75_l_18" n="N005"/>настоящей причины его охлаждения ко мне. Я говорю о причине внешней,
+               <milestone unit="line" facs="#facs_75_l_18" n="N005"/>настоящей причины <persName key="его" ref="https://danina.digitaleditions.ch/id/danina_p005" cert="high">его</persName> охлаждения ко мне. Я говорю о причине внешней,
                <milestone unit="line" facs="#facs_75_l_19" n="N006"/>так как внутренней и самой глубокой причиной было именно то, о чем
                <milestone unit="line" facs="#facs_75_l_20" n="N007"/><damage type="punchhole">я</damage> говорю. Будь у меня достаточно сил, чтобы выявить меня скрытую, — я
                <milestone unit="line" facs="#facs_75_l_21" n="N008"/>победила бы. Потому что однажды он увидел меня. Это было в день на<milestone unit="line" facs="#facs_75_l_22" n="N009"/>шей первой встречи. Вот что писал он об этом моменте впоследствии:
