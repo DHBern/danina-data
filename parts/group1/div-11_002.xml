@@ -2764,7 +2764,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml?person_annotation_20261111215526421",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-11T20:55:26.421Z",
-	"dcterms:modified": "2026-11-11T20:55:26.421Z",
+	"dcterms:modified": "2026-11-11T20:56:25.814Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -2796,7 +2796,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "https://danina.digitaleditions.ch/id/danina_p013https://danina.digitaleditions.ch/id/danina_p013",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -3325,7 +3325,7 @@
             </p>
          <p facs="#facs_62_r_3" xml:lang="ru" xml:id="p0202-ru">
             <milestone unit="line" facs="#facs_62_l_29" n="N001"/><persName key="Mme Bärli" ref="https://danina.digitaleditions.ch/id/danina_p009" cert="high">Mme Bärli</persName> сказала, что я непременно должна буду сделать это, я не должна
-               <milestone unit="line" facs="#facs_62_l_31" n="N002"/>оставить <persName key="его" ref="https://danina.digitaleditions.ch/id/danina_p013https://danina.digitaleditions.ch/id/danina_p013" cert="high">его</persName> умирать одного.
+               <milestone unit="line" facs="#facs_62_l_31" n="N002"/>оставить <persName key="его" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">его</persName> умирать одного.
             </p>
          <p facs="#facs_62_r_3" xml:lang="de" corresp="#p0202-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_62_l_29" n="N001"/>Mme Bärli сказала, что я непременно должна буду сделать это, я не должна
