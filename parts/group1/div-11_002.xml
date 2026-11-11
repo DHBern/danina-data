@@ -1771,6 +1771,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml?note_annotation_20261111213620176",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-11T20:36:20.176Z",
+	"dcterms:modified": "2026-11-11T20:36:20.176Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml?note_annotation_20261111213620176#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml?note_annotation_20261111213620176#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[23]/quote/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Konnte «Сон-цветок» (Die Traumblume) nicht zweifelsfrei identifizieren. Ist vielleicht «Это было глухое, тяжелое время» gemeint?"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -2059,7 +2138,7 @@
                <milestone unit="line" facs="#facs_60_l_16" n="N005"/>как всего стихотворения не помнила:
             <quote>
                <milestone unit="line" facs="#facs_60_l_17" n="N001"/>„Поздним летом, в степи, на казацких могилах
-               <milestone unit="line" facs="#facs_60_l_18" n="N002"/>„Сон-цветок“ одиноко растет.
+               <milestone unit="line" facs="#facs_60_l_18" n="N002"/>„Сон-цветок<note type="researchNote">Konnte «Сон-цветок» (Die Traumblume) nicht zweifelsfrei identifizieren. Ist vielleicht «Это было глухое, тяжелое время» gemeint?</note>“ одиноко растет.
                <milestone unit="line" facs="#facs_60_l_19" n="N003"/>„Он живой, но сухой, он угаснуть не в силах,
                <milestone unit="line" facs="#facs_60_l_28" n="N004"/>„Но весна для него не придет.“
             </quote>
