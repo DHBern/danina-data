@@ -3334,8 +3334,7 @@
          <p facs="#facs_62_r_4" xml:lang="ru" xml:id="p0203-ru">
             <milestone unit="line" facs="#facs_62_l_3" n="N001"/>Когда я сказала, что не знаю, любит ли <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">он</persName> меня, она сказала: „vous êtes
                <milestone unit="line" facs="#facs_62_l_4" n="N002"/>sa petite îcone, il peut sortir avec <emph rend="underlined">une</emph> Mademoiselle X., <del rend="strikethrough">(???)</del> mais vous...
-               <milestone unit="line" facs="#facs_62_l_5" n="N003"/>vous êtes celle à laquelle on ne touche pas.“ Я была горда словами, „sa petite
-               <milestone unit="line" facs="#facs_62_l_6" n="N004"/>îcone“, но все таки, где то глубоко я почувствовала маленький–маленький
+               <milestone unit="line" facs="#facs_62_l_5" n="N003"/>vous êtes celle à laquelle on ne touche pas.“ Я была горда словами, „sa petite i<milestone unit="line" facs="#facs_62_l_6" n="N004"/>cône“, но все таки, где то глубоко я почувствовала маленький–маленький
                <milestone unit="line" facs="#facs_62_l_7" n="N005"/>укол.
             </p>
          <p facs="#facs_62_r_4" xml:lang="de" corresp="#p0203-ru">{TRANSLATION GOES HERE}
