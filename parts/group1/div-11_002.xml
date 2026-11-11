@@ -1692,6 +1692,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml?note_annotation_20261111210839127",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-11T20:08:39.127Z",
+	"dcterms:modified": "2026-11-11T20:08:39.127Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml?note_annotation_20261111210839127#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_002.xml?note_annotation_20261111210839127#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[23]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Die Autorin bezieht sich auf den russischen Schriftsteller Ivan Bunin."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -1976,7 +2055,7 @@
             <milestone unit="line" facs="#facs_60_l_12" n="N001"/>Мне кажется, что в слово „любовь“ мы вкладываем различное содержание,
                <milestone unit="line" facs="#facs_60_l_13" n="N002"/>и из-за этого между нами тоже возможны недоразумения и конфликты.
                <milestone unit="line" facs="#facs_60_l_14" n="N003"/>Я помню еще одну сценку по поводу другого стихотворения: „Сон-цветoк“
-               <milestone unit="line" facs="#facs_60_l_15" n="N004"/>Бунина. Я сказала, что оно нравится мне и процитировала конец его, так
+               <milestone unit="line" facs="#facs_60_l_15" n="N004"/>Бунина<note type="scholarNote">Die Autorin bezieht sich auf den russischen Schriftsteller Ivan Bunin.</note>. Я сказала, что оно нравится мне и процитировала конец его, так
                <milestone unit="line" facs="#facs_60_l_16" n="N005"/>как всего стихотворения не помнила:
             <quote>
                <milestone unit="line" facs="#facs_60_l_17" n="N001"/>„Поздним летом, в степи, на казацких могилах
