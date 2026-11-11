@@ -1137,6 +1137,13 @@
 			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
 			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
 			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
 		}
 	],
 	"as:generator": {
@@ -1218,6 +1225,13 @@
 			"@type": "cito:Citation",
 			"dc:format": "text/plain",
 			"rdf:value": ""
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
 		},
 		{
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
@@ -3171,7 +3185,7 @@
                <milestone unit="line" facs="#facs_75_l_17" n="N004"/>победительницей, но видимо это было невозможно. Впрочем, я так и не знаю
                <milestone unit="line" facs="#facs_75_l_18" n="N005"/>настоящей причины его охлаждения ко мне. Я говорю о причине внешней,
                <milestone unit="line" facs="#facs_75_l_19" n="N006"/>так как внутренней и самой глубокой причиной было именно то, о чем
-               <milestone unit="line" facs="#facs_75_l_20" n="N007"/>я говорю. Будь у меня достаточно сил, чтобы выявить меня скрытую, — я
+               <milestone unit="line" facs="#facs_75_l_20" n="N007"/><damage type="punchhole">я</damage> говорю. Будь у меня достаточно сил, чтобы выявить меня скрытую, — я
                <milestone unit="line" facs="#facs_75_l_21" n="N008"/>победила бы. Потому что однажды он увидел меня. Это было в день на<milestone unit="line" facs="#facs_75_l_22" n="N009"/>шей первой встречи. Вот что писал он об этом моменте впоследствии:
                <milestone unit="line" facs="#facs_75_l_23" n="N010"/>«Ты вышла бледной, была тщательно причесана, один твой пальчик
                <milestone unit="line" facs="#facs_75_l_24" n="N011"/>был в чернилаx, вид равнодушнотонкий, в чертах – целая буря пережи<milestone unit="line" facs="#facs_75_l_25" n="N012"/>тыx страданий, какая то необычайная тайна, какая-то печать... Этот
