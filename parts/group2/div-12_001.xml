@@ -738,6 +738,34 @@
 			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
 			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
 			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
 		}
 	],
 	"as:generator": {
@@ -819,6 +847,34 @@
 			"@type": "cito:Citation",
 			"dc:format": "text/plain",
 			"rdf:value": ""
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
 		},
 		{
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
@@ -2015,7 +2071,7 @@
                <milestone unit="line" facs="#facs_73_l_3" n="N002"/>и бить, и я ничего не почувствую, и что у него является желание проверить
                <milestone unit="line" facs="#facs_73_l_4" n="N003"/>это на опыте. Когда после этого я ударилась локтем о пианино и сде<milestone unit="line" facs="#facs_73_l_5" n="N004"/>лала гримасу от боли, он с изумлением спросил: «тебе больно?» Он не пo<milestone unit="line" facs="#facs_73_l_6" n="N005"/>нял меня. Если я к чему нибудь способна, так это к страданию, и чувство<milestone unit="line" facs="#facs_73_l_7" n="N006"/>вать я способна очень сильно, но только все это происходит где то так
                <milestone unit="line" facs="#facs_73_l_8" n="N007"/>глубоко внутри меня, что часто не только для других, но и для меня <damage type="punchhole">са<milestone unit="line" facs="#facs_73_l_10" n="N008"/>мой</damage> неясно, <emph rend="underlined">как</emph> я страдаю. Впрочем, я неверно сказала, что Женя не по<milestone unit="line" facs="#facs_73_l_11" n="N009"/>нимал меня. Он добавил тогда же, что вероятно я кажусь такою пото<milestone unit="line" facs="#facs_73_l_12" n="N010"/>му, что у меня очень сильны задерживающие центры. И это верно. Но это
-               <milestone unit="line" facs="#facs_73_l_13" n="N011"/>качество само по себѣ уже есть источник страшных мук для меня: мнѣ,
+               <milestone unit="line" facs="#facs_73_l_13" n="N011"/>качество само по себе уже есть источник страшных мук для меня: мн,
                <milestone unit="line" facs="#facs_73_l_14" n="N012"/>быть может, ничего так не хотелось бы, как высказаться, но я не могу
                <milestone unit="line" facs="#facs_73_l_15" n="N013"/>этого сделать, и все, что я чувствую, обращается внутрь и убивает меня.
                <milestone unit="line" facs="#facs_73_l_16" n="N014"/>Это, может быть, есть первоначальная причина моей болезни. С самого
