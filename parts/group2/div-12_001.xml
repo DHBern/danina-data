@@ -2495,6 +2495,13 @@
 			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
 			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
 			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
 		}
 	],
 	"as:generator": {
@@ -2576,6 +2583,13 @@
 			"@type": "cito:Citation",
 			"dc:format": "text/plain",
 			"rdf:value": ""
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
 		},
 		{
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
@@ -6321,7 +6335,7 @@
                <milestone unit="line" facs="#facs_77_l_4" n="N004"/>сейчас мне не хочется писать о том, что прошло. Я думаю теперь о
                <milestone unit="line" facs="#facs_77_l_5" n="N005"/>другом. Я думаю о <persName key="Борисе" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high" type="real">Борисе</persName> и о том, что теперь я вдруг чувствую себя зна<milestone unit="line" facs="#facs_77_l_6" n="N006"/>чительно лучше, кажется, совсем неожиданно для моего доктора. Был
                <milestone unit="line" facs="#facs_77_l_7" n="N007"/>момент, когда я подошла совсем близко к смерти, я это знаю. И вот я
-               <milestone unit="line" facs="#facs_77_l_9" n="N008"/>снова возвращаюсь к жизни, надолго-ли, не знаю, но я возвращаюсь, и я
+               <milestone unit="line" facs="#facs_77_l_9" n="N008"/><damage type="punchhole">снова</damage> возвращаюсь к жизни, надолго-ли, не знаю, но я возвращаюсь, и я
                <milestone unit="line" facs="#facs_77_l_10" n="N009"/>
             <emph rend="underlined">знаю</emph>, почему.
             </p>
