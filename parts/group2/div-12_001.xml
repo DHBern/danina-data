@@ -2488,6 +2488,13 @@
 			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
 			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
 			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
 		}
 	],
 	"as:generator": {
@@ -2569,6 +2576,13 @@
 			"@type": "cito:Citation",
 			"dc:format": "text/plain",
 			"rdf:value": ""
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
 		},
 		{
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
@@ -6215,7 +6229,7 @@
                <milestone unit="line" facs="#facs_76_l_35" n="N006"/>мне кажется, я не видела его глаз. Они были огромные и казались мне
                <milestone unit="line" facs="#facs_76_l_36" n="N007"/>темно-синими. И когда я в них взглянула, мне захотелось смотреть в
                <milestone unit="line" facs="#facs_76_l_37" n="N008"/>ниx всегда, не отрываясь, и в них я прочла странную ласку, хотя взгляд
-               <milestone unit="line" facs="#facs_76_l_39" n="N009"/><damage type="punchhole">его</damage> был холоден. Но это длилось всего один момент.
+               <milestone unit="line" facs="#facs_76_l_39" n="N009"/><damage type="punchhole"><damage type="punchhole">его</damage></damage> был холоден. Но это длилось всего один момент.
                <milestone unit="line" facs="#facs_76_l_40" n="N010"/>Тут я хочу привести одно из его стихотворений, присланных мне. Вот
                <milestone unit="line" facs="#facs_76_l_41" n="N011"/>оно:
             
