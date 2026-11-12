@@ -2530,6 +2530,13 @@
 			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
 			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
 			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
 		}
 	],
 	"as:generator": {
@@ -2611,6 +2618,13 @@
 			"@type": "cito:Citation",
 			"dc:format": "text/plain",
 			"rdf:value": ""
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
 		},
 		{
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
@@ -6705,7 +6719,7 @@
          <p facs="#facs_78_r_1" xml:lang="ru" xml:id="p0232-ru">
             <milestone unit="line" facs="#facs_78_l_1" n="N001"/>Mне тяжело вспомнить, как я была эгоистична, горда и нетерпима.
                <milestone unit="line" facs="#facs_78_l_2" n="N002"/>Болезнь и страдания, которые выпали мне на долю, озлобили меня вместo
-               <milestone unit="line" facs="#facs_78_l_4" n="N003"/>того, чтобы смягчить. Я не могла выносить вида людей счастливых и здо<milestone unit="line" facs="#facs_78_l_5" n="N004"/>ровых. Мне казалось, что если я страдаю, то и другие не имеют правa
+               <milestone unit="line" facs="#facs_78_l_4" n="N003"/><damage type="punchhole">того</damage>, чтобы смягчить. Я не могла выносить вида людей счастливых и здо<milestone unit="line" facs="#facs_78_l_5" n="N004"/>ровых. Мне казалось, что если я страдаю, то и другие не имеют правa
                <milestone unit="line" facs="#facs_78_l_6" n="N005"/>радоваться. Я помню, с какою [<del rend="strikethrough">почти</del>] злобою я ответила на вопрос
                <milestone unit="line" facs="#facs_78_l_7" n="N006"/>одной гостившей у нас курсистки; не хотела ли бы я поехать на
                <milestone unit="line" facs="#facs_78_l_8" n="N007"/>курсы? – «мне нельзя, у меня чахотка».
