@@ -2474,6 +2474,13 @@
 			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
 			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
 			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
 		}
 	],
 	"as:generator": {
@@ -2555,6 +2562,13 @@
 			"@type": "cito:Citation",
 			"dc:format": "text/plain",
 			"rdf:value": ""
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
 		},
 		{
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
@@ -6203,10 +6217,10 @@
                <milestone unit="line" facs="#facs_76_l_50" n="N009"/>И тот же взгляд двух глаз, как свечи.
                <milestone unit="line" facs="#facs_76_l_51" n="N010"/>Надзвездность тихих душ.
                <milestone unit="line" facs="#facs_76_l_52" n="N011"/>Певучий миг, слиянность речи.
-               <milestone unit="line" facs="#facs_76_l_53" n="N012"/>Звенящій платья шум.
+               <milestone unit="line" facs="#facs_76_l_53" n="N012"/>Звенящй платья шум.
                <milestone unit="line" facs="#facs_76_l_54" n="N013"/>Невнятность реющей в нас встречи.
                <milestone unit="line" facs="#facs_76_l_55" n="N014"/>Все снова, как тогда.
-               <milestone unit="line" facs="#facs_76_l_56" n="N015"/>О, свѣчи глаз, о звезды – свечи!
+               <milestone unit="line" facs="#facs_76_l_56" n="N015"/>О, свечи глаз, о звезды – свечи!
                <milestone unit="line" facs="#facs_76_l_57" n="N016"/>О возглас: «Навсегда!»
             </quote>
             <pb corresp="#facs_77" n="77" xml:id="img_0077" ana="76r" facs="https://www.e-manuscripta.ch/i3f/v30/4597767/full/max/0/default.jpg"/>
