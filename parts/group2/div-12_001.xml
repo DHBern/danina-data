@@ -2572,6 +2572,13 @@
 			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
 			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
 			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
 		}
 	],
 	"as:generator": {
@@ -2653,6 +2660,13 @@
 			"@type": "cito:Citation",
 			"dc:format": "text/plain",
 			"rdf:value": ""
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
 		},
 		{
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
@@ -7085,7 +7099,7 @@
                <milestone unit="line" facs="#facs_79_l_37" n="N008"/>для меня это было совершенно противоестественно. И заслуга моя заключает<milestone unit="line" facs="#facs_79_l_38" n="N009"/>ся именно в том, что я поступила <emph rend="underlined">вопреки</emph> своему характеру, я заставила
                <milestone unit="line" facs="#facs_79_l_39" n="N010"/>себя сделать то, что было для меня почти невозможно, более того: я рискну<milestone unit="line" facs="#facs_79_l_40" n="N011"/>ла показаться <emph rend="underlined">смешной</emph>, чего я боюсь больше всего на свете. Я долго не реша<milestone unit="line" facs="#facs_79_l_41" n="N012"/>лась войти к папе, несколько раз я подходила к его двери и уходила. Мне
                <milestone unit="line" facs="#facs_79_l_42" n="N013"/>казалось, что я вaлюсь в пропасть. Когда я, наконец, вошла и [<del rend="strikethrough">стала</del>] &amp;lt;начала&amp;gt; го<milestone unit="line" facs="#facs_79_l_43" n="N014"/>ворить, я с ужасом заметила, что губы мои шевелятся, но не издают ни<milestone unit="line" facs="#facs_79_l_44" n="N015"/>какого звука. Мой голoc не повиновался мне. Когда папа посмотрел на ме<milestone unit="line" facs="#facs_79_l_45" n="N016"/>ня со страхом, я овладела собой и смогла говорить. Он сначала не по<milestone unit="line" facs="#facs_79_l_46" n="N017"/>нял меня, он думал, что я спрашиваю совета, как мне поступать. Про<milestone unit="line" facs="#facs_79_l_47" n="N018"/>читав письма, он сказал: «если он имеет на тебя виды, то ведь это его
-               <milestone unit="line" facs="#facs_79_l_48" n="N019"/>дело предпринять шаги в этом смыслѣ». И еще он сказал: «я понимаю,
+               <milestone unit="line" facs="#facs_79_l_48" n="N019"/>дело предпринять шаги в этом смысл». И еще он сказал: «я понимаю,
                <milestone unit="line" facs="#facs_79_l_49" n="N020"/>что он мог тебя полюбить, но зачем он пишет это таким фельeтонным
                <milestone unit="line" facs="#facs_79_l_50" n="N021"/>языком». Еще и теперь при воспоминании об этих словах я мучительно
                <milestone unit="line" facs="#facs_79_l_51" n="N022"/>краснею. Но когда папа, наконец, понял, чего я хочу (я сказала, что я приш<milestone unit="line" facs="#facs_79_l_52" n="N023"/>ла лишь для того, чтобы поделиться с ним; «мы всегда молчим» – сказала
