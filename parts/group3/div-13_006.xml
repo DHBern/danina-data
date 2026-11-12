@@ -127,10 +127,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261103111943791",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261105113309388",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-03T10:19:43.791Z",
-	"dcterms:modified": "2026-11-05T10:33:09.388Z",
+	"dcterms:created": "2026-11-05T10:33:09.388Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -141,7 +140,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261103111943791#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261105113309388#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml",
@@ -155,7 +154,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261103111943791#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261105113309388#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[17]/note"
 		}
@@ -985,10 +984,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103113313306",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105120452642",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-03T10:33:13.306Z",
-	"dcterms:modified": "2026-11-05T11:04:52.642Z",
+	"dcterms:created": "2026-11-05T11:04:52.642Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -999,7 +997,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103113313306#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105120452642#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml",
@@ -1013,7 +1011,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103113313306#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105120452642#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[21]/persName"
 		}
@@ -1065,10 +1063,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103113557437",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105120505083",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-03T10:35:57.437Z",
-	"dcterms:modified": "2026-11-05T11:05:05.083Z",
+	"dcterms:created": "2026-11-05T11:05:05.083Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1079,7 +1076,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103113557437#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105120505083#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml",
@@ -1093,7 +1090,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103113557437#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105120505083#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[25]/persName"
 		}
@@ -1145,10 +1142,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103113644360",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105120512367",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-03T10:36:44.360Z",
-	"dcterms:modified": "2026-11-05T11:05:12.367Z",
+	"dcterms:created": "2026-11-05T11:05:12.367Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1159,7 +1155,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103113644360#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105120512367#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml",
@@ -1173,7 +1169,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103113644360#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105120512367#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[29]/persName"
 		}
@@ -1225,10 +1221,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103113959098",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105120535141",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-03T10:39:59.098Z",
-	"dcterms:modified": "2026-11-05T11:05:35.141Z",
+	"dcterms:created": "2026-11-05T11:05:35.141Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1239,7 +1234,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103113959098#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105120535141#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml",
@@ -1253,7 +1248,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103113959098#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105120535141#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[39]/persName"
 		}
@@ -1858,10 +1853,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103120704916",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105120703276",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-03T11:07:04.916Z",
-	"dcterms:modified": "2026-11-05T11:07:03.276Z",
+	"dcterms:created": "2026-11-05T11:07:03.276Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1872,7 +1866,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103120704916#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105120703276#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml",
@@ -1886,7 +1880,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103120704916#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105120703276#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[57]/persName"
 		}
@@ -1938,10 +1932,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261103121403590",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261105120229961",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-03T11:14:03.590Z",
-	"dcterms:modified": "2026-11-05T11:02:29.961Z",
+	"dcterms:created": "2026-11-05T11:02:29.961Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1952,7 +1945,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261103121403590#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261105120229961#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml",
@@ -1966,7 +1959,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261103121403590#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261105120229961#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[61]/note"
 		}
@@ -2097,10 +2090,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261103123520711",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261105120745340",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-03T11:35:20.711Z",
-	"dcterms:modified": "2026-11-05T11:07:45.340Z",
+	"dcterms:created": "2026-11-05T11:07:45.340Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -2111,7 +2103,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261103123520711#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261105120745340#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml",
@@ -2125,7 +2117,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261103123520711#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?note_annotation_20261105120745340#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[65]/note"
 		}
@@ -2888,7 +2880,7 @@
             <milestone unit="line" facs="#facs_134_l_1" n="N001"/>И мой слабый голос, может быть, прозвучит, когда нибудь и будет кемни<milestone unit="line" facs="#facs_134_l_2" n="N002"/>будь услышан. Жизнь прекрасна. Жизнь прекрасна. Не смотря ни на что. Я
                <milestone unit="line" facs="#facs_134_l_3" n="N003"/>хотела бы перелить в души тех, кто отчаивается, тех, кто спрашивает:
                <milestone unit="line" facs="#facs_134_l_4" n="N004"/>за что сужденно им так страдать? – то чувство единства, чувство преем<milestone unit="line" facs="#facs_134_l_5" n="N005"/>ственности жизни, которое помогает мне жить. Мне так близки и
-               <milestone unit="line" facs="#facs_134_l_6" n="N006"/>понятны слова поэта Бунина<note type="scholarNote">Hier ist der Dichter Iwan Bunin gemeint.</note>: <note type="researchNote">Das Zitat bedarf einer Überprüfung.</note><title key="&amp;quot;радостно жить и знать, что я умру, и этот день пройдет, но вечно будет радость жить.&amp;quot;" ref="https://danina.digitaleditions.ch/id/danina_w007" cert="medium">"радостно жить и знать, что я умру,
+               <milestone unit="line" facs="#facs_134_l_6" n="N006"/>понятны слова поэта Бунина<note type="scholarNote">Hier ist der Dichter Iwan Bunin gemeint.</note>: <note type="researchNote">[TODO]: Das Zitat bedarf einer Überprüfung.</note><title key="&amp;quot;радостно жить и знать, что я умру, и этот день пройдет, но вечно будет радость жить.&amp;quot;" ref="https://danina.digitaleditions.ch/id/danina_w007" cert="medium">"радостно жить и знать, что я умру,
                <milestone unit="line" facs="#facs_134_l_7" n="N007"/>и этот день пройдет, но вечно будет радость жить."</title>
             </p>
          <p facs="#facs_134_r_1" xml:lang="de" corresp="#p0425-ru">{TRANSLATION GOES HERE}
