@@ -2565,6 +2565,13 @@
 			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
 			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
 			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
 		}
 	],
 	"as:generator": {
@@ -2646,6 +2653,13 @@
 			"@type": "cito:Citation",
 			"dc:format": "text/plain",
 			"rdf:value": ""
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
 		},
 		{
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
@@ -7066,7 +7080,7 @@
             </fw>
             <milestone unit="line" facs="#facs_79_l" n="N001"/>ему кажется, будто дети не любят его. Мое сердце разрывалось при мысли о том,
                <milestone unit="line" facs="#facs_79_l_13" n="N002"/>что папа мог так думать, но поступить, «как другие дети», я не могла. И вмес<milestone unit="line" facs="#facs_79_l_32" n="N003"/>те с тем я хотела сделать что-нибудь, чтобы доказать ему мою любовь.
-               <milestone unit="line" facs="#facs_79_l_33" n="N004"/>И вот я решила пожертвовать самым для меня дорогим: тайной моей пере<milestone unit="line" facs="#facs_79_l_34" n="N005"/>писки с <persName key="Женей" ref="https://danina.digitaleditions.ch/id/danina_p005">Женей</persName>. Я решила, что я пойду к папе, дал ему прочесть некото<milestone unit="line" facs="#facs_79_l_35" n="N006"/>рые письма от Жени и скажу, что делаю это, чтобы поделиться с ним.
+               <milestone unit="line" facs="#facs_79_l_33" n="N004"/>И вот я решила пожертвовать самым для меня дорогим: тайной моей пере<milestone unit="line" facs="#facs_79_l_34" n="N005"/>писки с <persName key="Женей" ref="https://danina.digitaleditions.ch/id/danina_p005">Женей</persName>. Я решила, что я пойду к папе, дам ему прочесть некото<milestone unit="line" facs="#facs_79_l_35" n="N006"/>рые письма от Жени и скажу, что делаю это, чтобы поделиться с ним.
                <milestone unit="line" facs="#facs_79_l_36" n="N007"/>Для большинства дочерей во всем этом не было бы ничего необыкновенного, но
                <milestone unit="line" facs="#facs_79_l_37" n="N008"/>для меня это было совершенно противоестественно. И заслуга моя заключает<milestone unit="line" facs="#facs_79_l_38" n="N009"/>ся именно в том, что я поступила <emph rend="underlined">вопреки</emph> своему характеру, я заставила
                <milestone unit="line" facs="#facs_79_l_39" n="N010"/>себя сделать то, что было для меня почти невозможно, более того: я рискну<milestone unit="line" facs="#facs_79_l_40" n="N011"/>ла показаться <emph rend="underlined">смешной</emph>, чего я боюсь больше всего на свете. Я долго не реша<milestone unit="line" facs="#facs_79_l_41" n="N012"/>лась войти к папе, несколько раз я подходила к его двери и уходила. Мне
