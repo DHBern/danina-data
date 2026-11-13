@@ -1445,6 +1445,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_003.xml?person_annotation_20261113134256581",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-13T12:42:56.581Z",
+	"dcterms:modified": "2026-11-13T12:42:56.581Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_003.xml?person_annotation_20261113134256581#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_003.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_003.xml?person_annotation_20261113134256581#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[21]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p009",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:low"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -1783,7 +1863,7 @@
                <milestone unit="line" facs="#facs_68_l_14" n="N003"/>на разноцветных клочках бумаги, я улыбаюсь горько и нежно, глядя
                <milestone unit="line" facs="#facs_68_l_15" n="N004"/>на эти слова: „дорогая Таня“, которые я никогда не слышала от него и не
                <milestone unit="line" facs="#facs_68_l_16" n="N005"/>увижу более и написанными. Я вспоминаю эти дни, полные тоски и стра<milestone unit="line" facs="#facs_68_l_17" n="N006"/>ха за него, тоски и ожидания того единственного светлаго момента за
-               <milestone unit="line" facs="#facs_68_l_18" n="N007"/>весь день, когда к вечеру сестра милосердия принесет мне от него ответную
+               <milestone unit="line" facs="#facs_68_l_18" n="N007"/>весь день, когда к вечеру <persName key="сестра милосердия" ref="https://danina.digitaleditions.ch/id/danina_p009" cert="low">сестра милосердия</persName> принесет мне от него ответную
                <milestone unit="line" facs="#facs_68_l_19" n="N008"/>записку. Она казалась мнѣ драгоцѣнностью, счастьем, и я перечитывала
                <milestone unit="line" facs="#facs_68_l_20" n="N009"/>эти клочки по несколько раз, не смотря на то, что ничего особенного они
             <pb corresp="#facs_69" n="69" xml:id="img_0069" ana="68r" facs="https://www.e-manuscripta.ch/i3f/v30/4597751/full/max/0/default.jpg"/>
