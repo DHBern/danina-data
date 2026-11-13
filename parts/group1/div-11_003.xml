@@ -639,7 +639,86 @@
 	"oa:hasBody": {
 		"@type": "cwrc:Note",
 		"dc:format": "text/plain",
-		"rdf:value": "[TODO]: Petschorin («») ist der Protagonist in Michail Lernmontovs Roman «Ein Held unserer Zeit»."
+		"rdf:value": "[TODO]: Petschorin (russ. Печорин) ist der Protagonist in Michail Lernmontovs Roman «Ein Held unserer Zeit»."
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_003.xml?note_annotation_20261113131307196",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-13T12:13:07.196Z",
+	"dcterms:modified": "2026-11-13T12:13:07.196Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_003.xml?note_annotation_20261113131307196#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_003.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-11_003.xml?note_annotation_20261113131307196#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[3]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "[Frage]: Taggen wir Romanfiguren mit dem Werk/Buch-Tag?"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -676,7 +755,7 @@
          </p>
          <p facs="#facs_64_r_4" xml:lang="ru" xml:id="p0210-ru">
             <milestone unit="line" facs="#facs_64_l_2" n="N001"/>Я была смущена и сбита с толку: я думала, что <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">он</persName> именно готов вообще
-               <milestone unit="line" facs="#facs_64_l_3" n="N002"/>отрицать возможность <title key="Печоринских" ref="https://danina.digitaleditions.ch/id/danina_w002">Печоринских</title> побуждений.
+               <milestone unit="line" facs="#facs_64_l_3" n="N002"/>отрицать возможность <title key="Печоринских" ref="https://danina.digitaleditions.ch/id/danina_w002">Печоринских</title> <note type="researchNote">[Frage]: Taggen wir Romanfiguren mit dem Werk/Buch-Tag?</note>побуждений.
             </p>
          <p facs="#facs_64_r_4" xml:lang="de" corresp="#p0210-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_64_l_2" n="N001"/>Я была смущена и сбита с толку: я думала, что он именно готов вообще
@@ -710,7 +789,7 @@
                <milestone unit="line" facs="#facs_64_l_15" n="N001"/>Теперь я хочу сказать кое-что о повести.
 </quote></p><p facs="#facs_64_r_6" xml:lang="ru" xml:id="p0212-ru"><quote>            </quote>
             <quote>
-               <milestone unit="line" facs="#facs_64_l_16" n="N001"/>Печорин<note>[TODO]: Petschorin («») ist der Protagonist in Michail Lernmontovs Roman «Ein Held unserer Zeit».</note> часто говорит о своей гордости. Между тем он старается
+               <milestone unit="line" facs="#facs_64_l_16" n="N001"/>Печорин<note>[TODO]: Petschorin (russ. Печорин) ist der Protagonist in Michail Lernmontovs Roman «Ein Held unserer Zeit».</note> часто говорит о своей гордости. Между тем он старается
                <milestone unit="line" facs="#facs_64_l_17" n="N002"/>вызвать сострадание к себе с стороны княжны Мери. – „Сострадание, –
                <milestone unit="line" facs="#facs_64_l_21" n="N003"/>говорит он, – чувство, которому покоряются так легко все женщины,
             
