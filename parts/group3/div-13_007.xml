@@ -1935,10 +1935,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?note_annotation_20261103151820376",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?note_annotation_20261116232831325",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-03T14:18:20.376Z",
-	"dcterms:modified": "2026-11-16T22:28:31.325Z",
+	"dcterms:created": "2026-11-16T22:28:31.325Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1949,7 +1948,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?note_annotation_20261103151820376#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?note_annotation_20261116232831325#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml",
@@ -1963,7 +1962,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?note_annotation_20261103151820376#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?note_annotation_20261116232831325#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[41]/note"
 		}
@@ -1971,7 +1970,7 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
-		"rdf:value": "Ist der Bruder bekannt?"
+		"rdf:value": "[Frage:] Ist der Bruder bekannt?"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -3190,7 +3189,7 @@
             </p>
          <p facs="#facs_140_r_5" xml:lang="ru" xml:id="p0443-ru">
             <milestone unit="line" facs="#facs_140_l_37" n="N001"/>Я стала говорить ему о том, что имею глупую способность крас<milestone unit="line" facs="#facs_140_l_38" n="N002"/>неть без всякой причины, а тогда, когда я имела бы на это причину, я
-               <milestone unit="line" facs="#facs_140_l_39" n="N003"/>не краснею. И прибавила, что эту коробочку подарил мне брат<note type="researchNote">Ist der Bruder bekannt?</note>, но <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013">он</persName>,
+               <milestone unit="line" facs="#facs_140_l_39" n="N003"/>не краснею. И прибавила, что эту коробочку подарил мне брат<note type="researchNote">[Frage:] Ist der Bruder bekannt?</note>, но <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013">он</persName>,
                <milestone unit="line" facs="#facs_140_l_40" n="N004"/>кажется, усомнился в этом, хотя это была сущая правда. Я думала
                <milestone unit="line" facs="#facs_140_l_41" n="N005"/>после, отчего я так покраснела. Кажется, просто оттого, что произ<milestone unit="line" facs="#facs_140_l_42" n="N006"/>несла это слово перед ним. И еще быть может оттого, что, хотя эту
                <milestone unit="line" facs="#facs_140_l_43" n="N007"/>коробоку мне действительно подарил мой брат, я бы ничего не
