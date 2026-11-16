@@ -2841,6 +2841,20 @@
 			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
 			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
 			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
 		}
 	],
 	"as:generator": {
@@ -3103,6 +3117,20 @@
 			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
 			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
 			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
 		}
 	],
 	"as:generator": {
@@ -3146,10 +3174,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261105113034731",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261116174032554",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-05T10:30:34.731Z",
-	"dcterms:modified": "2026-11-16T16:40:32.554Z",
+	"dcterms:created": "2026-11-16T16:40:32.554Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/MaschaSt",
 		"@type": [
@@ -3160,7 +3187,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261105113034731#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261116174032554#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml",
@@ -3174,7 +3201,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261105113034731#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261116174032554#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[3]/note"
 		}
@@ -3190,19 +3217,7 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "4.3.2"
-	},
-	"dcterms:contributor": [
-		{
-			"dcterms:contributor": {
-				"@id": "https://github.com/rtwlk",
-				"@type": [
-					"cwrc:NaturalPerson",
-					"schema:Person"
-				],
-				"cwrc:hasName": "rtwlk"
-			}
-		}
-	]
+	}
 }]]>
         </rdf:Description>
       
@@ -6099,10 +6114,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261116210325286",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261116210339403",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-16T20:03:25.286Z",
-	"dcterms:modified": "2026-11-16T20:03:39.403Z",
+	"dcterms:created": "2026-11-16T20:03:39.403Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -6113,7 +6127,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261116210325286#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261116210339403#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml",
@@ -6127,7 +6141,7 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261116210325286#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261116210339403#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[51]/note[2]"
 		}
@@ -6636,7 +6650,7 @@
             <pb corresp="#facs_71" n="71" xml:id="img_0071" ana="70r" facs="https://www.e-manuscripta.ch/i3f/v30/4597755/full/max/0/default.jpg"/>
          </ab>
          <ab facs="#facs_71_r" type="motto_epigraph">
-            <milestone unit="line" facs="#facs_71_l" n="N001"/>"Hexopoшо человеку быть одному"<note type="citation"><bibl><ref target="https://danina.digitaleditions.ch/id/danina_w009"/><bibl><bibl><bibl><bibl><bibl><bibl><bibl><bibl/></bibl></bibl></bibl></bibl></bibl></bibl></bibl></bibl></note>
+            <milestone unit="line" facs="#facs_71_l" n="N001"/>"Hexopoшо человеку быть одному"<note type="citation"><bibl><ref target="https://danina.digitaleditions.ch/id/danina_w009"/><bibl><bibl><bibl><bibl><bibl><bibl><bibl><bibl><bibl/></bibl></bibl></bibl></bibl></bibl></bibl></bibl></bibl></bibl></note>
                <milestone unit="line" facs="#facs_71_l_1" n="N002"/>(<title key="„Книга бытия&amp;quot;, гл. 2" ref="https://danina.digitaleditions.ch/id/danina_w009" cert="high">„Книга бытия", гл. 2</title>)<note type="scholarNote">Genesis 2,18</note>
             </ab>
          <ab facs="#facs_71_r_1" type="motto_epigraph">
@@ -6649,7 +6663,7 @@
             <choice>
                <corr/>
                <sic>adheision</sic>
-            </choice> à la vie.<note type="researchNote">[Frage] [TODO]: Taggen wir Zitate als Zitate?Klärung Plenum!</note><note type="citation"><bibl><ref target="https://danina.digitaleditions.ch/id/danina_w016"/><bibl><bibl><bibl><bibl><bibl><bibl><bibl><bibl/></bibl></bibl></bibl></bibl></bibl></bibl></bibl></bibl></note>
+            </choice> à la vie.<note type="researchNote">[Frage] [TODO]: Taggen wir Zitate als Zitate? Klärung Plenum!</note><note type="citation"><bibl><ref target="https://danina.digitaleditions.ch/id/danina_w016"/><bibl><bibl><bibl><bibl><bibl><bibl><bibl><bibl><bibl/></bibl></bibl></bibl></bibl></bibl></bibl></bibl></bibl></bibl></note>
                <milestone unit="line" facs="#facs_71_l_8" n="N007"/>(<choice>
                <corr><orgName key="Maeterlinck" ref="https://danina.digitaleditions.ch/id/danina_p114">Maeterlinck</orgName></corr>
                <sic>Maeterlink </sic>
