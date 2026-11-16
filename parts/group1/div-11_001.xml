@@ -14,7 +14,8 @@
             <p/>
          </sourceDesc>
       </fileDesc>
-      <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+      
+   <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
         <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
           <![CDATA[{
 	"@context": {
@@ -3282,10 +3283,7 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
-      </rdf:RDF></xenoData><xenoData>
-         
-      </xenoData>
-   </teiHeader>
+      </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
          <head facs="#facs_49_r_4">
@@ -3490,7 +3488,7 @@
          <p facs="#facs_52_r_5" xml:lang="ru" xml:id="p0168-ru">
             <milestone unit="line" facs="#facs_52_l_37" n="N001"/>И только тут я почувствовала смутно, что <persName key="она" ref="https://danina.digitaleditions.ch/id/danina_p009" cert="low">она</persName> не просто невинно по<milestone unit="line" facs="#facs_52_l_38" n="N002"/>шутила, но хотела бы влить в мою душу яд и заставить меня направить
                <milestone unit="line" facs="#facs_52_l_39" n="N003"/>мысли мои на ту сторону его жизни, которая мнѣ не была извѣстна. Но
-               <milestone unit="line" facs="#facs_52_l_40" n="N004"/>я была слишком довольна названием petite icône <note type="researchNote">L'accent circonflexe hinzugefügt: icône anstelel von icone.</note>и не стала в тот раз
+               <milestone unit="line" facs="#facs_52_l_40" n="N004"/>я была слишком довольна названием petite icône <note type="researchNote">L'accent circonflexe hinzugefügt: icône anstelle von icone.</note>и не стала в тот раз
                <milestone unit="line" facs="#facs_52_l_41" n="N005"/>думать о том, что она повидимому хотела мне внушить.
                <milestone unit="line" facs="#facs_52_l_42" n="N006"/>Он пел иногда настоящие народные русские песни, такие, каких я
                <milestone unit="line" facs="#facs_52_l_43" n="N007"/>никогда раньше не слыхала, и я любила, когда он пел. Мне очень нравился
