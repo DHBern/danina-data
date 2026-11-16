@@ -2820,6 +2820,13 @@
 			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
 			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
 			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
 		}
 	],
 	"as:generator": {
@@ -2900,6 +2907,13 @@
 			"@type": "cito:Citation",
 			"dc:format": "text/plain",
 			"rdf:value": ""
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w016",
+			"cito:hasCitationEvent": "cito:cites"
 		},
 		{
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112955838#Cites",
@@ -6424,6 +6438,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?person_annotation_20261116212330367",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-16T20:23:30.367Z",
+	"dcterms:modified": "2026-11-16T20:23:30.367Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?person_annotation_20261116212330367#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?person_annotation_20261116212330367#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[57]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -7220,7 +7313,7 @@
                <milestone unit="line" facs="#facs_83_l_57" n="N019"/>больше всего нравится та черта, что он не доволен собою. Он отвер<milestone unit="line" facs="#facs_83_l_58" n="N020"/>нулся на минутку.
             </p>
          <p facs="#facs_83_r_1" xml:lang="ru" xml:id="p0244-ru">
-            <milestone unit="line" facs="#facs_83_l_28" n="N001"/>Я не знаю, сказала ли бы я ему [<del rend="strikethrough">все эти</del>] &amp;lt;этот&amp;gt; комплимент (да и дру<milestone unit="line" facs="#facs_83_l_29" n="N002"/>гие были, кажется), если бы гжа С. не сказала мне как то, что Бо<milestone unit="line" facs="#facs_83_l_30" n="N003"/>рис спрашивал ее, [<del rend="strikethrough">как то</del>] не думает ли она, что я его люблю. Она
+            <milestone unit="line" facs="#facs_83_l_28" n="N001"/>Я не знаю, сказала ли бы я <persName key="ему" ref="https://danina.digitaleditions.ch/id/danina_p013">ему</persName> [<del rend="strikethrough">все эти</del>] &amp;lt;этот&amp;gt; комплимент (да и дру<milestone unit="line" facs="#facs_83_l_29" n="N002"/>гие были, кажется), если бы гжа С. не сказала мне как то, что Бо<milestone unit="line" facs="#facs_83_l_30" n="N003"/>рис спрашивал ее, [<del rend="strikethrough">как то</del>] не думает ли она, что я его люблю. Она
                <milestone unit="line" facs="#facs_83_l_31" n="N004"/>ответила ему, что, конечно, вероятно люблю, «как брата, как
                <milestone unit="line" facs="#facs_83_l_32" n="N005"/>родного». Он переспросил: «как родного?» Она добавила: «ведь Вы ее
             <pb corresp="#facs_84" n="84" xml:id="img_0084" ana="83r" facs="https://www.e-manuscripta.ch/i3f/v30/4597781/full/max/0/default.jpg"/>
