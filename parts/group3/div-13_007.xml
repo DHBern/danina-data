@@ -1938,7 +1938,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_007.xml?note_annotation_20261103151820376",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-03T14:18:20.376Z",
-	"dcterms:modified": "2026-11-03T14:18:20.376Z",
+	"dcterms:modified": "2026-11-16T22:26:53.158Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1969,7 +1969,7 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NoteScholarly",
+		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
 		"rdf:value": "Ist der Bruder bekannt?"
 	},
@@ -3190,7 +3190,7 @@
             </p>
          <p facs="#facs_140_r_5" xml:lang="ru" xml:id="p0443-ru">
             <milestone unit="line" facs="#facs_140_l_37" n="N001"/>Я стала говорить ему о том, что имею глупую способность крас<milestone unit="line" facs="#facs_140_l_38" n="N002"/>неть без всякой причины, а тогда, когда я имела бы на это причину, я
-               <milestone unit="line" facs="#facs_140_l_39" n="N003"/>не краснею. И прибавила, что эту коробочку подарил мне брат<note type="scholarNote">Ist der Bruder bekannt?</note>, но <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013">он</persName>,
+               <milestone unit="line" facs="#facs_140_l_39" n="N003"/>не краснею. И прибавила, что эту коробочку подарил мне брат<note type="researchNote">Ist der Bruder bekannt?</note>, но <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013">он</persName>,
                <milestone unit="line" facs="#facs_140_l_40" n="N004"/>кажется, усомнился в этом, хотя это была сущая правда. Я думала
                <milestone unit="line" facs="#facs_140_l_41" n="N005"/>после, отчего я так покраснела. Кажется, просто оттого, что произ<milestone unit="line" facs="#facs_140_l_42" n="N006"/>несла это слово перед ним. И еще быть может оттого, что, хотя эту
                <milestone unit="line" facs="#facs_140_l_43" n="N007"/>коробоку мне действительно подарил мой брат, я бы ничего не
