@@ -2876,6 +2876,13 @@
 			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
 			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
 			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?citation_annotation_20261105112928514",
+			"cito:hasCitedEntity": "https://danina.digitaleditions.ch/id/danina_w009",
+			"cito:hasCitationEvent": "cito:cites"
 		}
 	],
 	"as:generator": {
@@ -6417,7 +6424,7 @@
             <choice>
                <corr/>
                <sic>adheision</sic>
-            </choice> à la vie.[Frage] [TODO]: Taggen wir Zitate als Zitate? Klärung Plenum!<note type="citation"><bibl><ref target="https://danina.digitaleditions.ch/id/danina_w016"/><bibl><bibl><bibl><bibl><bibl><bibl><bibl><bibl><bibl/></bibl></bibl></bibl></bibl></bibl></bibl></bibl></bibl></bibl></note>
+            </choice> à la vie.<note type="citation"><bibl><ref target="https://danina.digitaleditions.ch/id/danina_w016"/><bibl><bibl><bibl><bibl><bibl><bibl><bibl><bibl><bibl/></bibl></bibl></bibl></bibl></bibl></bibl></bibl></bibl></bibl></note>
                <milestone unit="line" facs="#facs_71_l_8" n="N007"/>(<choice>
                <corr><orgName key="Maeterlinck" ref="https://danina.digitaleditions.ch/id/danina_p114">Maeterlinck</orgName></corr>
                <sic>Maeterlink </sic>
