@@ -251,6 +251,166 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_005.xml?person_annotation_20261118231804832",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-18T22:18:04.832Z",
+	"dcterms:modified": "2026-11-18T22:18:04.832Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_005.xml?person_annotation_20261118231804832#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_005.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_005.xml?person_annotation_20261118231804832#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_005.xml?person_annotation_20261118231844291",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-18T22:18:44.291Z",
+	"dcterms:modified": "2026-11-18T22:18:44.291Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_005.xml?person_annotation_20261118231844291#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_005.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_005.xml?person_annotation_20261118231844291#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -296,7 +456,7 @@
                <milestone unit="line" facs="#facs_124_l_41" n="N011"/>никогда не будет возможно иначе воспитывать детей, которых теперь так ка<milestone unit="line" facs="#facs_124_l_42" n="N012"/>лечит?
             </p>
          <p facs="#facs_124_r_1" xml:lang="ru" xml:id="p0381-ru">
-            <milestone unit="line" facs="#facs_124_l_1" n="N001"/>Что же однако, из всего этого следует? Не воображаю ли я на основании его
+            <milestone unit="line" facs="#facs_124_l_1" n="N001"/>Что же однако, из всего этого следует? Не воображаю ли я на основании <persName key="его" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">его</persName>
                <milestone unit="line" facs="#facs_124_l_2" n="N002"/>слов: «когда любишь, то это невозможно», что и меня он любит по-настоящему,
                <milestone unit="line" facs="#facs_124_l_3" n="N003"/>хотя бы и бессознательно. Если он любит только мою душу, для него не имеет
                <milestone unit="line" facs="#facs_124_l_4" n="N004"/>значения – мужчина я или женщина. <emph rend="underlined">В ней</emph> нравились ему глаза, и воло<milestone unit="line" facs="#facs_124_l_5" n="N005"/>сы. А до моих глаз ему нет дела. Но ведь и глаза мои теперь не те, что были
@@ -315,7 +475,7 @@
             <milestone unit="line" facs="#facs_124_l_19" n="N001"/>Чудесно, чудесно, продолжай свои изследования! К чему это может повести?
                <milestone unit="line" facs="#facs_124_l_21" n="N002"/>
             <del rend="strikethrough">Только</del> &amp;lt;Только&amp;gt; к тому, что у меня окончательно зайдет ум за разум. Несносная я!
-               <milestone unit="line" facs="#facs_124_l_22" n="N003"/>Я вижу окончательно, что я <emph rend="underlined">хочу</emph>, чтобы он любил меня по настоящему. Я
+               <milestone unit="line" facs="#facs_124_l_22" n="N003"/>Я вижу окончательно, что я <emph rend="underlined">хочу</emph>, чтобы <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">он</persName> любил меня по настоящему. Я
                <milestone unit="line" facs="#facs_124_l_23" n="N004"/>должна признаться, что плакала, когда получила его письмо с выговором.
                <milestone unit="line" facs="#facs_124_l_24" n="N005"/>Но сегодня мне снилось, будто я получила от него другое письмо, начинавшееся
                <milestone unit="line" facs="#facs_124_l_25" n="N006"/>словами: «ну да<emph rend="underlined">, конечно </emph>же: я люблю тебя, моя милая.» К сожалению, я не
