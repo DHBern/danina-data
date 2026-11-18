@@ -2160,6 +2160,86 @@
 	"cwrc:hasCertainty": "cwrc:medium"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_002.xml?person_annotation_20261118204616104",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-18T19:46:16.104Z",
+	"dcterms:modified": "2026-11-18T19:46:16.104Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_002.xml?person_annotation_20261118204616104#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_002.xml?person_annotation_20261118204616104#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[45]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p004",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:medium"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -2602,8 +2682,8 @@
             <milestone unit="line" facs="#facs_90_l_45" n="N001"/>Дальше не помню, а может быть моего «поэтического талан<milestone unit="line" facs="#facs_90_l_46" n="N002"/>та» и не хватило на продолжение. Но эту фразу я помню хорошо.
                <milestone unit="line" facs="#facs_90_l_47" n="N003"/>Однажды старшая сестра, <persName key="Катя" ref="https://danina.digitaleditions.ch/id/danina_p003" cert="high">Катя</persName>, заглянув в мою тетрадь, стала
                <milestone unit="line" facs="#facs_90_l_48" n="N004"/>допытываться у меня, что это за <persName key="Коля" ref="https://danina.digitaleditions.ch/id/danina_p023" cert="medium">Коля</persName>. И тут то я проявила
-               <milestone unit="line" facs="#facs_90_l_49" n="N005"/>себя настоящей маленькой женщиной. Я сказала, что это наш
-               <milestone unit="line" facs="#facs_90_l_51" n="N006"/>Коля, &amp;lt;младший&amp;gt; брат (между тем как это имя я дала своему гимназис<milestone unit="line" facs="#facs_90_l_52" n="N007"/>ту). Когда Катя спросила, почему же я пишу, что увидела его
+               <milestone unit="line" facs="#facs_90_l_49" n="N005"/>себя настоящей маленькой женщиной. Я сказала, что это <persName key="наш Коля" ref="https://danina.digitaleditions.ch/id/danina_p004" cert="medium">наш
+               <milestone unit="line" facs="#facs_90_l_51" n="N006"/>Коля</persName>, &amp;lt;младший&amp;gt; брат (между тем как это имя я дала своему гимназис<milestone unit="line" facs="#facs_90_l_52" n="N007"/>ту). Когда Катя спросила, почему же я пишу, что увидела его
                <milestone unit="line" facs="#facs_90_l_53" n="N008"/>в церкви, я заявила, что это потому, что я увидела его, когда
                <milestone unit="line" facs="#facs_90_l_54" n="N009"/>его крестили. – «Но ведь его крестили дома» – сказала Катя. – «Да,
                <milestone unit="line" facs="#facs_90_l_55" n="N010"/>но у нас тогда был священник и потому это было все равно, как
