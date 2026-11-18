@@ -485,6 +485,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_002.xml?note_annotation_20261118175447598",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-18T16:54:47.598Z",
+	"dcterms:modified": "2026-11-18T16:54:47.598Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_002.xml?note_annotation_20261118175447598#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_002.xml?note_annotation_20261118175447598#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Oscar Wildes Zitat"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -495,7 +574,7 @@
             <milestone unit="line" facs="#facs_84_l_19" n="N001"/>Но странно, что именно теперь, когда [<del rend="strikethrough">для</del>] всяк[<del rend="strikethrough">ого</del>]&amp;lt;oму&amp;gt; посторонн[<del rend="strikethrough">его</del>]&amp;lt;ему&amp;gt; че<milestone unit="line" facs="#facs_84_l_21" n="N002"/><damage type="punchhole">ловеку</damage> существование мое должно представляться чем то совершен<milestone unit="line" facs="#facs_84_l_22" n="N003"/>но безотрадным, пустым и бессмысленным, я научилась находить
                <milestone unit="line" facs="#facs_84_l_23" n="N004"/>жизнь прекрасной. Жизнь жестокая вещь, как сказал однажды
                <milestone unit="line" facs="#facs_84_l_24" n="N005"/><persName key="Борис" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Борис</persName>, но она прекрасна, если уметь подойти к ней и принять ее.
-               <milestone unit="line" facs="#facs_84_l_25" n="N006"/>Уа&amp;lt;й&amp;gt;льд говорит: «Как трагично, что столь немногим людям удается
+               <milestone unit="line" facs="#facs_84_l_25" n="N006"/>Уа&amp;lt;й&amp;gt;льд<note type="researchNote">Oscar Wildes Zitat</note> говорит: «Как трагично, что столь немногим людям удается
                <milestone unit="line" facs="#facs_84_l_26" n="N007"/>раньше смерти овладеть своей душой». Теперь я овладела своей
                <milestone unit="line" facs="#facs_84_l_27" n="N008"/>душой и потому я так спокойна и даже счастлива. <placeName key="Даже" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="low"><placeName key="Даже" ref="https://danina.digitaleditions.ch/id/danina_p013">Даже</placeName></placeName> если бы
                <milestone unit="line" facs="#facs_84_l_28" n="N009"/>у меня ничего больше не оставалось бы, у меня все таки осталась
