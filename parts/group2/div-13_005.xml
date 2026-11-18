@@ -1608,7 +1608,7 @@
          <p facs="#facs_126_r_7" xml:lang="ru" xml:id="p0394-ru">
             <milestone unit="line" facs="#facs_126_l_24" n="N001"/>Торжественно-прекрасной и гордой была февральская революция 1917 года<note type="researchNote">[TODO]: Muss noch die Abschnittsreferenz suchen für die Februarrevolution 1917, die bereits erklärt worden ist.</note>.
                <milestone unit="line" facs="#facs_126_l_25" n="N002"/>Но они пришли и, как неразумное дитя, увидав в саду распускающийся бутон
-               <milestone unit="line" facs="#facs_126_l_26" n="N003"/>прекрасного и неведомого цветка, захлопали в ладони и в нетерпении
+<damage type="punchhole"> <milestone unit="line" facs="#facs_126_l_26" n="N003"/>прекрасного</damage> и неведомого цветка, захлопали в ладони и в нетерпении
                <milestone unit="line" facs="#facs_126_l_35" n="N004"/>увидать поскорей красивый цветок в полном своем наряде... "помогли"
                <milestone unit="line" facs="#facs_126_l_36" n="N005"/>ему распуститься своими грубыми и неловками руками. И увял прекрасный
                <milestone unit="line" facs="#facs_126_l_37" n="N006"/>и неведомый цветок, который мог жить и <del rend="strikethrough">давать</del> дать плод лишь в том
