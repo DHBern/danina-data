@@ -837,10 +837,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml?link_annotation_20261118225356016",
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml?note_annotation_20261118225844820",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-18T21:53:56.016Z",
-	"dcterms:modified": "2026-11-18T21:53:56.016Z",
+	"dcterms:created": "2026-11-18T21:58:44.820Z",
+	"dcterms:modified": "2026-11-18T21:58:44.820Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -849,9 +849,9 @@
 		],
 		"cwrc:hasName": "rtwlk"
 	},
-	"oa:motivatedBy": "oa:linking",
+	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml?link_annotation_20261118225356016#Target",
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml?note_annotation_20261118225844820#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml",
@@ -865,14 +865,15 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml?link_annotation_20261118225356016#Selector",
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml?note_annotation_20261118225844820#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[29]/ref"
+			"rdf:value": "TEI/text/body/p[29]/note"
 		}
 	},
 	"oa:hasBody": {
-		"@id": "https://danina.digitaleditions.ch/id/danina_para001",
-		"@type": "cnt:ContentAsText"
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "[Frage]: Reicht der Link zum Beginn des Briefes oder sollte die Figur des Offiziers Grigorij Petschorin aus Lermontovs «Ein Held unserer Zeit» erklärt werden?"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -1071,7 +1072,7 @@
                <milestone unit="line" facs="#facs_120_l" n="N001"/>118</fw>
             <milestone unit="line" facs="#facs_120_l_29" n="N001"/>которого он не заслужил. Ведь он благородный человек и он не станет смеяться
                <milestone unit="line" facs="#facs_120_l_30" n="N002"/>надо мною, даже если мои записки и покажутся ему смешными. Но... у меня не
-               <milestone unit="line" facs="#facs_120_l_31" n="N003"/>выходит из головы его письмо по поводу <ref target="https://danina.digitaleditions.ch/id/danina_para001">Печорина</ref>. – «Ясность и честность должны
+               <milestone unit="line" facs="#facs_120_l_31" n="N003"/>выходит из головы его письмо по поводу <ref target="https://danina.digitaleditions.ch/id/danina_para001">Печорина</ref>.<note type="researchNote">[Frage]: Reicht der Link zum Beginn des Briefes oder sollte die Figur des Offiziers Grigorij Petschorin aus Lermontovs «Ein Held unserer Zeit» erklärt werden?</note> – «Ясность и честность должны
                <milestone unit="line" facs="#facs_120_l_32" n="N004"/>быть в человеческих отношениях. Ясность и честность в любви, если она есть, а если
                <milestone unit="line" facs="#facs_120_l_33" n="N005"/>нет ее – в дружбе". Однако, не должна ли я, именно ради этой ясности и честности,
                <milestone unit="line" facs="#facs_120_l_34" n="N006"/>показать ему эти мои записки? Быть может, он, прочитал их, уже не сможет
