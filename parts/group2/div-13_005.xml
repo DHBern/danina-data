@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -1395,7 +1392,7 @@
                <milestone unit="line" facs="#facs_124_l_38" n="N008"/>уже много спустя и тело. Но для тех, кто привык отдавать или брать
                <milestone unit="line" facs="#facs_124_l_39" n="N009"/>тело без души (<persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">он</persName> сказал о себе: «мальчишка я был очень распущенный») все это
                <milestone unit="line" facs="#facs_124_l_40" n="N010"/>должно быть <emph rend="underlined">навеки</emph> испорчено, осквернено и разбито. И это ужасно. Неужели
-               <milestone unit="line" facs="#facs_124_l_41" n="N011"/>никогда не будет возможно иначе воспитывать детей, которых теперь так ка<milestone unit="line" facs="#facs_124_l_42" n="N012"/>лечит?
+               <milestone unit="line" facs="#facs_124_l_41" n="N011"/>никогда не будет возможно иначе воспитывать детей, которых теперь так <damage type="punchhole">ка<milestone unit="line" facs="#facs_124_l_42" n="N012"/>лечит</damage>?
             </p>
          <p facs="#facs_124_r_2" xml:lang="de" corresp="#p0380-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_124_l_31" n="N001"/>Мне кажется, что «это» должно было бы быть невозможно, ког<emph rend="underlined">да</emph> не любишь. По
