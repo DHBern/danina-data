@@ -1522,6 +1522,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml?note_annotation_20261118230813347",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-18T22:08:13.347Z",
+	"dcterms:modified": "2026-11-18T22:08:13.347Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml?note_annotation_20261118230813347#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml?note_annotation_20261118230813347#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[49]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "Sigmund Freud"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -1875,7 +1954,7 @@
                <milestone unit="line" facs="#facs_122_l_14" n="N012"/>этом в тридцать лет и притом такой больной, что благоразум<milestone unit="line" facs="#facs_122_l_15" n="N013"/>нее было бы мечтать о хорошей погоде или возможности пройти больше двух
                <milestone unit="line" facs="#facs_122_l_16" n="N014"/>шагов, на которые я сейчас едва ли способна. Ну вот, подите же Вы! Мне кажет<milestone unit="line" facs="#facs_122_l_17" n="N015"/>ся, что если бы я получила это желанное колечко, то я любовалась бы им по
                <milestone unit="line" facs="#facs_122_l_18" n="N016"/>часам и была бы вполне счастлива, не мечтая о больше. Но нет,
-               <milestone unit="line" facs="#facs_122_l_20" n="N017"/>ошибаешься, моя дорогая! Ты мечтаешь о большем! Вот что проф. Фройд говорит о
+               <milestone unit="line" facs="#facs_122_l_20" n="N017"/>ошибаешься, моя дорогая! Ты мечтаешь о большем! Вот что проф. Фройд<note type="researchNote">Sigmund Freud</note> говорит о
                <milestone unit="line" facs="#facs_122_l_21" n="N018"/>снах:
             </p>
          <p facs="#facs_122_r_1" xml:lang="de" corresp="#p0373-ru">{TRANSLATION GOES HERE}
