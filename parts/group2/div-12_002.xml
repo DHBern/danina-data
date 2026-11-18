@@ -1042,6 +1042,86 @@
 	"cwrc:hasCertainty": "cwrc:medium"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_002.xml?work_annotation_20261118203124037",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-18T19:31:24.037Z",
+	"dcterms:modified": "2026-11-18T19:31:24.037Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_002.xml?work_annotation_20261118203124037#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_002.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_002.xml?work_annotation_20261118203124037#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[15]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "https://danina.digitaleditions.ch/id/danina_w003",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -1195,7 +1275,7 @@
          <p facs="#facs_86_r_3" xml:lang="ru" xml:id="p0252-ru">
             <milestone unit="line" facs="#facs_86_l_44" n="N001"/>Одна знакомая сказала мне однажды: «Что такое женщина, ко<milestone unit="line" facs="#facs_86_l_46" n="N002"/>торую никто никогда не поцеловал?» Она же доказывала, что надо
                <milestone unit="line" facs="#facs_86_l_47" n="N003"/>выходить замуж «хоть на один день». Принято смеяться над стары<milestone unit="line" facs="#facs_86_l_48" n="N004"/>ми девами. Но думали ли когда нибудь те, кто делает это, какая страш<milestone unit="line" facs="#facs_86_l_49" n="N005"/>ная трагедия заключается в этих двух маленьких <emph rend="underlined">жестоких</emph> словах:
-               <milestone unit="line" facs="#facs_86_l_50" n="N006"/>старая дева. Толстой в «Война и Мир[<del rend="strikethrough">е</del>]» называет Соню пустоцве<milestone unit="line" facs="#facs_86_l_51" n="N007"/>том. Бедная Соня! Каждый человек должен быть самим собой, и вся<milestone unit="line" facs="#facs_86_l_52" n="N008"/>кая женщина для того, чтобы быть сама собой, должна прежде всего
+               <milestone unit="line" facs="#facs_86_l_50" n="N006"/>старая дева. Толстой в <title key="«Война и Мир[е]»" ref="https://danina.digitaleditions.ch/id/danina_w003" cert="high">«Война и Мир[<del rend="strikethrough">е</del>]»</title> называет Соню пустоцве<milestone unit="line" facs="#facs_86_l_51" n="N007"/>том. Бедная Соня! Каждый человек должен быть самим собой, и вся<milestone unit="line" facs="#facs_86_l_52" n="N008"/>кая женщина для того, чтобы быть сама собой, должна прежде всего
                <milestone unit="line" facs="#facs_86_l_53" n="N009"/>быть матерью. – «Быть свободным значит исполнять свое призвание»,
                <milestone unit="line" facs="#facs_86_l_54" n="N010"/>сказал Ибсен. И не стоит ли вместо того, чтобы смеяться, серьезно
                <milestone unit="line" facs="#facs_86_l_55" n="N011"/>задуматься над тем, что может происходить в душе существа, об<milestone unit="line" facs="#facs_86_l_56" n="N012"/>реченного в силу каких то случайных условий умереть, никогда не ис-
