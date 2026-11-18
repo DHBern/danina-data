@@ -1202,6 +1202,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml?person_annotation_20261118230441869",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-18T22:04:41.869Z",
+	"dcterms:modified": "2026-11-18T22:04:41.869Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml?person_annotation_20261118230441869#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml?person_annotation_20261118230441869#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[43]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -1491,7 +1571,7 @@
                <milestone unit="line" facs="#facs_121_l_37" n="N007"/>все равно я буду счастлива. Вообще говоря, я, может быть, эгоистка, но не в отно<milestone unit="line" facs="#facs_121_l_38" n="N008"/>шении к Вам. Для меня лучше то, что лучше для Вас. Вам здесь плохо - переезжайте»...
             </p>
          <p facs="#facs_121_r_4" xml:lang="ru" xml:id="p0370-ru">
-            <milestone unit="line" facs="#facs_121_l_10" n="N001"/>В своем ответе он мимоходом заметил, что в письме "моем много чисто<milestone unit="line" facs="#facs_121_l_11" n="N002"/>&amp;lt;женской&amp;gt;
+            <milestone unit="line" facs="#facs_121_l_10" n="N001"/>В своем ответе <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">он</persName> мимоходом заметил, что в письме "моем много чисто<milestone unit="line" facs="#facs_121_l_11" n="N002"/>&amp;lt;женской&amp;gt;
                <milestone unit="line" facs="#facs_121_l_12" n="N003"/> <del rend="strikethrough">женской</del> хитрости, вероятно безсознательной, как у большинства Вашего ора<milestone unit="line" facs="#facs_121_l_13" n="N004"/>та» и продолжал: "В конечном счетe Вам хочется кое-что сказать и кое-что
                <milestone unit="line" facs="#facs_121_l_14" n="N005"/>спросить. Я хочу быть <emph rend="underlined">честен</emph> с Вами и будучи честен, могу лишь сказать, что счи<milestone unit="line" facs="#facs_121_l_15" n="N006"/>таю Вас лучшим своим другом и жалею только о том, что Вы не мужчина.
                <milestone unit="line" facs="#facs_121_l_17" n="N007"/>Если бы я начал лгать Вам, наши прежние дружеские хорошие отношения вскоре прек<milestone unit="line" facs="#facs_121_l_18" n="N008"/>ратились бы и заменились враждебными. Я слишком хорошо знаю себя, чтобы
