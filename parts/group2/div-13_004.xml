@@ -485,6 +485,166 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml?person_annotation_20261118225000300",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-18T21:50:00.300Z",
+	"dcterms:modified": "2026-11-18T21:50:00.300Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml?person_annotation_20261118225000300#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml?person_annotation_20261118225000300#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[19]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml?person_annotation_20261118225024695",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-18T21:50:24.695Z",
+	"dcterms:modified": "2026-11-18T21:50:24.695Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml?person_annotation_20261118225024695#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_004.xml?person_annotation_20261118225024695#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[21]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -607,7 +767,7 @@
             <fw facs="#facs_119_r_2" type="page-number" place="top">
                <milestone unit="line" facs="#facs_119_l_18" n="N001"/>117</fw>
             <milestone unit="line" facs="#facs_119_l_23" n="N001"/>это мне кажется, сломило стену, создавшуюся между нами за последнее время. Фан<milestone unit="line" facs="#facs_119_l_29" n="N002"/>тазия ли это с моей стороны, что такая стена выросла? Нет, я чувствовала за
-               <milestone unit="line" facs="#facs_119_l_30" n="N003"/>все последнее время, когда он очень редко приходил ко мне, что не приходил и не из<milestone unit="line" facs="#facs_119_l_31" n="N004"/>за недостатка времени, которым отговаривался, а потому, что ему не хочется, его
+               <milestone unit="line" facs="#facs_119_l_30" n="N003"/>все последнее время, когда <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">он</persName> очень редко приходил ко мне, что не приходил и не из<milestone unit="line" facs="#facs_119_l_31" n="N004"/>за недостатка времени, которым отговаривался, а потому, что ему не хочется, его
                <milestone unit="line" facs="#facs_119_l_32" n="N005"/>не тянет итти ко мне. А не тянет оттого, что думает, будто я хочу над ним тиран<milestone unit="line" facs="#facs_119_l_33" n="N006"/>ствовать, стеснять его свободу. Если в подсознании наклонность к этому у меня и
                <milestone unit="line" facs="#facs_119_l_34" n="N007"/>есть, я все же ясно сознаю, как это плохо и не хочу и не буду стеснять его. Ведь я
                <milestone unit="line" facs="#facs_119_l_35" n="N008"/>больная и люблю его, как могла бы любить маленькая собачка человека, который
@@ -628,7 +788,7 @@
             
             </p>
          <p facs="#facs_119_r_6" xml:lang="ru" xml:id="p0363-ru">
-            <milestone unit="line" facs="#facs_119_l_10" n="N001"/>Когда я стала читать, он взял голову в свои руки. Когда он поднял ее, лицо у
+            <milestone unit="line" facs="#facs_119_l_10" n="N001"/>Когда я стала читать, <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">он</persName> взял голову в свои руки. Когда он поднял ее, лицо у
                <milestone unit="line" facs="#facs_119_l_11" n="N002"/>него было смущенное, взволнованное и растроганное. Удивительно, как этот человек,
                <milestone unit="line" facs="#facs_119_l_12" n="N003"/>при поверхностном знакомстве кажущийся циником, смущается и краснеет, как
                <milestone unit="line" facs="#facs_119_l_13" n="N004"/>девушка, если ему сказать что-нибудь хорошее о нем самом. Мне кажется, что
