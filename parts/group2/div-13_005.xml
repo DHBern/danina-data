@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -1362,6 +1365,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_005.xml?work_annotation_20261119000320847",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-18T23:03:20.847Z",
+	"dcterms:modified": "2026-11-18T23:03:20.847Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_005.xml?work_annotation_20261119000320847#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_005.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-13_005.xml?work_annotation_20261119000320847#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[49]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "https://danina.digitaleditions.ch/id/danina_w030",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -1392,7 +1475,7 @@
                <milestone unit="line" facs="#facs_124_l_38" n="N008"/>уже много спустя и тело. Но для тех, кто привык отдавать или брать
                <milestone unit="line" facs="#facs_124_l_39" n="N009"/>тело без души (<persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">он</persName> сказал о себе: «мальчишка я был очень распущенный») все это
                <milestone unit="line" facs="#facs_124_l_40" n="N010"/>должно быть <emph rend="underlined">навеки</emph> испорчено, осквернено и разбито. И это ужасно. Неужели
-               <milestone unit="line" facs="#facs_124_l_41" n="N011"/>никогда не будет возможно иначе воспитывать детей, которых теперь так <damage type="punchhole">ка<milestone unit="line" facs="#facs_124_l_42" n="N012"/>лечит</damage>?
+               <milestone unit="line" facs="#facs_124_l_41" n="N011"/>никогда не будет возможно иначе воспитывать детей, которых теперь так ка<milestone unit="line" facs="#facs_124_l_42" n="N012"/>лечит?
             </p>
          <p facs="#facs_124_r_2" xml:lang="de" corresp="#p0380-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_124_l_31" n="N001"/>Мне кажется, что «это» должно было бы быть невозможно, ког<emph rend="underlined">да</emph> не любишь. По
@@ -1412,7 +1495,8 @@
                <milestone unit="line" facs="#facs_124_l_3" n="N003"/>хотя бы и бессознательно. Если он любит только мою душу, для него не имеет
                <milestone unit="line" facs="#facs_124_l_4" n="N004"/>значения – мужчина я или женщина. <emph rend="underlined">В ней</emph> нравились ему глаза, и воло<milestone unit="line" facs="#facs_124_l_5" n="N005"/>сы. А до моих глаз ему нет дела. Но ведь и глаза мои теперь не те, что были
                <milestone unit="line" facs="#facs_124_l_6" n="N006"/>в восемнадцать лет. И если бы он увидел их тогда, кто знает, может быть
-               <milestone unit="line" facs="#facs_124_l_7" n="N007"/>они тоже показались бы ему бездонными?..</p>
+               <milestone unit="line" facs="#facs_124_l_7" n="N007"/>они тоже показались бы ему бездонными.
+            </p>
          <p facs="#facs_124_r_1" xml:lang="de" corresp="#p0381-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_124_l_1" n="N001"/>Что же однако, из всего этого следует? Не воображаю ли я на основании его
                <milestone unit="line" facs="#facs_124_l_2" n="N002"/>слов: «когда любишь, то это невозможно», что и меня он любит по-настоящему,
@@ -1422,7 +1506,9 @@
                <milestone unit="line" facs="#facs_124_l_7" n="N007"/>они тоже показались бы ему бездонными.
             </p>
          <p facs="#facs_124_r_3" xml:lang="ru" xml:id="p0382-ru">
-            <milestone unit="line" facs="#facs_124_l_19" n="N001"/>Чудесно, чудесно, продолжай свои изследования! К чему это может повести?  <milestone unit="line" facs="#facs_124_l_21" n="N002"/> <del rend="strikethrough">Только </del>к тому, что у меня окончательно зайдет ум за разум. Несносная я!
+            <milestone unit="line" facs="#facs_124_l_19" n="N001"/>Чудесно, чудесно, продолжай свои изследования! К чему это может повести?
+               <milestone unit="line" facs="#facs_124_l_21" n="N002"/>
+            <del rend="strikethrough">Только</del> &amp;lt;Только&amp;gt; к тому, что у меня окончательно зайдет ум за разум. Несносная я!
                <milestone unit="line" facs="#facs_124_l_22" n="N003"/>Я вижу окончательно, что я <emph rend="underlined">хочу</emph>, чтобы <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">он</persName> любил меня по настоящему. Я
                <milestone unit="line" facs="#facs_124_l_23" n="N004"/>должна признаться, что плакала, когда получила его письмо с выговором.
                <milestone unit="line" facs="#facs_124_l_24" n="N005"/>Но сегодня мне снилось, будто я получила от него другое письмо, начинавшееся
@@ -1701,7 +1787,7 @@
             </p>
          <p facs="#facs_127_r_7" xml:lang="ru" xml:id="p0401-ru">
             <milestone unit="line" facs="#facs_127_l_24" n="N001"/>Тем скорее, мне кажется, чем больше русских способны будут найти у
-               <milestone unit="line" facs="#facs_127_l_25" n="N002"/>себя в душе то, что там запрятано слишком глубоко. То, что нашел, нако<milestone unit="line" facs="#facs_127_l_30" n="N003"/>нец студент <del rend="strikethrough">&amp;lt;???&amp;gt;</del> из рассказа Андреева "Иностранец". Он мечтал навсегда уехать
+               <milestone unit="line" facs="#facs_127_l_25" n="N002"/>себя в душе то, что там запрятано слишком глубоко. То, что нашел, нако<milestone unit="line" facs="#facs_127_l_30" n="N003"/>нец студент <del rend="strikethrough">&amp;lt;???&amp;gt;</del> из рассказа Андреева "<title key="Иностранец" ref="https://danina.digitaleditions.ch/id/danina_w030" cert="high">Иностранец</title>". Он мечтал навсегда уехать
                <milestone unit="line" facs="#facs_127_l_36" n="N004"/>заграницу – жить и учиться там. Он не любил всей неустроенной, хаотичес<milestone unit="line" facs="#facs_127_l_37" n="N005"/>кой и бессмысленной жизни своей родины, не любил улиц, по которым ходил
             <pb corresp="#facs_128" n="128" xml:id="img_0128" ana="126r" facs="https://www.e-manuscripta.ch/i3f/v30/4597869/full/max/0/default.jpg"/>
             <fw facs="#facs_128_r_3" type="page-number" place="top">
