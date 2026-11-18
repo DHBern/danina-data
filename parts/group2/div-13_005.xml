@@ -1685,7 +1685,7 @@
             </p>
          <p facs="#facs_127_r_8" xml:lang="ru" xml:id="p0399-ru">
             <milestone unit="line" facs="#facs_127_l_15" n="N001"/>
-            <del rend="strikethrough">Ах</del> &amp;lt;Ах&amp;gt; нет, неужели не найдется достаточно, таких, которые <emph rend="underlined">сумеют</emph> лю<milestone unit="line" facs="#facs_127_l_16" n="N002"/>бить свою родину так, как она в этом нуждается?
+            <del rend="strikethrough"><damage type="punchhole">Ах</damage></del> нет, неужели не найдется достаточно, таких, которые <emph rend="underlined">сумеют</emph> лю<milestone unit="line" facs="#facs_127_l_16" n="N002"/>бить свою родину так, как она в этом нуждается?
             </p>
          <p facs="#facs_127_r_8" xml:lang="de" corresp="#p0399-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_127_l_15" n="N001"/>
