@@ -553,7 +553,7 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
-		"rdf:value": "Oscar Wildes Zitat"
+		"rdf:value": "[TODO]: Oscar Wildes Zitat ist vermutlich aus dem autobiografischen Briefessay De Profundis (1897)."
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -574,7 +574,7 @@
             <milestone unit="line" facs="#facs_84_l_19" n="N001"/>Но странно, что именно теперь, когда [<del rend="strikethrough">для</del>] всяк[<del rend="strikethrough">ого</del>]&amp;lt;oму&amp;gt; посторонн[<del rend="strikethrough">его</del>]&amp;lt;ему&amp;gt; че<milestone unit="line" facs="#facs_84_l_21" n="N002"/><damage type="punchhole">ловеку</damage> существование мое должно представляться чем то совершен<milestone unit="line" facs="#facs_84_l_22" n="N003"/>но безотрадным, пустым и бессмысленным, я научилась находить
                <milestone unit="line" facs="#facs_84_l_23" n="N004"/>жизнь прекрасной. Жизнь жестокая вещь, как сказал однажды
                <milestone unit="line" facs="#facs_84_l_24" n="N005"/><persName key="Борис" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Борис</persName>, но она прекрасна, если уметь подойти к ней и принять ее.
-               <milestone unit="line" facs="#facs_84_l_25" n="N006"/>Уа&amp;lt;й&amp;gt;льд<note type="researchNote">Oscar Wildes Zitat</note> говорит: «Как трагично, что столь немногим людям удается
+               <milestone unit="line" facs="#facs_84_l_25" n="N006"/>Уа&amp;lt;й&amp;gt;льд<note type="researchNote">[TODO]: Oscar Wildes Zitat ist vermutlich aus dem autobiografischen Briefessay De Profundis (1897).</note> говорит: «Как трагично, что столь немногим людям удается
                <milestone unit="line" facs="#facs_84_l_26" n="N007"/>раньше смерти овладеть своей душой». Теперь я овладела своей
                <milestone unit="line" facs="#facs_84_l_27" n="N008"/>душой и потому я так спокойна и даже счастлива. <placeName key="Даже" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="low"><placeName key="Даже" ref="https://danina.digitaleditions.ch/id/danina_p013">Даже</placeName></placeName> если бы
                <milestone unit="line" facs="#facs_84_l_28" n="N009"/>у меня ничего больше не оставалось бы, у меня все таки осталась
