@@ -3091,6 +3091,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_011.xml?person_annotation_20261119011457997",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-19T00:14:57.997Z",
+	"dcterms:modified": "2026-11-19T00:14:57.997Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/amariamor",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anna-Maria Morath"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_011.xml?person_annotation_20261119011457997#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_011.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_011.xml?person_annotation_20261119011457997#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[61]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p001",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -3672,7 +3751,7 @@
                <milestone unit="line" facs="#facs_169_l_25" n="N002"/>ног, ставит перед ней деревянный табурет вместо стoла и дает ей ножни<milestone unit="line" facs="#facs_169_l_26" n="N003"/>цы и бумажку „вырезывать“. Это очень интересно!
             </p>
          <p facs="#facs_169_r_4" xml:lang="ru" xml:id="p0553-ru">
-            <milestone unit="line" facs="#facs_169_l_10" n="N001"/>Кондратьевна добрая. Кроме того она называет Танечку барышнейкра<milestone unit="line" facs="#facs_169_l_11" n="N002"/>савицей и „умницей“, и это Танечке очень нравится. Плохо у Кондратьевны,
+            <milestone unit="line" facs="#facs_169_l_10" n="N001"/>Кондратьевна добрая. Кроме того она называет <persName key="Танечку" ref="https://danina.digitaleditions.ch/id/danina_p001">Танечку</persName> барышней-кра<milestone unit="line" facs="#facs_169_l_11" n="N002"/>савицей и „умницей“, и это Танечке очень нравится. Плохо у Кондратьевны,
                <milestone unit="line" facs="#facs_169_l_12" n="N003"/>лишь то, что муж ее, старый садовник „Василиванч“ очень больной и ворчит,
                <milestone unit="line" facs="#facs_169_l_13" n="N004"/>и Олечка его боится.
             </p>
