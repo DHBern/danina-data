@@ -3284,6 +3284,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_011.xml?note_annotation_20261119011742280",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-19T00:17:42.280Z",
+	"dcterms:modified": "2026-11-19T09:31:15.873Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/amariamor",
 		"@type": [
@@ -3314,7 +3315,7 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NoteScholarly",
+		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
 		"rdf:value": "Welche Olga?"
 	},
@@ -3915,7 +3916,7 @@
          {TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_169_l_10" n="N001"/>Кондратьевна добрая. Кроме того она называет Танечку барышнейкра<milestone unit="line" facs="#facs_169_l_11" n="N002"/>савицей и „умницей“, и это Танечке очень нравится. Плохо у Кондратьевны,
                <milestone unit="line" facs="#facs_169_l_12" n="N003"/>лишь то, что муж ее, старый садовник „Василиванч“ очень больной и ворчит,
-               <milestone unit="line" facs="#facs_169_l_13" n="N004"/>и Олечка<note type="scholarNote">Welche Olga?</note> его боится.
+               <milestone unit="line" facs="#facs_169_l_13" n="N004"/>и Олечка<note type="researchNote">Welche Olga?</note> его боится.
             
       </body>
    </text>
