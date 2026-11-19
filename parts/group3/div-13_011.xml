@@ -2852,6 +2852,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_011.xml?person_annotation_20261119010747664",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-19T00:07:47.664Z",
+	"dcterms:modified": "2026-11-19T00:07:47.664Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/amariamor",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anna-Maria Morath"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_011.xml?person_annotation_20261119010747664#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_011.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_011.xml?person_annotation_20261119010747664#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[55]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p001",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -3403,7 +3483,7 @@
             <milestone unit="line" facs="#facs_169_l" n="N001"/>167
             </p>
          <p facs="#facs_169_r_2" xml:lang="ru" xml:id="p0550-ru">
-            <milestone unit="line" facs="#facs_169_l_1" n="N001"/>Танечка очень любит ходить в гости к старой Кондратьевне. Кондратьевна
+            <milestone unit="line" facs="#facs_169_l_1" n="N001"/><persName key="Танечка" ref="https://danina.digitaleditions.ch/id/danina_p001" cert="high">Танечка</persName> очень любит ходить в гости к старой Кондратьевне. Кондратьевна
                <milestone unit="line" facs="#facs_169_l_30" n="N002"/>оченьочень старая старушка: она была няней Танечкина папы. А удивитель<milestone unit="line" facs="#facs_169_l_31" n="N003"/>но, как это папа был маленький? В хате у Кондратьевны очень хорошо. В
                <milestone unit="line" facs="#facs_169_l_32" n="N004"/>первой комнате плита, на плитой висят кастрюльки и разные непонят<milestone unit="line" facs="#facs_169_l_33" n="N005"/>ные „штуки“, над столом среди других вещей стоит &amp;lt;деревянной полке&amp;gt; кофейник и какая неви<milestone unit="line" facs="#facs_169_l_34" n="N006"/>данная мельница, чтобы молоть кофе. Иногда Кондратьевна позволяет Та<milestone unit="line" facs="#facs_169_l_35" n="N007"/>нечке повертеть ручку этой мельницы. Но это очень трудно.
             </p>
