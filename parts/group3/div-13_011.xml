@@ -2773,6 +2773,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_011.xml?person_annotation_20261119010601552",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-19T00:06:01.552Z",
+	"dcterms:modified": "2026-11-19T00:06:01.552Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/amariamor",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anna-Maria Morath"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_011.xml?person_annotation_20261119010601552#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_011.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_011.xml?person_annotation_20261119010601552#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[53]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p001",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -3304,7 +3383,7 @@
                <milestone unit="line" facs="#facs_168_l_5" n="N005"/>гадком доме должны они жить!
             </p>
          <p facs="#facs_168_r_4" xml:lang="ru" xml:id="p0549-ru">
-            <milestone unit="line" facs="#facs_168_l_6" n="N001"/>Вернувшись домой, Танечка простит маму сделать „муляшкам“ хороший
+            <milestone unit="line" facs="#facs_168_l_6" n="N001"/>Вернувшись домой, <persName key="Танечка" ref="https://danina.digitaleditions.ch/id/danina_p001">Танечка</persName> простит маму сделать „муляшкам“ хороший
                <milestone unit="line" facs="#facs_168_l_7" n="N002"/>дом из коробочки. Мама вырезывает в большой картонной коробочке двер
                <milestone unit="line" facs="#facs_168_l_8" n="N003"/>и окошечки, и Танечка в восторге: как хорошо там идет жить му<milestone unit="line" facs="#facs_168_l_9" n="N004"/>ляшкам! Она будет давать им каждый день хлебца, сделает для них по<milestone unit="line" facs="#facs_168_l_10" n="N005"/>стельки из лоскутков. Но увы! Когда Танечка, дрожа от страха, зажав
                <milestone unit="line" facs="#facs_168_l_11" n="N006"/>в свою маленькую ладонь нѣсколько „муляшек“, высыпает их в новый
