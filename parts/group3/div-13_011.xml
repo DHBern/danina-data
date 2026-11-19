@@ -3284,7 +3284,6 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_011.xml?note_annotation_20261119011742280",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-19T00:17:42.280Z",
-	"dcterms:modified": "2026-11-19T00:17:42.280Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/amariamor",
 		"@type": [
@@ -3311,7 +3310,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_011.xml?note_annotation_20261119011742280#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[62]/note"
+			"rdf:value": "TEI/text/body/note"
 		}
 	},
 	"oa:hasBody": {
@@ -3913,11 +3912,11 @@
                <milestone unit="line" facs="#facs_169_l_12" n="N003"/>лишь то, что муж ее, старый садовник „Василиванч“ очень больной и ворчит,
                <milestone unit="line" facs="#facs_169_l_13" n="N004"/>и Олечка его боится.
             </p>
-         <p facs="#facs_169_r_4" xml:lang="de" corresp="#p0553-ru">{TRANSLATION GOES HERE}
+         {TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_169_l_10" n="N001"/>Кондратьевна добрая. Кроме того она называет Танечку барышнейкра<milestone unit="line" facs="#facs_169_l_11" n="N002"/>савицей и „умницей“, и это Танечке очень нравится. Плохо у Кондратьевны,
                <milestone unit="line" facs="#facs_169_l_12" n="N003"/>лишь то, что муж ее, старый садовник „Василиванч“ очень больной и ворчит,
                <milestone unit="line" facs="#facs_169_l_13" n="N004"/>и Олечка<note type="scholarNote">Welche Olga?</note> его боится.
-            </p>
+            
       </body>
    </text>
 </TEI>
