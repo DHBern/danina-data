@@ -3996,11 +3996,11 @@
                <milestone unit="line" facs="#facs_169_l_12" n="N003"/>лишь то, что муж ее, старый садовник „Василиванч“ очень больной и ворчит,
                <milestone unit="line" facs="#facs_169_l_13" n="N004"/>и Олечка его боится.
             </p>
-		 <p facs="#facs_169_r_4" xml:lang="ru" xml:id="#p0553-ru">{TRANSLATION GOES HERE}
-            <milestone unit="line" facs="#facs_169_l_10" n="N001"/>Кондратьевна добрая. Кроме того она называет Танечку барышнейкра<milestone unit="line" facs="#facs_169_l_11" n="N002"/>савицей и „умницей“, и это Танечке очень нравится. Плохо у Кондратьевны,
+         <p facs="#facs_169_r_4" xml:lang="de" corresp="#p0553-ru">{TRANSLATION GOES HERE}
+               <milestone unit="line" facs="#facs_169_l_10" n="N001"/>Кондратьевна добрая. Кроме того она называет Танечку барышнейкра<milestone unit="line" facs="#facs_169_l_11" n="N002"/>савицей и „умницей“, и это Танечке очень нравится. Плохо у Кондратьевны,
                <milestone unit="line" facs="#facs_169_l_12" n="N003"/>лишь то, что муж ее, старый садовник „Василиванч“ очень больной и ворчит,
                <milestone unit="line" facs="#facs_169_l_13" n="N004"/>и Олечка<note type="researchNote">Welche Olga?</note> его боится.
-            </p>   
+            </p>  
       </body>
    </text>
 </TEI>
