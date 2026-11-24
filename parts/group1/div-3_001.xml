@@ -333,6 +333,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_001.xml?person_annotation_20261124120512590",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-24T11:05:12.590Z",
+	"dcterms:modified": "2026-11-24T11:05:12.590Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_001.xml?person_annotation_20261124120512590#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_001.xml?person_annotation_20261124120512590#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p008",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -395,7 +475,7 @@
             </fw>
             <milestone unit="line" facs="#facs_4_l_32" n="N001"/>дачке–особняке с верандой и садиком. Обитателями этой дачки были три
                <milestone unit="line" facs="#facs_4_l_33" n="N002"/>старых человека: сам д-р <persName key="Невольский" ref="https://danina.digitaleditions.ch/id/danina_p007" cert="high">Невольский</persName>, еще очень бодрый, жизнерадостный
-               <milestone unit="line" facs="#facs_4_l_34" n="N003"/>старик, жена его, Елена Васильевна, худая, некрасивая, необыкновенно нерв<milestone unit="line" facs="#facs_4_l_35" n="N004"/>ная и подвижная женщина, вечно занятая чтением книг и журналов. Детей
+               <milestone unit="line" facs="#facs_4_l_34" n="N003"/>старик, жена его, <persName key="Елена Васильевна" ref="https://danina.digitaleditions.ch/id/danina_p008" cert="high">Елена Васильевна</persName>, худая, некрасивая, необыкновенно нерв<milestone unit="line" facs="#facs_4_l_35" n="N004"/>ная и подвижная женщина, вечно занятая чтением книг и журналов. Детей
                <milestone unit="line" facs="#facs_4_l_36" n="N005"/>у нее не было, и она любила окружать себя молодежью, устраивала у себя
                <milestone unit="line" facs="#facs_4_l_37" n="N006"/>вечеринки нашего гимназическаго кружка самообразования и говорила на
                <milestone unit="line" facs="#facs_4_l_38" n="N007"/>этих вечеринках много, горячо и восторженно. Молодежь немного подсмеи<milestone unit="line" facs="#facs_4_l_39" n="N008"/>валась над нею за некоторые ее странности, но любила и охотно по<milestone unit="line" facs="#facs_4_l_40" n="N009"/>сещала ее. Ко мне она относилась с живым участием, и это было мне
