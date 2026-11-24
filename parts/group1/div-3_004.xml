@@ -2651,6 +2651,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?place_annotation_20261124224715484",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-24T21:47:15.484Z",
+	"dcterms:modified": "2026-11-24T21:47:15.484Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?place_annotation_20261124224715484#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_004.xml?place_annotation_20261124224715484#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[23]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://danina.digitaleditions.ch/id/danina_o002",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -2886,7 +2966,7 @@
                <milestone unit="line" facs="#facs_31_l_40" n="N010"/>Больше мы о нем не говорили.
             </p>
          <p facs="#facs_31_r_4" xml:lang="ru" xml:id="p0088-ru">
-            <milestone unit="line" facs="#facs_31_l_7" n="N001"/>Мы приехали благополучно в Берлин и прожили здесь, чтобы дать мне
+            <milestone unit="line" facs="#facs_31_l_7" n="N001"/>Мы приехали благополучно в <placeName key="Берлин" ref="https://danina.digitaleditions.ch/id/danina_o002" cert="high">Берлин</placeName> и прожили здесь, чтобы дать мне
                <milestone unit="line" facs="#facs_31_l_8" n="N002"/>отдохнуть, три дня. На второй день нашего приезда вечером <persName key="сестра" ref="https://danina.digitaleditions.ch/id/danina_p003">сестра</persName> и <persName key="Владимир Семенович" ref="https://danina.digitaleditions.ch/id/danina_p006" cert="high">Влади<milestone unit="line" facs="#facs_31_l_9" n="N003"/>мир Семенович</persName> ушли в театр, а я осталась одна. Я забралась с ногами на
                <milestone unit="line" facs="#facs_31_l_10" n="N004"/>подоконник и стала глядеть на улицу. Беспрерывное движение автомоби<milestone unit="line" facs="#facs_31_l_11" n="N005"/>лей, трамваев, омнибусов, велосипедистов, пешеходов было для меня занятно
                <milestone unit="line" facs="#facs_31_l_12" n="N006"/>и чудесно. На крышах домов зажигались и потухали световые рекламы.
