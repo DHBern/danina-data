@@ -1402,7 +1402,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?date_annotation_20261110121407323",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-10T11:14:07.323Z",
-	"dcterms:modified": "2026-11-10T11:14:07.323Z",
+	"dcterms:modified": "2026-11-24T16:59:33.240Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1480,7 +1480,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?date_annotation_20261110121431529",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-10T11:14:31.529Z",
-	"dcterms:modified": "2026-11-10T11:14:31.529Z",
+	"dcterms:modified": "2026-11-24T16:59:41.312Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -2275,7 +2275,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_002.xml?date_annotation_20261110124306735",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-10T11:43:06.735Z",
-	"dcterms:modified": "2026-11-10T11:43:06.735Z",
+	"dcterms:modified": "2026-11-24T16:59:58.190Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -2714,13 +2714,13 @@
             
             </p>
          <p facs="#facs_15_r_3" xml:lang="ru" xml:id="p0036-ru">
-            <milestone unit="line" facs="#facs_15_l_49" n="N001"/>Вот наступает зима <date when="1918">1918</date> года<note type="researchNote">Wollen wir Zeitperioden auch taggen?</note>, и в воздухе уже чувствуется приближение
+            <milestone unit="line" facs="#facs_15_l_49" n="N001"/>Вот наступает зима <date when="1918" cert="high">1918</date> года<note type="researchNote">Wollen wir Zeitperioden auch taggen?</note>, и в воздухе уже чувствуется приближение
                <milestone unit="line" facs="#facs_15_l_50" n="N002"/>снега, который я так люблю и необыкновенно сильно воспринимаю. Я знаю
                <milestone unit="line" facs="#facs_15_l_51" n="N003"/>каждый год, что скоро выпадет снег. Икогда снег снится мне ночью и,
                <milestone unit="line" facs="#facs_15_l_52" n="N004"/>сыпаясь, я вижу его на улице. Что то неуловимые в воздухе говорит мне:
                <milestone unit="line" facs="#facs_15_l_54" n="N005"/>скоро будет снег И тогда в душе моей встает какое то &amp;lt;далекоe и&amp;gt; смутное воспо<milestone unit="line" facs="#facs_15_l_55" n="N006" break="no"/>минание зимы, не какой-либо определенной зимы, но зимы вообще, всех
                <milestone unit="line" facs="#facs_15_l_56" n="N007"/>зим, уже пережитых мною. Но сегодня, когда я впервые в этом году почув
-               <milestone unit="line" facs="#facs_15_l_58" n="N008"/>ствовала зиму, мне почему то с особенной силой &amp;lt;припоминалась&amp;gt; одна из моих зим, мо<milestone unit="line" facs="#facs_15_l_59" n="N009" break="no"/>жет быть самая счастливая в моей жизни. Это зима <date when="1911">1911</date> года, проведен<milestone unit="line" facs="#facs_15_l_60" n="N010" break="no"/>ная мною в Г., санатории близ Сухума<note type="researchNote">Relevante Ortsentität? G. , einem Sanatorium in der Nähe von Suchumi?</note>. Воспоминания об этой зиме
+               <milestone unit="line" facs="#facs_15_l_58" n="N008"/>ствовала зиму, мне почему то с особенной силой &amp;lt;припоминалась&amp;gt; одна из моих зим, мо<milestone unit="line" facs="#facs_15_l_59" n="N009" break="no"/>жет быть самая счастливая в моей жизни. Это зима <date when="1911" cert="high">1911</date> года, проведен<milestone unit="line" facs="#facs_15_l_60" n="N010" break="no"/>ная мною в Г., санатории близ Сухума<note type="researchNote">Relevante Ortsentität? G. , einem Sanatorium in der Nähe von Suchumi?</note>. Воспоминания об этой зиме
             <pb corresp="#facs_16" n="16" xml:id="img_0016" ana="15r" facs="https://www.e-manuscripta.ch/i3f/v30/4597645/full/max/0/default.jpg"/>
             <fw facs="#facs_16_r_6" type="page-number" place="top">
                <milestone unit="line" facs="#facs_16_l_3" n="N001"/>15 </fw>
@@ -3119,7 +3119,7 @@
                <milestone unit="line" facs="#facs_21_l_25" n="N003"/>но этого не должно быть, так как у меня там, в глубине, есть что то
                <milestone unit="line" facs="#facs_21_l_26" n="N004"/>гордое и, может быть, красивое, и если этого никто не хочет признать
                <milestone unit="line" facs="#facs_21_l_27" n="N005"/>и понять, я буду мстить своим падением. Мысль бредовая и слабая. Но...
-               <milestone unit="line" facs="#facs_21_l_28" n="N006"/>это факт, и не один… их много. Ими размалевана вся моя жизнь, начи<milestone unit="line" facs="#facs_21_l_29" n="N007"/>ная с <date when="1906">1906</date> года – жизнь упадочная. Встреча с тобой – новый поворот.
+               <milestone unit="line" facs="#facs_21_l_28" n="N006"/>это факт, и не один… их много. Ими размалевана вся моя жизнь, начи<milestone unit="line" facs="#facs_21_l_29" n="N007"/>ная с <date when="1906" cert="high">1906</date> года – жизнь упадочная. Встреча с тобой – новый поворот.
                <milestone unit="line" facs="#facs_21_l_30" n="N008"/>Я возле тебя воскресаю. Не отталкивай меня, я боюсь моей холодности,
                <milestone unit="line" facs="#facs_21_l_31" n="N009"/>моей жестокости, моей подозрительности, моей нелюбви к людям.
             </quote>
