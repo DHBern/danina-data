@@ -162,7 +162,7 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NoteInternal",
 		"dc:format": "text/plain",
-		"rdf:value": "[TODO]: EinoZitateinordnung und Werk"
+		"rdf:value": "[TODO]: Einordnung Zitate und Werk"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -196,7 +196,7 @@
                <milestone unit="line" facs="#facs_3_l_37" n="N003"/>Оскар Уайльд.
             </ab>
          <p facs="#facs_3_r_6" xml:lang="ru" xml:id="p0002-ru">
-            <milestone unit="line" facs="#facs_3_l_6" n="N001"/>Недавно я читала «Маленькие деревянные башмаки»<note type="researchNote">[TODO]: EinoZitateinordnung und Werk</note> Уайльда, и
+            <milestone unit="line" facs="#facs_3_l_6" n="N001"/>Недавно я читала «Маленькие деревянные башмаки»<note type="researchNote">[TODO]: Einordnung Zitate und Werk</note> Уайльда, и
                <milestone unit="line" facs="#facs_3_l_8" n="N002"/>эта трогательная, поэтическая &amp;lt;история&amp;gt; простой бретонской девушкицветоч<milestone unit="line" facs="#facs_3_l_9" n="N003" break="no"/>ницы, влюбленной в художника, который видел в ней лишь модель для Грет<milestone unit="line" facs="#facs_3_l_11" n="N004" break="no"/>хен и, &amp;lt;почти&amp;gt; не замечавшей другого человека, который любил её глубокою и пре<milestone unit="line" facs="#facs_3_l_14" n="N005" break="no"/>данною любовью, – эта история напомнила &amp;lt;нечто подобное&amp;gt; <del rend="strikethrough">другую историю</del> из моей собственной жиз<milestone unit="line" facs="#facs_3_l_31" n="N006"/>ни.
             </p>
          <p facs="#facs_3_r_6" xml:lang="de" corresp="#p0002-ru">{TRANSLATION GOES HERE}
