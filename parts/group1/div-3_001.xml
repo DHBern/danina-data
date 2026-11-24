@@ -2089,6 +2089,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_001.xml?person_annotation_20261124143304795",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-24T13:33:04.795Z",
+	"dcterms:modified": "2026-11-24T13:33:04.795Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_001.xml?person_annotation_20261124143304795#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_001.xml?person_annotation_20261124143304795#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[27]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p005",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -2536,7 +2616,7 @@
             <milestone unit="line" facs="#facs_9_l_29" n="N001"/>Возвращаюсь теперь к событию, внесшему большое изменение в мою жизнь.
                <milestone unit="line" facs="#facs_9_l_30" n="N002"/>
             <del rend="strikethrough">Евгения </del><persName key="Елена Васильевна" ref="https://danina.digitaleditions.ch/id/danina_p008" cert="high">Елена Васильевна</persName> представила мне однажды молодого человека,
-               <milestone unit="line" facs="#facs_9_l_32" n="N003"/>остановившегося у нее на несколько дней. Это был сын ее хорошей знако<milestone unit="line" facs="#facs_9_l_33" n="N004"/>мой, Евгений Александрович Травинский. Ему было немногим более двадцати
+               <milestone unit="line" facs="#facs_9_l_32" n="N003"/>остановившегося у нее на несколько дней. Это был сын ее хорошей знако<milestone unit="line" facs="#facs_9_l_33" n="N004"/>мой, <persName key="Евгений Александрович Травинский" ref="https://danina.digitaleditions.ch/id/danina_p005" cert="high">Евгений Александрович Травинский</persName>. Ему было немногим более двадцати
                <milestone unit="line" facs="#facs_9_l_34" n="N005"/>лет, он был высок и строен, имел крупные и довольно красивые черты
                <milestone unit="line" facs="#facs_9_l_35" n="N006"/>лица, одѣвался изящно, имел хорошіе манеры, «кланялся непринужден<milestone unit="line" facs="#facs_9_l_36" n="N007"/>но" и т.д. Елена Васильевна предложила пойти погулять. По дороге Евгений
                <milestone unit="line" facs="#facs_9_l_37" n="N008"/>Александрович с ловкостью светского человека заводил разговор то со мной
