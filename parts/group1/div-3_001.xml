@@ -3401,7 +3401,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_001.xml?person_annotation_20261124150040293",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-24T14:00:40.293Z",
-	"dcterms:modified": "2026-11-24T14:00:40.293Z",
+	"dcterms:modified": "2026-11-24T14:45:16.632Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -3433,7 +3433,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "https://danina.digitaleditions.ch/id/danina_w005",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p005",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -3481,7 +3481,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_001.xml?person_annotation_20261124150122300",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-24T14:01:22.300Z",
-	"dcterms:modified": "2026-11-24T14:01:22.300Z",
+	"dcterms:modified": "2026-11-24T14:45:30.959Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -3513,7 +3513,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "https://danina.digitaleditions.ch/id/danina_w005",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p005",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -3560,7 +3560,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_001.xml?person_annotation_20261124150256186",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-24T14:02:56.186Z",
-	"dcterms:modified": "2026-11-24T14:02:56.186Z",
+	"dcterms:modified": "2026-11-24T14:45:44.382Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -3592,7 +3592,7 @@
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
-		"@id": "https://danina.digitaleditions.ch/id/danina_w005",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p005",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -4311,7 +4311,7 @@
                <milestone unit="line" facs="#facs_11_l_44" n="N001"/>Подышать и бросить…
             </p>
          <p facs="#facs_11_r_1" xml:lang="ru" xml:id="p0024-ru">
-            <milestone unit="line" facs="#facs_11_l_1" n="N001"/>Перечитывая теперь <persName key="его" ref="https://danina.digitaleditions.ch/id/danina_w005" cert="high">его</persName> письма, я ясно вижу, что в них нет истиннаго
+            <milestone unit="line" facs="#facs_11_l_1" n="N001"/>Перечитывая теперь <persName key="его" ref="https://danina.digitaleditions.ch/id/danina_p005" cert="high">его</persName> письма, я ясно вижу, что в них нет истиннаго
                <milestone unit="line" facs="#facs_11_l_2" n="N002"/>чувства любви. Впрочем уже тогда иные места его писем мне не нравились
                <milestone unit="line" facs="#facs_11_l_3" n="N003"/>и вызывали какое то неприятное чувство, но я старалась не думать о
                <milestone unit="line" facs="#facs_11_l_4" n="N004"/>них и помнила лишь то, что могло убедить меня в его любви ко мне.
@@ -4324,7 +4324,7 @@
             </p>
          <p facs="#facs_11_r_4" xml:lang="ru" xml:id="p0025-ru">
             <milestone unit="line" facs="#facs_11_l_5" n="N001"/>Последние остатки моего сопротивления были устранены, как только
-               <milestone unit="line" facs="#facs_11_l_6" n="N002"/>я получила от <persName key="него" ref="https://danina.digitaleditions.ch/id/danina_w005">него</persName> письмо с сообщением о том, что у него произошло
+               <milestone unit="line" facs="#facs_11_l_6" n="N002"/>я получила от <persName key="него" ref="https://danina.digitaleditions.ch/id/danina_p005">него</persName> письмо с сообщением о том, что у него произошло
                <milestone unit="line" facs="#facs_11_l_7" n="N003"/>кровоизлияние. О, как хорошо я помню этот день! Что сделалось со мною?!
                <milestone unit="line" facs="#facs_11_l_8" n="N004"/>Я убежала с этим письмом к моему любимому дубу у нас на горе
                <milestone unit="line" facs="#facs_11_l_9" n="N005"/>около кладбища. Я плакала<del rend="strikethrough">,</del> и не могла остановить своих рыданий; я
@@ -4342,7 +4342,7 @@
             </fw>
             <milestone unit="line" facs="#facs_12_l_1" n="N001"/>радочно горели и щеки были покрыты румянцем. Я была, кажется, хороша.
                <milestone unit="line" facs="#facs_12_l_2" n="N002"/>Говорят, что лицо женщины, которая любит, становится неузнаваемо. А
-               <milestone unit="line" facs="#facs_12_l_3" n="N003"/>я любила. Кого? Я не знаю. Быть может, плод своего воображения. Я напи<milestone unit="line" facs="#facs_12_l_4" n="N004"/>сала <persName key="ему" ref="https://danina.digitaleditions.ch/id/danina_w005" cert="high">ему</persName>, что люблю его, люблю уже давно, с первой встречи, и не хотела
+               <milestone unit="line" facs="#facs_12_l_3" n="N003"/>я любила. Кого? Я не знаю. Быть может, плод своего воображения. Я напи<milestone unit="line" facs="#facs_12_l_4" n="N004"/>сала <persName key="ему" ref="https://danina.digitaleditions.ch/id/danina_p005" cert="high">ему</persName>, что люблю его, люблю уже давно, с первой встречи, и не хотела
                <milestone unit="line" facs="#facs_12_l_5" n="N005"/>лишь признаться в этом из стыдливости. Я знаю теперь, что это была не
                <milestone unit="line" facs="#facs_12_l_6" n="N006"/>правда, и я не любила его сначала, но тогда мне стало казаться, что я
                <milestone unit="line" facs="#facs_12_l_7" n="N007"/>всегда любила его. Я умоляла его позаботиться о своем здоровье и приехать,
