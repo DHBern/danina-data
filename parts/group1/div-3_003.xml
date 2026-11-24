@@ -2891,6 +2891,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_003.xml?person_annotation_20261124221207677",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-24T21:12:07.677Z",
+	"dcterms:modified": "2026-11-24T21:12:07.677Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_003.xml?person_annotation_20261124221207677#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_003.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_003.xml?person_annotation_20261124221207677#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[27]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p003",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:low"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -3152,7 +3232,7 @@
                <milestone unit="line" facs="#facs_25_l_24" n="N001"/>Наступила зима. Женя жил в Москве, но один, без матери, в меблирован<milestone unit="line" facs="#facs_25_l_25" n="N002"/>ных комнатах. Мечты о квартире и о моем приезде осталась лишь мечта<milestone unit="line" facs="#facs_25_l_26" n="N003"/>ми.
             </p>
          <p facs="#facs_25_r_6" xml:lang="ru" xml:id="p0065-ru">
-            <milestone unit="line" facs="#facs_25_l_10" n="N001"/>Я решила поехать в <placeName key="Москву" ref="https://danina.digitaleditions.ch/id/danina_o001" cert="high">Москву</placeName> погостить у сестры – курсистки. Но требо<milestone unit="line" facs="#facs_25_l_11" n="N002"/>валось разрешение моего доктора на эту поездку. Я пошла к доктору.
+            <milestone unit="line" facs="#facs_25_l_10" n="N001"/>Я решила поехать в <placeName key="Москву" ref="https://danina.digitaleditions.ch/id/danina_o001" cert="high">Москву</placeName> погостить у <persName key="сестры" ref="https://danina.digitaleditions.ch/id/danina_p003" cert="low">сестры</persName> – курсистки. Но требо<milestone unit="line" facs="#facs_25_l_11" n="N002"/>валось разрешение моего доктора на эту поездку. Я пошла к доктору.
                <milestone unit="line" facs="#facs_25_l_12" n="N003"/>Он сказал, что если нет исключительной необходимости, то мне не сле<milestone unit="line" facs="#facs_25_l_13" n="N004"/>дует ехать, поездка может повредить мне. Я пришла домой и сказала,
                <milestone unit="line" facs="#facs_25_l_14" n="N005"/>что доктор позволил, но только мне нужно быть осторожной.
             </p>
