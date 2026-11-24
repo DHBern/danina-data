@@ -2968,6 +2968,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_001.xml?person_annotation_20261124144944018",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-24T13:49:44.018Z",
+	"dcterms:modified": "2026-11-24T13:49:44.018Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_001.xml?person_annotation_20261124144944018#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-3_001.xml?person_annotation_20261124144944018#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[41]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p005",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -3564,7 +3644,7 @@
             </fw>
          </p>
          <p facs="#facs_11_r" xml:lang="ru" xml:id="p0022-ru">
-            <milestone unit="line" facs="#facs_11_l_15" n="N001"/>Мне начинало самой казаться, что я люблю его. Мне так хотелось люб<milestone unit="line" facs="#facs_11_l_16" n="N002" break="no"/>ви! Я жадно читала все эти фразы о любви, запоминала их найзусть, ве<milestone unit="line" facs="#facs_11_l_17" n="N003" break="no"/>рила и гордилась, что способна вызвать в нем такое сильное чувство. Если бы
+            <milestone unit="line" facs="#facs_11_l_15" n="N001"/>Мне начинало самой казаться, что я люблю <persName key="его" ref="https://danina.digitaleditions.ch/id/danina_p005" cert="high">его</persName>. Мне так хотелось люб<milestone unit="line" facs="#facs_11_l_16" n="N002" break="no"/>ви! Я жадно читала все эти фразы о любви, запоминала их найзусть, ве<milestone unit="line" facs="#facs_11_l_17" n="N003" break="no"/>рила и гордилась, что способна вызвать в нем такое сильное чувство. Если бы
                <milestone unit="line" facs="#facs_11_l_18" n="N004"/>я способна была в то время задуматься над его письмами, я разглядела бы,
                <milestone unit="line" facs="#facs_11_l_19" n="N005"/>что они не могли быть написаны человеком, который любит истинно и глу<milestone unit="line" facs="#facs_11_l_20" n="N006" break="no"/>боко. В лучшем случае он сам обманывался в своем чувстве. В худшем... Но у
                <milestone unit="line" facs="#facs_11_l_21" n="N007"/>меня нет решимости обвинить его в том, в чем повинен герой романа "Le
