@@ -1542,7 +1542,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103115520558",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-03T10:55:20.558Z",
-	"dcterms:modified": "2026-11-03T10:55:20.558Z",
+	"dcterms:modified": "2026-11-25T21:04:41.240Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1583,7 +1583,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "4.3.2"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -1700,7 +1701,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103120327319",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-03T11:03:27.319Z",
-	"dcterms:modified": "2026-11-03T11:03:27.319Z",
+	"dcterms:modified": "2026-11-25T21:04:55.415Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1741,7 +1742,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "4.3.2"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -1779,7 +1781,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103120540687",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-03T11:05:40.687Z",
-	"dcterms:modified": "2026-11-03T11:05:40.687Z",
+	"dcterms:modified": "2026-11-25T21:04:47.877Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1820,7 +1822,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "4.3.2"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -2846,7 +2849,7 @@
                <milestone unit="line" facs="#facs_132_l_27" n="N003"/>Вам, что у нас в доме грипп.»
             </p>
          <p facs="#facs_132_r_5" xml:lang="ru" xml:id="p0419-ru">
-            <milestone unit="line" facs="#facs_132_l_28" n="N001"/><persName key="Он" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Он</persName> просидел у меня до одиннадцати часов ночи. <persName key="Мlle &amp;lt;Р.Ш.&amp;gt;" ref="https://danina.digitaleditions.ch/id/danina_p015">Мlle &amp;lt;<persName key="Р.Ш." ref="https://danina.digitaleditions.ch/id/danina_p015">Р.Ш.</persName>&amp;gt;</persName>, француженка
+            <milestone unit="line" facs="#facs_132_l_28" n="N001"/><persName key="Он" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Он</persName> просидел у меня до одиннадцати часов ночи. <persName key="Мlle &amp;lt;Р.Ш.&amp;gt;" ref="https://danina.digitaleditions.ch/id/danina_p015" cert="high">Мlle &amp;lt;<persName key="Р.Ш." ref="https://danina.digitaleditions.ch/id/danina_p015">Р.Ш.</persName>&amp;gt;</persName>, француженка
                <milestone unit="line" facs="#facs_132_l_29" n="N002"/>тоже, как и я, очень больная, была у меня все это время, готовила
                <milestone unit="line" facs="#facs_132_l_30" n="N003"/>чай и болтала без умолку. Было очень славно.
             </p>
@@ -2872,8 +2875,8 @@
             <pb corresp="#facs_133" n="133" xml:id="img_0133" ana="131r" facs="https://www.e-manuscripta.ch/i3f/v30/4597879/full/max/0/default.jpg"/>
             <fw facs="#facs_133_r" type="page-number" place="top">
                <milestone unit="line" facs="#facs_133_l" n="N001"/>131</fw>
-            <milestone unit="line" facs="#facs_133_l_1" n="N001"/>ему мое письмо. У меня у самой было желание послать <persName key="ему" ref="https://danina.digitaleditions.ch/id/danina_p013">ему</persName> белую фиалку. После
-               <milestone unit="line" facs="#facs_133_l_2" n="N002"/>того, как такая же идея пришла и <persName key="ей" ref="https://danina.digitaleditions.ch/id/danina_p015">ей</persName> в голову, я сказала себе: хорошо, в таком
+            <milestone unit="line" facs="#facs_133_l_1" n="N001"/>ему мое письмо. У меня у самой было желание послать <persName key="ему" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">ему</persName> белую фиалку. После
+               <milestone unit="line" facs="#facs_133_l_2" n="N002"/>того, как такая же идея пришла и <persName key="ей" ref="https://danina.digitaleditions.ch/id/danina_p015" cert="high">ей</persName> в голову, я сказала себе: хорошо, в таком
                <milestone unit="line" facs="#facs_133_l_3" n="N003"/>случае я не пошлю ему моей фиалки. Но вчера я всетаки послала ее, только пото<milestone unit="line" facs="#facs_133_l_4" n="N004"/>му, что <persName key="он" ref="https://danina.digitaleditions.ch/id/danina_p013">он</persName> болен... И вот сегодня она сказала мне, что вчера тоже писала ему.
                <milestone unit="line" facs="#facs_133_l_5" n="N005"/>И я в отчаянии, что послала мою жалкую беленькую фиалку: ведь она быть
                <milestone unit="line" facs="#facs_133_l_6" n="N006"/>может, тоже послала несколько штук. Она так на меня не похожа, и все
@@ -2975,7 +2978,7 @@
             <milestone unit="line" facs="#facs_134_l_1" n="N001"/>И мой слабый голос, может быть, прозвучит, когда нибудь и будет кемни<milestone unit="line" facs="#facs_134_l_2" n="N002"/>будь услышан. Жизнь прекрасна. Жизнь прекрасна. Не смотря ни на что. Я
                <milestone unit="line" facs="#facs_134_l_3" n="N003"/>хотела бы перелить в души тех, кто отчаивается, тех, кто спрашивает:
                <milestone unit="line" facs="#facs_134_l_4" n="N004"/>за что сужденно им так страдать? – то чувство единства, чувство преем<milestone unit="line" facs="#facs_134_l_5" n="N005"/>ственности жизни, которое помогает мне жить. Мне так близки и
-               <milestone unit="line" facs="#facs_134_l_6" n="N006"/>понятны слова поэта Бунина<note type="scholarNote">Hier ist der Dichter Iwan Bunin gemeint.</note>: <note type="researchNote">[TODO]: Das Zitat bedarf einer Überprüfung.</note><title key="&amp;quot;радостно жить и знать, что я умру, и этот день пройдет, но вечно будет радость жить.&amp;quot;" ref="https://danina.digitaleditions.ch/id/danina_w007" cert="medium">"радостно жить и знать, что я умру,
+               <milestone unit="line" facs="#facs_134_l_6" n="N006"/>понятны слова поэта Бунина<note type="scholarNote">Hier ist der Dichter Ivan Bunin gemeint.</note>: <note type="researchNote">[TODO]: Das Zitat bedarf einer Überprüfung.</note><title key="&amp;quot;радостно жить и знать, что я умру, и этот день пройдет, но вечно будет радость жить.&amp;quot;" ref="https://danina.digitaleditions.ch/id/danina_w007" cert="medium">"радостно жить и знать, что я умру,
                <milestone unit="line" facs="#facs_134_l_7" n="N007"/>и этот день пройдет, но вечно будет радость жить."</title>
             </p>
          <p facs="#facs_134_r_1" xml:lang="de" corresp="#p0425-ru">{TRANSLATION GOES HERE}
