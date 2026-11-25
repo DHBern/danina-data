@@ -2250,7 +2250,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105094038146",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-05T08:40:38.146Z",
-	"dcterms:modified": "2026-11-05T08:40:38.146Z",
+	"dcterms:modified": "2026-11-25T21:03:37.285Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -2291,7 +2291,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "4.3.2"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -2329,7 +2330,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105110651201",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-05T10:06:51.201Z",
-	"dcterms:modified": "2026-11-05T10:06:51.201Z",
+	"dcterms:modified": "2026-11-25T21:03:44.185Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/amariamor",
 		"@type": [
@@ -2371,6 +2372,18 @@
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "4.3.2"
 	},
+	"dcterms:contributor": [
+		{
+			"dcterms:contributor": {
+				"@id": "https://github.com/rtwlk",
+				"@type": [
+					"cwrc:NaturalPerson",
+					"schema:Person"
+				],
+				"cwrc:hasName": "rtwlk"
+			}
+		}
+	],
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
@@ -2532,6 +2545,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261125220330384",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-25T21:03:30.384Z",
+	"dcterms:modified": "2026-11-25T21:03:30.384Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261125220330384#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261125220330384#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[7]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p113",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -2575,7 +2668,7 @@
             </p>
          <p xml:lang="de" facs="#facs_129_r_6" ana="dated_entry_header">24. November.</p>
          <p facs="#facs_129_r_5" xml:lang="ru" xml:id="p0405-ru">
-            <milestone unit="line" facs="#facs_129_l_30" n="N001"/>Позавчера была у нас <persName key="гжа А." ref="https://danina.digitaleditions.ch/id/danina_p017">гжа А.</persName>, и мы говорили об еврейском вопросе, о погромах.
+            <milestone unit="line" facs="#facs_129_l_30" n="N001"/>Позавчера была у нас <persName key="гжа А." ref="https://danina.digitaleditions.ch/id/danina_p017" cert="high">гжа А.</persName>, и мы говорили об еврейском вопросе, о погромах.
                <milestone unit="line" facs="#facs_129_l_31" n="N002"/><persName key="Борис" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Борис</persName> едва сдерживал свое волнение, с дрожью в голосе он сказал: там у ме<milestone unit="line" facs="#facs_129_l_32" n="N003"/>ня есть отец, сестры. И вот их, может быть, убьют за что?!
             </p>
          <p facs="#facs_129_r_5" xml:lang="de" corresp="#p0405-ru">{TRANSLATION GOES HERE}
@@ -2584,7 +2677,7 @@
             </p>
          <p facs="#facs_129_r_4" xml:lang="ru" xml:id="p0406-ru">
             <milestone unit="line" facs="#facs_129_l_8" n="N001"/>Странно, как раз в прошедшую ночь мне снился сон. Ознакомившись недавно с
-               <milestone unit="line" facs="#facs_129_l_9" n="N002"/>теорией Фрейда о снах, я пришла к заключению, что никогда не следует рассказы <del rend="strikethrough"><damage type="punchhole">вать</damage></del> вать о своих снов, но записать — почему бы и нет. Разве за все, в чем я и помимо
+               <milestone unit="line" facs="#facs_129_l_9" n="N002"/>теорией <persName key="Фрейда" ref="https://danina.digitaleditions.ch/id/danina_p113" cert="high">Фрейда</persName> о снах, я пришла к заключению, что никогда не следует рассказы <del rend="strikethrough"><damage type="punchhole">вать</damage></del> вать о своих снов, но записать — почему бы и нет. Разве за все, в чем я и помимо
                <milestone unit="line" facs="#facs_129_l_12" n="N004"/>снов признаюсь, не обзовут меня каким-нибудь грубым медицинским терминым,
                <milestone unit="line" facs="#facs_129_l_13" n="N005"/>ничего в сущности не объясняющим?
             </p>
