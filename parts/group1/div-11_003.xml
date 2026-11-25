@@ -1931,7 +1931,7 @@
             <pb corresp="#facs_64" n="64" xml:id="img_0064" ana="63r" facs="https://www.e-manuscripta.ch/i3f/v30/4597741/full/max/0/default.jpg"/>
          </ab>
          <p facs="#facs_64_r_1" xml:lang="ru" xml:id="p0209-ru">
-            <milestone unit="line" facs="#facs_64_l_1" n="N001"/>В тот же вечер<note type="researchNote"> </note>мне принесли записку:
+            <milestone unit="line" facs="#facs_64_l_1" n="N001"/>В тот же вечер<note type="researchNote"/>мне принесли записку:
             <quote>
                <milestone unit="line" facs="#facs_64_l_29" n="N001"/>„Дорогая Таня, я только что прочел письмо Ваше и <del rend="strikethrough">записки</del> главу из „<title key="Героя" ref="https://danina.digitaleditions.ch/id/danina_w002" cert="high">Героя</title>.“
                <milestone unit="line" facs="#facs_64_l_31" n="N002"/>Мне сдается, что мы не понимаем друг друга, так как по моему вся эта гла<milestone unit="line" facs="#facs_64_l_32" n="N003"/>ва не имеет никакого внутреннего отношения к тому, что я Вам вчера пи<milestone unit="line" facs="#facs_64_l_33" n="N004"/>сал. Что побуждения, подобные Печоринским, возможны и существуют, я этого
