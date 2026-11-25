@@ -1145,6 +1145,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261105120512367",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-05T11:05:12.367Z",
+	"dcterms:modified": "2026-11-25T21:04:10.516Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1382,7 +1383,7 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261103115028141",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-03T10:50:28.141Z",
-	"dcterms:modified": "2026-11-03T10:50:28.141Z",
+	"dcterms:modified": "2026-11-25T21:04:34.581Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -1423,7 +1424,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "4.3.2"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       
@@ -2844,7 +2846,7 @@
                <milestone unit="line" facs="#facs_132_l_27" n="N003"/>Вам, что у нас в доме грипп.»
             </p>
          <p facs="#facs_132_r_5" xml:lang="ru" xml:id="p0419-ru">
-            <milestone unit="line" facs="#facs_132_l_28" n="N001"/><persName key="Он" ref="https://danina.digitaleditions.ch/id/danina_p013">Он</persName> просидел у меня до одиннадцати часов ночи. <persName key="Мlle &amp;lt;Р.Ш.&amp;gt;" ref="https://danina.digitaleditions.ch/id/danina_p015">Мlle &amp;lt;<persName key="Р.Ш." ref="https://danina.digitaleditions.ch/id/danina_p015">Р.Ш.</persName>&amp;gt;</persName>, француженка
+            <milestone unit="line" facs="#facs_132_l_28" n="N001"/><persName key="Он" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">Он</persName> просидел у меня до одиннадцати часов ночи. <persName key="Мlle &amp;lt;Р.Ш.&amp;gt;" ref="https://danina.digitaleditions.ch/id/danina_p015">Мlle &amp;lt;<persName key="Р.Ш." ref="https://danina.digitaleditions.ch/id/danina_p015">Р.Ш.</persName>&amp;gt;</persName>, француженка
                <milestone unit="line" facs="#facs_132_l_29" n="N002"/>тоже, как и я, очень больная, была у меня все это время, готовила
                <milestone unit="line" facs="#facs_132_l_30" n="N003"/>чай и болтала без умолку. Было очень славно.
             </p>
