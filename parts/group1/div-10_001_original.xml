@@ -174,6 +174,85 @@
 	"cwrc:hasCertainty": "cwrc:medium"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-10_001_original.xml?note_annotation_20261125152327804",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-25T14:23:27.804Z",
+	"dcterms:modified": "2026-11-25T14:23:27.804Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-10_001_original.xml?note_annotation_20261125152327804#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-10_001_original.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group1/div-10_001_original.xml?note_annotation_20261125152327804#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[5]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteInternal",
+		"dc:format": "text/plain",
+		"rdf:value": "[TODO]: Welches Jahr in Juni? 1917, ...?"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><xenoData>
          
       </xenoData>
@@ -218,7 +297,7 @@
                <milestone unit="line" facs="#facs_48_l_46" n="N008"/>у него наклонность к противоречию и упрямство.
             </p>
          <p facs="#facs_48_r_4" xml:lang="ru" xml:id="p0154-ru">
-            <milestone unit="line" facs="#facs_48_l_17" n="N001"/>Вначале июня мне вдруг стало очень плохо: в результате
+            <milestone unit="line" facs="#facs_48_l_17" n="N001"/>Вначале июня<note type="researchNote">[TODO]: Welches Jahr in Juni? 1917, ...?</note> мне вдруг стало очень плохо: в результате
                <milestone unit="line" facs="#facs_48_l_18" n="N002"/>лечения пневматораксом у меня начался гнойный плеврит, температура
                <milestone unit="line" facs="#facs_48_l_19" n="N003"/>поднялась и доктору пришлось, в конце концов, вставить мне в спину
                <milestone unit="line" facs="#facs_48_l_20" n="N004"/>довольно толстую серебрянную трубочку для того, чтобы гной мо&amp;lt;г&amp;gt; выте<milestone unit="line" facs="#facs_48_l_21" n="N005"/><damage type="punchhole">кать</damage> из легкого. Это было ужасно больно, я сильно мучилась, не спала
