@@ -2765,6 +2765,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261125222750921",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-25T21:27:50.921Z",
+	"dcterms:modified": "2026-11-25T21:27:50.921Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/rtwlk",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "rtwlk"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261125222750921#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_006.xml?person_annotation_20261125222750921#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[33]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
    <text>
       <body>
@@ -2931,7 +3011,7 @@
          <p facs="#facs_131_r_6" xml:lang="ru" xml:id="p0414-ru">Позавчера вечером я была в очень хорошем настроении и все пела какую <milestone unit="line" facs="#facs_131_l_5" n="N002"/>то сочиненную мною песенку о том, как я люблю моего маленького друга. <milestone unit="line" facs="#facs_131_l_6" n="N003"/>Это был скорее речитатив, но на утро я совершенно забыла и слова и мо<milestone unit="line" facs="#facs_131_l_7" n="N004"/>тив. У меня что-то пело в душе, и было так весело, что я смеялась сама с <milestone unit="line" facs="#facs_131_l_8" n="N005"/> <del rend="strikethrough">собой</del> &amp;lt;собой&amp;gt;. Ведь вот, какая я чудная с чего бы мне радоваться? кажется, не с <milestone unit="line" facs="#facs_131_l_10" n="N006"/>чего.</p>
          <p facs="#facs_131_r_6" xml:lang="de" corresp="#p0414-ru">Vorgestern Abend war ich in sehr guter Stimmung und sang immerzu ein von mir erdachtes Liedchen davon, wie ich meinen kleinen Freund liebe. Es war eher ein Rezitativ, aber am nächsten Morgen hatte ich Worte und Melodie völlig vergessen. Etwas sang in meiner Seele, und es war so fröhlich, dass ich über mich selbst lachte. Da sieht man, wie wunderlich ich bin, weshalb sollte ich mich freuen? Scheint es doch, ich habe keinen Grund. </p>
          <p facs="#facs_131_r_5" xml:lang="ru" xml:id="p0415-ru">
-            <milestone unit="line" facs="#facs_131_l_39" n="N001"/>И мне приснилось, будто голова его лежит у меня на груди, и я перебираю,
+            <milestone unit="line" facs="#facs_131_l_39" n="N001"/>И мне приснилось, будто голова <persName key="его" ref="https://danina.digitaleditions.ch/id/danina_p013" cert="high">его</persName> лежит у меня на груди, и я перебираю,
                <milestone unit="line" facs="#facs_131_l_40" n="N002"/>правой рукой его волны, слегка касаясь их пальцами. Я чувствовала это
                <milestone unit="line" facs="#facs_131_l_41" n="N003"/>так, как если бы это было на самом деле, и я ясно ощущала: ему хорошо,
                <milestone unit="line" facs="#facs_131_l_42" n="N004"/>он был, как утихшее после долгого плача дитя.
