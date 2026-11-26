@@ -3313,12 +3313,91 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_011.xml?person_annotation_20261126104415031#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[61]/persName[2]"
+			"rdf:value": "TEI/text/body/p[61]/persName[3]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
 		"@id": "https://danina.digitaleditions.ch/id/danina_p024",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_011.xml?person_annotation_20261126104906270",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-26T09:49:06.270Z",
+	"dcterms:modified": "2026-11-26T09:49:06.270Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/amariamor",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Anna-Maria Morath"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_011.xml?person_annotation_20261126104906270#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_011.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group3/div-13_011.xml?person_annotation_20261126104906270#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[61]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://danina.digitaleditions.ch/id/danina_p019",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -3912,7 +3991,7 @@
             </p>
          <p facs="#facs_169_r_4" xml:lang="ru" xml:id="p0553-ru">
             <milestone unit="line" facs="#facs_169_l_10" n="N001"/>Кондратьевна добрая. Кроме того она называет <persName key="Танечку" ref="https://danina.digitaleditions.ch/id/danina_p001">Танечку</persName> барышней-кра<milestone unit="line" facs="#facs_169_l_11" n="N002"/>савицей и „умницей“, и это Танечке очень нравится. Плохо у Кондратьевны,
-               <milestone unit="line" facs="#facs_169_l_12" n="N003"/>лишь то, что муж ее, старый садовник „Василиванч“ очень больной и ворчит,
+               <milestone unit="line" facs="#facs_169_l_12" n="N003"/>лишь то, что муж ее, старый садовник „<persName key="Василиванч" ref="https://danina.digitaleditions.ch/id/danina_p019">Василиванч</persName>“ очень больной и ворчит,
                <milestone unit="line" facs="#facs_169_l_13" n="N004"/>и <persName key="Олечка" ref="https://danina.digitaleditions.ch/id/danina_p024">Олечка</persName> его боится.
             </p>
          <p facs="#facs_169_r_4" xml:lang="de" corresp="#p0553-ru">{TRANSLATION GOES HERE}
