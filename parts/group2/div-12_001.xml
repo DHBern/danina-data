@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -2513,7 +2510,6 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261116204110342",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-16T19:41:10.342Z",
-	"dcterms:modified": "2026-11-16T19:41:10.342Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -2540,7 +2536,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261116204110342#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[31]/note"
+			"rdf:value": "TEI/text/body/p[31]/note[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -3891,7 +3887,6 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?person_annotation_20261122192237209",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-22T18:22:37.209Z",
-	"dcterms:modified": "2026-11-22T18:22:37.209Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -3917,20 +3912,8 @@
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?person_annotation_20261122192237209#Selector",
-			"@type": "oa:RangeSelector",
-			"oa:hasStartSelector": {
-				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/p[51]"
-			},
-			"oa:hasEndSelector": {
-				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/p[51]/note"
-			},
-			"oa:refinedBy": {
-				"@type": "oa:TextPositionSelector",
-				"oa:start": 876,
-				"oa:end": 0
-			}
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[51]/note/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -3946,6 +3929,164 @@
 		"schema:softwareVersion": "4.3.2"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261126101435373",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-26T09:14:35.373Z",
+	"dcterms:modified": "2026-11-26T09:14:35.373Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/seraphineirina",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Seraphine Schindler"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261126101435373#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261126101435373#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[31]/note[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": ""
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261126101450208",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-26T09:14:50.208Z",
+	"dcterms:modified": "2026-11-26T09:14:50.208Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/seraphineirina",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Seraphine Schindler"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261126101450208#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261126101450208#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[31]/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Note",
+		"dc:format": "text/plain",
+		"rdf:value": ""
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
@@ -4437,7 +4578,7 @@
                <milestone unit="line" facs="#facs_78_l_8" n="N007"/>курсы? – «мне нельзя, у меня чахотка».
             </p>
          <p facs="#facs_78_r_4" xml:lang="ru" xml:id="p0233-ru">
-            <milestone unit="line" facs="#facs_78_l_25" n="N001"/>Теперь я научилась быть радостной, счастливой и тем, что у меня
+            <note/><note/><milestone unit="line" facs="#facs_78_l_25" n="N001"/>Теперь я научилась быть радостной, счастливой и тем, что у меня
                <milestone unit="line" facs="#facs_78_l_26" n="N002"/>есть, и не стараться «отравить чужую радость своим горем и истерзать
                <milestone unit="line" facs="#facs_78_l_27" n="N003"/>других своего скорбью&amp;lt;»&amp;gt;. А также, мне кажется, я могу теперь «все, что
                <milestone unit="line" facs="#facs_78_l_28" n="N004"/>ни случится со мною, обратить себе в добро». Обо всем этом <persName key="Оскар" ref="https://danina.digitaleditions.ch/id/danina_p100">Оскар</persName>
@@ -4684,7 +4825,7 @@
                <milestone unit="line" facs="#facs_82_l_33" n="N004"/>состоянием, и в дневнике у меня не раз вырывается крик о том, что
                <milestone unit="line" facs="#facs_82_l_34" n="N005"/>я должна что-то сделать. Но в конце концов я ударилась в крайний
                <milestone unit="line" facs="#facs_82_l_35" n="N006"/>индивидуализм; все мысли мои сосредоточились на моем «я», на ана<milestone unit="line" facs="#facs_82_l_36" n="N007"/>лизe моих внутренних переживаний, а до всего остального света мне
-               <milestone unit="line" facs="#facs_82_l_37" n="N008"/>не было дела. Кроме того, я увлекалась Брандовским<note type="researchNote">[TODO]: Brandovski schwer identifizierbar...</note>: «все или ничего.»
+               <milestone unit="line" facs="#facs_82_l_37" n="N008"/>не было дела. Кроме того, я увлекалась Брандовским<note type="researchNote"><persName/>[TODO]: Brandovski schwer identifizierbar...</note>: «все или ничего.»
                <milestone unit="line" facs="#facs_82_l_38" n="N009"/>И раз убедившись, что «все» для меня невозможно, я решила, что на мою
                <milestone unit="line" facs="#facs_82_l_39" n="N010"/>долю выпало «ничего», т.е. что мне остается ждать смерти и жить
                <milestone unit="line" facs="#facs_82_l_40" n="N011"/>как-нибудь, изо-дня в день. У меня создалось настроение Андреевских<note type="researchNote">[TODO]: Die Autorin meint hier den russischen Schriftsteller Leonid Nikolaevič Andreev.</note> героев.
