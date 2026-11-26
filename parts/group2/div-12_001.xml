@@ -2431,85 +2431,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261116203846897",
-	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-16T19:38:46.897Z",
-	"dcterms:modified": "2026-11-16T19:38:46.897Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/rtwlk",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "rtwlk"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261116203846897#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "4.3.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261116203846897#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[27]/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NoteInternal",
-		"dc:format": "text/plain",
-		"rdf:value": "[Frage]: Entitäten erneut taggen, wenn der Absatz über zwei Seiten verläuft?"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "4.3.2"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261116204110342",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-16T19:41:10.342Z",
@@ -5026,7 +4947,7 @@
                <milestone unit="line" facs="#facs_78_l_35" n="N004"/>хотелось бы стать лучшей ради него и быть достойной его любви. Ка<milestone unit="line" facs="#facs_78_l_36" n="N005"/>жется, что <persName key="Женю" ref="https://danina.digitaleditions.ch/id/danina_p005" cert="high">Женю</persName> я любила не так хорошо, ради него мне хотелось быть
                <milestone unit="line" facs="#facs_78_l_37" n="N006"/>красивее, а не лучше.
             
-            <note type="researchNote">[Frage]: Entitäten erneut taggen, wenn der Absatz über zwei Seiten verläuft?</note></p>
+            </p>
          <p facs="#facs_77_r_4" xml:lang="de" corresp="#p0231-ru">{TRANSLATION GOES HERE}
                <milestone unit="line" facs="#facs_77_l_11" n="N001"/>Когда Женя перестал писать мне, я страдала безмерно, но как-то
                <milestone unit="line" facs="#facs_77_l_12" n="N002"/>молча и покорно. Я ждала от него письма, ждала долго и упорно, жда<milestone unit="line" facs="#facs_77_l_13" n="N003"/>лa и тогда, когда стало совершенно очевидно, что он мне никогда больше
