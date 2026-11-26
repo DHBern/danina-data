@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="https://raw.githubusercontent.com/DHBern/danina-data/refs/heads/main/custom/danina.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -4155,7 +4158,7 @@
 </bibl>
 </bibl></note>
                <milestone unit="line" facs="#facs_71_l_8" n="N007"/>(<choice>
-               <corr><orgName key="Maeterlinck" ref="https://danina.digitaleditions.ch/id/danina_p114">Maeterlinck</orgName></corr><sic> </sic></choice>"<title key="La sagesse et la destinée" ref="https://danina.digitaleditions.ch/id/danina_w016">La sagesse et la destinée</title>)</ab>
+               <corr>Maeterlinck</corr><sic> </sic></choice>"<title key="La sagesse et la destinée" ref="https://danina.digitaleditions.ch/id/danina_w016">La sagesse et la destinée</title>)</ab>
          <p facs="#facs_72_r_1" ana="dated_entry_header" xml:id="d0010-ru">
             <milestone unit="line" facs="#facs_72_l_3" n="N001"/>
             <emph rend="underlined"><date when="1918-02-26" cert="high">26 февраля 1918 года</date></emph>. 5 ч. утра.
