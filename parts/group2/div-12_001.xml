@@ -2909,85 +2909,6 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261116210339403",
-	"type": "oa:Annotation",
-	"dcterms:created": "2026-11-16T20:03:39.403Z",
-	"dcterms:modified": "2026-11-16T20:03:39.403Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/rtwlk",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "rtwlk"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261116210339403#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "4.3.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?note_annotation_20261116210339403#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[51]/persName/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NoteInternal",
-		"dc:format": "text/plain",
-		"rdf:value": "[TODO]: Die Autorin meint hier den russischen Schriftsteller Leonid Nikolaevič Andreev."
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "4.3.2"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?person_annotation_20261116210546488",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-16T20:05:46.488Z",
@@ -4465,7 +4386,6 @@
 	"id": "https://raw.githubusercontent.com/DHBern/danina-data/main/parts/group2/div-12_001.xml?person_annotation_20261126121231663",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-26T11:12:31.663Z",
-	"dcterms:modified": "2026-11-26T11:12:31.663Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/rtwlk",
 		"@type": [
@@ -4494,16 +4414,16 @@
 			"@type": "oa:RangeSelector",
 			"oa:hasStartSelector": {
 				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/p[55]/title"
+				"rdf:value": "TEI/text/body/p[55]/title/title"
 			},
 			"oa:hasEndSelector": {
 				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/p[55]"
+				"rdf:value": "TEI/text/body/p[55]/title"
 			},
 			"oa:refinedBy": {
 				"@type": "oa:TextPositionSelector",
-				"oa:start": 26,
-				"oa:end": 653
+				"oa:start": 24,
+				"oa:end": 36
 			}
 		}
 	},
@@ -5341,7 +5261,7 @@
                <milestone unit="line" facs="#facs_82_l_37" n="N008"/>не было дела. Кроме того, я увлекалась Брандовским<note type="researchNote">[TODO]: Brandovski schwer identifizierbar...</note>: «все или ничего.»
                <milestone unit="line" facs="#facs_82_l_38" n="N009"/>И раз убедившись, что «все» для меня невозможно, я решила, что на мою
                <milestone unit="line" facs="#facs_82_l_39" n="N010"/>долю выпало «ничего», т.е. что мне остается ждать смерти и жить
-               <milestone unit="line" facs="#facs_82_l_40" n="N011"/>как-нибудь, изо-дня в день. У меня создалось настроение <persName key="Андреевских[TODO]: Die Autorin meint hier den russischen Schriftsteller Leonid Nikolaevič Andreev." ref="https://danina.digitaleditions.ch/id/danina_p112" cert="high">Андреевских<note type="researchNote">[TODO]: Die Autorin meint hier den russischen Schriftsteller Leonid Nikolaevič Andreev.</note></persName> героев.
+               <milestone unit="line" facs="#facs_82_l_40" n="N011"/>как-нибудь, изо-дня в день. У меня создалось настроение <persName key="Андреевских" ref="https://danina.digitaleditions.ch/id/danina_p112" cert="high">Андреевских</persName>героев.
                <milestone unit="line" facs="#facs_82_l_41" n="N012"/>В одном месте дневника я пишу: «я чувствую себя слабой и как
                <milestone unit="line" facs="#facs_82_l_42" n="N013"/>будто связанной чемто, иногда мне хочется освободиться от этого со<milestone unit="line" facs="#facs_82_l_43" n="N014"/>стояния, закричать громко, рвать руками. Но это остается только
                <milestone unit="line" facs="#facs_82_l_44" n="N015"/>одним желанием. Для меня характерно то, что я сильно желаю, но
